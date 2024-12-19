@@ -1,0 +1,12 @@
+E:\BLMOD\LOTRLOME\bin\x64\Debug\net6\LOTRLOME.deps.json
+E:\BLMOD\LOTRLOME\bin\x64\Debug\net6\LOTRLOME.dll
+E:\BLMOD\LOTRLOME\bin\x64\Debug\net6\LOTRLOME.pdb
+E:\BLMOD\LOTRLOME\obj\x64\Debug\net6\LOTRLOME.csproj.AssemblyReference.cache
+E:\BLMOD\LOTRLOME\obj\x64\Debug\net6\LOTRLOME.GeneratedMSBuildEditorConfig.editorconfig
+E:\BLMOD\LOTRLOME\obj\x64\Debug\net6\LOTRLOME.AssemblyInfoInputs.cache
+E:\BLMOD\LOTRLOME\obj\x64\Debug\net6\LOTRLOME.AssemblyInfo.cs
+E:\BLMOD\LOTRLOME\obj\x64\Debug\net6\LOTRLOME.csproj.CoreCompileInputs.cache
+E:\BLMOD\LOTRLOME\obj\x64\Debug\net6\LOTRLOME.dll
+E:\BLMOD\LOTRLOME\obj\x64\Debug\net6\refint\LOTRLOME.dll
+E:\BLMOD\LOTRLOME\obj\x64\Debug\net6\LOTRLOME.pdb
+E:\BLMOD\LOTRLOME\obj\x64\Debug\net6\ref\LOTRLOME.dll

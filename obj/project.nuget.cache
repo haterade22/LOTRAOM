@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "HE7uWRA0fqg=",
+  "success": true,
+  "projectFilePath": "E:\\BLMOD\\LOTRLOME\\LOTRLOME.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mikew\\.nuget\\packages\\bannerlord.buildresources\\1.1.0.104\\bannerlord.buildresources.1.1.0.104.nupkg.sha512",
+    "C:\\Users\\mikew\\.nuget\\packages\\butr.harmony.analyzer\\1.0.1.50\\butr.harmony.analyzer.1.0.1.50.nupkg.sha512",
+    "C:\\Users\\mikew\\.nuget\\packages\\harmony.extensions\\3.2.0.77\\harmony.extensions.3.2.0.77.nupkg.sha512",
+    "C:\\Users\\mikew\\.nuget\\packages\\isexternalinit\\1.0.3\\isexternalinit.1.0.3.nupkg.sha512",
+    "C:\\Users\\mikew\\.nuget\\packages\\lib.harmony\\2.3.3\\lib.harmony.2.3.3.nupkg.sha512",
+    "C:\\Users\\mikew\\.nuget\\packages\\nullable\\1.3.1\\nullable.1.3.1.nupkg.sha512",
+    "C:\\Users\\mikew\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\mikew\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\mikew\\.nuget\\packages\\system.text.json\\6.0.9\\system.text.json.6.0.9.nupkg.sha512",
+    "C:\\Users\\mikew\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\mikew\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\mikew\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

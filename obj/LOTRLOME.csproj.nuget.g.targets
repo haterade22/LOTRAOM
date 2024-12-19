@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(TargetFramework)' == '' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)bannerlord.buildresources\1.1.0.104\buildMultiTargeting\Bannerlord.BuildResources.targets" Condition="Exists('$(NuGetPackageRoot)bannerlord.buildresources\1.1.0.104\buildMultiTargeting\Bannerlord.BuildResources.targets')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net472' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)bannerlord.buildresources\1.1.0.104\build\Bannerlord.BuildResources.targets" Condition="Exists('$(NuGetPackageRoot)bannerlord.buildresources\1.1.0.104\build\Bannerlord.BuildResources.targets')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net6' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)bannerlord.buildresources\1.1.0.104\build\Bannerlord.BuildResources.targets" Condition="Exists('$(NuGetPackageRoot)bannerlord.buildresources\1.1.0.104\build\Bannerlord.BuildResources.targets')" />
+  </ImportGroup>
+</Project>
