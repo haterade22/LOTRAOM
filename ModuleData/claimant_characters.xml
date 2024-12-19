@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!--Aserai-->
+	<NPCCharacter
+		id="claimant_aserai"
+		name="{=*}Aqir"
+		age="33"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="false"
+		culture="Culture.aserai"
+		occupation="Special"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="32"
+				weight="0.6947"
+				build="0.4352"
+				key="001BC80FC000100DBA756445533377873CD1833B3101B44A21C3C5347CA32C260067A60306BC35E8000000000000000000000000000000000000000036D41002" />
+		</face>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="6" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="ase_bat_template_medium" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!--Aserai-->
+	<!--Khuzait-->
+	<NPCCharacter
+		id="claimant_khuzait"
+		name="{=*}Chana"
+		age="25"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.khuzait"
+		occupation="Special"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22.19"
+				weight="0.5134"
+				build="0.6677"
+				key="000AF80E40002005B8708BD6CDC85229D3698B3ABDFE344CD22D3DD538898868005A86030596723B00000000000000000000000000000000000000004EBC1003" />
+		</face>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="6" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!--Khuzait-->
+	<!--Vlandia-->
+	<NPCCharacter
+		id="claimant_vlandia"
+		name="{=*}Berenin"
+		age="25"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="false"
+		culture="Culture.vlandia"
+		occupation="Special"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="26"
+				weight="0.7588"
+				build="0.2646"
+				key="0013340A40E422CD2A7B877823271864C3B68E7B5A875F7C887BA9758CA5D38B0054B603054368A4000000000000000000000000000000000000000032AC1042" />
+		</face>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="6" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="claimant_vlandia_hervard"
+		name="{=*}Hervard Hardskull"
+		age="25"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="false"
+		is_female="false"
+		culture="Culture.vlandia"
+		occupation="Special"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22.19"
+				weight="0.5993"
+				build="0.6123"
+				key="00021409801428835CCE9C67694599A56978A5484E77517659BA646598A98A760049960304E68875000000000000000000000000000000000000000046940102" />
+		</face>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="6" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!--Vlandia-->
+	<!--Sturgia-->
+	<NPCCharacter
+		id="claimant_sturgia"
+		name="{=*}Aliky"
+		age="28"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="false"
+		culture="Culture.sturgia"
+		occupation="Special"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22.19"
+				weight="0.7308"
+				build="0.4948"
+				key="0002000000000382797664884754DCBAA35E866295A0967774414A498C8336860087B60308A7B7A500000000000000000000000000000000000000002F0C2002" />
+		</face>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="6" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_medium" />
+			<EquipmentSet
+				id="stu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!--Sturgia-->
+	<!--Battania-->
+	<NPCCharacter
+		id="claimant_battania"
+		name="{=*}Gwendian"
+		age="25"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.battania"
+		occupation="Special"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22.19"
+				weight="0.4936"
+				build="0.6894"
+				key="000500054000200A79766434475CDCBAC34E866255A096777441DA49838BF6A500BA76030BA7B7A500000000000000000000000000000000000000000F740003" />
+		</face>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="6" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bat_bat_template_medium" />
+			<EquipmentSet
+				id="bat_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!--Battania-->
+</NPCCharacters>

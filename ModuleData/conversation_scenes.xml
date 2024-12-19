@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConversationScenes>
+	<Scene
+		id="conversation_scene_desert"
+		terrain="Desert"></Scene>
+	<Scene
+		id="conversation_scene_steppe"
+		terrain="Steppe"></Scene>
+	<Scene
+		id="conversation_scene_forest"
+		terrain="Plain"
+		forest_density="low"></Scene>
+	<Scene
+		id="conversation_scene_green_valley"
+		terrain="Plain"
+		forest_density="low"></Scene>
+</ConversationScenes>

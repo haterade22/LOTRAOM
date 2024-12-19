@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter
+		id="guard_empire"
+		default_group="Infantry"
+		level="21"
+		occupation="Soldier"
+		culture="Culture.empire"
+		name="{=guardnoun}Guard"
+		skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills"
+		is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<skills>
+			<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="50" />
+			<skill
+				id="Bow"
+				value="50" />
+			<skill
+				id="Throwing"
+				value="50" />
+		</skills>
+		<Traits></Traits>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.imperial_spear_t2" />
+				<equipment
+					slot="Head"
+					id="Item.ironlame_spiked_kettle_over_mail" />
+				<equipment
+					slot="Body"
+					id="Item.legionary_mail" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.studded_imperial_neckguard" />
+				<equipment
+					slot="Gloves"
+					id="Item.lordly_padded_mitten" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.imperial_spear_t2" />
+				<equipment
+					slot="Head"
+					id="Item.leatherlame_roundkettle" />
+				<equipment
+					slot="Body"
+					id="Item.padded_cloth_with_strips" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.padded_mitten" />
+				<equipment
+					slot="Cape"
+					id="Item.empire_warrior_padded_armor_shoulder" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.imperial_spear_t2" />
+				<equipment
+					slot="Head"
+					id="Item.leatherlame_nasalhelm_over_imperial_leather" />
+				<equipment
+					slot="Cape"
+					id="Item.empire_warrior_padded_armor_shoulder" />
+				<equipment
+					slot="Body"
+					id="Item.empire_warrior_padded_armor_g" />
+				<equipment
+					slot="Leg"
+					id="Item.eastern_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="guard_aserai"
+		default_group="Infantry"
+		level="21"
+		occupation="Soldier"
+		culture="Culture.aserai"
+		name="{=guardnoun}Guard"
+		skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills"
+		is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+		</face>
+		<skills>
+			<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="50" />
+			<skill
+				id="Bow"
+				value="50" />
+			<skill
+				id="Throwing"
+				value="50" />
+		</skills>
+		<Traits></Traits>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.eastern_spear_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.emirs_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.southern_lamellar_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.eastern_spear_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.emirs_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_archer_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.mail_chausses" />
+				<equipment
+					slot="Gloves"
+					id="Item.leather_gloves" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.eastern_spear_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.desert_mail_coif" />
+				<equipment
+					slot="Body"
+					id="Item.southern_lamellar_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_mail_chausses" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="guard_sturgia"
+		default_group="Infantry"
+		level="4"
+		occupation="Soldier"
+		culture="Culture.sturgia"
+		name="{=guardnoun}Guard"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+		is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_sturgia" />
+		</face>
+		<skills>
+			<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="50" />
+			<skill
+				id="Bow"
+				value="50" />
+			<skill
+				id="Throwing"
+				value="50" />
+		</skills>
+		<Traits></Traits>
+		<!---<equipment slot="Leg" id="Item.cape" />-->
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item1"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.sturgia_heavy_cavalary_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.nordic_hauberk" />
+				<equipment
+					slot="Leg"
+					id="Item.plated_strip_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.plated_strip_gauntlets" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item1"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.sturgia_heavy_cavalary_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.decorated_nordic_hauberk" />
+				<equipment
+					slot="Leg"
+					id="Item.plated_strip_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.plated_strip_gauntlets" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_sturgia" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="guard_vlandia"
+		default_group="Infantry"
+		level="4"
+		occupation="Soldier"
+		culture="Culture.vlandia"
+		name="{=guardnoun}Guard"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+		is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<skills>
+			<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="50" />
+			<skill
+				id="Bow"
+				value="50" />
+			<skill
+				id="Throwing"
+				value="50" />
+		</skills>
+		<Traits></Traits>
+		<!---<equipment slot="Leg" id="Item.cape" />-->
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item1"
+					id="Item.billhook_polearm_t2" />
+				<equipment
+					slot="Head"
+					id="Item.kettle_helmet_with_leather" />
+				<equipment
+					slot="Body"
+					id="Item.mail_shirt" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item1"
+					id="Item.billhook_polearm_t2" />
+				<equipment
+					slot="Head"
+					id="Item.kettle_helmet_with_leather" />
+				<equipment
+					slot="Body"
+					id="Item.white_coat_over_mail" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="guard_battania"
+		default_group="Infantry"
+		level="4"
+		occupation="Soldier"
+		culture="Culture.battania"
+		name="{=guardnoun}Guard"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+		is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_battania" />
+		</face>
+		<skills>
+			<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="50" />
+			<skill
+				id="Bow"
+				value="50" />
+			<skill
+				id="Throwing"
+				value="50" />
+		</skills>
+		<Traits></Traits>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.highland_riders_shield" />
+				<equipment
+					slot="Body"
+					id="Item.battania_noble_armor" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_boots" />
+				<equipment
+					slot="Head"
+					id="Item.leather_studdedhelm_over_roughscale" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_shoulder_furr" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Body"
+					id="Item.ranger_mail" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_shoulder_strap_cloak" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_battania" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="guard_khuzait"
+		default_group="Infantry"
+		level="4"
+		occupation="Soldier"
+		culture="Culture.khuzait"
+		name="{=guardnoun}Guard"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+		is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_khuzait" />
+		</face>
+		<skills>
+			<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="50" />
+			<skill
+				id="Bow"
+				value="50" />
+			<skill
+				id="Throwing"
+				value="50" />
+		</skills>
+		<Traits></Traits>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item1"
+					id="Item.eastern_spear_3_t3" />
+				<equipment
+					slot="Body"
+					id="Item.leather_lamellar_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.plumed_nomad_helmet" />
+				<equipment
+					slot="Cape"
+					id="Item.leather_lamellar_shoulders" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item1"
+					id="Item.eastern_spear_3_t3" />
+				<equipment
+					slot="Body"
+					id="Item.eastern_stitched_leather_coat" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.eastern_studded_shoulders" />
+				<equipment
+					slot="Head"
+					id="Item.plumed_nomad_helmet" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_khuzait" />
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

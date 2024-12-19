@@ -1,0 +1,801 @@
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+<!-- Uruk Weapons -->
+
+<!-- Ranged -->
+  
+  <Item id="u_crossbow_1"
+        name="Uruk Hai Heavy Crossbow"
+        is_merchandise="false"
+        body_name="bo_cross_bow_heavy"
+        mesh="xbowuruk"
+        culture="Culture.vlandia"
+        value="4"
+        weight="2.7"
+        Type="Crossbow"
+        AmmoOffset="0.0, 0.02131, 0.24675"
+        item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+        holster_position_shift="0.02,0,-0.4">
+    <ItemComponent>
+      <Weapon
+				weapon_class="Crossbow"
+				ammo_class="Bolt"
+				missile_speed="87"
+				accuracy="98"
+				thrust_damage="89"
+				thrust_speed="78"
+				speed_rating="60"
+				weapon_length="95"
+				ammo_limit="1"
+				thrust_damage_type="Pierce"
+				item_usage="crossbow"
+				reload_phase_count="2"
+				physics_material="wood_weapon"
+				center_of_mass="0,0,0.4"
+				modifier_group="crossbow">
+				<WeaponFlags
+					RangedWeapon="true"
+					HasString="true"
+					CantReloadOnHorseback="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"/>
+			</Weapon>
+    </ItemComponent>
+    <Flags
+			QuickFadeOut="true"/>
+  </Item>
+
+<Item
+		id="uruk_bolts"
+		name="Bolt"
+		body_name="bo_capsule_arrow"
+		holster_body_name="bo_axe_short"
+		mesh="bolt_bl_c"
+		value="1"
+		is_merchandise="false"
+		holster_mesh="bolt_bl_e_quiver"
+		holster_mesh_with_weapon="bolt_bl_e_quiver"
+		flying_mesh="bolt_bl_flying"
+		weight="0.05"
+		appearance="1"
+		Type="Bolts"
+		item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bolt"
+				stack_amount="35"
+				thrust_speed="10"
+				thrust_damage_type="Pierce"
+				thrust_damage="15"
+				speed_rating="0"
+				missile_speed="30"
+				weapon_length="37"
+				item_usage=""
+				passby_sound_code="event:/mission/combat/missile/passby"
+				rotation="180, 0, 0"
+				physics_material="missile"
+				sticking_position="0,-0.37,0"
+				sticking_rotation="90,0,0"
+				center_of_mass="0,0,-0.1"
+				modifier_group="bolt">
+				<WeaponFlags
+					AttachAmmoToVisual="true"
+					Consumable="true"
+					AmmoSticksWhenShot="true"
+					AmmoBreaksOnBounceBack="true"
+          MultiplePenetration="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+      QuickFadeOut="true" />
+	</Item>
+
+
+
+<CraftedItem id="uruk_pike_polearm"
+               name="Uruk Hai Pike"
+               crafting_template="uruk_Pike"
+               is_merchandise="false"
+               culture="Culture.vlandia">
+    <Pieces>
+      <Piece id="uruk_blade_pike" Type="Blade" scale_factor="130" />
+      <Piece id="uruk_handle_pike" Type="Handle" scale_factor="130" />
+      
+    </Pieces>
+  </CraftedItem>
+ 
+
+<!-- Swords -->
+ 
+  <CraftedItem id="uruk_sword"
+               name="Uruk Hai Sword"
+               crafting_template="u_onehanded"
+               is_merchandise="false"
+               culture="Culture.vlandia">
+      <Pieces>
+      <Piece id="uruk_blade_1" Type="Blade" scale_factor="100" />
+      <Piece id="uruk_handle_1" Type="Handle" scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+
+
+    <CraftedItem id="uruk_cleaver"
+               name="Uruk Hai Cleaver"
+               crafting_template="u_onehanded"
+               is_merchandise="false"
+               culture="Culture.vlandia">
+      <Pieces>
+      <Piece id="uruk_blade_2" Type="Blade" scale_factor="100" />
+      <Piece id="uruk_handle_2" Type="Handle" scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  
+  <!-- Polearms -->
+
+
+  <CraftedItem id="uruk_sword_3"
+               name="Uruk Hai Berserker Cleaver"
+               crafting_template="uruk_TwoHandedSword"
+               is_merchandise="false"
+               culture="Culture.vlandia">
+     <Pieces>
+      <Piece id="uruk_berserker_blade" Type="Blade" scale_factor="90" />
+      <Piece id="uruk_berserker_handle" Type="Handle" scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+
+
+
+<Item id="utorch"
+        name="Torch"
+        is_merchandise="false"
+        body_name="bo_mace_a"
+        recalculate_body="true"
+        mesh="torch_g"
+        prefab="torch_a_wm_only_flame2"
+        culture="Culture.empire"
+        value="4"
+        weight="0.2"
+        Type="OneHandedWeapon"
+        item_holsters="abdomen_left">
+    <ItemComponent>
+      <Weapon weapon_class="OneHandedAxe"
+              weapon_balance="100"
+              thrust_speed="78"
+              speed_rating="97"
+              missile_speed="0"
+              weapon_length="65"
+              swing_damage="6"
+              swing_damage_type="Blunt"
+              item_usage="torch"
+              physics_material="metal_weapon">
+        <WeaponFlags MeleeWeapon="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags DropOnWeaponChange="true"
+           ForceAttachOffHandPrimaryItemBone="true"
+           HeldInOffHand="true"
+           HasToBeHeldUp="true" />
+  </Item>
+	
+	<Item id="uruk_shoulder_1"
+			name="Uruk-Hai Shoulder Plate (NAKED)"
+			mesh=""
+			culture="Culture.empire"
+			weight="1.5"
+			appearance="1"
+			Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="13"
+				   arm_armor="5"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+
+	<Item id="uruk_shoulder_1_1"
+		 name="Uruk-Hai Shoulder Plate"
+		 mesh=""
+		 culture="Culture.empire"
+		 weight="1.5"
+		 appearance="1"
+		 Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="13"
+				   arm_armor="5"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item
+			id="uruk_shield_1"
+			name="Uruk Hai White Hand Shield"
+			body_name="bo_cap_uruk_shield_var1"
+			shield_body_name="bo_uruk_shield_var1"
+			recalculate_body="false"
+			mesh="uruk_shield_var1"
+			culture="Culture.neutral_culture"
+			using_tableau="true"
+			weight="2.1"
+			appearance="0.7"
+			Type="Shield"
+			item_holsters="shield_oval:shield_4:shield_3:shield_2"
+			has_lower_holster_priority="true"
+			holster_position_shift="0,0,0">
+		<ItemComponent>
+			<Weapon
+				weapon_class="LargeShield"
+				body_armor="1"
+				thrust_speed="82"
+				thrust_damage="5"
+				thrust_damage_type="Blunt"
+				speed_rating="50"
+				physics_material="metal_shield_nostick"
+				item_usage="hand_shield"
+				position="0.05, -0.05, 0.0"
+				rotation="0.0,-90,0"
+				weapon_length="20"
+				center_of_mass="0, 0, 0.1"
+				hit_points="100"
+				modifier_group="shield">
+				<WeaponFlags
+					CanBlockRanged="true"
+					HasHitPoints="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			WoodenParry="true"
+			ForceAttachOffHandPrimaryItemBone="true"
+			HeldInOffHand="true"
+			QuickFadeOut="true"/>
+	</Item>
+
+	<Item
+			id="uruk_shield_2"
+			name="Uruk Hai White Hand Shield 2"
+			body_name="bo_cap_uruk_shield_var2"
+			shield_body_name="bo_uruk_shield_var2"
+			recalculate_body="false"
+			mesh="uruk_shield_var2"
+			culture="Culture.neutral_culture"
+			using_tableau="true"
+			weight="2.1"
+			difficulty="0"
+			appearance="0.7"
+			Type="Shield"
+			item_holsters="shield_oval:shield_4:shield_3:shield_2"
+			has_lower_holster_priority="true"
+			holster_position_shift="0,0,0">
+		<ItemComponent>
+			<Weapon
+				weapon_class="LargeShield"
+				body_armor="1"
+				thrust_speed="82"
+				thrust_damage="5"
+				thrust_damage_type="Blunt"
+				speed_rating="50"
+				physics_material="metal_shield_nostick"
+				item_usage="hand_shield"
+				position="0.05, -0.05, 0.0"
+				rotation="0.0,-90,0"
+				weapon_length="20"
+				center_of_mass="0, 0, 0.1"
+				hit_points="100"
+				modifier_group="shield">
+				<WeaponFlags
+					CanBlockRanged="true"
+					HasHitPoints="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			WoodenParry="true"
+			ForceAttachOffHandPrimaryItemBone="true"
+			HeldInOffHand="true"
+			QuickFadeOut="true"/>
+	</Item>
+
+	<Item
+			id="uruk_shield_3"
+			name="Uruk Hai White Hand Shield 3"
+			body_name="bo_cap_uruk_shield_var3"
+			shield_body_name="bo_uruk_shield_var3"
+			recalculate_body="false"
+			mesh="uruk_shield_var3"
+			culture="Culture.neutral_culture"
+			using_tableau="true"
+			weight="2.1"
+			difficulty="0"
+			appearance="0.7"
+			Type="Shield"
+			item_holsters="shield_oval:shield_4:shield_3:shield_2"
+			has_lower_holster_priority="true"
+			holster_position_shift="0,0,0">
+		<ItemComponent>
+			<Weapon
+				weapon_class="LargeShield"
+				body_armor="1"
+				thrust_speed="82"
+				thrust_damage="5"
+				thrust_damage_type="Blunt"
+				speed_rating="50"
+				physics_material="metal_shield_nostick"
+				item_usage="hand_shield"
+				position="0.05, -0.05, 0.0"
+				rotation="0.0,-90,0"
+				weapon_length="20"
+				center_of_mass="0, 0, 0.1"
+				hit_points="100"
+				modifier_group="shield">
+				<WeaponFlags
+					CanBlockRanged="true"
+					HasHitPoints="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			WoodenParry="true"
+			ForceAttachOffHandPrimaryItemBone="true"
+			HeldInOffHand="true"
+			QuickFadeOut="true"/>
+	</Item>
+
+
+	<Item
+			id="uruk_shield_4"
+			name="Uruk Hai White Hand Shield 4"
+			body_name="bo_cap_uruk_shield_var4"
+			shield_body_name="bo_uruk_shield_var4"
+			recalculate_body="false"
+			mesh="uruk_shield_var4"
+			culture="Culture.neutral_culture"
+			using_tableau="true"
+			weight="2.1"
+			difficulty="0"
+			appearance="0.7"
+			Type="Shield"
+			item_holsters="shield_oval:shield_4:shield_3:shield_2"
+			has_lower_holster_priority="true"
+			holster_position_shift="0,0,0">
+		<ItemComponent>
+			<Weapon
+				weapon_class="LargeShield"
+				body_armor="1"
+				thrust_speed="82"
+				thrust_damage="5"
+				thrust_damage_type="Blunt"
+				speed_rating="50"
+				physics_material="metal_shield_nostick"
+				item_usage="hand_shield"
+				position="0.05, -0.05, 0.0"
+				rotation="0.0,-90,0"
+				weapon_length="20"
+				center_of_mass="0, 0, 0.1"
+				hit_points="100"
+				modifier_group="shield">
+				<WeaponFlags
+					CanBlockRanged="true"
+					HasHitPoints="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			WoodenParry="true"
+			ForceAttachOffHandPrimaryItemBone="true"
+			HeldInOffHand="true"
+			QuickFadeOut="true" />
+	</Item>
+	<Item id="uruk_helm_1"
+			name="Uruk-Hai Helm"
+			mesh="uruk_xman"
+			culture="Culture.empire"
+			weight="1.5"
+			appearance="1"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="27"
+				   has_gender_variations="false"
+				   hair_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate"
+				   beard_cover_type="all"
+				   covers_head="true" />
+		</ItemComponent>
+		<Flags  />
+	</Item>
+
+
+
+	<Item id="uruk_helm_2"
+			name="Uruk-Hai Helm"
+			mesh="uruk_helmet_var1"
+			culture="Culture.empire"
+			weight="1.5"
+			appearance="1"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="27"
+				   has_gender_variations="false"
+				   hair_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate"
+				   beard_cover_type="all"
+				   covers_head="true" />
+		</ItemComponent>
+		<Flags  />
+	</Item>
+
+
+
+	<Item id="uruk_helm_3"
+			name="Uruk-Hai Helm"
+			mesh="uruk_helmet_var2"
+			culture="Culture.empire"
+			weight="1.5"
+			appearance="1"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="27"
+				   has_gender_variations="false"
+				   hair_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate"
+				   beard_cover_type="all"
+				   covers_head="true" />
+		</ItemComponent>
+		<Flags  />
+	</Item>
+
+
+
+
+
+	<Item id="uruk_helm_4"
+			name="Uruk-Hai Helm"
+			mesh="uruk_captain"
+			culture="Culture.empire"
+			weight="1.5"
+			appearance="1"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="25"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   modifier_group="plate"
+				   material_type="Plate"
+				   beard_cover_type="all"
+				   covers_head="true" />
+		</ItemComponent>
+		<Flags  />
+	</Item>
+
+
+
+
+	<Item id="uruk_helm_5"
+			name="Uruk-Hai Berserker Helm (White Hand)"
+			mesh="uruk_berserk"
+			culture="Culture.empire"
+			weight="1.5"
+			appearance="1"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="30"
+				   has_gender_variations="false"
+				   hair_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate"
+				   beard_cover_type="all"
+				   covers_head="true" />
+		</ItemComponent>
+		<Flags  />
+	</Item>
+
+
+	<Item id="uruk_helm_6"
+			name="Uruk-Hai Officer Helm"
+			mesh="uruk_general"
+			culture="Culture.empire"
+			weight="1.5"
+			appearance="1"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="38"
+				   has_gender_variations="false"
+				   hair_cover_type="type3"
+				   modifier_group="plate"
+				   material_type="Plate"
+				   beard_cover_type="all"
+				   covers_head="true" />
+		</ItemComponent>
+		<Flags  />
+	</Item>
+	<Item id="uruk_greaves_1"
+			name="Uruk-Hai Plate Greaves"
+			mesh="uruks_boots"
+			culture="Culture.empire"
+			weight="1.7"
+			appearance="1"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="15"
+				   covers_legs="false"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="ber_greaves_1"
+		  name="Uruk-Hai Boots"
+		  mesh="uruks_berserker_boots"
+		  culture="Culture.empire"
+		  weight="1.7"
+		  appearance="1"
+		  Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="15"
+				   covers_legs="false"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+
+	<!-- Uruk Armors -->
+
+
+	<Item id="uruk_armor_1"
+        name="Uruk-Hai Plate Armor White Hand"
+        subtype="body_armor"
+        mesh="uruk_armor_v1"
+        culture="Culture.empire"
+        weight="11.2"
+        difficulty="0"
+        appearance="1"
+        Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="28"
+				   leg_armor="2"
+				   arm_armor="1"
+				   has_gender_variations="false"
+				   covers_body="false"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+
+
+	<Item id="uruk_armor_2"
+        name="Uruk-Hai Plate Armor"
+        subtype="body_armor"
+        mesh="uruk_armor_v2"
+        culture="Culture.empire"
+        weight="11.2"
+        difficulty="0"
+        appearance="1"
+        Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="28"
+				   leg_armor="2"
+				   arm_armor="1"
+				   has_gender_variations="false"
+				   covers_body="false"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+
+
+	<Item id="uruk_armor_3"
+        name="Uruk-Hai Plate Armor"
+        subtype="body_armor"
+        mesh="uruk_armor_v3"
+        culture="Culture.empire"
+        weight="11.2"
+        difficulty="0"
+        appearance="1"
+        Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="28"
+				   leg_armor="2"
+				   arm_armor="1"
+				   has_gender_variations="false"
+				   covers_body="false"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+
+
+	<Item id="uruk_armor_4"
+        name="Uruk-Hai Plate Armor"
+        subtype="body_armor"
+        mesh="uruk_armor_v4"
+        culture="Culture.empire"
+        weight="11.9"
+        difficulty="0"
+        appearance="1"
+        Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="28"
+				   leg_armor="2"
+				   arm_armor="1"
+				   has_gender_variations="false"
+				   covers_body="false"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+
+
+	<Item id="ber_armor_1"
+        name="Uruk-Hai Berserker Armor"
+        subtype="body_armor"
+        mesh="berserker_armor_v1"
+        culture="Culture.empire"
+        weight="2.2"
+        difficulty="0"
+        appearance="1"
+        Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="17"
+				   leg_armor="1"
+				   arm_armor="1"
+				   has_gender_variations="false"
+				   covers_body="false"
+				   modifier_group="leather"
+				   material_type="Leather" />
+		</ItemComponent>
+		<Flags DoesNotHideChest="true" />
+	</Item>
+	<!-- Uruk Arm Armors -->
+
+
+	<Item id="uruk_arm_1"
+		  name="Uruk-Hai Plate Bracers"
+		  mesh="uruks_lrarms"
+		  culture="Culture.empire"
+		  weight="1.7"
+		  difficulty="0"
+		  appearance="1"
+		  Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="18"
+				   covers_hands="false"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item id="uruk_arm_2"
+		  name="Uruk-Hai Shield Bracers"
+		  mesh="uruks_larms"
+		  culture="Culture.empire"
+		  weight="1.7"
+		  difficulty="0"
+		  appearance="1"
+		  Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="12"
+				   covers_hands="false"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item id="uruk_arm_3"
+	  name="Uruk-Hai Shield Bracers"
+	  mesh="uruks_rarms"
+	  culture="Culture.empire"
+	  weight="1.7"
+	  difficulty="0"
+	  appearance="1"
+	  Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="12"
+				   covers_hands="false"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item
+			multiplayer_item="true"
+			id="gimli_mail"
+			name="Gimli Mail Hauberk"
+			subtype="body_armor"
+			mesh="templar_a_red"
+			culture="Culture.neutral_culture"
+			value="1"
+			is_merchandise="false"
+			weight="23.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				leg_armor="30"
+				arm_armor="31"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="false" />
+	</Item>
+
+
+	<Item
+			multiplayer_item="true"
+			id="gimli_helm"
+			name="Gimli Helmet"
+			mesh="battania_lord_helmet_b"
+			culture="Culture.neutral_culture"
+			subtype="head_armor"
+			value="1"
+			is_merchandise="false"
+			weight="3.1"
+			Type="headArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="35"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="none"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+	</Item>
+
+	<Item
+		  multiplayer_item="true"
+		  id="gimli_vambrace"
+		  name="Gimli Vambraces"
+		  mesh="padded_vambrace_a_handguard"
+		  culture="Culture.neutral_culture"
+		  value="1"
+		  is_merchandise="false"
+		  weight="0.6"
+		  Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+	</Item>
+
+	<Item
+		  multiplayer_item="true"
+		  id="gimli_cape_a"
+		  name="Gimli Cape"
+		  mesh="pauldron_cape_a"
+		  culture="Culture.neutral_culture"
+		  value="1"
+		  is_merchandise="false"
+		  weight="5.5"
+		  Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="11"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true"
+			 />
+	</Item>
+
+</Items>

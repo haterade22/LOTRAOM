@@ -1,0 +1,7884 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_default_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_f" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_default_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.burlap_waistcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_default_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_default_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_default_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_default_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_0_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_0_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_0_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_0_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.decorated_nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_0_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.nordic_sloven" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_0_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_1_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_f" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_1_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_1_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_1_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_1_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.roughhide_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_1_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_2_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_c" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_2_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_2_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_2_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.crude_leather_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_2_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.northern_fur_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.layered_leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_2_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.sackcloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_3_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.thick_sleeved_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_3_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.burlap_waistcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_3_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_3_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_padded_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.bandit_envelope_dress_v1" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_3_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tundra_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_3_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_4_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_d" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_4_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.roughcloth_shortcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_4_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_4_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.upturned_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.sleeveless_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_4_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_4_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.nordic_sloven_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_5_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tassled_southern_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_5_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.sleeveless_studded_fur_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_5_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_5_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.peaked_fur_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_5_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_0_branch_5_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_0_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tassled_southern_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_0_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.bandit_fur_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_0_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_0_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.peaked_fur_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_0_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_0_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_1_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_d" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_1_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.roughcloth_shortcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_1_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_1_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.upturned_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.padded_leather_overcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_1_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_1_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.nordic_sloven_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_2_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_f" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_2_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_2_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_2_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_2_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.roughhide_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_2_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_3_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_3_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_3_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_3_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.decorated_nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_3_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.nordic_sloven" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_3_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_4_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_c" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_4_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_4_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_4_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.crude_leather_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_4_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.northern_fur_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.layered_leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_4_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.sackcloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_5_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.thick_sleeved_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_5_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.burlap_waistcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_5_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_5_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_padded_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.bandit_envelope_dress_v1" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_5_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tundra_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_1_branch_5_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_0_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_0_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_0_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_0_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.decorated_nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_0_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.nordic_sloven" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_0_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_1_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tassled_southern_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_1_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.sleeveless_studded_fur_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_1_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_1_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.peaked_fur_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_1_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_1_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_2_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_c" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_2_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_2_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_2_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.crude_leather_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_2_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.northern_fur_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.layered_leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_2_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.sackcloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_3_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_d" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_3_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.roughcloth_shortcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_3_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_3_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.upturned_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.padded_leather_overcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_3_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_3_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.nordic_sloven_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_4_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.thick_sleeved_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_4_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.burlap_waistcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_4_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_4_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_padded_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.bandit_envelope_dress_v1" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_4_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tundra_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_4_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_5_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_f" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_5_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_5_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_5_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_5_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.roughhide_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_1_page_2_branch_5_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.half_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_default_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_default_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.burlap_waistcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_default_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_default_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_default_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_default_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_child_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_child_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.burlap_waistcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_child_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_child_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_child_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_child_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_0_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.emirs_helmet" />
+			<Equipment
+				slot="Cape"
+				id="Item.wrapped_scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.stitched_leather_over_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_0_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.ridged_northernhelm" />
+			<Equipment
+				slot="Cape"
+				id="Item.battania_shoulder_strap_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.ranger_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.ragged_armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_fur_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_0_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.ironlame_feathered_spangenhelm" />
+			<Equipment
+				slot="Cape"
+				id="Item.imperial_studded_strip_shoulders" />
+			<Equipment
+				slot="Body"
+				id="Item.legionary_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.decorated_imperial_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_0_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.plumed_nomad_helmet" />
+			<Equipment
+				slot="Cape"
+				id="Item.leather_lamellar_shoulders" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_lamellar_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.studded_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.reinforced_suede_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_0_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.nordic_hauberk" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_0_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nasal_helmet_over_padded_cloth" />
+			<Equipment
+				slot="Body"
+				id="Item.white_coat_over_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.reinforced_leather_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_1_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_d_hscarf" />
+			<Equipment
+				slot="Body"
+				id="Item.tassled_southern_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_1_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.rough_bearskin" />
+			<Equipment
+				slot="Body"
+				id="Item.fur_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.highland_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_fur_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_1_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_1_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.eastern_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_1_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_1_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.merchants_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_2_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_c_head" />
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_e" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_2_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_c" />
+			<Equipment
+				slot="Gloves"
+				id="Item.buttoned_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.ragged_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_2_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_2_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_2_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.northern_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_2_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_3_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.decorated_nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_3_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_civil_cape" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_b" />
+			<Equipment
+				slot="Gloves"
+				id="Item.strapped_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_3_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_hscarf_b" />
+			<Equipment
+				slot="Body"
+				id="Item.thick_sleeved_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_3_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_3_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.roughhide_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_3_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.green_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_4_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.desert_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.aserai_horseman_shoulder" />
+			<Equipment
+				slot="Body"
+				id="Item.studded_leather_coat" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_4_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_woodland_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_woodland_outfit" />
+			<Equipment
+				slot="Gloves"
+				id="Item.armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.rough_tied_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_4_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.basic_imperial_leather_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_mitten" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_4_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_padded_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.rough_fur_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_4_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_tabard" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_4_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.woven_leather_vest" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_5_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.tuareg" />
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_5_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_shoulder_strap_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.bandit_fur_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_5_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_5_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.upturned_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.belted_leather_cuirass" />
+			<Equipment
+				slot="Gloves"
+				id="Item.eastern_wrapped_armguards" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_5_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_fur_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_0_branch_5_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Gloves"
+				id="Item.leather_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_child_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_child_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.burlap_waistcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_child_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_child_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_child_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_child_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_0_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.emirs_helmet" />
+			<Equipment
+				slot="Cape"
+				id="Item.wrapped_scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.stitched_leather_over_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_0_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.ridged_northernhelm" />
+			<Equipment
+				slot="Cape"
+				id="Item.battania_shoulder_strap_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.ranger_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.ragged_armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_fur_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_0_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.ironlame_feathered_spangenhelm" />
+			<Equipment
+				slot="Cape"
+				id="Item.imperial_studded_strip_shoulders" />
+			<Equipment
+				slot="Body"
+				id="Item.legionary_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.decorated_imperial_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_0_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.plumed_nomad_helmet" />
+			<Equipment
+				slot="Cape"
+				id="Item.leather_lamellar_shoulders" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_lamellar_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.studded_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.reinforced_suede_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_0_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.nordic_hauberk" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_0_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nasal_helmet_over_padded_cloth" />
+			<Equipment
+				slot="Body"
+				id="Item.white_coat_over_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.reinforced_leather_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_1_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_d_hscarf" />
+			<Equipment
+				slot="Body"
+				id="Item.tassled_southern_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_1_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.rough_bearskin" />
+			<Equipment
+				slot="Body"
+				id="Item.fur_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.highland_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_fur_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_1_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_1_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.eastern_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_1_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_1_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.merchants_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_2_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_c_head" />
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_e" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_2_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_c" />
+			<Equipment
+				slot="Gloves"
+				id="Item.buttoned_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.ragged_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_2_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_2_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_2_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.northern_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_2_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_3_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.decorated_nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_3_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_civil_cape" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_b" />
+			<Equipment
+				slot="Gloves"
+				id="Item.strapped_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_3_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_hscarf_b" />
+			<Equipment
+				slot="Body"
+				id="Item.thick_sleeved_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_3_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_3_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.roughhide_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_3_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.green_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_4_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.desert_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.aserai_horseman_shoulder" />
+			<Equipment
+				slot="Body"
+				id="Item.studded_leather_coat" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_4_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_woodland_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_woodland_outfit" />
+			<Equipment
+				slot="Gloves"
+				id="Item.armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.rough_tied_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_4_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.basic_imperial_leather_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_mitten" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_4_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_padded_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.rough_fur_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_4_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_tabard" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_4_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.woven_leather_vest" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_5_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.tuareg" />
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_5_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_shoulder_strap_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.bandit_fur_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_5_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_5_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.upturned_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.belted_leather_cuirass" />
+			<Equipment
+				slot="Gloves"
+				id="Item.eastern_wrapped_armguards" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_5_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_fur_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_1_branch_5_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Gloves"
+				id="Item.leather_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_child_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_child_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.burlap_waistcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_child_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_child_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_child_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_child_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_0_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.emirs_helmet" />
+			<Equipment
+				slot="Cape"
+				id="Item.wrapped_scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.stitched_leather_over_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_0_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.ridged_northernhelm" />
+			<Equipment
+				slot="Cape"
+				id="Item.battania_shoulder_strap_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.ranger_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.ragged_armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_fur_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_0_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.ironlame_feathered_spangenhelm" />
+			<Equipment
+				slot="Cape"
+				id="Item.imperial_studded_strip_shoulders" />
+			<Equipment
+				slot="Body"
+				id="Item.legionary_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.decorated_imperial_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_0_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.plumed_nomad_helmet" />
+			<Equipment
+				slot="Cape"
+				id="Item.leather_lamellar_shoulders" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_lamellar_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.studded_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.reinforced_suede_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_0_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.nordic_hauberk" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_0_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nasal_helmet_over_padded_cloth" />
+			<Equipment
+				slot="Body"
+				id="Item.white_coat_over_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.reinforced_leather_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_1_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_d_hscarf" />
+			<Equipment
+				slot="Body"
+				id="Item.tassled_southern_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_1_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.rough_bearskin" />
+			<Equipment
+				slot="Body"
+				id="Item.fur_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.highland_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_fur_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_1_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_1_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.eastern_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_1_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_1_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.merchants_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_2_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_c_head" />
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_e" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_2_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_c" />
+			<Equipment
+				slot="Gloves"
+				id="Item.buttoned_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.ragged_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_2_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_2_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_2_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.northern_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_2_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_3_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.decorated_nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_3_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_civil_cape" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_b" />
+			<Equipment
+				slot="Gloves"
+				id="Item.strapped_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_3_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_hscarf_b" />
+			<Equipment
+				slot="Body"
+				id="Item.thick_sleeved_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_3_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_3_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.roughhide_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_3_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.green_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_4_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.desert_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.aserai_horseman_shoulder" />
+			<Equipment
+				slot="Body"
+				id="Item.studded_leather_coat" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_4_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_woodland_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_woodland_outfit" />
+			<Equipment
+				slot="Gloves"
+				id="Item.armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.rough_tied_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_4_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.basic_imperial_leather_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_mitten" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_4_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_padded_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.rough_fur_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_4_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_tabard" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_4_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.woven_leather_vest" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_5_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.tuareg" />
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_5_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_shoulder_strap_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.bandit_fur_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_5_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_5_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.upturned_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.belted_leather_cuirass" />
+			<Equipment
+				slot="Gloves"
+				id="Item.eastern_wrapped_armguards" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_5_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_fur_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_2_page_2_branch_5_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Gloves"
+				id="Item.leather_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_default_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_f" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_default_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.burlap_waistcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_default_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_default_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_default_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_default_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_0_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_0_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_b" />
+			<Equipment
+				slot="Gloves"
+				id="Item.buttoned_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_0_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.bandit_fur_a" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_0_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat" />
+			<Equipment
+				slot="Gloves"
+				id="Item.studded_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_0_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.roughcloth_shortcoat" />
+			<Equipment
+				slot="Gloves"
+				id="Item.northern_brass_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.folded_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_0_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.folded_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_1_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.desert_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.studded_leather_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_1_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.highland_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.ragged_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_1_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_1_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.belted_leather_cuirass" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_1_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.northern_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.bandit_fur_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_1_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.sackcloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_2_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.tuareg" />
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_d" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_2_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_2_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_2_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_2_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.roughhide_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.light_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_2_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.hood" />
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_3_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_hscarf_b" />
+			<Equipment
+				slot="Body"
+				id="Item.tassled_southern_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_3_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_civil_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.burlap_waistcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.belted_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_3_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_3_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.eastern_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_3_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.northern_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_3_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_4_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.turban" />
+			<Equipment
+				slot="Cape"
+				id="Item.desert_leather_shoulderpad" />
+			<Equipment
+				slot="Body"
+				id="Item.studded_leather_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_4_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.thinhide_coif" />
+			<Equipment
+				slot="Body"
+				id="Item.highland_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.rough_tied_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_4_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_4_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.upturned_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_4_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.vlandia_bandit_cape_b" />
+			<Equipment
+				slot="Body"
+				id="Item.roughcloth_shortcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_4_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_5_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_d_hscarf" />
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_5_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.bandit_fur_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_5_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_5_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.decorated_nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_5_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_0_branch_5_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.woven_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_0_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.wrapped_scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.stitched_leather_over_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_0_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_shoulder_strap_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.ranger_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.buttoned_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_0_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.imperial_studded_strip_shoulders" />
+			<Equipment
+				slot="Body"
+				id="Item.legionary_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_0_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.leather_lamellar_shoulders" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_lamellar_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.studded_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_0_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.nordic_hauberk" />
+			<Equipment
+				slot="Gloves"
+				id="Item.northern_brass_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_0_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.white_coat_over_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_1_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tassled_southern_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_1_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.rough_bearskin" />
+			<Equipment
+				slot="Body"
+				id="Item.fur_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.ragged_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_1_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_1_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_1_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_1_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_2_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_e" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_2_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_c" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_2_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_2_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_2_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_2_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_3_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_3_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_civil_cape" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.belted_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_3_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.thick_sleeved_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_3_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_3_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_3_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.green_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_4_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.aserai_horseman_shoulder" />
+			<Equipment
+				slot="Body"
+				id="Item.studded_leather_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_4_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_woodland_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_woodland_outfit" />
+			<Equipment
+				slot="Leg"
+				id="Item.rough_tied_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_4_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.basic_imperial_leather_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_4_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.belted_leather_cuirass" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_4_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_tabard" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_4_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.woven_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_5_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_5_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_shoulder_strap_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.bandit_fur_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_5_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_5_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.khuzait_leather_pauldron" />
+			<Equipment
+				slot="Body"
+				id="Item.belted_leather_cuirass" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_5_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_1_branch_5_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_0_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_0_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat" />
+			<Equipment
+				slot="Gloves"
+				id="Item.buttoned_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_0_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_0_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Gloves"
+				id="Item.studded_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_0_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Gloves"
+				id="Item.northern_brass_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.folded_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_0_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_tunic" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.folded_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_1_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tassled_southern_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_1_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.bandit_fur_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.ragged_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_1_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_1_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.peaked_fur_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_1_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_1_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_2_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_f" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_2_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_2_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_2_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_2_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.roughhide_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_2_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.half_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_3_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.tuareg" />
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_d" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_3_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.belted_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_3_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_3_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_3_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.roughhide_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.light_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_3_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.hood" />
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_4_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_f" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_4_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.rough_tied_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_4_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_4_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_4_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.roughhide_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_4_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_5_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.tuareg" />
+			<Equipment
+				slot="Cape"
+				id="Item.wrapped_scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_5_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_civil_cape" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_c" />
+			<Equipment
+				slot="Gloves"
+				id="Item.highland_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_5_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_5_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_5_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_leather_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Gloves"
+				id="Item.northern_brass_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_3_page_2_branch_5_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_default_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_default_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.burlap_waistcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_default_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_default_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_default_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_default_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_0_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_c_head" />
+			<Equipment
+				slot="Body"
+				id="Item.studded_leather_coat" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_0_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.bandit_fur_a" />
+			<Equipment
+				slot="Gloves"
+				id="Item.ragged_armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_0_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.pauldron_cape_a" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_0_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_padded_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_fortified_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_0_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_fur_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.nordic_sloven" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_0_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_1_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_e_hscarf" />
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_1_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_1_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_1_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.upturned_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_1_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.folded_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_1_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.woven_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_2_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.desert_headdress" />
+			<Equipment
+				slot="Cape"
+				id="Item.desert_fabric_shoulderpad" />
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_d" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_2_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_woodland_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.highland_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_2_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_2_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_2_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.tundra_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.rough_tied_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_2_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.green_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_3_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.woven_turban" />
+			<Equipment
+				slot="Body"
+				id="Item.tassled_southern_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_3_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_c" />
+			<Equipment
+				slot="Leg"
+				id="Item.ragged_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_3_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_3_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.eastern_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_3_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.roughhide_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_3_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_4_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.layered_robe" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_4_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_b" />
+			<Equipment
+				slot="Gloves"
+				id="Item.strapped_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_fur_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_4_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_tunic" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_4_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.upturned_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.belted_leather_cuirass" />
+			<Equipment
+				slot="Gloves"
+				id="Item.steppe_leather_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_4_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.nordic_tunic" />
+			<Equipment
+				slot="Gloves"
+				id="Item.armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_leg_wrappings" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_4_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_5_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.tuareg" />
+			<Equipment
+				slot="Cape"
+				id="Item.wrapped_scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_5_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_civil_cape" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_c" />
+			<Equipment
+				slot="Gloves"
+				id="Item.highland_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_5_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_5_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_5_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_leather_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Gloves"
+				id="Item.northern_brass_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_0_branch_5_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_0_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_c_head" />
+			<Equipment
+				slot="Body"
+				id="Item.studded_leather_coat" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_0_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.bandit_fur_a" />
+			<Equipment
+				slot="Gloves"
+				id="Item.ragged_armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_0_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.pauldron_cape_a" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_0_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_padded_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_fortified_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_0_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_fur_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.nordic_sloven" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_0_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_1_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_e_hscarf" />
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_1_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_1_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_1_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.upturned_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_1_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.folded_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_1_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.woven_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_2_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.desert_headdress" />
+			<Equipment
+				slot="Cape"
+				id="Item.desert_fabric_shoulderpad" />
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_d" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_2_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_woodland_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.highland_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_2_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_2_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_2_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.tundra_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.rough_tied_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_2_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.green_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_3_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.woven_turban" />
+			<Equipment
+				slot="Body"
+				id="Item.tassled_southern_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_3_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_c" />
+			<Equipment
+				slot="Leg"
+				id="Item.ragged_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_3_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_3_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.eastern_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_3_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.roughhide_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_3_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_4_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.layered_robe" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_4_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_b" />
+			<Equipment
+				slot="Gloves"
+				id="Item.strapped_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_fur_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_4_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_tunic" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_4_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.upturned_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.belted_leather_cuirass" />
+			<Equipment
+				slot="Gloves"
+				id="Item.steppe_leather_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_4_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.nordic_tunic" />
+			<Equipment
+				slot="Gloves"
+				id="Item.armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_leg_wrappings" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_4_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_5_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.tuareg" />
+			<Equipment
+				slot="Cape"
+				id="Item.wrapped_scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_5_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_civil_cape" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_c" />
+			<Equipment
+				slot="Gloves"
+				id="Item.highland_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_5_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_5_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_5_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_leather_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Gloves"
+				id="Item.northern_brass_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_1_branch_5_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_0_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_c" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_0_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_b" />
+			<Equipment
+				slot="Gloves"
+				id="Item.buttoned_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_0_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_tunic" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_0_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.crude_leather_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.studded_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_0_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.roughcloth_shortcoat" />
+			<Equipment
+				slot="Gloves"
+				id="Item.northern_brass_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.folded_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_0_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.rough_fur_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.folded_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_1_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_c" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_1_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_1_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_1_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.crude_leather_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_1_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.northern_fur_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.layered_leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_1_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.sackcloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_2_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.thick_sleeved_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_2_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.burlap_waistcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_2_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_2_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_padded_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.bandit_envelope_dress_v1" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_2_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tundra_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_2_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_3_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.desert_headdress" />
+			<Equipment
+				slot="Cape"
+				id="Item.desert_fabric_shoulderpad" />
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_d" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_3_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_woodland_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.highland_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_3_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_3_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_3_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.tundra_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.rough_tied_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_3_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.green_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_4_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.turban" />
+			<Equipment
+				slot="Cape"
+				id="Item.desert_leather_shoulderpad" />
+			<Equipment
+				slot="Body"
+				id="Item.studded_leather_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_4_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.thinhide_coif" />
+			<Equipment
+				slot="Body"
+				id="Item.highland_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.rough_tied_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_4_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_4_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.upturned_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_4_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.vlandia_bandit_cape_b" />
+			<Equipment
+				slot="Body"
+				id="Item.roughcloth_shortcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_4_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.steppe_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_5_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tassled_southern_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_5_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.bandit_fur_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.turndown_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_5_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_5_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.peaked_fur_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_5_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_4_page_2_branch_5_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_default_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_f" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_default_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.burlap_waistcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.highland_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_default_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_default_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_default_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.woven_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_default_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_0_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.emirs_helmet" />
+			<Equipment
+				slot="Body"
+				id="Item.stitched_leather_over_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_0_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.ridged_northernhelm" />
+			<Equipment
+				slot="Body"
+				id="Item.ranger_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.ragged_armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_fur_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_0_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.ironlame_feathered_spangenhelm" />
+			<Equipment
+				slot="Body"
+				id="Item.legionary_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.decorated_imperial_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_0_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.plumed_nomad_helmet" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_lamellar_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.studded_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.reinforced_suede_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_0_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.goggled_helmet_over_leather" />
+			<Equipment
+				slot="Body"
+				id="Item.nordic_hauberk" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_0_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nasal_helmet_over_padded_cloth" />
+			<Equipment
+				slot="Body"
+				id="Item.white_coat_over_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.reinforced_leather_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_1_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_d_hscarf" />
+			<Equipment
+				slot="Body"
+				id="Item.tassled_southern_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_1_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fur_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.highland_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_fur_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_1_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_1_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.eastern_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_1_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_1_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.merchants_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_2_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_c_head" />
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_e" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_2_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_c" />
+			<Equipment
+				slot="Gloves"
+				id="Item.buttoned_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.ragged_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_2_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_2_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_2_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.northern_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_2_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_3_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.decorated_nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_3_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_woodland_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_woodland_outfit" />
+			<Equipment
+				slot="Gloves"
+				id="Item.armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.rough_tied_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_3_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.basic_imperial_leather_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_mitten" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_3_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_padded_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_armor" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_3_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_tabard" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_3_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.woven_leather_vest" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_4_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.tuareg" />
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_4_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_shoulder_strap_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.bandit_fur_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_4_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.pauldron_cape_a" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_4_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.upturned_fur_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.khuzait_leather_pauldron" />
+			<Equipment
+				slot="Body"
+				id="Item.belted_leather_cuirass" />
+			<Equipment
+				slot="Gloves"
+				id="Item.eastern_wrapped_armguards" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_4_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_fur_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_4_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Gloves"
+				id="Item.leather_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_5_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.tuareg" />
+			<Equipment
+				slot="Cape"
+				id="Item.wrapped_scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_5_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_civil_cape" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_c" />
+			<Equipment
+				slot="Gloves"
+				id="Item.highland_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_5_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_5_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_5_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_leather_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Gloves"
+				id="Item.northern_brass_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_0_branch_5_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_0_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.emirs_helmet" />
+			<Equipment
+				slot="Body"
+				id="Item.stitched_leather_over_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_0_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.ridged_northernhelm" />
+			<Equipment
+				slot="Body"
+				id="Item.ranger_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.ragged_armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_fur_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_0_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.ironlame_feathered_spangenhelm" />
+			<Equipment
+				slot="Body"
+				id="Item.legionary_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.decorated_imperial_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_0_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.plumed_nomad_helmet" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_lamellar_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.studded_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.reinforced_suede_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_0_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.goggled_helmet_over_leather" />
+			<Equipment
+				slot="Body"
+				id="Item.nordic_hauberk" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_0_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nasal_helmet_over_padded_cloth" />
+			<Equipment
+				slot="Body"
+				id="Item.white_coat_over_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.reinforced_leather_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_1_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_d_hscarf" />
+			<Equipment
+				slot="Body"
+				id="Item.tassled_southern_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_1_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fur_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.highland_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_fur_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_1_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_1_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.eastern_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_1_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_1_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.merchants_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_2_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_c_head" />
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_e" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_2_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_c" />
+			<Equipment
+				slot="Gloves"
+				id="Item.buttoned_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.ragged_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_2_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_2_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_2_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.northern_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_2_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_3_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.decorated_nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_3_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_woodland_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_woodland_outfit" />
+			<Equipment
+				slot="Gloves"
+				id="Item.armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.rough_tied_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_3_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.basic_imperial_leather_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_mitten" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_3_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_padded_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.studded_leather_waistcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_3_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_tabard" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_3_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.woven_leather_vest" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_4_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.tuareg" />
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_4_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_shoulder_strap_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.bandit_fur_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_4_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.pauldron_cape_a" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_4_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.upturned_fur_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.khuzait_leather_pauldron" />
+			<Equipment
+				slot="Body"
+				id="Item.belted_leather_cuirass" />
+			<Equipment
+				slot="Gloves"
+				id="Item.eastern_wrapped_armguards" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_4_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_fur_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_4_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Gloves"
+				id="Item.leather_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_5_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.tuareg" />
+			<Equipment
+				slot="Cape"
+				id="Item.wrapped_scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_5_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_civil_cape" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_c" />
+			<Equipment
+				slot="Gloves"
+				id="Item.highland_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_5_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_5_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_5_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_leather_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Gloves"
+				id="Item.northern_brass_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_1_branch_5_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_0_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.emirs_helmet" />
+			<Equipment
+				slot="Body"
+				id="Item.stitched_leather_over_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.guarded_padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_0_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.ridged_northernhelm" />
+			<Equipment
+				slot="Body"
+				id="Item.ranger_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.ragged_armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_fur_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_0_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.ironlame_feathered_spangenhelm" />
+			<Equipment
+				slot="Body"
+				id="Item.legionary_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.decorated_imperial_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_0_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.plumed_nomad_helmet" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_lamellar_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.studded_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.reinforced_suede_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_0_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.goggled_helmet_over_leather" />
+			<Equipment
+				slot="Body"
+				id="Item.nordic_hauberk" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_0_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nasal_helmet_over_padded_cloth" />
+			<Equipment
+				slot="Body"
+				id="Item.white_coat_over_mail" />
+			<Equipment
+				slot="Gloves"
+				id="Item.reinforced_leather_vambraces" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_1_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_d_hscarf" />
+			<Equipment
+				slot="Body"
+				id="Item.tassled_southern_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_1_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fur_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.highland_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_fur_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_1_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_1_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.eastern_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_1_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_1_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.merchants_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.long_hemp_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_2_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.aserai_civil_c_head" />
+			<Equipment
+				slot="Body"
+				id="Item.aserai_civil_e" />
+			<Equipment
+				slot="Leg"
+				id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_2_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_c" />
+			<Equipment
+				slot="Gloves"
+				id="Item.buttoned_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.ragged_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_2_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_shoulder_pads" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_2_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_civil_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_2_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.northern_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_2_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.monk_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_3_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.decorated_nomad_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.steppe_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_3_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_woodland_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_woodland_outfit" />
+			<Equipment
+				slot="Gloves"
+				id="Item.armwraps" />
+			<Equipment
+				slot="Leg"
+				id="Item.rough_tied_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_3_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.basic_imperial_leather_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_mitten" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_3_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nomad_padded_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.studded_leather_waistcoat" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_3_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_tabard" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_3_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.woven_leather_vest" />
+			<Equipment
+				slot="Gloves"
+				id="Item.padded_vambrace" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_4_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.tuareg" />
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_4_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_shoulder_strap_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.bandit_fur_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.battania_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_4_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.pauldron_cape_a" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_4_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.upturned_fur_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.khuzait_leather_pauldron" />
+			<Equipment
+				slot="Body"
+				id="Item.belted_leather_cuirass" />
+			<Equipment
+				slot="Gloves"
+				id="Item.eastern_wrapped_armguards" />
+			<Equipment
+				slot="Leg"
+				id="Item.khuzait_curved_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_4_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_fur_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_4_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Gloves"
+				id="Item.leather_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_5_aserai">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.tuareg" />
+			<Equipment
+				slot="Cape"
+				id="Item.wrapped_scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.eastern_silk_clothing" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_5_battania">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.battania_civil_cape" />
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_c" />
+			<Equipment
+				slot="Gloves"
+				id="Item.highland_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_5_empire">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Gloves"
+				id="Item.woven_leather_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_5_khuzait">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.fur_hat" />
+			<Equipment
+				slot="Body"
+				id="Item.khuzait_belt_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.eastern_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_5_sturgia">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.nordic_leather_cap" />
+			<Equipment
+				slot="Cape"
+				id="Item.scarf" />
+			<Equipment
+				slot="Body"
+				id="Item.northern_leather_vest" />
+			<Equipment
+				slot="Gloves"
+				id="Item.northern_brass_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="child_education_equipments_stage_5_page_2_branch_5_vlandia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+</EquipmentRosters>
