@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MusicTracks>
+	<MusicTrack
+		id="aserai_01"
+		event_id="event:/music/musicians/aserai/01"
+		culture="Culture.aserai"
+		location="lords_hall"
+		tempo="78">
+		<Instruments>
+			<Instrument
+				id="nay" />
+			<Instrument
+				id="oud" />
+			<Instrument
+				id="bodhran" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="aserai_02"
+		event_id="event:/music/musicians/aserai/02"
+		culture="Culture.aserai"
+		location="tavern"
+		tempo="105">
+		<Instruments>
+			<Instrument
+				id="oud" />
+			<Instrument
+				id="nay" />
+			<Instrument
+				id="dancing" />
+			<!--<Instrument id="hand_bells"/>-->
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="aserai_03"
+		event_id="event:/music/musicians/aserai/03"
+		culture="Culture.aserai"
+		location="lords_hall"
+		tempo="112">
+		<Instruments>
+			<Instrument
+				id="oud" />
+			<Instrument
+				id="nay" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="aserai_04"
+		event_id="event:/music/musicians/aserai/04"
+		culture="Culture.aserai"
+		location="tavern"
+		tempo="124">
+		<Instruments>
+			<Instrument
+				id="oud" />
+			<Instrument
+				id="nay" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="battania_01"
+		event_id="event:/music/musicians/battania/01"
+		culture="Culture.battania"
+		location="tavern"
+		tempo="113">
+		<Instruments>
+			<Instrument
+				id="flute" />
+			<Instrument
+				id="bodhran" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="battania_02"
+		event_id="event:/music/musicians/battania/02"
+		culture="Culture.battania"
+		location="lords_hall"
+		tempo="74">
+		<Instruments>
+			<Instrument
+				id="flute" />
+			<Instrument
+				id="harp" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="battania_03"
+		event_id="event:/music/musicians/battania/03"
+		culture="Culture.battania"
+		location="tavern"
+		tempo="112">
+		<Instruments>
+			<Instrument
+				id="harp" />
+			<Instrument
+				id="bodhran" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="battania_04"
+		event_id="event:/music/musicians/battania/04"
+		culture="Culture.battania"
+		location="lords_hall"
+		tempo="63">
+		<Instruments>
+			<Instrument
+				id="harp" />
+			<Instrument
+				id="flute" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="khuzait_01"
+		event_id="event:/music/musicians/khuzait/01"
+		culture="Culture.khuzait"
+		location="tavern"
+		tempo="92">
+		<Instruments>
+			<Instrument
+				id="kemane" />
+			<Instrument
+				id="khomus" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="khuzait_02"
+		event_id="event:/music/musicians/khuzait/02"
+		culture="Culture.khuzait"
+		location="lords_hall"
+		tempo="126">
+		<Instruments>
+			<Instrument
+				id="kemane" />
+			<Instrument
+				id="khomus" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="khuzait_03"
+		event_id="event:/music/musicians/khuzait/03"
+		culture="Culture.khuzait"
+		location="tavern"
+		tempo="88">
+		<Instruments>
+			<Instrument
+				id="kemane" />
+			<Instrument
+				id="dombra" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="khuzait_04"
+		event_id="event:/music/musicians/khuzait/04"
+		culture="Culture.khuzait"
+		location="lords_hall"
+		tempo="140">
+		<Instruments>
+			<Instrument
+				id="dombra" />
+			<Instrument
+				id="khomus" />
+			<Instrument
+				id="bodhran" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="sturgia_01"
+		event_id="event:/music/musicians/sturgia/01"
+		culture="Culture.sturgia"
+		location="lords_hall"
+		tempo="66">
+		<Instruments>
+			<Instrument
+				id="vielle" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="sturgia_02"
+		event_id="event:/music/musicians/sturgia/02"
+		culture="Culture.sturgia"
+		location="tavern"
+		tempo="125">
+		<Instruments>
+			<Instrument
+				id="vielle" />
+			<Instrument
+				id="bodhran" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="sturgia_03"
+		event_id="event:/music/musicians/sturgia/03"
+		culture="Culture.sturgia"
+		location="tavern"
+		tempo="176">
+		<Instruments>
+			<Instrument
+				id="vielle" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="sturgia_04"
+		event_id="event:/music/musicians/sturgia/04"
+		culture="Culture.sturgia"
+		location="lords_hall"
+		tempo="75">
+		<Instruments>
+			<Instrument
+				id="harp" />
+			<Instrument
+				id="harp" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="vlandia_01"
+		event_id="event:/music/musicians/vlandia/01"
+		culture="Culture.vlandia"
+		location="lords_hall"
+		tempo="180">
+		<Instruments>
+			<Instrument
+				id="vielle" />
+			<Instrument
+				id="oud" />
+			<Instrument
+				id="bodhran" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="vlandia_02"
+		event_id="event:/music/musicians/vlandia/02"
+		culture="Culture.vlandia"
+		location="tavern"
+		tempo="88">
+		<Instruments>
+			<Instrument
+				id="oud" />
+			<Instrument
+				id="flute" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="vlandia_03"
+		event_id="event:/music/musicians/vlandia/03"
+		culture="Culture.vlandia"
+		location="tavern"
+		tempo="104">
+		<Instruments>
+			<Instrument
+				id="vielle" />
+			<Instrument
+				id="flute" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="vlandia_04"
+		event_id="event:/music/musicians/vlandia/04"
+		culture="Culture.vlandia"
+		location="lords_hall"
+		tempo="72">
+		<Instruments>
+			<Instrument
+				id="hurdy_gurdy" />
+			<Instrument
+				id="bodhran" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="empire_01"
+		event_id="event:/music/musicians/empire/01"
+		culture="Culture.empire"
+		location="tavern"
+		tempo="112">
+		<Instruments>
+			<Instrument
+				id="harp" />
+			<Instrument
+				id="bodhran" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="empire_02"
+		event_id="event:/music/musicians/empire/02"
+		culture="Culture.empire"
+		location="lords_hall"
+		tempo="64">
+		<Instruments>
+			<Instrument
+				id="cornu" />
+			<Instrument
+				id="cornu" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="empire_03"
+		event_id="event:/music/musicians/empire/03"
+		culture="Culture.empire"
+		location="tavern"
+		tempo="102">
+		<Instruments>
+			<Instrument
+				id="harp" />
+			<Instrument
+				id="flute" />
+		</Instruments>
+	</MusicTrack>
+	<MusicTrack
+		id="empire_04"
+		event_id="event:/music/musicians/empire/04"
+		culture="Culture.empire"
+		location="lords_hall"
+		tempo="80">
+		<Instruments>
+			<Instrument
+				id="cornu" />
+			<Instrument
+				id="cornu" />
+			<Instrument
+				id="dancing" />
+		</Instruments>
+	</MusicTrack>
+</MusicTracks>
