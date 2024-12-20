@@ -1,0 +1,1663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string
+		id="str_comment_captivity_release_companion.default"
+		text="{=TN5hbc7f}It's good to be out of captivity.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_captivity_release_companion_ransom.default"
+		text="{=j9CHWmr5}Thank you for paying my ransom.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_captivity_release_companion_ransom.ironic"
+		text="{=5OKXtEW6}It was most generous and noble of you to secure my freedom.">
+		<tags>
+			<tag
+				tag_name="ChivalrousTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_captivity_release_companion_ransom.ironic"
+		text="{=pWQwULg1}How much did you need to pay to free me? It's not coming out of my share of the loot, what?">
+		<tags>
+			<tag
+				tag_name="PersonaIronicTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_hunted_bandit_easy.default"
+		text="{=53MDeyby}Well... Those bandits back there didn't give us too much trouble. ">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_hunted_bandit_easy.mercy"
+		text="{=GXR9KGBn}Chasing down bandits like that... I suppose it has to be done.">
+		<tags>
+			<tag
+				tag_name="MercyTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_hunted_bandit_easy.cruel"
+		text="{=g3a9dmzu}Those bandits never give us much trouble, but it is good practice I suppose.">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_hunted_bandit_easy.outlaw"
+		text="{=2AsFNABs}Every time we run down another group of those bandits, I think, that could have been me, had fate worked out a bit different.">
+		<tags>
+			<tag
+				tag_name="OutlawSympathyTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_hunted_bandit.default"
+		text="{=ifNalTNK}Well, that's one fewer group of bandits preying on travellers. But there will be more. There always are.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_hunted_bandit_merchant.default"
+		text="{=mabEK2R8}I hear you recently caught some bandits. Speaking as a merchant, we appreciate any efforts to make the roads safer.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_hunted_bandit_merchant.cruel"
+		text="{=9aS4em4L}I hear you recently caught some bandits around here. I say 'good work,' and I think other merchants around here will agree. Cleanse the roads of those vermin, so that trade can flow.">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_hunted_bandit_merchant.merciful"
+		text="{=LZlTOKIH}I hear you recently caught some bandits around here. Well, as a merchant, I appreciate that it will make the roads safer. Hopefully other desperate men will be deterred from going into a life of crime and villainy.">
+		<tags>
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_stormed_castle.default"
+		text="{=2R19RV70}I hear you took {SETTLEMENT_NAME}.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_stormed_this_city_devastated.default"
+		text="{=Kn0sd9dR}I was here when your people come over our walls. I do not know why they spared me. So many were not so lucky.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_stormed_this_city.default"
+		text="{=AiamDgVH}I watched your people come over our walls... I suppose I am grateful that they spared my life.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_stormed_this_city_showed_mercy.default"
+		text="{=CXbZjUzR}I was here when your people came took our city... It was not as bad as we had feared. If you ordered them to spare us, well, I suppose I should thank you for that mercy.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_stormed_castle.chivalrous"
+		text="{=W3F2HgTN}I hear you took the fortress of {SETTLEMENT_NAME}. A blow well struck!">
+		<tags>
+			<tag
+				tag_name="PlayerIsAlliedTag" />
+			<tag
+				tag_name="PersonaEarnestTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_stormed_castle.allied_default"
+		text="{=iNYL0cJ5}I hear you took {SETTLEMENT_NAME}. Good work.">
+		<tags>
+			<tag
+				tag_name="PlayerIsAlliedTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_stormed_castle.cruel"
+		text="{=hjcjbEYn}I hear you took {SETTLEMENT_NAME}. I hope you made them bleed for what they did to us.">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="PlayerIsAlliedTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_stormed_castle.merciful"
+		text="{=A7nmHKBr}I hear you took {SETTLEMENT_NAME}. I hope the cost in lives was not too high..">
+		<tags>
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+			<tag
+				tag_name="PlayerIsAlliedTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_stormed_castle.dismissive"
+		text="{=gQcyHNVT}I hear you took the fortress of {SETTLEMENT_NAME}. No doubt you found some traitor to let you through the gates.">
+		<tags>
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="-1" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+		</tags>
+	</string>
+	<!-- We stormed castle -->
+	<string
+		id="str_comment_endplayerbattle_we_stormed_castle.default"
+		text="{=00fZGqbJ}A hard day's work, taking {ENEMY_SETTLEMENT}. But worth it.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_stormed_castle.cruel"
+		text="{=tUc0CIs4}I will never forget how we came over the battlements of {ENEMY_SETTLEMENT} and put its defenders to the sword.">
+		<tags>
+			<tag
+				tag_name="CruelTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_stormed_castle.mercy"
+		text="{=Iz9jimvM}I will not forget the taking of {ENEMY_SETTLEMENT}... All sieges are terrible, even victories.">
+		<tags>
+			<tag
+				tag_name="MercyTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_stormed_castle.curt"
+		text="{=FaQ02Yet}I'm not going to forget {ENEMY_SETTLEMENT}... A hard fight, but a glorious one.">
+		<tags>
+			<tag
+				tag_name="ChivalrousTag"
+				weight="1" />
+			<tag
+				tag_name="MercyTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<!-- easy siege victory -->
+	<string
+		id="str_comment_endplayerbattle_we_stormed_castle_easy.default"
+		text="{=3Ksb1Hlu}Well... Taking {ENEMY_SETTLEMENT}... That wasn't as bad as I'd feared.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<!-- You defeated our enemy (only use if player is allied), Allied lord congratulating player on victory -->
+	<string
+		id="str_comment_endplayerbattle_you_defeated_our_enemy.default"
+		text="{=dJMfIABx}I hear you defeated our enemy {DEFEATED_PARTY_LEADER} in battle.">
+		<tags>
+			<tag
+				tag_name="DefaultTag"
+				weight="+1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_our_enemy.friendly_chivalrous"
+		text="{=ALIAwlgz}I heard that you fought and defeated {DEFEATED_PARTY_LEADER}. I wish you joy of your victory, my friend!">
+		<tags>
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_our_enemy.curt"
+		text="{=obydBl7I}I heard that you beat {DEFEATED_PARTY_LEADER}... This is good.">
+		<tags>
+			<tag
+				tag_name="PersonaEarnestTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_our_enemy.chivalrous"
+		text="{=bb8AxGwc}I heard that you fought and defeated {DEFEATED_PARTY_LEADER}. A blow well struck!">
+		<tags>
+			<tag
+				tag_name="ChivalrousTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_our_enemy.liege"
+		text="{=SM16wIcc}So, you crossed swords with that rascal they call {DEFEATED_PARTY_LEADER}, and emerged victorious. Good work.">
+		<tags>
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="NpcIsLiegeTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_our_enemy.unfriendly_spiteful"
+		text="{=LaPJJMCD}I heard that you fought and defeated {DEFEATED_PARTY_LEADER}. Every dog has its day, I suppose.">
+		<tags>
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+		</tags>
+	</string>
+	<!-- You defeated our enemy - great battle-->
+	<string
+		id="str_comment_endplayerbattle_you_defeated_our_enemy_great_battle.default"
+		text="{=7vcCSGEN}I heard you defeated {DEFEATED_PARTY_LEADER}, even though he had you outnumbered. Most impressive.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_our_enemy_great_battle.default"
+		text="{=ddUxQwOX}I heard you defeated {DEFEATED_PARTY_LEADER}, even though he had you outnumbered. I salute you, {?PLAYER.GENDER}madame{?}sir{\?}!">
+		<tags>
+			<tag
+				tag_name="ChivalrousTag" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_our_enemy_great_battle.default"
+		text="{=dpaagbUb}So {DEFEATED_PARTY_LEADER} came at you with a great big host and you whipped him anyway. Heh. Good work.">
+		<tags>
+			<tag
+				tag_name="PersonaCurtTag" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_our_enemy_great_battle.default"
+		text="{=jH77WXL2}There's a great deal of talk about you - how you beat {DEFEATED_PARTY_LEADER} even though you were outnumbered. Is that really what happened? Somehow I doubt it.">
+		<tags>
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+		</tags>
+	</string>
+	<!-- You defeated my ally (use if player is not allied - possible through changing sides ) -->
+	<string
+		id="str_comment_endplayerbattle_you_defeated_my_ally.default"
+		text="{=f0TZ7BRb}I hear you defeated {DEFEATED_LEADER_RELATIONSHIP} in battle.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_my_ally.avenge"
+		text="{=RGNIuSCM}I hear you defeated {DEFEATED_LEADER_RELATIONSHIP} in battle. I appreciate a worthy adversary.">
+		<tags>
+			<tag
+				tag_name="ChivalrousTag" />
+			<tag
+				tag_name="AttackingTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_my_ally.avenge"
+		text="{=iEaXFpUF}I don't know what treachery you used to defeat {DEFEATED_LEADER_RELATIONSHIP}, but it will not work against me.">
+		<tags>
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_my_ally.default"
+		text="{=WzMjUSGv}I hear you defeated {DEFEATED_LEADER_RELATIONSHIP}. You're a wily foe, but I've run you to ground and now I shall finish you off.">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="-1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_my_ally.avenge"
+		text="{=pJtkSopk}I hear you defeated {DEFEATED_LEADER_RELATIONSHIP} in battle. I'm here to even the score.">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_my_ally.friend"
+		text="{=BCNRS2ml}I hear you defeated {DEFEATED_LEADER_RELATIONSHIP} in battle. Well, I always knew you'd be a dangerous enemy.">
+		<tags>
+			<tag
+				tag_name="AttackingTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="+1" />
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="+1" />
+		</tags>
+	</string>
+	<!-- You defeated my ally (use if player is not allied - possible through changing sides ) -->
+	<string
+		id="str_comment_endplayerbattle_you_defeated_my_ally_disrespectful.default"
+		text="{=tciR9VSr}I hear you fought {DEFEATED_LEADER}, and won. {?GENDER}Her{?}His{\?} mistake cost us the lives of many brave men.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_my_ally_disrespectful.default"
+		text="{=2zjTq6N8}I hear you defeated {DEFEATED_LEADER_RELATIONSHIP} in battle. I won't pretend that I grieved too much when I heard that.">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_my_ally_disrespectful.default"
+		text="{=ndagvVPz}I hear you defeated {DEFEATED_LEADER_RELATIONSHIP} in battle. But don't think that I will fall so easily for your tricks.">
+		<tags>
+			<tag
+				tag_name="UncharitableTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_my_ally_disrespectful.default"
+		text="{=hl1AFy3m}I hear you defeated {DEFEATED_LEADER_RELATIONSHIP}. Hah! It would have amused me to see {?GENDER}her{?}him{\?} cower before you.">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="PersonaCurtTag"
+				weight="+1" />
+			<tag
+				tag_name="UncharitableTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_my_ally_disrespectful.calculatin"
+		text="{=QXrxVZHJ}I hear you defeated {DEFEATED_LEADER_RELATIONSHIP}. Well, I won't comment on {?GENDER}her{?}his{\?} standard of generalship, but that can't have been too difficult.">
+		<tags>
+			<tag
+				tag_name="CalculatingTag"
+				weight="1" />
+			<tag
+				tag_name="UncharitableTag" />
+		</tags>
+	</string>
+	<!-- You defeated me, and we are still enemies -->
+	<string
+		id="str_comment_endplayerbattle_you_defeated_me.default"
+		text="{=kWGF47Mc}You won our last battle. That won't happen again.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_me.default"
+		text="{=Z6XSaq8b}When last we met, you had the better of me. But I assure you that it will not happen again!">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+			<tag
+				tag_name="HighRegisterTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_me.chivalrous"
+		text="{=dtaIcOa0}You won last time we fought. I look forward to a chance to even the score.">
+		<tags>
+			<tag
+				tag_name="ChivalrousTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_me.chivalrous_high"
+		text="{=Xt1V4D6X}You emerged victorious from our last contest of arms. I congratulate you, and look forward to a chance to even the score.">
+		<tags>
+			<tag
+				tag_name="ChivalrousTag" />
+			<tag
+				tag_name="HighRegisterTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_me.grudging"
+		text="{=Kf45xPSd}You may have won last time we met, but that won't happen again.">
+		<tags>
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="1" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_me.grudging"
+		text="{=QbXjHb7y}You won last time we met. I hope you enjoyed your little victory. You won't have another one. Your tricks won't work twice.">
+		<tags>
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="-1" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+		</tags>
+	</string>
+	<!-- You defeated me, and we are no longer enemies -->
+	<string
+		id="str_comment_endplayerbattle_you_defeated_me.default"
+		text="{=8qkWFWTa}When last we met, {PLAYER.LINK}, you had the better of me. If we ever meet in battle again, perhaps things will go differently.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_me.grudging"
+		text="{=zFfRLbxK}Don't think I have forgotten our little battle. Now I know your tricks. If ever we are at war again, well, things will go differently.">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag"
+				weight="-1" />
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="-1" />
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_defeated_me.friendly"
+		text="{=x8WJb01D}I don't begrudge you your victory, the last time we met. I'm glad we no longer have to fight.">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag"
+				weight="-1" />
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="+1" />
+		</tags>
+	</string>
+	<!-- We defeated an enemy -->
+	<string
+		id="str_comment_endplayerbattle_we_defeated_enemy.friendly"
+		text="{=cQbIMImo}I will not forget our victory over {DEFEATED_PARTY_LEADER}.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_defeated_enemy.generous"
+		text="{=6KMf8lNE}I remember our victory over {DEFEATED_PARTY_LEADER}. I will not forget your bravery in that battle.">
+		<tags>
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_defeated_enemy.cruel"
+		text="{=VcXpFIrT}Remember how we whipped {DEFEATED_PARTY_LEADER}, and made of his men a feast for the crows? That's a sweet memory.">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_defeated_enemy.now_enemies"
+		text="{=YsUq0lPJ}Whatever comes next, I will not forget how we once fought together against {DEFEATED_PARTY_LEADER}.">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_defeated_enemy.cold"
+		text="{=M43kLIaa}We may have fought together against {DEFEATED_PARTY_LEADER}, but even that cannot make up for everything else you've done.">
+		<tags>
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_defeated_enemy.cold2"
+		text="{=BYZXoAly}I remember our victory over {DEFEATED_PARTY_LEADER}. I am grateful for the aid. But if you think you can call upon that favor, you are mistaken.">
+		<tags>
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_defeated_enemy.goodnatured"
+		text="{=9HvWdW77}I hear you've been trying to take the credit for our victory over {DEFEATED_PARTY_LEADER}. I was on the battlefield too, you may remember.">
+		<tags>
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+		</tags>
+	</string>
+	<!--Comment: Allied Dialogue-->
+	<string
+		id="str_comment_endplayerbattle_we_defeated_enemy.allied_upstanding"
+		text="{=H1t6YIMv}I will always cherish the memory of our battle against {DEFEATED_PARTY_LEADER}. May all our battles be equally glorious.">
+		<tags>
+			<tag
+				tag_name="PlayerIsAlliedTag" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_defeated_enemy.allied_sadistic"
+		text="{=3vO2C8hO}My friend, I will never forget how we watered our last battlefield with the blood of {DEFEATED_PARTY_LEADER}'s men. I hope you have the stomach for more.">
+		<tags>
+			<tag
+				tag_name="PlayerIsAlliedTag" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_defeated_enemy.allied_sadistic"
+		text="{=gaHeS3qu}I will not forget our victory over {DEFEATED_PARTY_LEADER}. Let us once again give thanks to heaven, and pray that we not grow too proud.">
+		<tags>
+			<tag
+				tag_name="PlayerIsAlliedTag" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="HighRegisterTag" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<!-- I defeated you -->
+	<string
+		id="str_comment_endplayerbattle_i_defeated_you.neutral"
+		text="{=mwF92doJ}I remember our last battle. It was a good fight.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_i_defeated_you.enemy"
+		text="{=lzQYayR0}I remember our last battle. It was a good fight. Have you come for another?">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_i_defeated_you.spiteful"
+		text="{=9VBbSF33}I remember our last battle. You should know better than to cross paths with me again.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<!-- We defeated you -->
+	<string
+		id="str_comment_endplayerbattle_we_defeated_you.neutral"
+		text="{=cVgKHCqa}I remember when my allies and I last faced you. It was a good fight.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_defeated_you.gloating"
+		text="{=QD7wWIdW}Do you remember when we left the fields red with your men's blood? I do.">
+		<tags>
+			<tag
+				tag_name="ChivalrousTag"
+				weight="-1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_defeated_you.chivalrous"
+		text="{=WobMdST8}I remember when we last met. Your side put up a good fight.">
+		<tags>
+			<tag
+				tag_name="ChivalrousTag"
+				weight="1" />
+		</tags>
+	</string>
+	<!-- My ally defeated you -->
+	<string
+		id="str_comment_endplayerbattle_my_ally_defeated_you.friendly"
+		text="{=q5SZRgUR}I hear you came to blows with {VICTORIOUS_PARTY_LEADER}, and you were driven from the field.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_my_ally_defeated_you.spiteful"
+		text="{=bI2XZrAk}I hear you came to blows with {VICTORIOUS_PARTY_LEADER}, and he gave you the thrashing you deserved.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<!-- We were defeated -->
+	<string
+		id="str_comment_endplayerbattle_we_were_defeated.default"
+		text="{=JNub3xzU}It was hard going back there against {ENEMY_TERM}. I'm glad we all made it out alive.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_we_were_defeated.spiteful"
+		text="{=B8Kb89jk}That battle against {ENEMY_TERM}. You failed, and we both paid the price.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="-1" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+		</tags>
+	</string>
+	<!-- Our enemy defeated you, pyrrhic -->
+	<string
+		id="str_comment_endplayerbattle_our_enemy_defeated_you_pyrrhic.default"
+		text="{=A7iiTdng}I hear {ENEMY_TERM} beat you, but you put up a hard fight.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_our_enemy_defeated_you_pyrrhic.default"
+		text="{=r7yWwaY3}I hear you fought bravely against {VICTORIOUS_PARTY_LEADER} until you were finally overwhelmed by superior numbers.">
+		<tags>
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_our_enemy_defeated_you_pyrrhic.curt"
+		text="{=JCzju3in}I heard {ENEMY_TERM} beat you, but it cost them a lot of men. Good.">
+		<tags>
+			<tag
+				tag_name="UncharitableTag" />
+			<!-- used here to represent callous -->
+			<tag
+				tag_name="PersonaCurtTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_our_enemy_defeated_you_pyrrhic.chivalrous"
+		text="{=alO2F63A}I hear you fought bravely against {VICTORIOUS_PARTY_LEADER} and made the {ENEMY_TERM} pay heavily for their victory. I salute your courage and your men's sacrifice.">
+		<tags>
+			<tag
+				tag_name="ChivalrousTag" />
+			<tag
+				tag_name="PersonaEarnestTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_our_enemy_defeated_you_pyrrhic.ironic"
+		text="{=n0SpScdp}So apparently you're a tough bite to swallow. I hear {VICTORIOUS_PARTY_LEADER} paid heavily in blood to defeat you.">
+		<tags>
+			<tag
+				tag_name="AmoralTag" />
+			<tag
+				tag_name="PersonaIronicTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_our_enemy_defeated_you_pyrrhic.spiteful"
+		text="{=XLqklKR5}I hear {VICTORIOUS_PARTY_LEADER} ran you down. Some speak of heroic last stands, but I say a defeat is a defeat.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="-1" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_our_enemy_defeated_you_pyrrhic.spiteful"
+		text="{=DcRDdH6d}I hear {VICTORIOUS_PARTY_LEADER} ran you down and gave you the thrashing you deserve.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="-1" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+		</tags>
+	</string>
+	<!-- Our enemy defeated you -->
+	<string
+		id="str_comment_endplayerbattle_our_enemy_defeated_you.default"
+		text="{=LaBhR4Vm}I hear {VICTORIOUS_PARTY_LEADER} defeated you. Fear not, we will give them back double.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_our_enemy_defeated_you.spiteful"
+		text="{=DcRDdH6d}I hear {VICTORIOUS_PARTY_LEADER} ran you down and gave you the thrashing you deserve.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="UnderCommandTag"
+				weight="-1" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_captured_our_castle.enemy_default"
+		text="{=rUda85FW}You took {SETTLEMENT_NAME} from us. We will not forget this.">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="DefaultTag"
+				weight="+1" />
+		</tags>
+	</string>
+	<!-- END BATTLE COMMENTS END -->
+	<!-- CAPTURE SETTLEMENT COMMENTS BEGIN -->
+	<!-- This does not have witnesses. So, use the end player battle for witnesses -->
+	<string
+		id="str_comment_changeownerofsettlement_you_captured_castle.default"
+		text="{=pT6QqtTB}I heard that you have besieged and taken {SETTLEMENT_NAME}.">
+		<tags>
+			<tag
+				tag_name="DefaultTag"
+				weight="+1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeownerofsettlement_you_captured_castle.chivalrous"
+		text="{=W3F2HgTN}I hear you took the fortress of {SETTLEMENT_NAME}. A blow well struck!">
+		<tags>
+			<tag
+				tag_name="PlayerIsAlliedTag" />
+			<tag
+				tag_name="PersonaEarnestTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeownerofsettlement_you_captured_castle.enemy_goodnatured"
+		text="{=k4MKDRJH}You have taken {SETTLEMENT_NAME}. So be it. I would have done the same, in your shoes. But I shall retake it.">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+		</tags>
+	</string>
+	<!-- Faction change comments begin -->
+	<string
+		id="str_comment_changeherofaction_you_joined_us.default"
+		text="{=vxkoCCuc}I hear you'll be joining us in the service of {TT_LIEGE.NAME}.">
+		<tags>
+			<tag
+				tag_name="DefaultTag"
+				weight="+1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us.martial_unfriendly"
+		text="{=Pf44U15I}I heard that you have pledged allegiance to {?TT_LIEGE.GENDER}the lady{?}lord{\?} {TT_LIEGE.NAME}. Pray do not disgrace us by behaving in a cowardly fashion.">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="HighRegisterTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us.martial"
+		text="{=DzpcTVWI}I heard that you have pledged allegiance to {?TT_LIEGE.GENDER}the lady{?}lord{\?} {TT_LIEGE.NAME}. I look forward to fighting alongside you against our foes.">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us.quarrelsome_unfriendly"
+		text="{=e0WSVhxu}I hear you'll be joining us in the service of {TT_LIEGE.NAME}. Well... Do yourself a favor, and stay out of my way.">
+		<tags>
+			<tag
+				tag_name="PersonaCurtTag" />
+			<tag
+				tag_name="HostileRelationshipTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us.quarrelsome"
+		text="{=UKTXefOD}I heard that you have pledged allegiance to {?TT_LIEGE.GENDER}the lady{?}lord{\?} {TT_LIEGE.NAME}. Fight hard against our foes, respect your betters, and don't cross me, and we'll get along fine.">
+		<tags>
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<!-- Don't have-->
+			<tag
+				tag_name="MercyTag"
+				weight="-1" />
+			<!-- Don't have-->
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="-1" />
+			<!-- Don't have-->
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us.selfrighteous_unfriendly"
+		text="{=zTNNxMzz}I heard that you have pledged allegiance to {?TT_LIEGE.GENDER}the lady{?}lord{\?} {TT_LIEGE.NAME}. If I were he, I would not trust you to clean the sculleries.">
+		<tags>
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<!-- Don't have-->
+			<tag
+				tag_name="MercyTag"
+				weight="-1" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us.selfrighteous"
+		text="{=yZZx1WVQ}I heard that you have pledged allegiance to {?TT_LIEGE.GENDER}the lady{?}lord{\?} {TT_LIEGE.NAME}. Fight bravely and you will be well-rewarded. Betray us, and we shall make of you the kind of example that will not soon be forgotten.">
+		<tags>
+			<!-- Don't have-->
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="-1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us.cunning_unfriendly"
+		text="{=e8Lec4g2}I heard that you have pledged allegiance to {?TT_LIEGE.GENDER}the lady{?}lord{\?} {TT_LIEGE.NAME}. I do not pretend to be happy about his decision, but perhaps it is better to have you inside our tent pissing out, than the other way around.">
+		<tags>
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us.cunning"
+		text="{=ndQo81VN}I heard that you have pledged allegiance to {?TT_LIEGE.GENDER}the lady{?}lord{\?} {TT_LIEGE.NAME}. That is good. The more skilled fighters we have with us in these troubled times, the better. I shall be watching your progress.">
+		<tags>
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us.debauched_unfriendly"
+		text="{=AtbVSdJi}I heard that you have pledged allegiance to {?TT_LIEGE.GENDER}the lady{?}lord{\?} {TT_LIEGE.NAME}. No doubt you will soon betray him, and I will have the pleasure of watching you die a traitor's death.">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="HonorTag"
+				weight="-1" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us.debauched"
+		text="{=fjthM3fE}I heard that you have pledged allegiance to {?TT_LIEGE.GENDER}the lady{?}lord{\?} {TT_LIEGE.NAME}. Excellent... I am sure that you and I will become very good friends. But remember -- if you betray us, it will be the biggest mistake you will ever make.">
+		<tags>
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="-1" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us.goodnatured_unfriendly"
+		text="{=952DmRsV}I heard that you have pledged allegiance to {?TT_LIEGE.GENDER}the lady{?}lord{\?} {TT_LIEGE.NAME}. Well, I can't say that I would have trusted you, but perhaps you deserve the benefit of the doubt.">
+		<tags>
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us.goodnatured"
+		text="{=ADCkcVUn}I heard that you have pledged allegiance to {?TT_LIEGE.GENDER}the lady{?}lord{\?} {TT_LIEGE.NAME}. Good {?PLAYER.GENDER}woman{?}man{\?}! Our {?TT_LIEGE.GENDER}lady{?}lord{\?} is a noble soul, and rewards loyalty and valor with kindness and generosity.">
+		<tags>
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us.upstanding_unfriendly"
+		text="{=O0acjJR9}I heard that you have pledged allegiance to {?TT_LIEGE.GENDER}the lady{?}lord{\?} {TT_LIEGE.NAME}. Alas, from what I know of you I fear that you will disgrace us, but I will be happy if you prove me wrong.">
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us.upstanding"
+		text="{=cWRudt73}I heard that you have pledged allegiance to {?TT_LIEGE.GENDER}the lady{?}lord{\?} {TT_LIEGE.NAME}. Fight against our foes with valor, but also with honour and compassion. A good name is as valuable as a sharp sword or a swift horse in affairs of arms.">
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us_as_mercenary.default"
+		text="{=Sxga9UOp}It's good to have you fighting alongside us.">
+		<tags>
+			<tag
+				tag_name="DefaultTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us_as_mercenary.famous"
+		text="{=b55tdDVs}So, you've signed up to fight alongside us. I'm glad that you're on our side.">
+		<tags>
+			<tag
+				tag_name="PlayerIsFamousTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us_as_mercenary.unfriendly"
+		text="{=pmw8vTs8}Let's see if you're worth what we're paying for you.">
+		<tags>
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="-1" />
+			<tag
+				tag_name="UncharitableTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_joined_us_as_mercenary.hostile"
+		text="{=qdMJ3HN3}So, we've taken you on as a mercenary. I'm not sure I'd trust you.">
+		<tags>
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_rebelled_against_me.default"
+		text="{=keJgUALH}Well... I can forgive many things, but it is hard to forgive treason.">
+		<tags>
+			<tag
+				tag_name="DefaultTag"
+				weight="+1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_rebelled_against_me.default"
+		text="{=CwJonOjV}You're a rebel and a traitor, {PLAYER.LINK}, but somehow I still can't bring myself to hate you.">
+		<tags>
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_rebelled_against_me.default"
+		text="{=lMFCQOJL}You rebelled and broke your oath of fealty to me, {PLAYER.LINK}. Expect no mercy.">
+		<tags>
+			<tag
+				tag_name="HostileRelationshipTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_rebelled_against_me.default"
+		text="{=WZ2K83Z4}You rebelled and broke your oath of fealty to me, {PLAYER.LINK}, but now the Heavens have delivered you to me.">
+		<tags>
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="-1" />
+			<tag
+				tag_name="AttackingTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_rebelled_against_us.default"
+		text="{=SCvFN6Ap}Your rebellion against {TT_LIEGE.NAME} was an act of treason.">
+		<tags>
+			<tag
+				tag_name="DefaultTag"
+				weight="+1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_rebelled_against_us.default"
+		text="{=rINfrA70}You rebelled against {TT_LIEGE.NAME}. Now, expect the punishment due traitors.">
+		<tags>
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="-1" />
+			<tag
+				tag_name="AttackingTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_rebelled_against_us.default"
+		text="{=CfYJZXok}You rebelled against {TT_LIEGE.NAME}. Look, I know you well. I'm sure you had your reasons. But you shouldn't have done that.">
+		<tags>
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="+1" />
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="+1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_rebelled_against_us.default"
+		text="{=Q5eT72ba}Your rebellion against {TT_LIEGE.NAME} makes us enemies. But to be honest, I rather prefer things that way. Better to have the serpent outside your tent rather than in, wouldn't you say?">
+		<tags>
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="-1" />
+			<tag
+				tag_name="PersonaIronicTag" />
+		</tags>
+	</string>
+	<!-- player renounces faction -->
+	<string
+		id="str_comment_changeherofaction_you_renounced_your_allegiance.default"
+		text="{=ucKrwFCj}I heard that you renounced your allegiance to {TT_LIEGE.NAME}. Well, that is your decision.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_renounced_your_allegiance.friendly"
+		text="{=3CKuk4Nj}I heard that you renounced your allegiance to {TT_LIEGE.NAME}. Let us pray that we may not come to blows.">
+		<tags>
+			<tag
+				tag_name="FriendlyRelationshipTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_renounced_your_allegiance.selfrighteous"
+		text="{=lsgsuRva}I heard that you renounced your allegiance to {TT_LIEGE.NAME}. Well, we're better off without you.">
+		<tags>
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="UncharitableTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeherofaction_you_renounced_your_allegiance.selfrighteous"
+		text="{=dNNcebar}So perhaps now you're regretting renouncing your allegiance to {TT_LIEGE.NAME}?">
+		<tags>
+			<tag
+				tag_name="FriendlyRelationshipTag"
+				weight="-1" />
+			<tag
+				tag_name="AttackingTag" />
+		</tags>
+	</string>
+	<!-- CHANGE HERO FACTION COMMENTS END -->
+	<!-- CLEAR ALLEY COMMENTS BEGIN -->
+	<!--string id="str_comment_clearalley_you_cleared_commonArea_in_my_fief.default" text="{=2pP0bUyF}I hear you recently got into a scrap with some CommonArea thugs. I suppose I should have cleaned them out myself at some point, but it sounds like you gave a good account of yourself.">
+    <tags>
+  	<tag tag_name="DefaultTag" />
+    </tags>
+  </string-->
+	<!--Comment: Accosted my caravan - Placing under destroy party. EDIT THESE -->
+	<string
+		id="str_comment_endplayerbattle_you_accosted_my_caravan.default"
+		text="{=yzxJBMJd}I hear you looted a caravan under my protection. I am not pleased.">
+		<tags>
+			<tag
+				tag_name="DefaultTag"
+				weight="+1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_accosted_my_caravan.not_enemy"
+		text="{=udMxMICB}I hear you looted a caravan under my protection. I'm going to assume that this was a misunderstanding.">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag"
+				weight="-1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_accosted_my_caravan.enemy_sadistic"
+		text="{=tMET9a0Q}I see you have helped yourself to one of my caravans... I am not kind to thieves. Perhaps I shall take your hands and eyes as compensation.">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_accosted_my_caravan.enemy_goodnatured"
+		text="{=PzBfkDIF}You looted a caravan under my protection. Look, it's war, we all do things... But was there really a need for that?">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="HostileRelationshipTag"
+				weight="-1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_accosted_my_caravan.enemy_upstanding"
+		text="{=jqOmOSQZ}Amongst war and death, trade alone keeps this great land together. If you insist on raiding my caravans and further undermining this world's prosperity, than I must defeat you.">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="HighRegisterTag" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_accosted_my_caravan.enemy_pitiless"
+		text="{=bOKqn4dN}Spare my caravans next time and find the courage to attack me directly.">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_accosted_my_caravan.enemy_default"
+		text="{=qEZR7adT}I can't stand idle while you disrupt my trade routes and raid my caravans, you must be brought to justice.">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="DefaultTag"
+				weight="+1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_accosted_my_caravan.enemy_pureevil"
+		text="{=rlLqbDCQ}You cost me a great sum of coin when you raided my caravan. I wonder if I could regain it through the sale of your organs.">
+		<tags>
+			<tag
+				tag_name="PlayerIsEnemyTag" />
+			<tag
+				tag_name="CautiousTag"
+				weight="1" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<!-- -->
+	<string
+		id="str_comment_endplayerbattle_you_accosted_my_caravan.goodnatured"
+		text="{=LXMcIObA}My peasants tell me a man bearing your description looted their goods and coin. I suppose I should be grateful you didn't burn the buildings to ground.">
+		<tags>
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_accosted_my_caravan.upstanding"
+		text="{=LXMcIObA}My peasants tell me a man bearing your description looted their goods and coin. I suppose I should be grateful you didn't burn the buildings to ground.">
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_accosted_my_caravan.pitiless"
+		text="{=LXMcIObA}My peasants tell me a man bearing your description looted their goods and coin. I suppose I should be grateful you didn't burn the buildings to ground.">
+		<tags>
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_accosted_my_caravan.badtempered"
+		text="{=LXMcIObA}My peasants tell me a man bearing your description looted their goods and coin. I suppose I should be grateful you didn't burn the buildings to ground.">
+		<tags>
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+		</tags>
+	</string>
+	<!--Comment: Ally Dialogue-->
+	<string
+		id="str_comment_endplayerbattle_you_accosted_my_caravan.upstanding"
+		text="{=S28aK0oF}I ask, for the sake of your honor, that you not raid anymore of my caravans.">
+		<tags>
+			<tag
+				tag_name="PlayerIsAlliedTag" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="ValorTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_accosted_my_caravan.goodnatured"
+		text="{=FxTlch69}You must think me a truely weathly man to raid my caravans and expect that I would not notice. I'll assume your actions were meant as a compliment, and that you'll find other means of income.">
+		<tags>
+			<tag
+				tag_name="PlayerIsAlliedTag" />
+			<tag
+				tag_name="GenerosityTag"
+				weight="1" />
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_endplayerbattle_you_accosted_my_caravan.badtempered"
+		text="{=VSyOVMge}Rather than brand you a traitor, I will assume that you were too base and foolish to recognize that it was MY caravan you were attacking and not an enemies.">
+		<tags>
+			<tag
+				tag_name="PlayerIsAlliedTag" />
+			<tag
+				tag_name="DeviousTag"
+				weight="1" />
+			<tag
+				tag_name="UngratefulTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeromanticstate_match_made_by_family.default"
+		text="{=9DDmAvXD}Apparently my family believes that we might make a good match.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeromanticstate_congratulations_marriage_self.default"
+		text="{=dkuhmSPi}So! What a wedding... I look forward to a happy married life with you.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeromanticstate_congratulations_marriage.default"
+		text="{=z76zznAS}Congratulations to you and {FIRST_NAME} on your marriage.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeromanticstate_congratulations_marriage.hostile"
+		text="{=C6iJs2Ih}So.. You married {FIRST_NAME}. No doubt you'll both be very happy.">
+		<tags>
+			<tag
+				tag_name="HostileRelationshipTag" />
+			<tag
+				tag_name="UncharitableTag" />
+		</tags>
+	</string>
+	<!--string id="str_comment_changeromanticstate_congratulations_engagement.default" text="{=4WF101zn}Congratulations to you and {FIRST_NAME} on your engagement.">
+    <tags>
+  	<tag tag_name="DefaultTag" />
+    </tags>
+  </string-->
+	<string
+		id="str_comment_changeromanticstate_stay_away_from_my_spouse.default"
+		text="{=YEoEaMRJ}You stay away from {FIRST_NAME}.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_changeromanticstate_romantic_rival.default"
+		text="{=jhnPucu3}So... We're both courting the fair {FIRST_NAME}.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<!--string id="str_comment_changeromanticstate_test.default" text="{=nBtUR9Gr}(TEST: Acknowledges relationship with {FIRST_NAME}).">
+    <tags>
+  	<tag tag_name="DefaultTag" />
+    </tags>
+  </string-->
+	<!-- Historic descriptions-->
+	<string
+		id="str_description_insultcharacter_x_insulted_y.default"
+		text="{=WROObSl4}{SIDE1TROOP} insulted {SIDE2TROOP}.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_description_insultcharacter_I_insulted_y.default"
+		text="{=al0vHv5D}I insulted {SIDE2TROOP}.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_description_insultcharacter_x_insulted_me.default"
+		text="{=e5viS3jv}{SIDE1TROOP} insulted me.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_description_insultcharacter_x_insulted_y_courtship.default"
+		text="{=dlfG8Bdx}{SIDE1TROOP} and {SIDE2TROOP} quarreled over their love for {SUBJECT}.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<!--string id="str_description_insultcharacter_I_insulted_y_courtship.default" text="{=0kaa5rPB}{SIDE2TROOP} quarreled with me over an affair of the heart.">
+    <tags>
+  	<tag tag_name="DefaultTag" />
+    </tags>
+  </string>
+  <string id="str_description_insultcharacter_x_insulted_me_courtship.default" text="{=wP4hoIys}{SIDE1TROOP} quarreled with me over an affair of the heart.">
+    <tags>
+  	<tag tag_name="DefaultTag" />
+    </tags>
+  </string-->
+	<string
+		id="str_comment_companion_on_honor_for_quest_success.default"
+		text="{=yjDRCuQx}I am glad we were true to our word with {COMMENT_REFERENCE_HERO}.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_companion_on_honor_for_quest_betrayal.default"
+		text="{=SoCaUHhH}There's something I can't stay silent about... You broke your word to {COMMENT_REFERENCE_HERO}. This is hard for me to accept.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_companion_on_generosity_for_party_morale.default"
+		text="{=Nnqgix3X}I am glad that you look after your men well.">
+		<tags>
+			<tag
+				tag_name="DefaultTag" />
+		</tags>
+	</string>
+</strings>

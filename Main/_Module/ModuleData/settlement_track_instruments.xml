@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MusicInstruments>
+	<MusicInstrument
+		id="nay"
+		sittingAction="act_play_nay_sitting"
+		standingAction="act_play_nay_stand"
+		tag="musician">
+		<Entities>
+			<Entity
+				name="musical_instrument_nay"
+				bone="ItemR" />
+		</Entities>
+	</MusicInstrument>
+	<MusicInstrument
+		id="harp"
+		sittingAction="act_play_celtic_harp_sitting"
+		standingAction="act_play_celtic_harp_stand"
+		tag="musician">
+		<Entities>
+			<Entity
+				name="musical_instrument_harp"
+				bone="Spine1" />
+		</Entities>
+	</MusicInstrument>
+	<MusicInstrument
+		id="cornu"
+		sittingAction="act_play_cornu_sitting"
+		standingAction="act_play_cornu_stand"
+		tag="musician">
+		<Entities>
+			<Entity
+				name="musical_instrument_cornu"
+				bone="Head" />
+		</Entities>
+	</MusicInstrument>
+	<MusicInstrument
+		id="oud"
+		sittingAction="act_play_oud_sitting"
+		standingAction="act_play_oud_stand"
+		tag="musician">
+		<Entities>
+			<Entity
+				name="musical_instrument_oud"
+				bone="Spine1" />
+		</Entities>
+	</MusicInstrument>
+	<MusicInstrument
+		id="dombra"
+		sittingAction="act_play_dombra_sitting"
+		standingAction="act_play_dombra_stand"
+		tag="musician">
+		<Entities>
+			<Entity
+				name="musical_instrument_dombra"
+				bone="Spine2" />
+		</Entities>
+	</MusicInstrument>
+	<MusicInstrument
+		id="khomus"
+		sittingAction="act_play_khomus_sitting"
+		standingAction="act_play_khomus_stand"
+		tag="musician">
+		<Entities>
+			<Entity
+				name="musical_instrument_khomus"
+				bone="Head" />
+		</Entities>
+	</MusicInstrument>
+	<MusicInstrument
+		id="flute"
+		sittingAction="act_play_flute_sitting"
+		standingAction="act_play_flute_stand"
+		tag="musician">
+		<Entities>
+			<Entity
+				name="musical_instrument_flute"
+				bone="Head" />
+		</Entities>
+	</MusicInstrument>
+	<MusicInstrument
+		id="hurdy_gurdy"
+		sittingAction="act_play_hurdygurdy_sitting"
+		standingAction="act_play_hurdygurdy_stand"
+		tag="musician">
+		<Entities>
+			<Entity
+				name="musical_instrument_hurdygurdy"
+				bone="ItemL" />
+		</Entities>
+	</MusicInstrument>
+	<MusicInstrument
+		id="bodhran"
+		sittingAction="act_play_bodhran_sitting"
+		standingAction="act_play_bodhran_stand"
+		tag="musician">
+		<Entities>
+			<Entity
+				name="musical_instrument_bodhran"
+				bone="ItemL" />
+			<!--<Entity name="musical_instrument_bodhran_stick"
+              bone="ItemR" />-->
+		</Entities>
+	</MusicInstrument>
+	<MusicInstrument
+		id="kemane"
+		sittingAction="act_play_kemane_sitting"
+		standingAction="act_play_kemane_stand"
+		tag="musician">
+		<Entities>
+			<Entity
+				name="musical_instrument_kemane"
+				bone="ItemL" />
+			<Entity
+				name="musical_instrument_bow"
+				bone="ItemR" />
+		</Entities>
+	</MusicInstrument>
+	<MusicInstrument
+		id="vielle"
+		sittingAction="act_play_vielle_sitting"
+		standingAction="act_play_vielle_stand"
+		tag="musician">
+		<Entities>
+			<Entity
+				name="musical_instrument_vielle"
+				bone="ItemL" />
+			<Entity
+				name="musical_instrument_bow2"
+				bone="ItemR" />
+		</Entities>
+	</MusicInstrument>
+	<MusicInstrument
+		id="dancing"
+		sittingAction="act_musician_idle_sitting_cheerful"
+		standingAction="act_dance_norse"
+		tag="npc_dancer">
+		<Entities></Entities>
+	</MusicInstrument>
+</MusicInstruments>

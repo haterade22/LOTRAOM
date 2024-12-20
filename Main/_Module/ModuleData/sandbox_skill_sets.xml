@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SkillSets>
+	<SkillSet
+		id="spc_notable_khuzait_0b">
+		<skill
+			id="OneHanded"
+			value="100" />
+	</SkillSet>
+	<!--SPY AMONG US SKILLS -->
+	<SkillSet
+		id="spy_among_us_quest_easy_template_skills">
+		<skill
+			id="Athletics"
+			value="90" />
+		<skill
+			id="Bow"
+			value="90" />
+		<skill
+			id="OneHanded"
+			value="90" />
+		<skill
+			id="Polearm"
+			value="90" />
+		<skill
+			id="Riding"
+			value="90" />
+		<skill
+			id="Throwing"
+			value="90" />
+		<skill
+			id="TwoHanded"
+			value="90" />
+		<skill
+			id="Tactics"
+			value="90" />
+	</SkillSet>
+	<SkillSet
+		id="spy_among_us_quest_normal_template_skills">
+		<skill
+			id="Athletics"
+			value="110" />
+		<skill
+			id="Bow"
+			value="110" />
+		<skill
+			id="OneHanded"
+			value="110" />
+		<skill
+			id="Polearm"
+			value="110" />
+		<skill
+			id="Riding"
+			value="110" />
+		<skill
+			id="Throwing"
+			value="110" />
+		<skill
+			id="TwoHanded"
+			value="110" />
+		<skill
+			id="Tactics"
+			value="110" />
+	</SkillSet>
+	<SkillSet
+		id="spy_among_us_quest_hard_template_skills">
+		<skill
+			id="Athletics"
+			value="140" />
+		<skill
+			id="Bow"
+			value="140" />
+		<skill
+			id="OneHanded"
+			value="140" />
+		<skill
+			id="Polearm"
+			value="140" />
+		<skill
+			id="Riding"
+			value="140" />
+		<skill
+			id="Throwing"
+			value="140" />
+		<skill
+			id="TwoHanded"
+			value="140" />
+		<skill
+			id="Tactics"
+			value="140" />
+	</SkillSet>
+	<SkillSet
+		id="spy_among_us_quest_very_hard_template_skills">
+		<skill
+			id="Athletics"
+			value="180" />
+		<skill
+			id="Bow"
+			value="180" />
+		<skill
+			id="OneHanded"
+			value="180" />
+		<skill
+			id="Polearm"
+			value="180" />
+		<skill
+			id="Riding"
+			value="180" />
+		<skill
+			id="Throwing"
+			value="180" />
+		<skill
+			id="TwoHanded"
+			value="180" />
+		<skill
+			id="Tactics"
+			value="180" />
+	</SkillSet>
+	<!--SPY AMONG US SKILLS END -->
+</SkillSets>

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<!-- STEVE:	I BELIEVE THE BELOW ARE FOR AN OLD QUEST MODEL
+  	
+	  	Quest types 
+	  1. War (the player acts on his or her own to further faction war aims)
+	  2. Support army (the player acts to support an army)
+	  3. Subversion (the player acts to prepare the ground for a future war against an enemy)
+	  4. Anti-bandit
+	  5. Family feuds
+	  6. Help minor faction (drive away interlopers, trial by combat)
+	  7. Retrieve item for town/lord
+	  
+	  -->
+	<!-- INDEPENDENT WAR QUESTS 
+	  Intro: "As you know, we are at war with the ...	
+	  -->
+	<!-- General economic attacks -->
+	<!-- SUPPORT ARMY QUESTS - An army is assembled, and the player is asked to support it -->
+	<!-- INTRIGUE QUESTS 
+	  These lay the groundwork for a future war against an enemy	
+	  -->
+	<!-- make contacts in town -->
+	<!-- KEEP ORDER QUESTS - Defeating bandits
+	  INTRODUCED BY A SOLILOQUOY ON THE IMPORTANCE OF TRADDE	
+	  	
+	  -->
+	<!-- Drive away bandits from a specific hideout -->
+	<!-- HELP MINOR FACTION QUESTS -->
+	<!-- Drive away interloper -->
+	<!-- Drive away bandits from village -->
+	<!-- Kill a certain amount of bandits in town vicinity -->
+	<!-- POLITICAL QUESTS -->
+	<!-- Provide a casus belli, or support me in a war council -->
+	<!-- Support me to end a war -->
+	<string
+		id="str_action_meet_lord"
+		text="{=8wlvxzuP}{HERO_1.LINK} has met {HERO_2.LINK}." />
+	<string
+		id="str_destroy_player_party"
+		text="{=KbakhGqB}{HERO_1.LINK} has defeated {HERO_2.LINK}'s party." />
+	<string
+		id="str_destroy_party_news"
+		text="{=hP57Caab}{VICTOR_PARTY} of the {VICTOR_FACTION} defeats {DEFEATED_PARTY} of the {DEFEATED_FACTION}." />
+	<string
+		id="str_factions_make_peace_news"
+		text="{=TsYCa2fZ}The {FACTION1} and the {FACTION2} have made peace." />
+	<string
+		id="str_factions_declare_war_news"
+		text="{=hopvV6Ch}{RULER_NAME} of the {FACTION1_NAME} declares war on the {FACTION2_NAME}." />
+	<string
+		id="str_factions_declare_war_news_direct"
+		text="{=SLAkSrb5}The {FACTION1_NAME} declares war on the {FACTION2_NAME}." />
+	<string
+		id="str_kingdom_destroyed"
+		text="{=aowJMil0}{KINGDOM} has been destroyed." />
+	<string
+		id="str_clan_destroyed"
+		text="{=WYHqMwwo}{CLAN} has been eliminated." />
+	<string
+		id="str_settlement_state_changed_to_being_raided_news"
+		text="{=PLiydbpQ}{PARTY} started raiding {SETTLEMENT}." />
+	<string
+		id="str_settlement_state_changed_to_normal_news"
+		text="{=a0qduLNq}{SETTLEMENT} is safe now." />
+	<string
+		id="str_army_battle_news"
+		text="{=PsU1ri42}{PARTY1} has been in battle with {PARTY2}." />
+	<string
+		id="str_party_besieging_news_with_link"
+		text="{=AxMrFoea}{TOWN_NAME} has been besieged by forces led by {LORD.LINK} of the {FACTION_NAME}!" />
+	<string
+		id="str_party_besieging_news"
+		text="{=AxMrFoea}{TOWN_NAME} has been besieged by forces led by {LORD.LINK} of the {FACTION_NAME}!" />
+	<string
+		id="str_army_besieging_news_with_link"
+		text="{=EHFibjkM}{TOWN_NAME} has been besieged by the army led by {LORD.LINK} of the {FACTION_NAME}!" />
+	<string
+		id="str_army_besieging_news"
+		text="{=kqwNCCbZ}{TOWN_NAME} has been besieged by army led by {LORD.LINK} of the {FACTION_NAME}!" />
+	<string
+		id="str_army_raiding_news"
+		text="{=nbVW2cJ8}{SETTLEMENT} is raided by the army led by {LORD.LINK} of the {FACTION_NAME}" />
+	<string
+		id="str_party_raiding_news"
+		text="{=hbWhfoWH}{SETTLEMENT} is raided by {LORD.LINK} of the {FACTION_NAME}" />
+	<!--placeholder-->
+	<string
+		id="str_assault_news"
+		text="{=ksr1bSTC}{SETTLEMENT} is being assaulted by {PARTY}." />
+	<!--placeholder-->
+	<string
+		id="str_army_defend_from_raiding_news"
+		text="{=bZvmjYPE}{PARTY} is defending {SETTLEMENT}." />
+	<!--placeholder-->
+	<string
+		id="str_defend_from_assault_news"
+		text="{=Cae69FRp}{SETTLEMENT} is being defended by {PARTY}." />
+	<!--placeholder-->
+	<string
+		id="str_add_contraband_news"
+		text="{=!}Trading of {ITEM} is forbidden by the {FACTION_NAME_1}." />
+	<string
+		id="str_responsible_of_death_news"
+		text="{=ZQ0bn7l7}{HERO_1} is responsible for the death of {HERO_2}" />
+	<string
+		id="str_responsible_of_death_link_news"
+		text="{=Jo3Lux3w}{HERO_1.LINK} is responsible for the death of {HERO_2.LINK}" />
+	<string
+		id="str_murdered_news"
+		text="{=AQK4ADS5}{HERO_1.LINK} murdered {HERO_2.LINK}" />
+	<string
+		id="str_murdered_passive_news"
+		text="{=6q9sb18u}{HERO_2.LINK} is murdered." />
+	<string
+		id="str_fugitive_news"
+		text="{=XRTcnnR2}{HERO.LINK} is fugitive." />
+	<string
+		id="str_settlement_owner_changed_news"
+		text="{=h5rkbVu3}New owner of {SETTLEMENT} is {LORD.LINK}." />
+	<string
+		id="str_hideout_owner_changed_news"
+		text="{=yUaE3eeX}{SETTLEMENT} is cleaned." />
+	<string
+		id="str_hideout_spotted"
+		text="{=7tx9sch3}Hideout spotted" />
+	<string
+		id="str_alley_owner_changed_news"
+		text="{=dzJOruIi}{COMMON_AREA} in {SETTLEMENT} is lost to {HERO.LINK}." />
+	<string
+		id="str_alley_cleared_news"
+		text="{=7SHqWNzE}{COMMON_AREA} in {SETTLEMENT} is now cleared of thugs." />
+	<string
+		id="str_overrule_influence_historic_comment"
+		text="{=1B57e3WC}{HERO} overruled the will of the council of {FACTION}" />
+	<!-- these are mostly for back history-->
+	<string
+		id="str_insult_news"
+		text="{=orDGbYZE}{INSULTER.LINK} has quarreled with {INSULTEE.LINK}." />
+	<string
+		id="str_insult_news_courtship"
+		text="{=kMwv4QJK}{INSULTER.LINK} has quarrelled with {INSULTEE.LINK} over a courtship." />
+	<string
+		id="str_insult_news_setback_valor"
+		text="{=jZcV4gI7}{INSULTER.LINK} has said {INSULTEE.LINK} caused a battlefield setback by acting in a cowardly fashion." />
+	<string
+		id="str_insult_news_setback_calculating"
+		text="{=WiiRaLyK}{INSULTER.LINK} has said {INSULTEE.LINK} caused a setback on the battlefield by behaving rashly." />
+	<string
+		id="str_insult_news_setback_responsibility"
+		text="{=MoYYusXJ}{INSULTER.LINK} has said {INSULTEE.LINK} caused a setback on the battlefield by failing to follow orders." />
+	<string
+		id="str_insult_news_vengeance"
+		text="{=8Klpa7Xa}{INSULTER.LINK} has sworn vengeance against {INSULTEE.LINK}." />
+	<string
+		id="str_insult_news_land"
+		text="{=pBMMXwVa}{INSULTER.LINK} claims {INSULTEE.LINK} has been trying to fraudulently acquire land." />
+	<string
+		id="str_insult_news_troublemaker"
+		text="{=nPF738Cb}{INSULTER.LINK} has accused {INSULTEE.LINK} of stirring up trouble among the people." />
+	<string
+		id="str_insult_news_heretic"
+		text="{=h78oPYTs}{INSULTER.LINK} says {INSULTEE.LINK} is a heretic." />
+	<string
+		id="str_insult_news_dishonest_business"
+		text="{=dmqy8OyY}{INSULTER.LINK} says {INSULTEE.LINK} practices business dishonestly." />
+	<string
+		id="str_insult_news_ruthless_business"
+		text="{=bNDUtygL}{INSULTER.LINK} says {INSULTEE.LINK} hoards goods to drive up prices." />
+	<string
+		id="str_insult_news_extorting"
+		text="{=bNAxWneP}{INSULTER.LINK} says {INSULTEE.LINK} is extorting money from enterprises." />
+	<string
+		id="str_insult_news_fief"
+		text="{=RpVrqXOU}{INSULTER.LINK} has quarreled with {INSULTEE.LINK} over a fief." />
+	<!--<string id="str_liege_overrule_news" text="{=1OAh8pZb}{LIEGE_NAME} has ignored the sense in {FACTION_NAME} that {SNUBBED_LORD.LINK} should receive a fief or title." />-->
+	<string
+		id="str_claim_settlement_news"
+		text="{=F3MPgmhR}{CLAIMANT.LINK} says that {SETTLEMENT_NAME} should be owned by the {CLAIMANT_CLAN}, not the {CURRENT_OWNER_CLAN}." />
+	<!--string id="str_action_log_war" text="{FACTION1} declared war over {FACTION2}"/>
+  <string id="str_notification_war_peace" text="{FACTION1} - {FACTION2}"/>
+  <string id="str_notification_barter" text="{HERO1} and {HERO2} made deal."/>
+  <string id="str_notification_change_faction" text="{?NAME_OR_LINK}{?}{LORD.LINK}{\?}{LORD.LINK} has defected to {FACTION}"/>
+  <string id="str_notification_prisoner" text="{LORD_NAME1} has been captured by {LORD_NAME2}"/>
+  <string id="str_notification_assault" text="{TOWN} is being assaulted by {PARTY}"/>
+  <string id="str_notification_raid" text="{VILLAGE} is being looted by {PARTY}"/>
+  <string id="str_notification_besiege" text="{TOWN} is now under siege."/>
+  <string id="str_notification_settlement_owner_changed" text="New owner of {TOWN} is {LORD}."/>
+  <string id="str_notification_settlement_faction_changed" text="{TOWN} is captured by {FACTION}."/>
+  <string id="str_notification_give_gold" text="{LORD.LINK} give {NUMBER} golds to {OTHER_LORD.LINK}."/>
+  <string id="str_notification_give_settlement" text="{LORD.LINK} give {SETTLEMENT_NAME} to {OTHER_LORD.LINK}."/>
+  <string id="str_notification_give_prisoner" text="{LORD.LINK} give {PRISONER_NAME} to {OTHER_LORD.LINK}."/-->
+	<string
+		id="str_notification_secondary_peace"
+		text="{=hJFCi1zu}The {FACTION1} and the {FACTION2} have made peace." />
+	<string
+		id="str_notification_change_faction"
+		text="{=dfAE3liA}The {CLAN_NAME} clan has joined the {FACTION}." />
+	<string
+		id="str_notification_mercenary_contract"
+		text="{=ExbVzTZA}The {CLAN} have contracted to fight alongside the {KINGDOM}." />
+	<string
+		id="str_notification_mercenary_contract_end"
+		text="{=S0oFKYfB}The {CLAN} no longer serve the {KINGDOM}." />
+	<string
+		id="str_notifications_icon_contraband"
+		text="{=aheVbtmm}{ITEM} at {FACTION}" />
+	<string
+		id="str_common_area_destroyed"
+		text="{=FZdiWaBs}{HERO}'s common area is captured." />
+	<string
+		id="str_notification_common_area_fight"
+		text="{=!}{SETTLEMENT}" />
+	<string
+		id="str_notification_secondary_common_area_fight"
+		text="{=cOnCiZeH}{HERO1} attacked {HERO2}'s common area at {SETTLEMENT}{ADDITIONAL_INFO}" />
+	<string
+		id="str_notification_pregnant"
+		text="{=ELFgdGJZ}{MOTHER.LINK} is now pregnant." />
+	<string
+		id="str_notification_give_birth_default"
+		text="{=eMRMptST}{MOTHER.LINK} has given birth." />
+	<string
+		id="str_notification_give_birth_single_child"
+		text="{=3aYSoETE}{MOTHER.LINK} has given birth to a healthy baby." />
+	<string
+		id="str_notification_give_birth_single_stillborn"
+		text="{=Bovy7D7s}{MOTHER.LINK} has given birth, but the child was stillborn." />
+	<string
+		id="str_notification_maternal_death"
+		text="{=P9RGAGFC}{MOTHER.LINK} has died in childbirth." />
+	<string
+		id="str_notification_character_born"
+		text="{=pHyqL3bw}{HERO.LINK} has been born to {MOTHER.LINK} and {FATHER.LINK}." />
+	<!-- The two strings below are not used anywhere
+  <string id="str_notification_revolt" text="{=base.strings.string.text.str_notification_revolt}{SETTLEMENT}" />
+  <string id="str_notification_secondary_revolt" text="{=base.strings.string.text.str_notification_secondary_revolt}The citizens have revolted against their ruler." />
+  -->
+	<string
+		id="str_notification_quarrel"
+		text="{=!}{LORD.LINK}" />
+</strings>

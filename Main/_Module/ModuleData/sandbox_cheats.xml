@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cheats>
+	<Cheat
+		name="Enable Cheat Mode"
+		code="config.cheat_mode 1" />
+	<Cheat
+		name="Default Boost"
+		code="campaign.boost_player"
+		closeOnExecute="true" />
+	<Cheat
+		name="Advanced Boost I"
+		code="campaign.add_money_to_main_party 150000;campaign.add_troops vlandian_swordsman 20;campaign.add_troops vlandian_sergeant 20;campaign.add_troops vlandian_banner_knight 20;campaign.add_troops vlandian_sharpshooter 20;campaign.add_item_to_main_party fish 30;campaign.add_item_to_main_party grain 30;campaign.add_item_to_main_party meat 30;campaign.add_item_to_main_party wine 30;campaign.add_renown_to_clan 1500;campaign.add_influence 1000;crafting.give_random_weapons 10;campaign.add_all_crafting_materials_to_main_party 10;campaign.add_attribute_points_to_hero 2;campaign.add_focus_points_to_hero 2"
+		closeOnExecute="true" />
+	<Cheat
+		name="Advanced Boost II"
+		code="campaign.add_money_to_main_party 150000;campaign.add_troops vlandian_swordsman 100;campaign.add_troops vlandian_sergeant 60;campaign.add_troops vlandian_banner_knight 50;campaign.add_troops vlandian_sharpshooter 120;campaign.add_item_to_main_party fish 75;campaign.add_item_to_main_party grain 75;campaign.add_item_to_main_party meat 75;campaign.add_item_to_main_party wine 75;campaign.add_renown_to_clan 1600;campaign.add_companion;campaign.add_companion;campaign.set_all_companion_skills 175;campaign.set_all_skills_main_hero 300;campaign.add_influence 5000;crafting.give_random_weapons 40;campaign.add_all_crafting_materials_to_main_party 50;campaign.add_attribute_points_to_hero 30;campaign.add_focus_points_to_hero 30"
+		closeOnExecute="true" />
+	<Cheat
+		name="Make Main Hero Ill"
+		code="campaign.make_main_hero_ill"
+		closeOnExecute="true" />
+	<Cheat
+		name="Heal Main Party"
+		code="campaign.heal_main_party"
+		closeOnExecute="true" />
+	<Cheat
+		name="Add 1000 Gold"
+		code="campaign.add_gold_to_hero 1000"
+		closeOnExecute="true" />
+	<Cheat
+		name="Add 10000 Gold"
+		code="campaign.add_gold_to_hero 10000"
+		closeOnExecute="true" />
+	<Cheat
+		name="Add 100000 Gold"
+		code="campaign.add_gold_to_hero 100000"
+		closeOnExecute="true" />
+	<Cheat
+		name="Add 1000000 Gold"
+		code="campaign.add_gold_to_hero 1000000"
+		closeOnExecute="true" />
+	<Cheat
+		name="Add 10000000 Gold"
+		code="campaign.add_gold_to_hero 10000000"
+		closeOnExecute="true" />
+	<Cheat
+		name="Add 50 Renown"
+		code="campaign.add_renown_to_clan 50"
+		closeOnExecute="true" />
+	<Cheat
+		name="Add 250 Renown"
+		code="campaign.add_renown_to_clan 250"
+		closeOnExecute="true" />
+	<Cheat
+		name="Add 1000 Renown"
+		code="campaign.add_renown_to_clan 1000"
+		closeOnExecute="true" />
+	<Cheat
+		name="Add 100 Influence"
+		code="campaign.add_influence 100"
+		closeOnExecute="true" />
+	<Cheat
+		name="Add 250 Influence"
+		code="campaign.add_influence 250"
+		closeOnExecute="true" />
+	<Cheat
+		name="Add 1000 Influence"
+		code="campaign.add_influence 1000"
+		closeOnExecute="true" />
+	<Cheat
+		name="Campaign FF Speed Default"
+		code="campaign.multiply_campaign_speed 4"
+		closeOnExecute="true" />
+	<Cheat
+		name="Campaign FF Speed x8"
+		code="campaign.multiply_campaign_speed 5"
+		closeOnExecute="true" />
+	<Cheat
+		name="Campaign FF Speed x10"
+		code="campaign.multiply_campaign_speed 10"
+		closeOnExecute="true" />
+	<Cheat
+		name="Campaign FF Speed x15"
+		code="campaign.multiply_campaign_speed 15"
+		closeOnExecute="true" />
+	<Cheat
+		name="Join Khuzait"
+		code="campaign.join_kingdom Khuzait"
+		closeOnExecute="true" />
+	<Cheat
+		name="Join Aserai"
+		code="campaign.join_kingdom Aserai"
+		closeOnExecute="true" />
+	<Cheat
+		name="Join Northern Empire"
+		code="campaign.join_kingdom Northern"
+		closeOnExecute="true" />
+	<Cheat
+		name="Join Southern Empire"
+		code="campaign.join_kingdom Southern"
+		closeOnExecute="true" />
+	<Cheat
+		name="Join Vlandia"
+		code="campaign.join_kingdom Vlandia"
+		closeOnExecute="true" />
+	<Cheat
+		name="Join Sturgia"
+		code="campaign.join_kingdom Sturgia"
+		closeOnExecute="true" />
+	<Cheat
+		name="Join Battania"
+		code="campaign.join_kingdom Battania"
+		closeOnExecute="true" />
+	<Cheat
+		name="Add Crafting Materials"
+		code="campaign.add_crafting_materials"
+		closeOnExecute="true" />
+	<Cheat
+		name="Unlock Crafting Materials"
+		code="unlock_all_crafting_pieces"
+		closeOnExecute="true" />
+	<Cheat
+		name="Throw Caladog as Prisoner in Chaikand"
+		code="campaign.throw_prisoner_to_settlement Caladog | Chaikand"
+		closeOnExecute="true" />
+	<Cheat
+		name="Marry Female Hero"
+		code="campaign.marry_player_with_hero Abagai"
+		closeOnExecute="true" />
+	<Cheat
+		name="Marry Male Hero"
+		code="campaign.marry_player_with_hero Bortu"
+		closeOnExecute="true" />
+	<Cheat
+		name="Start World War"
+		code="campaign.start_world_war"
+		closeOnExecute="true" />
+	<Cheat
+		name="Start World Peace"
+		code="campaign.start_world_peace"
+		closeOnExecute="true" />
+	<Cheat
+		name="Give Poros To Player"
+		code="campaign.give_settlement_to_player Poros"
+		closeOnExecute="true" />
+	<Cheat
+		name="Give 400 Troop To Player"
+		code="campaign.fill_party 400"
+		closeOnExecute="true" />
+	<Cheat
+		name="Set Main Party Unattackable"
+		code="campaign.set_main_party.attackable 0"
+		closeOnExecute="true" />
+	<Cheat
+		name="Set Trade Skill 20"
+		code="campaign.set_skill_main_hero 20 trade"
+		closeOnExecute="true" />
+	<Cheat
+		name="Set Trade Skill 100"
+		code="campaign.set_skill_main_hero 100 trade"
+		closeOnExecute="true" />
+	<Cheat
+		name="Set One Handed Skill 20"
+		code="campaign.set_skill_main_hero 20 one handed"
+		closeOnExecute="true" />
+	<Cheat
+		name="Set One Handed Skill 100"
+		code="campaign.set_skill_main_hero 100 one handed"
+		closeOnExecute="true" />
+	<Cheat
+		name="Set All Hero Skill 300"
+		code="campaign.set_all_skills_main_hero 300"
+		closeOnExecute="true" />
+	<Cheat
+		name="Set Companion Skill 300"
+		code="campaign.set_all_companion_skills 300"
+		closeOnExecute="true" />
+	<Cheat
+		name="Give 500 Cow"
+		code="campaign.add_item_to_main_party cow 500"
+		closeOnExecute="true" />
+	<Cheat
+		name="Give 50 Meat"
+		code="campaign.add_item_to_main_party meat 50"
+		closeOnExecute="true" />
+	<Cheat
+		name="Weaken Western Kingdom"
+		code="storymode.weaken_kingdom western"
+		closeOnExecute="true" />
+	<Cheat
+		name="Criminal Rate 100 Western Kingdom"
+		code="Campaign.set_criminal_rating 100 western"
+		closeOnExecute="true" />
+	<Cheat
+		name="Clear All Circle Notifications"
+		code="campaign.remove_all_circle_notifications"
+		closeOnExecute="true" />
+</Cheats>

@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter
+		id="neutral_lord_1"
+		name="{=3PzgpFGq}Neutral"
+		age="51"
+		voice="curt"
+		default_group="Cavalry"
+		is_template="true"
+		is_hero="true"
+		culture="Culture.khuzait"
+		occupation="Lord"
+		is_hidden_encyclopedia="true"
+		face_mesh_cache="true"
+		is_obsolete="true">
+		<face>
+			<!--face_key value="00065d26407c300d44e41771225c99957c67a8684a494ab868898a7575d96733000aca34ea9b6a780000037f0000000f00000037049140010000000000003000" /-->
+			<BodyProperties
+				version="4"
+				key="00065C06407C300D44E41771225899957C67A8684A494AB868898A7575D9673300088A38089B6A780000037F0000000F00000037049140010000000001183001" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS-->
+			<Trait
+				id="BalancedFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="7" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true" />
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.ambassador_sword_t3" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_looters_1"
+		default_group="Ranged"
+		age="25"
+		voice="curt"
+		is_hero="true"
+		culture="Culture.looters"
+		occupation="Bandit"
+		name="{=3Y4jnu5i}Looter Hero"
+		is_hidden_encyclopedia="true"
+		face_mesh_cache="true"
+		is_obsolete="true">
+		<face>
+			<!--face_key value="0012cd2fc6fc0088e45555148d5769926c95a9ab67b906a757469877267ab9a8000e72b49b6d62b800001105000030a30000001f000000000000000000009000" /-->
+			<BodyProperties
+				version="4"
+				key="0011CC0FC6FC0088E45555148D5569926C95A9AB67B906A757469877267AB9A8000452B50B6D62B800001105000030A30000001F000000000000000000A09000" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS-->
+			<Trait
+				id="BalancedFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="7" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Item2"
+					id="Item.mountain_hunting_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.range_arrows" />
+				<equipment
+					slot="Body"
+					id="Item.tattered_rags" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.armwraps" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Item2"
+					id="Item.mountain_hunting_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.range_arrows" />
+				<equipment
+					slot="Body"
+					id="Item.tattered_rags" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.armwraps" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--NPCCharacter id="lord_deserter_1" default_group="Cavalry" age="58" voice="curt"   is_hero="true" culture="Culture.deserters" occupation="Bandit" name="Deserter Hero" >
+    <face>
+      <BodyProperties version="3" key="0012cd2fc6fc0088e45555148d5769926c95a9ab67b906a757469877267ab9a8000e72b49b6d62b800001105000030a30000001f000000000000000000009000"/>
+    </face>
+    <Hero id="lord_deserter_1"  faction="Faction.deserters" />
+    <skills>
+    </skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="5" />
+
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="7" />
+
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+      <equipment slot="Item2" id="Item.mountain_hunting_bow" />
+      <equipment slot="Item3" id="Item.range_arrows" />
+      <equipment slot="Body" id="Item.sackcloth_tunic" />
+      <equipment slot="Leg" id="Item.ragged_boots" />
+      <equipment slot="Gloves" id="Item.armwraps" />
+      <equipment slot="Horse" id="Item.sumpter_horse" />
+    </equipmentSet>
+  </NPCCharacter-->
+	<NPCCharacter
+		id="lord_sea_raiders_1"
+		default_group="Ranged"
+		age="25"
+		voice="curt"
+		is_hero="true"
+		culture="Culture.sea_raiders"
+		occupation="Bandit"
+		name="{=2V8NE0Vn}Sea Raiders Hero"
+		is_hidden_encyclopedia="true"
+		face_mesh_cache="true"
+		is_obsolete="true">
+		<face>
+			<!--face_key value="00197d24887c32c27c7537b7a8c498c6ca7b94247bd3b7a374a37946969cc9ba000a44c45c89979900001105000030a30000001f000000000000000000004000" /-->
+			<BodyProperties
+				version="4"
+				key="00167C04487C32C27C7537B7A8C398C6CA7B94247BD3B7A374A37946969CC9BA000434C30C89979900001105000030A30000001F000000000000000000504000" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS-->
+			<Trait
+				id="BalancedFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="7" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.simple_sparth_axe_t2" />
+				<equipment
+					slot="Item2"
+					id="Item.mountain_hunting_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_leather_cap" />
+				<equipment
+					slot="Body"
+					id="Item.nordic_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.padded_mitten" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.simple_sparth_axe_t2" />
+				<equipment
+					slot="Item2"
+					id="Item.mountain_hunting_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_leather_cap" />
+				<equipment
+					slot="Body"
+					id="Item.nordic_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.padded_mitten" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_mountain_bandits_1"
+		default_group="Ranged"
+		age="25"
+		voice="curt"
+		is_hero="true"
+		culture="Culture.mountain_bandits"
+		occupation="Bandit"
+		name="{=aRCzXkiD}Mountain Bandits Hero"
+		is_hidden_encyclopedia="true"
+		face_mesh_cache="true"
+		is_obsolete="true">
+		<face>
+			<!--face_key value="0032952c800012865897773981684655d9d8c798581b5696684c587363987795000484947cc7c49a00001105000030a30000001f000000000000000000007000" /-->
+			<BodyProperties
+				version="4"
+				key="0033940CC00012865897773981684655D9D8C798581B5696684C587363987795000404950CC7C49A00001105000030A30000001F000000000000000000007000" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS-->
+			<Trait
+				id="BalancedFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="7" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.falchion_sword_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.worn_kite_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.mountain_hunting_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.range_arrows" />
+				<equipment
+					slot="Body"
+					id="Item.fur_armor_with_strap" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.armwraps" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.falchion_sword_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.worn_kite_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.mountain_hunting_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.range_arrows" />
+				<equipment
+					slot="Body"
+					id="Item.fur_armor_with_strap" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.armwraps" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_forest_bandits_1"
+		default_group="Ranged"
+		age="25"
+		voice="curt"
+		is_hero="true"
+		culture="Culture.forest_bandits"
+		occupation="Bandit"
+		name="{=EHHVVfgW}Forest Bandits Hero"
+		is_hidden_encyclopedia="true"
+		face_mesh_cache="true"
+		is_obsolete="true">
+		<face>
+			<!--face_key value="00196520083c20c55aca7947c4672588b888929c37a98b74576645cb59574ad7000a7ab4a97569ed00001105000030a30000001f000000000000000000007000" /-->
+			<BodyProperties
+				version="4"
+				key="00166400083C20C55ACA7947C4642588B888929C37A98B74576645CB59574AD700044AB4097569ED00001105000030A30000001F000000000000000000507000" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS-->
+			<Trait
+				id="BalancedFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="7" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.simple_sparth_axe_t2" />
+				<equipment
+					slot="Item2"
+					id="Item.glen_ranger_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Body"
+					id="Item.fur_waistcoat_over_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.padded_vambrace" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.simple_sparth_axe_t2" />
+				<equipment
+					slot="Item2"
+					id="Item.glen_ranger_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Body"
+					id="Item.fur_waistcoat_over_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.padded_vambrace" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_desert_bandits_1"
+		default_group="Ranged"
+		age="25"
+		voice="curt"
+		is_hero="true"
+		culture="Culture.desert_bandits"
+		occupation="Bandit"
+		name="{=kgbt5pim}Desert Bandits Hero"
+		is_hidden_encyclopedia="true"
+		face_mesh_cache="true"
+		is_obsolete="true">
+		<face>
+			<!--face_key value="001f2926407c24852639456d593673a9968446b5568c66a8c53582b9ab545c34000a6934968b5ab300001105000030a30000001f000000000000000000008000" /-->
+			<BodyProperties
+				version="4"
+				key="001C2805807C24852639456D593473A9968446B5568C66A8C53582B9AB545C3400044934068B5AB300001105000030A30000001F000000000000000000508000" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS-->
+			<Trait
+				id="BalancedFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="7" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.simple_sabre_sword_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.leather_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.noble_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.desert_cap" />
+				<equipment
+					slot="Body"
+					id="Item.desert_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.simple_sabre_sword_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.leather_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.noble_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.desert_cap" />
+				<equipment
+					slot="Body"
+					id="Item.desert_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_steppe_bandits_1"
+		default_group="Ranged"
+		age="58"
+		voice="curt"
+		is_hero="true"
+		culture="Culture.steppe_bandits"
+		occupation="Bandit"
+		name="{=kNThwuOH}Steppe Bandits Hero"
+		is_hidden_encyclopedia="true"
+		face_mesh_cache="true"
+		is_obsolete="true">
+		<face>
+			<!--face_key value="001f2926407c24852639456d593673a9968446b5568c66a8c53582b9ab545c34000a6934968b5ab300001105000030a30000001f000000000000000000008000" /-->
+			<BodyProperties
+				version="4"
+				key="001F2806407C24852639456D593273A9968446B5568C66A8C53582B9AB545C3400042935068B5AB300001105000030A30000001F000000000000000000008000" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS-->
+			<Trait
+				id="BalancedFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="7" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.simple_back_sword_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.leather_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.noble_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.desert_cap" />
+				<equipment
+					slot="Body"
+					id="Item.desert_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.simple_back_sword_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.leather_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.noble_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.desert_cap" />
+				<equipment
+					slot="Body"
+					id="Item.desert_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

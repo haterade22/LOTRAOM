@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter
+		id="caravan_leader_player_faction"
+		default_group="Infantry"
+		is_hero="false"
+		is_mercenary="true"
+		culture="Culture.aserai"
+		occupation="Merchant"
+		name="{=7bjyJDaK}Player Faction Mercenaries Leader">
+		<face>
+			<!--face_key value="001f5c0e163c2084a565863785b565d76571a84835e946568296a768a5a44ba5000d5880679593a6000000000000000000000000000000000000000000002000"/-->
+			<BodyProperties
+				version="4"
+				age="57.06"
+				weight="0.3881"
+				build="0.3792"
+				key="001C5C0E563C2084A565863785B665D76571A84835E946568296A768A5A44BA500066887069593A6000000000000000000000000000000000000000000502000" />
+			<BodyPropertiesMax
+				version="4"
+				age="57.06"
+				weight="0.3881"
+				build="0.3792"
+				key="001C5C0E563C2084A565863785B665D76571A84835E946568296A768A5A44BA500066887069593A6000000000000000000000000000000000000000000502000" />
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.short_sword_t3" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai"
+				civilian="true" />
+			<equipment
+				slot="Body"
+				id="Item.fur_armor_with_strap" />
+			<equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="caravan_leader_empire"
+		default_group="Infantry"
+		is_hero="false"
+		is_mercenary="true"
+		culture="Culture.empire"
+		occupation="Merchant"
+		name="{=jHVTqyI4}Empire Mercenaries Leader">
+		<face>
+			<!--face_key value="00199006407c0042d997495b98562c359578cc9a48c3b5735db5ac617aacdd7e000a6960b3489eb5000000000000000000000000000000000000000000009000"/-->
+			<BodyProperties
+				version="4"
+				age="45.96"
+				weight="0.4991"
+				build="0.4813"
+				key="00169005807C0042D997495B98572C359578CC9A48C3B5735DB5AC617AACDD7E0007796507489EB5000000000000000000000000000000000000000000A09000" />
+			<BodyPropertiesMax
+				version="4"
+				age="45.96"
+				weight="0.4991"
+				build="0.4813"
+				key="00169005807C0042D997495B98572C359578CC9A48C3B5735DB5AC617AACDD7E0007796507489EB5000000000000000000000000000000000000000000A09000" />
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.light_mace_t3" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire"
+				civilian="true" />
+			<equipment
+				slot="Body"
+				id="Item.fur_armor_with_strap" />
+			<equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="caravan_leader_sturgia"
+		default_group="Infantry"
+		is_hero="false"
+		is_mercenary="true"
+		culture="Culture.sturgia"
+		occupation="Merchant"
+		name="{=EsJ3Drv7}Sturgia Mercenaries Leader">
+		<face>
+			<!--face_key value="00064c0c903c128d3378764a99782952967a8467a7a87bd7d7496cb5b3775ca50006833095b39736000000000000000000000000000000000000000000006000"/-->
+			<BodyProperties
+				version="4"
+				age="43.18"
+				weight="0.4591"
+				build="0.4635"
+				key="00064C0CD03C128D3378764A99772952967A8467A7A87BD7D7496CB5B3775CA50007733507B39736000000000000000000000000000000000000000000C86000" />
+			<BodyPropertiesMax
+				version="4"
+				age="43.18"
+				weight="0.4591"
+				build="0.4635"
+				key="00064C0CD03C128D3378764A99772952967A8467A7A87BD7D7496CB5B3775CA50007733507B39736000000000000000000000000000000000000000000C86000" />
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.narrow_sword_t3" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_sturgia"
+				civilian="true" />
+			<equipment
+				slot="Body"
+				id="Item.fur_armor_with_strap" />
+			<equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="caravan_leader_aserai"
+		default_group="Infantry"
+		is_hero="false"
+		is_mercenary="true"
+		culture="Culture.aserai"
+		occupation="Merchant"
+		name="{=GIRpmax8}Aserai Mercenaries Leader">
+		<face>
+			<!--face_key value="0006b4031300008e3d8874e9b67b8298a6438a88791ba5b76335663b665246640006b2b0ab75c8b4000000000000000000000000000000000000000000000000"/-->
+			<BodyProperties
+				version="4"
+				age="57.06"
+				weight="0.4325"
+				build="0.3614"
+				key="0006B402D300008E3D8874E9B6768298A6438A88791BA5B76335663B66524664000562B70575C8B4000000000000000000000000000000000000000000A00000" />
+			<BodyPropertiesMax
+				version="4"
+				age="57.06"
+				weight="0.4325"
+				build="0.3614"
+				key="0006B402D300008E3D8874E9B6768298A6438A88791BA5B76335663B66524664000562B70575C8B4000000000000000000000000000000000000000000A00000" />
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_noble_sword_2_t5" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai"
+				civilian="true" />
+			<equipment
+				slot="Body"
+				id="Item.fur_armor_with_strap" />
+			<equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="caravan_leader_vlandia"
+		default_group="Infantry"
+		is_hero="false"
+		is_mercenary="true"
+		culture="Culture.vlandia"
+		occupation="Merchant"
+		name="{=XhbgteUK}Vlandia Mercenaries Leader">
+		<face>
+			<!--face_key value="000601d180045388ffdff0104fc786977770fff8dfc070f568a678490000000f00077007085e8955000000000000000000000000000000000000000000000183"/-->
+			<BodyProperties
+				version="4"
+				age="55.39"
+				weight="0.3881"
+				build="0.3792"
+				key="0005000140005388FFDFF0104FC686977770FFF8DFC070F568A678490000000F00066006065E8955000000000000000000000000000000000000000000780183" />
+			<BodyPropertiesMax
+				version="4"
+				age="55.39"
+				weight="0.3881"
+				build="0.3792"
+				key="0005000140005388FFDFF0104FC686977770FFF8DFC070F568A678490000000F00066006065E8955000000000000000000000000000000000000000000780183" />
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia"
+				civilian="true" />
+			<equipment
+				slot="Body"
+				id="Item.fur_armor_with_strap" />
+			<equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="caravan_leader_battania"
+		default_group="Infantry"
+		is_hero="false"
+		is_mercenary="true"
+		culture="Culture.battania"
+		occupation="Merchant"
+		name="{=y6E1CTsv}Battania Mercenaries Leader">
+		<face>
+			<!--face_key value="001f580fd1bc210977967aaaa2d96699b387355cc7685573786c9c99823d37d3000c9e60e2673ab5000000000000000000000000000000000000000000004000"/-->
+			<BodyProperties
+				version="4"
+				age="64.27"
+				weight="0.5079"
+				build="0.5035"
+				key="001C580FD1BC210977967AAAA2D86699B387355CC7685573786C9C99823D37D300088E6808673AB5000000000000000000000000000000000000000000A04000" />
+			<BodyPropertiesMax
+				version="4"
+				age="64.27"
+				weight="0.5079"
+				build="0.5035"
+				key="001C580FD1BC210977967AAAA2D86699B387355CC7685573786C9C99823D37D300088E6808673AB5000000000000000000000000000000000000000000A04000" />
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_mace_1_t2" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_battania"
+				civilian="true" />
+			<equipment
+				slot="Body"
+				id="Item.fur_armor_with_strap" />
+			<equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="caravan_leader_khuzait"
+		default_group="Infantry"
+		is_hero="false"
+		is_mercenary="true"
+		culture="Culture.khuzait"
+		occupation="Merchant"
+		name="{=VPis3atP}Khuzait Mercenaries Leader">
+		<face>
+			<!--face_key value="0006540fc00431081ec8dac86a66b8799486388b8575bc635b788694c6445ba2000365d06cc76c25000000000000000000000000000000000000000000004000"/-->
+			<BodyProperties
+				version="4"
+				age="63.72"
+				weight="0.4502"
+				build="0.3614"
+				key="0005540FC00031081EC8DAC86A67B8799486388B8575BC635B788694C6445BA2000575D705C76C25000000000000000000000000000000000000000000A04000" />
+			<BodyPropertiesMax
+				version="4"
+				age="63.72"
+				weight="0.4502"
+				build="0.3614"
+				key="0005540FC00031081EC8DAC86A67B8799486388B8575BC635B788694C6445BA2000575D705C76C25000000000000000000000000000000000000000000A04000" />
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.eastern_spear_4_t4" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_khuzait"
+				civilian="true" />
+			<equipment
+				slot="Body"
+				id="Item.fur_armor_with_strap" />
+			<equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="caravan_leader_world"
+		default_group="Infantry"
+		is_hero="false"
+		is_mercenary="true"
+		culture="Culture.empire"
+		occupation="Merchant"
+		name="{=ugbfHGZ3}World Mercenaries Leader">
+		<face>
+			<!--face_key value="0012240e133c00cd79a78e5ba956bb57488d9a4b96889867bb4e8a955ab5a46500026b60a7856a7b000000000000000000000000000000000000000000002000" /-->
+			<BodyProperties
+				version="4"
+				age="58.72"
+				weight="0.4991"
+				build="0.4991"
+				key="0011240E533C00CD79A78E5BA957BB57488D9A4B96889867BB4E8A955AB5A46500077B6707856A7B000000000000000000000000000000000000000000C82000" />
+			<BodyPropertiesMax
+				version="4"
+				age="58.72"
+				weight="0.4991"
+				build="0.4991"
+				key="0011240E533C00CD79A78E5BA957BB57488D9A4B96889867BB4E8A955AB5A46500077B6707856A7B000000000000000000000000000000000000000000C82000" />
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.short_sword_t3" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire"
+				civilian="true" />
+			<equipment
+				slot="Body"
+				id="Item.fur_armor_with_strap" />
+			<equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

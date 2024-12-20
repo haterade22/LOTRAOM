@@ -1,0 +1,29 @@
+SandBox/ModuleData/module_strings.xml: base.strings.string.text
+SandBox/ModuleData/town_strings.xml: base.strings.string.text
+SandBox/ModuleData/action_strings.xml: base.strings.string.text
+SandBox/ModuleData/bandits.xml: NPCCharacters.NPCCharacter.name
+SandBox/ModuleData/comment_on_action_strings.xml: base.strings.string.text
+SandBox/ModuleData/comment_strings.xml: base.strings.string.text
+SandBox/ModuleData/companion_strings.xml: base.strings.string.text
+SandBox/ModuleData/companions.xml: NPCCharacters.NPCCharacter.name
+SandBox/ModuleData/concept_strings.xml: Concepts.string.title, Concepts.string.text
+SandBox/ModuleData/conversations.xml: base.Conversations.conversation.text
+SandBox/ModuleData/game_menus.xml: base.GameMenus.game_menu.default_text, base.GameMenus.game_menu.text
+SandBox/ModuleData/location_complex_templates.xml: LocationComplexTemplates.LocationComplexTemplate.Location.name
+SandBox/ModuleData/lord_conversations.xml: base.Conversations.conversation.text
+SandBox/ModuleData/lords.xml: NPCCharacters.NPCCharacter.name, NPCCharacters.NPCCharacter.Hero.text
+SandBox/ModuleData/minor_faction_conversations.xml: base.strings.string.text
+SandBox/ModuleData/provocation_strings.xml: base.strings.string.text
+SandBox/ModuleData/quest_strings.xml: base.strings.string.text
+SandBox/ModuleData/settlements.xml: Settlements.Settlement.name, Settlements.Settlement.text
+SandBox/ModuleData/spclans.xml: Factions.Faction.name
+SandBox/ModuleData/spkingdoms.xml: Kingdoms.Kingdom.name, Kingdoms.Kingdom.short_name, Kingdoms.Kingdom.title, Kingdoms.Kingdom.text
+SandBox/ModuleData/spspecialcharacters.xml: NPCCharacters.NPCCharacter.name
+SandBox/ModuleData/spworkshops.xml: WorkshopTypes.WorkshopType.name
+SandBox/ModuleData/voice_strings.xml: base.strings.string.text
+SandBox/ModuleData/wanderer_strings.xml: base.strings.string.text
+SandBox/ModuleData/world_lore_strings.xml: base.strings.string.text
+SandBox/ModuleData/caravans.xml: NPCCharacters.NPCCharacter.name
+SandBox/ModuleData/spprojects.xml: Projects.Project.name
+SandBox/ModuleData/trait_strings.xml: strings.string.text
+SandBox/ModuleData/heroes.xml: Heroes.Hero.text
