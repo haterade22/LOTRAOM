@@ -1,6 +1,4 @@
-﻿using System;
-using System.Reflection;
-using TaleWorlds.CampaignSystem;
+﻿using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.CharacterCreationContent;
 using TaleWorlds.CampaignSystem.Encounters;
 using TaleWorlds.CampaignSystem.GameState;
@@ -134,10 +132,10 @@ namespace LOTRAOM.CampaignStart
                 }
                 CampaignEventDispatcher.Instance.OnGameLoadFinished();
             }
-            base.IsLoaded = true;
+            IsLoaded = true;
         }
 
-        private void LaunchCharacterCreation()
+        private static void LaunchCharacterCreation()
         {
             CharacterCreationState gameState = Game.Current.GameStateManager.CreateState<CharacterCreationState>(new object[]
             {

@@ -5,6 +5,12 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LOTRAOM", "Main\LOTRAOM.csproj", "{B4FAE679-64D7-4F15-BF9B-D7CA8979479C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E92DCB4C-27A8-4A0E-BF5F-E4B87A52A50F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.github\FUNDING.yml = .github\FUNDING.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
