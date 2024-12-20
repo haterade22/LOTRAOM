@@ -28,6 +28,8 @@ namespace LOTRAOM.CampaignStart
             ["mirkwood"] = "town_EW1",
             ["lothlorien"] = "town_EW1",
             ["erebor"] = "town_EW1",
+            ["umbar"] = "town_ES1",
+            ["harad"] = "town_ES1",
         };
         public static void OnCharacterCreationFinalized()
         {
