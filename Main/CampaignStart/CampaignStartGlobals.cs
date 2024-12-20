@@ -16,12 +16,18 @@ namespace LOTRAOM.CampaignStart
         public static Dictionary<string, string> StartingSettlement = new()
         {
             // if the mod keeps has multiple factions with same culture (like empire in vanilla) this code will have to be refactored
-            ["aserai"] = "town_EN1",
+            ["aserai"] = "town_A1",
             ["empire"] = "town_EN1",
-            ["khuzait"] = "town_EN1",
-            ["sturgia"] = "town_EN1",
-            ["battania"] = "town_EN1",
-            ["vlandia"] = "town_EN1",
+            ["khuzait"] = "town_K1",
+            ["sturgia"] = "town_S1",
+            ["battania"] = "town_B1",
+            ["vlandia"] = "town_V1",
+            ["gondor"] = "town_EW1",
+            ["mordor"] = "town_ES1",
+            ["rivendell"] = "town_EW1",
+            ["mirkwood"] = "town_EW1",
+            ["lothlorien"] = "town_EW1",
+            ["erebor"] = "town_EW1",
         };
         public static void OnCharacterCreationFinalized()
         {
