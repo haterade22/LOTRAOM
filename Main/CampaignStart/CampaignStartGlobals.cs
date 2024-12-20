@@ -29,6 +29,9 @@ namespace LOTRAOM.CampaignStart
             ["lothlorien"] = "town_EW1",
             ["erebor"] = "town_EW1",
             ["umbar"] = "town_ES1",
+            ["dolguldur"] = "town_ES1",
+            ["isengard"] = "town_ES1",
+            ["gundabad"] = "town_ES1",
         };
         public static void OnCharacterCreationFinalized()
         {
