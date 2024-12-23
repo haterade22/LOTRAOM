@@ -1,0 +1,16 @@
+<Prefab>
+  <Constants>
+    
+  </Constants>
+
+  <Window>
+
+
+	  <ListPanel  IsVisible="@IsVisible" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren"  LayoutIMP.LayoutMethod="HorizontalLeftToRight" HorizontalAlignment="Left" VerticalAlignment="Top">
+		  <Children>
+			  <ImageWidget WidthSizePolicy="Fixed" HeightSizePoplicy="Fixed" SuggestedWidth="70" SuggestedHeight="70"   Sprite="poppy_sprite"/>
+			  <TextWidget   WidthSizePolicy="CoverChildren" HeightSizePoplicy="CoverChildren" VerticalAlignment="Center"  IntText="@PoppyAmount"/>
+		  </Children>
+	  </ListPanel> 
+  </Window>
+</Prefab>
