@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Concepts>
+	<!-- #Game Objects#  -->
+	<Concept
+		title="{=aIkffnN6}Characters"
+		id="str_game_objects_character"
+		group="Characters"
+		link_id="CHARACTERS_LINK"
+		text="{=9MIpRMEW}Characters represent the leaders and nobility of the kingdoms in Bannerlord, as well as town and village {NOTABLES_LINK}, wanderers whom the player may hire as companions, and other significant persons. Characters have {SKILLS_LINK} as well as traits, which represent their personality and reputations. Many characters, especially the nobility, will belong to {CLANS_LINK}. Characters frequently have friendships or enmities with other characters, with relationships between clan leaders being particularly important. " />
+	<Concept
+		title="{=Fp68NbYO}Kingdoms"
+		id="str_game_objects_kingdom"
+		group="Kingdoms"
+		link_id="KINGDOMS_LINK"
+		text="{=JfnGAEnC}Kingdoms are entities whose rights and sovereignty are generally accepted by the populace and other kingdoms. Warlords, rebels, religious movements and other groups may sometimes hold territory, but their grip will be tenuous unless they can gain recognition as a kingdom. Kingdoms are dominated by noble {CLANS_LINK} who govern settlements and lead armies. All kingdoms have a ruler as well as a council of the major clans. The council weighs in on major decisions, such as the passing of {KINGDOMLAWS_LINK}, distributing new fiefs and declaring war or making peace. The ruler is generally well-advised, but not required, to follow a council's decisions. " />
+	<Concept
+		title="{=bfQLwMUp}Clans"
+		id="str_game_objects_clan"
+		group="Clans"
+		link_id="CLANS_LINK"
+		text="{=mvCgqAyT}Clans represent major extensive families, or in some cases, family-like organizations. A kingdom is usually made up of several clans who hold fiefs and lead its troops. A clan will have a ruler, and when that ruler dies, the clan's leadership and titles will pass to his or her heir. Clans are nominally bound by blood ties, but marriage will result in one of the spouses (usually the wife) joining the other's clan, and sometimes clans will adopt members." />
+	<Concept
+		title="{=sSrpbKmi}Minor Factions"
+		id="str_game_objects_minor_faction"
+		group="Clans"
+		link_id="MINOR_FACTIONS_LINK"
+		text="{=uce9Opgg}Minor factions represent groups in Calradia that are not part of a kingdom. They may include criminal brotherhoods, mercenary organizations, religious movements and nomads. Typically they sustain themselves either by hiring themselves out to a fight for a kingdom or by collecting protection money from caravans and travellers passing though their territory." />
+	<Concept
+		title="{=uwB0JKy0}Cultures"
+		id="str_game_objects_culture"
+		group="Kingdoms"
+		link_id="CULTURES_LINK"
+		text="{=jWdTNUbZ}Bannerlord groups the wide range of languages and customs in Calradia into a half-dozen main cultures. People are generally aware when their local dialect or way of life is similar to that of a neighboring district, and may use a common name to describe each other or even speak of a shared destiny. However, there is relatively little expectation in Calradia that anyone will be loyal to a kingdom or overlord because of their language or place of birth. Each culture has its own aesthetic sense, shown by its architecture and clothing, as well as some traditions that influence a kingdom's politics or its military.{newline}{newline}Settlements are assigned cultures that represent the main language spoken there, although many of its residents - especially merchants, wanderers, and soldiers of fortune - might be from a different cultural background. It is slightly easier for a lord to govern settlements from the same culture, but generally local grievances weigh more heavily than cultural solidarity or the lack of it. The Empire in particular has a long history of promoting foreigners to positions of power, in the expectation that they or their heirs will eventually become Calradicized." />
+	<Concept
+		title="{=t3tq0eoW}Parties"
+		id="str_game_objects_party"
+		group="Parties"
+		link_id="PARTIES_LINK"
+		text="{=m6FAy4RO}Parties are made up of troops and {CHARACTER_LINK} and can travel around the map. Party travel speed depends on a number of factors. Generally bigger parties are slower because they are more likely to lose marching order or get clogged in choke points. Parties that are overburdened by carrying too many goods also move more slowly. You can increase party speed by keeping horses in the inventory." />
+	<Concept
+		title="{=inKr3PbA}Armies"
+		id="str_game_objects_army"
+		group="Armies"
+		link_id="ARMIES_LINK"
+		text="{=NtBrM1A5}Parties belonging to a kingdom's nobles and any hired mercenaries can be assembled together to form armies. Armies have an advantage over parties traveling separately, as their members will stick together and reinforce each other in battle. Most sieges in the game will need to be conducted by armies, as parties on their own are rarely large enough to take a major fortress.{newline}{newline}The leader of an army summons other nobles by spending {INFLUENCE_LINK}. Each army has a cohesion statistic, which represents how motivated your commanders are and how well they work together. An army will be disbanded automatically if its cohesion drops too low. Armies start with average cohesion, and normally it drops a little bit each day the army stays in the field." />
+	<Concept
+		title="{=jpBpwgAs}Settlements"
+		id="str_game_objects_settlements"
+		group="Settlements"
+		link_id="SETTLEMENTS_LINK"
+		text="{=qzwTz5Kh}The population of Calradia is mostly concentrated in {TOWNS_LINK}, {CASTLES_LINK} and {VILLAGES_LINK}, collectively called settlements. Towns and castles are the centers of districts that will also include two to five villages. These districts change sides when the town or castle is captured. They are protected by garrisons - troops loyal to the settlement's liege, who remain inside the walls at all times - and militia, troops whose loyalty is to the community, which can sometimes sally forth and pursue bandits but which also has the potential to become rebellious.{newline}Castles and towns are rated for Prosperity, Security and Loyalty. The local economies of Calradia are often cyclical, with good times sowing the seeds for hard times. Prosperity will increase with trade and good governance, increasing revenues for the liege lord. But wealth brings problems, such overcrowding, increased food consumption, corruption, greater divisions between rich and poor, and tensions between longtime towndwellers and new migrants from the countryside. The settlement's security may fall, and loyalty will fall with it. If loyalty gets too low, a rebellion will break out if the militia outnumbers the garrison.{newline}A settlement is designated as one of the main {CULTURES_LINK} in Calradia, which represents the language spoken by a majority of its residents." />
+	<Concept
+		title="{=ebbyLN2i}Towns"
+		id="str_game_objects_town"
+		group="Settlements"
+		link_id="TOWNS_LINK"
+		text="{=A84cKUfo}Towns are the largest {SETTLEMENTS_LINK} in Calradia.  They are surrounded by walls, and control territory.  They trade with nearby {VILLAGES_LINK}, exchanging manufactured goods for raw materials and food. They are home to Merchants, who run trading caravans to nearby towns, Artisans, who represent local guild leaders and often speak for their fellow workers, and Gang Leaders, who control the back alleys, migrant shantytowns, waterfronts, and other neighborhoods which distrust the formal government. Towns have Projects, representing its fortifications and other public buildings, as well as Workshops, privately owned by Merchants and other characters, where goods are manufactured." />
+	<Concept
+		title="{=hVZo7xdk}Castles"
+		id="str_game_objects_castle"
+		group="Settlements"
+		link_id="CASTLES_LINK"
+		text="{=xh3ThwRz}Castles are {SETTLEMENTS_LINK} that represent a fortress, with minimal civilian population. Like {TOWNS_LINK}, castles control {VILLAGES_LINK}, but do not themselves produce or consume goods. " />
+	<Concept
+		title="{=bC5aMfG0}Villages"
+		id="str_game_objects_village"
+		group="Settlements"
+		link_id="VILLAGES_LINK"
+		text="{=zeJHD2qj}Villages are {SETTLEMENTS_LINK} that represent the center of a rural district, a medium-sized community surrounded by outlying farms and hamlets. They are not fortified, and instead are bound to nearby {TOWNS_LINK} or {CASTLES_LINK}, and are conquered when that town or castle is conquered. They produce food and raw materials, which they send to the nearest town in exchange for manufactured goods. They are home to headmen, rich or charismatic peasants who speak for the others, as well as landowners, who own property and employ many of the other villagers as tenants. Villages have Hearths, a measure of their size and economic output." />
+	<!-- Characters and their ratings? -->
+	<Concept
+		title="{=bz7Glmsm}Skills"
+		id="str_game_objects_skills"
+		group="Characters"
+		link_id="SKILLS_LINK"
+		text="{=Fw43o2Pt}Characters and troops have a number of skills that grant various benefits and bonuses. Skills increase with practice. The rate of increase depends on the number of focus points that a character invests in the skill, as well as a character's attributes. As the skill reaches certain threshold various {PERKS_LINK} will become available that grant additional special benefits. More information can be found about how to improve skills, and what its effects are, by mousing over them." />
+	<Concept
+		title="{=aucCl3Zl}Skill focus"
+		id="str_game_objects_skill_focus"
+		group="Characters"
+		link_id="SKILL_FOCUS_LINK"
+		text="{=4wfgx5pe}Focus points represent skills that a character is trying to develop. When a character practices a skill, the rate of increase depends on the number of focus points invested, as well as a character's attributes.." />
+	<Concept
+		title="{=PonUxuzc}Skill Roles"
+		id="str_campaign_issues_skill_roles"
+		group="Characters"
+		link_id="SKILL_ROLE_LINK"
+		text="{=T5yrOCaG}Skills and perks usually grant benefits to a party only if a character is in an appropriate role. A party will have a Scout who looks out for enemies and the fastest route, a Quartermaster in charge of supply, an Engineer who supervises sieges, and a Surgeon who can heal wounded troops." />
+	<Concept
+		title="{=Avy8Gua1}Perks"
+		id="str_game_objects_perks"
+		group="Characters"
+		link_id="PERKS_LINK"
+		text="{=D2O141bZ}Every skill has a number of perks that grant additional benefits and bonuses. Perks become available when the skill points reach certain thresholds. Depending on the perk, its effects may apply just to the character, to a party or an army he or she leads, to a city he or she governs, or several other possibilities." />
+	<Concept
+		title="{=7NnPxNXZ}Personality Traits"
+		id="str_game_objects_personality_traits"
+		group="Characters"
+		link_id="PERSONALITYTRAITS_LINK"
+		text="{=Wntaggxf}A character's personality and reputation are represented by five paired traits: Valor/Caution, Mercy/Cruelty, Honor/Deviousness, Generosity/Closefistedness, and Calculation/Impulsiveness. They reflect both a character's morality as well as pragmatic assumptions about what succeeds in the world: should you rigidly keep your oaths, or is everyone flexible and promises are for suckers? Should you plan every move with a long-term goal in mind, or will people not trust you if you don't show a bit of emotion?{newline}Traits will affect your relations with other characters as well as your chances at {PERSUASION_LINK}. They shape the behavior of NPCs in a number of ways, including how they get along with other characters, how they respond to {DEFECTION_LINK}, their choices in {COURTSHIP_LINK}, and what kinds of quests they will offer. NPCs' personality traits are fixed, but players can develop their traits by the choices they make during the game." />
+	<Concept
+		title="{=toQLHG6x}Valor"
+		id="str_game_objects_valor"
+		group="Characters"
+		link_id="VALOR_LINK"
+		text="{=SYRxPlLn}Valor represents the degree to which characters are willing to take physical risks to advance their reputations or the cause for which they fight. Valorous characters won't necessarily charge headlong into battle, but if the odds are good they prefer to take their chances and reap the rewards. They will be more likely to attack another party at hard odds, and less likely to accept money to grant a player safe passage. The opposed trait is Cautious, which does not necessarily mean that the character is cowardly, but simply prefers to fight another day. A player can increase Valor by winning close battles." />
+	<Concept
+		title="{=0oGz5rVx}Honor"
+		id="str_game_objects_honor"
+		group="Characters"
+		link_id="HONOR_LINK"
+		text="{=sUyipb2m}Honor represents characters' sense of obligation to fulfil their formal commitments, to stay true to oaths and promises and obey the law. Most characters will generally try to keep their word, but can usually rationalize breaking a promise if there are extenuating circumstances. Honorable characters however might try to fulfil quests at all costs, obey lords who treat them badly, or balk at lying even to an enemy. Honorable characters will also be less likely to accept money to accept a truce. A Devious character, on the other hand, might freely back out of promises and make use of all kinds of skullduggery to accomplish their goals, although some with the Generosity trait might still follow an informal code, such as the so-called 'honor of thieves', to look out for their friends and those who have done them a good turn. Players can increase Honor by fulfilling quests, and lose Honor by double-crossing quest givers or breaking the law." />
+	<Concept
+		title="{=2I2uKJlw}Mercy"
+		id="str_game_objects_mercy"
+		group="Characters"
+		link_id="MERCY_LINK"
+		text="{=oDbHfpIn}Mercy represents characters' general sense of compassion towards other people, especially those whom he or she does not know personally. Merciful characters will still fight if they are obliged to do so, but prefer to avoid pillaging, executions, or otherwise inflicting unnecessary suffering. Cruel characters may either be wantonly sadistic, or they may believe that making examples of their opponents saves trouble in the long run. A player can increase Mercy by making compassionate decisions in quests or freeing prisoners, and lose Mercy by executing lords or raiding villages." />
+	<Concept
+		title="{=IuWu5Bu7}Generosity"
+		id="str_game_objects_generosity"
+		group="Characters"
+		link_id="GENEROSITY_LINK"
+		text="{=4yfdFMMz}Generosity represents characters' sense of obligation towards their family, their comrades, and those who have done them a service. It differs from Mercy in that it is reciprocal, based on a relationship with others rather than a general sense of benevolence. A Generous lord will take care of his men and look out for his friends - though, perhaps to the point of overlooking their sins against others. The opposite trait, Closefisted, is generally not well regarded in Calradia, although in combination with Honor it might represent a magistrate known for his or her impartiality. Players can increase Generosity by treating their troops well and keeping morale high, or choices made during quests. They lose generosity by allowing their troops to suffer or starve." />
+	<Concept
+		title="{=0TJMEsbl}Calculation"
+		id="str_game_objects_calculation"
+		group="Characters"
+		link_id="CALCULATION_LINK"
+		text="{=4BmlNdMf}Calculation represents the degree to which characters focus on their long-term goals as opposed to following their emotions. The opposed trait is Impulsive. An Impulsive character may be just as clever as a calculating one, just less able or less inclined to keep their passions in check. Lieges will generally prefer their vassals to be calculating, to rein in their own personal resentments and fears for the sake of the kingdom. But other characters may distrust calculating characters, as their reactions to favors or insults are much harder to predict. Impulsive characters may also find it easier to deter enemies, as they are more likely to pursue a vendetta even if they too suffer. Players can increase Calculation by accomplishing goals without fighting, including through {PERSUASION_LINK}." />
+	<!-- Traits -->
+	<!-- #Troops and battles# -->
+	<Concept
+		title="{=ka8trb7d}Formation Types"
+		id="str_formation_types"
+		link_id="FORMATIONTYPES_LINK"
+		group="Troops"
+		text="{=2OnPxeu0}All troops have a default formation type which defines the battle group into which they deploy. You can change the formation of any troop type in the deployment phase, right before a battle begins. In battles with multiple parties, each commander determines the formation of troops under his or her command - unless there is an overall joint commander, as with an army, that determines the formation of all troops on that side." />
+	<Concept
+		title="{=1Bm1Wk1v}Infantry"
+		id="str_formation_types_infantry"
+		link_id="INFANTRY_LINK"
+		group="Troops"
+		text="{=cXbEPF8R}Infantry represent everything from untrained levies to professional legionaries or a chieftain's bodyguard. They form the backbone of most armies. If they get into close combat and are sufficiently numerous and keep their formation, they will usually be able to prevail against other types of troops. Many carry shields, which protect them from both melee and missile weapons. If cavalry can break them up and conduct hit-and-run attacks, however, or if they are attacked from a flank, they may take heavy losses.  Many infantry have throwing weapons, allowing them to soften up an enemy before a charge or to fight back against attacking horse archers." />
+	<Concept
+		title="{=YVGtcLHF}Cavalry"
+		id="str_formation_types_cavalry"
+		link_id="CAVALRY_LINK"
+		group="Troops"
+		text="{=7H5RG3fS}Cavalry armed for melee combat are mostly aristocrats and lesser gentry, although herdsmen and nomads will sometimes own horses and train to fight on them. They hit hard, and can easily overwhelm scattered infantry. If they encounter a tight formation, however, they may be stopped in their tracks and overwhelmed. Some cavalry are also armed with javelins, allowing them to double as horse archers until it is time for the charge." />
+	<Concept
+		title="{=bIiBytSB}Archers"
+		id="str_formation_types_archer"
+		link_id="ARCHERS_LINK"
+		group="Troops"
+		text="{=toAD1Vxz}Archers are usually recruited from hunters, shepherds and other outdoorsmen, although some urban militias will train with crossbows. They can inflict damage from a distance, and sometimes signficantly reduce an enemy's morale to a point where they can be easily routed with a sudden charge. Cavalry who ride quickly through a barrage of arrows, or infantry who can protect themselves fron the arrows with their shields, can often get to close quarters without taking significant damage. Some of the troops classified as archers are skirmishers armed with javelins, who carry less ammunition but who are equipped with shields." />
+	<Concept
+		title="{=q2Y2DHiA}Horse Archers"
+		id="str_formation_types_horse_archer"
+		link_id="HORSE_ARCHERS_LINK"
+		group="Troops"
+		text="{=CxvVbLnK}Horse archers are cavalry with missile weapons. Traditionally nomads make the best horse archers, although mounted aristocrats of other cultures have trained with the bow to deal with the threat from the steppe. Managed properly, they can keep their distance from the enemy while pelting them with javelins or arrows. If they are caught by melee cavalry or if they accidentally get too close to foot, however, they may take serious losses. Against archers they will usually lose an exchange of fire, but may be able to run down their enemy if given orders to charge. Many cultures also make use of javelin-armed horsemen, who have less ammunition and range than mounted archers but who equip a shield." />
+	<Concept
+		title="{=yKLlvPqu}Army cohesion"
+		id="str_game_objects_army_cohesion"
+		group="Armies"
+		link_id="ARMY_COHESION_LINK"
+		text="{=93mX8aKp}Each army has a cohesion statistic, which represents how motivated your commanders are and how well they work together. An army will be disbanded automatically if its cohesion drops too low. Armies start with average cohesion, and normally it drops a little bit each day the army stays in the field." />
+	<!-- #Campaign Issues# -->
+	<!-- Clans and clans politics -->
+	<Concept
+		title="{=RVPidk5a}Influence"
+		id="str_campaign_issues_influence"
+		group="Clans"
+		link_id="INFLUENCE_LINK"
+		text="{=aaPVmfMo}Influence represents the contribution of a character to the success of their faction, usually earned mostly by fighting in wars. You also gain a bit of influence simply by virtue of holding and governing a fief. It represents political capital, dues paid, favors in the favor bank - all the terms used to represent the currency of power. You spend it to get people to assist you in your campaigns, do you favors, and support your candidacy for titles and fiefs. No one is ever forced to give you what you want when you spend influence - but you do put them under a moral obligation, and they'll look bad if they don't." />
+	<Concept
+		title="{=CzhaQCK0}Money"
+		id="str_campaign_issues_silver"
+		group="CampaignIssues"
+		link_id="MONEY_LINK"
+		text="{=wybXag9U}The silver imperial denar is the standard currency of Calradia. Even the most far-flung tribes know what they look like, and can usually tell if they've been cut with baser metals. Gold is generally too valuable to be used in transactions other than those between kingdoms or great lords. You'll need money in the game for virtually all your basic needs - equipment, food, raising and maintaining troops - and it can also come in handy in politics and quest-solving. There are some things that money cannot buy, but you also don't get those things for free. For example, warriors risk their lives for pride or revenge, out of love of their homes or their commanders, status or adventure. Only the most cynical of mercenaries only care about the silver. But even the most loyal expect some payment as a token that their sacrifices are not going unnoticed. During rebellions, few lords will change sides for as crass a bribe as a bag of gold. But if they do decide you'd make a better king than the current one, a bag of gold can help offset the risk they're taking on your behalf.{newline}{newline}Calradians rarely keep all their money on their person or in one place. Some of your wealth will be in your purse or traveler's chest but much will be buried, otherwise hidden, or left with someone you trust. Some wealth will be in the form of letters of credit from merchants. In the game, it's assumed that anyone can get access to their money at all times, but the amount that can be taken from you in any one robbery is limited." />
+	<Concept
+		title="{=aZxHIra4}Renown"
+		id="str_campaign_issues_renown"
+		group="CampaignIssues"
+		link_id="RENOWN_LINK"
+		text="{=iM2J0vav}Renown represents the perception of a character's importance, derived both from their birth and their deeds. The higher a character's renown, the more they are expected to take precedence in the affairs of their faction. It differs slightly from influence, in that influence reflects the titles, lands, responsibilities and honors that other lords feel that a character has earned and functions as a currency, while renown represents what the character actually has and is a rating. Influence also does not transfer from realm to realm - if you fight for Battania, the Empire doesn't owe you anything - whereas renown does translate - if you're a VIP at home, you're also usually a VIP in other kingdoms. Renown gains you access to important people, gets nobles to treat you as a peer (or a potential spouse, in some cases) and eventually may even get people to start thinking of you as a potential ruler." />
+	<Concept
+		title="{=IdE1A0RU}Courtship and Marriage"
+		id="str_campaign_issues_courtship"
+		group="CampaignIssues"
+		link_id="COURTSHIP_LINK"
+		text="{=daapjBki}Marriages in Calradia are arranged between families, but love and attraction are not entirely ignored. Royal marriages are often contracted purely to cement alliances, but as you go down the social ladder and the political stakes get lower, it becomes more likely that the couple will know and like each other before they are wed. Because Calradia is at a particularly unsettled time in its history, with some social barriers breaking down, courtship plays a greater role than in earlier eras.{newline}{newline}Players in Bannerlord may wish to marry a member of a noble clan to further their political ambitions and to produce heirs. To marry, a player must first raise the possibility with a prospective spouse or his or her families. Then the player then complete two persuasion tasks to convince the prospective spouse that they are compatible and that a marriage would work. The player may then speak to the head of the clan to complete the courtship, which may involve the payment of a bride price or dowry.{newline}{newline}Non-player characters will have different criteria for their prospective spouses. Some may wish to marry an honorable and upright player, while others may be attracted to rogues. All will attach some importance to a player's renown, or his or her relationship with the spouse's family, but some will value this much more than others.{newline}{newline}Non-player characters will also marry in the course of the game, and a player may wish to marry off his or her heirs to other houses to continue the dynasty. The spouses of players or their heirs will join the player's clan, so players are not allowed to marry the heads of other clans." />
+	<Concept
+		title="{=FACsooKA}Lord Defection"
+		id="str_campaign_issues_defection"
+		group="CampaignIssues"
+		link_id="DEFECTION_LINK"
+		text="{=867dAbKd}Noble clans may change sides in the game if they are discontented with their liege, if they perceive that their strategic situation is hopeless, or, in some cases, if they are offered a big enough bribe. The decision to defect is made by a clan leader. Such defections will be relatively rare, and the criteria may vary considerably according to the clan leader's personality traits. Some lords with high honor traits, for example, may choose to go down fighting against hopeless odds, or stick with a king they despise rather than violate an oath. Players may attempt {PERSUASION_LINK} to induce a lord to defect." />
+	<Concept
+		title="{=iLcfZ71B}Persuasion"
+		id="str_campaign_issues_persuasion"
+		group="CampaignIssues"
+		link_id="PERSUASION_LINK"
+		text="{=sDl56rUG}At various points in the game, a player may wish to convince a character to take a certain course of action. A player will rarely be able to convince NPCs to do something that is completely irrational or against their interests, but often may be able to give them an excuse to do something that they would consider anyway.{newline}{newline} The chance that a persuasion will succeed is dependent on a player's skills, on his or her {PERSONALITYTRAITS_LINK} as well as those of the lord to be persuaded, and on external circumstances. Many checks, especially in quests, are relatively simple and require a single pass/fail random check. {DEFECTION_LINK} and {COURTSHIP_LINK} however require more complex persuasion tasks. The target NPC will raise several reasons why they would hesitate to follow the player's advice, and the player must attempt to address these reasons.{newline}{newline}At every point in a persuasion check, a player will be given several options. Each option is linked to a skill and a trait. Among the skills, Charm is useful when a player is trying to establish a bond with another character, Charisma helps the player appeal to general principles, and Roguery when the player is attempting to intimidate or otherwise show familiarity with the darker side of human nature. The trait will vary according to what aspect of the NPC's personality the player is attempting to appeal. Both the player and the NPC should have similar personalities in this regard. For example, a Calculating player might do well by persuading a Calculating NPC to think of long-term interest rather than immediate gain, but only if both player and NPC don't have a reputation for being impulsive." />
+	<Concept
+		title="{=1z581Cap}Death and Inheritance"
+		id="str_campaign_issues_death"
+		group="CampaignIssues"
+		link_id="DEATH_LINK"
+		text="{=hh1Hd1Pp}A game of Bannerlord can last many decades and eventually characters, including the player, may die. Some may perish in battle or in childbirth amd others will die of natural causes. Once characters enter their late 40s, there is a chance they may die of illness or old age with each passing year, but, if they're lucky, a few may live on into the 80s or beyond. Characters can also order their captives to be exexcuted - but this is frowned upon, and players will lose reputation unless their victims are especially vile. When a clan leader dies, the property, fiefs and titles of the clan will pass to the heir. One reason for players to marry and have children is to take over the heir and to continue the game after the death of their initial character." />
+	<Concept
+		title="{=Iwc6dDWz}Retirement"
+		id="str_campaign_issues_retirement"
+		group="CampaignIssues"
+		link_id="RETIREMENT_LINK"
+		text="{=EoMAgTDQ}Players may wish to retire their characters, either because they wish to continue with a younger heir or because they want a natural ending to their campaign. Those who choose to leave behind the life of struggle and bloodshed can travel to Mount Erithrys, a mountain in the southwestern empire known for attracting mystics and hermits. If the character chooses to appoint an heir, he or she will inherit the wealth and titles of the clan and continue the adventure. If the character chooses otherwise, the game will end." />
+	<!-- Parties and Armies -->
+	<Concept
+		title="{=alMmQrhK}Party Morale"
+		id="str_campaign_issues_party_morale"
+		group="Parties"
+		link_id="PARTYMORALE_LINK"
+		text="{=dCHzBxk6}Morale represents a party's confidence in its commander and its desire to continue with the current task. It is affected by the leaders' skills, by its food supply, and by recent events. As morale drops, a party that suffers a reverse in combat becomes more likely to break and run. A low morale party will also drain cohesion from {ARMIES_LINK}, and may suffer desertion. A high morale army may move faster on the map, depending on the {PERKS_LINK} of its scout." />
+	<Concept
+		title="{=GQsF8f0D}Party Food"
+		id="str_campaign_issues_party_food"
+		group="Parties"
+		link_id="PARTYFOOD_LINK"
+		text="{=ammp5agv}Your party (as well as AI led parties) consume food each day. The amount of food consumed depends on the size of the party as well as character perks. If party does not have adequate food, it will start starving. Starving parties have a significant morale penalty, and suffer attrition so that some members may be marked as wounded, or lose health. A party that has a variety of food in its stores will have higher morale." />
+	<Concept
+		title="{=3UQ1YOHc}Party Wages"
+		id="str_campaign_issues_party_wages"
+		group="Parties"
+		link_id="PARTYWAGES_LINK"
+		text="{=kMLTg8ye}Your primary expense in the game will typically be wages paid to party members. Higher quality troops receive higher wages, while the expense can be reduced by various skills and perks." />
+	<Concept
+		title="{=c2pdihCB}Caravans"
+		id="str_campaign_issues_party_caravans"
+		group="Caravans"
+		link_id="CARAVANS_LINK"
+		text="{=pigc2URg}Caravans are the means by which {TRADEGOODS_LINK} are transported long-distance from town to town. They are usually owned by merchants, and attacking them can get the player into trouble with a kingdom.{newline}{newline}Caravans typically hire enough guards to fend off a single bandit party, but may be overwhelmed by multiple gangs or by an enemy lord's war party.{newline}{newline}Players can run their own caravans by speaking to {NOTABLES_LINK} in towns. They are relatively expensive to establish, since the initial investment must cover the cost of pack animals, gear, drivers, guards, as well as purchases of goods and operating expenses for the first few months. Player caravans also require a companion to be assigned as  leader.{newline}{newline}Once established, caravans will set out by themselves, buying and selling goods depending on whether they think they can turn a profit. Caravans will keep a reserve for their expenses and will not send any money to their owner until their funds reach a certain threshold.  Any monies over this threshold will be considered profit and sent to the owner. On the other hand, if the reserves fall under a certain value for any reason, the owner will have to send extra funds to make up for the shortfall and the caravan’s contribution to the owner’s budget will be shown as a net expense in this case." />
+	<!-- Items -->
+	<Concept
+		title="{=U7er3V9s}Items"
+		id="str_game_objects_item"
+		group="Items"
+		link_id="ITEMS_LINK"
+		text="{=FbTrE1zA}Items represent any commodity or animal that a player might want to use or sell in the course of an adventure. They include weapons, armor, clothing, horses, food, trade goods, and others, and are carried in a party's Inventory. Most goods have an Weight rating that, if it exceeds the party's maximum, will slow it down. Horses and other animals, however, can increase a party's maximum Weight and its speed. Items also have an Encumbrance that will slow down a character if equipped as weapons or armor." />
+	<Concept
+		title="{=2aMyr5AK}Trade Goods"
+		id="str_game_objects_trade_goods"
+		group="Items"
+		link_id="TRADEGOODS_LINK"
+		text="{=eE5xclPO}Trade goods represent items that are used in bulk across Calradia. They include food, clothing, tools, raw materials, and luxury goods." />
+	<!-- Settlements -->
+	<Concept
+		title="{=UPAr5M2c}Governors"
+		id="str_campaign_issues_governor"
+		group="Settlements"
+		link_id="GOVERNORS_LINK"
+		text="{=dehXpX8A}If you own a settlement, you can assign a companion or family member as governor.  Governors grant significant bonuses to the settlement according to their skills and perks. Governors will usually choose perks depending on their personality, so a rigidly incorruptible but harsh governor might yield different results than someone more likely to return a favor to an old friend, even if it means turning a blind eye to wrongdoing.  You can try assigning different people as governor in town management window and see how various stats change." />
+	<Concept
+		title="{=DaE0N37L}Notables"
+		id="str_game_objects_notable"
+		group="Settlements"
+		link_id="NOTABLES_LINK"
+		text="{=RTCjRw3I}Notables represent prominent residents of {TOWNS_LINK} and {VILLAGES_LINK} who are not nobles. They may include merchants, landowners, gang leaders and others. They can offer players quests, and good relations with notables will allow characters to recruit more and better troops. Good relationships with notables also can grant bonuses to {CLANS_LINK}, boosting theirs {INFLUENCE_LINK} and making it easier to govern {SETTLEMENTS_LINK}." />
+	<!-- Kingdoms -->
+	<Concept
+		title="{=3fdylwA6}Kingdom Laws"
+		id="str_campaign_issues_kingdom_laws"
+		group="Kingdoms"
+		link_id="KINGDOMLAWS_LINK"
+		text="{=GoF2sYNt}Kingdom laws represent the key decrees and institutions that make one realm different from another. All kingdoms are assumed to have some things in common: ordinary criminal laws against murder and theft, a ruler, an important social role for big landowners and aristocrats - but the specific laws will determine the balance of power. They often affect characters' influence, but can also affect income or a settlement's economic or military traits. Laws are generally divided into three categories depending on the three types of government envisioned by the ancients: monarchy, oligarchy, or democracy. Centralizing laws help the ruler keep the realm together but can result in tyranny, legalist laws allow the realm to settle disputes peacefully but can be exploited by the powerful to protect their position, and egalitarian laws increase the number of people participating in decisions but can sometimes lead to social disorder and mob rule. Laws can make an empire stronger but can also tear it apart, and a dispute over a particularly controversial decree risks escalating into civil war." />
+	<Concept
+		title="{=lXqOH1HK}Kingdom Creation"
+		id="str_campaign_issues_kingdom_creation"
+		group="Kingdoms"
+		link_id="KINGDOMCREATION_LINK"
+		text="{=LWBcy3Id}Players can create new kingdoms. To do so, their clan must be at least tier 4, they must own one or more towns, and they must not be part of another kingdom. To initiate kingdom creation, a player should talk to one of his or her governors. The player can then choose a name, a culture, and a set of starting laws. " />
+	<Concept
+		title="{=xj0MgUO0}Crime"
+		id="str_campaign_issues_kingdom_crime"
+		group="Kingdoms"
+		link_id="CRIMERATING_LINK"
+		text="{=FP4KyHBK}Players who rob or otherwise aggress against the inhabitants of a kingdom, unless they are at war, will receive a crime rating there. Acts like coercing villagers into giving you recruits and supplies, or illegal behavior in quests, will add a small amount of crime rating. An outright attack on a neutral party will add a rather large amount and will usually trigger a war.{newline}{newline}Crime ratings go up to 100. Players with a rating of 30 or higher in a neutral kingdom will be barred from entering a settlement of that kingdom, and if they try to sneak in and are caught, they may be briefly imprisoned or receive corporal punishment. Calradian towns generally lack the resources to hold many prisoners for very long, so the penalties for minor crimes tend to be rough and immediate but not as harsh as they might be. Justice is unpredictable, though - if the player has low health and the beating would result in death, he or she is considered to have been executed.{newline}{newline}An independent player with a crime rating of 60 or higher on the other hand will be declared outlaw by the kingdom and attacked on sight. If the player accumulates a crime rating while a vassal of a kingdom, he or she will still be able to enter its settlements but may face imprisonment, a fine, or a loss of influence once inside. Also, each day the player will lose influence equal to half his or her crime rating. Crime rating will decay over time, so after a while a character's misdeeds will be forgotten. If a player has been declared outlaw, however, he or she will need to end the war through a bartered peace agreement." />
+</Concepts>

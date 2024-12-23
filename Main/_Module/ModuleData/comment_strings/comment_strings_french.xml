@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string id="str_comment_vassal_introduces_self.vlandia" text="{=str_comment_vassal_introduces_self.vlandia.text}I am {CONVERSATION_CHARACTER.LINK} of the house of {CLAN_NAME}, my {?PLAYER.GENDER}lady{?}lord{\?}, and I am honored to serve you.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+		</tags>
+	</string>
+
+	<string id="str_comment_noble_introduces_self.vlandia" text="{=str_comment_noble_introduces_self.vlandia.text}I am {CONVERSATION_CHARACTER.LINK} of the house of {CLAN_NAME}.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_noble_introduces_self_and_clan.vlandia" text="{=str_comment_noble_introduces_self_and_clan.vlandia.text}I am {CONVERSATION_CHARACTER.LINK}, of the house of {CLAN_NAME}. Our family has served the French for generations.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+		</tags>
+	</string>
+	
+		<string id="str_comment_noble_introduces_self_and_clan.vlandia" text="{=str_comment_noble_introduces_self_and_clan.vlandia.text}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}. We hold our lands in fief to {LIEGE_TITLE}, and we honor our oaths of fealty.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+			<tag tag_name="HonorTag" weight="1"/>
+			<tag tag_name="PersonaEarnestTag" weight="+1"/>
+		</tags>
+	</string>
+	
+	<string id="str_comment_noble_introduces_self_and_clan.vlandia_honor" text="{=str_comment_noble_introduces_self_and_clan.vlandia_honor.text}I am {CONVERSATION_CHARACTER.LINK}, of the house of {CLAN_NAME}. Our family has stood in the House of Lords and discharged its duties honorably since the first days of the French Kingdom.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+			<tag tag_name="HonorTag" weight="1"/>
+		</tags>
+	</string>
+	
+	<string id="str_comment_noble_introduces_self_and_clan.vlandia_mercy" text="{=str_comment_noble_introduces_self_and_clan.vlandia_mercy.text}I am {CONVERSATION_CHARACTER.LINK}, of the house of {CLAN_NAME}. Though one should not be too proud of one's lineage, I am glad to say that we have always taken seriously our duty to protect the common folk of the French.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+			<tag tag_name="MercyTag" weight="1"/>
+		</tags>
+	</string>
+
+	<string id="str_comment_noble_introduces_self_and_clan.vlandia_boasting" text="{=str_comment_noble_introduces_self_and_clan.vlandia_boasting.text}I am {CONVERSATION_CHARACTER.LINK}, of the house of {CLAN_NAME}, one of the most illustrious families in the annals of the French.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+			<tag tag_name="UncharitableTag"/>
+		</tags>
+	</string>
+	
+	<string id="str_comment_noble_introduces_self_and_clan.vlandia_boasting_cruel" text="{=str_comment_noble_introduces_self_and_clan.vlandia_boasting_cruel.text}I am {CONVERSATION_CHARACTER.LINK}, of the house of {CLAN_NAME}, one of the most illustrious families in the annals of the French. The barbarians we have slain, and the glory we have won, is second to none.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+			<tag tag_name="UncharitableTag"/>
+			<tag tag_name="CruelTag" weight="1"/>
+		</tags>
+	</string>
+	
+		<string id="str_comment_noble_introduces_self_and_clan.vlandia_boasting_ironic" text="{=str_comment_noble_introduces_self_and_clan.vlandia_boasting_ironic.text}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}. We received our title from the Emperor himself. Not that he had much choice about it, as he was held captive in one of our raiding ships at the time, but I'm sure he recognized the nobility of our blood.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+			<tag tag_name="PersonaIronicTag" weight="+1"/>
+			<tag tag_name="CruelTag" weight="1"/>
+		</tags>
+	</string>
+	
+		<string id="str_liege_title.vlandia" text="{=str_liege_title.vlandia.text}rightful King of the French">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+		</tags>
+	</string>
+	
+	<string id="str_liege_title_female.vlandia" text="{=str_liege_title_female.vlandia.text}rightful Queen of the French">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+		</tags>
+	</string>
+	
+</strings>
