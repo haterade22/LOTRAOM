@@ -1567,7 +1567,7 @@
 	<NPCCharacter
 		id="lord_1_7"
 		name="{=I72U5ttG}Denethor II"
-		age="68"
+		age="70"
 		voice="ironic"
 		is_hero="true"
 		culture="Culture.gondor"
@@ -1776,6 +1776,325 @@
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
+		id="lord_1_9_1"
+		name="{=QjJAbaoT}Elphir"
+		age="13"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="000b7da440bc300e669e57882765477b8bb7397b87a7a78b85a54998ac6579dc000c586609868975000000000000000000000000000000000000000000005040"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.01"
+				build="0.72"
+				key="000A480FC00000022F70080860528544369289B2BF8A7E05776961088DB01839009B06030966530400000000000000000000000000000000000000003D3C1002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="CavalryFightingSkills"
+				value="18" />
+			<Trait
+				id="Commander"
+				value="17" />
+			<Trait
+				id="Politician"
+				value="12" />
+			<Trait
+				id="Manager"
+				value="15" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait
+				id="Valor"
+				value="2" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="2" />
+			<Trait
+				id="Calculating"
+				value="0" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="0" />
+			<Trait
+				id="Authoritarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.anduril" />
+				<equipment slot="Item2" id="Item.gond_shld2" />
+				<equipment slot="Head" id="Item.gondor_nobke_helmet1" />
+				<equipment slot="Body" id="Item.gondor_armor" />
+				<equipment slot="Gloves" id="Item.gondor_nobke_bracers" />
+				<equipment slot="Leg" id="Item.gondor_boots" />
+				<equipment slot="Cape" id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="emp_civ_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_9_2"
+		name="{=QjJAbaoT}Erchirion"
+		age="10"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="000b7da440bc300e669e57882765477b8bb7397b87a7a78b85a54998ac6579dc000c586609868975000000000000000000000000000000000000000000005040"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.01"
+				build="0.72"
+				key="000A480FC00000022F70080860528544369289B2BF8A7E05776961088DB01839009B06030966530400000000000000000000000000000000000000003D3C1002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="CavalryFightingSkills"
+				value="18" />
+			<Trait
+				id="Commander"
+				value="17" />
+			<Trait
+				id="Politician"
+				value="12" />
+			<Trait
+				id="Manager"
+				value="15" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait
+				id="Valor"
+				value="2" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="2" />
+			<Trait
+				id="Calculating"
+				value="0" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="0" />
+			<Trait
+				id="Authoritarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.anduril" />
+				<equipment slot="Item2" id="Item.gond_shld2" />
+				<equipment slot="Head" id="Item.gondor_nobke_helmet1" />
+				<equipment slot="Body" id="Item.gondor_armor" />
+				<equipment slot="Gloves" id="Item.gondor_nobke_bracers" />
+				<equipment slot="Leg" id="Item.gondor_boots" />
+				<equipment slot="Cape" id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="emp_civ_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_9_3"
+		name="{=QjJAbaoT}Amrothos"
+		age="6"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="000b7da440bc300e669e57882765477b8bb7397b87a7a78b85a54998ac6579dc000c586609868975000000000000000000000000000000000000000000005040"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.01"
+				build="0.72"
+				key="000A480FC00000022F70080860528544369289B2BF8A7E05776961088DB01839009B06030966530400000000000000000000000000000000000000003D3C1002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="CavalryFightingSkills"
+				value="18" />
+			<Trait
+				id="Commander"
+				value="17" />
+			<Trait
+				id="Politician"
+				value="12" />
+			<Trait
+				id="Manager"
+				value="15" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait
+				id="Valor"
+				value="2" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="2" />
+			<Trait
+				id="Calculating"
+				value="0" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="0" />
+			<Trait
+				id="Authoritarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.anduril" />
+				<equipment slot="Item2" id="Item.gond_shld2" />
+				<equipment slot="Head" id="Item.gondor_nobke_helmet1" />
+				<equipment slot="Body" id="Item.gondor_armor" />
+				<equipment slot="Gloves" id="Item.gondor_nobke_bracers" />
+				<equipment slot="Leg" id="Item.gondor_boots" />
+				<equipment slot="Cape" id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="emp_civ_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_9_4"
+		name="{=WnhPFlON}Lothiriel"
+		age="1"
+		voice="ironic"
+		is_female="true"
+		is_hero="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				weight="0.4241"
+				build="0.7095"
+				key="000BAC0A00141004B77326194AC4402599338A6798924403D8C24F3379749A46047B6646071634C300000000000000000000000000000000000000001EF41083" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!--NONCOMBATANT
+			FEMALE-->
+			<Trait
+				id="Politician"
+				value="16" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<!-- Melkea, wife of Apys Varros. Equally amoral. -->
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_9_5"
+		name="{=WnhPFlON}Andriel"
+		age="48"
+		voice="ironic"
+		is_female="true"
+		is_hero="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				weight="0.4241"
+				build="0.7095"
+				key="000BAC0A00141004B77326194AC4402599338A6798924403D8C24F3379749A46047B6646071634C300000000000000000000000000000000000000001EF41083" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!--NONCOMBATANT
+			FEMALE-->
+			<Trait
+				id="Politician"
+				value="16" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<!-- Melkea, wife of Apys Varros. Equally amoral. -->
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
 		id="lord_1_10"
 		name="{=WnhPFlON}Melkea"
 		age="45"
@@ -1931,7 +2250,7 @@
 		id="lord_1_11"
 		name="{=acp2IcMs}Ciryandur"
 		default_group="Infantry"
-		age="50"
+		age="64"
 		voice="curt"
 		is_hero="true"
 		culture="Culture.gondor"
@@ -1997,6 +2316,297 @@
 				<equipment slot="Leg" id="Item.gondor_boots" />
 				<equipment slot="Cape" id="Item.gondor_pauldrons" />
 			</EquipmentRoster>
+			<EquipmentSet
+				id="emp_civ_template_northfrontier"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_11_1"
+		name="{=acp2IcMs}Estelmo"
+		default_group="Infantry"
+		age="25"
+		voice="curt"
+		is_hero="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="000bd3058000100d785aa72917c606a54d469cdc9a3683a59a15af927269e22c0001647bc65d7806000000000000000000000000000000000000000000001183"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.85"
+				build="0.9"
+				key="000BD0058000100D785AA72917C606A54D469CDC9A3683A59A15AF927269E22C00070478065D7806000000000000000000000000000000000000000000001184" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="16" />
+			<Trait
+				id="Commander"
+				value="14" />
+			<Trait
+				id="Politician"
+				value="11" />
+			<Trait
+				id="Manager"
+				value="9" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait
+				id="Valor"
+				value="2" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="0" />
+			<Trait
+				id="Honor"
+				value="2" />
+			<Trait
+				id="Calculating"
+				value="0" />
+			<Trait
+				id="Egalitarian"
+				value="0" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+			<Trait
+				id="Authoritarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.anduril" />
+				<equipment slot="Item2" id="Item.gond_shld2" />
+				<equipment slot="Head" id="Item.gondor_nobke_helmet1" />
+				<equipment slot="Body" id="Item.gondor_armor" />
+				<equipment slot="Gloves" id="Item.gondor_nobke_bracers" />
+				<equipment slot="Leg" id="Item.gondor_boots" />
+				<equipment slot="Cape" id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="emp_civ_template_northfrontier"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_11_2"
+		name="{=acp2IcMs}Belecthar"
+		default_group="Infantry"
+		age="22"
+		voice="curt"
+		is_hero="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="000bd3058000100d785aa72917c606a54d469cdc9a3683a59a15af927269e22c0001647bc65d7806000000000000000000000000000000000000000000001183"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.85"
+				build="0.9"
+				key="000BD0058000100D785AA72917C606A54D469CDC9A3683A59A15AF927269E22C00070478065D7806000000000000000000000000000000000000000000001184" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="16" />
+			<Trait
+				id="Commander"
+				value="14" />
+			<Trait
+				id="Politician"
+				value="11" />
+			<Trait
+				id="Manager"
+				value="9" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait
+				id="Valor"
+				value="2" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="0" />
+			<Trait
+				id="Honor"
+				value="2" />
+			<Trait
+				id="Calculating"
+				value="0" />
+			<Trait
+				id="Egalitarian"
+				value="0" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+			<Trait
+				id="Authoritarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.anduril" />
+				<equipment slot="Item2" id="Item.gond_shld2" />
+				<equipment slot="Head" id="Item.gondor_nobke_helmet1" />
+				<equipment slot="Body" id="Item.gondor_armor" />
+				<equipment slot="Gloves" id="Item.gondor_nobke_bracers" />
+				<equipment slot="Leg" id="Item.gondor_boots" />
+				<equipment slot="Cape" id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="emp_civ_template_northfrontier"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_11_3"
+		name="{=dwFZFQ6V}Ainarauta"
+		age="20"
+		voice="softspoken"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="000ca12e00bc2005478d688968868296a6779bb376d6a724d866c7b9a9a97b7d000cc774ad629b660000000000000ffe00000000000000000000000000001080"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.4"
+				build="0.5"
+				key="000CA00E40BC2005478D688968868296A6779BB376D6A724D866C7B9A9A97B7D0007077C0D629B660000000000000FFE00000000000000000000000000001080" />
+		</face>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="14" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="emp_bat_template_northfrontier" />
+			<EquipmentSet
+				id="emp_civ_template_northfrontier"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_11_4"
+		name="{=dwFZFQ6V}Ivriniel"
+		age="19"
+		voice="softspoken"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="000ca12e00bc2005478d688968868296a6779bb376d6a724d866c7b9a9a97b7d000cc774ad629b660000000000000ffe00000000000000000000000000001080"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.4"
+				build="0.5"
+				key="000CA00E40BC2005478D688968868296A6779BB376D6A724D866C7B9A9A97B7D0007077C0D629B660000000000000FFE00000000000000000000000000001080" />
+		</face>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="14" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="emp_bat_template_northfrontier" />
+			<EquipmentSet
+				id="emp_civ_template_northfrontier"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_11_5"
+		name="{=dwFZFQ6V}Narniel"
+		age="19"
+		voice="softspoken"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="000ca12e00bc2005478d688968868296a6779bb376d6a724d866c7b9a9a97b7d000cc774ad629b660000000000000ffe00000000000000000000000000001080"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.4"
+				build="0.5"
+				key="000CA00E40BC2005478D688968868296A6779BB376D6A724D866C7B9A9A97B7D0007077C0D629B660000000000000FFE00000000000000000000000000001080" />
+		</face>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="14" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="emp_bat_template_northfrontier" />
 			<EquipmentSet
 				id="emp_civ_template_northfrontier"
 				civilian="true" />
@@ -2752,7 +3362,7 @@
 	<NPCCharacter
 		id="lord_1_75"
 		name="{=LiAefNmE}Boromir"
-		age="40"
+		age="22"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.gondor"
@@ -3366,7 +3976,7 @@
 	<NPCCharacter
 		id="lord_1_34"
 		name="{=uLjRHv9p}Faramir"
-		age="36"
+		age="17"
 		voice="earnest"
 		is_hero="true"
 		is_female="false"
@@ -5136,7 +5746,7 @@
 	<NPCCharacter
 		id="lord_1_45"
 		name="{=7nVZgjmn}Forlong the Fat"
-		age="65"
+		age="60"
 		voice="softspoken"
 		default_group="Infantry"
 		is_hero="true"
@@ -5195,8 +5805,8 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_45_1"
-		name="{=27fMB4Ri}Agnala"
-		age="38"
+		name="{=27fMB4Ri}Vanyalos"
+		age="60"
 		voice="earnest"
 		is_female="True"
 		default_group="Cavalry"
@@ -5240,13 +5850,13 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_45_2"
-		name="{=nfvgHpn5}Phostor"
-		age="19"
+		name="{=nfvgHpn5}Brandir"
+		age="27"
 		voice="earnest"
 		is_female="false"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.gondor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -5291,13 +5901,150 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_45_3"
-		name="{=Upt1X9HN}Nereida"
-		age="18"
+		name="{=nfvgHpn5}Borlong"
+		age="25"
+		voice="earnest"
+		is_female="false"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="000583c000fc000f66a89964658d25876585d896796876769a8899a987a7ab750003d65e03c578eb000000000000000000000000000000000000000000946140"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.6"
+				build="0.5"
+				key="000B100E51E4200F267B493B89C9477584CA4556433D5492B5979E75A8899A5501577613054347D4000000000000000000000000000000000000000058AC3083" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="emp_bat_template_medium" />
+			<EquipmentSet
+				id="emp_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_45_4"
+		name="{=Upt1X9HN}Loreth"
+		age="23"
 		voice="softspoken"
 		is_female="True"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.gondor"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="000583c000fc000f66a89964658d25876585d896796876769a8899a987a7ab750003d65e03c578eb000000000000000000000000000000000000000000946140"
+			/-->
+			<BodyProperties
+				version="4"
+				age="25.84"
+				weight="0.5"
+				build="0.5"
+				key="000B500E518830018883625946BD4C74CD2A878665347B498B83461C3686D569012776130286C8B500000000000000000000000000000000000000004A442003" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="2" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="emp_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_45_5"
+		name="{=Upt1X9HN}Belwen"
+		age="22"
+		voice="softspoken"
+		is_female="True"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="000583c000fc000f66a89964658d25876585d896796876769a8899a987a7ab750003d65e03c578eb000000000000000000000000000000000000000000946140"
+			/-->
+			<BodyProperties
+				version="4"
+				age="25.84"
+				weight="0.5"
+				build="0.5"
+				key="000B500E518830018883625946BD4C74CD2A878665347B498B83461C3686D569012776130286C8B500000000000000000000000000000000000000004A442003" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="2" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="emp_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_45_6"
+		name="{=Upt1X9HN}Brithwen"
+		age="21"
+		voice="softspoken"
+		is_female="True"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.gondor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -5467,10 +6214,10 @@
 	<NPCCharacter
 		id="lord_1_52"
 		name="{=6TphQddp}Hirluin the Fair"
-		age="40"
+		age="55"
 		voice="ironic"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.gondor"
 		occupation="Lord"
 		default_group="Infantry"
 		face_mesh_cache="true">
@@ -5524,14 +6271,13 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_52_1"
-		name="{=Ggj9PWIU}Minarvina"
-		age="35"
-		is_female="true"
+		name="{=6TphQddp}Arador"
+		age="23"
 		voice="ironic"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.gondor"
 		occupation="Lord"
-		default_group="Cavalry"
+		default_group="Infantry"
 		face_mesh_cache="true">
 		<face>
 			<!--face_key
@@ -5539,20 +6285,146 @@
 			/-->
 			<BodyProperties
 				version="4"
-				weight="0.2"
-				build="0.3"
-				key="000B600A8000300779811150F73BC0EE88087C1056A0C6772C8DEEEE7E4B8EF30F0436F207655A7200000000000000000000000000000000000000007E0410C4" />
+				weight="0.1"
+				build="0.98"
+				key="00027001400001C3547317A5A360004400318908384666579918711981B003170099060309683B0632430001330223550000000000001977000000004D347002" />
 		</face>
 		<skills></skills>
 		<Traits>
 			<Trait
+				id="BalancedFightingSkills"
+				value="16" />
+			<Trait
+				id="Commander"
+				value="13" />
+			<Trait
+				id="Politician"
+				value="9" />
+			<Trait
+				id="Manager"
+				value="7" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.anduril" />
+				<equipment slot="Item2" id="Item.gond_shld2" />
+				<equipment slot="Head" id="Item.gondor_nobke_helmet1" />
+				<equipment slot="Body" id="Item.gondor_armor" />
+				<equipment slot="Gloves" id="Item.gondor_nobke_bracers" />
+				<equipment slot="Leg" id="Item.gondor_boots" />
+				<equipment slot="Cape" id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="emp_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_52_2"
+		name="{=6TphQddp}Arvedui"
+		age="22"
+		voice="ironic"
+		is_hero="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="000ba52cc03c300d658918a66a565a686aaab3a57a485991a57a63282749b75400056aa402ae984800001105000030a30000001f000000000000000000001000"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.1"
+				build="0.98"
+				key="00027001400001C3547317A5A360004400318908384666579918711981B003170099060309683B0632430001330223550000000000001977000000004D347002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="16" />
+			<Trait
+				id="Commander"
+				value="13" />
+			<Trait
+				id="Politician"
+				value="9" />
+			<Trait
+				id="Manager"
+				value="7" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.anduril" />
+				<equipment slot="Item2" id="Item.gond_shld2" />
+				<equipment slot="Head" id="Item.gondor_nobke_helmet1" />
+				<equipment slot="Body" id="Item.gondor_armor" />
+				<equipment slot="Gloves" id="Item.gondor_nobke_bracers" />
+				<equipment slot="Leg" id="Item.gondor_boots" />
+				<equipment slot="Cape" id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="emp_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_52_3"
+		name="{=GFV7bzME}Ivriniel"
+		age="20"
+		voice="softspoken"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0005592b0000400da55b8899724689763869956b7b86578578658a96886733790000000007b8789800001105000030a30000001f000000000000000000000000"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.5"
+				build="0.5"
+				key="0005580B4000300DA55B8899724689763869956B7B86578578658A96886733790003000203B8789800001105000030A30000001F000000000000000000000000" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="16" />
+			<Trait
 				id="Manager"
 				value="10" />
 			<Trait
-				id="Politician"
-				value="8" />
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
 			<Trait
 				id="Calculating"
+				value="1" />
+			<Trait
+				id="Egalitarian"
 				value="1" />
 		</Traits>
 		<Equipments>
@@ -5565,30 +6437,46 @@
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
-		id="lord_1_52_2"
-		name="{=o5C0LbdP}Megarita"
-		age="16"
+		id="lord_1_52_4"
+		name="{=GFV7bzME}Silmarien"
+		age="64"
+		voice="softspoken"
 		is_female="true"
-		voice="earnest"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.gondor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
 			<!--face_key
-			value="000ba52cc03c300d658918a66a565a686aaab3a57a485991a57a63282749b75400056aa402ae984800001105000030a30000001f000000000000000000001000"
+			value="0005592b0000400da55b8899724689763869956b7b86578578658a96886733790000000007b8789800001105000030a30000001f000000000000000000000000"
 			/-->
 			<BodyProperties
 				version="4"
-				age="25.84"
 				weight="0.5"
 				build="0.5"
-				key="001C24045314100A97B9169795F83BA9A7A5747A763847665496582A27C55A950177761307529A8900000000000000000000000000000000000000004CEC00C3" />
+				key="0005580B4000300DA55B8899724689763869956B7B86578578658A96886733790003000203B8789800001105000030A30000001F000000000000000000000000" />
 		</face>
 		<skills></skills>
 		<Traits>
-			<!-- TEENAGER -->
+			<Trait
+				id="Politician"
+				value="16" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -5607,9 +6495,9 @@
 		voice="ironic"
 		is_female="false"
 		default_group="Infantry"
-		age="38"
+		age="43"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.gondor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -5660,6 +6548,158 @@
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_53_1"
+		name="{=3C8F07SL}Vinyarion"
+		voice="ironic"
+		is_female="false"
+		default_group="Infantry"
+		age="1"
+		is_hero="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0012b23940fc1005a6cd68b7aa637b86a8739883b3a5c468d2828372b567a3a3000b34b98a7db34800001105000030a30000001f000000000000000000009002"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.8"
+				build="0.85"
+				key="0011B00880FC1005A6CD68B7AA637B86A8739883B3A5C468D2828372B567A3A3000304B20A7DB34800001105000030A30000001F000000000000000000009002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="18" />
+			<Trait
+				id="Commander"
+				value="14" />
+			<Trait
+				id="Politician"
+				value="10" />
+			<Trait
+				id="Manager"
+				value="9" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="0" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Honor" value="1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_civ_template_default"
+			/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_53_2"
+		name="{=GFV7bzME}Itarildú"
+		age="6"
+		voice="softspoken"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0005592b0000400da55b8899724689763869956b7b86578578658a96886733790000000007b8789800001105000030a30000001f000000000000000000000000"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.5"
+				build="0.5"
+				key="0005580B4000300DA55B8899724689763869956B7B86578578658A96886733790003000203B8789800001105000030A30000001F000000000000000000000000" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="16" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="emp_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_53_3"
+		name="{=GFV7bzME}Ancalimú"
+		age="6"
+		voice="softspoken"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0005592b0000400da55b8899724689763869956b7b86578578658a96886733790000000007b8789800001105000030a30000001f000000000000000000000000"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.5"
+				build="0.5"
+				key="0005580B4000300DA55B8899724689763869956B7B86578578658A96886733790003000203B8789800001105000030A30000001F000000000000000000000000" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="16" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="emp_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
 	<!-- Maneolis clan, West 8. Vipon. Cruel. Ambitious -->
 	<NPCCharacter
 		id="lord_1_71"
@@ -5668,7 +6708,7 @@
 		voice="softspoken"
 		default_group="Infantry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.gondor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -5733,6 +6773,57 @@
 			</EquipmentRoster>
 			<EquipmentSet
 				id="emp_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_1_71_1"
+		name="{=GFV7bzME}Narien"
+		age="33"
+		voice="softspoken"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.gondor"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0005592b0000400da55b8899724689763869956b7b86578578658a96886733790000000007b8789800001105000030a30000001f000000000000000000000000"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.5"
+				build="0.5"
+				key="0005580B4000300DA55B8899724689763869956B7B86578578658A96886733790003000203B8789800001105000030A30000001F000000000000000000000000" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="16" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="emp_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_default"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -5932,7 +7023,7 @@
 	<NPCCharacter
 		id="lord_1_59"
 		name="{=6TphQddp}Borhador the Old"
-		age="63"
+		age="112"
 		voice="ironic"
 		is_hero="true"
 		culture="Culture.gondor"
@@ -5989,10 +7080,11 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_59_1"
-		name="{=fepOjbsV}Halwen"
+		name="{=fepOjbsV}Luinmir"
 		voice="softspoken"
 		is_female="true"
-		age="58"
+		is_alive="false"
+		age="47"
 		is_hero="true"
 		culture="Culture.gondor"
 		occupation="Lord"
@@ -8148,7 +9240,7 @@
 		voice="curt"
 		default_group="Infantry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.gondor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
