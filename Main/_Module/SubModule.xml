@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Module xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/BUTR/Bannerlord.XmlSchemas/master/SubModule.xsd" >
+	<Id value="LOTRAOM" />
+	<Name value="LOTRAOM" />
+	<Version value="v0.0.1" />
+	<DefaultModule value="false" />
+	<ModuleCategory value="Singleplayer"/>
+	<ModuleType value="Community" />
+	<DependedModules>
+		<DependedModule Id="Native" />
+		<DependedModule Id="SandBoxCore" />
+		<DependedModule Id="Sandbox" />
+		<DependedModule Id="CustomBattle" />
+	</DependedModules>
+	<!-- Community Dependency Metadata -->
+	<!-- https://github.com/BUTR/Bannerlord.BLSE#community-dependency-metadata -->
+	<DependedModuleMetadatas>
+		<DependedModuleMetadata id="Native" order="LoadBeforeThis" />
+		<DependedModuleMetadata id="SandBoxCore" order="LoadBeforeThis" />
+		<DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" />
+		<DependedModuleMetadata id="CustomBattle" order="LoadBeforeThis" />
+	</DependedModuleMetadatas>
+	<!-- Community Dependency Metadata -->
+	<SubModules>
+		<SubModule>
+			<Name value="LOTRAOM" />
+			<DLLName value="LOTRAOM.dll" />
+			<SubModuleClassType value="LOTRAOM.SubModule" />
+			<Tags />
+		</SubModule>
+
+	</SubModules>
+	<Xmls>
+		
+		
+<!-- Cultures -->
+
+		<XmlNode>
+			<XmlName id="SPCultures" path="LOTRLOME_spcultures" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
+
+<!-- Kingdoms -->
+		<XmlNode>
+			<XmlName id="Kingdoms" path="spkingdoms"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Kingdoms" path="LOTRLOME_spkingdoms"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+<!-- Clans -->
+<XmlNode>
+	<XmlName id="Factions" path="spclans" />
+		<IncludedGameTypes>
+			<GameType value="Campaign" />
+			<GameType value="CampaignStoryMode" />
+		</IncludedGameTypes>
+	</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Factions" path="LOTRLOME_spclans" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
+		
+		
+<!-- Character Templates -->
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="spnpccharactertemplates"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode> 
+
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="LOTRLOME_spnpccharactertemplates"/>
+			<IncludedGameTypes>
+				<GameType value ="Campaign"/>
+				<GameType value ="CampaignStoryMode"/>
+				<GameType value ="CustomGame"/>
+				<GameType value ="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode> 
+
+<!-- Vanilla Troops -->
+<XmlNode>
+	<XmlName id="NPCCharacters" path="spnpccharacters"/>
+	<IncludedGameTypes>
+		<GameType value ="Campaign"/>
+		<GameType value ="CampaignStoryMode"/>
+		<GameType value ="CustomGame"/>
+	</IncludedGameTypes>
+</XmlNode> 
+
+<!-- Custom Troops -->
+<XmlNode>
+			<XmlName id="NPCCharacters" path="troops_rohan"/>
+			<IncludedGameTypes>
+				<GameType value ="Campaign"/>
+				<GameType value ="CampaignStoryMode"/>
+				<GameType value ="CustomGame"/>
+			</IncludedGameTypes>
+</XmlNode>
+
+<XmlNode>
+			<XmlName id="NPCCharacters" path="troops_dunland"/>
+			<IncludedGameTypes>
+				<GameType value ="Campaign"/>
+				<GameType value ="CampaignStoryMode"/>
+				<GameType value ="CustomGame"/>
+			</IncludedGameTypes>
+</XmlNode>
+
+
+<XmlNode>
+			<XmlName id="NPCCharacters" path="troops_gondor"/>
+			<IncludedGameTypes>
+				<GameType value ="Campaign"/>
+				<GameType value ="CampaignStoryMode"/>
+				<GameType value ="CustomGame"/>
+			</IncludedGameTypes>
+</XmlNode>
+
+<!-- Sanbox Equipment Roster -->
+		<XmlNode>
+			<XmlName id="EquipmentRosters" path="LOTRLOME_sandbox_equipment_sets"/>
+			<IncludedGameTypes>
+				<GameType value ="Campaign"/>
+				<GameType value ="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode> 
+
+<!-- Lords -->
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="lords"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+<!--Heros -->
+
+<XmlNode>
+	<XmlName id="Heroes" path="heroes" />
+	<IncludedGameTypes>
+		<GameType value="Campaign" />
+		<GameType value="CampaignStoryMode" />
+	</IncludedGameTypes>
+</XmlNode>
+
+		
+		<!--Notables & Special Characters-->
+
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="spspecialcharacters"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+<!-- Strings -->
+		<XmlNode>
+			<XmlName id="GameText" path="module_strings"/>
+		</XmlNode>
+
+
+
+
+	</Xmls>
+</Module>
+
+
