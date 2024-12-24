@@ -35,7 +35,7 @@ namespace LOTRAOM.CampaignStart
         };
         public static void OnCharacterCreationFinalized()
         {
-            string settlementId = "town_EN1";
+            string settlementId = "town_EW1";
             string playersCulture = Hero.MainHero.Culture.StringId;
             if (StartingSettlement.ContainsKey(playersCulture))
                 settlementId = StartingSettlement[playersCulture];
