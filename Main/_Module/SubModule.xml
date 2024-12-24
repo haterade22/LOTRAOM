@@ -138,6 +138,16 @@
 			</IncludedGameTypes>
 </XmlNode>
 
+<XmlNode>
+			<XmlName id="NPCCharacters" path="troops_mordor"/>
+			<IncludedGameTypes>
+				<GameType value ="Campaign"/>
+				<GameType value ="CampaignStoryMode"/>
+				<GameType value ="CustomGame"/>
+			</IncludedGameTypes>
+</XmlNode>
+
+		
 <!-- Sanbox Equipment Roster -->
 		<XmlNode>
 			<XmlName id="EquipmentRosters" path="LOTRLOME_sandbox_equipment_sets"/>
