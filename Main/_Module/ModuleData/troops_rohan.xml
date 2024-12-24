@@ -1525,7 +1525,7 @@
 					id="Item.western_javelin_1_t2" />
 				<equipment
 					slot="Head"
-					id="Item.cts_rohan_helmet2a" />
+					id="Item.cts_rohan_helmet1" />
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor4" />
@@ -1703,7 +1703,7 @@
 					id="Item.piercing_arrows" />
 				<equipment
 					slot="Head"
-					id="Item.cts_rohan_helmet3" />
+					id="Item.cts_rohan_helmet3a" />
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor1" />
@@ -1881,7 +1881,7 @@
 					id="Item.piercing_arrows" />
 				<equipment
 					slot="Head"
-					id="Item.cts_rohan_helmet4d" />
+					id="Item.cts_rohan_helmet4c" />
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor2" />
@@ -1961,7 +1961,7 @@
 					id="Item.cts_rohan_shield1" />
 				<equipment
 					slot="Head"
-					id="Item.cts_cts_rohan_royal_guard_helmet" />
+					id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor1" />
@@ -1993,7 +1993,7 @@
 					id="Item.cts_rohan_shield2" />
 				<equipment
 					slot="Head"
-					id="Item.cts_cts_rohan_royal_guard_helmet" />
+				id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor1" />
@@ -2025,7 +2025,7 @@
 					id="Item.cts_rohan_shield" />
 				<equipment
 					slot="Head"
-					id="Item.cts_cts_rohan_royal_guard_helmet" />
+					id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor3" />
@@ -2057,7 +2057,7 @@
 					id="Item.cts_rohan_shield" />
 				<equipment
 					slot="Head"
-					id="Item.cts_cts_rohan_royal_guard_helmet" />
+					id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor3" />
