@@ -17,8 +17,8 @@
 		flag_mesh="info_screen_flags_b"
 		name="{=FjwRsf1C}Dunland"
 		short_name="{=8HMyTKF6}Dunland"
-		title="{=lAWwcO6b}Imladris"
-		ruler_title="{=hwnp9abW}Lord"
+		title="{=lAWwcO6b}Dunland"
+		ruler_title="{=hwnp9abW}King"
 		text="{=DunlandFactionDesc}Dunland, a rugged and untamed land of rolling hills and dense forests, is home to the fierce and independent Dunlendings. Often marginalized and at odds with their neighbors, the people of Dunland are hardened by centuries of struggle and survival. Their chieftains lead through strength and cunning, uniting clans under a shared banner of vengeance and freedom. Known for their ferocious warriors and skilled hunters, the Dunlendings favor axes, spears, and bows, fighting with a tenacity born from their deep connection to their ancestral lands. Though their ways may seem primitive to others, the Dunlendings are proud and resourceful, ready to reclaim their rightful place in Middle-earth.">
 		<policies>
 			<policy
@@ -48,7 +48,7 @@
 		name="{=yG3YUySN}Gondor"
 		short_name="{=ZEmH0MwL}Gondor"
 		title="{=yG3YUySN}Gondor"
-		ruler_title="{=OoHhCa11}Steward of Gondor"
+		ruler_title="{=OoHhCa11}Steward"
 		text="{=mOZsbV8j}Gondor stands as a proud bastion of strength and resilience in Middle-earth, known for its towering white stone cities, ancient lineage, and skilled armies. Founded by Elendil and his sons after the fall of Númenor, Gondor has long guarded the realms of men against the growing darkness in the east. With Minas Tirith as its capital, the kingdom is renowned for its valor, discipline, and loyalty to the Free Peoples. While beset by years of conflict with Mordor, Gondor’s warriors and Stewards have kept hope alive, awaiting the return of the king to restore its former glory.">
 		<relationships>
 			<relationship
@@ -273,7 +273,7 @@
 		settlement_banner_mesh="encounter_flag_f"
 		flag_mesh="info_screen_flags_b"
 		name="{=sZLd6VHi}Rhûn"
-		short_name="{=vJOWy1QF}Easterlings"
+		short_name="{=vJOWy1QF}Rhûn"
 		title="{=bF7HmNGQ}Rhûn"
 		ruler_title="{=hwnp9abW}Warlord"
 		text="{=fGNdo1BK}Rhûn, a vast and mysterious land to the east of Middle-earth, is home to the Easterlings, a fierce and warlike people. Known for their loyalty to Sauron and their highly skilled cavalry, they bring swift and deadly attacks to any who oppose them. The warriors of Rhun are formidable riders, clad in armor inspired by ancient and Eastern motifs, loyal to their Warlord and ever ready to ride at Mordor's call.">
