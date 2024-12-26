@@ -7083,7 +7083,6 @@
 		name="{=fepOjbsV}Luinmir"
 		voice="softspoken"
 		is_female="true"
-		is_alive="false"
 		age="47"
 		is_hero="true"
 		culture="Culture.gondor"
