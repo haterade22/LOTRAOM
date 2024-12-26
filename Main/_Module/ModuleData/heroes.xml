@@ -289,7 +289,6 @@
 	<!-- Empire west 1 -->
 	<Hero
 		id="lord_1_7"
-		sister="Hero.lord_1_52_4"
 		faction="Faction.clan_empire_west_1"
 		text="{=niI9dpuu}Denethor II, the Steward of Gondor, rules Minas Tirith with unwavering authority and a deep-seated duty to protect his people. Known for his strategic mind and devotion to Gondor, Denethor commands respect yet inspires caution, as his decisions are often pragmatic and unyielding. He emphasizes strength, duty, and the survival of Gondor above all else, demanding loyalty and readiness to defend the realm against ever-present threats from Mordor." />
 	<Hero
@@ -307,28 +306,21 @@
 		id="lord_1_9_1"
 		father="Hero.lord_1_9"
 		mother="Hero.lord_1_9_5"
-		brother="Hero.lord_1_9_2"
-		sister="Hero.lord_1_9_4"
 		faction="Faction.clan_empire_west_2" />
 	<Hero
 		id="lord_1_9_2"
 		father="Hero.lord_1_9"
 		mother="Hero.lord_1_9_5"
-		brother="Hero.lord_1_9_1"
-		sister="Hero.lord_1_9_43"
 		faction="Faction.clan_empire_west_2" />
 	<Hero
 		id="lord_1_9_3"
 		father="Hero.lord_1_9"
 		mother="Hero.lord_1_9_5"
-		brother="Hero.lord_1_9_1"
-		sister="Hero.lord_1_9_4"
 		faction="Faction.clan_empire_west_2" />
 	<Hero
 		id="lord_1_9_4"
 		father="Hero.lord_1_9"
 		mother="Hero.lord_1_9_5"
-		brother="Hero.lord_1_9_1"
 		faction="Faction.clan_empire_west_2" />
 	<Hero
 		id="lord_1_9_5"
@@ -341,32 +333,22 @@
 	<Hero
 		id="lord_1_11_1"
 		father="Hero.lord_1_11"
-		brother="Hero.lord_1_11_2"
-		sister="Hero.lord_1_11_3"
 		faction="Faction.clan_empire_west_3" />
 	<Hero
 		id="lord_1_11_2"
 		father="Hero.lord_1_11"
-		brother="Hero.lord_1_11_1"
-		sister="Hero.lord_1_11_4"
 		faction="Faction.clan_empire_west_3" />
 	<Hero
 		id="lord_1_11_3"
 		father="Hero.lord_1_11"
-		brother="Hero.lord_1_11_1"
-		sister="Hero.lord_1_11_5"
 		faction="Faction.clan_empire_west_3" />
 	<Hero
 		id="lord_1_11_4"
 		father="Hero.lord_1_11"
-		brother="Hero.lord_1_11_2"
-		sister="Hero.lord_1_11_3"
 		faction="Faction.clan_empire_west_3" />
 	<Hero
 		id="lord_1_11_5"
 		father="Hero.lord_1_11"
-		brother="Hero.lord_1_11_1"
-		sister="Hero.lord_1_11_4"
 		faction="Faction.clan_empire_west_3" />
 	<!-- empire west 4 -->
 	<Hero
@@ -395,42 +377,31 @@
 	<Hero
 		id="lord_1_45_1"
 		spouse="Hero.lord_1_45"
-		brother="Hero.lord_1_7"
 		faction="Faction.clan_empire_west_5" />
 	<Hero
 		id="lord_1_45_2"
 		father="Hero.lord_1_45"
 		mother="Hero.lord_1_45_1"
-		brother="Hero.lord_1_45_3"
-		sister="Hero.lord_1_45_4"
 		faction="Faction.clan_empire_west_5" />
 	<Hero
 		id="lord_1_45_3"
 		father="Hero.lord_1_45"
 		mother="Hero.lord_1_45_1"
-		brother="Hero.lord_1_45_2"
-		sister="Hero.lord_1_45_5"
 		faction="Faction.clan_empire_west_5" />
 	<Hero
 		id="lord_1_45_4"
 		father="Hero.lord_1_45"
 		mother="Hero.lord_1_45_1"
-		brother="Hero.lord_1_45_3"
-		sister="Hero.lord_1_45_6"
 		faction="Faction.clan_empire_west_5" />
 	<Hero
 		id="lord_1_45_5"
 		father="Hero.lord_1_45"
 		mother="Hero.lord_1_45_1"
-		brother="Hero.lord_1_45_2"
-		sister="Hero.lord_1_45_4"
 		faction="Faction.clan_empire_west_5" />
 	<Hero
 		id="lord_1_45_6"
 		father="Hero.lord_1_45"
 		mother="Hero.lord_1_45_1"
-		brother="Hero.lord_1_45_3"
-		sister="Hero.lord_1_45_5"
 		faction="Faction.clan_empire_west_5" />
 	<Hero
 		id="lord_1_57"
@@ -456,49 +427,37 @@
 		id="lord_1_52_1"
 		father="Hero.lord_1_52"
 		mother="Hero.lord_1_52_4"
-		brother="Hero.lord_1_52_2"
-		sister="Hero.lord_1_52_3"
 		faction="Faction.clan_empire_west_6" />
 	<Hero
 		id="lord_1_52_2"
 		father="Hero.lord_1_52"
 		mother="Hero.lord_1_52_4"
-		brother="Hero.lord_1_52_1"
-		sister="Hero.lord_1_52_3"
 		faction="Faction.clan_empire_west_6" />
 	<Hero
 		id="lord_1_52_3"
 		father="Hero.lord_1_52"
 		mother="Hero.lord_1_52_4"
-		brother="Hero.lord_1_52_1"
 		faction="Faction.clan_empire_west_6" />
 	<Hero
 		id="lord_1_52_4"
 		spouse="Hero.lord_1_52"
-		brother="Hero.lord_1_7"
 		faction="Faction.clan_empire_west_6" />
 	<!-- empire west 7 -->
 	<Hero
 		id="lord_1_53"
 		faction="Faction.clan_empire_west_7"
-		sister="Hero.lord_1_9_5"
 		text="{=angbor_the_fearless_description}Angbor the Fearless, Lord of Lamedon, is renowned for his unyielding courage and defiance in the face of adversity. His resolve is unshakable, even when hope seems lost. Angbor rallies the men of Lamedon with fiery speeches and a bold heart, earning him the respect of warriors across Gondor. His leadership in times of dire need has solidified his reputation as one of Gondor’s most daring and resilient leaders." />
 	<Hero
 		id="lord_1_53_1"
 		father="Hero.lord_1_53"
-		sister="Hero.lord_1_53_2"
 		faction="Faction.clan_empire_west_7" />
 	<Hero
 		id="lord_1_53_2"
 		father="Hero.lord_1_53"
-		sister="Hero.lord_1_53_3"
-		brother="Hero.lord_1_53_1"
 		faction="Faction.clan_empire_west_7" />
 	<Hero
 		id="lord_1_53_3"
 		father="Hero.lord_1_53"
-		sister="Hero.lord_1_53_2"
-		brother="Hero.lord_1_53_1"
 		faction="Faction.clan_empire_west_7" />
 	<!-- Maneolis, clan West 8 -->
 	<Hero
@@ -536,18 +495,17 @@
 	<Hero
 		id="lord_1_59_1"
 		spouse="Hero.lord_1_59"
+		alive="false"
 		faction="Faction.clan_empire_west_10" />
 	<Hero
 		id="lord_1_59_2"
 		father="Hero.lord_1_59"
 		mother="Hero.lord_1_59_1"
-		brother="Hero.lord_1_59_3"
 		faction="Faction.clan_empire_west_10" />
 	<Hero
 		id="lord_1_59_3"
 		father="Hero.lord_1_59"
 		mother="Hero.lord_1_59_1"
-		brother="Hero.lord_1_59_2"
 		faction="Faction.clan_empire_west_10" />
 	<Hero
 		id="lord_1_60"
