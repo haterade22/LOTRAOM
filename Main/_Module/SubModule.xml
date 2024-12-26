@@ -138,6 +138,7 @@
 			</IncludedGameTypes>
 </XmlNode>
 
+<!-- Mordor 
 <XmlNode>
 			<XmlName id="NPCCharacters" path="troops_mordor"/>
 			<IncludedGameTypes>
@@ -145,7 +146,7 @@
 				<GameType value ="CampaignStoryMode"/>
 				<GameType value ="CustomGame"/>
 			</IncludedGameTypes>
-</XmlNode>
+</XmlNode> -->
 
 		
 <!-- Sanbox Equipment Roster -->
