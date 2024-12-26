@@ -2684,9 +2684,6 @@
 					slot="Gloves"
 					id="Item.cts_rohan_armguard2" />
 			</EquipmentRoster>
-			<EquipmentSet
-				id="battania_troop_civilian_template_t2"
-				civilian="true" />
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
@@ -2861,6 +2858,9 @@
 					slot="Gloves"
 					id="Item.cts_rohan_armguard4" />
 			</EquipmentRoster>
+			<EquipmentSet
+				id="vlandia_troop_civilian_template_t3"
+				civilian="true" />
 
 		</Equipments>
 	</NPCCharacter>
