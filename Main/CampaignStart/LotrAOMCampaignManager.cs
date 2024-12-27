@@ -31,6 +31,7 @@ namespace LOTRAOM.CampaignStart
         public override void OnGameEnd(Game game)
         {
             MBDebug.SetErrorReportScene(null);
+            base.OnGameEnd(game);
         }
 
         public override void OnGameInitializationFinished(Game game)
