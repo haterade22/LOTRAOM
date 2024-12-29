@@ -21635,5 +21635,60 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
+
+
+	<!--Erebor-->
+<NPCCharacter
+		id="lord_E1_1"
+		name="{=DainIronFoot}Dain Ironfoot"
+		age="43"
+		voice="earnest"
+		is_female="false"
+		default_group="Infantry"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		face_mesh_cache="true">
+	<face>
+		<BodyProperties
+			version="4"
+			weight="0.7"
+			build="0.7"
+			key="0026F80E40002343B8708B896D682237D5D88B3D557E344C17243FB5B88988680077760307967D3B00000000000000000000000000000000000000003EF41002" />
+	</face>
+	<skills></skills>
+	<Traits>
+		<Trait
+			id="Commander"
+			value="14" />
+		<Trait
+			id="Politician"
+			value="12" />
+		<Trait
+			id="Manager"
+			value="4" />
+		<!-- Earnest but ferocious -->
+		<Trait
+			id="Calculating"
+			value="-1" />
+		<Trait
+			id="Mercy"
+			value="-1" />
+		<Trait
+			id="Generosity"
+			value="1" />
+		<Trait
+			id="Honor"
+			value="1" />
+	</Traits>
+	<Equipments>
+		<EquipmentRoster />
+		<EquipmentSet
+			id="khu_bat_template_heavy" />
+		<EquipmentSet
+			id="khu_civ_template_default"
+			civilian="true" />
+	</Equipments>
+</NPCCharacter>
 	<!--#endregion-->
 </NPCCharacters>
