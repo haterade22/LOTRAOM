@@ -16,36 +16,25 @@ namespace LOTRAOM.CampaignStart
         public static Dictionary<string, string> StartingSettlement = new()
         {
             // if the mod keeps has multiple factions with same culture (like empire in vanilla) this code will have to be refactored
-            ["aserai"] = "town_EW1",
-            ["empire"] = "town_EW1",
-            ["khuzait"] = "town_EW1",
-            ["sturgia"] = "town_EW1",
-            ["battania"] = "town_EW1",
-            ["vlandia"] = "town_EW1",
-            ["gondor"] = "town_EW1",
-            ["mordor"] = "town_ES1",
-            ["rivendell"] = "town_EW1",
-            ["mirkwood"] = "town_EW1",
-            ["lothlorien"] = "town_EW1",
-            ["erebor"] = "town_EW1",
-            ["umbar"] = "town_EW1",
-            ["dolguldur"] = "town_EW1",
-            ["isengard"] = "town_EW1",
-            ["gundabad"] = "town_EW1",
+             ["aserai"] = "town_EW1",
+             ["empire"] = "town_EW1",
+             ["khuzait"] = "town_EW1",
+             ["sturgia"] = "town_EW1",
+             ["battania"] = "town_EW1",
+             ["vlandia"] = "town_EW1",
+             ["gondor"] = "town_EW1",
+             ["mordor"] = "town_ES1",
+             ["rivendell"] = "town_EW1",
+             ["mirkwood"] = "town_EW1",
+             ["lothlorien"] = "town_EW1",
+             ["erebor"] = "town_EW1",
+             ["umbar"] = "town_EW1",
+             ["dolguldur"] = "town_EW1",
+             ["isengard"] = "town_EW1",
+             ["gundabad"] = "town_EW1",
         };
         public static void OnCharacterCreationFinalized()
         {
-            string settlementId = "town_EW1";
-            string playersCulture = Hero.MainHero.Culture.StringId;
-            if (StartingSettlement.ContainsKey(playersCulture))
-                settlementId = StartingSettlement[playersCulture];
-            
-            Hero.MainHero.PartyBelongedTo.Position2D = Settlement.Find(settlementId).GatePosition;
-            if (GameStateManager.Current.ActiveState is MapState mapState)
-            {
-                mapState.Handler.ResetCamera(true, true);
-                mapState.Handler.TeleportCameraToMainParty();
-            }
         }
     }
 }
