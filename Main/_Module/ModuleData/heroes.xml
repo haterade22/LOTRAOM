@@ -289,7 +289,6 @@
 	<!-- Empire west 1 -->
 	<Hero
 		id="lord_1_7"
-		spouse="Hero.lord_1_8"
 		faction="Faction.clan_empire_west_1"
 		text="{=niI9dpuu}Denethor II, the Steward of Gondor, rules Minas Tirith with unwavering authority and a deep-seated duty to protect his people. Known for his strategic mind and devotion to Gondor, Denethor commands respect yet inspires caution, as his decisions are often pragmatic and unyielding. He emphasizes strength, duty, and the survival of Gondor above all else, demanding loyalty and readiness to defend the realm against ever-present threats from Mordor." />
 	<Hero
@@ -297,66 +296,59 @@
 		father="Hero.lord_1_7"
 		faction="Faction.clan_empire_west_1"
 		text="{=boromir_description}Boromir, the eldest son of Denethor II, Steward of Gondor, is a proud and valiant warrior dedicated to the defense of his homeland. Renowned for his strength, leadership, and courage in battle, he serves as Gondor's foremost champion against the shadow encroaching from Mordor. Boromir’s unyielding commitment to protecting his people and preserving Gondor’s legacy has earned him the respect of soldiers and citizens alike. Though his heart is burdened by the immense responsibility he carries, his bravery and loyalty make him a beacon of hope for his people." />
-
-	<Hero
-		id="lord_1_8"
-		spouse="Hero.lord_1_7"
-		faction="Faction.clan_empire_west_1" />
-	<Hero
-		id="lord_1_24"
-		faction="Faction.clan_empire_west_1" />
-	<Hero
-		id="lord_1_44"
-		faction="Faction.clan_empire_west_1" />
 	<!-- Empire west 2 -->
 	<Hero
 		id="lord_1_9"
-		spouse="Hero.lord_1_10"
+		spouse="Hero.lord_1_9_5"
 		faction="Faction.clan_empire_west_2"
 		text="{=imrahil_description}Imrahil, Prince of Dol Amroth, is a beacon of chivalry and valor in Gondor. Renowned for his unmatched courage and noble bearing, he leads the Swan Knights with honor and distinction. Imrahil’s wisdom and diplomacy make him a vital ally in Gondor’s struggle against the shadow. His loyalty to the House of Elessar and his tireless defense of his people ensure his place as one of Gondor’s most revered leaders." />
 	<Hero
-		id="lord_1_10"
+		id="lord_1_9_1"
+		father="Hero.lord_1_9"
+		mother="Hero.lord_1_9_5"
+		faction="Faction.clan_empire_west_2" />
+	<Hero
+		id="lord_1_9_2"
+		father="Hero.lord_1_9"
+		mother="Hero.lord_1_9_5"
+		faction="Faction.clan_empire_west_2" />
+	<Hero
+		id="lord_1_9_3"
+		father="Hero.lord_1_9"
+		mother="Hero.lord_1_9_5"
+		faction="Faction.clan_empire_west_2" />
+	<Hero
+		id="lord_1_9_4"
+		father="Hero.lord_1_9"
+		mother="Hero.lord_1_9_5"
+		faction="Faction.clan_empire_west_2" />
+	<Hero
+		id="lord_1_9_5"
 		spouse="Hero.lord_1_9"
-		faction="Faction.clan_empire_west_2" />
-	<Hero
-		id="lord_1_35"
-		faction="Faction.clan_empire_west_2" />
-	<Hero
-		id="lord_1_25"
-		father="Hero.lord_1_9"
-		mother="Hero.lord_1_10"
-		faction="Faction.clan_empire_west_2" />
-	<Hero
-		id="lord_1_23"
-		father="Hero.lord_1_9"
-		mother="Hero.lord_1_10"
 		faction="Faction.clan_empire_west_2" />
 	<!-- Empire west 3 -->
 	<Hero
 		id="lord_1_11"
-		spouse="Hero.lord_1_12"
-		faction="Faction.clan_empire_west_3"
-		text="{=duinhir_description}Duinhir, Lord of Blackroot Vale, is a stalwart leader and a fierce defender of Gondor. His keen eye and skill in archery are matched only by his unyielding resolve. Duinhir commands his troops with unwavering determination, standing firm against the growing threats to Gondor. Though his lands are small and isolated, his contributions to the defense of the realm are invaluable, embodying the resilience and spirit of his people." />
-	<Hero
-		id="lord_1_111"
-		father="Hero.lord_1_11"
-		mother="Hero.lord_1_12"
 		faction="Faction.clan_empire_west_3" />
 	<Hero
-		id="lord_1_12"
-		spouse="Hero.lord_1_11"
-		faction="Faction.clan_empire_west_3"
-		text="{=FbmWZdbg}Lysica is the wife of Crotor, a frontier lord in the western empire. Like many noblewomen in the border countries, she learned to ride, shoot, and lead men, often taking the lead in defending clan lands when her husband is away." />
-	<Hero
-		id="lord_1_36"
+		id="lord_1_11_1"
 		father="Hero.lord_1_11"
-		mother="Hero.lord_1_12"
-		faction="Faction.clan_empire_west_3"
-		text="{=s2Wbx6bg}Phaea is a noblewoman of the house of Dionicos, traditional wardens of the empire's frontier with Battania. Like her mother, Lysica, she has trained to fight and to lead men in battle, so that the frontiers can still be defended when the clan patriarchs are away at war." />
+		faction="Faction.clan_empire_west_3" />
 	<Hero
-		id="lord_1_26"
+		id="lord_1_11_2"
 		father="Hero.lord_1_11"
-		mother="Hero.lord_1_12"
+		faction="Faction.clan_empire_west_3" />
+	<Hero
+		id="lord_1_11_3"
+		father="Hero.lord_1_11"
+		faction="Faction.clan_empire_west_3" />
+	<Hero
+		id="lord_1_11_4"
+		father="Hero.lord_1_11"
+		faction="Faction.clan_empire_west_3" />
+	<Hero
+		id="lord_1_11_5"
+		father="Hero.lord_1_11"
 		faction="Faction.clan_empire_west_3" />
 	<!-- empire west 4 -->
 	<Hero
@@ -397,6 +389,21 @@
 		mother="Hero.lord_1_45_1"
 		faction="Faction.clan_empire_west_5" />
 	<Hero
+		id="lord_1_45_4"
+		father="Hero.lord_1_45"
+		mother="Hero.lord_1_45_1"
+		faction="Faction.clan_empire_west_5" />
+	<Hero
+		id="lord_1_45_5"
+		father="Hero.lord_1_45"
+		mother="Hero.lord_1_45_1"
+		faction="Faction.clan_empire_west_5" />
+	<Hero
+		id="lord_1_45_6"
+		father="Hero.lord_1_45"
+		mother="Hero.lord_1_45_1"
+		faction="Faction.clan_empire_west_5" />
+	<Hero
 		id="lord_1_57"
 		spouse="Hero.lord_1_57_1"
 		faction="Faction.clan_empire_west_5" />
@@ -412,47 +419,56 @@
 	<!-- empire west 6 -->
 	<Hero
 		id="lord_1_52"
-		spouse="Hero.lord_1_52_1"
+		spouse="Hero.lord_1_52_4"
 		faction="Faction.clan_empire_west_6"
 		text="{=hirluin_the_fair_description}Hirluin the Fair, Lord of Pinnath Gelin, is a paragon of honor and grace. His golden hair and noble bearing set him apart, earning him the admiration of both his people and allies. Hirluin leads the green-cloaked warriors of Pinnath Gelin with unwavering dedication, bringing hope and beauty to the battlefield. His commitment to the cause of Gondor and his undying faith in its future make him a beloved and respected leader." />
 
 	<Hero
 		id="lord_1_52_1"
-		spouse="Hero.lord_1_52"
+		father="Hero.lord_1_52"
+		mother="Hero.lord_1_52_4"
 		faction="Faction.clan_empire_west_6" />
 	<Hero
 		id="lord_1_52_2"
 		father="Hero.lord_1_52"
-		mother="Hero.lord_1_52_1"
+		mother="Hero.lord_1_52_4"
 		faction="Faction.clan_empire_west_6" />
 	<Hero
-		id="lord_1_62"
-		spouse="Hero.lord_1_62_1"
+		id="lord_1_52_3"
+		father="Hero.lord_1_52"
+		mother="Hero.lord_1_52_4"
 		faction="Faction.clan_empire_west_6" />
 	<Hero
-		id="lord_1_62_1"
-		spouse="Hero.lord_1_62"
+		id="lord_1_52_4"
+		spouse="Hero.lord_1_52"
 		faction="Faction.clan_empire_west_6" />
 	<!-- empire west 7 -->
 	<Hero
 		id="lord_1_53"
 		faction="Faction.clan_empire_west_7"
 		text="{=angbor_the_fearless_description}Angbor the Fearless, Lord of Lamedon, is renowned for his unyielding courage and defiance in the face of adversity. His resolve is unshakable, even when hope seems lost. Angbor rallies the men of Lamedon with fiery speeches and a bold heart, earning him the respect of warriors across Gondor. His leadership in times of dire need has solidified his reputation as one of Gondor’s most daring and resilient leaders." />
-
 	<Hero
-		id="lord_1_73"
-		spouse="Hero.lord_1_73_1"
+		id="lord_1_53_1"
+		father="Hero.lord_1_53"
 		faction="Faction.clan_empire_west_7" />
 	<Hero
-		id="lord_1_73_1"
-		spouse="Hero.lord_1_73"
+		id="lord_1_53_2"
+		father="Hero.lord_1_53"
+		faction="Faction.clan_empire_west_7" />
+	<Hero
+		id="lord_1_53_3"
+		father="Hero.lord_1_53"
 		faction="Faction.clan_empire_west_7" />
 	<!-- Maneolis, clan West 8 -->
 	<Hero
 		id="lord_1_71"
+		spouse="Hero.lord_1_71_1"
 		faction="Faction.clan_empire_west_8"
 		text="{=golasgil_description}Golasgil, Lord of Anfalas, is a steadfast protector of Gondor’s coastal lands. Though his warriors are fewer and less equipped than others, Golasgil’s determination to defend his people against the forces of darkness is unrelenting. Known for his resourcefulness and ability to inspire loyalty among his followers, he embodies the enduring strength of Gondor’s defenders. His presence is a reminder that every corner of Gondor stands united against the shadow." />
-
+	<Hero
+		id="lord_1_71_1"
+		spouse="Hero.lord_1_71"
+		faction="Faction.clan_empire_west_8" />
 	<Hero
 		id="lord_WE8_c"
 		faction="Faction.clan_empire_west_8" />
@@ -466,20 +482,11 @@
 		text="{=duinhir_description}Having fought back against the incursions of Mordor for almost four decades, the elderly Lord Duinhir is regarded as a masterful strategist and staunch defender of Gondor. To the anger of him and many of his folk, the war has now reached even the remote reaches of the Blackroot Vale, his home, with many an orc attack coming from the White Mountains. To retaliate against these vile foes and to honor his pledge to the Steward, he set out with his sons, Duilin and Derufin, as their hour of fate draws ever closer. A fate, that is yet to be decided!" />
 	<Hero
 		id="lord_WE9_l_1"
+		father="Hero.lord_WE9_l"
 		faction="Faction.clan_empire_west_9" />
 	<Hero
 		id="lord_WE9_l_2"
-		faction="Faction.clan_empire_west_9" />
-	<Hero
-		id="lord_WE9_l_1"
-		faction="Faction.clan_empire_west_9" />
-	<Hero
-		id="lord_WE9_u"
-		spouse="Hero.lord_WE9_u2"
-		faction="Faction.clan_empire_west_9" />
-	<Hero
-		id="lord_WE9_u2"
-		spouse="Hero.lord_WE9_u"
+		father="Hero.lord_WE9_l"
 		faction="Faction.clan_empire_west_9" />
 	<Hero
 		id="lord_1_59"
@@ -488,18 +495,17 @@
 	<Hero
 		id="lord_1_59_1"
 		spouse="Hero.lord_1_59"
+		alive="false"
 		faction="Faction.clan_empire_west_10" />
 	<Hero
 		id="lord_1_59_2"
 		father="Hero.lord_1_59"
 		mother="Hero.lord_1_59_1"
-		brother="Hero.lord_1_59_3"
 		faction="Faction.clan_empire_west_10" />
 	<Hero
 		id="lord_1_59_3"
 		father="Hero.lord_1_59"
 		mother="Hero.lord_1_59_1"
-		brother="Hero.lord_1_59_2"
 		faction="Faction.clan_empire_west_10" />
 	<Hero
 		id="lord_1_60"
@@ -520,11 +526,8 @@
 	<Hero
 		id="lord_1_34"
 		father="Hero.lord_1_7"
-		mother="Hero.lord_1_8"
 		faction="Faction.clan_empire_west_12"
 		text="{=faramir_description}Faramir, the younger son of Denethor II and brother of Boromir, is a scholar and warrior of great wisdom and compassion. Unlike his brother’s bold and brash demeanor, Faramir possesses a reflective and measured nature, often seeking understanding and diplomacy over conflict. His skill as a ranger and leader of the Ithilien Guard is unmatched, and his unwavering dedication to Gondor’s defense is a testament to his love for his homeland. Faramir’s strength lies not only in his prowess with a blade but in his ability to inspire loyalty and hope, even in the darkest of times." />
-
-
 
 
 	<!-- EMPIRE SOUTH 1 -->
@@ -1245,7 +1248,7 @@
 		father="Hero.lord_3_22"
 		mother="Hero.lord_3_22_1"
 		faction="Faction.clan_aserai_8" />
-	<!-- Vlandia clan 1 -->
+	<!-- Eorling -->
 	<Hero
 		id="lord_4_1"
 		spouse="Hero.lord_4_2"
@@ -1254,6 +1257,7 @@
 	<Hero
 		id="lord_4_2"
 		spouse="Hero.lord_4_1"
+		alive="false"
 		faction="Faction.clan_vlandia_1" />
 	<Hero
 		id="lord_4_7"
@@ -1261,227 +1265,149 @@
 		mother="Hero.lord_4_2"
 		faction="Faction.clan_vlandia_1"
 		text="{=theodred_description}Théodred, the loyal and valiant son of King Théoden, is a fierce defender of Rohan and a skilled warrior. As heir to the throne, he has spent his life training to protect his homeland and honor his father’s legacy. Théodred is known for his bravery in battle, his tactical mind, and his dedication to his people. He is beloved by the soldiers of Rohan, who respect his willingness to fight alongside them. Though he bears the weight of responsibility, Théodred remains determined to secure the future of Rohan against any threat." />
-
-	<Hero
-		id="lord_4_10"
-		father="Hero.lord_4_1"
-		mother="Hero.lord_4_2"
-		faction="Faction.clan_vlandia_1" />
-	<Hero
-		id="lord_4_13"
-		faction="Faction.clan_vlandia_1" />
-	<Hero
-		id="lord_4_14"
-		father="Hero.lord_4_1"
-		mother="Hero.lord_4_2"
-		faction="Faction.clan_vlandia_1" />
-	<Hero
-		id="lord_4_141"
-		father="Hero.lord_4_1"
-		mother="Hero.lord_4_2"
-		faction="Faction.clan_vlandia_1" />
-	<Hero
-		id="lord_4_15"
-		father="Hero.lord_4_1"
-		mother="Hero.lord_4_2"
-		faction="Faction.clan_vlandia_1" />
-	<!-- Vlandia clan 2 -->
+	<!-- Eoforing -->
 	<Hero
 		id="lord_4_3"
-		spouse="Hero.lord_4_4"
+		spouse="Hero.lord_4_3_3"
 		faction="Faction.clan_vlandia_2"
 		text="{=eomer_description}Éomer, the noble and fearless nephew of King Théoden, serves as one of Rohan’s most respected warriors and leaders. A loyal marshal of the Riddermark, Éomer is known for his strength, courage, and fierce sense of justice. He has a deep love for his homeland and its people, and he is unwavering in his resolve to protect them. Though often headstrong, Éomer’s loyalty to his family and Rohan is unbreakable. His prowess on the battlefield and his charismatic leadership have earned him the admiration of Rohan’s warriors." />
 
 	<Hero
 		id="lord_4_3_1"
 		father="Hero.lord_4_3"
-		mother="Hero.lord_4_4"
+		mother="Hero.lord_4_3_3"
+		sister="Hero.lord_4_3_2"
 		faction="Faction.clan_vlandia_2" />
 	<Hero
-		id="lord_4_4"
+		id="lord_4_3_2"
+		father="Hero.lord_4_3"
+		mother="Hero.lord_4_3_3"
+		brother="Hero.lord_4_3_1"
+		faction="Faction.clan_vlandia_2" />
+	<Hero
+		id="lord_4_3_3"
 		spouse="Hero.lord_4_3"
 		faction="Faction.clan_vlandia_2" />
-	<Hero
-		id="lord_4_8"
-		father="Hero.lord_4_3"
-		mother="Hero.lord_4_4"
-		faction="Faction.clan_vlandia_2" />
-	<Hero
-		id="lord_4_11"
-		father="Hero.lord_4_3"
-		mother="Hero.lord_4_4"
-		faction="Faction.clan_vlandia_2" />
-	<!-- Vlandia clan 3 -->
+	<!-- Grimingas -->
 	<Hero
 		id="lord_4_6"
 		faction="Faction.clan_vlandia_3"
-		spouse="Hero.lord_4_5"
-		text="{=grima_description}Gríma, known as Wormtongue, is the adviser to King Théoden of Rohan, but his loyalty lies with Saruman. A cunning and manipulative figure, he whispers lies into the king’s ear, weakening Théoden and bending Rohan to the will of Isengard. Though outwardly loyal, he harbors resentment and ambition, using his intelligence and wit to deceive others. Gríma's sallow complexion and haggard appearance mirror the corruption within him, making him both feared and distrusted by many in the court of Edoras." />
-
+		spouse="Hero.lord_4_6_1"
+		text="{=grimbold_description}Grimbold of Grimslade is a loyal warrior of Rohan, known for his bravery and strength in battle. A fierce commander, he holds the line with unwavering determination, rallying his men against overwhelming odds. Grimbold’s reputation as a dependable and courageous leader precedes him, especially after his heroic efforts at the Fords of Isen. He is a respected captain who inspires loyalty among his troops, embodying the valor and resilience of Rohan's warriors." />
 	<Hero
 		id="lord_4_6_1"
-		father="Hero.lord_4_5"
-		mother="Hero.lord_4_6"
+		spouse="Hero.lord_4_6"
 		faction="Faction.clan_vlandia_3" />
 	<Hero
-		id="lord_4_5"
-		faction="Faction.clan_vlandia_3"
-		spouse="Hero.lord_4_6" />
-	<Hero
-		id="lord_4_9"
-		father="Hero.lord_4_5"
-		mother="Hero.lord_4_6"
+		id="lord_4_6_2"
+		father="Hero.lord_4_6"
+		mother="Hero.lord_4_6_1"
 		faction="Faction.clan_vlandia_3" />
-	<Hero
-		id="lord_4_12"
-		father="Hero.lord_4_5"
-		mother="Hero.lord_4_6"
-		faction="Faction.clan_vlandia_3" />
-	<Hero
-		id="lord_4_121"
-		father="Hero.lord_4_5"
-		mother="Hero.lord_4_6"
-		faction="Faction.clan_vlandia_3" />
-	<!-- Vlandia clan 4 -->
+	<!-- Félanding -->
 	<Hero
 		id="lord_4_16"
-		spouse="Hero.lord_4_17"
-		faction="Faction.clan_vlandia_4"
-		text="{=grimbold_description}Grimbold of Grimslade is a loyal warrior of Rohan, known for his bravery and strength in battle. A fierce commander, he holds the line with unwavering determination, rallying his men against overwhelming odds. Grimbold’s reputation as a dependable and courageous leader precedes him, especially after his heroic efforts at the Fords of Isen. He is a respected captain who inspires loyalty among his troops, embodying the valor and resilience of Rohan's warriors." />
-
-	<Hero
-		id="lord_4_16_1"
-		father="Hero.lord_4_16"
-		mother="Hero.lord_4_17"
 		faction="Faction.clan_vlandia_4" />
 	<Hero
-		id="lord_4_17"
+		id="lord_4_16_1"
 		spouse="Hero.lord_4_16"
 		faction="Faction.clan_vlandia_4" />
 	<Hero
-		id="lord_4_18"
+		id="lord_4_16_2"
 		father="Hero.lord_4_16"
-		mother="Hero.lord_4_17"
+		mother="Hero.lord_4_16_1"
 		faction="Faction.clan_vlandia_4" />
-	<Hero
-		id="lord_4_181"
-		father="Hero.lord_4_16"
-		mother="Hero.lord_4_17"
-		faction="Faction.clan_vlandia_4" />
-	<Hero
-		id="lord_4_19"
-		father="Hero.lord_4_16"
-		mother="Hero.lord_4_17"
-		faction="Faction.clan_vlandia_4" />
-	<!-- Vlandia clan 5 -->
-	<Hero
-		id="lord_4_25"
-		spouse="Hero.lord_4_25_1"
-		faction="Faction.clan_vlandia_5" />
-	<Hero
-		id="lord_4_25_1"
-		spouse="Hero.lord_4_25"
-		faction="Faction.clan_vlandia_5" />
+	<!-- Ordlacing -->
 	<Hero
 		id="lord_4_21"
-		faction="Faction.clan_vlandia_5"
-		text="{=gamling_description}Gamling, a seasoned warrior and stalwart defender of Rohan, serves as one of King Théoden's most trusted retainers. He is loyal, honorable, and deeply committed to his homeland. Known for his practical wisdom and calm demeanor, Gamling is often called upon to rally the defenses of Rohan in times of crisis. His experience and knowledge of Rohan’s lands make him a valuable leader, especially when the stakes are high, as at Helm's Deep." />
+		spouse="Hero.lord_4_21_4"
+		faction="Faction.clan_vlandia_5" />
+	<Hero
+		id="lord_4_21_1"
+		father="Hero.lord_4_21"
+		mother="Hero.lord_4_21_4"
+		faction="Faction.clan_vlandia_5" />
+	<Hero
+		id="lord_4_21_2"
+		father="Hero.lord_4_21"
+		mother="Hero.lord_4_21_4"
+		faction="Faction.clan_vlandia_5" />
+	<Hero
+		id="lord_4_21_3"
+		father="Hero.lord_4_21"
+		mother="Hero.lord_4_21_4"
+		faction="Faction.clan_vlandia_5" />
+	<Hero
+		id="lord_4_21_4"
+		spouse="Hero.lord_4_21"
+		faction="Faction.clan_vlandia_5" />
 
-	<!-- Vlandia clan 6 -->
-	<Hero
-		id="lord_4_20"
-		spouse="Hero.lord_4_20_1"
-		faction="Faction.clan_vlandia_6" />
-	<Hero
-		id="lord_4_20_1"
-		spouse="Hero.lord_4_20"
-		faction="Faction.clan_vlandia_6" />
+
+	<!-- Celmunding -->
 	<Hero
 		id="lord_4_22"
 		spouse="Hero.lord_4_22_1"
-		faction="Faction.clan_vlandia_6"
-		text="{=elfhelm_description}Elfhelm is a skilled and respected marshal of Rohan, known for his strategic mind and swiftness in battle. Commanding the cavalry with finesse and determination, he is entrusted with critical missions that require precision and courage. Elfhelm’s loyalty to Rohan is unwavering, and he is a trusted warrior who often rides to the aid of his people in their darkest hours. With a calm but focused demeanor, he is a reliable leader who inspires confidence in those who follow him." />
+		faction="Faction.clan_vlandia_6" />
 
 	<Hero
 		id="lord_4_22_1"
 		spouse="Hero.lord_4_22"
 		faction="Faction.clan_vlandia_6" />
-	<!-- Vlandia clan 7, der fortis-->
+	<!-- Marhad-->
 	<Hero
 		id="lord_4_23"
-		faction="Faction.clan_vlandia_7"
-		text="{=dunhere_description}Dúnhere, the Lord of Harrowdale, is a steadfast and courageous leader, dedicated to protecting Rohan’s southern borders. Known for his resourcefulness and tactical skill, he is a vigilant guardian of his people, always prepared to defend against any threat. Dúnhere’s loyalty to the king and his unbreakable will make him a respected figure among the Rohirrim. His commitment to Rohan’s security is unwavering, and he is admired for his quiet strength and determination." />
-
+		faction="Faction.clan_vlandia_7" />
 	<Hero
 		id="lord_4_23_1"
-		father="Hero.lord_4_23"
+		spouse="Hero.lord_4_23"
+		alive="false"
 		faction="Faction.clan_vlandia_7" />
 	<Hero
 		id="lord_4_23_2"
 		father="Hero.lord_4_23"
+		mother="Hero.lord_4_23_1"
 		faction="Faction.clan_vlandia_7" />
-	<Hero
-		id="lord_4_23_3"
-		father="Hero.lord_4_23"
-		faction="Faction.clan_vlandia_7" />
-	<!-- dey Molarn -->
+	<!-- Grimmóding -->
 	<Hero
 		id="lord_4_24"
-		spouse="Hero.lord_4_24_1"
-		faction="Faction.clan_vlandia_8"
-		text="{=erkenbrand_description}Erkenbrand, Lord of the Westfold, is a formidable leader renowned for his strength, honor, and dedication to Rohan. He is a warrior of vast experience, standing firm as a bastion against the forces of Isengard. Known for his red shield and sturdy presence in battle, Erkenbrand embodies the resilience and martial spirit of the Rohirrim. When others falter, he leads with unshakable resolve, rallying his people to defend their lands and heritage." />
-
-	<Hero
-		id="lord_4_24_1"
-		spouse="Hero.lord_4_24"
 		faction="Faction.clan_vlandia_8" />
-	<Hero
-		id="lord_4_24_2"
-		father="Hero.lord_4_24"
-		mother="Hero.lord_4_24_1"
-		faction="Faction.clan_vlandia_8" />
-	<Hero
-		id="lord_4_24_3"
-		father="Hero.lord_4_24"
-		mother="Hero.lord_4_24_1"
-		faction="Faction.clan_vlandia_8" />
-	<Hero
-		id="lord_4_24_4"
-		father="Hero.lord_4_24"
-		mother="Hero.lord_4_24_1"
-		faction="Faction.clan_vlandia_8" />
-	<Hero
-		id="lord_4_26"
-		faction="Faction.clan_vlandia_8" />
-	<Hero
-		id="lord_4_26_1"
-		faction="Faction.clan_vlandia_8" />
-	<!-- Dey Jelind -->
+	<!-- Æthellafing -->
 	<Hero
 		id="lord_4_27"
 		spouse="Hero.lord_4_27_1"
-		faction="Faction.clan_vlandia_9"
-		text="{=guthlaf_description}Guthláf, a trusted banner-bearer of Rohan, is renowned for his loyalty and steadfastness in the service of his king. As the standard-bearer of Théoden, Guthláf carries the emblem of Rohan into battle, a symbol of hope and unity for its warriors. His courage is unwavering, standing firm amidst the chaos of war to ensure that Rohan’s banner remains aloft. Guthláf’s dedication to his duty and his king has earned him the respect and admiration of his fellow riders, making him a steadfast figure in the defense of the Riddermark." />
-
+		faction="Faction.clan_vlandia_9" />
 	<Hero
 		id="lord_4_27_1"
 		spouse="Hero.lord_4_27"
 		faction="Faction.clan_vlandia_9" />
 	<Hero
-		id="lord_V9_u"
+		id="lord_4_27_2"
+		father="Hero.lord_4_27"
+		mother="Hero.lord_4_27_1"
 		faction="Faction.clan_vlandia_9" />
-	<!-- Vlandia clan 10 -->
+	<Hero
+		id="lord_4_27_3"
+		father="Hero.lord_4_27"
+		mother="Hero.lord_4_27_1"
+		faction="Faction.clan_vlandia_9" />
+	<Hero
+		id="lord_4_27_4"
+		father="Hero.lord_4_27"
+		mother="Hero.lord_4_27_1"
+		faction="Faction.clan_vlandia_9" />
+	<!-- Morcargas -->
 	<Hero
 		id="lord_4_28"
-		faction="Faction.clan_vlandia_10"
-		text="{=hama_description}Háma, the doorward and loyal guard of King Théoden, is a symbol of steadfast loyalty and honor in the court of Edoras. A straightforward and trustworthy figure, he holds his duties with utmost sincerity and respect for the king. Though he is not known for great feats on the battlefield, Háma’s courage and dedication to his homeland are unmatched. He is a humble servant of Rohan, whose integrity makes him a cherished presence in Théoden’s hall." />
-
+		faction="Faction.clan_vlandia_10" />
 	<Hero
 		id="lord_4_28_1"
 		father="Hero.lord_4_28"
 		faction="Faction.clan_vlandia_10" />
 	<Hero
 		id="lord_4_28_2"
+		father="Hero.lord_4_28"
+		faction="Faction.clan_vlandia_10" />
+	<Hero
+		id="lord_4_28_3"
 		father="Hero.lord_4_28"
 		faction="Faction.clan_vlandia_10" />
 	<!-- Battanian clans begin -->
@@ -1646,9 +1572,9 @@
 		preferred_upgrade_formation="HorseArcher"
 		text="{=morzan_description}Morzân, of the Khamûl line and heir to his shadowed legacy, has risen as a powerful leader among the Easterlings. A product of the Third Age’s turmoil, his cunning and ruthlessness mirror his forebear. Devoted to Sauron, Morzân commands the clans of Rhûn with an iron grip, ensuring their might serves the Dark Lord’s will." />
 	<Hero
-			id="lord_6_2"
-			spouse="Hero.lord_6_1"
-			faction="Faction.clan_khuzait_1" />
+		id="lord_6_2"
+		spouse="Hero.lord_6_1"
+		faction="Faction.clan_khuzait_1" />
 	<Hero
 		id="lord_6_3"
 		faction="Faction.clan_khuzait_2" />
@@ -1657,10 +1583,10 @@
 		faction="Faction.clan_khuzait_2"
 		text="{=muzrag_description}Muzrag, a fierce warlord of Rhûn during the waning years of the Third Age, is renowned for his strength in battle and his unyielding loyalty to Sauron. Leading his warriors with unmatched ferocity, Muzrag thrives on the chaos of war. His relentless raids across Gondor’s borders leave devastation and fear in their wake." />
 	<Hero
-			id="lord_6_5"
-			father="Hero.dead_lord_6_3"
-			faction="Faction.clan_khuzait_3"
-			text="{=ulzhak_description}Ulzhak, a shrewd and ambitious chieftain of Rhûn, rose to power during the Third Age by mastering espionage and political manipulation. His alliances with other clans have solidified Rhûn’s unity under Sauron’s banner. Ulzhak sees the Dark Lord as both a master and an opportunity to expand his own power." />
+		id="lord_6_5"
+		father="Hero.dead_lord_6_3"
+		faction="Faction.clan_khuzait_3"
+		text="{=ulzhak_description}Ulzhak, a shrewd and ambitious chieftain of Rhûn, rose to power during the Third Age by mastering espionage and political manipulation. His alliances with other clans have solidified Rhûn’s unity under Sauron’s banner. Ulzhak sees the Dark Lord as both a master and an opportunity to expand his own power." />
 
 	<Hero
 		id="lord_6_51"
@@ -1840,23 +1766,46 @@
 	<Hero
 		id="lord_A9_u"
 		faction="Faction.clan_aserai_9" />
-	<!-- Dey Rothad -->
+	<!-- Deáfringas -->
 	<Hero
 		id="lord_V11_l"
-		faction="Faction.clan_vlandia_11"
-		text="{=deorwine_description}Déorwine is the captain of the King’s Guard of Rohan, fiercely loyal and ever vigilant. A warrior of great skill and devotion, he takes pride in protecting King Théoden and upholding the honor of Rohan. Déorwine’s loyalty is unyielding, and he is known for his adherence to duty and sense of justice. In battle, he stands at the forefront, leading the charge with unwavering bravery, embodying the strength and courage of Rohan’s finest." />
+		spouse="Hero.lord_V11_l_1"
+		faction="Faction.clan_vlandia_11" />
+	<Hero
+		id="lord_V11_l_1"
+		spouse="Hero.lord_V11_l"
+		faction="Faction.clan_vlandia_11" />
+	<Hero
+		id="lord_V11_l_2"
+		father="Hero.lord_V11_l"
+		mother="Hero.lord_V11_l_1"
+		faction="Faction.clan_vlandia_11" />
+	<Hero
+		id="lord_V11_l_3"
+		father="Hero.lord_V11_l"
+		mother="Hero.lord_V11_l_1"
+		faction="Faction.clan_vlandia_11" />
+	<Hero
+		id="lord_V11_l_4"
+		father="Hero.lord_V11_l"
+		mother="Hero.lord_V11_l_1"
+		faction="Faction.clan_vlandia_11" />
 
+	<!-- Ælfwiging -->
 	<Hero
-		id="lord_V11_u"
-		faction="Faction.clan_vlandia_11" />
+		id="lord_4_29"
+		spouse="Hero.lord_4_29_1"
+		faction="Faction.clan_vlandia_12" />
 	<Hero
-		id="lord_V11_c1"
-		father="Hero.lord_V11_l"
-		faction="Faction.clan_vlandia_11" />
+		id="lord_4_29_1"
+		spouse="Hero.lord_4_29"
+		faction="Faction.clan_vlandia_12" />
 	<Hero
-		id="lord_V11_c2"
-		father="Hero.lord_V11_l"
-		faction="Faction.clan_vlandia_11" />
+		id="lord_4_29_2"
+		father="Hero.lord_4_29"
+		mother="Hero.lord_4_29_1"
+		faction="Faction.clan_vlandia_12" />
+
 	<!-- Kostaroving -->
 	<Hero
 		id="lord_S9_l"
@@ -1909,24 +1858,40 @@
 		father="Hero.lord_B8_s"
 		mother="Hero.lord_B8_l"
 		faction="Faction.clan_battania_8" />
+
+	<!--Erebor-->
+	<Hero
+		id="lord_E1_1"
+		faction="Faction.clan_erebor_1"
+		text="{=erebor_dain}Dain is great." />
 	<!-- New heroes added
   <Hero id="lord_7_5" spouse="Hero.lord_7_5_1" faction="Faction.clan_battania_8" />
   <Hero id="lord_7_5_1" spouse="Hero.lord_7_5" faction="Faction.clan_battania_8" />
-  <Hero id="lord_7_5_2" father="Hero.lord_7_5" mother="Hero.lord_7_5_1" faction="Faction.clan_battania_8" />
-  <Hero id="lord_7_5_3" father="Hero.lord_7_5" mother="Hero.lord_7_5_1" faction="Faction.clan_battania_8" />
-  <Hero id="lord_7_5_4" father="Hero.lord_7_5" mother="Hero.lord_7_5_1" faction="Faction.clan_battania_8" />
+  <Hero id="lord_7_5_2" father="Hero.lord_7_5" mother="Hero.lord_7_5_1"
+	faction="Faction.clan_battania_8" />
+  <Hero id="lord_7_5_3" father="Hero.lord_7_5" mother="Hero.lord_7_5_1"
+	faction="Faction.clan_battania_8" />
+  <Hero id="lord_7_5_4" father="Hero.lord_7_5" mother="Hero.lord_7_5_1"
+	faction="Faction.clan_battania_8" />
   <Hero id="lord_7_6" spouse="Hero.lord_7_6_1" faction="Faction.clan_khuzait_9" />
   <Hero id="lord_7_6_1" spouse="Hero.lord_7_6" faction="Faction.clan_khuzait_9" />
-  <Hero id="lord_7_6_2" father="Hero.lord_7_6" mother="Hero.lord_7_6_1" faction="Faction.clan_khuzait_9" />
-  <Hero id="lord_7_6_3" father="Hero.lord_7_6" mother="Hero.lord_7_6_1" faction="Faction.clan_khuzait_9" />
+  <Hero id="lord_7_6_2" father="Hero.lord_7_6" mother="Hero.lord_7_6_1"
+	faction="Faction.clan_khuzait_9" />
+  <Hero id="lord_7_6_3" father="Hero.lord_7_6" mother="Hero.lord_7_6_1"
+	faction="Faction.clan_khuzait_9" />
   <Hero id="lord_7_7" spouse="Hero.lord_7_7_1" faction="Faction.clan_sturgia_9" />
   <Hero id="lord_7_7_1" spouse="Hero.lord_7_7" faction="Faction.clan_sturgia_9" />
-  <Hero id="lord_7_7_2" father="Hero.lord_7_7" mother="Hero.lord_7_7_1" faction="Faction.clan_sturgia_9" />
-  <Hero id="lord_7_7_3" father="Hero.lord_7_7" mother="Hero.lord_7_7_1" faction="Faction.clan_sturgia_9" />
-  <Hero id="lord_7_7_4" father="Hero.lord_7_7" mother="Hero.lord_7_7_1" faction="Faction.clan_sturgia_9" />
+  <Hero id="lord_7_7_2" father="Hero.lord_7_7" mother="Hero.lord_7_7_1"
+	faction="Faction.clan_sturgia_9" />
+  <Hero id="lord_7_7_3" father="Hero.lord_7_7" mother="Hero.lord_7_7_1"
+	faction="Faction.clan_sturgia_9" />
+  <Hero id="lord_7_7_4" father="Hero.lord_7_7" mother="Hero.lord_7_7_1"
+	faction="Faction.clan_sturgia_9" />
 
   <Hero id="lord_7_8_1" spouse="Hero.lord_7_8" faction="Faction.clan_vlandia_11" />
-  <Hero id="lord_7_8_2" father="Hero.lord_7_8" mother="Hero.lord_7_8_1" faction="Faction.clan_vlandia_11" />
-  <Hero id="lord_7_8_3" father="Hero.lord_7_8" mother="Hero.lord_7_8_1" faction="Faction.clan_vlandia_11" />
+  <Hero id="lord_7_8_2" father="Hero.lord_7_8" mother="Hero.lord_7_8_1"
+	faction="Faction.clan_vlandia_11" />
+  <Hero id="lord_7_8_3" father="Hero.lord_7_8" mother="Hero.lord_7_8_1"
+	faction="Faction.clan_vlandia_11" />
   -->
 </Heroes>

@@ -1525,7 +1525,7 @@
 					id="Item.western_javelin_1_t2" />
 				<equipment
 					slot="Head"
-					id="Item.cts_rohan_helmet2a" />
+					id="Item.cts_rohan_helmet1" />
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor4" />
@@ -1703,7 +1703,7 @@
 					id="Item.piercing_arrows" />
 				<equipment
 					slot="Head"
-					id="Item.cts_rohan_helmet3" />
+					id="Item.cts_rohan_helmet3a" />
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor1" />
@@ -1881,7 +1881,7 @@
 					id="Item.piercing_arrows" />
 				<equipment
 					slot="Head"
-					id="Item.cts_rohan_helmet4d" />
+					id="Item.cts_rohan_helmet4c" />
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor2" />
@@ -1961,7 +1961,7 @@
 					id="Item.cts_rohan_shield1" />
 				<equipment
 					slot="Head"
-					id="Item.cts_cts_rohan_royal_guard_helmet" />
+					id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor1" />
@@ -1993,7 +1993,7 @@
 					id="Item.cts_rohan_shield2" />
 				<equipment
 					slot="Head"
-					id="Item.cts_cts_rohan_royal_guard_helmet" />
+				id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor1" />
@@ -2025,7 +2025,7 @@
 					id="Item.cts_rohan_shield" />
 				<equipment
 					slot="Head"
-					id="Item.cts_cts_rohan_royal_guard_helmet" />
+					id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor3" />
@@ -2057,7 +2057,7 @@
 					id="Item.cts_rohan_shield" />
 				<equipment
 					slot="Head"
-					id="Item.cts_cts_rohan_royal_guard_helmet" />
+					id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor3" />
@@ -2485,9 +2485,6 @@
 					slot="Item2"
 					id="Item.generic_javelin_1_t3" />
 				<equipment
-					slot="Item3"
-					id="Item.generic_javelin_1_t3" />
-				<equipment
 					slot="Head"
 					id="Item.cts_rohan_helmet2" />
 				<equipment
@@ -2512,9 +2509,6 @@
 					id="Item.sturgia_sword_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.generic_javelin_1_t3" />
-				<equipment
-					slot="Item3"
 					id="Item.generic_javelin_1_t3" />
 				<equipment
 					slot="Head"
@@ -2543,9 +2537,6 @@
 					slot="Item2"
 					id="Item.generic_javelin_1_t3" />
 				<equipment
-					slot="Item3"
-					id="Item.generic_javelin_1_t3" />
-				<equipment
 					slot="Head"
 					id="Item.cts_rohan_helmet4a" />
 				<equipment
@@ -2570,9 +2561,6 @@
 					id="Item.sturgia_sword_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.generic_javelin_1_t3" />
-				<equipment
-					slot="Item3"
 					id="Item.generic_javelin_1_t3" />
 				<equipment
 					slot="Head"
@@ -2696,9 +2684,6 @@
 					slot="Gloves"
 					id="Item.cts_rohan_armguard2" />
 			</EquipmentRoster>
-			<EquipmentSet
-				id="battania_troop_civilian_template_t2"
-				civilian="true" />
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
@@ -2774,11 +2759,8 @@
 					slot="Item0"
 					id="Item.fine_pike_t4" />
 				<equipment
-					slot="Item1"
-					id="Item.vlandia_sword_4_t4" />
-				<equipment
-				slot="Item2"
-				id="Item.western_spear_3_t3" />
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
 				<equipment
 					slot="Item3"
 					id="Item.cts_rohan_shield2" />
@@ -2803,11 +2785,8 @@
 					slot="Item0"
 					id="Item.fine_pike_t4" />
 				<equipment
-					slot="Item1"
-					id="Item.vlandia_sword_4_t4" />
-				<equipment
-				slot="Item2"
-				id="Item.western_spear_3_t3" />
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
 				<equipment
 					slot="Item3"
 					id="Item.cts_rohan_shield1" />
@@ -2832,11 +2811,8 @@
 					slot="Item0"
 					id="Item.fine_pike_t4" />
 				<equipment
-					slot="Item1"
-					id="Item.vlandia_sword_4_t4" />
-				<equipment
-				slot="Item2"
-				id="Item.western_spear_3_t3" />
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
 				<equipment
 					slot="Item3"
 					id="Item.cts_rohan_shield" />
@@ -2861,11 +2837,8 @@
 					slot="Item0"
 					id="Item.fine_pike_t4" />
 				<equipment
-					slot="Item1"
-					id="Item.vlandia_sword_4_t4" />
-				<equipment
-				slot="Item2"
-				id="Item.western_spear_3_t3" />
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
 				<equipment
 					slot="Item3"
 					id="Item.cts_rohan_shield" />
@@ -2885,6 +2858,9 @@
 					slot="Gloves"
 					id="Item.cts_rohan_armguard4" />
 			</EquipmentRoster>
+			<EquipmentSet
+				id="vlandia_troop_civilian_template_t3"
+				civilian="true" />
 
 		</Equipments>
 	</NPCCharacter>
@@ -2929,9 +2905,6 @@
 					slot="Item0"
 					id="Item.fine_pike_t4" />
 				<equipment
-					slot="Item1"
-					id="Item.vlandia_sword_4_t4" />
-				<equipment
 					slot="Item2"
 					id="Item.cts_rohan_shield2" />
 				<equipment
@@ -2955,9 +2928,6 @@
 					slot="Item0"
 					id="Item.fine_pike_t4" />
 				<equipment
-					slot="Item1"
-					id="Item.vlandia_sword_4_t4" />
-				<equipment
 					slot="Item2"
 					id="Item.cts_rohan_shield1" />
 				<equipment
@@ -2980,9 +2950,6 @@
 				<equipment
 					slot="Item0"
 					id="Item.fine_pike_t4" />
-				<equipment
-					slot="Item1"
-					id="Item.vlandia_sword_4_t4" />
 				<equipment
 					slot="Item2"
 					id="Item.cts_rohan_shield" />

@@ -140,7 +140,7 @@ namespace LOTRAOM.CampaignStart
         {
             CharacterCreationState gameState = Game.Current.GameStateManager.CreateState<CharacterCreationState>(new object[]
             {
-                new SandboxCharacterCreationContent()
+                new LOTRAOMCharacterCreationContent()
             });
             Game.Current.GameStateManager.CleanAndPushState(gameState);
         }

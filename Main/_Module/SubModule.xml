@@ -78,7 +78,7 @@
 		</XmlNode>
 		
 		
-<!-- Character Templates -->
+<!-- Character Templates
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="spnpccharactertemplates"/>
 			<IncludedGameTypes>
@@ -97,7 +97,7 @@
 				<GameType value ="CustomGame"/>
 				<GameType value ="EditorGame"/>
 			</IncludedGameTypes>
-		</XmlNode> 
+		</XmlNode>  -->
 
 <!-- Vanilla Troops -->
 <XmlNode>
@@ -138,6 +138,17 @@
 			</IncludedGameTypes>
 </XmlNode>
 
+<!-- Mordor 
+<XmlNode>
+			<XmlName id="NPCCharacters" path="troops_mordor"/>
+			<IncludedGameTypes>
+				<GameType value ="Campaign"/>
+				<GameType value ="CampaignStoryMode"/>
+				<GameType value ="CustomGame"/>
+			</IncludedGameTypes>
+</XmlNode> -->
+
+		
 <!-- Sanbox Equipment Roster -->
 		<XmlNode>
 			<XmlName id="EquipmentRosters" path="LOTRLOME_sandbox_equipment_sets"/>
