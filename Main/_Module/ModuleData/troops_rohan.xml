@@ -1,5 +1,5 @@
 <NPCCharacters>
-<!-- Rohan Noble Line Start-->
+	<!-- Rohan Noble Line Start-->
 	<NPCCharacter id="rohan_outrider"
 		default_group="Cavalry"
 		level="11"
@@ -127,6 +127,296 @@
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor4" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_1_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet1b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor44" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor44" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet1c" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor44" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet1a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor44" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_1_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet1b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet1c" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet1a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_1_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet1b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor4444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor4444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet1c" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor4444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet1a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor4444" />
 				<equipment
 					slot="Cape"
 					id="Item.cts_rohan_cape3" />
@@ -279,6 +569,285 @@
 					slot="Leg"
 					id="Item.cts_rohan_boots4" />
 			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
 			<EquipmentSet
 				id="vlandia_troop_civilian_template_t2"
 				civilian="true" />
@@ -411,6 +980,284 @@
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor2" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_1_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_1_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_1_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_1_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_1_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_1_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_1_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_1_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_1_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_1_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_1_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_1_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
 				<equipment
 					slot="Cape"
 					id="Item.cts_rohan_cape4" />
@@ -559,6 +1406,237 @@
 				<equipment
 					slot="Gloves"
 					id="Item.cts_rohan_armguard4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor33" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor33" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet3a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor333" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor333" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet3a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor3333" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor3333" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
 				<equipment
 					slot="Leg"
 					id="Item.cts_rohan_boots4" />
@@ -895,6 +1973,236 @@
 					slot="Leg"
 					id="Item.cts_rohan_boots4" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_axe_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor33" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_axe_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor33" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet3a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_axe_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor33" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_axe_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor33" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet3a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor3333" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_axe_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor3333" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
 			<EquipmentSet
 				id="vlandia_troop_civilian_template_t2"
 				civilian="true" />
@@ -1119,8 +2427,8 @@
 		</Equipments>
 	</NPCCharacter>
 
-<!--Rohan Main Line-->	
-	
+	<!--Rohan Main Line-->
+
 	<NPCCharacter id="rohan_peasant"
 		default_group="Infantry"
 		level="6"
@@ -1160,7 +2468,7 @@
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rohan_militiaman"/>
 			<upgrade_target id="NPCCharacter.rohan_outrider"/>
-		
+
 		</upgrade_targets>
 
 		<Equipments>
@@ -1220,7 +2528,7 @@
 				id="battania_troop_civilian_template_t1"
 				civilian="true" />
 		</Equipments>
-	</NPCCharacter>	
+	</NPCCharacter>
 	<NPCCharacter id="rohan_mounted_militiaman"
 		default_group="Cavalry"
 		level="6"
@@ -1402,8 +2710,8 @@
 				id="Item.light_harness" />
 		</Equipments>
 	</NPCCharacter>
-	
-	
+
+
 	<NPCCharacter id="rohan_scout"
 		default_group="HorseArcher"
 		level="16"
@@ -1529,6 +2837,296 @@
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor4" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_war_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.default_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_spear_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item4"
+					id="Item.western_javelin_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor44" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_war_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.default_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_spear_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Item4"
+					id="Item.western_javelin_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor44" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_war_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.default_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_spear_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Item4"
+					id="Item.western_javelin_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor44" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_war_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.default_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_spear_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item4"
+					id="Item.western_javelin_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_war_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.default_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_spear_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Item4"
+					id="Item.western_javelin_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_war_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.default_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_spear_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Item4"
+					id="Item.western_javelin_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_war_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.default_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_spear_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item4"
+					id="Item.western_javelin_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor4444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_war_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.default_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_spear_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Item4"
+					id="Item.western_javelin_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor4444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_war_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.default_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_spear_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Item4"
+					id="Item.western_javelin_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor4444" />
 				<equipment
 					slot="Cape"
 					id="Item.cts_roha_cape1" />
@@ -1717,6 +3315,262 @@
 					slot="Gloves"
 					id="Item.cts_rohan_armguard4" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_heavy_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet3a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_heavy_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet3" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_heavy_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet3" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_heavy_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet3a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_heavy_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet3a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_heavy_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet3" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_heavy_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet3" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_heavy_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet3a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
 			<EquipmentSet
 					id="empire_troop_civilian_template_t1"
 					civilian="true" />
@@ -1895,7 +3749,361 @@
 					slot="Gloves"
 					id="Item.cts_rohan_armguard4" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor33" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4c" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
 
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor3333" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4c" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item4"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4c" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
 			<EquipmentSet
 					id="empire_troop_civilian_template_t3"
 					civilian="true" />
@@ -2071,6 +4279,327 @@
 					slot="Gloves"
 					id="Item.cts_rohan_armguard3" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.khuzait_polearm_1_t4" />
+				<equipment
+					slot="Item4"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.khuzait_polearm_1_t4" />
+				<equipment
+					slot="Item4"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+				id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.khuzait_polearm_1_t4" />
+				<equipment
+					slot="Item4"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor33" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.khuzait_polearm_1_t4" />
+				<equipment
+					slot="Item4"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor33" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.khuzait_polearm_1_t4" />
+				<equipment
+					slot="Item4"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.khuzait_polearm_1_t4" />
+				<equipment
+					slot="Item4"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+				id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.khuzait_polearm_1_t4" />
+				<equipment
+					slot="Item4"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor333" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.khuzait_polearm_1_t4" />
+				<equipment
+					slot="Item4"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor333" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.khuzait_polearm_1_t4" />
+				<equipment
+					slot="Item4"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor3333" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.khuzait_polearm_1_t4" />
+				<equipment
+					slot="Item4"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_cts_rohan_royal_guard_helmet_tail" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor3333" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
 			<EquipmentSet
 				id="khuzait_troop_civilian_template_t3"
 				civilian="true" />
@@ -2082,7 +4611,7 @@
 					id="Item.steppe_half_barding" />
 		</Equipments>
 	</NPCCharacter>
-	
+
 	<NPCCharacter id="rohan_militiaman"
 			default_group="Infantry"
 			level="11"
@@ -2428,13 +4957,304 @@
 					slot="Gloves"
 					id="Item.cts_rohan_armguard1" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
 			<EquipmentSet
 					id="empire_troop_civilian_template_t1"
 					civilian="true" />
 		</Equipments>
 
 	</NPCCharacter>
-	
+
 	<NPCCharacter id="rohan_axeman"
 		default_group="Infantry"
 		level="21"
@@ -2710,6 +5530,292 @@
 					slot="Gloves"
 					id="Item.cts_rohan_armguard1" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor33" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4c" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4d" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor333" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4c" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4d" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor3333" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4c" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4d" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
 				civilian="true" />
@@ -2848,6 +5954,320 @@
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor2" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.fine_pike_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4d" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.fine_pike_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.fine_pike_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.fine_pike_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.fine_pike_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4d" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.fine_pike_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.fine_pike_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.fine_pike_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.fine_pike_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4d" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.fine_pike_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.fine_pike_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.fine_pike_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
 				<equipment
 					slot="Cape"
 					id="Item.cts_rohan_cape3" />
@@ -3130,7 +6550,355 @@
 					slot="Gloves"
 					id="Item.cts_rohan_armguard4" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4d" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor22" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4d" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
 
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4d" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4b" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.western_spear_3_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet4a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor2222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
 		</Equipments>
 
 	</NPCCharacter>
@@ -3439,6 +7207,443 @@
 					slot="Gloves"
 					id="Item.cts_rohan_armguard4" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor44" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor44" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor44" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor44" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor44" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor4444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor4444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor4444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor4444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor4444" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+			</EquipmentRoster>
 			<EquipmentSet
 			id="battania_troop_civilian_template_t2"
 			civilian="true" />
@@ -3509,11 +7714,69 @@
 					slot="Gloves"
 					id="Item.cts_rohan_armguard2" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Item2"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor11" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Item2"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Item3"
+					id="Item.sturgia_sword_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor1111" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+			</EquipmentRoster>
 			<EquipmentSet
 			id="battania_troop_civilian_template_t2"
 			civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
-	
+
 </NPCCharacters>

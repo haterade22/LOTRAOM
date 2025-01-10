@@ -21635,60 +21635,3286 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-
+	<!--#endregion-->
 
 	<!--Erebor-->
-<NPCCharacter
+	<!-- Bit Durin -->
+	<NPCCharacter
 		id="lord_E1_1"
-		name="{=DainIronFoot}Dain Ironfoot"
-		age="43"
+		name="{=dain}Dáin"
+		age="232"
 		voice="earnest"
-		is_female="false"
-		default_group="Infantry"
 		is_hero="true"
 		culture="Culture.erebor"
 		occupation="Lord"
+		default_group="Infantry"
 		face_mesh_cache="true">
-	<face>
-		<BodyProperties
-			version="4"
-			weight="0.7"
-			build="0.7"
-			key="0026F80E40002343B8708B896D682237D5D88B3D557E344C17243FB5B88988680077760307967D3B00000000000000000000000000000000000000003EF41002" />
-	</face>
-	<skills></skills>
-	<Traits>
-		<Trait
-			id="Commander"
-			value="14" />
-		<Trait
-			id="Politician"
-			value="12" />
-		<Trait
-			id="Manager"
-			value="4" />
-		<!-- Earnest but ferocious -->
-		<Trait
-			id="Calculating"
-			value="-1" />
-		<Trait
-			id="Mercy"
-			value="-1" />
-		<Trait
-			id="Generosity"
-			value="1" />
-		<Trait
-			id="Honor"
-			value="1" />
-	</Traits>
-	<Equipments>
-		<EquipmentRoster />
-		<EquipmentSet
-			id="khu_bat_template_heavy" />
-		<EquipmentSet
-			id="khu_civ_template_default"
-			civilian="true" />
-	</Equipments>
-</NPCCharacter>
-	<!--#endregion-->
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E1_2"
+		name="{=thorin}Thorin"
+		age="133"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E1_3"
+		name="{=disadurin}Dísa"
+		age="127"
+		voice="earnest"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E1_4"
+		name="{=nain}Náin"
+		age="99"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E1_5"
+		name="{=durin}Durin"
+		age="29"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E1_6"
+		name="{=Fin}Fin"
+		age="243"
+		voice="earnest"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E1_11"
+		name="{=thris}Thris"
+		age="8"
+		voice="earnest"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Bit Lóni -->
+	<NPCCharacter
+		id="lord_E2_1"
+		name="{=nath}Náth"
+		age="212"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E2_2"
+		name="{=iridi}Iridi"
+		age="223"
+		voice="earnest"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E2_3"
+		name="{=runi}Rúni"
+		age="108"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E2_4"
+		name="{=lomi}Lómi"
+		age="94"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E2_11"
+		name="{=dworin}Dworin"
+		age="11"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Bit Rár -->
+	<NPCCharacter
+		id="lord_E3_1"
+		name="{=garjan}Gárjan"
+		age="192"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E3_2"
+		name="{=thalfi}Thálfi"
+		age="187"
+		voice="earnest"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E3_3"
+		name="{=imak}Imák"
+		age="82"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E3_4"
+		name="{=nili}Níli"
+		age="77"
+		voice="earnest"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E3_5"
+		name="{=disarar}Disa"
+		age="70"
+		voice="earnest"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E3_11"
+		name="{=druin}Druin"
+		age="7"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Bit Gror -->
+	<NPCCharacter
+		id="lord_E4_1"
+		name="{=nar}Nár"
+		age="127"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E4_2"
+		name="{=tili}Tíli"
+		age="130"
+		voice="earnest"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E4_3"
+		name="{=nali}Nali"
+		age="40"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E4_4"
+		name="{=tali}Táli"
+		age="37"
+		voice="earnest"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E4_11"
+		name="{=orn}Ôrn"
+		age="1"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Bit Górli -->
+	<NPCCharacter
+		id="lord_E5_1"
+		name="{=gorli}Górli"
+		age="303"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E5_2"
+		name="{=girda}Girda"
+		age="298"
+		voice="earnest"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E5_3"
+		name="{=gain}Gaín"
+		age="201"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E5_4"
+		name="{=frar}Frar"
+		age="192"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E5_5"
+		name="{=gorli}Frerin"
+		age="190"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E5_11"
+		name="{=thelor}Thélor"
+		age="13"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Bit Róri -->
+	<NPCCharacter
+		id="lord_E6_1"
+		name="{=nath}Flói"
+		age="174"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E6_2"
+		name="{=drali}Dráli"
+		age="170"
+		voice="earnest"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E6_3"
+		name="{=nath}Flási"
+		age="93"
+		voice="earnest"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E6_4"
+		name="{=idrun}Idrún"
+		age="89"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_E6_11"
+		name="{=thran}Thrân"
+		age="4"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Bit Nórin -->
+	<NPCCharacter
+		id="lord_E7_1"
+		name="{=naran}Náran"
+		age="72"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_E7_11"
+		name="{=naranchild}Tháli"
+		age="15"
+		voice="earnest"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.erebor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!--Rivendell-->
+	<!-- Nos Peredhel -->
+	<NPCCharacter
+		id="lord_R1_1"
+		name="{=elrond}Elrond"
+		age="6499"
+		voice="earnest"
+		is_hero="true"
+		is_female="false"
+		culture="Culture.rivendell"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_R1_2"
+		name="{=celebrian}Celebrían"
+		age="5741"
+		voice="earnest"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.rivendell"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_R1_3"
+		name="{=elladan}Elladan"
+		age="2870"
+		voice="earnest"
+		is_hero="true"
+		is_female="false"
+		culture="Culture.rivendell"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_R1_4"
+		name="{=elrohir}Elrohir"
+		age="2870"
+		voice="earnest"
+		is_hero="true"
+		is_female="false"
+		culture="Culture.rivendell"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_R1_5"
+		name="{=arwen}Arwen"
+		age="2759"
+		voice="earnest"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.rivendell"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_R1_11"
+		name="{=Elladan}Argon"
+		age="11"
+		voice="earnest"
+		is_female="false"
+		is_hero="true"
+		culture="Culture.rivendell"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Nos Glorfindel -->
+	<NPCCharacter
+		id="lord_R2_1"
+		name="{=glorfindel}Glorfindel"
+		age="9104"
+		voice="earnest"
+		is_hero="true"
+		is_female="false"
+		culture="Culture.rivendell"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_R2_11"
+		name="{=istilmo}Istilmo"
+		age="12"
+		voice="earnest"
+		is_hero="true"
+		is_female="false"
+		culture="Culture.rivendell"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!--Mirkwood-->
+	<NPCCharacter
+		id="lord_M1_1"
+		name="{=w51wGx4b}Thranduil"
+		age="30"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.mirkwood"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="00054548800027875ca466a563442bd406899779a794573b86a7c473581ab487000e66550e46c99d000000000000000000000000000000000000000001f83180"
+			/-->
+			<BodyProperties
+				version="4"
+				key="00054408800027875CA466A563442BD406899779A794573B86A7C473581AB487000546550E46C99D000000000000000000000000000000000000000000F03180" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS -->
+			<Trait
+				id="CavalryFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Manager"
+				value="16" />
+			<Trait
+				id="Politician"
+				value="19" />
+
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait
+				id="Valor"
+				value="2" />
+			<Trait
+				id="Generosity"
+				value="0" />
+			<Trait
+				id="Mercy"
+				value="0" />
+			<Trait
+				id="Honor"
+				value="2" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Egalitarian"
+				value="-1" />
+			<Trait
+				id="Oligarchic"
+				value="2" />
+			<Trait
+				id="Authoritarian"
+				value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="bat_king_template_bat_m" />
+			<EquipmentSet
+				id="bat_king_template_civ_m"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_M1_11"
+		name="{=legolasname}Legolas"
+		age="16"
+		voice="earnest"
+		default_group="Ranged"
+		is_hero="true"
+		culture="Culture.mirkwood"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0008b08c8000244277b884755a5972cc8776b9a6a95b558e342d38679ca7288a00049b82c17bb770000000000000000000000000000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				key="0005B00CC000244277B884755A5572CC8776B9A6A95B558E342D38679CA7288A00055B82017BB770000000000000000000000000000000000000000000506000" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS -->
+			<Trait
+				id="ArcherFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="16" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Politician"
+				value="8" />
+
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait
+				id="Valor"
+				value="2" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="2" />
+			<Trait
+				id="Calculating"
+				value="0" />
+			<Trait
+				id="Egalitarian"
+				value="0" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+			<Trait
+				id="Authoritarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="bat_bat_template_medium" />
+			<EquipmentSet
+				id="bat_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<!--Lothlorien-->
+	<NPCCharacter
+		id="lord_L1_1"
+		name="{=galadrielname}Galadriel"
+		age="31"
+		voice="curt"
+		is_female="true"
+		culture="Culture.lothlorien"
+		occupation="Lord"
+		is_hero="true"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0025512fd13c0001a7e3c8a64757b4876ba6785e867c96d8249d763f3bb7d86400057c5481a663680000000000000ce600000000000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.5"
+				build="0.75"
+				key="0022500FD13C0001A7E3C8A64757B4876BA6785E867C96D8249D763F3BB7D86400000C5401A663680000000000000CE600000000000000000000000000286000" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS -->
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="20" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Manager"
+				value="19" />
+			<Trait
+				id="Politician"
+				value="20" />
+
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait
+				id="Valor"
+				value="2" />
+			<Trait
+				id="Generosity"
+				value="2" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="2" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Egalitarian"
+				value="2" />
+			<Trait
+				id="Oligarchic"
+				value="0" />
+			<Trait
+				id="Authoritarian"
+				value="1" />
+		</Traits>
+
+		<Equipments>
+			<EquipmentSet
+				id="ase_bat_template_lady" />
+			<EquipmentSet
+				id="ase_noncom_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_L1_2"
+		name="{=celebornname}Celeborn"
+		age="30"
+		voice="ironic"
+		culture="Culture.lothlorien"
+		occupation="Lord"
+		is_hero="true"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.6"
+				build="0.85"
+				key="0028280FD7FC23C299C2761C4AC1A5954778548899A66659788878746A9D9629000F16530FA7699C000000000000000000000000000000000000000000F47140" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="17" />
+			<Trait
+				id="Commander"
+				value="18" />
+			<Trait
+				id="Politician"
+				value="15" />
+			<Trait
+				id="Manager"
+				value="16" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait
+				id="Valor"
+				value="2" />
+			<Trait
+				id="Generosity"
+				value="2" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="2" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="0" />
+			<Trait
+				id="Authoritarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="ase_king_template_bat_m" />
+			<EquipmentSet
+				id="ase_king_template_civ_m"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_L1_11"
+		name="{=celebrianname}Celebrían"
+		age="40"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.lothlorien"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0006eb9700000002996697b5ada9959a78999668743273447ab68778a7569692000a900e059879880000000000000ffe00000000000000000000000000000003"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.2"
+				build="0.3"
+				key="0005E80700000002996697B5ADAB959A78999668743273447AB68778A75696920007B008059879880000000000000FFE00000000000000000000000000C80004" />
+		</face>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="8" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Politician"
+				value="15" />
+			<Trait
+				id="Manager"
+				value="18" />
+
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait
+				id="Valor"
+				value="0" />
+			<Trait
+				id="Generosity"
+				value="2" />
+			<Trait
+				id="Mercy"
+				value="2" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="0" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="0" />
+			<Trait
+				id="Authoritarian"
+				value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_bat_template_lady" />
+			<EquipmentSet
+				id="emp_noncom_template_stoic"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_L1_3"
+		name="{=lothlorienchildname}Child Placeholder"
+		age="10"
+		voice="ironic"
+		culture="Culture.lothlorien"
+		occupation="Lord"
+		is_hero="true"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140"
+			/-->
+			<BodyProperties
+				version="4"
+				weight="0.6"
+				build="0.85"
+				key="0028280FD7FC23C299C2761C4AC1A5954778548899A66659788878746A9D9629000F16530FA7699C000000000000000000000000000000000000000000F47140" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="1" />
+			<Trait
+				id="Manager"
+				value="1" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait
+				id="Valor"
+				value="2" />
+			<Trait
+				id="Generosity"
+				value="2" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="2" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="0" />
+			<Trait
+				id="Authoritarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="ase_king_template_bat_m" />
+			<EquipmentSet
+				id="ase_king_template_civ_m"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!--Umbar-->
+	<NPCCharacter
+		id="lord_I1_1"
+		name="{=isengardclanonename}Uglúk"
+		age="40"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.isengard"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="35"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_I1_11"
+		name="{=isendgardchildname}Uglúk Child"
+		age="10"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.isengard"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!--Gundabad-->
+	<NPCCharacter
+		id="lord_G1_1"
+		name="{=gundabadclanonename}Karguz "
+		age="40"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.gundabad"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="35"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_G1_11"
+		name="{=gundabadchildname}Karguz Child"
+		age="10"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.gundabad"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<!--Umbar-->
+	<NPCCharacter
+		id="lord_U1_1"
+		name="{=umbarclanonename}Zarâkbal"
+		age="40"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.umbar"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="35"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_U1_11"
+		name="{=umbarchildname}Zarâkbal Child"
+		age="10"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.umbar"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!--Dol
+	Guldur-->
+	<NPCCharacter
+		id="lord_DG1_1"
+		name="{=dolguldurclanonename}Maldrûk"
+		age="40"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.dolguldur"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="35"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_DG1_11"
+		name="{=dolguldurchildname}Maldrûk Child"
+		age="10"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.dolguldur"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
 </NPCCharacters>

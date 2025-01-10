@@ -6356,69 +6356,69 @@ emp_civ_template_flamboyant
 		</Equipments>
 	</NPCCharacter>
 
-		<!-- #region Template -->
-		<!-- #region Main Template -->
+	<!-- #region Template -->
+	<!-- #region Main Template -->
 	<!--Gondor-->
-		<NPCCharacter
-			id="npc_wanderer_equipment_template_gondor"
-			default_group="Infantry"
-			is_hero="false"
-			level="16"
-			name="{=!}wanderer_equipment"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Equipments>
-				<EquipmentSet
-					id="npc_wanderer_equipment_template_empire" />
-			</Equipments>
-		</NPCCharacter>
-		<NPCCharacter
-			id="npc_armed_wanderer_equipment_template_gondor"
-			default_group="Infantry"
-			is_hero="false"
-			level="16"
-			name="{=!}wanderer_equipment"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Equipments>
-				<EquipmentSet
-					id="npc_armed_wanderer_equipment_template_empire" />
-			</Equipments>
-		</NPCCharacter>
+	<NPCCharacter
+		id="npc_wanderer_equipment_template_gondor"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_armed_wanderer_equipment_template_gondor"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
 
-		<NPCCharacter
-			id="villager_gondor"
-			default_group="Infantry"
-			level="1"
-			name="{=gondorpeasantman}Gondor Peasant"
-			occupation="Villager"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-			<face>
-				<!--face_key value="0000012000000000000000000001700000000000000000000000000000000000000a160400000000000000000000000000000000000000000000000000f80000" max_value="00118bfa00002914eff88effeefffffbfecfff888ee3feeff7efffcefffffeff000ff7afffffffef000000000000000000000000000000000000000001c88140" /-->
-				<BodyProperties
-					version="4"
-					age="24.03"
-					weight="0.1867"
-					build="0.2423"
-					key="00000400000002412110000001211010010411111010002221111001301101000064300306112000000000000000000000000000000000000000000000D00000" />
-				<BodyPropertiesMax
-					version="4"
-					age="78.04"
-					weight="0.9336"
-					build="0.9244"
-					key="0008F00C40003690FEFEEFFEBBBFFFFFFFFFFF979EF8FFFEFFFFFFEFFFEFFFFE08EEE0890EFFFFFF000000000000000000000000000000000000000077C89105" />
-				<!--<hair_tags>
+	<NPCCharacter
+		id="villager_gondor"
+		default_group="Infantry"
+		level="1"
+		name="{=gondorpeasantman}Gondor Peasant"
+		occupation="Villager"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<!--face_key value="0000012000000000000000000001700000000000000000000000000000000000000a160400000000000000000000000000000000000000000000000000f80000" max_value="00118bfa00002914eff88effeefffffbfecfff888ee3feeff7efffcefffffeff000ff7afffffffef000000000000000000000000000000000000000001c88140" /-->
+			<BodyProperties
+				version="4"
+				age="24.03"
+				weight="0.1867"
+				build="0.2423"
+				key="00000400000002412110000001211010010411111010002221111001301101000064300306112000000000000000000000000000000000000000000000D00000" />
+			<BodyPropertiesMax
+				version="4"
+				age="78.04"
+				weight="0.9336"
+				build="0.9244"
+				key="0008F00C40003690FEFEEFFEBBBFFFFFFFFFFF979EF8FFFEFFFFFFEFFFEFFFFE08EEE0890EFFFFFF000000000000000000000000000000000000000077C89105" />
+			<!--<hair_tags>
         <hair_tag name="Bowl" />
         <hair_tag name="Tousled" />
         <hair_tag name="PageBoy" />
@@ -6429,626 +6429,626 @@ emp_civ_template_flamboyant
         <beard_tag name="HeavyLongBeard" />
         <beard_tag name="LongScragglyBeard" />
       </beard_tags>-->
-			</face>
-			<skills></skills>
-			<upgrade_targets>
-				<upgrade_target
-					id="NPCCharacter.gondor_levyman" />
-			</upgrade_targets>
-			<Equipments>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Head"
-						id="Item.roughhide_cap" />
-					<equipment
-						slot="Body"
-						id="Item.nordic_padded_cloth" />
-					<equipment
-						slot="Leg"
-						id="Item.leather_boots" />
-					<equipment
-						slot="Cape"
-						id="Item.scarf" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Head"
-						id="Item.northern_fur_cap" />
-					<equipment
-						slot="Body"
-						id="Item.northern_leather_vest" />
-					<equipment
-						slot="Leg"
-						id="Item.leather_boots" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Head"
-						id="Item.northern_fur_cap" />
-					<equipment
-						slot="Cape"
-						id="Item.scarf" />
-					<equipment
-						slot="Body"
-						id="Item.northern_tunic" />
-					<equipment
-						slot="Leg"
-						id="Item.wrapped_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Head"
-						id="Item.nordic_fur_cap" />
-					<equipment
-						slot="Body"
-						id="Item.northern_padded_gambeson" />
-					<equipment
-						slot="Leg"
-						id="Item.strapped_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.heavy_nordic_coat" />
-					<equipment
-						slot="Leg"
-						id="Item.strapped_shoes" />
-					<equipment
-						slot="Cape"
-						id="Item.scarf" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Head"
-						id="Item.nordic_fur_cap" />
-					<equipment
-						slot="Body"
-						id="Item.heavy_nordic_tunic" />
-					<equipment
-						slot="Leg"
-						id="Item.ragged_boots" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Item0"
-						id="Item.peasant_sickle_1_t1" />
-					<equipment
-						slot="Body"
-						id="Item.nordic_tunic" />
-					<equipment
-						slot="Head"
-						id="Item.nordic_fur_cap" />
-					<equipment
-						slot="Leg"
-						id="Item.ragged_boots" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Head"
-						id="Item.nordic_fur_cap" />
-					<equipment
-						slot="Cape"
-						id="Item.scarf" />
-					<equipment
-						slot="Body"
-						id="Item.northern_leather_vest" />
-					<equipment
-						slot="Leg"
-						id="Item.wrapped_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.heavy_nordic_tunic" />
-					<equipment
-						slot="Leg"
-						id="Item.battania_fur_boots" />
-					<equipment
-						slot="Head"
-						id="Item.nordic_fur_cap" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Cape"
-						id="Item.scarf" />
-					<equipment
-						slot="Body"
-						id="Item.northern_tunic" />
-					<equipment
-						slot="Leg"
-						id="Item.battania_fur_boots" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Cape"
-						id="Item.scarf" />
-					<equipment
-						slot="Body"
-						id="Item.heavy_nordic_coat" />
-					<equipment
-						slot="Head"
-						id="Item.northern_fur_cap" />
-					<equipment
-						slot="Leg"
-						id="Item.battania_leather_boots" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.northern_padded_gambeson" />
-					<equipment
-						slot="Head"
-						id="Item.nordic_fur_cap" />
-					<equipment
-						slot="Leg"
-						id="Item.battania_leather_boots" />
-					<equipment
-						slot="Cape"
-						id="Item.scarf" />
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment
-						slot="Item0"
-						id="Item.throwing_stone" />
-					<equipment
-						slot="Item1"
-						id="Item.peasant_2haxe_1_t1" />
-					<equipment
-						slot="Head"
-						id="Item.nordic_fur_cap" />
-					<equipment
-						slot="Body"
-						id="Item.heavy_nordic_tunic" />
-					<equipment
-						slot="Leg"
-						id="Item.ragged_boots" />
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment
-						slot="Item0"
-						id="Item.throwing_stone" />
-					<equipment
-						slot="Item1"
-						id="Item.peasant_2haxe_1_t1" />
-					<equipment
-						slot="Body"
-						id="Item.nordic_tunic" />
-					<equipment
-						slot="Head"
-						id="Item.nordic_fur_cap" />
-					<equipment
-						slot="Leg"
-						id="Item.ragged_boots" />
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment
-						slot="Item0"
-						id="Item.throwing_stone" />
-					<equipment
-						slot="Item1"
-						id="Item.peasant_2haxe_1_t1" />
-					<equipment
-						slot="Head"
-						id="Item.nordic_fur_cap" />
-					<equipment
-						slot="Cape"
-						id="Item.scarf" />
-					<equipment
-						slot="Body"
-						id="Item.northern_leather_vest" />
-					<equipment
-						slot="Leg"
-						id="Item.wrapped_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment
-						slot="Item0"
-						id="Item.throwing_stone" />
-					<equipment
-						slot="Item1"
-						id="Item.peasant_polearm_1_t1" />
-					<equipment
-						slot="Body"
-						id="Item.heavy_nordic_tunic" />
-					<equipment
-						slot="Leg"
-						id="Item.battania_fur_boots" />
-					<equipment
-						slot="Head"
-						id="Item.nordic_fur_cap" />
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment
-						slot="Item0"
-						id="Item.throwing_stone" />
-					<equipment
-						slot="Item1"
-						id="Item.peasant_polearm_1_t1" />
-					<equipment
-						slot="Cape"
-						id="Item.scarf" />
-					<equipment
-						slot="Body"
-						id="Item.northern_tunic" />
-					<equipment
-						slot="Leg"
-						id="Item.battania_fur_boots" />
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment
-						slot="Item0"
-						id="Item.throwing_stone" />
-					<equipment
-						slot="Item1"
-						id="Item.peasant_polearm_1_t1" />
-					<equipment
-						slot="Cape"
-						id="Item.scarf" />
-					<equipment
-						slot="Body"
-						id="Item.heavy_nordic_coat" />
-					<equipment
-						slot="Head"
-						id="Item.northern_fur_cap" />
-					<equipment
-						slot="Leg"
-						id="Item.battania_leather_boots" />
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment
-						slot="Item0"
-						id="Item.throwing_stone" />
-					<equipment
-						slot="Item1"
-						id="Item.peasant_polearm_1_t1" />
-					<equipment
-						slot="Body"
-						id="Item.northern_padded_gambeson" />
-					<equipment
-						slot="Head"
-						id="Item.nordic_fur_cap" />
-					<equipment
-						slot="Leg"
-						id="Item.battania_leather_boots" />
-					<equipment
-						slot="Cape"
-						id="Item.scarf" />
-				</EquipmentRoster>
-			</Equipments>
-		</NPCCharacter>
+		</face>
+		<skills></skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.gondor_levyman" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.roughhide_cap" />
+				<equipment
+					slot="Body"
+					id="Item.nordic_padded_cloth" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.northern_leather_vest" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.northern_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.northern_padded_gambeson" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_coat" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.nordic_tunic" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.northern_leather_vest" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_fur_boots" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.northern_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_fur_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_coat" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.northern_padded_gambeson" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.nordic_tunic" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.northern_leather_vest" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_fur_boots" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.northern_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_fur_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_coat" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.northern_padded_gambeson" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 
-		<NPCCharacter
-			id="townswoman_gondor"
-			default_group="Infantry"
-			is_female="true"
-			level="1"
-			name="{=qMqRkvWu}Gondor Townswoman"
-			occupation="Townsfolk"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-			<face>
-				<BodyProperties
-					version="4"
-					age="22"
-					weight="0.2083"
-					build="0.4579"
-					key="00000400007000010371010011222150300660010010010030234101702221230047360304313220000000000000000000000000000000000000000012840000" />
-				<BodyPropertiesMax
-					version="4"
-					age="76.5"
-					weight="0.9182"
-					build="0.8781"
-					key="0008DC0D00703010EECDBCCEDDDDEDDDFFFEFFFA7FF7FEFFFFEEFFFFAEEEFFEF08DDE6890DFFFEEF000000000000000000000000000000000000000067C440C4" />
-				<!--hair_tags>
+	<NPCCharacter
+		id="townswoman_gondor"
+		default_group="Infantry"
+		is_female="true"
+		level="1"
+		name="{=qMqRkvWu}Gondor Townswoman"
+		occupation="Townsfolk"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22"
+				weight="0.2083"
+				build="0.4579"
+				key="00000400007000010371010011222150300660010010010030234101702221230047360304313220000000000000000000000000000000000000000012840000" />
+			<BodyPropertiesMax
+				version="4"
+				age="76.5"
+				weight="0.9182"
+				build="0.8781"
+				key="0008DC0D00703010EECDBCCEDDDDEDDDFFFEFFFA7FF7FEFFFFEEFFFFAEEEFFEF08DDE6890DFFFEEF000000000000000000000000000000000000000067C440C4" />
+			<!--hair_tags>
         <hair_tag name="Ukrainian" />
         <hair_tag name="RestingOnShoulders" />
         <hair_tag name="ShoulderLengthTied" />
         <hair_tag name="BraidedAboveEars" />
       </hair_tags-->
-			</face>
-			<skills></skills>
-			<Equipments>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Item0"
-						id="Item.peasant_sickle_1_t1" />
-					<equipment
-						slot="Body"
-						id="Item.plain_dress" />
-					<equipment
-						slot="Leg"
-						id="Item.leather_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.dress_with_overall" />
-					<equipment
-						slot="Leg"
-						id="Item.leather_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.cut_dress" />
-					<equipment
-						slot="Leg"
-						id="Item.strapped_leather_boots" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.cut_dress_with_pouch" />
-					<equipment
-						slot="Leg"
-						id="Item.strapped_leather_boots" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Item0"
-						id="Item.peasant_sickle_1_t1" />
-					<equipment
-						slot="Body"
-						id="Item.northern_dress" />
-					<equipment
-						slot="Leg"
-						id="Item.strapped_leather_boots" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.laced_dress" />
-					<equipment
-						slot="Leg"
-						id="Item.leather_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.vlandian_woman_dress" />
-					<equipment
-						slot="Leg"
-						id="Item.leather_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Cape"
-						id="Item.female_scarf" />
-					<equipment
-						slot="Body"
-						id="Item.plain_dress" />
-					<equipment
-						slot="Leg"
-						id="Item.leather_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.dress_with_overall" />
-					<equipment
-						slot="Cape"
-						id="Item.female_scarf" />
-					<equipment
-						slot="Leg"
-						id="Item.leather_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.cut_dress" />
-					<equipment
-						slot="Leg"
-						id="Item.strapped_leather_boots" />
-					<equipment
-						slot="Cape"
-						id="Item.female_scarf" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.cut_dress_with_pouch" />
-					<equipment
-						slot="Cape"
-						id="Item.female_scarf" />
-					<equipment
-						slot="Leg"
-						id="Item.strapped_leather_boots" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.northern_dress" />
-					<equipment
-						slot="Cape"
-						id="Item.female_scarf" />
-					<equipment
-						slot="Leg"
-						id="Item.strapped_leather_boots" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.laced_dress" />
-					<equipment
-						slot="Cape"
-						id="Item.female_scarf" />
-					<equipment
-						slot="Leg"
-						id="Item.leather_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.vlandian_woman_dress" />
-					<equipment
-						slot="Cape"
-						id="Item.female_scarf" />
-					<equipment
-						slot="Leg"
-						id="Item.leather_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Cape"
-						id="Item.female_scarf" />
-					<equipment
-						slot="Head"
-						id="Item.northern_fur_cap" />
-					<equipment
-						slot="Body"
-						id="Item.plain_dress" />
-					<equipment
-						slot="Leg"
-						id="Item.leather_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.dress_with_overall" />
-					<equipment
-						slot="Cape"
-						id="Item.female_scarf" />
-					<equipment
-						slot="Head"
-						id="Item.nordic_fur_cap" />
-					<equipment
-						slot="Leg"
-						id="Item.leather_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.cut_dress" />
-					<equipment
-						slot="Leg"
-						id="Item.strapped_leather_boots" />
-					<equipment
-						slot="Head"
-						id="Item.northern_fur_cap" />
-					<equipment
-						slot="Cape"
-						id="Item.female_scarf" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.cut_dress_with_pouch" />
-					<equipment
-						slot="Cape"
-						id="Item.female_scarf" />
-					<equipment
-						slot="Leg"
-						id="Item.strapped_leather_boots" />
-					<equipment
-						slot="Head"
-						id="Item.nordic_fur_cap" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.northern_dress" />
-					<equipment
-						slot="Cape"
-						id="Item.female_scarf" />
-					<equipment
-						slot="Head"
-						id="Item.northern_fur_cap" />
-					<equipment
-						slot="Leg"
-						id="Item.strapped_leather_boots" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.laced_dress" />
-					<equipment
-						slot="Cape"
-						id="Item.female_scarf" />
-					<equipment
-						slot="Head"
-						id="Item.nordic_fur_cap" />
-					<equipment
-						slot="Leg"
-						id="Item.leather_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster
-					civilian="true">
-					<equipment
-						slot="Body"
-						id="Item.vlandian_woman_dress" />
-					<equipment
-						slot="Head"
-						id="Item.northern_fur_cap" />
-					<equipment
-						slot="Cape"
-						id="Item.female_scarf" />
-					<equipment
-						slot="Leg"
-						id="Item.leather_shoes" />
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment
-						slot="Body"
-						id="Item.vlandian_woman_dress" />
-					<equipment
-						slot="Head"
-						id="Item.northern_fur_cap" />
-					<equipment
-						slot="Cape"
-						id="Item.female_scarf" />
-					<equipment
-						slot="Leg"
-						id="Item.leather_shoes" />
-				</EquipmentRoster>
-			</Equipments>
-		</NPCCharacter>
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.plain_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.dress_with_overall" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress_with_pouch" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.northern_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.laced_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.vlandian_woman_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Body"
+					id="Item.plain_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.dress_with_overall" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress_with_pouch" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.northern_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.laced_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.vlandian_woman_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.plain_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.dress_with_overall" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress_with_pouch" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.northern_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.laced_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.vlandian_woman_dress" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Body"
+					id="Item.vlandian_woman_dress" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 
-		<NPCCharacter
-			id="fighter_gondor"
-			default_group="Infantry"
-			level="1"
-			name="{=!}Gondor Fighter"
-			occupation="Villager"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.fighter_gondor" />
-				<!--face_key value="0000012000000000000000000001700000000000000000000000000000000000000a160400000000000000000000000000000000000000000000000000f80000" max_value="00118bfa00002914eff88effeefffffbfecfff888ee3feeff7efffcefffffeff000ff7afffffffef000000000000000000000000000000000000000001c88140" /-->
-				<!--<hair_tags>
+	<NPCCharacter
+		id="fighter_gondor"
+		default_group="Infantry"
+		level="1"
+		name="{=!}Gondor Fighter"
+		occupation="Villager"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_gondor" />
+			<!--face_key value="0000012000000000000000000001700000000000000000000000000000000000000a160400000000000000000000000000000000000000000000000000f80000" max_value="00118bfa00002914eff88effeefffffbfecfff888ee3feeff7efffcefffffeff000ff7afffffffef000000000000000000000000000000000000000001c88140" /-->
+			<!--<hair_tags>
         <hair_tag name="Bowl" />
         <hair_tag name="Tousled" />
         <hair_tag name="PageBoy" />
@@ -7059,48 +7059,67 @@ emp_civ_template_flamboyant
         <beard_tag name="HeavyLongBeard" />
         <beard_tag name="LongScragglyBeard" />
       </beard_tags>-->
-			</face>
-			<skills></skills>
-			<upgrade_targets></upgrade_targets>
-			<Equipments>
-				<EquipmentSet
-					id="fighter_empire" />
-			</Equipments>
-		</NPCCharacter>
+		</face>
+		<skills></skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentSet
+				id="fighter_empire" />
+		</Equipments>
+	</NPCCharacter>
 
 
-		<!--#endregion Fighter Template-->
-		<NPCCharacter
-			id="npc_companion_equipment_template_gondor"
-			default_group="Infantry"
-			is_hero="false"
-			level="16"
-			name="{=!}wanderer_equipment"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Equipments>
-				<EquipmentSet
-					id="npc_companion_equipment_template_empire" />
-			</Equipments>
-		</NPCCharacter>
+	<!--#endregion Fighter Template-->
+	<NPCCharacter
+		id="npc_companion_equipment_template_gondor"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
 
-		<!-- #endregion-->
-		<!-- #region Soldier Cavalry Template -->
-		<!-- #endregion-->
-		<!-- #region Soldier HorsedArcher Template -->
-		<!-- #endregion-->
-		<!-- #endregion-->
-		<!-- #region Children Equipment Template -->
-		<!-- #endregion -->
-		<!-- #region Character Creation Template -->
-		<NPCCharacter
-		id="gondor_troop_civilian_template_t1"
-		name="{=!}gondor_troop_civilian_template_t1"
+	<!-- #endregion-->
+	<!-- #region Soldier Cavalry Template -->
+	<!-- #endregion-->
+	<!-- #region Soldier HorsedArcher Template -->
+	<!-- #endregion-->
+	<!-- #endregion-->
+	<!-- #region Children Equipment Template -->
+	<!-- #endregion -->
+	<!-- #region Character Creation Template -->
+	<NPCCharacter
+	id="gondor_troop_civilian_template_t1"
+	name="{=!}gondor_troop_civilian_template_t1"
+	age="48"
+	voice="curt"
+	default_group="infantry"
+	is_hero="false"
+	culture="Culture.gondor"
+	is_template="true"
+	skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="empire_troop_civilian_template_t1" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="gondor_troop_civilian_template_t2"
+		name="{=!}gondor_troop_civilian_template_t2"
 		age="48"
 		voice="curt"
 		default_group="infantry"
@@ -7108,297 +7127,278 @@ emp_civ_template_flamboyant
 		culture="Culture.gondor"
 		is_template="true"
 		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Equipments>
-				<EquipmentSet
-					id="empire_troop_civilian_template_t1" />
-			</Equipments>
-		</NPCCharacter>
-		<NPCCharacter
-			id="gondor_troop_civilian_template_t2"
-			name="{=!}gondor_troop_civilian_template_t2"
-			age="48"
-			voice="curt"
-			default_group="infantry"
-			is_hero="false"
-			culture="Culture.gondor"
-			is_template="true"
-			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Equipments>
-				<EquipmentSet
-					id="empire_troop_civilian_template_t2" />
-			</Equipments>
-		</NPCCharacter>
-		<NPCCharacter
-			id="gondor_troop_civilian_template_t3"
-			name="{=!}gondor_troop_civilian_template_t3"
-			age="48"
-			voice="curt"
-			default_group="infantry"
-			is_hero="false"
-			culture="Culture.gondor"
-			is_template="true"
-			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Equipments>
-				<EquipmentSet
-					id="empire_troop_civilian_template_t3" />
-			</Equipments>
-		</NPCCharacter>
-		<!-- #endregion-->
-		<!-- NEW LORD TEMPLATES BEGIN -->
-		<!-- Templates come in three types:
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="empire_troop_civilian_template_t2" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="gondor_troop_civilian_template_t3"
+		name="{=!}gondor_troop_civilian_template_t3"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.gondor"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="empire_troop_civilian_template_t3" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endregion-->
+	<!-- NEW LORD TEMPLATES BEGIN -->
+	<!-- Templates come in three types:
 1. Battle templates - armor and weapons, all lords use these
 2. Civilian templates - light or no armor, weapons. Only combatant lords have these
 3. Noncom templates - women's dresses, no weapons. Only noncom females wear these
 Format for all should be: culture, type, style 
 emp_civ_template_flamboyant
 -->
-		<!-- Templates END -->
+	<!-- Templates END -->
 
-		<!-- gondor BATTLE TEMPLATES BEGIN-->
-		<NPCCharacter
-			id="stu_bat_template_medium"
-			default_group="Infantry"
-			is_hero="false"
-			level="16"
-			name="{=!}gondor_noble_battle_equipment"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Traits></Traits>
-			<Equipments>
-				<EquipmentSet
-					id="stu_bat_template_medium" />
-			</Equipments>
-		</NPCCharacter>
-		<NPCCharacter
-			id="stu_bat_template_lady"
-			default_group="Infantry"
-			is_hero="false"
-			level="16"
-			name="{=!}gondor_battle_equipment_for_noncom_lady"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Traits></Traits>
-			<Equipments>
-				<EquipmentSet
-					id="stu_bat_template_lady" />
-			</Equipments>
-		</NPCCharacter>
-		<NPCCharacter
-			id="stu_bat_template_heavy"
-			default_group="Infantry"
-			is_hero="false"
-			level="16"
-			name="{=!}stu_bat_template_heavy"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Traits></Traits>
-			<Equipments>
-				<EquipmentSet
-					id="stu_bat_template_heavy" />
-			</Equipments>
-		</NPCCharacter>
-		<NPCCharacter
-			id="stu_bat_template_flamboyant"
-			default_group="Infantry"
-			is_hero="false"
-			level="16"
-			name="{=!}stu_bat_template_flamboyant"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Traits></Traits>
-			<Equipments>
-				<EquipmentSet
-					id="stu_bat_template_flamboyant" />
-			</Equipments>
-		</NPCCharacter>
-		<NPCCharacter
-			id="stu_bat_template_woodsman"
-			default_group="Infantry"
-			is_hero="false"
-			level="16"
-			name="{=!}stu_bat_template_woodsman"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Traits></Traits>
-			<Equipments>
-				<EquipmentSet
-					id="stu_bat_template_woodsman" />
-			</Equipments>
-		</NPCCharacter>
-		<!-- gondor CIVILIAN EQUIPMENT-->
-		<NPCCharacter
-			id="stu_civ_template_default"
-			default_group="Infantry"
-			is_hero="false"
-			level="16"
-			name="{=!}stu_civ_template_default"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Traits></Traits>
-			<Equipments>
-				<EquipmentSet
-					id="stu_civ_template_default" />
-			</Equipments>
-		</NPCCharacter>
-		<!-- Deprecate -->
-		<NPCCharacter
-			id="stu_civ_template_heavy"
-			default_group="Infantry"
-			is_hero="false"
-			level="16"
-			name="{=!}gondor_unarmored_noble_equipment_heavy"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Traits>
-				<!-- Deprecate -->
-			</Traits>
-			<Equipments>
-				<EquipmentSet
-					id="stu_civ_template_heavy" />
-			</Equipments>
-		</NPCCharacter>
-		<NPCCharacter
-			id="stu_civ_template_flamboyant"
-			default_group="Infantry"
-			is_hero="false"
-			level="16"
-			name="{=!}gondor_civilian_noble_equipment_flamboyant"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Traits></Traits>
-			<Equipments>
-				<EquipmentSet
-					id="stu_civ_template_flamboyant" />
-			</Equipments>
-		</NPCCharacter>
-		<NPCCharacter
-			id="stu_civ_template_woodsman"
-			default_group="Infantry"
-			is_hero="false"
-			level="16"
-			name="{=!}gondor_civilian_noble_equipment_woodsman"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Traits></Traits>
-			<Equipments>
-				<EquipmentSet
-					id="stu_civ_template_woodsman" />
-			</Equipments>
-		</NPCCharacter>
-		<!-- gondor NONCOMBATANT TEMPLATES-->
-		<NPCCharacter
-			id="stu_noncom_template_default"
-			default_group="Infantry"
-			is_hero="false"
-			level="16"
-			name="{=!}gondor_unarmored_noble_equipment_normal_lady"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Traits></Traits>
-			<Equipments>
-				<EquipmentSet
-					id="stu_noncom_template_default" />
-			</Equipments>
-		</NPCCharacter>
-		<NPCCharacter
-			id="stu_noncom_template_flamboyant"
-			default_group="Infantry"
-			is_hero="false"
-			level="16"
-			name="{=!}gondor_unarmored_noble_equipment_flamboyant_lady"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Traits></Traits>
-			<Equipments>
-				<EquipmentSet
-					id="stu_noncom_template_flamboyant" />
-			</Equipments>
-		</NPCCharacter>
-		<NPCCharacter
-			id="stu_noncom_template_woods"
-			default_group="Infantry"
-			is_hero="false"
-			level="16"
-			name="{=!}Gondor civilian sets for noncombatant ladies, woods"
-			culture="Culture.gondor"
-			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
-			is_template="true">
-			<face>
-				<face_key_template
-					value="BodyProperty.villager_gondor" />
-			</face>
-			<Traits></Traits>
-			<Equipments>
-				<EquipmentSet
-					id="stu_noncom_template_woods" />
-			</Equipments>
-		</NPCCharacter>
+	<!-- gondor BATTLE TEMPLATES BEGIN-->
+	<NPCCharacter
+		id="stu_bat_template_medium"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}gondor_noble_battle_equipment"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_medium" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_bat_template_lady"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}gondor_battle_equipment_for_noncom_lady"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_lady" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_bat_template_heavy"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}stu_bat_template_heavy"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_heavy" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_bat_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}stu_bat_template_flamboyant"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_bat_template_woodsman"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}stu_bat_template_woodsman"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_woodsman" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- gondor CIVILIAN EQUIPMENT-->
+	<NPCCharacter
+		id="stu_civ_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}stu_civ_template_default"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_civ_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Deprecate -->
+	<NPCCharacter
+		id="stu_civ_template_heavy"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}gondor_unarmored_noble_equipment_heavy"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits>
+			<!-- Deprecate -->
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_civ_template_heavy" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_civ_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}gondor_civilian_noble_equipment_flamboyant"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_civ_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_civ_template_woodsman"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}gondor_civilian_noble_equipment_woodsman"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_civ_template_woodsman" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- gondor NONCOMBATANT TEMPLATES-->
+	<NPCCharacter
+		id="stu_noncom_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}gondor_unarmored_noble_equipment_normal_lady"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_noncom_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_noncom_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}gondor_unarmored_noble_equipment_flamboyant_lady"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_noncom_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_noncom_template_woods"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}Gondor civilian sets for noncombatant ladies, woods"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_noncom_template_woods" />
+		</Equipments>
+	</NPCCharacter>
 
 </NPCCharacters>

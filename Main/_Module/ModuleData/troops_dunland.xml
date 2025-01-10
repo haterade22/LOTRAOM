@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-	
+
 	<!--Dunland Main Line-->
 	<NPCCharacter id="dunland_peasant"
 		default_group="Infantry"
@@ -43,23 +43,23 @@
 			<upgrade_target id="NPCCharacter.dunland_skirmisher"/>
 		</upgrade_targets>
 		<Equipments>
-				<EquipmentRoster>
-					<equipment
-						slot="Item0"
-						id="Item.sturgia_axe_2_t2" />
-					<equipment
-						slot="Item1"
-						id="Item.northern_javelin_1_t2" />
-					<equipment
-						slot="Body"
-						id="Item.tundra_tunic" />
-					<equipment
-						slot="Leg"
-						id="Item.battania_leather_boots" />
-				</EquipmentRoster>
-				<EquipmentSet
-					id="battania_troop_civilian_template_t2"
-					civilian="true" />
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.northern_javelin_1_t2" />
+				<equipment
+					slot="Body"
+					id="Item.tundra_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -105,26 +105,26 @@
 			<upgrade_target id="NPCCharacter.dunland_scout"/>
 		</upgrade_targets>
 		<Equipments>
-				<EquipmentRoster>
-					<equipment
-						slot="Item0"
-						id="Item.sturgia_axe_2_t2" />
-					<equipment
-						slot="Item2"
-						id="Item.northern_spear_2_t3" />
-					<equipment
-						slot="Body"
-						id="Item.northern_leather_vest" />
-					<equipment
-						slot="Leg"
-						id="Item.dunland_caerdh_boots_light_b" />
-					<equipment
-						slot="Gloves"
-						id="Item.padded_vambrace" />
-				</EquipmentRoster>
-				<EquipmentSet
-					id="battania_troop_civilian_template_t2"
-					civilian="true" />
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Body"
+					id="Item.northern_leather_vest" />
+				<equipment
+					slot="Leg"
+					id="Item.dunland_caerdh_boots_light_b" />
+				<equipment
+					slot="Gloves"
+					id="Item.padded_vambrace" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -411,12 +411,12 @@
 					slot="Cape"
 					id="Item.dunland_caerdh_pauldron_light_cape" />
 			</EquipmentRoster>
-				<EquipmentSet
-					id="battania_troop_civilian_template_t2"
-					civilian="true" />
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	
+
 	<NPCCharacter id="dunland_light_axemen"
 		default_group="Infantry"
 		level="16"
@@ -518,7 +518,7 @@
 				<equipment
 					slot="Item2"
 					id="Item.northern_javelin_2_t3" />
-		
+
 				<equipment
 					slot="Head"
 					id="Item.dunland_caerdh_helmet_heavy_d" />
@@ -545,7 +545,7 @@
 				<equipment
 					slot="Item2"
 					id="Item.northern_javelin_2_t3" />
-				
+
 				<equipment
 					slot="Head"
 					id="Item.dunland_caerdh_helmet_heavy_e" />
@@ -938,12 +938,12 @@
 	</NPCCharacter>
 
 
-<NPCCharacter id="dunland_medium_spearmen"
-	default_group="Infantry"
-	level="21"
-	name="{=dunland_medium_spearman}Caerdh Medium Spearman"
-	occupation="Soldier"
-	culture="Culture.empire">
+	<NPCCharacter id="dunland_medium_spearmen"
+		default_group="Infantry"
+		level="21"
+		name="{=dunland_medium_spearman}Caerdh Medium Spearman"
+		occupation="Soldier"
+		culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -1638,13 +1638,13 @@
 			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</Equipments>
 	</NPCCharacter>
-	
-<NPCCharacter id="dunland_heavy_spearmen"
-		default_group="Infantry"
-		level="26"
-		name="{=dunland_heavy_spearman}Caerdh Heavy Spearman"
-		occupation="Soldier"
-		culture="Culture.empire">
+
+	<NPCCharacter id="dunland_heavy_spearmen"
+			default_group="Infantry"
+			level="26"
+			name="{=dunland_heavy_spearman}Caerdh Heavy Spearman"
+			occupation="Soldier"
+			culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -1674,167 +1674,167 @@
 				id="Throwing"
 				value="100" />
 		</skills>
-	<Equipments>
-		<EquipmentRoster>
-			<equipment
-				slot="Item0"
-				id="Item.dunland_caerdh_spear_a" />
-			<equipment
-				slot="Item1"
-				id="Item.dunland_caerdh_shield_elite_a" />
-			<equipment
-				slot="Item2"
-				id="Item.northern_javelin_2_t3" />
-			<equipment
-				slot="Head"
-				id="Item.dunland_caerdh_helmet_elite_a" />
-			<equipment
-				slot="Body"
-				id="Item.dunland_caerdh_chainmail_elite_a" />
-			<equipment
-				slot="Leg"
-				id="Item.dunland_caerdh_boots_heavy_a" />
-			<equipment
-				slot="Gloves"
-				id="Item.dunland_caerdh_bracer_heavy_a" />
-			<equipment
-				slot="Cape"
-				id="Item.dunland_caerdh_pauldron_elite_cape_a" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment
-				slot="Item0"
-				id="Item.dunland_caerdh_spear_b" />
-			<equipment
-				slot="Item1"
-				id="Item.dunland_caerdh_shield_elite_b" />
-			<equipment
-				slot="Item2"
-				id="Item.northern_javelin_2_t3" />
-			<equipment
-				slot="Head"
-				id="Item.dunland_caerdh_helmet_elite_b" />
-			<equipment
-				slot="Body"
-				id="Item.dunland_caerdh_chainmail_elite_b" />
-			<equipment
-				slot="Leg"
-				id="Item.dunland_caerdh_boots_heavy_b" />
-			<equipment
-				slot="Gloves"
-				id="Item.dunland_caerdh_bracer_heavy_b" />
-			<equipment
-				slot="Cape"
-				id="Item.dunland_caerdh_pauldron_elite_cape_b" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment
-				slot="Item0"
-				id="Item.dunland_caerdh_spear_c" />
-			<equipment
-				slot="Item1"
-				id="Item.dunland_caerdh_shield_elite_c" />
-			<equipment
-				slot="Item2"
-				id="Item.northern_javelin_2_t3" />
-			<equipment
-				slot="Head"
-				id="Item.dunland_caerdh_helmet_elite_c" />
-			<equipment
-				slot="Body"
-				id="Item.dunland_caerdh_chainmail_elite_c" />
-			<equipment
-				slot="Leg"
-				id="Item.dunland_caerdh_boots_heavy_a" />
-			<equipment
-				slot="Gloves"
-				id="Item.dunland_caerdh_bracer_heavy_c" />
-			<equipment
-				slot="Cape"
-				id="Item.dunland_caerdh_pauldron_elite_cape_a" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment
-				slot="Item0"
-				id="Item.dunland_caerdh_spear_c" />
-			<equipment
-				slot="Item1"
-				id="Item.dunland_caerdh_shield_elite_d" />
-			<equipment
-				slot="Item2"
-				id="Item.northern_javelin_2_t3" />
-			<equipment
-				slot="Head"
-				id="Item.dunland_caerdh_helmet_elite_d" />
-			<equipment
-				slot="Body"
-				id="Item.dunland_caerdh_chainmail_elite_d" />
-			<equipment
-				slot="Leg"
-				id="Item.dunland_caerdh_boots_heavy_b" />
-			<equipment
-				slot="Gloves"
-				id="Item.dunland_caerdh_bracer_heavy_d" />
-			<equipment
-				slot="Cape"
-				id="Item.dunland_caerdh_pauldron_elite_cape_a" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment
-				slot="Item0"
-				id="Item.dunland_caerdh_spear_d" />
-			<equipment
-				slot="Item1"
-				id="Item.dunland_caerdh_shield_elite_d" />
-			<equipment
-				slot="Item2"
-				id="Item.northern_javelin_2_t3" />
-			<equipment
-				slot="Head"
-				id="Item.dunland_caerdh_helmet_elite_e" />
-			<equipment
-				slot="Body"
-				id="Item.dunland_caerdh_chainmail_elite_e" />
-			<equipment
-				slot="Leg"
-				id="Item.dunland_caerdh_boots_heavy_b" />
-			<equipment
-				slot="Gloves"
-				id="Item.dunland_caerdh_bracer_heavy_d" />
-			<equipment
-				slot="Cape"
-				id="Item.dunland_caerdh_pauldron_elite_cape_a" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment
-				slot="Item0"
-				id="Item.dunland_caerdh_spear_d" />
-			<equipment
-				slot="Item1"
-				id="Item.dunland_caerdh_shield_elite_d" />
-			<equipment
-				slot="Item2"
-				id="Item.northern_javelin_2_t3" />
-			<equipment
-				slot="Head"
-				id="Item.dunland_caerdh_helmet_elite_f" />
-			<equipment
-				slot="Body"
-				id="Item.dunland_caerdh_chainmail_elite_f" />
-			<equipment
-				slot="Leg"
-				id="Item.dunland_caerdh_boots_heavy_b" />
-			<equipment
-				slot="Gloves"
-				id="Item.dunland_caerdh_bracer_heavy_d" />
-			<equipment
-				slot="Cape"
-				id="Item.dunland_caerdh_pauldron_elite_cape_a" />
-		</EquipmentRoster>
-		<EquipmentSet
-			id="battania_troop_civilian_template_t2"
-			civilian="true" />
-	</Equipments>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_spear_a" />
+				<equipment
+					slot="Item1"
+					id="Item.dunland_caerdh_shield_elite_a" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_javelin_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.dunland_caerdh_helmet_elite_a" />
+				<equipment
+					slot="Body"
+					id="Item.dunland_caerdh_chainmail_elite_a" />
+				<equipment
+					slot="Leg"
+					id="Item.dunland_caerdh_boots_heavy_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.dunland_caerdh_bracer_heavy_a" />
+				<equipment
+					slot="Cape"
+					id="Item.dunland_caerdh_pauldron_elite_cape_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_spear_b" />
+				<equipment
+					slot="Item1"
+					id="Item.dunland_caerdh_shield_elite_b" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_javelin_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.dunland_caerdh_helmet_elite_b" />
+				<equipment
+					slot="Body"
+					id="Item.dunland_caerdh_chainmail_elite_b" />
+				<equipment
+					slot="Leg"
+					id="Item.dunland_caerdh_boots_heavy_b" />
+				<equipment
+					slot="Gloves"
+					id="Item.dunland_caerdh_bracer_heavy_b" />
+				<equipment
+					slot="Cape"
+					id="Item.dunland_caerdh_pauldron_elite_cape_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_spear_c" />
+				<equipment
+					slot="Item1"
+					id="Item.dunland_caerdh_shield_elite_c" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_javelin_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.dunland_caerdh_helmet_elite_c" />
+				<equipment
+					slot="Body"
+					id="Item.dunland_caerdh_chainmail_elite_c" />
+				<equipment
+					slot="Leg"
+					id="Item.dunland_caerdh_boots_heavy_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.dunland_caerdh_bracer_heavy_c" />
+				<equipment
+					slot="Cape"
+					id="Item.dunland_caerdh_pauldron_elite_cape_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_spear_c" />
+				<equipment
+					slot="Item1"
+					id="Item.dunland_caerdh_shield_elite_d" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_javelin_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.dunland_caerdh_helmet_elite_d" />
+				<equipment
+					slot="Body"
+					id="Item.dunland_caerdh_chainmail_elite_d" />
+				<equipment
+					slot="Leg"
+					id="Item.dunland_caerdh_boots_heavy_b" />
+				<equipment
+					slot="Gloves"
+					id="Item.dunland_caerdh_bracer_heavy_d" />
+				<equipment
+					slot="Cape"
+					id="Item.dunland_caerdh_pauldron_elite_cape_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_spear_d" />
+				<equipment
+					slot="Item1"
+					id="Item.dunland_caerdh_shield_elite_d" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_javelin_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.dunland_caerdh_helmet_elite_e" />
+				<equipment
+					slot="Body"
+					id="Item.dunland_caerdh_chainmail_elite_e" />
+				<equipment
+					slot="Leg"
+					id="Item.dunland_caerdh_boots_heavy_b" />
+				<equipment
+					slot="Gloves"
+					id="Item.dunland_caerdh_bracer_heavy_d" />
+				<equipment
+					slot="Cape"
+					id="Item.dunland_caerdh_pauldron_elite_cape_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_spear_d" />
+				<equipment
+					slot="Item1"
+					id="Item.dunland_caerdh_shield_elite_d" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_javelin_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.dunland_caerdh_helmet_elite_f" />
+				<equipment
+					slot="Body"
+					id="Item.dunland_caerdh_chainmail_elite_f" />
+				<equipment
+					slot="Leg"
+					id="Item.dunland_caerdh_boots_heavy_b" />
+				<equipment
+					slot="Gloves"
+					id="Item.dunland_caerdh_bracer_heavy_d" />
+				<equipment
+					slot="Cape"
+					id="Item.dunland_caerdh_pauldron_elite_cape_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
 	</NPCCharacter>
 
 
@@ -2036,10 +2036,10 @@
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
 				civilian="true" />
-		</Equipments>	
-		
+		</Equipments>
+
 	</NPCCharacter>
-	
+
 
 	<NPCCharacter id="dunland_heavy_infantry"
 		default_group="Infantry"
@@ -2238,7 +2238,7 @@
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	
+
 	<NPCCharacter id="dunland_elite_axemen"
 		default_group="Infantry"
 		level="31"
@@ -2347,7 +2347,7 @@
 				<equipment
 					slot="Item2"
 					id="Item.northern_javelin_2_t3" />
-		
+
 				<equipment
 					slot="Head"
 					id="Item.dunland_caerdh_helmet_lord_d" />
@@ -2374,7 +2374,7 @@
 				<equipment
 					slot="Item2"
 					id="Item.northern_javelin_2_t3" />
-			
+
 				<equipment
 					slot="Head"
 					id="Item.dunland_caerdh_helmet_lord_e" />
@@ -2401,7 +2401,7 @@
 				<equipment
 					slot="Item2"
 					id="Item.northern_javelin_2_t3" />
-			
+
 				<equipment
 					slot="Head"
 					id="Item.dunland_caerdh_helmet_lord_f" />
@@ -2428,7 +2428,7 @@
 				<equipment
 					slot="Item2"
 					id="Item.northern_javelin_2_t3" />
-			
+
 				<equipment
 					slot="Head"
 					id="Item.dunland_caerdh_helmet_lord_g" />
@@ -2455,7 +2455,7 @@
 				<equipment
 					slot="Item2"
 					id="Item.northern_javelin_2_t3" />
-			
+
 				<equipment
 					slot="Head"
 					id="Item.dunland_caerdh_helmet_lord_h" />
@@ -2477,10 +2477,10 @@
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	
-	
-	
-<!--Dunland Noble Line-->
+
+
+
+	<!--Dunland Noble Line-->
 	<NPCCharacter id="wulf_raider"
 		default_group="Infantry"
 		level="11"
@@ -2550,7 +2550,7 @@
 					slot="Cape"
 					id="Item.dunland_wulf_cape_long_a" />
 			</EquipmentRoster>
-		<EquipmentRoster>
+			<EquipmentRoster>
 				<equipment
 					slot="Item0"
 					id="Item.dunland_caerdh_axe_2h_a" />
@@ -2854,7 +2854,7 @@
 				<equipment
 					slot="Cape"
 					id="Item.dunland_wulf_cape_short_b" />
-			</EquipmentRoster>				
+			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
 				civilian="true" />
@@ -2987,7 +2987,7 @@
 					slot="Cape"
 					id="Item.dunland_wulf_cape_short_a" />
 			</EquipmentRoster>
-			
+
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
 				civilian="true" />
@@ -3211,7 +3211,7 @@
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	
+
 	<NPCCharacter id="wulf_chosen"
 		default_group="Infantry"
 		level="31"

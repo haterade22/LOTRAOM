@@ -1,651 +1,1681 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
-<!--Mordor Regular Line-->
 <NPCCharacters>
-	<NPCCharacter id="mordor_orc_snaga"
+
+	<!--Mordor Regular Line-->
+	<NPCCharacter id="mordor_human_slave"
 		default_group="Infantry"
 		level="6"
-		name="{=Mordor Orc Snaga}Mordor Orc Snaga"
+		name="{=mordor_human_slave}Mordor Human Slave"
 		occupation="Soldier"
 		is_basic_troop="true"
 		culture="Culture.mordor">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+		<skills>
+			<skill
+				id="Athletics"
+				value="15" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="10" />
+			<skill
+				id="TwoHanded"
+				value="10" />
+			<skill
+				id="Polearm"
+				value="10" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="10" />
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.mordor_orc_veteran_snaga"/>
+			<upgrade_target id="NPCCharacter.mordor_uruk_recruit"/>
+			<upgrade_target id="NPCCharacter.mordor_rhun_servant"/>
+			<upgrade_target id="NPCCharacter.mordor_harad_initiate"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Body"
+					id="Item.tundra_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_leather_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	
-	<NPCCharacter id="mordor_orc_veteran_snaga"
+
+	<!--Mordor Uruk Line-->
+	<NPCCharacter id="mordor_uruk_recruit"
+			default_group="Infantry"
+			level="11"
+			name="{=mordorurukrecruit}Mordor Uruk Recruit"
+			occupation="Soldier"
+			culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="60" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="60" />
+			<skill
+				id="Polearm"
+				value="70" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="30" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_soldier"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_c1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_light_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_boots_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_d1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_light_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_boots_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_d1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_light_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_boots_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_c1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_light_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_boots_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="mordor_uruk_soldier"
+			default_group="Infantry"
+			level="16"
+			name="{=mordoruruksoldier}Mordor Uruk Soldier"
+			occupation="Soldier"
+			culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="80" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="80" />
+			<skill
+				id="TwoHanded"
+				value="100" />
+			<skill
+				id="Polearm"
+				value="90" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="50" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_enforcer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_a1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_a1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_b2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_b1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_a1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_c1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_d1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+
+
+	<NPCCharacter
+		id="mordor_uruk_enforcer"
+		default_group="Infantry"
+		level="21"
+		name="{=mordorurukenforcer}Mordor Uruk Enforcer"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="180" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="150" />
+			<skill
+				id="TwoHanded"
+				value="160" />
+			<skill
+				id="Polearm"
+				value="180" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_ravager"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_d1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_d2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="mordor_uruk_ravager"
+		default_group="Infantry"
+		level="26"
+		name="{=mordorurukravager}Mordor Uruk Ravager"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="220" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="220" />
+			<skill
+				id="TwoHanded"
+				value="220" />
+			<skill
+				id="Polearm"
+				value="250" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="200" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_blackblade"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_e" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_e" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_e" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_g" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_h" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="mordor_uruk_blackblade"
+			default_group="Infantry"
+			level="31"
+			name="{=mordorurukblackblade}Mordor Uruk Blackblade"
+			occupation="Soldier"
+			culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="280" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="250" />
+			<skill
+				id="TwoHanded"
+				value="280" />
+			<skill
+				id="Polearm"
+				value="275" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="290" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_captain_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_captain_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_captain_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_captain_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_c1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_e" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_captain_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_e" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_e" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_captain_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_d1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_captain_d1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_g" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_captain_d2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_h" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_captain_d2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<!-- Harad Line -->
+
+	<NPCCharacter
+		id="mordor_harad_initiate"
 		default_group="Infantry"
 		level="11"
-		name="{=Mordor Orc Veteran Snaga}Mordor Orc Veteran Snaga"
+		name="{=mordor_harad_initiate}Haradrim Initiate"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+		<skills>
+			<skill
+				id="Athletics"
+				value="35" />
+			<skill
+				id="Riding"
+				value="5" />
+			<skill
+				id="OneHanded"
+				value="30" />
+			<skill
+				id="TwoHanded"
+				value="20" />
+			<skill
+				id="Polearm"
+				value="30" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="10" />
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.mordor_orc_warrior"/>
-			<upgrade_target id="NPCCharacter.mordor_orc_hunter"/>
+			<upgrade_target id="NPCCharacter.mordor_harad_bladewielder"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantary_a" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="mordor_orc_warrior"
+
+	<NPCCharacter
+		id="mordor_harad_bladewielder"
 		default_group="Infantry"
 		level="16"
-		name="{=Mordor Orc Warrior}Mordor Orc Warrior"
+		name="{=mordor_harad_bladewielder}Haradrim Bladewielder"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+		<skills>
+			<skill
+				id="Athletics"
+				value="35" />
+			<skill
+				id="Riding"
+				value="5" />
+			<skill
+				id="OneHanded"
+				value="30" />
+			<skill
+				id="TwoHanded"
+				value="20" />
+			<skill
+				id="Polearm"
+				value="30" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="10" />
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.mordor_veteran_orc_warrior"/>
-			<upgrade_target id="NPCCharacter.mordor_warg_rider"/>
+			<upgrade_target id="NPCCharacter.mordor_harad_vanguard"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantary_a" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="mordor_orc_hunter"
-		default_group="Infantry"
-		level="16"
-		name="{=Mordor Orc Hunter}Mordor Orc Hunter"
-		occupation="Soldier"
-		culture="Culture.mordor">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.mordor_orc_bowman"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="mordor_orc_bowman"
-		default_group="Infantry"
-		level="21"
-		name="{=Mordor Orc Bowman}Mordor Orc Bowman"
-		occupation="Soldier"
-		culture="Culture.mordor">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.mordor_orc_archer"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="mordor_orc_archer"
-		default_group="Infantry"
-		level="26"
-		name="{=Mordor Orc Archer}Mordor Orc Archer"
-		occupation="Soldier"
-		culture="Culture.mordor">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="mordor_veteran_orc_warrior"
-		default_group="Infantry"
-		level="21"
-		name="{=Mordor Veteran Orc Warrior}Mordor Veteran Orc Warrior"
-		occupation="Soldier"
-		culture="Culture.mordor">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.mordor_orc_bonebreaker"/>
-			<upgrade_target id="NPCCharacter.mordor_orc_spearman"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="mordor_warg_rider"
-		default_group="Cavalry"
-		level="21"
-		name="{=Mordor Warg Rider}Mordor Warg Rider"
-		occupation="Soldier"
-		culture="Culture.mordor">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.mordor_veteran_warg_rider"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="mordor_veteran_warg_rider"
-		default_group="Cavalry"
-		level="26"
-		name="{=Mordor Veteran Warg Rider}Mordor Veteran Warg Rider"
-		occupation="Soldier"
-		culture="Culture.mordor">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
-				<equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="mordor_orc_bonebreaker"
-		default_group="Infantry"
-		level="26"
-		name="{=Mordor Orc Bonebreaker}Mordor Orc Bonebreaker"
-		occupation="Soldier"
-		culture="Culture.mordor">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="mordor_orc_spearman"
-		default_group="Infantry"
-		level="26"
-		name="{=Mordor Orc Spearman}Mordor Orc Spearman"
-		occupation="Soldier"
-		culture="Culture.mordor">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	
 
-	
-	
-	<!--Mordor Noble Line-->
+	<NPCCharacter
+			id="mordor_harad_vanguard"
+			default_group="Infantry"
+			level="21"
+			name="{=mordor_harad_vanguard}Haradrim Vanguard"
+			occupation="Soldier"
+			culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="50" />
+			<skill
+				id="Riding"
+				value="10" />
+			<skill
+				id="OneHanded"
+				value="45" />
+			<skill
+				id="TwoHanded"
+				value="30" />
+			<skill
+				id="Polearm"
+				value="45" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="20" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_harad_serpent_guard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantary_a" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
 
-	<NPCCharacter id="mordor_uruk_snaga"
+	<NPCCharacter
+		id="mordor_harad_serpent_guard"
+		default_group="Infantry"
+		level="26"
+		name="{=mordor_harad_serpent_guard}Haradrim Serpent Guard"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="60" />
+			<skill
+				id="Riding"
+				value="15" />
+			<skill
+				id="OneHanded"
+				value="55" />
+			<skill
+				id="TwoHanded"
+				value="40" />
+			<skill
+				id="Polearm"
+				value="55" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="30" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_harad_golden_fang"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantary_a" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mordor_harad_golden_fang"
+		default_group="Infantry"
+		level="31"
+		name="{=mordor_harad_golden_fang}Haradrim Golden Fang"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="75" />
+			<skill
+				id="Riding"
+				value="20" />
+			<skill
+				id="OneHanded"
+				value="70" />
+			<skill
+				id="TwoHanded"
+				value="55" />
+			<skill
+				id="Polearm"
+				value="70" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="40" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantary_a" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- Rhun Line -->
+	<NPCCharacter
+		id="mordor_rhun_servant"
 		default_group="Infantry"
 		level="11"
-		name="{=Mordor Uruk Snaga}Mordor Uruk Snaga"
-		is_basic_troop="true"
+		name="{=mordor_rhun_servant}Rhûn Servant"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+		<skills>
+			<skill
+				id="Athletics"
+				value="35" />
+			<skill
+				id="Riding"
+				value="5" />
+			<skill
+				id="OneHanded"
+				value="30" />
+			<skill
+				id="TwoHanded"
+				value="20" />
+			<skill
+				id="Polearm"
+				value="30" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="10" />
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.mordor_veteran_uruk_snaga"/>
+			<upgrade_target id="NPCCharacter.mordor_rhun_spearhand"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="mordor_veteran_uruk_snaga"
+
+	<NPCCharacter id="mordor_rhun_spearhand"
 		default_group="Infantry"
 		level="16"
-		name="{=Mordor Veteran Uruk Snaga}Mordor Veteran Uruk Snaga"
+		name="{=mordorrhunspearhand}Rhûn Spearhand"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+		<skills>
+			<skill
+				id="Athletics"
+				value="75" />
+			<skill
+				id="Riding"
+				value="10" />
+			<skill
+				id="OneHanded"
+				value="35" />
+			<skill
+				id="TwoHanded"
+				value="25" />
+			<skill
+				id="Polearm"
+				value="75" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="15" />
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.mordor_uruk_warrior"/>
+			<upgrade_target id="NPCCharacter.mordor_rhun_bloodspear"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="mordor_uruk_warrior"
+
+	<NPCCharacter id="mordor_rhun_bloodspear"
 		default_group="Infantry"
 		level="21"
-		name="{=Mordor Uruk Warrior}Mordor Uruk Warrior"
+		name="{=mordorrhunbloodspear}Rhûn Bloodspear"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill
+				id="Athletics"
+				value="140" />
+			<skill
+				id="Riding"
+				value="20" />
+			<skill
+				id="OneHanded"
+				value="90" />
+			<skill
+				id="TwoHanded"
+				value="80" />
+			<skill
+				id="Polearm"
+				value="100" />
+			<skill
+				id="Bow"
+				value="60" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="80" />
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.mordor_uruk_slayer"/>
-			<upgrade_target id="NPCCharacter.mordor_uruk_of_minas-morgul"/>
+			<upgrade_target id="NPCCharacter.mordor_rhun_bloodforged_warrior"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="mordor_uruk_slayer"
+
+	<NPCCharacter
+		id="mordor_rhun_bloodforged_warrior"
 		default_group="Infantry"
 		level="26"
-		name="{=Mordor Uruk Slayer}Mordor Uruk Slayer"
+		name="{=mordorrhunbloodforgedwarrior}Rhûn Bloodforged Warrior"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill
+				id="Athletics"
+				value="190" />
+			<skill
+				id="Riding"
+				value="20" />
+			<skill
+				id="OneHanded"
+				value="130" />
+			<skill
+				id="TwoHanded"
+				value="80" />
+			<skill
+				id="Polearm"
+				value="170" />
+			<skill
+				id="Bow"
+				value="60" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="80" />
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.mordor_uruk_of_minas-morgul"/>
+			<upgrade_target id="NPCCharacter.mordor_rhun_blade_sentinel"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="mordor_veteran_uruk_warrior"
-		default_group="Infantry"
-		level="26"
-		name="{=Mordor Veteran Uruk Warrior}Mordor Veteran Uruk Warrior"
-		occupation="Soldier"
-		culture="Culture.mordor">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.mordor_uruk_of_barad-dur"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="mordor_uruk_of_barad-dur"
+
+	<NPCCharacter id="mordor_rhun_blade_sentinel"
 		default_group="Infantry"
 		level="31"
-		name="{=Mordor Uruk of Barad-Dur}Mordor Uruk of Barad-Dur"
+		name="{=mordorrhunbladesentinel}Rhûn Blade Sentinel"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+		<skills>
+			<skill
+				id="Athletics"
+				value="230" />
+			<skill
+				id="Riding"
+				value="30" />
+			<skill
+				id="OneHanded"
+				value="70" />
+			<skill
+				id="TwoHanded"
+				value="60" />
+			<skill
+				id="Polearm"
+				value="90" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="30" />
 		</skills>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="mordor_uruk_of_minas-morgul"
-		default_group="Infantry"
-		level="31"
-		name="{=Mordor Uruk of Minas-Morgul}Mordor Uruk of Minas-Morgul"
-		occupation="Soldier"
-		culture="Culture.mordor">
-		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	
-	
-	
-	
-	
+
+
 </NPCCharacters>

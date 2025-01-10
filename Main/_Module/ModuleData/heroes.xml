@@ -1859,11 +1859,274 @@
 		mother="Hero.lord_B8_l"
 		faction="Faction.clan_battania_8" />
 
-	<!--Erebor-->
+	<!-- Erebor -->
+	<!-- Bit Durin -->
 	<Hero
 		id="lord_E1_1"
-		faction="Faction.clan_erebor_1"
-		text="{=erebor_dain}Dain is great." />
+		faction="Faction.clan_erebor_1" />
+	<Hero
+		id="lord_E1_2"
+		father="Hero.lord_E1_1"
+		mother="Hero.lord_E1_6"
+		faction="Faction.clan_erebor_1" />
+	<Hero
+		id="lord_E1_3"
+		spouse="Hero.lord_E1_2"
+		faction="Faction.clan_erebor_1" />
+	<Hero
+		id="lord_E1_4"
+		father="Hero.lord_E1_1"
+		mother="Hero.lord_E1_6"
+		faction="Faction.clan_erebor_1" />
+	<Hero
+		id="lord_E1_5"
+		father="Hero.lord_E1_2"
+		mother="Hero.lord_E1_3"
+		faction="Faction.clan_erebor_1" />
+	<Hero
+		id="lord_E1_6"
+		spouse="Hero.lord_E1_1"
+		faction="Faction.clan_erebor_1" />
+	<Hero
+		id="lord_E1_11"
+		father="Hero.lord_E1_4"
+		faction="Faction.clan_erebor_1" />
+	<!-- Bit Lóni -->
+	<Hero
+		id="lord_E2_1"
+		faction="Faction.clan_erebor_2" />
+	<Hero
+		id="lord_E2_2"
+		spouse="Hero.lord_E2_1"
+		faction="Faction.clan_erebor_2" />
+	<Hero
+		id="lord_E2_3"
+		father="Hero.lord_E2_1"
+		mother="Hero.lord_E2_2"
+		faction="Faction.clan_erebor_2" />
+	<Hero
+		id="lord_E2_4"
+		father="Hero.lord_E2_1"
+		mother="Hero.lord_E2_2"
+		faction="Faction.clan_erebor_2" />
+	<Hero
+		id="lord_E2_11"
+		father="Hero.lord_E2_3"
+		faction="Faction.clan_erebor_2" />
+	<!-- Bit Rár -->
+	<Hero
+		id="lord_E3_1"
+		spouse="Hero.lord_E3_2"
+		faction="Faction.clan_erebor_3" />
+	<Hero
+		id="lord_E3_2"
+		spouse="Hero.lord_E3_1"
+		faction="Faction.clan_erebor_3" />
+	<Hero
+		id="lord_E3_3"
+		father="Hero.lord_E3_1"
+		mother="Hero.lord_E3_2"
+		faction="Faction.clan_erebor_3" />
+	<Hero
+		id="lord_E3_4"
+		father="Hero.lord_E3_1"
+		mother="Hero.lord_E3_2"
+		faction="Faction.clan_erebor_3" />
+	<Hero
+		id="lord_E3_5"
+		father="Hero.lord_E3_1"
+		mother="Hero.lord_E3_2"
+		faction="Faction.clan_erebor_3" />
+	<Hero
+		id="lord_E3_11"
+		father="Hero.lord_E3_4"
+		faction="Faction.clan_erebor_3" />
+	<!-- Bit Gror -->
+	<Hero
+		id="lord_E4_1"
+		spouse="Hero.lord_E4_2"
+		faction="Faction.clan_erebor_4" />
+	<Hero
+		id="lord_E4_2"
+		spouse="Hero.lord_E4_1"
+		faction="Faction.clan_erebor_4" />
+	<Hero
+		id="lord_E4_3"
+		father="Hero.lord_E4_1"
+		mother="Hero.lord_E4_2"
+		faction="Faction.clan_erebor_4" />
+	<Hero
+		id="lord_E4_4"
+		father="Hero.lord_E4_1"
+		mother="Hero.lord_E4_2"
+		faction="Faction.clan_erebor_4" />
+	<Hero
+		id="lord_E4_11"
+		father="Hero.lord_E4_3"
+		faction="Faction.clan_erebor_4" />
+	<!-- Bit Górli -->
+	<Hero
+		id="lord_E5_1"
+		spouse="Hero.lord_E5_2"
+		faction="Faction.clan_erebor_5" />
+	<Hero
+		id="lord_E5_2"
+		spouse="Hero.lord_E5_1"
+		faction="Faction.clan_erebor_5" />
+	<Hero
+		id="lord_E5_3"
+		father="Hero.lord_E5_1"
+		mother="Hero.lord_E5_2"
+		faction="Faction.clan_erebor_5" />
+	<Hero
+		id="lord_E5_4"
+		father="Hero.lord_E5_1"
+		mother="Hero.lord_E5_2"
+		faction="Faction.clan_erebor_5" />
+	<Hero
+		id="lord_E5_5"
+		father="Hero.lord_E5_1"
+		mother="Hero.lord_E5_2"
+		faction="Faction.clan_erebor_5" />
+	<Hero
+		id="lord_E5_11"
+		father="Hero.lord_E5_5"
+		faction="Faction.clan_erebor_5" />
+	<!-- Bit Róri -->
+	<Hero
+		id="lord_E6_1"
+		spouse="Hero.lord_E6_2"
+		faction="Faction.clan_erebor_6" />
+	<Hero
+		id="lord_E6_2"
+		spouse="Hero.lord_E6_1"
+		alive="false"
+		faction="Faction.clan_erebor_6" />
+	<Hero
+		id="lord_E6_3"
+		father="Hero.lord_E6_1"
+		mother="Hero.lord_E6_2"
+		faction="Faction.clan_erebor_6" />
+	<Hero
+		id="lord_E6_4"
+		father="Hero.lord_E6_1"
+		mother="Hero.lord_E6_2"
+		faction="Faction.clan_erebor_6" />
+	<Hero
+		id="lord_E6_11"
+		father="Hero.lord_E6_4"
+		faction="Faction.clan_erebor_6" />
+	<!-- Bit Nórin-->
+	<Hero
+		id="lord_E7_1"
+		faction="Faction.clan_erebor_7" />
+	<Hero
+		id="lord_E7_11"
+		father="Hero.lord_E7_1"
+		faction="Faction.clan_erebor_7" />
+
+	<!-- Imladris -->
+	<!-- Nos Peredhel -->
+	<Hero
+		id="lord_R1_1"
+		spouse="Hero.lord_R1_2"
+		faction="Faction.clan_rivendell_1" />
+	<Hero
+		id="lord_R1_2"
+		spouse="Hero.lord_R1_1"
+		faction="Faction.clan_rivendell_1" />
+	<Hero
+		id="lord_R1_3"
+		father="Hero.lord_R1_1"
+		mother="Hero.lord_R1_2"
+		faction="Faction.clan_rivendell_1" />
+	<Hero
+		id="lord_R1_4"
+		father="Hero.lord_R1_1"
+		mother="Hero.lord_R1_2"
+		faction="Faction.clan_rivendell_1" />
+	<Hero
+		id="lord_R1_5"
+		father="Hero.lord_R1_1"
+		mother="Hero.lord_R1_2"
+		faction="Faction.clan_rivendell_1" />
+	<Hero
+		id="lord_R1_11"
+		father="Hero.lord_R1_4"
+		faction="Faction.clan_rivendell_1" />
+	<!-- Nos Glorfindel -->
+	<Hero
+		id="lord_R2_1"
+		faction="Faction.clan_rivendell_2" />
+	<Hero
+		id="lord_R2_11"
+		father="Hero.lord_R2_1"
+		faction="Faction.clan_rivendell_2" />
+	<!-- Lasgalen -->
+	<Hero
+		id="lord_M1_1"
+		faction="Faction.clan_mirkwood_1" />
+
+	<Hero
+		id="lord_M1_11"
+		father="Hero.lord_M1_1"
+		faction="Faction.clan_mirkwood_1" />
+
+	<!-- Lothlórien -->
+
+	<Hero
+		id="lord_L1_1"
+		faction="Faction.clan_lothlorien_1" />
+	<Hero
+		id="lord_L1_2"
+		faction="Faction.clan_lothlorien_1" />
+	<Hero
+		id="lord_L1_3"
+		faction="Faction.clan_lothlorien_1" />
+
+	<Hero
+		id="lord_L1_11"
+		father="Hero.lord_L1_2"
+		mother="Hero.lord.L1_1"
+		faction="Faction.clan_lothlorien_1" />
+
+	<Hero
+		id="lord_I1_1"
+		faction="Faction.clan_isengard_1" />
+
+	<Hero
+		id="lord_I1_11"
+		father="Hero.lord_I1_1"
+		faction="Faction.clan_isengard_1" />
+
+	<Hero
+		id="lord_G1_1"
+		faction="Faction.clan_gundabad_1" />
+
+	<Hero
+		id="lord_G1_11"
+		father="Hero.lord_G1_1"
+		faction="Faction.clan_gundabad_1" />
+
+	<Hero
+		id="lord_U1_1"
+		faction="Faction.clan_umbar_1" />
+
+	<Hero
+		id="lord_U1_11"
+		father="Hero.lord_U1_1"
+		faction="Faction.clan_umbar_1" />
+
+	<Hero
+		id="lord_DG1_1"
+		faction="Faction.clan_dolguldur_1" />
+
+	<Hero
+		id="lord_DG1_11"
+		father="Hero.lord_U1_1"
+		faction="Faction.clan_dolguldur_1" />
+
+
 	<!-- New heroes added
   <Hero id="lord_7_5" spouse="Hero.lord_7_5_1" faction="Faction.clan_battania_8" />
   <Hero id="lord_7_5_1" spouse="Hero.lord_7_5" faction="Faction.clan_battania_8" />

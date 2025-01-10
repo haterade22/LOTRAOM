@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Kingdoms>
 	<!--kingdom factions-->
+
+	<!--Dunland-->
 	<Kingdom
 		id="empire"
 		owner="Hero.lord_1_1"
@@ -17,7 +19,7 @@
 		flag_mesh="info_screen_flags_b"
 		name="{=FjwRsf1C}Dunland"
 		short_name="{=8HMyTKF6}Dunland"
-		title="{=lAWwcO6b}Dunland"
+		title="{=lAWwcO6b}Clans of Dunland"
 		ruler_title="{=hwnp9abW}King"
 		text="{=DunlandFactionDesc}Dunland, a rugged and untamed land of rolling hills and dense forests, is home to the fierce and independent Dunlendings. Often marginalized and at odds with their neighbors, the people of Dunland are hardened by centuries of struggle and survival. Their chieftains lead through strength and cunning, uniting clans under a shared banner of vengeance and freedom. Known for their ferocious warriors and skilled hunters, the Dunlendings favor axes, spears, and bows, fighting with a tenacity born from their deep connection to their ancestral lands. Though their ways may seem primitive to others, the Dunlendings are proud and resourceful, ready to reclaim their rightful place in Middle-earth.">
 		<policies>
@@ -31,6 +33,8 @@
 				id="policy_castle_charters" />
 		</policies>
 	</Kingdom>
+
+	<!--Gondor-->
 	<Kingdom
 		id="empire_w"
 		owner="Hero.lord_1_7"
@@ -47,7 +51,7 @@
 		flag_mesh="info_screen_flags_a"
 		name="{=yG3YUySN}Gondor"
 		short_name="{=ZEmH0MwL}Gondor"
-		title="{=yG3YUySN}Gondor"
+		title="{=yG3YUySN}Stewardship of Gondor"
 		ruler_title="{=OoHhCa11}Steward"
 		text="{=mOZsbV8j}Gondor stands as a proud bastion of strength and resilience in Middle-earth, known for its towering white stone cities, ancient lineage, and skilled armies. Founded by Elendil and his sons after the fall of Númenor, Gondor has long guarded the realms of men against the growing darkness in the east. With Minas Tirith as its capital, the kingdom is renowned for its valor, discipline, and loyalty to the Free Peoples. While beset by years of conflict with Mordor, Gondor’s warriors and Stewards have kept hope alive, awaiting the return of the king to restore its former glory.">
 		<relationships>
@@ -76,6 +80,8 @@
 		</policies>
 
 	</Kingdom>
+
+	<!--Mordor-->
 	<Kingdom
 		id="empire_s"
 		owner="Hero.lord_1_14"
@@ -92,8 +98,8 @@
 		flag_mesh="info_screen_flags_b"
 		name="{=frBQ9mbP}Mordor"
 		short_name="{=GbnlN6na}Mordor"
-		title="{=frBQ9mbP}Mordor"
-		ruler_title="{=OoHhCa11}Dark Lord"
+		title="{=frBQ9mbP}Dominion of Mordor"
+		ruler_title="{=OoHhCa11}Mouth of Sauron"
 		text="{=Xtyb9Dyr}Mordor is a dark, desolate realm forged in shadow and ruled by the Dark Lord Sauron. Nestled behind the towering black mountains, this kingdom brims with orc armies, ruthless trolls, and fiery forges crafting weapons of war. From his fortress in Barad-dûr, Sauron commands an unstoppable force, poised to spread his dominion across Middle-earth. Mordor’s skies are clouded with ash, and its lands are barren, a fitting domain for Sauron’s twisted ambition and dark magic.">
 		<relationships>
 			<relationship
@@ -123,6 +129,8 @@
 		</policies>
 
 	</Kingdom>
+
+	<!--Dale-->
 	<Kingdom
 		id="sturgia"
 		owner="Hero.lord_2_1"
@@ -140,7 +148,7 @@
 		name="{=PjO7oY16}Dale"
 		short_name="{=C4qjBqLO}Dale"
 		title="{=iYCR3xuQ}Kingdom of Dale"
-		ruler_title="{=FmbgPGBL}Master"
+		ruler_title="{=FmbgPGBL}King"
 		text="{=DaleFactionDesc}Dale, the prosperous city-state at the foot of the Lonely Mountain, is a realm of resilient and industrious men. Rebuilt after Smaug’s defeat, Dale thrives as a center of trade and craftsmanship, its bustling markets brimming with goods from Erebor and beyond. The Bardings, descendants of Bard the Bowman, are known for their valor, resourcefulness, and dedication to protecting their people. Guided by noble leaders, Dale fields disciplined infantry and skilled archers, with warriors trained to defend their city and the surrounding lands. Dale stands as a beacon of renewal and unity, a testament to the enduring spirit of its people amidst the shadows of Middle-earth.">
 		<policies>
 			<policy
@@ -154,6 +162,8 @@
 		</policies>
 
 	</Kingdom>
+
+	<!--Harad-->
 	<Kingdom
 		id="aserai"
 		owner="Hero.lord_3_1"
@@ -170,8 +180,8 @@
 		flag_mesh="info_screen_flags_a"
 		name="{=aseraifaction}Harad"
 		short_name="{=aseraimembers}Harad"
-		title="{=UsbwPmYb}Harad"
-		ruler_title="{=5djtBrHj}King"
+		title="{=UsbwPmYb}Taskralan of Harwan"
+		ruler_title="{=5djtBrHj}Taskral"
 		text="{=HaradFactionDesc}Harad, a vast and diverse region south of Gondor, encompasses arid deserts, lush jungles, and fertile oases. Its geography is as varied as its people, with sprawling dunes giving way to dense forests and rivers teeming with life. Harad’s history is steeped in ancient lore, with grand cities and fortresses dotting the landscape, built by rulers whose legacies echo through the ages. The Great Desert of Haradwaith separates its northern frontier from the heartland, while its southern coasts are bustling with trade and piracy. United under the banners of Sauron, Harad’s many tribes and kingdoms channel their deep-rooted traditions into their war efforts, transforming this vibrant land into a powerhouse of culture and conflict.">
 		<policies>
 			<policy
@@ -185,6 +195,8 @@
 		</policies>
 
 	</Kingdom>
+
+	<!--Rohan-->
 	<Kingdom
 		id="vlandia"
 		owner="Hero.lord_4_1"
@@ -201,8 +213,8 @@
 		flag_mesh="info_screen_flags_c"
 		name="{=NF627oiX}Rohan"
 		short_name="{=nsDj8Qxl}Rohan"
-		title="{=NF627oiX}Rohan"
-		ruler_title="{=OoHhCa11}King of the Mark"
+		title="{=NF627oiX}Kingdom of Rohan"
+		ruler_title="{=OoHhCa11}King"
 		text="{=aEfsyVH4}Known as the Riddermark, Rohan is a vast and sweeping kingdom of open plains and rolling hills, where the mighty Rohirrim—skilled horsemen and fierce warriors—dwell. Bounded by the White Mountains to the south and the River Anduin to the east, Rohan’s green fields are famed for their horses and horse-breeders. Led by their sovereign, the King of the Mark, the people of Rohan live by a code of honor, loyalty, and courage. Clad in gleaming mail and mounted on powerful steeds, the Rohirrim are ever-prepared to defend their land from both encroaching wildmen and the darker threats looming in the East.">
 		<relationships>
 			<relationship
@@ -229,6 +241,8 @@
 				id="policy_rural_land_tenure" />
 		</policies>
 	</Kingdom>
+
+	<!--Khand-->
 	<Kingdom
 		id="battania"
 		owner="Hero.lord_5_1"
@@ -245,8 +259,8 @@
 		flag_mesh="info_screen_flags_b"
 		name="{=0B27RrYJ}Khand"
 		short_name="{=bgjiFSHZ}Khand"
-		title="{=qaDIU0XC}Kingdom of the Khand"
-		ruler_title="{=afvM7XpQ}Warlord"
+		title="{=qaDIU0XC}Windriders of Khand"
+		ruler_title="{=afvM7XpQ}Khûdriag"
 		text="{=KhandFactionDesc}Khand, a rugged land of rolling steppes and arid plains, lies southeast of Mordor and serves as a critical corridor between the east and west. Its landscape is marked by expansive grasslands, dry riverbeds, and scattered rocky outcroppings. Historically a region of nomadic tribes, Khand has seen countless raids and battles as its people vie for dominance and survival. Its steppes are traversed by swift riders and caravans, connecting it to the trade routes of Harad and Rhûn. The Variags of Khand, renowned for their martial prowess, draw strength from their harsh environment, and their settlements reflect a blend of utilitarian fortifications and cultural artistry. Khand’s alliance with Sauron has turned this land into a staging ground for his eastern campaigns, its windswept plains echoing with the hoofbeats of war.">
 		<policies>
 			<policy
@@ -258,6 +272,8 @@
 		</policies>
 
 	</Kingdom>
+
+	<!--Rhun-->
 	<Kingdom
 		id="khuzait"
 		owner="Hero.lord_6_1"
@@ -274,8 +290,8 @@
 		flag_mesh="info_screen_flags_b"
 		name="{=sZLd6VHi}Rhûn"
 		short_name="{=vJOWy1QF}Rhûn"
-		title="{=bF7HmNGQ}Rhûn"
-		ruler_title="{=hwnp9abW}Warlord"
+		title="{=bF7HmNGQ}Golden Realm of Rhûn"
+		ruler_title="{=hwnp9abW}Lôke-Khan"
 		text="{=fGNdo1BK}Rhûn, a vast and mysterious land to the east of Middle-earth, is home to the Easterlings, a fierce and warlike people. Known for their loyalty to Sauron and their highly skilled cavalry, they bring swift and deadly attacks to any who oppose them. The warriors of Rhun are formidable riders, clad in armor inspired by ancient and Eastern motifs, loyal to their Warlord and ever ready to ride at Mordor's call.">
 		<relationships>
 			<relationship
@@ -298,23 +314,25 @@
 				id="policy_war_levies" />
 		</policies>
 	</Kingdom>
-		<Kingdom
+
+	<!--Erebor-->
+	<Kingdom
 		id="erebor"
 		owner="Hero.lord_E1_1"
-		banner_key="11.2.2.2059.1496.768.764.1.1.0.504.44.108.113.98.765.496.0.1.0.504.44.108.69.60.727.546.0.1.49.505.44.108.137.51.661.557.0.1.0.505.44.108.50.51.661.597.0.1.90.504.44.108.50.73.659.619.0.0.270.504.44.108.69.60.545.727.0.0.40.505.44.108.137.51.556.661.0.0.89.505.44.108.50.51.596.661.0.0.-1.504.44.108.50.73.619.659.0.1.179.504.44.108.113.98.496.763.0.1.90.504.44.108.69.60.801.546.0.0.310.505.44.108.137.51.867.557.0.0.0.505.44.108.50.51.867.597.0.0.270.504.44.108.50.73.869.619.0.1.90.504.44.108.69.60.983.727.0.1.319.505.44.108.137.51.972.661.0.1.270.505.44.108.50.51.932.661.0.1.0.504.44.108.50.73.909.659.0.0.180.504.44.108.113.98.1032.763.0.0.270.504.44.108.69.60.727.982.0.0.130.505.44.108.137.51.661.971.0.0.180.505.44.108.50.51.661.931.0.0.90.504.44.108.50.73.659.909.0.1.-90.504.44.108.69.60.545.801.0.1.139.505.44.108.137.51.556.867.0.1.90.505.44.108.50.51.596.867.0.1.180.504.44.108.50.73.619.869.0.0.0.504.44.108.69.60.801.982.0.1.-131.505.44.108.137.51.867.971.0.1.180.505.44.108.50.51.867.931.0.1.-90.504.44.108.50.73.869.909.0.0.90.504.44.108.69.60.983.801.0.0.-140.505.44.108.137.51.972.867.0.0.-91.505.44.108.50.51.932.867.0.0.179.504.44.108.50.73.909.869.0.1.-1.504.44.108.113.98.765.1032.0.0.180.512.44.108.637.393.765.765.0.0.180.512.2.108.426.263.765.765.0.0.180"
-		primary_banner_color="0xff0A5730"								
-		secondary_banner_color="0xffFFD700" 
-		label_color="FF0A3A2A"               
-		color="FF004D26"                     
-		color2="FFB8860B"                    
-		alternative_color="FF002A1E"         
-		alternative_color2="FFDAA520"       
+		banner_key="11.100.75.4345.4345.764.764.1.0.0.504.109.100.330.113.726.988.0.1.180.505.109.100.254.51.828.968.0.1.180.504.109.100.223.113.777.1022.0.1.180.505.109.100.102.162.771.1037.0.0.270.505.109.100.70.226.767.1068.0.0.270.505.100.100.206.147.614.1042.0.0.336.505.100.100.60.147.881.1064.0.1.26.521.33.100.105.105.765.461.0.0.0.521.0.100.90.90.765.461.0.0.270.521.40.100.62.62.630.510.0.0.270.521.40.100.54.54.548.595.0.0.270.521.40.100.42.42.571.702.0.0.270.521.40.100.62.62.899.510.0.1.90.521.40.100.54.54.980.595.0.1.90.521.40.100.42.42.957.702.0.1.90.504.40.100.56.77.796.610.0.1.38.504.40.100.56.77.731.610.0.0.321.504.100.100.147.177.764.603.0.1.0.504.40.100.134.161.764.602.0.1.0.504.40.100.91.27.708.633.0.1.297.504.40.100.91.27.820.633.0.0.62.512.0.100.190.60.764.625.1.1.90.505.40.100.161.15.765.864.0.0.25.505.40.100.75.29.844.833.0.0.-63.503.40.100.28.28.829.804.0.0.25.505.40.100.161.15.766.864.0.1.335.505.40.100.75.29.686.833.0.1.63.503.40.100.28.28.701.804.0.1.335"
+		primary_banner_color="0xff0A5730"
+		secondary_banner_color="0xffFFD700"
+		label_color="FF0A3A2A"
+		color="FF004D26"
+		color2="FFB8860B"
+		alternative_color="FF002A1E"
+		alternative_color2="FFDAA520"
 		culture="Culture.erebor"
 		settlement_banner_mesh="encounter_flag_a"
 		flag_mesh="info_screen_flags_b"
 		name="{=ereborkingdomname}Erebor"
 		short_name="{=ereborkingdomshortname}Erebor"
-		title="{=ereborkingdomtitle}Erebor"
+		title="{=ereborkingdomtitle}Kingdom of Erebor"
 		ruler_title="{=ereborrulertitle}King"
 		text="{=EreborKingdomText}Erebor Test">
 		<policies>
@@ -327,5 +345,234 @@
 			<policy
 				id="policy_castle_charters" />
 		</policies>
-	</Kingdom>	
+	</Kingdom>
+
+	<!--Rivendell-->
+	<Kingdom
+		id="rivendell"
+		owner="Hero.lord_R1_1"
+		banner_key="11.116.149.3000.3000.764.764.1.0.0.503.40.90.400.400.765.765.0.0.0.503.146.90.374.374.765.765.0.0.0.503.102.90.336.336.765.765.0.0.0.503.78.90.300.300.765.765.0.0.0.503.40.90.267.267.765.765.0.0.0.503.116.90.239.239.765.765.0.0.0.504.40.116.66.291.833.723.0.1.302.504.40.116.66.291.833.805.0.0.-122.504.40.116.66.291.695.723.0.0.58.504.40.116.66.291.764.682.0.0.0.504.40.116.66.291.695.805.0.1.122.504.40.116.66.291.764.846.0.1.180.503.40.25.100.100.764.764.1.0.0.510.25.25.92.13.764.764.1.0.0.510.25.25.92.18.765.764.1.0.64.510.25.25.92.18.765.764.1.1.117.504.40.25.44.125.703.652.0.1.-151.504.40.25.44.125.824.652.0.0.150.504.40.25.44.125.824.876.0.1.29.504.40.25.44.125.704.876.0.0.330.504.40.25.44.125.892.764.0.0.90.504.40.25.44.125.636.764.0.0.270.503.40.25.40.40.764.560.0.0.270.503.40.25.40.40.764.967.0.0.270.503.40.25.40.40.967.764.0.0.270.503.40.25.40.40.561.764.0.0.270.505.116.25.40.40.576.763.0.0.270.505.116.25.40.40.951.763.0.0.270"
+		primary_banner_color="0xff4B2D2D"
+		secondary_banner_color="0xff8C4F4F"
+		label_color="0xff3A1F1F"
+		color="0xff5C3B3B"
+		color2="0xffB66A6A"
+		alternative_color="0xff2D1A1A"
+		alternative_color2="0xff8C6262"
+		culture="Culture.rivendell"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_b"
+		name="{=rivendellkingdomname}Imladris"
+		short_name="{=rivendellkingdomshortname}Imladris"
+		title="{=rivendellkingdomtitle}Refuged of Imladris"
+		ruler_title="{=rivendellrulertitle}Lord"
+		text="{=RivendellKingdomText}Rivendell, also known as Imladris, is a sanctuary of wisdom and beauty hidden in the foothills of the Misty Mountains. Guided by Lord Elrond, the haven stands as a beacon of hope and resistance against the growing shadow. The Elves of Rivendell are guardians of ancient lore, skilled in both combat and healing arts. Their banners of silver and blue symbolize the enduring spirit of the Eldar and their unwavering resolve to protect Middle-earth.">
+		<policies>
+			<policy
+				id="policy_royal_privilege" />
+			<policy
+				id="policy_lord_prerogative" />
+			<policy
+				id="policy_religious_privilege" />
+			<policy
+				id="policy_castle_charters" />
+		</policies>
+	</Kingdom>
+
+	<!--Mirkwood-->
+	<Kingdom
+		id="mirkwood"
+		owner="Hero.lord_M1_1"
+		banner_key="11.129.75.4345.4345.764.764.1.0.0.505.2.100.500.500.764.764.0.1.45.505.40.100.471.471.764.764.0.1.45.505.2.100.447.447.764.764.0.1.45.503.40.100.114.46.600.719.0.0.-22.503.2.100.102.54.599.712.0.0.-19.503.40.100.109.54.606.710.0.0.-19.503.2.100.94.50.605.705.0.0.-19.503.40.100.114.46.616.707.0.0.-18.503.2.100.102.54.613.700.0.0.-18.503.40.100.114.46.600.808.0.1.201.503.2.100.102.54.599.815.0.1.198.503.40.100.109.54.606.817.0.1.198.503.2.100.94.50.605.822.0.1.198.503.40.100.114.46.616.820.0.1.197.503.2.100.102.54.613.827.0.1.197.503.40.100.114.46.927.719.0.1.21.503.2.100.102.54.928.712.0.1.18.503.40.100.109.54.921.710.0.1.18.503.2.100.94.50.922.705.0.1.18.503.40.100.114.46.911.707.0.1.17.503.2.100.102.54.914.700.0.1.17.503.40.100.114.46.927.808.0.0.158.503.2.100.102.54.928.815.0.0.161.503.40.100.109.54.921.817.0.0.161.503.2.100.94.50.922.822.0.0.161.503.40.100.114.46.911.820.0.0.162.503.2.100.102.54.914.827.0.0.162.503.40.100.114.46.720.602.0.1.112.503.2.100.102.54.713.602.0.1.109.503.40.100.109.54.711.608.0.1.109.503.2.100.94.50.706.607.0.1.109.503.40.100.114.46.708.618.0.1.108.503.2.100.102.54.701.616.0.1.108.503.40.100.114.46.809.601.0.0.249.503.2.100.102.54.816.601.0.0.251.503.40.100.109.54.817.607.0.0.252.503.2.100.94.50.822.606.0.0.251.503.40.100.114.46.821.617.0.0.252.503.2.100.102.54.828.615.0.0.253.503.40.100.114.46.720.925.0.0.67.503.2.100.102.54.713.925.0.0.70.503.40.100.109.54.711.919.0.0.70.503.2.100.94.50.706.920.0.0.70.503.40.100.114.46.708.909.0.0.71.503.2.100.102.54.701.911.0.0.71.503.40.100.114.46.809.926.0.1.-70.503.2.100.102.54.816.926.0.1.-72.503.40.100.109.54.817.920.0.1.-73.503.2.100.94.50.822.921.0.1.-72.503.40.100.114.46.821.910.0.1.-73.503.2.100.102.54.828.912.0.1.-74.427.129.100.48.40.764.471.0.1.180.427.129.100.48.40.764.1056.0.0.0.427.129.100.48.40.472.764.0.0.270.427.129.100.48.40.1056.764.0.0.90.505.2.100.10.41.1043.745.0.0.45.505.2.100.10.41.1043.783.0.0.135.505.2.100.10.41.485.745.0.1.315.505.2.100.10.41.485.783.0.1.224.505.2.100.10.41.744.1043.0.1.45.505.2.100.10.41.782.1042.0.1.315.505.2.100.10.41.744.484.0.0.134.505.2.100.10.41.782.485.0.0.-136.503.40.100.350.350.765.765.0.0.-136.503.2.100.340.340.765.765.0.0.-136.503.40.100.330.330.765.765.0.0.-136.503.2.100.320.320.765.765.0.0.-136.503.40.100.310.310.765.765.0.0.-136.503.2.100.300.300.765.765.0.0.-136.503.40.100.290.290.765.765.0.0.-136.503.2.100.280.280.765.765.0.0.-136.512.40.100.23.35.584.764.0.0.0.512.40.100.23.35.584.764.0.0.90.512.40.100.23.35.944.764.0.0.0.512.40.100.23.35.944.764.0.0.90.512.40.100.23.35.764.584.0.0.0.512.40.100.23.35.764.584.0.0.90.512.40.100.23.35.764.944.0.0.0.512.40.100.23.35.764.944.0.0.90.512.40.100.23.35.642.883.0.0.134.512.40.100.23.35.642.883.0.0.224.512.40.100.23.35.886.883.0.0.-136.512.40.100.23.35.886.883.0.0.-46.512.40.100.23.35.886.645.0.0.-45.512.40.100.23.35.886.645.0.0.45.512.40.100.23.35.642.645.0.0.44.512.40.100.23.35.642.645.0.0.134.503.40.100.10.10.612.691.0.0.134.503.40.100.10.10.612.837.0.0.134.503.40.100.10.10.916.691.0.0.134.503.40.100.10.10.916.837.0.0.134.503.40.100.10.10.841.913.0.0.134.503.40.100.10.10.687.913.0.0.134.503.40.100.10.10.687.615.0.0.134.503.40.100.10.10.841.615.0.0.134.503.40.100.80.80.764.764.0.0.0.503.2.100.68.68.764.764.0.0.0.503.40.100.62.62.764.764.0.0.0.503.2.100.56.56.764.764.0.0.0.426.40.100.9.29.735.732.0.0.44.426.40.100.9.29.727.720.0.0.21.426.40.100.9.20.733.717.0.0.-42.427.40.100.21.12.742.705.0.0.70.427.40.100.21.12.740.693.0.0.-50.427.40.100.14.12.738.685.0.0.-132.427.40.100.14.12.744.685.0.0.-250.427.40.100.8.12.744.687.0.0.-345.427.40.100.21.12.719.703.0.0.133.427.40.100.11.12.712.702.0.0.239.426.40.100.9.29.793.732.0.1.-45.426.40.100.9.29.801.720.0.1.-22.426.40.100.9.20.795.717.0.1.41.427.40.100.21.12.786.705.0.1.-71.427.40.100.21.12.788.693.0.1.49.427.40.100.14.12.790.685.0.1.131.427.40.100.14.12.784.685.0.1.-111.427.40.100.8.12.784.687.0.1.-16.427.40.100.21.12.809.703.0.1.-134.427.40.100.11.12.816.702.0.1.120.426.40.100.9.29.735.795.0.1.135.426.40.100.9.29.727.807.0.1.158.426.40.100.9.20.733.810.0.1.221.427.40.100.21.12.742.822.0.1.109.427.40.100.21.12.740.834.0.1.229.427.40.100.14.12.738.842.0.1.311.427.40.100.14.12.744.842.0.1.69.427.40.100.8.12.744.840.0.1.164.427.40.100.21.12.719.824.0.1.46.427.40.100.11.12.712.825.0.1.-60.426.40.100.9.29.793.795.0.0.224.426.40.100.9.29.801.807.0.0.201.426.40.100.9.20.795.810.0.0.138.427.40.100.21.12.786.822.0.0.250.427.40.100.21.12.788.834.0.0.130.427.40.100.14.12.790.842.0.0.48.427.40.100.14.12.784.842.0.0.290.427.40.100.8.12.784.840.0.0.195.427.40.100.21.12.809.824.0.0.313.427.40.100.11.12.816.825.0.0.59.426.40.100.9.29.796.735.0.0.-47.426.40.100.9.29.808.727.0.0.-70.426.40.100.9.20.811.733.0.0.-133.427.40.100.21.12.823.742.0.0.-21.427.40.100.21.12.835.740.0.0.-141.427.40.100.14.12.843.738.0.0.-222.427.40.100.14.12.843.744.0.0.-340.427.40.100.8.12.841.744.0.0.-76.427.40.100.21.12.825.719.0.0.42.427.40.100.11.12.826.712.0.0.149.426.40.100.9.29.795.793.0.1.-136.426.40.100.9.29.807.801.0.1.-113.426.40.100.9.20.810.795.0.1.-49.427.40.100.21.12.822.786.0.1.-162.427.40.100.21.12.834.788.0.1.-42.427.40.100.14.12.842.790.0.1.40.427.40.100.14.12.842.784.0.1.-202.427.40.100.8.12.840.784.0.1.-107.427.40.100.21.12.824.809.0.1.-225.427.40.100.11.12.825.816.0.1.29.426.40.100.9.29.731.735.0.1.46.426.40.100.9.29.719.727.0.1.69.426.40.100.9.20.716.733.0.1.132.427.40.100.21.12.704.742.0.1.20.427.40.100.21.12.692.740.0.1.140.427.40.100.14.12.684.738.0.1.221.427.40.100.14.12.684.744.0.1.339.427.40.100.8.12.686.744.0.1.75.427.40.100.21.12.702.719.0.1.317.427.40.100.11.12.701.712.0.1.210.426.40.100.9.29.732.793.0.0.135.426.40.100.9.29.720.801.0.0.112.426.40.100.9.20.717.795.0.0.48.427.40.100.21.12.705.786.0.0.161.427.40.100.21.12.693.788.0.0.41.427.40.100.14.12.685.790.0.0.319.427.40.100.14.12.685.784.0.0.201.427.40.100.8.12.687.784.0.0.106.427.40.100.21.12.703.809.0.0.224.427.40.100.11.12.702.816.0.0.330.426.40.100.9.78.702.765.0.0.90.427.40.100.18.25.672.757.0.0.-115.427.40.100.18.25.672.773.0.1.294.427.40.100.18.21.721.774.0.1.97.427.40.100.10.15.718.778.0.1.-45.427.40.100.18.21.721.759.0.0.82.427.40.100.10.15.718.756.0.0.229.426.40.100.9.78.826.765.0.1.269.427.40.100.18.25.856.757.0.1.114.427.40.100.18.25.856.773.0.0.65.427.40.100.18.21.807.774.0.0.262.427.40.100.10.15.810.778.0.0.44.427.40.100.18.21.807.759.0.1.277.427.40.100.10.15.810.756.0.1.130.426.40.100.9.78.764.703.0.1.0.427.40.100.18.25.756.673.0.1.205.427.40.100.18.25.772.673.0.0.156.427.40.100.18.21.773.722.0.0.353.427.40.100.10.15.777.719.0.0.135.427.40.100.18.21.758.722.0.1.8.427.40.100.10.15.755.719.0.1.221.426.40.100.9.78.764.824.0.0.179.427.40.100.18.25.756.854.0.0.-26.427.40.100.18.25.772.854.0.1.23.427.40.100.18.21.773.805.0.1.-174.427.40.100.10.15.777.808.0.1.44.427.40.100.18.21.758.805.0.0.171.427.40.100.10.15.755.808.0.0.-42"
+		primary_banner_color="0xff2D5A29"
+		secondary_banner_color="0xff9DBF60"
+		label_color="0xff1F3B19"
+		color="0xff164021"
+		color2="0xffA8C47C"
+		alternative_color="0xff122814"
+		alternative_color2="0xffBCCB85"
+		culture="Culture.mirkwood"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_b"
+		name="{=mirkwoodkingdomname}Lasgalen"
+		short_name="{=mirkwoodkingdomshortname}Lasgalen"
+		title="{=mirkwoodkingdomtitle}Kingdom of Lasgalen"
+		ruler_title="{=mirkwoodrulertitle}Aran"
+		text="{=MirkwoodKingdomText}Mirkwood, the great forest of Middle-earth, is a land of mystery and danger, ruled by the enigmatic King Thranduil. Beneath the towering trees of this ancient woodland, the Silvan Elves dwell, their lives intertwined with the magic and shadows of their home. Skilled archers and warriors, the Elves of Mirkwood defend their realm fiercely, standing guard against the ever-encroaching darkness. Though the forest bears scars from years of strife, it remains a place of haunting beauty and resilience, a testament to the enduring spirit of its people and their resolve to safeguard their ancient homeland.">
+		<policies>
+			<policy
+				id="policy_royal_privilege" />
+			<policy
+				id="policy_lord_prerogative" />
+			<policy
+				id="policy_religious_privilege" />
+			<policy
+				id="policy_castle_charters" />
+		</policies>
+	</Kingdom>
+
+	<!--Lothlorien-->
+	<Kingdom
+		id="lothlorien"
+		owner="Hero.lord_L1_1"
+		banner_key="11.40.149.3000.3000.764.764.1.0.0.512.116.90.1030.644.764.764.0.0.0.512.40.90.1005.628.764.764.0.0.0.514.144.90.203.354.764.539.0.0.0.503.40.90.124.215.685.602.0.0.13.503.40.90.124.215.843.602.0.1.166.512.82.90.88.192.764.496.0.0.0.427.144.90.97.41.790.543.0.1.244.427.144.90.97.41.738.543.0.1.115.514.144.90.204.354.764.982.0.1.180.503.40.90.124.215.685.925.0.1.346.503.40.90.124.215.843.925.0.0.193.512.82.90.88.192.764.1032.0.0.0.427.144.90.97.41.790.985.0.0.-64.427.144.90.97.41.738.985.0.0.65.514.144.90.204.354.546.764.0.0.90.503.40.90.124.215.603.684.0.1.76.503.40.90.124.215.603.844.0.1.113.512.82.90.88.192.513.764.0.0.90.427.144.90.97.41.543.793.0.0.202.427.144.90.97.41.543.735.0.0.-23.514.144.90.204.354.982.764.0.1.270.503.40.90.124.215.927.684.0.0.103.503.40.90.124.215.927.844.0.0.66.512.82.90.88.192.1015.764.0.0.90.427.144.90.97.41.985.793.0.1.157.427.144.90.97.41.985.735.0.1.22.428.116.90.96.80.799.1033.0.0.219.428.116.90.96.80.733.1042.0.0.124.428.116.90.96.80.489.731.0.0.45.428.116.90.96.80.489.797.0.1.135.428.116.90.96.80.1039.801.0.1.225.428.116.90.96.80.1039.731.0.0.315.428.116.90.96.80.797.489.0.1.315.428.116.90.96.80.731.489.0.0.45.514.144.90.85.222.649.651.0.1.45.504.116.90.80.67.638.639.0.1.225.503.82.91.34.38.638.639.0.1.225.504.82.90.35.70.651.652.0.1.225.514.144.90.85.222.879.877.0.1.225.504.116.90.80.67.890.885.0.1.45.503.82.91.34.38.889.884.0.1.45.504.82.90.35.70.875.870.0.1.45.514.144.90.85.222.647.877.0.1.134.504.116.90.80.67.639.888.0.1.-46.503.82.91.34.38.640.887.0.1.-46.504.82.90.35.70.654.874.0.1.-46.514.144.90.85.222.878.648.0.1.-45.504.116.90.80.67.886.637.0.1.-225.503.82.91.34.38.885.638.0.1.-225.504.82.90.35.70.871.652.0.1.-225.505.40.90.780.374.457.556.0.0.45.505.40.90.780.374.1070.558.0.0.135.505.40.90.804.370.1066.971.0.1.44.505.40.90.796.377.459.975.0.0.315.503.1.90.300.300.764.764.0.0.315.503.40.90.294.294.764.764.0.0.315.503.82.90.280.280.764.764.0.0.315.503.3.90.260.260.764.764.0.0.315.503.82.90.50.20.773.743.0.1.68.503.82.90.50.20.755.785.0.1.68.503.82.90.50.20.785.773.0.0.336.503.82.90.50.20.743.755.0.0.336.503.82.90.50.20.743.773.0.0.23.503.82.90.50.20.785.755.0.0.23.503.82.90.50.20.755.747.0.0.108.503.82.90.50.20.773.781.0.0.108.504.44.90.48.214.764.811.0.1.0.504.44.90.48.214.764.717.0.1.180.504.44.90.48.214.717.764.0.0.270.504.44.90.48.214.811.764.0.1.90.504.44.90.48.214.797.796.0.1.45.504.44.90.48.214.797.732.0.0.135.504.44.90.48.214.730.732.0.1.225.504.44.90.48.214.730.796.0.0.-45.510.116.90.408.43.609.637.0.0.45.510.116.90.408.43.612.893.0.1.135.510.116.90.408.43.903.902.0.0.224.510.116.90.408.43.890.610.0.1.135.503.82.90.10.10.764.763.0.1.0"
+		primary_banner_color="0xff315A49"
+		secondary_banner_color="0xffA8D1A6"
+		label_color="0xff204B39"
+		color="0xff184031"
+		color2="0xffC0E3B5"
+		alternative_color="0xff14382C"
+		alternative_color2="0xff99C9A0"
+		culture="Culture.lothlorien"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_b"
+		name="{=lothlorienkingdomname}Lothlórien"
+		short_name="{=lothlorienkingdomshortname}Lothlórien"
+		title="{=lothlorienkingdomtitle}Kingdom of Lothlórien"
+		ruler_title="{=lothlorienrulertitle}Lady"
+		text="{=LothlorienKingdomText}Lothlórien, the Golden Wood, is a realm of unmatched beauty and serenity. Under the wise and graceful rule of Lady Galadriel and Lord Celeborn, it serves as a sanctuary for the Free Peoples of Middle-earth. The Elves of Lothlórien are both wise and formidable, their archers unmatched in skill and their warriors clad in armor that shimmers with the light of the Mallorn trees. Protected by the power of the Elven Rings, the Golden Wood stands as a beacon of hope and resilience against the encroaching darkness, its beauty a testament to the enduring spirit of the Elves.">
+		<policies>
+			<policy
+				id="policy_royal_privilege" />
+			<policy
+				id="policy_lord_prerogative" />
+			<policy
+				id="policy_religious_privilege" />
+			<policy
+				id="policy_castle_charters" />
+		</policies>
+	</Kingdom>
+
+	<!--Isengard-->
+	<Kingdom
+		id="isengard"
+		owner="Hero.lord_I1_1"
+		banner_key="11.149.149.2059.1496.768.764.1.1.0.504.111.108.347.331.775.811.0.0.180.504.111.108.47.327.698.651.0.0.-38.504.111.108.44.328.734.647.0.0.-22.504.111.108.50.413.775.647.0.0.0.504.111.108.44.328.816.647.0.1.21.504.111.108.44.212.877.670.0.1.28"
+		primary_banner_color="0xff3A3A3A"
+		secondary_banner_color="0xff6E6E6E"
+		label_color="0xff1E1E1E"
+		color="0xff252525"
+		color2="0xff808080"
+		alternative_color="0xff2E2E2E"
+		alternative_color2="0xff5A5A5A"
+		culture="Culture.isengard"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_b"
+		name="{=isengardkingdomname}Isengard"
+		short_name="{=isengardkingdomshortname}Isengard"
+		title="{=isengardkingdomtitle}Overlordship of Isengard"
+		ruler_title="{=isengardrulertitle}Warlord"
+		text="{=IsengardKingdomText}Isengard, the stronghold of the White Wizard Saruman, stands as a bastion of power and ambition. Encircled by the mighty Ring of Isengard and fortified by towering walls, it is a symbol of Saruman’s mastery over both the arcane and industrial might. The Uruk-hai, bred for war, march forth under the banner of the White Hand, their discipline and savagery unmatched. Within the halls of Orthanc, Saruman weaves his schemes, a cunning mind bent on domination. Isengard embodies a relentless drive for conquest, a dark force poised to reshape Middle-earth to Saruman’s will.">
+		<policies>
+			<policy
+				id="policy_royal_privilege" />
+			<policy
+				id="policy_lord_prerogative" />
+			<policy
+				id="policy_religious_privilege" />
+			<policy
+				id="policy_castle_charters" />
+		</policies>
+	</Kingdom>
+
+	<!--Gundabad-->
+	<Kingdom
+		id="gundabad"
+		owner="Hero.lord_G1_1"
+		banner_key="11.100.149.3000.3000.764.764.1.0.0.505.67.90.37.411.662.739.0.1.0.504.100.90.109.332.630.892.0.0.228.505.67.90.37.411.867.739.0.0.0.504.100.90.109.332.900.892.0.1.131.505.67.90.55.400.706.844.0.0.0.504.100.90.109.332.696.1035.0.0.118.505.67.90.55.400.823.843.0.1.0.504.67.90.58.148.839.642.0.0.352.504.100.90.109.332.833.1035.0.1.241.504.67.90.58.148.689.642.0.1.7.504.67.90.82.301.764.787.0.1.180.505.100.90.8.553.679.745.0.1.0.505.100.90.8.553.849.745.0.1.0.505.67.90.49.160.772.694.0.1.90.504.67.90.74.411.764.585.0.1.0.504.67.90.-27.237.608.819.0.0.43.504.67.90.-27.102.637.750.0.0.42.504.67.90.-27.132.632.668.0.0.42.504.67.90.-41.285.595.535.0.0.48.504.67.90.-37.265.661.498.0.0.0.504.67.90.-27.237.920.819.0.1.316.504.67.90.-27.102.891.750.0.1.317.504.67.90.-27.132.896.668.0.1.317.504.67.90.-41.285.933.535.0.1.311.504.67.90.-37.265.867.498.0.1.0"
+		primary_banner_color="0xff2D2D2D"
+		secondary_banner_color="0xff585858"
+		label_color="0xff1A1A1A"
+		color="0xff343434"
+		color2="0xff707070"
+		alternative_color="0xff282828"
+		alternative_color2="0xff4C4C4C"
+		culture="Culture.gundabad"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_b"
+		name="{=gundabadkingdomname}Gundabad"
+		short_name="{=gundabadkingdomshortname}Overlordship of Gundabad"
+		title="{=gundabadkingdomtitle}Gundabad"
+		ruler_title="{=gundabadrulertitle}Warlord"
+		text="{=gundabadKingdomText}Gundabad, the ancient and foreboding stronghold of the Orcs, stands as a bastion of savagery and domination. Rising from the shadow of Mount Gundabad, it is fortified by natural defenses and steeped in the brutal traditions of its masters. The Orcs of Gundabad, bred for war and chaos, rally under bloodied banners, their ferocity and sheer numbers a terror to all who stand against them. Within its darkened halls, the Warlord plots conquest, uniting the fractious tribes with a vision of Orc supremacy. Gundabad is a force of relentless power, poised to plunge Middle-earth into chaos and destruction.">
+		<policies>
+			<policy
+				id="policy_royal_privilege" />
+			<policy
+				id="policy_lord_prerogative" />
+			<policy
+				id="policy_religious_privilege" />
+			<policy
+				id="policy_castle_charters" />
+		</policies>
+	</Kingdom>
+
+	<!--Umbar-->
+	<Kingdom
+		id="umbar"
+		owner="Hero.lord_U1_1"
+		banner_key="11.149.149.2059.1496.768.764.1.1.0.505.0.108.10.866.469.764.0.0.-1.505.0.108.10.866.1061.764.0.0.-1.505.0.108.24.231.769.627.0.0.90.504.0.108.41.39.871.627.0.0.180.427.0.108.123.125.818.572.0.0.90.427.0.108.123.124.746.572.0.0.90.427.0.108.61.61.778.540.0.0.245.505.0.108.24.237.674.616.0.0.0.504.0.108.32.30.666.522.0.0.197.504.0.108.32.30.678.517.0.0.197.427.0.108.103.61.705.539.0.0.204.504.0.108.41.39.671.713.0.0.37.504.0.108.58.20.680.715.0.0.30.307.0.108.297.279.726.927.0.0.50.307.0.108.297.279.803.927.0.1.309"
+		primary_banner_color="0xff8B4513"
+		secondary_banner_color="0xffCD853F"
+		label_color="0xff5F370D"
+		color="0xff6A4513"
+		color2="0xffD9A673"
+		alternative_color="0xff5A2C09"
+		alternative_color2="0xffC28C61"
+		culture="Culture.umbar"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_b"
+		name="{=umbarkingdomname}Umbar"
+		short_name="{=umbarkingdomshortname}Umbar"
+		title="{=umbarkingdomtitle}Haven of Umbar"
+		ruler_title="{=umbarkingdomrulertitle}Corsair King"
+		text="{=UmbarKingdomText}Umbar, the dark haven of the Corsairs, is a realm steeped in maritime power and treacherous ambition. The Corsairs, fierce seafarers loyal to their own cause, raid the coasts of Middle-earth, spreading fear with their swift ships and devastating strikes. Their banners of black and crimson reflect their defiance and dominance of the seas. Umbar, once a Númenórean haven, now thrives as a stronghold of piracy, its harbors echoing with the tales of plunder and conquest.">
+		<policies>
+			<policy
+				id="policy_royal_privilege" />
+			<policy
+				id="policy_lord_prerogative" />
+			<policy
+				id="policy_religious_privilege" />
+			<policy
+				id="policy_castle_charters" />
+		</policies>
+	</Kingdom>
+
+
+	<!--Dol
+	Guldur-->
+	<Kingdom
+		id="dolguldur"
+		owner="Hero.lord_DG1_1"
+		banner_key="11.149.149.4345.4345.764.764.1.0.0.505.14.100.103.288.765.872.0.0.0.504.14.100.131.804.765.764.0.0.0.505.149.100.131.364.763.590.0.0.0.503.14.100.237.152.765.610.0.1.0.503.149.100.198.64.765.621.0.1.0.503.149.100.131.99.765.600.0.1.0.503.149.100.237.72.765.612.0.1.0.503.14.100.37.112.765.603.0.1.0.503.14.100.55.35.671.595.0.1.0.427.14.100.46.50.664.592.0.1.-29.503.149.100.37.30.690.563.0.1.23.503.14.100.25.15.692.594.0.1.26.503.14.100.25.15.703.586.0.1.26.503.14.100.25.15.687.587.0.1.26.503.149.100.48.30.675.575.0.1.17.428.149.100.210.113.765.573.0.1.181.503.14.100.41.18.691.592.0.1.29.503.14.100.29.18.692.595.0.1.39.503.14.100.18.18.701.589.0.1.57.503.14.100.55.35.859.595.0.0.0.427.14.100.46.50.866.592.0.0.29.503.149.100.37.30.840.563.0.0.337.503.14.100.25.15.838.594.0.0.334.503.14.100.25.15.828.586.0.0.334.503.14.100.25.15.844.587.0.0.334.503.149.100.48.30.856.575.0.0.343.503.14.100.29.18.838.595.0.0.320.503.14.100.18.18.830.589.0.0.302.504.14.100.30.51.765.740.0.0.0.504.14.100.21.122.802.738.0.0.325.504.14.100.21.122.729.738.0.1.35.505.14.100.22.65.709.768.0.1.120.504.14.100.140.29.681.762.0.1.120.504.14.100.96.48.694.764.0.1.291.504.149.100.54.109.681.787.0.1.22.504.149.100.49.62.697.794.0.1.70.504.149.100.49.62.700.809.0.1.90.505.14.100.22.65.822.768.0.0.239.504.14.100.140.29.850.762.0.0.239.504.14.100.96.48.837.764.0.0.68.504.149.100.54.109.850.787.0.0.337.504.149.100.49.62.833.794.0.0.289.504.149.100.49.62.831.809.0.0.270.504.14.100.103.158.765.446.0.1.180.510.149.100.103.44.766.446.0.1.269.504.14.100.103.158.765.1081.0.0.0.510.149.100.103.44.766.1081.0.0.-89.505.14.100.858.20.473.764.0.0.270.505.14.100.858.20.1055.764.0.0.270.505.14.100.700.20.764.402.0.0.0.505.14.100.700.20.764.1126.0.0.0.504.14.100.129.65.765.1012.0.0.179.505.14.100.129.65.689.967.0.0.163.504.14.100.178.65.653.980.0.0.151.505.14.100.65.65.624.940.0.0.149.427.149.100.144.27.656.918.0.0.332.505.14.100.89.31.591.896.0.0.122.504.14.100.35.23.576.901.0.0.-216.503.14.100.29.29.570.861.0.0.122.503.14.100.16.16.561.863.0.0.122.427.14.100.41.32.557.856.0.0.326.427.14.100.41.32.560.851.0.0.326.504.14.100.51.34.603.966.0.0.-147.504.14.100.51.34.613.966.0.0.-147.505.14.100.129.65.840.967.0.1.196.504.14.100.178.65.877.980.0.1.208.505.14.100.65.65.905.940.0.1.210.427.149.100.144.27.873.918.0.1.27.505.14.100.89.31.938.896.0.1.237.504.14.100.35.23.953.901.0.1.215.503.14.100.29.29.959.861.0.1.237.503.14.100.16.16.968.863.0.1.237.427.14.100.41.32.972.856.0.1.33.427.14.100.41.32.970.851.0.1.33.504.14.100.51.34.926.966.0.1.146.504.14.100.51.34.917.966.0.1.146.504.14.100.147.226.516.1075.0.0.315.510.149.100.147.88.529.1063.0.0.226.504.14.100.147.226.1011.1075.0.1.45.510.149.100.147.88.998.1063.0.1.134.504.14.100.147.226.1011.452.0.0.135.510.149.100.147.88.998.464.0.0.46.504.14.100.147.226.516.452.0.1.225.510.149.100.147.88.529.464.0.1.314.505.149.100.43.99.444.450.0.1.180.505.149.100.43.99.505.374.0.1.90.505.149.100.43.99.1083.450.0.0.179.505.149.100.43.99.1022.374.0.0.270.505.149.100.43.99.1083.1077.0.1.0.505.149.100.43.99.1022.1153.0.1.-90.505.149.100.43.99.444.1077.0.0.359.505.149.100.43.99.505.1153.0.0.90"
+		primary_banner_color="0xff4F321A"
+		secondary_banner_color="0xff7B5234"
+		label_color="0xff3A2510"
+		color="0xff5C3A1E"
+		color2="0xff9A7352"
+		alternative_color="0xff482914"
+		alternative_color2="0xff866345"
+		culture="Culture.dolguldur"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_b"
+		name="{=dolguldurkingdomname}Dol Guldur"
+		short_name="{=dolguldurkingdomshortname}Dol Guldur"
+		title="{=dolguldurkingdomtitle}Necromancy of Dol Guldur"
+		ruler_title="{=dolguldurkingdomrulertitle}Dread-Lord"
+		text="{=DolGuldurKingdomText}Dol Guldur, the fortress of shadow and despair, stands as a menacing beacon of the Necromancer's dark will. Perched on the hill of Amon Lanc within the foreboding forest of Mirkwood, it exudes an aura of malevolence. The Orcs and foul creatures that inhabit its depths are loyal to their dark master, striking fear into the hearts of all who dare venture near. Dol Guldur's banners of black and deep crimson symbolize its relentless corruption and the spreading shadow over Middle-earth. Once a place of peace, the fortress now serves as a stronghold of terror, ready to unleash its forces upon the Free Peoples.">
+
+		<policies>
+			<policy
+				id="policy_royal_privilege" />
+			<policy
+				id="policy_lord_prerogative" />
+			<policy
+				id="policy_religious_privilege" />
+			<policy
+				id="policy_castle_charters" />
+		</policies>
+	</Kingdom>
+
+
 </Kingdoms>
