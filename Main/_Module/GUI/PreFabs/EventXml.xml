@@ -1,0 +1,51 @@
+<Prefab>
+    <Constants>
+    </Constants>
+    <Window>
+        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent"
+            Sprite="@BackgroundImage" DoNotAcceptEvents="true">
+            <Children>
+                <Standard.Window Parameter.Title="@EventTitle" WidthSizePolicy="Fixed"
+                    SuggestedWidth="1024" HorizontalAlignment="Center" Sprite="event-bg">
+                    <Children>
+                        <Widget WidthSizePolicy="Fixed" SuggestedWidth="1052"
+                            HeightSizePolicy="Fixed" SuggestedHeight="636" Sprite="frame_9"
+                            HorizontalAlignment="Center" VerticalAlignment="Top"
+                            PositionYOffset="-75">
+                            <Children>
+                                <BrushWidget WidthSizePolicy="StretchToParent"
+                                    HeightSizePolicy="StretchToParent"
+                                    Sprite="@HeaderImage" VerticalAlignment="Top"
+                                    MarginTop="18" MarginLeft="18" MarginRight="18"
+                                    MarginBottom="18" />
+                            </Children>
+                        </Widget>
+                        <Widget WidthSizePolicy="Fixed" SuggestedWidth="1052"
+                            HeightSizePolicy="Fixed" SuggestedHeight="636"
+                            HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                            <Children>
+                                <RichTextWidget WidthSizePolicy="StretchToParent"
+                                    HeightSizePolicy="StretchToParent"
+                                    Brush="UI.SummaryScreen.Text"
+                                    Text="@EventUpperText"
+                                    Brush.Fontsize="6"
+                                    LineSpacing="1.5" MarginLeft="18" MarginRight="18"
+                                    HorizontalAlignment="Left" PositionYOffset="-55" TextWrapping="Wrap" />
+
+                                <RichTextWidget WidthSizePolicy="StretchToParent"
+                                    HeightSizePolicy="StretchToParent"
+                                    Brush="UI.SummaryScreen.Text"
+                                    Text="@EventLowerText"
+                                    Brush.Fontsize="6" LineSpacing="1.5" MarginLeft="18" MarginRight="18" HorizontalAlignment="Left" PositionYOffset="95"
+                                    TextWrapping="Wrap" />
+                            </Children>
+                        </Widget>
+                    </Children>
+                </Standard.Window>
+                <Standard.DialogCloseButtons Parameter.CancelButtonAction="ExecuteCancel"
+                    Parameter.CancelButtonText="@CancelButtonText" Parameter.DoneButtonAction="ExecuteDone"
+                    Parameter.DoneButtonText="@DoneButtonText" Parameter.IsDoneEnabled="@IsDoneEnabled" Parameter.ShowCancel="@IsCancelEnabled" MarginTop="10"/>
+            </Children>
+        </Widget>
+    </Window>
+</Prefab>

@@ -1,0 +1,7404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- #region Template -->
+	<!-- #region Main Template -->
+	<NPCCharacter
+		id="facgen_template_test_char_0"
+		is_template="true"
+		default_group="Infantry"
+		formation_position_preference="Front"
+		level="11"
+		culture="Culture.empire"
+		occupation="Townsfolk"
+		name="{=!}Serdar"
+		skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true" />
+			<EquipmentRoster />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="facgen_template_test_char_1"
+		is_template="true"
+		default_group="Infantry"
+		formation_position_preference="Front"
+		level="11"
+		culture="Culture.empire"
+		occupation="Townsfolk"
+		name="{=!}Serdar"
+		skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true" />
+			<EquipmentRoster />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="facgen_template_test_char_2"
+		is_template="true"
+		default_group="Infantry"
+		formation_position_preference="Front"
+		level="11"
+		culture="Culture.empire"
+		occupation="Townsfolk"
+		name="{=!}Serdar"
+		skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true" />
+			<EquipmentRoster />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="facgen_template_test_char_3"
+		is_template="true"
+		default_group="Infantry"
+		formation_position_preference="Front"
+		level="11"
+		culture="Culture.empire"
+		occupation="Townsfolk"
+		name="{=!}Serdar"
+		skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true" />
+			<EquipmentRoster />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="facgen_template_test_char_4"
+		is_template="true"
+		default_group="Infantry"
+		formation_position_preference="Front"
+		level="11"
+		culture="Culture.empire"
+		occupation="Townsfolk"
+		name="{=!}Serdar"
+		skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true" />
+			<EquipmentRoster />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="facgen_template_test_char_5"
+		is_template="true"
+		default_group="Infantry"
+		formation_position_preference="Front"
+		level="11"
+		culture="Culture.empire"
+		occupation="Townsfolk"
+		name="{=!}Serdar"
+		skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true" />
+			<EquipmentRoster />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="facgen_template_test_char_6"
+		is_template="true"
+		default_group="Infantry"
+		formation_position_preference="Front"
+		level="11"
+		culture="Culture.empire"
+		occupation="Townsfolk"
+		name="{=!}Serdar"
+		skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true" />
+			<EquipmentRoster />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="facgen_template_test_char_7"
+		is_template="true"
+		default_group="Infantry"
+		formation_position_preference="Front"
+		level="11"
+		culture="Culture.empire"
+		occupation="Townsfolk"
+		name="{=!}Serdar"
+		skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true" />
+			<EquipmentRoster />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="facgen_template_test_char_8"
+		is_template="true"
+		default_group="Infantry"
+		formation_position_preference="Front"
+		level="11"
+		culture="Culture.empire"
+		occupation="Townsfolk"
+		name="{=!}Serdar"
+		skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true" />
+			<EquipmentRoster />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="facgen_template_test_char_9"
+		is_template="true"
+		default_group="Infantry"
+		formation_position_preference="Front"
+		level="11"
+		culture="Culture.empire"
+		occupation="Townsfolk"
+		name="{=!}Serdar"
+		skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true" />
+			<EquipmentRoster />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_wanderer_equipment_template_battania"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_battania" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_armed_wanderer_equipment_template_battania"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_battania" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_wanderer_equipment_template_empire"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_armed_wanderer_equipment_template_empire"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_wanderer_equipment_template_aserai"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_armed_wanderer_equipment_template_aserai"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_armed_wanderer_equipment_template_khuzait"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_khuzait" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_companion_equipment_template_khuzait"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_khuzait" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_wanderer_equipment_template_vlandia"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_armed_wanderer_equipment_template_vlandia"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_companion_equipment_template_vlandia"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_companion_equipment_template_battania"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_battania" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_wanderer_equipment_template_sturgia"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_sturgia" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_armed_wanderer_equipment_template_sturgia"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_sturgia" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_wanderer_equipment_template_khuzait"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_khuzait" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endregion-->
+	<!--#region Townsfolk Template-->
+	<NPCCharacter
+		id="guard"
+		default_group="Infantry"
+		formation_position_preference="Front"
+		level="11"
+		name="{=guardnoun}Guard"
+		occupation="Townsfolk"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<skills>
+			<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="50" />
+			<skill
+				id="Bow"
+				value="50" />
+			<skill
+				id="Throwing"
+				value="50" />
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.tzkurion_axe_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.strapped_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.triangluar_spear_t3" />
+				<equipment
+					slot="Body"
+					id="Item.empire_warrior_padded_armor_e" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.reinforced_padded_mitten" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.tzkurion_axe_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.strapped_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.triangluar_spear_t3" />
+				<equipment
+					slot="Body"
+					id="Item.empire_warrior_padded_armor_e" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.reinforced_padded_mitten" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--#endregion-->
+	<!-- #region Villagers -->
+	<NPCCharacter
+		id="villager_khuzait"
+		default_group="Infantry"
+		level="1"
+		name="{=khuzaitpeasantman}Khuzait Peasant"
+		occupation="Villager"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22.49"
+				weight="0.0417"
+				build="0.0324"
+				key="000DC40D800005C6507011122CB700080603060883A8010100000000800001000000100300001000000000000000000000000000000000000000000006000000" />
+			<BodyPropertiesMax
+				version="4"
+				age="66.85"
+				weight="0.9182"
+				build="0.5231"
+				key="001EFC0FC00038D4FFFBCEFEEFFE9E6FEFFEFFEFFEEFEFFFEFFEEFFF898EFEFA0698E06809FFFFFF000000000000000000000000000000000000000079209100" />
+		</face>
+		<skills></skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.khuzait_nomad" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_civil_coat_b" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_civil_coat" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.steppe_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.steppe_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_belt_leather" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_civil_coat_b" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_civil_coat" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hat" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.steppe_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hat" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.steppe_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.nomad_padded_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_belt_leather" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.khuzait_civil_coat_b" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Head"
+					id="Item.peaked_fur_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_civil_coat" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_civil_coat" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.steppe_robe" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.steppe_armor" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_belt_leather" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_civil_coat_b" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hood" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_civil_coat" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hat" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.steppe_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hat" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.steppe_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Head"
+					id="Item.nomad_padded_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_belt_leather" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.khuzait_civil_coat_b" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Head"
+					id="Item.peaked_fur_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_civil_coat" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.khuzait_civil_coat" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hat" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.steppe_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hat" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.steppe_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Head"
+					id="Item.nomad_padded_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.khuzait_belt_leather" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.khuzait_civil_coat_b" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Head"
+					id="Item.peaked_fur_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.khuzait_civil_coat" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hood" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="villager_empire"
+		default_group="Infantry"
+		level="1"
+		name="{=empirepeasantman}Empire Peasant"
+		occupation="Villager"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<!--face_key value="0009013000000000000000000000000000000000000000000000000000000000000a00050000000000000000000000000000000000000000fffffffffc880000" max_value="001cffffc000390ffff88affaa9efffffffffffffff7ffffffff9ffffffffffa0007effff7ffffff000000000000000000000000000000000000000001509181" /-->
+			<BodyProperties
+				version="4"
+				age="25.57"
+				weight="0.3164"
+				build="0.2485"
+				key="00052008000000010070030000001603003300110010200000000001010000000144501304010000000000000000000000000000000000000000000010880000" />
+			<BodyPropertiesMax
+				version="4"
+				age="69.94"
+				weight="0.9923"
+				build="0.7052"
+				key="0010F80FC000370FFFFFEFEFFEEFFF7EEEFFFFFFFEF7EFFEFFFFFFFFFEFFFFFF07CBF0780CFFFFEF000000000000000000000000000000000000000061809105" />
+			<!--<hair_tags>
+        <hair_tag name="ShortAndThin" />
+        <hair_tag name="Tousled" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="LightShortBeard" />
+        <beard_tag name="HeavyShortBeard" />
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>-->
+		</face>
+		<skills></skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.imperial_recruit" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cloth_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.tied_cloth_tunic" />
+				<equipment
+					slot="Head"
+					id="Item.merchants_hat" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.tundra_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.hemp_tunic" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.tunic_with_shoulder_pads" />
+				<equipment
+					slot="Head"
+					id="Item.merchants_hat" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.fine_town_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.fine_town_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.merchants_hat" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.burlap_waistcoat" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.armwraps" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cloth_tunic" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.cloth_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.tied_cloth_tunic" />
+				<equipment
+					slot="Head"
+					id="Item.merchants_hat" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.tundra_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_pitchfork_2_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.hemp_tunic" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_pitchfork_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.tunic_with_shoulder_pads" />
+				<equipment
+					slot="Head"
+					id="Item.merchants_hat" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.fine_town_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.fine_town_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.merchants_hat" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.burlap_waistcoat" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.armwraps" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.cloth_tunic" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="villager_aserai"
+		default_group="Infantry"
+		level="1"
+		age="30"
+		name="{=aseraipeasantman}Aserai Peasant"
+		occupation="Villager"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<!--face_key value="001dc54e40000000000000000000700000000000000000000000000006650003000a00050000000000000000000000000000000000000000fffffffffc780000" max_value="0033ffffc000390ffff9aaffaa8ffffffff1ffffffb7ffffffffffffffffffff0007fffff7ffffff000000000000000000000000000000000000000001289183" /-->
+			<BodyProperties
+				version="4"
+				age="24.69"
+				weight="0.304"
+				build="0.3225"
+				key="001EA40C400000000100110121111110053000001111000000000001480101330125501302100000000000000000000000000000000000000000000000401000" />
+			<BodyPropertiesMax
+				version="4"
+				age="71.09"
+				weight="0.5725"
+				build="0.7299"
+				key="0034FC0FC0003A5ADFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE07BB90780BEEEFFF00000000000000000000000000000000000000006F809105" />
+			<!--<hair_tags>
+        <hair_tag name="PageBoy" />
+        <hair_tag name="LongAndBushy" />
+        <hair_tag name="Tousled" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+        <beard_tag name="LightShortBeard" />
+        <beard_tag name="BeardWithShavedCheeks" />
+        <beard_tag name="MediumMustache" />
+        <beard_tag name="BushyGoatee" />
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>-->
+		</face>
+		<skills></skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.aserai_recruit" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_d_hscarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_d" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_c_head" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_c" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_b" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_b" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_a" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_f" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_e" />
+				<equipment
+					slot="Head"
+					id="Item.desert_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_b" />
+				<equipment
+					slot="Body"
+					id="Item.layered_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.layered_robe" />
+				<equipment
+					slot="Head"
+					id="Item.tied_head_wrapping" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.turban" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+				<equipment
+					slot="Body"
+					id="Item.tassled_southern_robes" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_d_hscarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_d" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_c_head" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_c" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_b" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_b" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_pitchfork_2_t1" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_a" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_pitchfork_2_t1" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_f" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_e" />
+				<equipment
+					slot="Head"
+					id="Item.desert_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_b" />
+				<equipment
+					slot="Body"
+					id="Item.tassled_southern_robes" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.layered_robe" />
+				<equipment
+					slot="Head"
+					id="Item.tied_head_wrapping" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.turban" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+				<equipment
+					slot="Body"
+					id="Item.tassled_southern_robes" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="villager_sturgia"
+		default_group="Infantry"
+		level="1"
+		name="{=sturgiapeasantman}Sturgia Peasant"
+		occupation="Villager"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<!--face_key value="0000012000000000000000000001700000000000000000000000000000000000000a160400000000000000000000000000000000000000000000000000f80000" max_value="00118bfa00002914eff88effeefffffbfecfff888ee3feeff7efffcefffffeff000ff7afffffffef000000000000000000000000000000000000000001c88140" /-->
+			<BodyProperties
+				version="4"
+				age="24.03"
+				weight="0.1867"
+				build="0.2423"
+				key="00000400000002412110000001211010010411111010002221111001301101000064300306112000000000000000000000000000000000000000000000D00000" />
+			<BodyPropertiesMax
+				version="4"
+				age="78.04"
+				weight="0.9336"
+				build="0.9244"
+				key="0008F00C40003690FEFEEFFEBBBFFFFFFFFFFF979EF8FFFEFFFFFFEFFFEFFFFE08EEE0890EFFFFFF000000000000000000000000000000000000000077C89105" />
+			<!--<hair_tags>
+        <hair_tag name="Bowl" />
+        <hair_tag name="Tousled" />
+        <hair_tag name="PageBoy" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+        <beard_tag name="LightShortBeard" />
+        <beard_tag name="HeavyLongBeard" />
+        <beard_tag name="LongScragglyBeard" />
+      </beard_tags>-->
+		</face>
+		<skills></skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.sturgian_recruit" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.roughhide_cap" />
+				<equipment
+					slot="Body"
+					id="Item.nordic_padded_cloth" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.northern_leather_vest" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.northern_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.northern_padded_gambeson" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_coat" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.nordic_tunic" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.northern_leather_vest" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_fur_boots" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.northern_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_fur_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_coat" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.northern_padded_gambeson" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.nordic_tunic" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.northern_leather_vest" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_fur_boots" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.northern_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_fur_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_coat" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.northern_padded_gambeson" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="villager_vlandia"
+		default_group="Infantry"
+		level="1"
+		name="{=vlandiapeasantman}Vlandia Peasant"
+		occupation="Villager"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<!--face_key value="0000017880000001000000000000000000070000000000000000000000000000000a00060000000000000000000000000000000000000000fffffffffc800000" max_value="0011fffe403c36cffff99bffaaaffffffffffffeeff0ffffffff6fffffffffff0008ffdff8ffffff000000000000000000000000000000000000000001189141" /-->
+			<BodyProperties
+				version="4"
+				age="24.29"
+				weight="0.162"
+				build="0.3657"
+				key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000" />
+			<BodyPropertiesMax
+				version="4"
+				age="67.62"
+				weight="0.733"
+				build="0.6651"
+				key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105" />
+			<!--<hair_tags>
+        <hair_tag name="Bowl" />
+        <hair_tag name="Tousled" />
+        <hair_tag name="PageBoy" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+        <beard_tag name="LightShortBeard" />
+        <beard_tag name="MediumMustache" />
+        <beard_tag name="HeavyLongBeard" />
+      </beard_tags>-->
+		</face>
+		<skills></skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.vlandian_recruit" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.long_woolen_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.monk_robe" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cloth_tunic" />
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.monk_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cloth_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.leather_cap" />
+				<equipment
+					slot="Body"
+					id="Item.bandit_leather_water_flask" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Gloves"
+					id="Item.leather_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.bandit_leather_water_flask" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.leather_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.cloth_apron" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.sackcloth_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.bandit_envelope_dress_v2" />
+				<equipment
+					slot="Head"
+					id="Item.leather_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.long_hemp_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.long_hemp_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.long_woolen_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.leather_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.long_woolen_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.sackcloth_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.tattered_rags" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.bandit_envelope_dress_v2" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.tunic_with_rolled_cloth" />
+				<equipment
+					slot="Head"
+					id="Item.leather_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.long_hemp_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.long_hemp_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.long_woolen_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.leather_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.long_woolen_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Cape"
+					id="Item.hood" />
+				<equipment
+					slot="Body"
+					id="Item.sackcloth_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="villager_battania"
+		default_group="Infantry"
+		level="1"
+		name="{=battaniapeasantman}Battania Peasant"
+		occupation="Villager"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<!--face_key value="0000014440fc1000171771708710887070071888108071070017100010010110000a06550000001000000000000000000000000000000000fffffffffc740000" max_value="000b7ff880fc3914efefe7ffff6feefff77fffee67f6feeff7ef6ffffeffffff000ff65fffefffff000000000000000000000000000000000000000001f41140" /-->
+			<BodyProperties
+				version="4"
+				age="24.29"
+				weight="0.162"
+				build="0.3657"
+				key="00000004000002C00160000000116151100771100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000" />
+			<BodyPropertiesMax
+				version="4"
+				age="74.57"
+				weight="0.9954"
+				build="0.9645"
+				key="0008C80A400035D4FF9FEEFFFFEEEEFEF9FF8EFFEFF7FFFFFEEFEFEE97FEFFEE08FEF0890FEEEFEE000000000000000000000000000000000000000001F89105" />
+			<!--<hair_tags>
+        <hair_tag name="Short" />
+        <hair_tag name="SlickedLong" />
+        <hair_tag name="LongAndBushy" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="DroopyMustache" />
+        <beard_tag name="MediumMustache" />
+      </beard_tags>-->
+		</face>
+		<skills></skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.battanian_volunteer" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_a" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_b" />
+				<equipment
+					slot="Head"
+					id="Item.battania_civil_hood" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cloak" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_woodland_outfit" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_woodland_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cloak" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Head"
+					id="Item.battania_civil_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_a" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cloak" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_b" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_woodland_outfit" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_woodland_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_woodland_outfit" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_woodland_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_cloak" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_a" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_cloak" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_b" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_cloak" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_woodland_outfit" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_woodland_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_a" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cape" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_b" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_a" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_cloak" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_b" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_cloak" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.battania_woodland_outfit" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_woodland_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_a" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cape" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_b" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="townswoman_empire"
+		default_group="Infantry"
+		is_female="true"
+		level="1"
+		name="{=WbH2HS8j}Empire Townswoman"
+		occupation="Townsfolk"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22.05"
+				weight="0.2918"
+				build="0.2886"
+				key="0000600990000001227101022221000240008203101023225532432173535432004446030401121200000000000000000000000000000000000000000A940001" />
+			<BodyPropertiesMax
+				version="4"
+				age="58.36"
+				weight="0.7701"
+				build="0.838"
+				key="0020F80FD2B4300FFE7EFEEEEDFFFFEFEFFE9EEFEFF8FFEEFFFFEFEE8FFEFFFE05CDC6570CFEFFFF0000000000000000000000000000000000000000698C90C4" />
+			<!--hair_tags>
+        <hair_tag name="Bobbed" />
+        <hair_tag name="RestingOnShoulders" />
+        <hair_tag name="ShoulderLengthTied" />
+        <hair_tag name="AboveShoulderLength" />
+      </hair_tags-->
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.empire_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.vlandian_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.empire_dress_b" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.plain_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.dress_with_overall" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.laced_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.empire_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.vlandian_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.empire_dress_b" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.plain_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.dress_with_overall" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.laced_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Body"
+					id="Item.laced_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="townswoman_aserai"
+		default_group="Infantry"
+		is_female="true"
+		level="1"
+		name="{=ansW4mx2}Aserai Townswoman"
+		occupation="Townsfolk"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22.94"
+				weight="0.2546"
+				build="0.2731"
+				key="001EA40C500000071172111110111020111071111110211108121100782222130034460303001100000000000000000000000000000000000000000012640003" />
+			<BodyPropertiesMax
+				version="4"
+				age="59.91"
+				weight="0.8565"
+				build="0.8287"
+				key="0036F40FD22C3015FF8EFFFFEFEFEFFF7FE78FFFEEF8EFFEFFFEFFEEFEFFEEEF05CCD6570CEFFFFE00000000000000000000000000000000000000006B9440C4" />
+			<!--hair_tags>
+        <hair_tag name="TiedLongOverShoulder" />
+        <hair_tag name="RestingOnShoulders" />
+        <hair_tag name="ShoulderLengthTied" />
+        <hair_tag name="LongOvershoulder" />
+        <hair_tag name="TiedInBack" />
+      </hair_tags-->
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.fine_southern_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.aserai_villager_female_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.aserai_tunic_waistcoat" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.aserai_female_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.aserai_female_civil_b" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.fine_southern_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.aserai_villager_female_dress" />
+				<equipment
+					slot="Head"
+					id="Item.desert_headdress" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.aserai_tunic_waistcoat" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_villager_female_headdress" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.aserai_female_civil_a" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_female_civil_hscarf_b" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.aserai_female_civil_b" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_female_civil_hscarf" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.fine_southern_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.aserai_villager_female_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.aserai_tunic_waistcoat" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.aserai_female_civil_a" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Body"
+					id="Item.aserai_female_civil_b" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="townswoman_sturgia"
+		default_group="Infantry"
+		is_female="true"
+		level="1"
+		name="{=qMqRkvWu}Sturgia Townswoman"
+		occupation="Townsfolk"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22"
+				weight="0.2083"
+				build="0.4579"
+				key="00000400007000010371010011222150300660010010010030234101702221230047360304313220000000000000000000000000000000000000000012840000" />
+			<BodyPropertiesMax
+				version="4"
+				age="76.5"
+				weight="0.9182"
+				build="0.8781"
+				key="0008DC0D00703010EECDBCCEDDDDEDDDFFFEFFFA7FF7FEFFFFEEFFFFAEEEFFEF08DDE6890DFFFEEF000000000000000000000000000000000000000067C440C4" />
+			<!--hair_tags>
+        <hair_tag name="Ukrainian" />
+        <hair_tag name="RestingOnShoulders" />
+        <hair_tag name="ShoulderLengthTied" />
+        <hair_tag name="BraidedAboveEars" />
+      </hair_tags-->
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.plain_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.dress_with_overall" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress_with_pouch" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.northern_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.laced_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.vlandian_woman_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Body"
+					id="Item.plain_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.dress_with_overall" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress_with_pouch" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.northern_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.laced_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.vlandian_woman_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.plain_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.dress_with_overall" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress_with_pouch" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.northern_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.laced_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.vlandian_woman_dress" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Body"
+					id="Item.vlandian_woman_dress" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="townswoman_vlandia"
+		default_group="Infantry"
+		is_female="true"
+		level="1"
+		name="{=baAQDdE5}Vlandia Townswoman"
+		occupation="Townsfolk"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22.57"
+				weight="0.2731"
+				build="0.4583"
+				key="0000000800CC000A1060001110120111120961121030121122215410710110120057460305111102000000000000000000000000000000000000000006A40003" />
+			<BodyPropertiesMax
+				version="4"
+				age="61.06"
+				weight="0.8596"
+				build="0.8503"
+				key="0013D80E40CC0010EF7FFFFEDEEEEEEEFEFF7EFEFEF7FFEEEEEEFEEE8FFEEEFF06BDD6670BEEFEEE0000000000000000000000000000000000000000717440C3" />
+			<!--hair_tags>
+        <hair_tag name="RestingOnShoulders" />
+        <hair_tag name="ShoulderLengthTied" />
+        <hair_tag name="BraidedAboveEars" />
+        <hair_tag name="Bobbed" />
+        <hair_tag name="RestingOnShoulders" />
+        <hair_tag name="ShoulderLengthTied" />
+        <hair_tag name="AboveShoulderLength" />
+      </hair_tags-->
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.vlandian_woman_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.plain_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.dress_with_overall" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.laced_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_hood" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress_with_pouch" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.vlandian_woman_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.plain_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.dress_with_overall" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.laced_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress_with_pouch" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Body"
+					id="Item.cut_dress_with_pouch" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="townswoman_battania"
+		default_group="Infantry"
+		is_female="true"
+		level="1"
+		name="{=Q7wFotYV}Battania Townswoman"
+		occupation="Townsfolk"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22.94"
+				weight="0.3781"
+				build="0.4367"
+				key="00000406007000071172111110111020411871111110211171101100702222110077660307222210000000000000000000000000000000000000000012E40003" />
+			<BodyPropertiesMax
+				version="4"
+				age="64.92"
+				weight="0.9491"
+				build="0.9614"
+				key="000DD80E40703010EF8EEEEEEEFFEEFFEEEEEEFEEFE6EFEEEFEEFFEDF7EEEEEE06FEE6680FEEFFFE00000000000000000000000000000000000000006BFC40C4" />
+			<!--hair_tags>
+        <hair_tag name="Ukrainian" />
+        <hair_tag name="RestingOnShoulders" />
+        <hair_tag name="ShoulderLengthTied" />
+        <hair_tag name="BraidedAboveEars" />
+      </hair_tags-->
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_dress_a" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_dress_c" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_dress_b" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_female_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_female_civil_b" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_dress_a" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_dress_c" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_dress_b" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_female_civil_a" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_female_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_dress_a" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_dress_c" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_dress_b" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_female_civil_a" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cloak" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_female_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cloak" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Body"
+					id="Item.battania_female_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.ladys_shoe" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cloak" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="townswoman_khuzait"
+		default_group="Infantry"
+		is_female="true"
+		level="1"
+		name="{=V8GrFH4B}Khuzait Townswoman"
+		occupation="Townsfolk"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22.27"
+				weight="0.1744"
+				build="0.267"
+				key="000AA80C5000000C001111007770015240060118859910010505500060011010000436030011001000000000000000000000000000000000000000001C040003" />
+			<BodyPropertiesMax
+				version="4"
+				age="69.17"
+				weight="0.9738"
+				build="0.8133"
+				key="001EFC0FD3143010EDEFFFEFFFFFFFEFEF7FFFEFEFFFDDDEEEFFFFFFAEDDCEC9079CF6780996FBEF00000000000000000000000000000000000000006B2C40C4" />
+			<!--hair_tags>
+        <hair_tag name="Ukrainian" />
+        <hair_tag name="BraidedInBack" />
+        <hair_tag name="ShoulderLengthTied" />
+        <hair_tag name="TiedInBack" />
+        <hair_tag name="BraidedAboveEars" />
+      </hair_tags-->
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.steppe_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.southern_moccasins" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_dress_b" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.southern_moccasins" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.steppe_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.southern_moccasins" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_dress_b" />
+				<equipment
+					slot="Leg"
+					id="Item.southern_moccasins" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.steppe_dress" />
+				<equipment
+					slot="Head"
+					id="Item.nomad_padded_hood" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.southern_moccasins" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hat" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_dress_b" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hat" />
+				<equipment
+					slot="Leg"
+					id="Item.southern_moccasins" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.steppe_dress" />
+				<equipment
+					slot="Head"
+					id="Item.peaked_fur_hood" />
+				<equipment
+					slot="Leg"
+					id="Item.khuzait_curved_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.southern_moccasins" />
+				<equipment
+					slot="Head"
+					id="Item.peaked_fur_hood" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.khuzait_dress_b" />
+				<equipment
+					slot="Head"
+					id="Item.peaked_fur_hood" />
+				<equipment
+					slot="Leg"
+					id="Item.southern_moccasins" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Body"
+					id="Item.khuzait_dress_b" />
+				<equipment
+					slot="Head"
+					id="Item.peaked_fur_hood" />
+				<equipment
+					slot="Leg"
+					id="Item.southern_moccasins" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--#endregion-->
+	<!-- #region Fighter Template -->
+	<NPCCharacter
+		id="fighter_khuzait"
+		default_group="Infantry"
+		level="1"
+		name="{=!}Khuzait Fighter"
+		occupation="Villager"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_khuzait" />
+		</face>
+		<skills></skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentSet
+				id="fighter_khuzait" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="fighter_empire"
+		default_group="Infantry"
+		level="1"
+		name="{=!}Empire Fighter"
+		occupation="Villager"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+			<!--face_key value="0009013000000000000000000000000000000000000000000000000000000000000a00050000000000000000000000000000000000000000fffffffffc880000" max_value="001cffffc000390ffff88affaa9efffffffffffffff7ffffffff9ffffffffffa0007effff7ffffff000000000000000000000000000000000000000001509181" /-->
+			<!--<hair_tags>
+        <hair_tag name="ShortAndThin" />
+        <hair_tag name="Tousled" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="LightShortBeard" />
+        <beard_tag name="HeavyShortBeard" />
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>-->
+		</face>
+		<skills></skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentSet
+				id="fighter_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="fighter_aserai"
+		default_group="Infantry"
+		level="1"
+		age="30"
+		name="{=!}Aserai Fighter"
+		occupation="Villager"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+			<!--face_key value="001dc54e40000000000000000000700000000000000000000000000006650003000a00050000000000000000000000000000000000000000fffffffffc780000" max_value="0033ffffc000390ffff9aaffaa8ffffffff1ffffffb7ffffffffffffffffffff0007fffff7ffffff000000000000000000000000000000000000000001289183" /-->
+			<!--<hair_tags>
+        <hair_tag name="PageBoy" />
+        <hair_tag name="LongAndBushy" />
+        <hair_tag name="Tousled" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+        <beard_tag name="LightShortBeard" />
+        <beard_tag name="BeardWithShavedCheeks" />
+        <beard_tag name="MediumMustache" />
+        <beard_tag name="BushyGoatee" />
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>-->
+		</face>
+		<skills></skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentSet
+				id="fighter_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="fighter_sturgia"
+		default_group="Infantry"
+		level="1"
+		name="{=!}Sturgia Fighter"
+		occupation="Villager"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_sturgia" />
+			<!--face_key value="0000012000000000000000000001700000000000000000000000000000000000000a160400000000000000000000000000000000000000000000000000f80000" max_value="00118bfa00002914eff88effeefffffbfecfff888ee3feeff7efffcefffffeff000ff7afffffffef000000000000000000000000000000000000000001c88140" /-->
+			<!--<hair_tags>
+        <hair_tag name="Bowl" />
+        <hair_tag name="Tousled" />
+        <hair_tag name="PageBoy" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+        <beard_tag name="LightShortBeard" />
+        <beard_tag name="HeavyLongBeard" />
+        <beard_tag name="LongScragglyBeard" />
+      </beard_tags>-->
+		</face>
+		<skills></skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentSet
+				id="fighter_sturgia" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="fighter_vlandia"
+		default_group="Infantry"
+		level="1"
+		name="{=!}Vlandian Fighter"
+		occupation="Villager"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+			<!--face_key value="0000017880000001000000000000000000070000000000000000000000000000000a00060000000000000000000000000000000000000000fffffffffc800000" max_value="0011fffe403c36cffff99bffaaaffffffffffffeeff0ffffffff6fffffffffff0008ffdff8ffffff000000000000000000000000000000000000000001189141" /-->
+			<!--<hair_tags>
+        <hair_tag name="Bowl" />
+        <hair_tag name="Tousled" />
+        <hair_tag name="PageBoy" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+        <beard_tag name="LightShortBeard" />
+        <beard_tag name="MediumMustache" />
+        <beard_tag name="HeavyLongBeard" />
+      </beard_tags>-->
+		</face>
+		<skills></skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentSet
+				id="fighter_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="fighter_battania"
+		default_group="Infantry"
+		level="1"
+		name="{=!}Battanian Fighter"
+		occupation="Villager"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<!--face_key value="0000014440fc1000171771708710887070071888108071070017100010010110000a06550000001000000000000000000000000000000000fffffffffc740000" max_value="000b7ff880fc3914efefe7ffff6feefff77fffee67f6feeff7ef6ffffeffffff000ff65fffefffff000000000000000000000000000000000000000001f41140" /-->
+			<BodyProperties
+				version="4"
+				age="24.29"
+				weight="0.162"
+				build="0.3657"
+				key="00000004000002C00160000000116151100771100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000" />
+			<BodyPropertiesMax
+				version="4"
+				age="40.57"
+				weight="0.733"
+				build="0.9645"
+				key="0008C80A400035D4FF9FEEFFFFEEEEFEF9FF8EFFEFF7FFFFFEEFEFEE97FEFFEE08FEF0890FEEEFEE000000000000000000000000000000000000000001F89105" />
+			<!--<hair_tags>
+        <hair_tag name="Short" />
+        <hair_tag name="SlickedLong" />
+        <hair_tag name="LongAndBushy" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="DroopyMustache" />
+        <beard_tag name="MediumMustache" />
+      </beard_tags>-->
+		</face>
+		<skills></skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_a" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_b" />
+				<equipment
+					slot="Head"
+					id="Item.battania_civil_hood" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cloak" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_c" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_woodland_outfit" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_woodland_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cloak" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Head"
+					id="Item.battania_civil_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_a" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cloak" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_b" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_c" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_woodland_outfit" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_woodland_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_woodland_outfit" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_woodland_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_cloak" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_a" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_cloak" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_b" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_cloak" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_c" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_woodland_outfit" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_woodland_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_a" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cape" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_b" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_a" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_cloak" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_b" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_cloak" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_c" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.battania_woodland_outfit" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_woodland_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_a" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cape" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.battania_civil_b" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--#endregion Fighter Template-->
+	<NPCCharacter
+		id="npc_companion_equipment_template_sturgia"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_sturgia" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_companion_equipment_template_aserai"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endregion-->
+	<!-- #region Soldier Cavalry Template -->
+	<!-- #endregion-->
+	<!-- #region Soldier HorsedArcher Template -->
+	<!-- #endregion-->
+	<!-- #endregion-->
+	<!-- #region Children Equipment Template -->
+	<!-- #endregion -->
+	<!-- #region Character Creation Template -->
+	<NPCCharacter
+		id="civillian_template_gangster_tier1_empire"
+		name="{=!}civillian_template_gangster_tier1_empire"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="civillian_template_gangster_tier1_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="civillian_template_gangster_tier2_empire"
+		name="{=!}civillian_template_gangster_tier2_empire"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="civillian_template_gangster_tier2_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="civillian_template_gangster_tier3_empire"
+		name="{=!}civillian_template_gangster_tier3_empire"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="civillian_template_gangster_tier3_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="aserai_troop_civilian_template_t1"
+		name="{=!}aserai_troop_civilian_template_t1"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.aserai"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t1" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="aserai_troop_civilian_template_t2"
+		name="{=!}aserai_troop_civilian_template_t2"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.aserai"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t2" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="aserai_troop_civilian_template_t3"
+		name="{=!}aserai_troop_civilian_template_t3"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.aserai"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="battania_troop_civilian_template_t1"
+		name="{=!}battania_troop_civilian_template_t1"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.battania"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t1" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="battania_troop_civilian_template_t2"
+		name="{=!}battania_troop_civilian_template_t2"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.battania"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="battania_troop_civilian_template_t3"
+		name="{=!}battania_troop_civilian_template_t3"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.battania"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t3" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="empire_troop_civilian_template_t1"
+		name="{=!}empire_troop_civilian_template_t1"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.empire"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="empire_troop_civilian_template_t1" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="empire_troop_civilian_template_t2"
+		name="{=!}empire_troop_civilian_template_t2"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.empire"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="empire_troop_civilian_template_t2" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="empire_troop_civilian_template_t3"
+		name="{=!}empire_troop_civilian_template_t3"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.empire"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="empire_troop_civilian_template_t3" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="khuzait_troop_civilian_template_t1"
+		name="{=!}khuzait_troop_civilian_template_t1"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.khuzait"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="khuzait_troop_civilian_template_t1" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="khuzait_troop_civilian_template_t2"
+		name="{=!}khuzait_troop_civilian_template_t2"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.khuzait"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="khuzait_troop_civilian_template_t2" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="khuzait_troop_civilian_template_t3"
+		name="{=!}khuzait_troop_civilian_template_t3"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.khuzait"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="khuzait_troop_civilian_template_t3" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="sturgia_troop_civilian_template_t1"
+		name="{=!}sturgia_troop_civilian_template_t1"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.sturgia"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="sturgia_troop_civilian_template_t1" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="sturgia_troop_civilian_template_t2"
+		name="{=!}sturgia_troop_civilian_template_t2"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.sturgia"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="sturgia_troop_civilian_template_t2" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="sturgia_troop_civilian_template_t3"
+		name="{=!}sturgia_troop_civilian_template_t3"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.sturgia"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="sturgia_troop_civilian_template_t3" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="vlandia_troop_civilian_template_t1"
+		name="{=!}vlandia_troop_civilian_template_t1"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.vlandia"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="vlandia_troop_civilian_template_t1" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="vlandia_troop_civilian_template_t2"
+		name="{=!}vlandia_troop_civilian_template_t2"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.vlandia"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="vlandia_troop_civilian_template_t2" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="vlandia_troop_civilian_template_t3"
+		name="{=!}vlandia_troop_civilian_template_t3"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.vlandia"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="vlandia_troop_civilian_template_t3" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_companion_equipment_template_empire"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endregion-->
+	<!-- NEW LORD TEMPLATES BEGIN -->
+	<!-- Templates come in three types:
+1. Battle templates - armor and weapons, all lords use these
+2. Civilian templates - light or no armor, weapons. Only combatant lords have these
+3. Noncom templates - women's dresses, no weapons. Only noncom females wear these
+Format for all should be: culture, type, style 
+emp_civ_template_flamboyant
+-->
+	<!-- Templates END -->
+	<!-- EMPIRE BATTLE TEMPLATES -->
+	<NPCCharacter
+		id="emp_bat_template_medium"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire_battle_equipment_normal"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_bat_template_medium" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Empire heavy battle template -->
+	<NPCCharacter
+		id="emp_bat_template_heavy"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}emp_bat_template_heavy"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_bat_template_heavy" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Empire flamboyant battle template -->
+	<NPCCharacter
+		id="emp_bat_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire_battle_equipment_flamboyant"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_bat_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Empire stoic battle template -->
+	<NPCCharacter
+		id="emp_bat_template_stoic"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire_battle_equipment_stoic"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_bat_template_stoic" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Empire southern frontier battle template -->
+	<NPCCharacter
+		id="emp_bat_template_southfrontier"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire_battle_equipment_southern"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_bat_template_southfrontier" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Empire northern frontier battle template -->
+	<NPCCharacter
+		id="emp_bat_template_northfrontier"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire_battle_equipment_northern"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_bat_template_northfrontier" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Empire noncombatant battle template -->
+	<NPCCharacter
+		id="emp_bat_template_lady"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire_noncombatant_lady_battle_template"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_bat_template_lady" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- EMPIRE CIVILIAN TEMPLATES -->
+	<NPCCharacter
+		id="emp_civ_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire_unarmored_noble_equipment"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_civ_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="emp_civ_template_stoic"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire civilian template stoic"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_civ_template_stoic" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="emp_civ_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire civilian template flamboyant"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_civ_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- deprecate heavy ones possibly -->
+	<NPCCharacter
+		id="emp_civ_template_heavy"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire civilian template heavy"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_civ_template_heavy" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="emp_civ_template_southfrontier"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire civilian template south frontier"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_civ_template_southfrontier" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="emp_civ_template_northfrontier"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire_unarmored_noble_equipment_northern"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_civ_template_northfrontier" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- EMPIRE NONCOMBATANT FEMALE TEMPLATES -->
+	<NPCCharacter
+		id="emp_noncom_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire_unarmored_lady_equipment_default"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_noncom_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="emp_noncom_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire_unarmed_lady_eqipment_flamboyant_lady"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_noncom_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="emp_noncom_template_stoic"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire_unarmored_lady_equipment_stoic"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_noncom_template_stoic" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="emp_noncom_template_southfrontier"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire_unarmored_lady_equipment_southern_frontier"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_noncom_template_southfrontier" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="emp_noncom_template_northfrontier"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}empire_unarmored_noble_equipment_northern_lady"
+		culture="Culture.empire"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="emp_noncom_template_northfrontier" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- STURGIA BATTLE TEMPLATES BEGIN-->
+	<NPCCharacter
+		id="stu_bat_template_medium"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}sturgia_noble_battle_equipment"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_medium" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_bat_template_lady"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}sturgia_battle_equipment_for_noncom_lady"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_lady" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_bat_template_heavy"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}stu_bat_template_heavy"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_heavy" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_bat_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}stu_bat_template_flamboyant"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_bat_template_woodsman"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}stu_bat_template_woodsman"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_woodsman" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- STURGIA CIVILIAN EQUIPMENT-->
+	<NPCCharacter
+		id="stu_civ_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}stu_civ_template_default"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_civ_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Deprecate -->
+	<NPCCharacter
+		id="stu_civ_template_heavy"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}sturgia_unarmored_noble_equipment_heavy"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Traits>
+			<!-- Deprecate -->
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_civ_template_heavy" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_civ_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}sturgia_civilian_noble_equipment_flamboyant"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_civ_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_civ_template_woodsman"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}sturgia_civilian_noble_equipment_woodsman"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_civ_template_woodsman" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- STURGIA NONCOMBATANT TEMPLATES-->
+	<NPCCharacter
+		id="stu_noncom_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}sturgia_unarmored_noble_equipment_normal_lady"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_noncom_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_noncom_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}sturgia_unarmored_noble_equipment_flamboyant_lady"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_noncom_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_noncom_template_woods"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}Sturgia civilian sets for noncombatant ladies, woods"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_noncom_template_woods" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- ASERAI BATTLE EQUIPMENT-->
+	<NPCCharacter
+		id="ase_bat_template_medium"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}Aserai medium battle set"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="ase_bat_template_medium" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="ase_bat_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}aserai_lord_lady_equipment_flamboyant"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="ase_bat_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="ase_bat_template_heavy"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}Aserai heavy battle sets"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="ase_bat_template_heavy" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="ase_bat_template_bedouin"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}Aserai bedouin battle sets"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="ase_bat_template_bedouin" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="ase_bat_template_lady"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}Aserai noncom lady battle sets"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="ase_bat_template_lady" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Return to tag assignments here -->
+	<!-- Aserai civilian templates -->
+	<NPCCharacter
+		id="ase_civ_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}aserai_unarmored_noble_equipment_flamboyant"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="ase_civ_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="ase_civ_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}aserai_unarmored_noble_equipment_normal"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="ase_civ_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- ASERAI NONCOMBATATANT TEMPLATES -->
+	<NPCCharacter
+		id="ase_noncom_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}aserai_unarmored_noble_equipment_flamboyant_lady"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="ase_noncom_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="ase_noncom_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}aserai_unarmored_noble_equipment_normal_lady"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="ase_noncom_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="ase_noncom_template_bedouin"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}aserai_unarmored_noble_equipment_bedouin_lady"
+		culture="Culture.aserai"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="ase_noncom_template_bedouin" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- VLANDIA BATTLE TEMPLATES-->
+	<NPCCharacter
+		id="vla_bat_template_medium"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}Vlandia medium battle sets"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="vla_bat_template_heavy"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}vlandia_lord_lady_equipment"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_bat_template_heavy" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="vla_bat_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}vlandia_lord_lady_equipment_flamboyant"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_bat_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="vla_bat_template_lady"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}Vlandia battle set for noncombatant lady"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_bat_template_lady" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- VLANDIA CIVILIAN TEMPLATES -->
+	<NPCCharacter
+		id="vla_civ_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}vlandia_unarmored_noble_equipment_normal"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_civ_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="vla_civ_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}vlandia_unarmored_noble_equipment_flamboyant"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_civ_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="vla_civ_template_heavy"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}vlandia_unarmored_noble_equipment_heavy"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_civ_template_heavy" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- VLANDIA NONCOMBATANT TEMPLATES -->
+	<NPCCharacter
+		id="vla_noncom_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}vlandia_noncom_template_lady"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_noncom_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="vla_noncom_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}vlandia_unarmored_noble_flamboyant_lady"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_noncom_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- BATTANIA BATTLE TEMPLATES-->
+	<NPCCharacter
+		id="bat_bat_template_medium"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}battania_lord_lady_equipment_normal"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bat_bat_template_medium" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="bat_bat_template_heavy"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}battania_lord_lady_equipment_heavy"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bat_bat_template_heavy" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="bat_bat_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}battania_lord_lady_equipment_flamboyant"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bat_bat_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="bat_bat_template_wild"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}battania_lord_lady_equipment_wild"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bat_bat_template_wild" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="bat_bat_template_lady"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}battania_lord_lady_equipment_noncom"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bat_bat_template_lady" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- BATTANIA CIV TEMPLATES -->
+	<NPCCharacter
+		id="bat_civ_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}battania_unarmored_noble_equipment_normal"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bat_civ_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="bat_civ_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}battania_unarmored_noble_equipment_flamboyant"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bat_civ_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="bat_civ_template_heavy"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}battania_unarmored_noble_equipment_heavy"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bat_civ_template_heavy" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="bat_civ_template_wild"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}battania_unarmored_noble_equipment_wild"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bat_civ_template_wild" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- BATTANIA NONCOM TEMPLATES-->
+	<NPCCharacter
+		id="bat_noncom_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}battania_unarmored_noble_equipment_normal_lady"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bat_noncom_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="bat_noncom_template_wild"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}battania_unarmored_noble_equipment_wild_lady"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bat_noncom_template_wild" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="bat_noncom_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}battania_unarmored_noble_equipment_flamboyant_lady"
+		culture="Culture.battania"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bat_noncom_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- KHUZAIT BATTLE TEMPLATES -->
+	<NPCCharacter
+		id="khu_bat_template_medium"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}khuzait_lord_lady_medium"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="khu_bat_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}khuzait_lord_lady_flamboyant"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="khu_bat_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="khu_bat_template_heavy"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}khuzait_lord_lady_equipment"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="khu_bat_template_heavy" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="khu_bat_template_nomad"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}khuzait_lord_lady_nomad"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="khu_bat_template_nomad" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="khu_bat_template_lady"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}khuzait_lord_lady_noncom"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="khu_bat_template_lady" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- KHUZAIT CIVILIAN TEMPLATES -->
+	<NPCCharacter
+		id="khu_civ_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}khuzait_unarmored_noble_equipment_normal"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="khu_civ_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="khu_civ_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}khuzait_unarmored_noble_equipment_flamboyant"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="khu_civ_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="khu_civ_template_heavy"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}khuzait_unarmored_noble_equipment_heavy"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="khu_civ_template_heavy" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="khu_civ_template_nomad"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}khuzait_unarmored_noble_equipment_nomad"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="khu_civ_template_nomad" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- KHUZAIT NONCOMBATANT TEMPLATES -->
+	<NPCCharacter
+		id="khu_noncom_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}khuzait_unarmored_noble_equipment_normal"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="khu_noncom_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="khu_noncom_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}khuzait_unarmored_noble_equipment_flamboyant"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="khu_noncom_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- #region Template -->
+	<!-- #region Main Template -->
+	<!--Gondor-->
+	<NPCCharacter
+		id="npc_wanderer_equipment_template_gondor"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="npc_armed_wanderer_equipment_template_gondor"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="villager_gondor"
+		default_group="Infantry"
+		level="1"
+		name="{=gondorpeasantman}Gondor Peasant"
+		occupation="Villager"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<!--face_key value="0000012000000000000000000001700000000000000000000000000000000000000a160400000000000000000000000000000000000000000000000000f80000" max_value="00118bfa00002914eff88effeefffffbfecfff888ee3feeff7efffcefffffeff000ff7afffffffef000000000000000000000000000000000000000001c88140" /-->
+			<BodyProperties
+				version="4"
+				age="24.03"
+				weight="0.1867"
+				build="0.2423"
+				key="00000400000002412110000001211010010411111010002221111001301101000064300306112000000000000000000000000000000000000000000000D00000" />
+			<BodyPropertiesMax
+				version="4"
+				age="78.04"
+				weight="0.9336"
+				build="0.9244"
+				key="0008F00C40003690FEFEEFFEBBBFFFFFFFFFFF979EF8FFFEFFFFFFEFFFEFFFFE08EEE0890EFFFFFF000000000000000000000000000000000000000077C89105" />
+			<!--<hair_tags>
+        <hair_tag name="Bowl" />
+        <hair_tag name="Tousled" />
+        <hair_tag name="PageBoy" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+        <beard_tag name="LightShortBeard" />
+        <beard_tag name="HeavyLongBeard" />
+        <beard_tag name="LongScragglyBeard" />
+      </beard_tags>-->
+		</face>
+		<skills></skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.gondor_levyman" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.roughhide_cap" />
+				<equipment
+					slot="Body"
+					id="Item.nordic_padded_cloth" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.northern_leather_vest" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.northern_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.northern_padded_gambeson" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_coat" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.nordic_tunic" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.northern_leather_vest" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_fur_boots" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.northern_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_fur_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_coat" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.northern_padded_gambeson" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.nordic_tunic" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.northern_leather_vest" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_fur_boots" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.northern_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_fur_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.heavy_nordic_coat" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item1"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.northern_padded_gambeson" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="townswoman_gondor"
+		default_group="Infantry"
+		is_female="true"
+		level="1"
+		name="{=qMqRkvWu}Gondor Townswoman"
+		occupation="Townsfolk"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22"
+				weight="0.2083"
+				build="0.4579"
+				key="00000400007000010371010011222150300660010010010030234101702221230047360304313220000000000000000000000000000000000000000012840000" />
+			<BodyPropertiesMax
+				version="4"
+				age="76.5"
+				weight="0.9182"
+				build="0.8781"
+				key="0008DC0D00703010EECDBCCEDDDDEDDDFFFEFFFA7FF7FEFFFFEEFFFFAEEEFFEF08DDE6890DFFFEEF000000000000000000000000000000000000000067C440C4" />
+			<!--hair_tags>
+        <hair_tag name="Ukrainian" />
+        <hair_tag name="RestingOnShoulders" />
+        <hair_tag name="ShoulderLengthTied" />
+        <hair_tag name="BraidedAboveEars" />
+      </hair_tags-->
+		</face>
+		<skills></skills>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.plain_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.dress_with_overall" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress_with_pouch" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.northern_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.laced_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.vlandian_woman_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Body"
+					id="Item.plain_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.dress_with_overall" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress_with_pouch" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.northern_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.laced_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.vlandian_woman_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.plain_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.dress_with_overall" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.cut_dress_with_pouch" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.northern_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.laced_dress" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Body"
+					id="Item.vlandian_woman_dress" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Body"
+					id="Item.vlandian_woman_dress" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.female_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="fighter_gondor"
+		default_group="Infantry"
+		level="1"
+		name="{=!}Gondor Fighter"
+		occupation="Villager"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_gondor" />
+			<!--face_key value="0000012000000000000000000001700000000000000000000000000000000000000a160400000000000000000000000000000000000000000000000000f80000" max_value="00118bfa00002914eff88effeefffffbfecfff888ee3feeff7efffcefffffeff000ff7afffffffef000000000000000000000000000000000000000001c88140" /-->
+			<!--<hair_tags>
+        <hair_tag name="Bowl" />
+        <hair_tag name="Tousled" />
+        <hair_tag name="PageBoy" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+        <beard_tag name="LightShortBeard" />
+        <beard_tag name="HeavyLongBeard" />
+        <beard_tag name="LongScragglyBeard" />
+      </beard_tags>-->
+		</face>
+		<skills></skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentSet
+				id="fighter_empire" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<!--#endregion Fighter Template-->
+	<NPCCharacter
+		id="npc_companion_equipment_template_gondor"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- #endregion-->
+	<!-- #region Soldier Cavalry Template -->
+	<!-- #endregion-->
+	<!-- #region Soldier HorsedArcher Template -->
+	<!-- #endregion-->
+	<!-- #endregion-->
+	<!-- #region Children Equipment Template -->
+	<!-- #endregion -->
+	<!-- #region Character Creation Template -->
+	<NPCCharacter
+	id="gondor_troop_civilian_template_t1"
+	name="{=!}gondor_troop_civilian_template_t1"
+	age="48"
+	voice="curt"
+	default_group="infantry"
+	is_hero="false"
+	culture="Culture.gondor"
+	is_template="true"
+	skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="empire_troop_civilian_template_t1" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="gondor_troop_civilian_template_t2"
+		name="{=!}gondor_troop_civilian_template_t2"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.gondor"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="empire_troop_civilian_template_t2" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="gondor_troop_civilian_template_t3"
+		name="{=!}gondor_troop_civilian_template_t3"
+		age="48"
+		voice="curt"
+		default_group="infantry"
+		is_hero="false"
+		culture="Culture.gondor"
+		is_template="true"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Equipments>
+			<EquipmentSet
+				id="empire_troop_civilian_template_t3" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endregion-->
+	<!-- NEW LORD TEMPLATES BEGIN -->
+	<!-- Templates come in three types:
+1. Battle templates - armor and weapons, all lords use these
+2. Civilian templates - light or no armor, weapons. Only combatant lords have these
+3. Noncom templates - women's dresses, no weapons. Only noncom females wear these
+Format for all should be: culture, type, style 
+emp_civ_template_flamboyant
+-->
+	<!-- Templates END -->
+
+	<!-- gondor BATTLE TEMPLATES BEGIN-->
+	<NPCCharacter
+		id="stu_bat_template_medium"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}gondor_noble_battle_equipment"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_medium" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_bat_template_lady"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}gondor_battle_equipment_for_noncom_lady"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_lady" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_bat_template_heavy"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}stu_bat_template_heavy"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_heavy" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_bat_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}stu_bat_template_flamboyant"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_bat_template_woodsman"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}stu_bat_template_woodsman"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_woodsman" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- gondor CIVILIAN EQUIPMENT-->
+	<NPCCharacter
+		id="stu_civ_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}stu_civ_template_default"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_civ_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Deprecate -->
+	<NPCCharacter
+		id="stu_civ_template_heavy"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}gondor_unarmored_noble_equipment_heavy"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits>
+			<!-- Deprecate -->
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_civ_template_heavy" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_civ_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}gondor_civilian_noble_equipment_flamboyant"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_civ_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_civ_template_woodsman"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}gondor_civilian_noble_equipment_woodsman"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_civ_template_woodsman" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- gondor NONCOMBATANT TEMPLATES-->
+	<NPCCharacter
+		id="stu_noncom_template_default"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}gondor_unarmored_noble_equipment_normal_lady"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_noncom_template_default" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_noncom_template_flamboyant"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}gondor_unarmored_noble_equipment_flamboyant_lady"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_noncom_template_flamboyant" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="stu_noncom_template_woods"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}Gondor civilian sets for noncombatant ladies, woods"
+		culture="Culture.gondor"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_gondor" />
+		</face>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_noncom_template_woods" />
+		</Equipments>
+	</NPCCharacter>
+
+</NPCCharacters>

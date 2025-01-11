@@ -1,0 +1,12 @@
+<Config>
+	<SpriteCategory Name="ui_LOTRLOME">
+		<AlwaysLoad/>
+	</SpriteCategory>
+	<SpriteCategory Name="ui_LOTRLOME_loading">
+		<AlwaysLoad/>
+	</SpriteCategory>
+	<SpriteCategory Name="ui_mainmenu">
+		<AlwaysLoad/>
+	</SpriteCategory>
+
+</Config>

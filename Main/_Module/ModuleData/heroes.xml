@@ -2090,13 +2090,7 @@
 	<Hero
 		id="lord_L1_3"
 		faction="Faction.clan_lothlorien_1" />
-
-	<Hero
-		id="lord_L1_11"
-		father="Hero.lord_L1_2"
-		mother="Hero.lord.L1_1"
-		faction="Faction.clan_lothlorien_1" />
-
+	
 	<Hero
 		id="lord_I1_1"
 		faction="Faction.clan_isengard_1"

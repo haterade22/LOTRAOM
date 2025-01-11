@@ -37,10 +37,22 @@
 <!-- Cultures -->
 
 		<XmlNode>
-			<XmlName id="SPCultures" path="LOTRLOME_spcultures" />
+			<XmlName id="SPCultures" path="spcultures" />
 			<IncludedGameTypes>
 				<GameType value="Campaign" />
 				<GameType value="CampaignStoryMode" />
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="SPCultures" path="LOTRAOM_spcultures" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
 
@@ -50,13 +62,17 @@
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="Kingdoms" path="LOTRLOME_spkingdoms"/>
+			<XmlName id="Kingdoms" path="LOTRAOM_spkingdoms"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
 
@@ -66,14 +82,18 @@
 		<IncludedGameTypes>
 			<GameType value="Campaign" />
 			<GameType value="CampaignStoryMode" />
+			<GameType value = "CustomGame"/>
+			<GameType value = "EditorGame"/>
 		</IncludedGameTypes>
 	</XmlNode>
 
 		<XmlNode>
-			<XmlName id="Factions" path="LOTRLOME_spclans" />
+			<XmlName id="Factions" path="LOTRAOM_spclans" />
 			<IncludedGameTypes>
 				<GameType value="Campaign" />
 				<GameType value="CampaignStoryMode" />
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		
@@ -90,7 +110,7 @@
 		</XmlNode> 
 
 		<XmlNode>
-			<XmlName id="NPCCharacters" path="LOTRLOME_spnpccharactertemplates"/>
+			<XmlName id="NPCCharacters" path="LOTRAOM_spnpccharactertemplates"/>
 			<IncludedGameTypes>
 				<GameType value ="Campaign"/>
 				<GameType value ="CampaignStoryMode"/>
@@ -105,7 +125,8 @@
 	<IncludedGameTypes>
 		<GameType value ="Campaign"/>
 		<GameType value ="CampaignStoryMode"/>
-		<GameType value ="CustomGame"/>
+		<GameType value = "CustomGame"/>
+		<GameType value = "EditorGame"/>
 	</IncludedGameTypes>
 </XmlNode> 
 
@@ -115,7 +136,8 @@
 			<IncludedGameTypes>
 				<GameType value ="Campaign"/>
 				<GameType value ="CampaignStoryMode"/>
-				<GameType value ="CustomGame"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 </XmlNode>
 
@@ -124,7 +146,8 @@
 			<IncludedGameTypes>
 				<GameType value ="Campaign"/>
 				<GameType value ="CampaignStoryMode"/>
-				<GameType value ="CustomGame"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 </XmlNode>
 
@@ -134,7 +157,8 @@
 			<IncludedGameTypes>
 				<GameType value ="Campaign"/>
 				<GameType value ="CampaignStoryMode"/>
-				<GameType value ="CustomGame"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 </XmlNode>
 
@@ -144,17 +168,20 @@
 			<IncludedGameTypes>
 				<GameType value ="Campaign"/>
 				<GameType value ="CampaignStoryMode"/>
-				<GameType value ="CustomGame"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 </XmlNode> 
 
 		
 <!-- Sandbox Equipment Roster -->
 		<XmlNode>
-			<XmlName id="EquipmentRosters" path="LOTRLOME_sandbox_equipment_sets"/>
+			<XmlName id="EquipmentRosters" path="LOTRAOM_sandbox_equipment_sets"/>
 			<IncludedGameTypes>
 				<GameType value ="Campaign"/>
 				<GameType value ="CustomGame"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
 
@@ -164,9 +191,22 @@
 			<IncludedGameTypes>
 				<GameType value ="Campaign"/>
 				<GameType value ="CustomGame"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
-		<!-- Lords -->
+<!-- SandboxCore BodyProperties -->
+		<XmlNode>
+			<XmlName id="BodyProperties" path="LOTRAOM_sandboxcore_bodyproperties"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+<!-- Lords -->
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="lords"/>
 			<IncludedGameTypes>
@@ -188,7 +228,7 @@
 </XmlNode>
 
 		
-		<!--Notables & Special Characters-->
+<!--Notables & Special Characters-->
 
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="spspecialcharacters"/>

@@ -10,7 +10,7 @@
 		is_basic_troop="true"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
 		</face>
 		<skills>
 			<skill
@@ -65,11 +65,12 @@
 	<NPCCharacter id="mordor_uruk_recruit"
 			default_group="Infantry"
 			level="11"
+			race="uruk"
 			name="{=mordorurukrecruit}Mordor Uruk Recruit"
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -178,11 +179,12 @@
 	<NPCCharacter id="mordor_uruk_soldier"
 			default_group="Infantry"
 			level="16"
+			race="uruk"
 			name="{=mordoruruksoldier}Mordor Uruk Soldier"
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -301,11 +303,12 @@
 		id="mordor_uruk_enforcer"
 		default_group="Infantry"
 		level="21"
+		race="uruk"
 		name="{=mordorurukenforcer}Mordor Uruk Enforcer"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -530,11 +533,12 @@
 	<NPCCharacter id="mordor_uruk_ravager"
 		default_group="Infantry"
 		level="26"
+		race="uruk"
 		name="{=mordorurukravager}Mordor Uruk Ravager"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -756,14 +760,16 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="mordor_uruk_blackblade"
-			default_group="Infantry"
-			level="31"
-			name="{=mordorurukblackblade}Mordor Uruk Blackblade"
-			occupation="Soldier"
-			culture="Culture.mordor">
+	<NPCCharacter 
+		id="mordor_uruk_blackblade"
+		default_group="Infantry"
+		level="31"
+		race="uruk"
+		name="{=mordorurukblackblade}Mordor Uruk Blackblade"
+		occupation="Soldier"
+		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -1018,7 +1024,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -1084,7 +1090,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -1150,7 +1156,7 @@
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -1216,7 +1222,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -1282,7 +1288,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -1346,7 +1352,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -1414,7 +1420,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -1482,7 +1488,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
 		</face>
 		<skills >
 			<skill
@@ -1551,7 +1557,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
 		</face>
 		<skills >
 			<skill
@@ -1619,7 +1625,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill

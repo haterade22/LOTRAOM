@@ -7398,6 +7398,7 @@
 		name="{=P7iNhhPl}Gothmog"
 		voice="earnest"
 		age="45"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
 		culture="Culture.empire"
@@ -7983,6 +7984,7 @@
 		name="{=AWDNxFbh}Gorbag"
 		voice="curt"
 		age="40"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
 		culture="Culture.empire"
@@ -8524,6 +8526,7 @@
 		name="{=RYksq67N}Bolg"
 		voice="softspoken"
 		age="45"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
 		culture="Culture.empire"
@@ -9439,8 +9442,9 @@
 	<NPCCharacter
 		id="lord_SE9_l"
 		name="{=txyVEr0U}Grishnákh"
-		age="58"
+		age="30"
 		voice="ironic"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.empire"
@@ -21565,7 +21569,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E1_1"
 		name="{=dain}Dáin"
-		age="232"
+		age="32"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.erebor"
@@ -21619,7 +21623,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E1_2"
 		name="{=thorin}Thorin"
-		age="133"
+		age="33"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.erebor"
@@ -21673,7 +21677,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E1_3"
 		name="{=disadurin}Dísa"
-		age="127"
+		age="27"
 		voice="earnest"
 		is_hero="true"
 		is_female="true"
@@ -21836,7 +21840,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E1_6"
 		name="{=Fin}Fin"
-		age="243"
+		age="43"
 		voice="earnest"
 		is_hero="true"
 		is_female="true"
@@ -21947,7 +21951,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E2_1"
 		name="{=nath}Náth"
-		age="212"
+		age="21"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.erebor"
@@ -22001,7 +22005,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E2_2"
 		name="{=iridi}Iridi"
-		age="223"
+		age="23"
 		voice="earnest"
 		is_hero="true"
 		is_female="true"
@@ -22056,7 +22060,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E2_3"
 		name="{=runi}Rúni"
-		age="108"
+		age="18"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.erebor"
@@ -22219,7 +22223,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E3_1"
 		name="{=garjan}Gárjan"
-		age="192"
+		age="19"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.erebor"
@@ -22273,7 +22277,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E3_2"
 		name="{=thalfi}Thálfi"
-		age="187"
+		age="18"
 		voice="earnest"
 		is_hero="true"
 		is_female="true"
@@ -22547,7 +22551,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E4_1"
 		name="{=nar}Nár"
-		age="127"
+		age="18"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.erebor"
@@ -22601,7 +22605,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E4_2"
 		name="{=tili}Tíli"
-		age="130"
+		age="18"
 		voice="earnest"
 		is_hero="true"
 		is_female="true"
@@ -22820,7 +22824,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E5_1"
 		name="{=gorli}Górli"
-		age="303"
+		age="30"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.erebor"
@@ -22874,7 +22878,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E5_2"
 		name="{=girda}Girda"
-		age="298"
+		age="28"
 		voice="earnest"
 		is_hero="true"
 		is_female="true"
@@ -22929,7 +22933,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E5_3"
 		name="{=gain}Gaín"
-		age="201"
+		age="21"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.erebor"
@@ -22983,7 +22987,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E5_4"
 		name="{=frar}Frar"
-		age="192"
+		age="19"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.erebor"
@@ -23037,7 +23041,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E5_5"
 		name="{=gorli}Frerin"
-		age="190"
+		age="19"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.erebor"
@@ -23146,7 +23150,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E6_1"
 		name="{=nath}Flói"
-		age="174"
+		age="18"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.erebor"
@@ -23200,7 +23204,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E6_2"
 		name="{=drali}Dráli"
-		age="170"
+		age="18"
 		voice="earnest"
 		is_hero="true"
 		is_female="true"
@@ -23255,7 +23259,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E6_3"
 		name="{=nath}Flási"
-		age="93"
+		age="23"
 		voice="earnest"
 		is_hero="true"
 		is_female="true"
@@ -23310,7 +23314,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E6_4"
 		name="{=idrun}Idrún"
-		age="89"
+		age="25"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.erebor"
@@ -23419,7 +23423,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E7_1"
 		name="{=naran}Náran"
-		age="72"
+		age="22"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.erebor"
@@ -23531,7 +23535,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_R1_1"
 		name="{=elrond}Elrond"
-		age="6499"
+		age="28"
 		voice="earnest"
 		is_hero="true"
 		is_female="false"
@@ -23586,7 +23590,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_R1_2"
 		name="{=celebrian}Celebrían"
-		age="5741"
+		age="20"
 		voice="earnest"
 		is_hero="true"
 		is_female="true"
@@ -23595,9 +23599,6 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		default_group="Infantry"
 		face_mesh_cache="true">
 		<face>
-			<!--face_key
-			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
-			/-->
 			<BodyProperties
 				version="4"
 				age="20"
@@ -23641,7 +23642,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_R1_3"
 		name="{=elladan}Elladan"
-		age="2870"
+		age="19"
 		voice="earnest"
 		is_hero="true"
 		is_female="false"
@@ -23696,7 +23697,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_R1_4"
 		name="{=elrohir}Elrohir"
-		age="2870"
+		age="19"
 		voice="earnest"
 		is_hero="true"
 		is_female="false"
@@ -23751,7 +23752,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_R1_5"
 		name="{=arwen}Arwen"
-		age="2759"
+		age="18"
 		voice="earnest"
 		is_hero="true"
 		is_female="true"
@@ -23862,7 +23863,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_R2_1"
 		name="{=glorfindel}Glorfindel"
-		age="9104"
+		age="30"
 		voice="earnest"
 		is_hero="true"
 		is_female="false"
@@ -24250,76 +24251,6 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				id="ase_king_template_bat_m" />
 			<EquipmentSet
 				id="ase_king_template_civ_m"
-				civilian="true" />
-		</Equipments>
-	</NPCCharacter>
-
-	<NPCCharacter
-		id="lord_L1_11"
-		name="{=celebrianname}Celebrían"
-		age="40"
-		voice="curt"
-		default_group="Cavalry"
-		is_hero="true"
-		is_female="true"
-		culture="Culture.lothlorien"
-		occupation="Lord"
-		face_mesh_cache="true">
-		<face>
-			<!--face_key
-			value="0006eb9700000002996697b5ada9959a78999668743273447ab68778a7569692000a900e059879880000000000000ffe00000000000000000000000000000003"
-			/-->
-			<BodyProperties
-				version="4"
-				weight="0.2"
-				build="0.3"
-				key="0005E80700000002996697B5ADAB959A78999668743273447AB68778A75696920007B008059879880000000000000FFE00000000000000000000000000C80004" />
-		</face>
-		<Traits>
-			<Trait
-				id="HorseArcherFightingSkills"
-				value="8" />
-			<Trait
-				id="Commander"
-				value="10" />
-			<Trait
-				id="Politician"
-				value="15" />
-			<Trait
-				id="Manager"
-				value="18" />
-
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait
-				id="Valor"
-				value="0" />
-			<Trait
-				id="Generosity"
-				value="2" />
-			<Trait
-				id="Mercy"
-				value="2" />
-			<Trait
-				id="Honor"
-				value="1" />
-			<Trait
-				id="Calculating"
-				value="0" />
-			<Trait
-				id="Egalitarian"
-				value="1" />
-			<Trait
-				id="Oligarchic"
-				value="0" />
-			<Trait
-				id="Authoritarian"
-				value="0" />
-		</Traits>
-		<Equipments>
-			<EquipmentSet
-				id="emp_bat_template_lady" />
-			<EquipmentSet
-				id="emp_noncom_template_stoic"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
