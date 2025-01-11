@@ -589,8 +589,8 @@
 	head of aristocratic faction of empire 1 STEVEDIDFACE -->
 	<NPCCharacter
 		id="lord_1_1"
-		name="{=CLqPbdiZ}Elrond"
-		age="60"
+		name="{=dunlandlordwulf}Wulf, the Ironhand"
+		age="30"
 		voice="curt"
 		default_group="Cavalry"
 		is_hero="true"
@@ -619,33 +619,33 @@
 		</face>
 		<Traits>
 			<Trait
-				id="CavalryFightingSkills"
-				value="15" />
-			<Trait
-				id="Commander"
+				id="KnightFightingSkills"
 				value="18" />
 			<Trait
+				id="Commander"
+				value="15" />
+			<Trait
 				id="Politician"
-				value="17" />
+				value="8" />
 			<Trait
 				id="Manager"
-				value="20" />
+				value="10" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
-				value="1" />
+				value="2" />
 			<Trait
 				id="Generosity"
-				value="2" />
+				value="-1" />
 			<Trait
 				id="Mercy"
-				value="2" />
+				value="-2" />
 			<Trait
 				id="Honor"
-				value="2" />
+				value="0" />
 			<Trait
 				id="Calculating"
-				value="1" />
+				value="2" />
 			<Trait
 				id="Egalitarian"
 				value="1" />
@@ -654,7 +654,7 @@
 				value="0" />
 			<Trait
 				id="Authoritarian"
-				value="1" />
+				value="2" />
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -668,8 +668,8 @@
 	<!-- Lucon's wife. Traditional matriarch, benevolent-->
 	<NPCCharacter
 		id="lord_1_2"
-		name="{=wbLqHvjE}Celebrían"
-		age="40"
+		name="{=dunlandlord}Eryndis"
+		age="20"
 		voice="curt"
 		default_group="Cavalry"
 		is_hero="true"
@@ -690,42 +690,42 @@
 		<Traits>
 			<Trait
 				id="HorseArcherFightingSkills"
-				value="8" />
+				value="3" />
 			<Trait
 				id="Commander"
-				value="10" />
+				value="5" />
 			<Trait
 				id="Politician"
 				value="15" />
 			<Trait
 				id="Manager"
-				value="18" />
+				value="15" />
 
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
-				value="0" />
+				value="1" />
 			<Trait
 				id="Generosity"
-				value="2" />
+				value="1" />
 			<Trait
 				id="Mercy"
 				value="2" />
 			<Trait
 				id="Honor"
-				value="1" />
+				value="2" />
 			<Trait
 				id="Calculating"
-				value="0" />
+				value="2" />
 			<Trait
 				id="Egalitarian"
-				value="1" />
+				value="2" />
 			<Trait
 				id="Oligarchic"
 				value="0" />
 			<Trait
 				id="Authoritarian"
-				value="0" />
+				value="1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
@@ -9629,8 +9629,8 @@
 	<!-- Ragenvad, Hardrada type -->
 	<NPCCharacter
 		id="lord_2_1"
-		name="{=rNrq6QdU}Dáin II Ironfoot"
-		age="52"
+		name="{=rNrq6QdU}Bard II"
+		age="59"
 		voice="curt"
 		is_hero="true"
 		default_group="Infantry"
@@ -12051,7 +12051,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Unqid. Cautious, pragmatic, generous. A trader by temperament -->
 	<NPCCharacter
 		id="lord_3_1"
-		name="{=r3oIoCr8}Celeborn"
+		name="{=r3oIoCr8}Khadurak"
 		age="30"
 		voice="ironic"
 		culture="Culture.aserai"
@@ -12121,7 +12121,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Jinda. Fierce, and retains strong grudges -->
 	<NPCCharacter
 		id="lord_3_2"
-		name="{=JhLPgr5x}Galadriel"
+		name="{=JhLPgr5x}Harad Place Holder"
 		age="31"
 		voice="curt"
 		is_female="true"
@@ -17359,8 +17359,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Caladog fen Gruffendoc, ruthless -->
 	<NPCCharacter
 		id="lord_5_1"
-		name="{=w51wGx4b}Thranduil"
-		age="60"
+		name="{=w51wGx4b}Vashrikhan"
+		age="30"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
@@ -17428,7 +17428,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_5_7"
-		name="{=SFybYZNK}Legolas"
+		name="{=SFybYZNK}Khand PlaceHolder"
 		age="29"
 		voice="earnest"
 		default_group="Ranged"
@@ -24508,7 +24508,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!--Gundabad-->
 	<NPCCharacter
 		id="lord_G1_1"
-		name="{=gundabadclanonename}Karguz "
+		name="{=gundabadclanonename}Karguz"
 		age="40"
 		voice="earnest"
 		is_hero="true"

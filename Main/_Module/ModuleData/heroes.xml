@@ -58,13 +58,12 @@
 		id="lord_1_1"
 		spouse="Hero.lord_1_2"
 		faction="Faction.clan_empire_north_1"
-		text="{=elrond_description}The serene and ancient haven of Rivendell is guided by Elrond, a wise and far-seeing lord who embodies the deep knowledge and enduring strength of the Eldar. A firm believer in harmony and council, Elrond presides over Rivendell with a commitment to unity and the preservation of Middle-earth's free peoples. He emphasizes the importance of wisdom, deliberation, and foresight, believing that true strength lies in understanding and cooperation. Rivendell is a sanctuary where lore and history are treasured, a place of healing and refuge, and under Elrond's guidance, it remains a bastion of hope and resilience against the encroaching shadow." />
+		text="{=dunland_wulfgar}Wulf, the Chieftain of Dunland, is a fierce and unyielding leader who has united the scattered clans under his banner. Known for his cunning strategy and relentless determination, he has forged Dunland into a force capable of challenging the might of its enemies. Wulfgar's presence on the battlefield is both commanding and fearsome, as he wields his blade with skill honed through years of conflict. While his methods can be ruthless, his loyalty to his people and their shared cause is unwavering. Wulfgar's leadership is a beacon of hope for the Dunlendings, inspiring them to reclaim their lands and their honor in a world that has long dismissed them. He embodies the resilience and defiance of his people, standing firm against the encroaching powers of Middle-earth." />
 	<Hero
 		id="lord_1_2"
 		spouse="Hero.lord_1_1"
 		faction="Faction.clan_empire_north_1"
-		text="{=lothlorien_celebrían}Celebrían, the daughter of Galadriel and Celeborn, is renowned for her grace, wisdom, and unwavering kindness. As the Lady of Rivendell and wife of Elrond, she embodies the spirit of healing and harmony among the Elves. Celebrían has played a pivotal role in fostering peace and unity among the Free Peoples of Middle-earth, offering counsel to those in need and nurturing the strength of Rivendell as a sanctuary of wisdom and refuge. While she does not wield a blade on the battlefield, her influence is felt through her compassion and the enduring legacy of her family. Her presence brings hope and solace to all who stand against the shadow, and her serene leadership inspires loyalty and trust in the face of adversity." />
-
+		text="{=dunland_eryndis}Eryndis, the wife of Wulfgar and a vital force in Dunland’s resurgence, is a woman of quiet strength and sharp intellect. Known as ‘The Silent’ for her measured words and decisive actions, she serves as a mediator among the fractious clans, ensuring unity where division might otherwise prevail. Eryndis’s wisdom complements Wulfgar’s might, her counsel shaping the strategies that have brought Dunland to prominence. Though she does not fight on the battlefield, her influence is felt in every decision made by the Dunlending council. Eryndis is beloved by her people for her fairness and mercy, balancing Wulfgar’s stern rule with compassion and pragmatism. Her unwavering resolve and dedication to her people make her a pillar of Dunland’s strength and a symbol of its enduring spirit." />
 	<Hero
 		id="lord_1_41"
 		spouse="Hero.lord_1_1_1"
@@ -799,7 +798,7 @@
 		id="lord_2_1"
 		spouse="Hero.lord_2_2"
 		faction="Faction.clan_sturgia_1"
-		text="{=dain_description}Dáin Ironfoot, King under the Mountain, is a legendary figure among the dwarves of Erebor. Renowned for his valor and tactical brilliance, Dáin led the dwarves to victory during the Battle of the Five Armies and restored the majesty of Erebor. Though stern and resolute, Dáin's leadership is marked by his unyielding commitment to his people and the alliances he forges with their neighbors. His strength and wisdom have secured the prosperity of the Lonely Mountain, and he is respected as one of the greatest dwarven kings of the Third Age." />
+		text="{=bardii_description}Bard II, the steadfast King of Dale, leads his people with wisdom and courage inherited from his forebears. Renowned for his unyielding resolve and sharp strategic mind, Bard II has fortified the defenses of Dale, ensuring the prosperity and safety of his kingdom against growing threats. Under his rule, the warriors of Dale stand as a disciplined and formidable force, their banners of crimson and gold shining as a beacon of hope in the shadow of looming war. Bard II’s commitment to the Free Peoples of Middle-earth drives his efforts to preserve peace and justice, making his name a symbol of strength and unity. Where Bard II leads, the resolve of Dale remains unshaken, and its people stand proud against any who would challenge their freedom." />
 	<Hero
 		id="lord_2_2"
 		spouse="Hero.lord_2_1"
@@ -1020,13 +1019,12 @@
 		id="lord_3_1"
 		spouse="Hero.lord_3_2"
 		faction="Faction.clan_aserai_1"
-		text="{=celeborn_description}Celeborn, the Lord of Lothlórien and husband to Galadriel, is a wise and noble leader among the Elves of Middle-earth. Renowned for his deep knowledge and calm demeanor, he has stood as a steadfast protector of his people and their forest home for countless ages. Celeborn’s wisdom complements Galadriel’s vision, and together they have created a sanctuary of beauty and light in the Golden Wood. Though his demeanor is often reserved, his courage and leadership shine in moments of need, making him a respected figure among both Elves and the Free Peoples of Middle-earth." />
+		text="{=khadurak_description}Khadurak, the Sun Scourge of Harad, commands the armies of the Southlands with unrivaled authority and ruthless ambition. Renowned for his mastery of both strategy and brutality, Khadurak has united the divided tribes of Harad under the banner of the Black Serpent. His warriors, a deadly force of spearmen, archers, and mounted raiders, march with unwavering loyalty, their crimson and gold banners striking fear into all who oppose them. Khadurak’s allegiance to Sauron stems from a shared vision of dominance, as he seeks to expand Harad’s power across Middle-earth. His name is whispered with both reverence and dread, for where Khadurak leads, the desert sun bears witness to conquest and destruction." />
 	<Hero
 		id="lord_3_2"
 		spouse="Hero.lord_3_1"
-		faction="Faction.clan_aserai_1"
-		text="{=galadriel_description}Galadriel, the Lady of Light and co-ruler of Lothlórien, is one of the most powerful and wise beings in Middle-earth. Known for her beauty, grace, and profound wisdom, she possesses immense knowledge of ancient lore and the ability to perceive the hearts of those she encounters. Galadriel’s deep love for her people is matched only by her commitment to resist Sauron’s influence. She wields one of the Three Elven Rings, Nenya, which helps preserve and protect Lothlórien. Her presence radiates both tranquility and an awe-inspiring strength that commands respect from all who stand in her presence." />
-
+		faction="Faction.clan_aserai_1"/>
+		
 	<Hero
 		id="lord_3_7"
 		father="Hero.lord_3_1"
@@ -1414,7 +1412,7 @@
 	<Hero
 		id="lord_5_1"
 		faction="Faction.clan_battania_1"
-		text="{=8SiW73EF}The current High King of Battania is Caladog, a brilliant war captain adopted by the prior king, Aeril, who then died in mysterious circumstances. Despite the doubts around his accession, Caladog has made himself popular among the lesser clans of the land who admire him, a man of no great lineage, for having discomfited the Battanians' traditional clan hierarchy. His clan is the fen Gruffendoc, a formerly obscure family now swollen with his comrades-in-arms with whom he has made marriage alliances." />
+		text="{=vashrikhan_description}Vashrikhan, the unyielding warlord of Khand, leads the Variags with an iron will and unmatched ferocity. A master tactician and ruthless conqueror, Vashrikhan embodies the indomitable spirit of his people. Under his command, the warriors of Khand have become a disciplined and terrifying force, their swift riders and deadly curved blades leaving a trail of devastation in their wake. Vashrikhan’s allegiance to Sauron is born of ambition and cunning, as he seeks to secure a legacy of power and dominance for Khand. His presence inspires fear and respect among his followers, while to his enemies, he is a harbinger of annihilation and a grim reminder of Mordor’s growing reach." />
 	<Hero
 		id="lord_5_1_1"
 		father="Hero.lord_5_1"
@@ -1863,7 +1861,8 @@
 	<!-- Bit Durin -->
 	<Hero
 		id="lord_E1_1"
-		faction="Faction.clan_erebor_1" />
+		faction="Faction.clan_erebor_1"
+		text="{=dain_ironfoot_description}Dáin Ironfoot, the stalwart and unyielding King under the Mountain, stands as a paragon of dwarven resilience and valor. Renowned for his unwavering determination and tactical prowess, Dáin is a battle-hardened leader who inspires loyalty and courage in his kin. A veteran of countless conflicts, he led the dwarves of the Iron Hills with unmatched strength, bringing stability and prosperity to his people. His resolve in the face of adversity and his dedication to the defense of Erebor and its allies ensure that the legacy of Durin's folk endures through the darkest days of the Third Age." />
 	<Hero
 		id="lord_E1_2"
 		father="Hero.lord_E1_1"
@@ -2030,7 +2029,8 @@
 	<Hero
 		id="lord_R1_1"
 		spouse="Hero.lord_R1_2"
-		faction="Faction.clan_rivendell_1" />
+		faction="Faction.clan_rivendell_1"
+		text="{=elrond_description}Elrond, the Lord of Rivendell, is a figure of unmatched wisdom, healing, and foresight. As a descendant of both Elves and Men, he bridges the two worlds with grace and understanding. Rivendell, under his guidance, stands as a sanctuary of knowledge and refuge for all who seek aid in their struggle against the shadow. Elrond’s insight shapes the great councils of the Free Peoples, and his stewardship over the Last Homely House ensures that the light of the Eldar continues to shine. In both counsel and action, he exemplifies the timeless strength and resilience of the Elves." />
 	<Hero
 		id="lord_R1_2"
 		spouse="Hero.lord_R1_1"
@@ -2065,21 +2065,28 @@
 	<!-- Lasgalen -->
 	<Hero
 		id="lord_M1_1"
-		faction="Faction.clan_mirkwood_1" />
+		faction="Faction.clan_mirkwood_1"
+		text="{=thranduil_description}Thranduil, the enigmatic and proud King of the Woodland Realm, rules with a mixture of grandeur and isolationism. Known for his unmatched charisma and the formidable strength of his armies, Thranduil protects his forest kingdom with a fierce determination. While his mistrust of outsiders is well-known, his wisdom and tactical acumen are undeniable. Beneath his regal exterior lies a deep love for his people and an unwavering commitment to their survival. Thranduil’s rule reflects both the beauty and the dangers of Mirkwood, his reign a testament to the enduring legacy of the Woodland Elves." />
+
 
 	<Hero
 		id="lord_M1_11"
 		father="Hero.lord_M1_1"
-		faction="Faction.clan_mirkwood_1" />
+		faction="Faction.clan_mirkwood_1"
+		text="{=legolas_description}Legolas, the Prince of the Woodland Realm, is a peerless archer and an agile warrior whose keen senses and swift movements are legendary. As a son of Thranduil, Legolas embodies the resilience and skill of the Silvan Elves, defending his homeland with unmatched precision and resolve. Though young by elven standards, his courage and loyalty are unwavering, and his journey across Middle-earth brings him into the fellowship of the Free Peoples. Legolas’s presence inspires camaraderie and hope, his unerring aim a constant reminder of the might and grace of the Woodland Elves." />
+		
 
 	<!-- Lothlórien -->
 
 	<Hero
 		id="lord_L1_1"
-		faction="Faction.clan_lothlorien_1" />
+		faction="Faction.clan_lothlorien_1"
+		text="{=galadriel_description}Galadriel, the Lady of Lothlórien, is a being of extraordinary grace, wisdom, and power. As one of the eldest and most revered Elves in Middle-earth, she wields unmatched foresight and a profound connection to the unseen world. Galadriel’s strength lies not in martial might but in her unwavering resolve to preserve beauty and hope against the encroaching shadow. Her leadership transforms Lothlórien into a haven of serenity and light, and her guidance inspires unity and courage among the Free Peoples of Middle-earth. Through her wisdom and the radiance of Nenya, she embodies the enduring spirit of resistance against darkness." />
 	<Hero
 		id="lord_L1_2"
-		faction="Faction.clan_lothlorien_1" />
+		faction="Faction.clan_lothlorien_1"
+		text="{=celeborn_description}Celeborn, the wise and noble Lord of Lothlórien, stands as a stalwart defender of his realm and people. Renowned for his calm demeanor and keen insight, he is a master of strategy and diplomacy, a complement to the ethereal power of Galadriel. Celeborn’s presence in Lothlórien is a beacon of stability and strength, providing wise counsel to those who seek guidance. While his sword remains ever ready to protect his homeland, his true strength lies in his enduring patience and deep understanding of the struggles facing Middle-earth. Celeborn’s leadership ensures that Lothlórien remains a bastion of hope amidst a world in turmoil." />
+
 	<Hero
 		id="lord_L1_3"
 		faction="Faction.clan_lothlorien_1" />
@@ -2092,7 +2099,8 @@
 
 	<Hero
 		id="lord_I1_1"
-		faction="Faction.clan_isengard_1" />
+		faction="Faction.clan_isengard_1"
+		text="{=ugluk_description}Uglúk, the ruthless and cunning warlord of Isengard, commands Saruman’s fearsome Uruk-hai with brutal efficiency. Fiercely loyal to his master, Uglúk embodies the relentless discipline and savagery that define the White Wizard’s armies. Known for his harsh demeanor and unyielding resolve, he leads his troops with a mix of intimidation and tactical prowess, ensuring their dominance on the battlefield. Uglúk’s disdain for weakness and his willingness to crush any opposition make him a fearsome figure among both his allies and enemies. Under his command, Isengard’s forces strike terror into the hearts of the Free Peoples of Middle-earth, advancing Saruman’s dark ambitions with every victory." />
 
 	<Hero
 		id="lord_I1_11"
@@ -2101,8 +2109,8 @@
 
 	<Hero
 		id="lord_G1_1"
-		faction="Faction.clan_gundabad_1" />
-
+		faction="Faction.clan_gundabad_1"
+		text="{=karguz_description}Karguz, the warlord of Gundabad, is a towering figure of brutality and dominance among the Orcs of the northern stronghold. Renowned for his ferocious combat skills and unrelenting thirst for conquest, he has united the disparate clans of Gundabad under his iron rule. Karguz thrives in the chaos of battle, leading his hordes with ruthless determination and a fearsome presence that instills both fear and loyalty in his followers. With a deep-seated hatred for the Dwarves and the Free Peoples of Middle-earth, Karguz seeks to reclaim the glory of Gundabad’s ancient power. His brutal leadership and cunning strategies make him a relentless force of destruction, poised to spread chaos across the northern lands." />
 	<Hero
 		id="lord_G1_11"
 		father="Hero.lord_G1_1"
@@ -2110,7 +2118,8 @@
 
 	<Hero
 		id="lord_U1_1"
-		faction="Faction.clan_umbar_1" />
+		faction="Faction.clan_umbar_1"
+		text="{=zarakbal_description}Zarâkbal, the enigmatic and ruthless leader of Umbar, commands the Corsairs with unmatched cunning and ambition. A master strategist and a shrewd manipulator, Zarâkbal wields both the sword and the mind with deadly precision. Under his rule, Umbar thrives as a haven for raiders and seafarers, its dark ships spreading fear across the coasts of Middle-earth. Zarâkbal's vision of dominance extends beyond the seas, as he forges alliances with the forces of shadow and prepares to unleash the might of Umbar against the Free Peoples. His charisma and iron-fisted rule ensure loyalty among his captains, while his name strikes terror into the hearts of his enemies." />
 
 	<Hero
 		id="lord_U1_11"
@@ -2119,7 +2128,8 @@
 
 	<Hero
 		id="lord_DG1_1"
-		faction="Faction.clan_dolguldur_1" />
+		faction="Faction.clan_dolguldur_1"
+		text="{=malduruk_description}Maldrûk, the relentless warlord of Dol Guldur, commands the shadowed legions of the Necromancer's domain with fearsome authority. A towering figure of brutality and cunning, Maldrûk is the embodiment of Dol Guldur's dark ambitions. His mastery of warfare and ruthless discipline has forged the Orcs and creatures under his command into a fearsome force, striking terror into the hearts of all who dwell near the borders of Mirkwood. Maldrûk's loyalty to the shadow ensures his relentless pursuit of the Necromancer's will, as he drives his armies to sow chaos and destruction across Middle-earth. His presence on the battlefield is both a symbol of terror and a grim herald of the growing darkness." />
 
 	<Hero
 		id="lord_DG1_11"
