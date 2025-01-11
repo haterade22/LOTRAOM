@@ -138,7 +138,7 @@
 			</IncludedGameTypes>
 </XmlNode>
 
-<!-- Mordor 
+<!-- Mordor -->
 <XmlNode>
 			<XmlName id="NPCCharacters" path="troops_mordor"/>
 			<IncludedGameTypes>
@@ -146,19 +146,27 @@
 				<GameType value ="CampaignStoryMode"/>
 				<GameType value ="CustomGame"/>
 			</IncludedGameTypes>
-</XmlNode> -->
+</XmlNode> 
 
 		
-<!-- Sanbox Equipment Roster -->
+<!-- Sandbox Equipment Roster -->
 		<XmlNode>
 			<XmlName id="EquipmentRosters" path="LOTRLOME_sandbox_equipment_sets"/>
 			<IncludedGameTypes>
 				<GameType value ="Campaign"/>
 				<GameType value ="CustomGame"/>
 			</IncludedGameTypes>
-		</XmlNode> 
+		</XmlNode>
 
-<!-- Lords -->
+<!-- SandboxCore Equipment Roster -->
+		<XmlNode>
+			<XmlName id="EquipmentRosters" path="LOTRAOM_sandboxcore_equipment_sets"/>
+			<IncludedGameTypes>
+				<GameType value ="Campaign"/>
+				<GameType value ="CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<!-- Lords -->
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="lords"/>
 			<IncludedGameTypes>

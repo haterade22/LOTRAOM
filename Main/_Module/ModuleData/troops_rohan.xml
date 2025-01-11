@@ -1701,19 +1701,88 @@
 					id="Item.cts_rohan_shield2" />
 				<equipment
 					slot="Head"
-					id="Item.whiterun_helm" />
+					id="Item.roh_nbl_hlm_cf" />
 				<equipment
 					slot="Body"
-					id="Item.whiterun_armor" />
+					id="Item.roh_nbl_arm_g" />
 				<equipment
 					slot="Cape"
-					id="Item.whiterun_cloak" />
+					id="Item.roh_nbl_shldr_cgs_2" />
 				<equipment
 					slot="Gloves"
-					id="Item.whiterun_bracers" />
+					id="Item.roh_nbl_glv" />
 				<equipment
 					slot="Leg"
-					id="Item.whiterun_boots" />
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.roh_nbl_hlm_cf" />
+				<equipment
+					slot="Body"
+					id="Item.roh_nbl_arm_r" />
+				<equipment
+					slot="Cape"
+					id="Item.roh_nbl_shldr_cgs_2" />
+				<equipment
+					slot="Gloves"
+					id="Item.roh_nbl_glv" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield3" />
+				<equipment
+					slot="Head"
+					id="Item.roh_nbl_hlm_cf" />
+				<equipment
+					slot="Body"
+					id="Item.roh_nbl_arm_y" />
+				<equipment
+					slot="Cape"
+					id="Item.roh_nbl_shldr_cgs_2" />
+				<equipment
+					slot="Gloves"
+					id="Item.roh_nbl_glv" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots3" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.roh_nbl_hlm_cf" />
+				<equipment
+					slot="Body"
+					id="Item.roh_nbl_arm_b" />
+				<equipment
+					slot="Cape"
+					id="Item.roh_nbl_shldr_cgs_2" />
+				<equipment
+					slot="Gloves"
+					id="Item.roh_nbl_glv" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="vlandia_troop_civilian_template_t3"

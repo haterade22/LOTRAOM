@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+	<EquipmentRoster
+		id="gond_noble_template_bat_a"
+		culture="Culture.gondor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.wm_gondor_spear" />
+			<Equipment
+				slot="Item1"
+				id="Item.anduril" />
+			<Equipment
+				slot="Item2"
+				id="Item.gond_shld4" />
+			<Equipment
+				slot="Head"
+				id="Item.fountain_helm20" />
+			<Equipment
+				slot="Cape"
+				id="Item.fountain_shoulders3" />
+			<Equipment
+				slot="Body"
+				id="Item.fountain_armor2" />
+			<Equipment
+				slot="Gloves"
+				id="Item.citidel_guard_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.citidel_guard_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_northern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.northern_ring_barding" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="rohan_noble_template_bat_a"
+		culture="Culture.vlandia">
+		<EquipmentSet
+			civilian="false">
+			<equipment
+				slot="Item0"
+				id="Item.vlandia_noble_sword_3_t5" />
+			<equipment
+				slot="Item1"
+				id="Item.vlandia_lance_2_t4" />
+			<equipment
+				slot="Item2"
+				id="Item.western_javelin_3_t4" />
+			<equipment
+				slot="Item3"
+				id="Item.cts_rohan_shield" />
+			<Equipment
+				slot="Head"
+				id="Item.whiterun_helm" />
+			<Equipment
+				slot="Cape"
+				id="Item.whiterun_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.whiterun_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.whiterun_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.whiterun_boots" />
+			<equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.chain_barding" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+</EquipmentRosters>
