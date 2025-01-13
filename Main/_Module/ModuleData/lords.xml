@@ -2781,6 +2781,7 @@
 		id="lord_1_15"
 		name="{=48bvCvb2}Witch King of Angmar"
 		age="30"
+		race="nazghul"
 		voice="softspoken"
 		default_group="Infantry"
 		is_hero="true"
@@ -2791,11 +2792,7 @@
 			<!--face_key
 			value="0016cd2cc0000340640b69b8656667865969a5977d6878675667688679664368000000000769896600001105000030a30000001f000000000000000000040000"
 			/-->
-			<BodyProperties
-				version="4"
-				weight="0.1"
-				build="0.99"
-				key="0016CC0CC000034D640B69B8656667865969A5977D6878675667688679664368000000080769896600001105000030A30000001F000000000000000000A40000" />
+			<BodyProperties version="4" age="22.19" weight="0.0116" build="1"  key="0039F00FC000300010000010010100000001000000000100001011101000000000FF06030F000100000000000000000000000000000000000000000043F44142"  />
 			<hair_tags>
 				<hair_tag
 					name="Short" />
@@ -2853,9 +2850,9 @@
 			<EquipmentRoster
 				civilian="true" />
 			<EquipmentSet
-				id="emp_bat_template_flamboyant" />
+				id="witch_king_template" />
 			<EquipmentSet
-				id="emp_civ_template_flamboyant"
+				id="witch_king_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
