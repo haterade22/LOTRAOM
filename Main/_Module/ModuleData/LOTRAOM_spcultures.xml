@@ -995,7 +995,7 @@
 		color="0xff1E1E1E"
 		color2="0xffA30B0B"
 		elite_basic_troop="NPCCharacter.imperial_vigla_recruit"
-		basic_troop="NPCCharacter.imperial_recruit"
+		basic_troop="NPCCharacter.mordor_uruk_grunt"
 		melee_militia_troop="NPCCharacter.imperial_militia_spearman"
 		ranged_militia_troop="NPCCharacter.imperial_militia_archer"
 		melee_elite_militia_troop="NPCCharacter.imperial_militia_veteran_spearman"
@@ -1016,50 +1016,50 @@
 		text="{=mordor_orcs_faction_desc}The Orcs of Mordor are a brutal and relentless force, bred in the dark pits of Barad-dûr and beyond to serve the will of Sauron. Cruel and savage, they march to war in endless hordes, wielding crude but deadly weapons forged in the forges of Mount Doom. Clad in jagged armor and bearing black banners emblazoned with the Red Eye, they bring fear and destruction wherever they tread. Bound by the iron will of their Dark Lord, the Orcs of Mordor are divided into warbands led by ruthless captains, united only in their desire for conquest and their servitude to Sauron’s dark ambition."
 		tournament_master="NPCCharacter.tournament_master_empire"
 		villager="NPCCharacter.villager_empire"
-		caravan_master="NPCCharacter.caravan_master_empire"
-		armed_trader="NPCCharacter.armed_trader_empire"
-		caravan_guard="NPCCharacter.caravan_guard_empire"
-		veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_empire"
-		prison_guard="NPCCharacter.prison_guard_empire"
-		guard="NPCCharacter.guard_empire"
-		blacksmith="NPCCharacter.blacksmith_empire"
-		weaponsmith="NPCCharacter.weaponsmith_empire"
-		townswoman="NPCCharacter.townswoman_empire"
-		townswoman_infant="NPCCharacter.townswoman_infant_empire"
-		townswoman_child="NPCCharacter.townswoman_child_empire"
-		townswoman_teenager="NPCCharacter.townswoman_teenager_empire"
-		townsman="NPCCharacter.townsman_empire"
-		townsman_infant="NPCCharacter.townsman_infant_empire"
-		townsman_child="NPCCharacter.townsman_child_empire"
-		village_woman="NPCCharacter.village_woman_empire"
-		villager_male_child="NPCCharacter.villager_child_empire"
-		villager_male_teenager="NPCCharacter.villager_teenager_empire"
-		villager_female_child="NPCCharacter.village_woman_child_empire"
-		villager_female_teenager="NPCCharacter.village_woman_teenager_empire"
-		townsman_teenager="NPCCharacter.townsman_teenager_empire"
-		ransom_broker="NPCCharacter.ransom_broker_empire"
-		gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_empire"
-		merchant_notary="NPCCharacter.merchant_notary_empire"
-		artisan_notary="NPCCharacter.artisan_notary_empire"
-		preacher_notary="NPCCharacter.preacher_notary_empire"
-		rural_notable_notary="NPCCharacter.rural_notable_notary_empire"
-		shop_worker="NPCCharacter.shop_worker_empire"
-		tavernkeeper="NPCCharacter.tavernkeeper_empire"
-		taverngamehost="NPCCharacter.taverngamehost_empire"
-		musician="NPCCharacter.musician_empire"
-		tavern_wench="NPCCharacter.tavern_wench_empire"
-		armorer="NPCCharacter.armorer_empire"
-		horseMerchant="NPCCharacter.horseMerchant_empire"
-		barber="NPCCharacter.barber_empire"
-		merchant="NPCCharacter.merchant_empire"
-		beggar="NPCCharacter.beggar_empire"
-		female_beggar="NPCCharacter.female_beggar_empire"
-		female_dancer="NPCCharacter.female_dancer_empire"
-		gear_practice_dummy="NPCCharacter.gear_practice_dummy_empire"
-		weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_empire"
-		weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_empire"
-		weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_empire"
-		gear_dummy="NPCCharacter.gear_dummy_empire"
+		caravan_master="NPCCharacter.caravan_master_mordor"
+		armed_trader="NPCCharacter.armed_trader_mordor"
+		caravan_guard="NPCCharacter.caravan_guard_mordor"
+		veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_mordor"
+		prison_guard="NPCCharacter.prison_guard_mordor"
+		guard="NPCCharacter.guard_mordor"
+		blacksmith="NPCCharacter.blacksmith_mordor"
+		weaponsmith="NPCCharacter.weaponsmith_mordor"
+		townswoman="NPCCharacter.townswoman_mordor"
+		townswoman_infant="NPCCharacter.townswoman_infant_mordor"
+		townswoman_child="NPCCharacter.townswoman_child_mordor"
+		townswoman_teenager="NPCCharacter.townswoman_teenager_mordor"
+		townsman="NPCCharacter.townsman_mordor"
+		townsman_infant="NPCCharacter.townsman_infant_mordor"
+		townsman_child="NPCCharacter.townsman_child_mordor"
+		village_woman="NPCCharacter.village_woman_mordor"
+		villager_male_child="NPCCharacter.villager_child_mordor"
+		villager_male_teenager="NPCCharacter.villager_teenager_mordor"
+		villager_female_child="NPCCharacter.village_woman_child_mordor"
+		villager_female_teenager="NPCCharacter.village_woman_teenager_mordor"
+		townsman_teenager="NPCCharacter.townsman_teenager_mordor"
+		ransom_broker="NPCCharacter.ransom_broker_mordor"
+		gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_mordor"
+		merchant_notary="NPCCharacter.merchant_notary_mordor"
+		artisan_notary="NPCCharacter.artisan_notary_mordor"
+		preacher_notary="NPCCharacter.preacher_notary_mordor"
+		rural_notable_notary="NPCCharacter.rural_notable_notary_mordor"
+		shop_worker="NPCCharacter.shop_worker_mordor"
+		tavernkeeper="NPCCharacter.tavernkeeper_mordor"
+		taverngamehost="NPCCharacter.taverngamehost_mordor"
+		musician="NPCCharacter.musician_mordor"
+		tavern_wench="NPCCharacter.tavern_wench_mordor"
+		armorer="NPCCharacter.armorer_mordor"
+		horseMerchant="NPCCharacter.horseMerchant_mordor"
+		barber="NPCCharacter.barber_mordor"
+		merchant="NPCCharacter.merchant_mordor"
+		beggar="NPCCharacter.beggar_mordor"
+		female_beggar="NPCCharacter.female_beggar_mordor"
+		female_dancer="NPCCharacter.female_dancer_mordor"
+		gear_practice_dummy="NPCCharacter.gear_practice_dummy_mordor"
+		weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_mordor"
+		weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_mordor"
+		weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_mordor"
+		gear_dummy="NPCCharacter.gear_dummy_mordor"
 		default_battle_equipment_roster="EquipmentRoster.emp_civ_template_default"
 		default_civilian_equipment_roster="EquipmentRoster.emp_civ_template_default"
 		duel_preset_equipment_roster="EquipmentRoster.emp_duel_preset_template"
@@ -1300,81 +1300,81 @@
 		</possible_clan_banner_icon_ids>
 		<notable_and_wanderer_templates>
 			<template
-				name="NPCCharacter.spc_wanderer_empire_0" />
+				name="NPCCharacter.spc_wanderer_mordor_0" />
 			<template
-				name="NPCCharacter.spc_wanderer_empire_1" />
+				name="NPCCharacter.spc_wanderer_mordor_1" />
 			<template
-				name="NPCCharacter.spc_wanderer_empire_2" />
+				name="NPCCharacter.spc_wanderer_mordor_2" />
 			<template
-				name="NPCCharacter.spc_wanderer_empire_3" />
+				name="NPCCharacter.spc_wanderer_mordor_3" />
 			<template
-				name="NPCCharacter.spc_wanderer_empire_4" />
+				name="NPCCharacter.spc_wanderer_mordor_4" />
 			<template
-				name="NPCCharacter.spc_wanderer_empire_5" />
+				name="NPCCharacter.spc_wanderer_mordor_5" />
 			<template
-				name="NPCCharacter.spc_wanderer_empire_6" />
+				name="NPCCharacter.spc_wanderer_mordor_6" />
 			<template
-				name="NPCCharacter.spc_wanderer_empire_7" />
+				name="NPCCharacter.spc_wanderer_mordor_7" />
 			<template
-				name="NPCCharacter.spc_wanderer_empire_8" />
+				name="NPCCharacter.spc_wanderer_mordor_8" />
 			<template
-				name="NPCCharacter.spc_wanderer_empire_9" />
+				name="NPCCharacter.spc_wanderer_mordor_9" />
 			<template
-				name="NPCCharacter.spc_wanderer_empire_10" />
+				name="NPCCharacter.spc_wanderer_mordor_10" />
 			<template
-				name="NPCCharacter.spc_wanderer_empire_11" />
+				name="NPCCharacter.spc_wanderer_mordor_11" />
 			<template
-				name="NPCCharacter.spc_notable_empire_0" />
+				name="NPCCharacter.spc_notable_mordor_0" />
 			<template
-				name="NPCCharacter.spc_notable_empire_0b" />
+				name="NPCCharacter.spc_notable_mordor_0b" />
 			<template
-				name="NPCCharacter.spc_notable_empire_1" />
+				name="NPCCharacter.spc_notable_mordor_1" />
 			<template
-				name="NPCCharacter.spc_notable_empire_1b" />
+				name="NPCCharacter.spc_notable_mordor_1b" />
 			<template
-				name="NPCCharacter.spc_notable_empire_2" />
+				name="NPCCharacter.spc_notable_mordor_2" />
 			<template
-				name="NPCCharacter.spc_notable_empire_2b" />
+				name="NPCCharacter.spc_notable_mordor_2b" />
 			<template
-				name="NPCCharacter.spc_notable_empire_3" />
+				name="NPCCharacter.spc_notable_mordor_3" />
 			<template
-				name="NPCCharacter.spc_notable_empire_3b" />
+				name="NPCCharacter.spc_notable_mordor_3b" />
 			<template
-				name="NPCCharacter.spc_notable_empire_4" />
+				name="NPCCharacter.spc_notable_mordor_4" />
 			<template
-				name="NPCCharacter.spc_notable_empire_4b" />
+				name="NPCCharacter.spc_notable_mordor_4b" />
 			<template
-				name="NPCCharacter.spc_notable_empire_5" />
+				name="NPCCharacter.spc_notable_mordor_5" />
 			<template
-				name="NPCCharacter.spc_notable_empire_6" />
+				name="NPCCharacter.spc_notable_mordor_6" />
 			<template
-				name="NPCCharacter.spc_notable_empire_7" />
+				name="NPCCharacter.spc_notable_mordor_7" />
 			<template
-				name="NPCCharacter.spc_notable_empire_8" />
+				name="NPCCharacter.spc_notable_mordor_8" />
 			<template
-				name="NPCCharacter.spc_notable_empire_9" />
+				name="NPCCharacter.spc_notable_mordor_9" />
 			<template
-				name="NPCCharacter.spc_notable_empire_10" />
+				name="NPCCharacter.spc_notable_mordor_10" />
 			<template
-				name="NPCCharacter.spc_notable_empire_11" />
+				name="NPCCharacter.spc_notable_mordor_11" />
 			<template
-				name="NPCCharacter.spc_notable_empire_12" />
+				name="NPCCharacter.spc_notable_mordor_12" />
 			<template
-				name="NPCCharacter.spc_notable_empire_13" />
+				name="NPCCharacter.spc_notable_mordor_13" />
 			<template
-				name="NPCCharacter.spc_notable_empire_21" />
+				name="NPCCharacter.spc_notable_mordor_21" />
 			<template
-				name="NPCCharacter.spc_notable_empire_22" />
+				name="NPCCharacter.spc_notable_mordor_22" />
 			<template
-				name="NPCCharacter.spc_notable_empire_gl1" />
+				name="NPCCharacter.spc_notable_mordor_gl1" />
 			<template
-				name="NPCCharacter.spc_notable_empire_gl4" />
+				name="NPCCharacter.spc_notable_mordor_gl4" />
 			<template
-				name="NPCCharacter.spc_empire_headman_1" />
+				name="NPCCharacter.spc_mordor_headman_1" />
 			<template
-				name="NPCCharacter.spc_empire_headman_2" />
+				name="NPCCharacter.spc_mordor_headman_2" />
 			<template
-				name="NPCCharacter.spc_empire_headman_3" />
+				name="NPCCharacter.spc_mordor_headman_3" />
 		</notable_and_wanderer_templates>
 		<lord_templates>
 			<template

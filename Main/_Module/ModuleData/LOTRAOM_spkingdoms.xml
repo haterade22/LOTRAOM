@@ -93,7 +93,7 @@
 		color2="FFDE9953"
 		alternative_color="FFF4CA14"
 		alternative_color2="FF6d62b5"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		settlement_banner_mesh="encounter_flag_a"
 		flag_mesh="info_screen_flags_b"
 		name="{=frBQ9mbP}Mordor"

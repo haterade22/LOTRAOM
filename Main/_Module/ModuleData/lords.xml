@@ -2713,7 +2713,7 @@
 		voice="softspoken"
 		is_hero="true"
 		is_female="false"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -2785,7 +2785,7 @@
 		voice="softspoken"
 		default_group="Infantry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -2861,20 +2861,16 @@
 		name="{=UTFGUeVQ}Nazgûl, the Shadow of Haradrim"
 		age="20"
 		voice="ironic"
+		race="nazghul"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
 			<!--Placeholder
 			face-->
-			<BodyProperties
-				version="4"
-				age="30.7"
-				weight="0.5"
-				build="0.4"
-				key="0016CC0CC000034D640B69B8656667865969A5977D6878675667688679664368000000080769896600001105000030A30000001F000000000000000000A40000" />
+		<BodyProperties version="4" age="22.19" weight="0.0116" build="1"  key="0039F00FC000300010000010010100000001000000000100001011101000000000FF06030F000100000000000000000000000000000000000000000043F44142"  />
 		</face>
 		<Traits>
 			<Trait id="CavalryFightingSkills" value="18" />
@@ -2907,20 +2903,17 @@
 		age="20"
 		voice="softspoken"
 		is_hero="true"
+		race="nazghul"
 		default_group="Cavalry"
 		is_female="false"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
 			<!--face_key
 			value="0000a128800000049a6a869356785374d67695669a8482546e75a699765777b5000000000668a9880000000000000ffe00000000000000000000000000000000"
 			/-->
-			<BodyProperties
-				version="4"
-				weight="0.5"
-				build="0.9"
-				key="0000A008800000049A6A869356765374D67695669A8482546E75A699765777B50006600A0668A9880000000000000FFE00000000000000000000000000280000" />
+		<BodyProperties version="4" age="22.19" weight="0.0116" build="1"  key="0039F00FC000300010000010010100000001000000000100001011101000000000FF06030F000100000000000000000000000000000000000000000043F44142"  />
 		</face>
 		<Traits>
 			<Trait id="CavalryFightingSkills" value="18" />
@@ -2951,7 +2944,7 @@
 		voice="curt"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.isengard"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -3629,8 +3622,9 @@
 		name="{=HGBWqbhQ}Nazgûl, the Shadow of Númenor"
 		age="20"
 		voice="earnest"
+		race="nazghul"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -3638,11 +3632,7 @@
 			<!--face_key
 			value="0011500700fc0008697797684ab7518ca479a943769585b39599b4916b7ba668000b7e700797a98d000000000000000000000000000000000000000000043001"
 			/-->
-			<BodyProperties
-				version="4"
-				weight="0.3"
-				build="0.3"
-				key="0011500700FC0008697797684AB4518CA479A943769585B39599B4916B7BA66800054E740597A98D0000000000000000000000000000000000000000011C0001" />
+		<BodyProperties version="4" age="22.19" weight="0.0116" build="1"  key="0039F00FC000300010000010010100000001000000000100001011101000000000FF06030F000100000000000000000000000000000000000000000043F44142"  />
 		</face>
 		<skills></skills>
 		<Traits>
@@ -4097,21 +4087,18 @@
 		name="{=6YiMWxVM}Nazgûl, the Shadow of Dúnedain"
 		age="20"
 		voice="softspoken"
+		race="nazghul"
 		default_group="Cavalry"
 		is_hero="true"
 		is_female="false"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
 			<!--face_key
 			value="0002bd2e00000003aa8679a465a81478883ab7777b55214664489a69975696a5000000008788a7860000000000000ffe00000000000000000000000000000000"
 			/-->
-			<BodyProperties
-				version="4"
-				weight="0.3"
-				build="0.3"
-				key="0000BC0E00000003AA8679A465A51478883AB7777B55214664489A69975696A5000550070588A7860000000000000FFE00000000000000000000000000A00000" />
+		<BodyProperties version="4" age="22.19" weight="0.0116" build="1"  key="0039F00FC000300010000010010100000001000000000100001011101000000000FF06030F000100000000000000000000000000000000000000000043F44142"  />
 		</face>
 		<skills>
 		</skills>
@@ -7398,7 +7385,7 @@
 		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7456,7 +7443,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_medium" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -7575,20 +7562,17 @@
 		name="{=katzUyMI}Khamûl, the Shadow of the East"
 		default_group="Cavalry"
 		age="39"
+		race="nazghul"
 		voice="earnest"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
 			<!--face_key
 			value="001c892580001008a66a975e578a799294576eaa3a3954b6774485a4155abb6d0000a6d40dd3989700001105000030a30000001f000000000000000000009000"
 			/-->
-			<BodyProperties
-				version="4"
-				weight="0.5"
-				build="0.5"
-				key="001C880580001008A66A975E5784799294576EAA3A3954B6774485A4155ABB6D000546D40DD3989700001105000030A30000001F000000000000000001189000" />
+		<BodyProperties version="4" age="22.19" weight="0.0116" build="1"  key="0039F00FC000300010000010010100000001000000000100001011101000000000FF06030F000100000000000000000000000000000000000000000043F44142"  />
 		</face>
 		<skills></skills>
 		<Traits>
@@ -7629,20 +7613,17 @@
 		default_group="Cavalry"
 		is_female="false"
 		age="20"
+		race="nazghul"
 		voice="curt"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
 			<!--face_key
 			value="001c892580001008a66a975e578a799294576eaa3a3954b6774485a4155abb6d0000a6d40dd3989700001105000030a30000001f000000000000000000009000"
 			/-->
-			<BodyProperties
-				version="4"
-				weight="0.5"
-				build="0.5"
-				key="00054407142C000E374577A56CC36C89499569775CC59876759685188978C5270147761304DAD76800000000000000000000000000000000000000002A942003" />
+		<BodyProperties version="4" age="22.19" weight="0.0116" build="1"  key="0039F00FC000300010000010010100000001000000000100001011101000000000FF06030F000100000000000000000000000000000000000000000043F44142"  />
 		</face>
 		<skills></skills>
 		<Traits>
@@ -7673,20 +7654,17 @@
 		default_group="Cavalry"
 		is_female="false"
 		age="20"
+		race="nazghul"
 		voice="curt"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
 			<!--face_key
 			value="001c892580001008a66a975e578a799294576eaa3a3954b6774485a4155abb6d0000a6d40dd3989700001105000030a30000001f000000000000000000009000"
 			/-->
-			<BodyProperties
-				version="4"
-				weight="0.5"
-				build="0.5"
-				key="00054407142C000E374577A56CC36C89499569775CC59876759685188978C5270147761304DAD76800000000000000000000000000000000000000002A942003" />
+		<BodyProperties version="4" age="22.19" weight="0.0116" build="1"  key="0039F00FC000300010000010010100000001000000000100001011101000000000FF06030F000100000000000000000000000000000000000000000043F44142"  />
 		</face>
 		<skills></skills>
 		<Traits>
@@ -7716,21 +7694,17 @@
 		name="{=yROMCMB3}Nazgûl, the Shadow of Umbar"
 		default_group="Cavalry"
 		age="20"
+		race="nazghul"
 		voice="curt"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
 			<!--face_key
 			value="001c892580001008a66a975e578a799294576eaa3a3954b6774485a4155abb6d0000a6d40dd3989700001105000030a30000001f000000000000000000009000"
 			/-->
-			<BodyProperties
-				version="4"
-				age="25.84"
-				weight="0.5"
-				build="0.5"
-				key="0000940B404420038B65576759259988AA78D997567B167678CBA478D65688B30177761307666874000000000000000000000000000000000000000000E41043" />
+		<BodyProperties version="4" age="22.19" weight="0.0116" build="1"  key="0039F00FC000300010000010010100000001000000000100001011101000000000FF06030F000100000000000000000000000000000000000000000043F44142"  />
 		</face>
 		<skills></skills>
 		<Traits>
@@ -7761,9 +7735,10 @@
 		name="{=sZebVgCp}Shagrat"
 		voice="ironic"
 		age="38"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7820,7 +7795,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_stoic" />
+				id="mordor_captain_template_f1" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -7984,7 +7959,7 @@
 		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8042,7 +8017,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_heavy" />
+				id="mordor_captain_template_a2" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -8526,7 +8501,7 @@
 		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8583,7 +8558,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_stoic" />
+				id="mordor_captain_template_b2" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -9444,7 +9419,7 @@
 		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -9478,7 +9453,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_stoic" />
+				id="mordor_captain_template_c2" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -20900,7 +20875,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="khu_bat_template_medium" />
+				id="mordor_captain_template_e2" />
 			<EquipmentSet
 				id="khu_civ_template_default"
 				civilian="true" />
