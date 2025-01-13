@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <BannerIconData>
+    <BannerIconGroup id="16" name="{=!}LOTRAOM Custom Banner UI" is_pattern="false">
+      <Icon id="16001" material_name="lotraom_banner_icons_1" texture_index="0" /> <!-- Hand of
+      Saruman -->
+      <Icon id="16002" material_name="lotraom_banner_icons_1" texture_index="1" /> <!-- Tree of
+      Gondor -->
+      <Icon id="16003" material_name="lotraom_banner_icons_1" texture_index="2" /> <!-- Harad -->
+      <Icon id="16004" material_name="lotraom_banner_icons_1" texture_index="3" /> <!-- Dunland -->
+      <Icon id="16005" material_name="lotraom_banner_icons_1" texture_index="4" /> <!-- Angmar -->
+      <Icon id="16006" material_name="lotraom_banner_icons_1" texture_index="5" /> <!-- Rhûn -->
+      <Icon id="16007" material_name="lotraom_banner_icons_1" texture_index="6" /> <!-- Mordor 1 -->
+      <Icon id="16008" material_name="lotraom_banner_icons_1" texture_index="7" /> <!-- Mordor 2 -->
+      <Icon id="16009" material_name="lotraom_banner_icons_1" texture_index="8" /> <!-- Mordor 3 -->
+      <Icon id="16010" material_name="lotraom_banner_icons_1" texture_index="9" /> <!-- Nûrn 1 -->
+      <Icon id="16011" material_name="lotraom_banner_icons_1" texture_index="10" /> <!-- Goblin 1 -->
+    </BannerIconGroup>
+    <BannerColors> <!-- New colours element-->
+      <!-- Black-->
+      <Color id="2000" hex="0xFF000000" player_can_choose_for_sigil="true" />
+      <Color id="2001" hex="0xFF000000" player_can_choose_for_background="true" />
+      <!-- Red -->
+      <Color id="2002" hex="0xFFdc0000" player_can_choose_for_sigil="true" />
+      <Color id="2003" hex="0xFFdc0000" player_can_choose_for_background="true" />
+      <!-- White -->
+      <Color id="2004" hex="0xFFffffff" player_can_choose_for_sigil="true" />
+      <Color id="2005" hex="0xFFffffff" player_can_choose_for_background="true" />
+      <!-- Brown -->
+      <Color id="2006" hex="0xFF654d37" player_can_choose_for_sigil="true" />
+      <Color id="2007" hex="0xFF654d37" player_can_choose_for_background="true" />
+
+      <Color id="2008" hex="0xFFC99B6E" player_can_choose_for_sigil="true" />
+      <Color id="2009" hex="0xFFC99B6E" player_can_choose_for_background="true" />
+
+      <Color id="2010" hex="0xFF615C57" player_can_choose_for_sigil="true" />
+      <Color id="2011" hex="0xFF615C57" player_can_choose_for_background="true" />
+
+      <Color id="2012" hex="0xFF3F3831" player_can_choose_for_sigil="true" />
+      <Color id="2013" hex="0xFF3F3831" player_can_choose_for_background="true" />
+    </BannerColors>
+  </BannerIconData>
+</base>
