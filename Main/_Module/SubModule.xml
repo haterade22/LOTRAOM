@@ -249,10 +249,17 @@
 			</IncludedGameTypes>
 		</XmlNode>
 
+	<!--Banner Icons-->
+			<XmlNode>
+				<XmlName id="BannerIconData" path="banner_icons"/>
+				<IncludedGameTypes>
+					<GameType value="Campaign"/>
+					<GameType value="CampaignStoryMode"/>
+					<GameType value = "CustomGame"/>
+				</IncludedGameTypes>
+			</XmlNode>
 
-
-
-	</Xmls>
+		</Xmls>
 </Module>
 
 

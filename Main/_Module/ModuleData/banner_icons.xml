@@ -3,10 +3,8 @@
   xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
   <BannerIconData>
     <BannerIconGroup id="16" name="{=!}LOTRAOM Custom Banner UI" is_pattern="false">
-      <Icon id="16001" material_name="lotraom_banner_icons_1" texture_index="0" /> <!-- Hand of
-      Saruman -->
-      <Icon id="16002" material_name="lotraom_banner_icons_1" texture_index="1" /> <!-- Tree of
-      Gondor -->
+      <Icon id="16001" material_name="lotraom_banner_icons_1" texture_index="0" /> <!-- Hand of Saruman -->
+      <Icon id="16002" material_name="lotraom_banner_icons_1" texture_index="1" /> <!-- Tree of Gondor -->
       <Icon id="16003" material_name="lotraom_banner_icons_1" texture_index="2" /> <!-- Harad -->
       <Icon id="16004" material_name="lotraom_banner_icons_1" texture_index="3" /> <!-- Dunland -->
       <Icon id="16005" material_name="lotraom_banner_icons_1" texture_index="4" /> <!-- Angmar -->
