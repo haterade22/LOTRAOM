@@ -830,7 +830,7 @@
 	</Settlement>
 	<Settlement id="castle_village_EW7_1" name="{=Settlements.Settlement.name.castle_village_EW7_1}Endrir" posX="1770.163" posY="1410.736" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW7_1}Oristocorys sits on the Bay of Ortysia, part of the seaway between the western ocean and the Perassic Sea. Early morning sea-mists from the west and the hot sun of midday allow the growing of wine grapes.">
 		<Components>
-			<Village id="castle_village_comp_EW7_1" village_type="VillageType.vineyard" hearth="603" bound="Settlement.castle_EW7" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW7_1" village_type="VillageType.lumberjack" hearth="603" bound="Settlement.castle_EW7" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_004" />
@@ -901,7 +901,7 @@
 	</Settlement>
 	<Settlement id="village_EW1_1" name="{=Settlements.Settlement.name.village_EW1_1}Harlond" posX="1799.769" posY="1318.854" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW1_1}Primessos lies in the wooded upper reaches of the Gavys valley. Pigs, fed on the acorns of the southern oak trees, thrive in this climate.">
 		<Components>
-			<Village id="village_comp_EW1_1" village_type="VillageType.swine_farm" hearth="333" bound="Settlement.town_EW1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW1_1" village_type="VillageType.wheat_farm" hearth="333" bound="Settlement.town_EW1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_i" />
@@ -914,7 +914,7 @@
 	</Settlement>
 	<Settlement id="village_EW1_2" name="{=Settlements.Settlement.name.village_EW1_2}Thinbar" posX="1799.626" posY="1358.988" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW1_2}Montos sits at the base of the Cursion escarpment, near the Battanian frontier. The foresters here keep a watchful eye on their neighbors, always looking for raiding parties coming westward from the valley of the Miron river to their east.">
 		<Components>
-			<Village id="village_comp_EW1_2" village_type="VillageType.lumberjack" hearth="132" bound="Settlement.town_EW1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW1_2" village_type="VillageType.flax_plant" hearth="132" bound="Settlement.town_EW1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_008" />
@@ -975,7 +975,7 @@
 	</Settlement>
 	<Settlement id="village_EW2_2" name="{=Settlements.Settlement.name.village_EW2_2}Tumladen" posX="1776.592" posY="1387.117" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW2_2}Neocorys, the new village, sits in gently sloping land in the Temea valley cleared only recently of forest. The local landowners have established stud farms, supplying horses to the imperial cavalry.">
 		<Components>
-			<Village id="village_comp_EW2_2" village_type="VillageType.europe_horse_ranch" hearth="192" bound="Settlement.town_EW2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW2_2" village_type="VillageType.wheat_farm" hearth="192" bound="Settlement.town_EW2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_004" />
@@ -1035,7 +1035,7 @@
 	</Settlement>
 	<Settlement id="castle_village_EW4_2" name="{=Settlements.Settlement.name.castle_village_EW4_2}Parth Forant" posX="1797.004" posY="1423" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW3_1}Gamardan sits at the head of a small bay that branches off the larger Gulf of Charas. The wines of this region are unusually sweet and strong, and valued throughout the Empire.">
 		<Components>
-			<Village id="castle_village_comp_EW4_2" village_type="VillageType.vineyard" hearth="427" bound="Settlement.castle_EW4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW4_2" village_type="VillageType.fisherman" hearth="427" bound="Settlement.castle_EW4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_s" />
@@ -1050,7 +1050,7 @@
 	<!-- Goat's head Aegoscapsae shortening to Aegosca -Armagan -->
 	<Settlement id="village_EW3_2" name="{=Settlements.Settlement.name.village_EW3_2}Aegosca" posX="1801.369" posY="1413.871" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW3_2}Aegosca sits at the head of the Temea, a broad valley in southern Calradia. Though named for the goats that used to roam this region, the landowners have turned over the pastures to the raising of far more profitable horses.">
 		<Components>
-			<Village id="village_comp_EW3_2" village_type="VillageType.europe_horse_ranch" hearth="427" bound="Settlement.town_EW3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW3_2" village_type="VillageType.trapper" hearth="427" bound="Settlement.town_EW3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_002" />
@@ -1063,7 +1063,7 @@
 	</Settlement>
 	<Settlement id="village_EW3_3" name="{=Settlements.Settlement.name.village_EW3_3}Dradios" posX="1821.559" posY="1311.399" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW3_3}Dradios sits by the Lesser Amynis, a tributary stream of the Aminys river that rushes down from the heights above. Villagers divert the mountain streams to irrigate their rich grainfields.">
 		<Components>
-			<Village id="village_comp_EW3_3" village_type="VillageType.wheat_farm" hearth="501" gate_rotation="0.008" bound="Settlement.town_EW3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW3_3" village_type="VillageType.salt_mine" hearth="501" gate_rotation="0.008" bound="Settlement.town_EW3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_003" />
@@ -1099,7 +1099,7 @@
 	</Settlement>
 	<Settlement id="village_EW4_1" name="{=Settlements.Settlement.name.village_EW4_1}Edhellond" posX="1415.306" posY="1269.784" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW4_1}Arpotis sits on a high bluff overlooking the confluences of the Aminys, Gavys and Zeos rivers. The sides of the hills are terraced to grow wheat, with cisterns to catch the rain blowing up from the sea.">
 		<Components>
-			<Village id="village_comp_EW4_1" village_type="VillageType.wheat_farm" hearth="825" gate_rotation="0.408" bound="Settlement.town_EW4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW4_1" village_type="VillageType.fisherman" hearth="825" gate_rotation="0.408" bound="Settlement.town_EW4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_003" />
@@ -1125,7 +1125,7 @@
 	</Settlement>
 	<Settlement id="village_EW4_3" name="{=Settlements.Settlement.name.village_EW4_3}Echad-l-Sedryn" posX="1446.972" posY="1279.616" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW4_3}Vinela sits beneath the waterfalls where the Aminys river rushes down to join the Perassic Sea. Villagers collect salt from the sea in the shadow of coastal cliffs.">
 		<Components>
-			<Village id="village_comp_EW4_3" village_type="VillageType.salt_mine" hearth="655" bound="Settlement.town_EW4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW4_3" village_type="VillageType.olive_trees" hearth="655" bound="Settlement.town_EW4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_x" />
@@ -1138,7 +1138,7 @@
 	</Settlement>
 	<Settlement id="village_EW4_4" name="{=Settlements.Settlement.name.village_EW4_4}Thonfalas" posX="1366.531" posY="1188.154" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW4_4}Garengolia lies near a rich vein of silver in hills overlooking the Gavys river. The Empire have minted its denars from these mines for centuries.">
 		<Components>
-			<Village id="village_comp_EW4_4" village_type="VillageType.silver_mine" hearth="395" bound="Settlement.town_EW4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW4_4" village_type="VillageType.vineyard" hearth="395" bound="Settlement.town_EW4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_007" />
@@ -1187,7 +1187,7 @@
 	</Settlement>
 	<Settlement id="village_EW5_2" name="{=Settlements.Settlement.name.village_EW5_2}Rosuldrië" posX="1777.709" posY="1253.711" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW5_2}Phasos sits amid rolling chalk hills between the Temea and Aris valleys. The rich grass of the down is some of the best horse-breeding land in the Empire.">
 		<Components>
-			<Village id="village_comp_EW5_2" village_type="VillageType.europe_horse_ranch" hearth="187" bound="Settlement.town_EW5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW5_2" village_type="VillageType.olive_trees" hearth="187" bound="Settlement.town_EW5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_g" />
@@ -1222,7 +1222,7 @@
 	</Settlement>
 	<Settlement id="village_EW6_1" name="{=Settlements.Settlement.name.village_EW6_1}Minas Imduin" posX="1773.781" posY="1208.924" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_EW6_1" village_type="VillageType.cattle_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_EW6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW6_1" village_type="VillageType.fisherman" hearth="104" gate_rotation="0.908" bound="Settlement.town_EW6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -1262,7 +1262,7 @@
 	</Settlement>
 	<Settlement id="village_EW6_4" name="{=Settlements.Settlement.name.village_EW6_4}Dol Calimir" posX="1734.186" posY="1214.461" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_4}Leblenion lies alongside the Aminys river in the shadow of Mount Erithrys, a great basalt slab thrust up from the depths of the earth. This district is one of the grain breadbaskets of the Empire.">
 		<Components>
-			<Village id="village_comp_EW6_4" village_type="VillageType.wheat_farm" hearth="339" bound="Settlement.town_EW6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW6_4" village_type="VillageType.olive_trees" hearth="339" bound="Settlement.town_EW6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_y" />
@@ -5994,7 +5994,7 @@
 	</Settlement>
 	<Settlement id="village_SWAN_GONDOR1_1" name="{=Settlements.Settlement.name.village_EW6_1}Dinadab" posX="1479.05" posY="1306.978" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR1_1" village_type="VillageType.cattle_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR1_1" village_type="VillageType.sheep_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -6007,7 +6007,7 @@
 	</Settlement>
 	<Settlement id="village_SWAN_GONDOR1_2" name="{=Settlements.Settlement.name.village_EW6_1}Bar Elir" posX="1466.215" posY="1303.102" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR1_2" village_type="VillageType.cattle_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR1_2" village_type="VillageType.vineyard" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -6039,7 +6039,7 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GONDOR2_1" name="{=Settlements.Settlement.name.village_EW6_1}RENAME" posX="1660.469" posY="1284.711" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
+	<Settlement id="village_SWAN_GONDOR2_1" name="{=Settlements.Settlement.name.village_EW6_1}Linhirion" posX="1660.469" posY="1284.711" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
 			<Village id="village_comp_SWAN_GONDOR2_1" village_type="VillageType.cattle_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
@@ -6052,9 +6052,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GONDOR2_2" name="{=Settlements.Settlement.name.village_EW6_1}RENAME" posX="1671.94" posY="1224.229" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
+	<Settlement id="village_SWAN_GONDOR2_2" name="{=Settlements.Settlement.name.village_EW6_1}Gelindor" posX="1671.94" posY="1224.229" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR2_2" village_type="VillageType.cattle_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR2_2" village_type="VillageType.sheep_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -6088,7 +6088,7 @@
 	</Settlement>
 	<Settlement id="village_SWAN_GONDOR3_1" name="{=Settlements.Settlement.name.village_EW6_1}Sardol" posX="1330.696" posY="1397.348" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR3_1" village_type="VillageType.cattle_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR3_1" village_type="VillageType.iron_mine" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -6101,7 +6101,7 @@
 	</Settlement>
 	<Settlement id="village_SWAN_GONDOR3_2" name="{=Settlements.Settlement.name.village_EW6_1}Alagrant" posX="1341.399" posY="1401.303" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR3_2" village_type="VillageType.cattle_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR3_2" village_type="VillageType.silver_mine" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -6114,7 +6114,7 @@
 	</Settlement>
 	<Settlement id="village_SWAN_GONDOR3_3" name="{=Settlements.Settlement.name.village_EW6_1}Erech" posX="1425.405" posY="1403.614" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR3_3" village_type="VillageType.cattle_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR3_3" village_type="VillageType.salt_mine" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -6161,7 +6161,7 @@
 	</Settlement>
 	<Settlement id="village_SWAN_GONDOR4_2" name="{=Settlements.Settlement.name.village_EW6_1}Munadhor" posX="1162.703" posY="1429.163" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR4_2" village_type="VillageType.cattle_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR4_2" village_type="VillageType.sheep_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -6195,7 +6195,7 @@
 	</Settlement>
 	<Settlement id="village_SWAN_GONDOR5_1" name="{=Settlements.Settlement.name.village_EW6_1}Arthiant" posX="1075.733" posY="1243.272" culture="Culture.empire" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR5_1" village_type="VillageType.cattle_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR5_1" village_type="VillageType.sheep_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -6208,7 +6208,7 @@
 	</Settlement>
 	<Settlement id="village_SWAN_GONDOR5_2" name="{=Settlements.Settlement.name.village_EW6_1}Tumbamar" posX="1057.031" posY="1188.692" culture="Culture.empire" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR5_2" village_type="VillageType.cattle_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR5_2" village_type="VillageType.fisherman" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -6231,7 +6231,7 @@
 	</Settlement>
 	<Settlement id="castle_village_SWAN_GONDOR1_1" name="{=Settlements.Settlement.name.castle_village_EW7_1}Veluin" posX="1670.783" posY="1451.601" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW7_1}Oristocorys sits on the Bay of Ortysia, part of the seaway between the western ocean and the Perassic Sea. Early morning sea-mists from the west and the hot sun of midday allow the growing of wine grapes.">
 		<Components>
-			<Village id="castle_village_SWAN_GONDOR1_1" village_type="VillageType.vineyard" hearth="603" bound="Settlement.castle_SWAN_GONDOR1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_SWAN_GONDOR1_1" village_type="VillageType.europe_horse_ranch" hearth="603" bound="Settlement.castle_SWAN_GONDOR1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_004" />
@@ -6244,7 +6244,7 @@
 	</Settlement>
 	<Settlement id="castle_village_SWAN_GONDOR1_2" name="{=Settlements.Settlement.name.castle_village_EW7_2}Arveluin" posX="1572.99" posY="1470.148" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW7_2}Elvania sits on the Bay of Ortysia, part of the seaway between the western ocean and the Perassic Sea. Olive trees grow on the slopes of the nearby hills, warmed by the southern sun.">
 		<Components>
-			<Village id="castle_village_SWAN_GONDOR1_2" village_type="VillageType.iron_mine" hearth="603" bound="Settlement.castle_SWAN_GONDOR1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_SWAN_GONDOR1_2" village_type="VillageType.wheat_farm" hearth="603" bound="Settlement.castle_SWAN_GONDOR1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_u" />
@@ -6267,7 +6267,7 @@
 	</Settlement>
 	<Settlement id="castle_village_SWAN_GONDOR2_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Daelvor" posX="1748.111" posY="1249.862" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR2_1" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR2_1" village_type="VillageType.swine_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -6303,7 +6303,7 @@
 	</Settlement>
 	<Settlement id="castle_village_SWAN_GONDOR3_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Malbarth" posX="1723.016" posY="1251.029" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR3_1" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR3_1" village_type="VillageType.fisherman" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -6316,7 +6316,7 @@
 	</Settlement>
 	<Settlement id="castle_village_SWAN_GONDOR3_2" name="{=Settlements.Settlement.name.castle_village_EW4_1}Sarnhad" posX="1710.454" posY="1235.421" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR3_2" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR3_2" village_type="VillageType.clay_mine" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -6337,9 +6337,9 @@
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR4_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}RENAME" posX="1685.409" posY="1205.368" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR4_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Londareth" posX="1685.409" posY="1205.368" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR4_1" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR4_1" village_type="VillageType.silver_mine" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -6362,7 +6362,7 @@
 	</Settlement>
 	<Settlement id="castle_village_SWAN_GONDOR5_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Drengist" posX="1347.599" posY="1324.934" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR5_1" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR5_1" village_type="VillageType.swine_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -6375,7 +6375,7 @@
 	</Settlement>
 	<Settlement id="castle_village_SWAN_GONDOR5_2" name="{=Settlements.Settlement.name.castle_village_EW4_1}Gobel Drún" posX="1336.891" posY="1343.505" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR5_2" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR5_2" village_type="VillageType.wheat_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -6421,7 +6421,7 @@
 	</Settlement>
 	<Settlement id="castle_village_SWAN_GONDOR7_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Tol Fennas" posX="1479.819" posY="1043.87" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR7_1" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR7" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR7_1" village_type="VillageType.fisherman" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR7" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -6442,9 +6442,9 @@
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR8_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}RENAME" posX="1037.653" posY="1389.94" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR8_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Camloth" posX="1037.653" posY="1389.94" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR8_1" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR8" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR8_1" village_type="VillageType.iron_mine" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR8" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -6455,9 +6455,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR8_2" name="{=Settlements.Settlement.name.castle_village_EW4_1}RENAME" posX="1005.902" posY="1432.964" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR8_2" name="{=Settlements.Settlement.name.castle_village_EW4_1}Eryndolen" posX="1005.902" posY="1432.964" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR8_2" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR8" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR8_2" village_type="VillageType.lumberjack" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR8" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -6478,9 +6478,9 @@
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR9_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}RENAME" posX="1114.698" posY="1404.616" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR9_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Barathrain" posX="1114.698" posY="1404.616" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR9_1" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR9" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR9_1" village_type="VillageType.fisherman" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR9" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -6491,9 +6491,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR9_2" name="{=Settlements.Settlement.name.castle_village_EW4_1}RENAME" posX="1103.948" posY="1354.926" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR9_2" name="{=Settlements.Settlement.name.castle_village_EW4_1}Gelintir" posX="1103.948" posY="1354.926" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR9_2" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR9" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR9_2" village_type="VillageType.europe_horse_ranch" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR9" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -6516,7 +6516,7 @@
 	</Settlement>
 	<Settlement id="castle_village_SWAN_GONDOR10_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Thombad" posX="1189.059" posY="1266.177" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR10_1" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR10" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR10_1" village_type="VillageType.iron_mine" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR10" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -6529,7 +6529,7 @@
 	</Settlement>
 	<Settlement id="castle_village_SWAN_GONDOR10_2" name="{=Settlements.Settlement.name.castle_village_EW4_1}Lithengris" posX="1236.912" posY="1337.23" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR10_2" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR10" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR10_2" village_type="VillageType.salt_mine" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR10" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -6552,7 +6552,7 @@
 	</Settlement>
 	<Settlement id="castle_village_SWAN_GONDOR11_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Dringon" posX="1027.797" posY="1340.276" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR11_1" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR11" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR11_1" village_type="VillageType.fisherman" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR11" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -6565,7 +6565,7 @@
 	</Settlement>
 	<Settlement id="castle_village_SWAN_GONDOR11_2" name="{=Settlements.Settlement.name.castle_village_EW4_1}Fimlothel" posX="1014.635" posY="1286.049" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR11_2" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR11" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR11_2" village_type="VillageType.wheat_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR11" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -6602,9 +6602,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}if you see this something is fucked" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_EREBOR1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1748.86" posY="2019.634" culture="Culture.erebor" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	<Settlement id="village_SWAN_EREBOR1_1" name="{=Settlements.Settlement.name.village_A1_1}Narâkh-zigil" posX="1748.86" posY="2019.634" culture="Culture.erebor" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
-			<Village id="village_comp_SWAN_EREBOR1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_EREBOR1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_EREBOR1_1" village_type="VillageType.iron_mine" hearth="300" bound="Settlement.town_SWAN_EREBOR1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_l" />
@@ -6615,9 +6615,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_EREBOR1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1752.508" posY="2024.566" culture="Culture.erebor" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	<Settlement id="village_SWAN_EREBOR1_2" name="{=Settlements.Settlement.name.village_A1_2}Zundrukar" posX="1752.508" posY="2024.566" culture="Culture.erebor" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
-			<Village id="village_comp_SWAN_EREBOR1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_EREBOR1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_EREBOR1_2" village_type="VillageType.clay_mine" hearth="235" bound="Settlement.town_SWAN_EREBOR1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_b" />
@@ -6651,9 +6651,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}if you see this something is fucked" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_RIVENDELL1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1774.76" posY="2019.634" culture="Culture.rivendell" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	<Settlement id="village_SWAN_RIVENDELL1_1" name="{=Settlements.Settlement.name.village_A1_1}Gwaithindor" posX="1774.76" posY="2019.634" culture="Culture.rivendell" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
-			<Village id="village_comp_SWAN_RIVENDELL1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_RIVENDELL1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_RIVENDELL1_1" village_type="VillageType.wheat_farm" hearth="300" bound="Settlement.town_SWAN_RIVENDELL1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_l" />
@@ -6664,9 +6664,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_RIVENDELL1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1778.408" posY="2024.566" culture="Culture.rivendell" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	<Settlement id="village_SWAN_RIVENDELL1_2" name="{=Settlements.Settlement.name.village_A1_2}Imladcalen" posX="1778.408" posY="2024.566" culture="Culture.rivendell" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
-			<Village id="village_comp_SWAN_RIVENDELL1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_RIVENDELL1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_RIVENDELL1_2" village_type="VillageType.vineyard" hearth="235" bound="Settlement.town_SWAN_RIVENDELL1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_b" />
@@ -6700,9 +6700,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}if you see this something is fucked" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_MIRKWOOD1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1805.436" posY="2019.634" culture="Culture.mirkwood" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	<Settlement id="village_SWAN_MIRKWOOD1_1" name="{=Settlements.Settlement.name.village_A1_1}Dorthainor" posX="1805.436" posY="2019.634" culture="Culture.mirkwood" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
-			<Village id="village_comp_SWAN_MIRKWOOD1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_MIRKWOOD1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_MIRKWOOD1_1" village_type="VillageType.trapper" hearth="300" bound="Settlement.town_SWAN_MIRKWOOD1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_l" />
@@ -6713,9 +6713,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_MIRKWOOD1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1809.084" posY="2024.566" culture="Culture.mirkwood" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	<Settlement id="village_SWAN_MIRKWOOD1_2" name="{=Settlements.Settlement.name.village_A1_2}Lindorneth" posX="1809.084" posY="2024.566" culture="Culture.mirkwood" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
-			<Village id="village_comp_SWAN_MIRKWOOD1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_MIRKWOOD1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_MIRKWOOD1_2" village_type="VillageType.lumberjack" hearth="235" bound="Settlement.town_SWAN_MIRKWOOD1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_b" />
@@ -6750,9 +6750,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}if you see this something is fucked" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_LOTHLORIEN1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1832.055" posY="2019.634" culture="Culture.lothlorien" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	<Settlement id="village_SWAN_LOTHLORIEN1_1" name="{=Settlements.Settlement.name.village_A1_1}Taurvinyar" posX="1832.055" posY="2019.634" culture="Culture.lothlorien" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
-			<Village id="village_comp_SWAN_LOTHLORIEN1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_LOTHLORIEN1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_LOTHLORIEN1_1" village_type="VillageType.vineyard" hearth="300" bound="Settlement.town_SWAN_LOTHLORIEN1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_l" />
@@ -6763,9 +6763,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_LOTHLORIEN1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1835.703" posY="2024.566" culture="Culture.lothlorien" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	<Settlement id="village_SWAN_LOTHLORIEN1_2" name="{=Settlements.Settlement.name.village_A1_2}Celmithrin" posX="1835.703" posY="2024.566" culture="Culture.lothlorien" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
-			<Village id="village_comp_SWAN_LOTHLORIEN1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_LOTHLORIEN1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_LOTHLORIEN1_2" village_type="VillageType.flax_plant" hearth="235" bound="Settlement.town_SWAN_LOTHLORIEN1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_b" />
@@ -6801,7 +6801,7 @@
 		</CommonAreas>
 	</Settlement>
 
-	<Settlement id="village_SWAN_UMBAR1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1748.86" posY="1987.701" culture="Culture.umbar" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	<Settlement id="village_SWAN_UMBAR1_1" name="{=Settlements.Settlement.name.village_A1_1}Ardûmir" posX="1748.86" posY="1987.701" culture="Culture.umbar" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
 			<Village id="village_comp_SWAN_UMBAR1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_UMBAR1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
@@ -6814,7 +6814,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_UMBAR1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1752.508" posY="1992.633" culture="Culture.umbar" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	<Settlement id="village_SWAN_UMBAR1_2" name="{=Settlements.Settlement.name.village_A1_2}Bârukhôr" posX="1752.508" posY="1992.633" culture="Culture.umbar" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
 			<Village id="village_comp_SWAN_UMBAR1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_UMBAR1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
@@ -6852,7 +6852,7 @@
 	</Settlement>
 	<Settlement id="village_SWAN_ISENGARD1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1774.76" posY="1987.701" culture="Culture.isengard" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
-			<Village id="village_comp_SWAN_ISENGARD1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_ISENGARD1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_ISENGARD1_1" village_type="VillageType.clay_mine" hearth="300" bound="Settlement.town_SWAN_ISENGARD1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_l" />
@@ -6865,7 +6865,7 @@
 	</Settlement>
 	<Settlement id="village_SWAN_ISENGARD1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1778.408" posY="1992.633" culture="Culture.isengard" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
-			<Village id="village_comp_SWAN_ISENGARD1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_ISENGARD1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_ISENGARD1_2" village_type="VillageType.lumberjack" hearth="235" bound="Settlement.town_SWAN_ISENGARD1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_b" />
@@ -6900,9 +6900,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}if you see this something is fucked" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GUNDABAD1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1805.437" posY="1987.701" culture="Culture.gundabad" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	<Settlement id="village_SWAN_GUNDABAD1_1" name="{=Settlements.Settlement.name.village_A1_1}Drûgthar" posX="1805.437" posY="1987.701" culture="Culture.gundabad" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
-			<Village id="village_comp_SWAN_GUNDABAD1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_GUNDABAD1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_GUNDABAD1_1" village_type="VillageType.iron_mine" hearth="300" bound="Settlement.town_SWAN_GUNDABAD1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_l" />
@@ -6913,9 +6913,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GUNDABAD1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1809.085" posY="1992.633" culture="Culture.gundabad" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	<Settlement id="village_SWAN_GUNDABAD1_2" name="{=Settlements.Settlement.name.village_A1_2}Muzûrlûg" posX="1809.085" posY="1992.633" culture="Culture.gundabad" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
-			<Village id="village_comp_SWAN_GUNDABAD1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_GUNDABAD1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_GUNDABAD1_2" village_type="VillageType.sheep_farm" hearth="235" bound="Settlement.town_SWAN_GUNDABAD1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_b" />
@@ -6950,9 +6950,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}if you see this something is fucked" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_DOL_GOLDUR1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1832.055" posY="1987.701" culture="Culture.dolguldur" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	<Settlement id="village_SWAN_DOL_GOLDUR1_1" name="{=Settlements.Settlement.name.village_A1_1}Gûlithron" posX="1832.055" posY="1987.701" culture="Culture.dolguldur" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
-			<Village id="village_comp_SWAN_DOL_GOLDUR1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_DOL_GOLDUR1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_DOL_GOLDUR1_1" village_type="VillageType.iron_mine" hearth="300" bound="Settlement.town_SWAN_DOL_GOLDUR1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_l" />
@@ -6963,9 +6963,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_DOL_GOLDUR1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1835.703" posY="1992.633" culture="Culture.dolguldur" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	<Settlement id="village_SWAN_DOL_GOLDUR1_2" name="{=Settlements.Settlement.name.village_A1_2}Baradwaith" posX="1835.703" posY="1992.633" culture="Culture.dolguldur" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
-			<Village id="village_comp_SWAN_DOL_GOLDUR1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_DOL_GOLDUR1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_DOL_GOLDUR1_2" village_type="VillageType.lumberjack" hearth="235" bound="Settlement.town_SWAN_DOL_GOLDUR1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_b" />
