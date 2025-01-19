@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConversationAnimations>
+	<IdleAnim
+		id="normal"
+		action_id_1="act_conversation_normal_start"
+		action_id_2="act_conversation_normal_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_normal_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_normal_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_normal_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_normal_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_normal_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_normal_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="normal2"
+		action_id_1="act_conversation_normal2_start"
+		action_id_2="act_conversation_normal2_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_normal_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_normal_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_normal_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_normal_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_normal_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_normal_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="aggressive"
+		action_id_1="act_conversation_aggressive_start"
+		action_id_2="act_conversation_aggressive_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_aggressive_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_aggressive_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_aggressive_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_aggressive_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_aggressive_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_aggressive_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="aggressive2"
+		action_id_1="act_conversation_aggressive2_start"
+		action_id_2="act_conversation_aggressive2_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_aggressive_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_aggressive_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_aggressive_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_aggressive_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_aggressive_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_aggressive_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="warrior"
+		action_id_1="act_conversation_warrior_start"
+		action_id_2="act_conversation_warrior_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_warrior_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_warrior_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_warrior_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_warrior_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_warrior_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_warrior_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="warrior2"
+		action_id_1="act_conversation_warrior2_start"
+		action_id_2="act_conversation_warrior2_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_warrior_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_warrior_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_warrior_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_warrior_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_warrior_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_warrior_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="hip"
+		action_id_1="act_conversation_hip_start"
+		action_id_2="act_conversation_hip_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_hip_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_hip_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_hip_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_hip_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_hip_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_hip_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="hip2"
+		action_id_1="act_conversation_hip2_start"
+		action_id_2="act_conversation_hip2_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_hip_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_hip_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_hip_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_hip_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_hip_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_hip_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="closed"
+		action_id_1="act_conversation_closed_start"
+		action_id_2="act_conversation_closed_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_closed_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_closed_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_closed_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_closed_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_closed_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_closed_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="closed2"
+		action_id_1="act_conversation_closed2_start"
+		action_id_2="act_conversation_closed2_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_closed_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_closed_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_closed_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_closed_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_closed_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_closed_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="confident"
+		action_id_1="act_conversation_confident_start"
+		action_id_2="act_conversation_confident_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_confident_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_confident_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_confident_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_confident_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_confident_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_confident_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="confident2"
+		action_id_1="act_conversation_confident2_start"
+		action_id_2="act_conversation_confident2_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_confident2_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_confident2_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_confident2_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_confident2_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_confident2_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_confident2_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="confident3"
+		action_id_1="act_conversation_confident3_start"
+		action_id_2="act_conversation_confident3_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_confident2_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_confident2_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_confident2_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_confident2_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_confident2_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_confident2_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="demure"
+		action_id_1="act_conversation_demure_start"
+		action_id_2="act_conversation_demure_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_demure_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_demure_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_demure_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_demure_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_demure_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_demure_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="demure2"
+		action_id_1="act_conversation_demure2_start"
+		action_id_2="act_conversation_demure2_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_demure_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_demure_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_demure_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_demure_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_demure_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_demure_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="nervous"
+		action_id_1="act_conversation_nervous_start"
+		action_id_2="act_conversation_nervous_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_nervous_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_demure_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_nervous_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_nervous_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_nervous_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_nervous_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="nervous2"
+		action_id_1="act_conversation_nervous2_start"
+		action_id_2="act_conversation_nervous2_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_nervous_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_demure_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_nervous_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_nervous_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_nervous_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_nervous_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="weary"
+		action_id_1="act_conversation_weary_start"
+		action_id_2="act_conversation_weary_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_weary_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_weary_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_weary_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_weary_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_weary_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_weary_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="weary2"
+		action_id_1="act_conversation_weary2_start"
+		action_id_2="act_conversation_weary2_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_weary_positive" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_weary_very_positive" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_weary_unsure" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_weary_negative" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_weary_very_negative" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_weary_trivial" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="horserider"
+		action_id_1=""
+		action_id_2=""
+		family_type="0"
+		mount_family_type="1">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_normal_positive_horseback" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_normal_very_positive_horseback" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_normal_unsure_horseback" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_normal_negative_horseback" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_normal_very_negative_horseback" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_normal_trivial_horseback" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="camelrider"
+		action_id_1=""
+		action_id_2=""
+		family_type="0"
+		mount_family_type="2">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="" />
+			<Reaction
+				id="very_positive"
+				action_id="" />
+			<Reaction
+				id="unsure"
+				action_id="" />
+			<Reaction
+				id="negative"
+				action_id="" />
+			<Reaction
+				id="very_negative"
+				action_id="" />
+			<Reaction
+				id="trivial"
+				action_id="" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="horse"
+		action_id_1="act_horse_conversation_start"
+		action_id_2="act_horse_stand_1"
+		family_type="1">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="" />
+			<Reaction
+				id="very_positive"
+				action_id="" />
+			<Reaction
+				id="unsure"
+				action_id="" />
+			<Reaction
+				id="negative"
+				action_id="" />
+			<Reaction
+				id="very_negative"
+				action_id="" />
+			<Reaction
+				id="trivial"
+				action_id="" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="camel"
+		action_id_1="act_camel_conversation_start"
+		action_id_2="act_inventory_idle"
+		family_type="2">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="" />
+			<Reaction
+				id="very_positive"
+				action_id="" />
+			<Reaction
+				id="unsure"
+				action_id="" />
+			<Reaction
+				id="negative"
+				action_id="" />
+			<Reaction
+				id="very_negative"
+				action_id="" />
+			<Reaction
+				id="trivial"
+				action_id="" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="sit"
+		action_id_1=""
+		action_id_2="act_conversation_sit_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_normal_positive_sit" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_normal_very_positive_sit" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_normal_unsure_sit" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_normal_negative_sit" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_normal_very_negative_sit" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_normal_trivial_sit" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="sit_floor"
+		action_id_1=""
+		action_id_2="act_conversation_sit_floor_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="act_conversation_normal_positive_sit_floor" />
+			<Reaction
+				id="very_positive"
+				action_id="act_conversation_normal_very_positive_sit_floor" />
+			<Reaction
+				id="unsure"
+				action_id="act_conversation_normal_unsure_sit_floor" />
+			<Reaction
+				id="negative"
+				action_id="act_conversation_normal_negative_sit_floor" />
+			<Reaction
+				id="very_negative"
+				action_id="act_conversation_normal_very_negative_sit_floor" />
+			<Reaction
+				id="trivial"
+				action_id="act_conversation_normal_trivial_sit_floor" />
+		</Reactions>
+	</IdleAnim>
+	<IdleAnim
+		id="sit_throne"
+		action_id_1=""
+		action_id_2="act_conversation_sit_throne_loop">
+		<Reactions>
+			<Reaction
+				id="positive"
+				action_id="" />
+			<Reaction
+				id="very_positive"
+				action_id="" />
+			<Reaction
+				id="unsure"
+				action_id="" />
+			<Reaction
+				id="negative"
+				action_id="" />
+			<Reaction
+				id="very_negative"
+				action_id="" />
+			<Reaction
+				id="trivial"
+				action_id="" />
+		</Reactions>
+	</IdleAnim>
+</ConversationAnimations>

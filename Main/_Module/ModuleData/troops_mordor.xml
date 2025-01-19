@@ -1,0 +1,4710 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+	<!--Mordor Regular Line-->
+	<NPCCharacter id="mordor_uruk_grunt"
+		default_group="Infantry"
+		level="6"
+		name="{=mordor_uruk_grunt}Black Uruk Grunt"
+		race="uruk"
+		occupation="Soldier"
+		is_basic_troop="true"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="15" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="10" />
+			<skill
+				id="TwoHanded"
+				value="10" />
+			<skill
+				id="Polearm"
+				value="10" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="10" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_warrior"/>
+			<upgrade_target id="NPCCharacter.mordor_uruk_scout"/>
+			<upgrade_target id="NPCCharacter.mordor_rhun_servant"/>
+			<upgrade_target id="NPCCharacter.mordor_harad_initiate"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_light_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_boots_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!--Black Uruk Line-->
+	<NPCCharacter id="mordor_uruk_warrior"
+			default_group="Infantry"
+			level="11"
+			race="uruk"
+			name="{=mordorurukwarrior}Black Uruk Warrior"
+			occupation="Soldier"
+			culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="60" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="60" />
+			<skill
+				id="Polearm"
+				value="70" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="30" />
+		</skills>
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.mordor_uruk_raider"/>
+				<upgrade_target id="NPCCharacter.mordor_uruk_feller"/>
+			</upgrade_targets>
+		
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.battania_2hsword_1_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_c1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_light_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_boots_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_2haxe_1_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_d1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_light_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_boots_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="mordor_uruk_feller"
+			default_group="Infantry"
+			level="16"
+			race="uruk"
+			name="{=mordorurukfeller}Black Uruk Feller"
+			occupation="Soldier"
+			culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="80" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="80" />
+			<skill
+				id="TwoHanded"
+				value="100" />
+			<skill
+				id="Polearm"
+				value="90" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="50" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_ravager"/>
+			<upgrade_target id="NPCCharacter.mordor_uruk_halberdier"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_2haxe_1_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_a2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_light_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.battania_2hsword_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_c1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_light_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mordor_uruk_ravager"
+		default_group="Infantry"
+		level="21"
+		race="uruk"
+		name="{=mordorurukravager}Black Uruk Ravager"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="180" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="150" />
+			<skill
+				id="TwoHanded"
+				value="160" />
+			<skill
+				id="Polearm"
+				value="180" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_executioner"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.northern_2hsword_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_2haxe_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_2haxe_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_2haxe_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.northern_2hsword_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.northern_2hsword_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.northern_2hsword_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_d1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.northern_2hsword_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_d2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="mordor_uruk_executioner"
+		default_group="Infantry"
+		level="26"
+		race="uruk"
+		name="{=mordorurukexecutioner}Black Uruk Executioner"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="220" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="220" />
+			<skill
+				id="TwoHanded"
+				value="220" />
+			<skill
+				id="Polearm"
+				value="250" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="200" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_darkblade"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_2_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_2haxe_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_e" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_e" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_e" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_g" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.battania_2hsword_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_h" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter 
+		id="mordor_uruk_darkblade"
+		default_group="Infantry"
+		level="31"
+		race="uruk"
+		name="{=mordorurukdarkblade}Black Uruk Darkblade"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="280" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="250" />
+			<skill
+				id="TwoHanded"
+				value="280" />
+			<skill
+				id="Polearm"
+				value="275" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="290" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.northern_2hsword_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_c1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.cleaver_2hsword_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.battania_2hsword_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_c1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.northern_2hsword_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_c1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_e" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_e" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_e" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_2haxe_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_c1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_2haxe_1_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_g" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.battania_2haxe_1_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_h" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!--Mordor Uruk Halberds-->
+	<NPCCharacter id="mordor_uruk_halberdier"
+			default_group="Infantry"
+			level="21"
+			race="uruk"
+			name="{=mordoruruksoldier}Black Uruk Halberdier"
+			occupation="Soldier"
+			culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="80" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="80" />
+			<skill
+				id="TwoHanded"
+				value="100" />
+			<skill
+				id="Polearm"
+				value="90" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="50" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_reaper"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_polearm_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_a1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_a1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_polearm_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_b2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_b1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_polearm_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_a1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_c1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.fine_pike_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_d1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="mordor_uruk_reaper"
+		default_group="Infantry"
+		level="26"
+		race="uruk"
+		name="{=mordorurukreaper}Black Uruk Reaper"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="220" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="220" />
+			<skill
+				id="TwoHanded"
+				value="220" />
+			<skill
+				id="Polearm"
+				value="240" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="200" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_deathwarden"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_polearm_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_polearm_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_polearm_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_polearm_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_polearm_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_e" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_e" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_e" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.fine_pike_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_polearm_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_g" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.fine_pike_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_h" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mordor_uruk_deathwarden"
+		default_group="Infantry"
+		level="31"
+		race="uruk"
+		name="{=mordorblackdeathwarden}Black Uruk Deathwarden"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="280" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="250" />
+			<skill
+				id="TwoHanded"
+				value="250" />
+			<skill
+				id="Polearm"
+				value="290" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="270" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_polearm_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_d1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_polearm_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_g" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_e" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_e" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_polearm_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_h" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_polearm_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	
+	<!--Black Uruk Archer Lines-->
+	<NPCCharacter id="mordor_uruk_scout"
+			default_group="Infantry"
+			level="11"
+			race="uruk"
+			name="{=mordorurukscout}Black Uruk Hunter"
+			occupation="Soldier"
+			culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="60" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="30" />
+			<skill
+				id="TwoHanded"
+				value="40" />
+			<skill
+				id="Polearm"
+				value="40" />
+			<skill
+				id="Bow"
+				value="45" />
+			<skill
+				id="Crossbow"
+				value="40" />
+			<skill
+				id="Throwing"
+				value="30" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_archer"/>
+			<upgrade_target id="NPCCharacter.mordor_uruk_crossbow"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.hunting_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_c1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_light_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_boots_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.hunting_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_d1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_light_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_boots_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.hunting_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_d1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_light_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_boots_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.hunting_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_c1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_light_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_boots_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="mordor_uruk_archer"
+			default_group="Infantry"
+			level="16"
+			race="uruk"
+			name="{=mordorurukarcher}Black Uruk Archer"
+			occupation="Soldier"
+			culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="80" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="30" />
+			<skill
+				id="Bow"
+				value="80" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="80" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_marksman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mountain_hunting_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_a1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_a1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mountain_hunting_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_b2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_b1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mountain_hunting_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_1_t2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_a1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_c1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mountain_hunting_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_1_t2" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_d1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="mordor_uruk_crossbow"
+			default_group="Infantry"
+			level="16"
+			race="uruk"
+			name="{=mordorurukcrossbow}Black Uruk Crossbowman"
+			occupation="Soldier"
+			culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="80" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="30" />
+			<skill
+				id="Bow"
+				value="60" />
+			<skill
+				id="Crossbow"
+				value="100" />
+			<skill
+				id="Throwing"
+				value="80" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_ironbolt"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_d" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_b" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_a1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_a1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_d" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_b" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_b2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_b1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_d" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_b" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_a1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_c1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_d" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_b" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_d1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="mordor_uruk_marksman"
+			default_group="Infantry"
+			level="21"
+			race="uruk"
+			name="{=mordoruruksmarksman}Black Uruk Marksman"
+			occupation="Soldier"
+			culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="80" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="80" />
+			<skill
+				id="TwoHanded"
+				value="100" />
+			<skill
+				id="Polearm"
+				value="90" />
+			<skill
+				id="Bow"
+				value="120" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="50" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_3_t3" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_a1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_a1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_3_t3" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_b2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_b1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_3_t3" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_a1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_c1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_3_t3" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_medium_d1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter
+		id="mordor_uruk_ironbolt"
+		default_group="Infantry"
+		level="21"
+		race="uruk"
+		name="{=mordorurukironbolt}Black Uruk Ironbolt"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="180" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="100" />
+			<skill
+				id="TwoHanded"
+				value="100" />
+			<skill
+				id="Polearm"
+				value="100" />
+			<skill
+				id="Bow"
+				value="60" />
+			<skill
+				id="Crossbow"
+				value="120" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_boltmaster"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_e" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_e" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_e" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_e" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_e" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_e" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_e" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_e" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_e" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_e" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_e" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_e" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_e" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_e" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_d1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_e" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_e" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_sword_3_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_d2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="mordor_uruk_boltmaster"
+		default_group="Infantry"
+		level="26"
+		race="uruk"
+		name="{=mordorurukboltmaster}Black Uruk Sharpshooter"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="220" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="110" />
+			<skill
+				id="TwoHanded"
+				value="110" />
+			<skill
+				id="Polearm"
+				value="110" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="150" />
+			<skill
+				id="Throwing"
+				value="200" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_f" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_c" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_f" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_c" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_f" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_c" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_f" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_c" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_f" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_c" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_e" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_e" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_e" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_f" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_c" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_f" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_c" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_g" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.crossbow_f" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_c" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_h" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!--Black Uruk Sword & Shield -->
+	<NPCCharacter id="mordor_uruk_raider"
+			default_group="Infantry"
+			level="16"
+			race="uruk"
+			name="{=mordorurukraider}Black Uruk Raider"
+			occupation="Soldier"
+			culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="80" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="80" />
+			<skill
+				id="TwoHanded"
+				value="100" />
+			<skill
+				id="Polearm"
+				value="90" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="50" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_shieldbearer"/>
+			<upgrade_target id="NPCCharacter.mordor_uruk_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_c1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_light_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_medium_a2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_light_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mordor_uruk_shieldbearer"
+		default_group="Infantry"
+		level="21"
+		race="uruk"
+		name="{=mordorurukshieldbearer}Black Uruk Shieldbearer"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="180" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="180" />
+			<skill
+				id="TwoHanded"
+				value="120" />
+			<skill
+				id="Polearm"
+				value="120" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_shieldguard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_d1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_d2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mordor_uruk_infantry"
+		default_group="Infantry"
+		level="21"
+		race="uruk"
+		name="{=mordorurukinfantry}Black Uruk Infantry"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="180" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="180" />
+			<skill
+				id="TwoHanded"
+				value="120" />
+			<skill
+				id="Polearm"
+				value="120" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_vanguard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_d1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_medium_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_heavy_d2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_medium_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_medium_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="mordor_uruk_vanguard"
+		default_group="Infantry"
+		level="26"
+		race="uruk"
+		name="{=mordorurukvanguard}Black Uruk Vanguard"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="220" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="250" />
+			<skill
+				id="TwoHanded"
+				value="220" />
+			<skill
+				id="Polearm"
+				value="220" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="200" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_captain"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_e" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_e" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_e" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_g" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_h" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="mordor_uruk_shieldguard"
+		default_group="Infantry"
+		level="26"
+		race="uruk"
+		name="{=mordorurukshieldguard}Black Uruk Shield Guard"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="220" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="250" />
+			<skill
+				id="TwoHanded"
+				value="220" />
+			<skill
+				id="Polearm"
+				value="220" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="200" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_uruk_baraddurguard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_e" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_e" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_e" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_c2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_c2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_g" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_heavy_d2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_h" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_d2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mordor_uruk_captain"
+		default_group="Infantry"
+		level="31"
+		race="uruk"
+		name="{=mordorurukcaptain}Black Uruk Captain"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="280" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="280" />
+			<skill
+				id="TwoHanded"
+				value="250" />
+			<skill
+				id="Polearm"
+				value="255" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="290" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_e" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_e" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_e" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_b1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_g" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_b2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_h" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mordor_uruk_baraddurguard"
+		default_group="Infantry"
+		level="31"
+		race="uruk"
+		name="{=mordorurukbdguard}Black Uruk Barad-Dur Guard"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="280" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="280" />
+			<skill
+				id="TwoHanded"
+				value="250" />
+			<skill
+				id="Polearm"
+				value="255" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="290" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_c" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_d" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_e" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_e" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_e" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_g" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantry_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_h" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_f" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_f" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<!-- Harad Line -->
+
+	<NPCCharacter
+		id="mordor_harad_initiate"
+		default_group="Infantry"
+		level="11"
+		name="{=mordor_harad_initiate}Haradrim Initiate"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="35" />
+			<skill
+				id="Riding"
+				value="5" />
+			<skill
+				id="OneHanded"
+				value="30" />
+			<skill
+				id="TwoHanded"
+				value="20" />
+			<skill
+				id="Polearm"
+				value="30" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="10" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_harad_bladewielder"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantary_a" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mordor_harad_bladewielder"
+		default_group="Infantry"
+		level="16"
+		name="{=mordor_harad_bladewielder}Haradrim Bladewielder"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="35" />
+			<skill
+				id="Riding"
+				value="5" />
+			<skill
+				id="OneHanded"
+				value="30" />
+			<skill
+				id="TwoHanded"
+				value="20" />
+			<skill
+				id="Polearm"
+				value="30" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="10" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_harad_vanguard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantary_a" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+			id="mordor_harad_vanguard"
+			default_group="Infantry"
+			level="21"
+			name="{=mordor_harad_vanguard}Haradrim Vanguard"
+			occupation="Soldier"
+			culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="50" />
+			<skill
+				id="Riding"
+				value="10" />
+			<skill
+				id="OneHanded"
+				value="45" />
+			<skill
+				id="TwoHanded"
+				value="30" />
+			<skill
+				id="Polearm"
+				value="45" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="20" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_harad_serpent_guard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantary_a" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mordor_harad_serpent_guard"
+		default_group="Infantry"
+		level="26"
+		name="{=mordor_harad_serpent_guard}Haradrim Serpent Guard"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="60" />
+			<skill
+				id="Riding"
+				value="15" />
+			<skill
+				id="OneHanded"
+				value="55" />
+			<skill
+				id="TwoHanded"
+				value="40" />
+			<skill
+				id="Polearm"
+				value="55" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="30" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_harad_golden_fang"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_5_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantary_a" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mordor_harad_golden_fang"
+		default_group="Infantry"
+		level="31"
+		name="{=mordor_harad_golden_fang}Haradrim Golden Fang"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="75" />
+			<skill
+				id="Riding"
+				value="20" />
+			<skill
+				id="OneHanded"
+				value="70" />
+			<skill
+				id="TwoHanded"
+				value="55" />
+			<skill
+				id="Polearm"
+				value="70" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="40" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_6_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.shield_khuzait_infantary_a" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- Rhun Line -->
+	<NPCCharacter
+		id="mordor_rhun_servant"
+		default_group="Infantry"
+		level="11"
+		name="{=mordor_rhun_servant}Rhûn Servant"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="35" />
+			<skill
+				id="Riding"
+				value="5" />
+			<skill
+				id="OneHanded"
+				value="30" />
+			<skill
+				id="TwoHanded"
+				value="20" />
+			<skill
+				id="Polearm"
+				value="30" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="10" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_rhun_spearhand"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_sword_1_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="mordor_rhun_spearhand"
+		default_group="Infantry"
+		level="16"
+		name="{=mordorrhunspearhand}Rhûn Spearhand"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="75" />
+			<skill
+				id="Riding"
+				value="10" />
+			<skill
+				id="OneHanded"
+				value="35" />
+			<skill
+				id="TwoHanded"
+				value="25" />
+			<skill
+				id="Polearm"
+				value="75" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="15" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_rhun_bloodspear"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_sword_2_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="mordor_rhun_bloodspear"
+		default_group="Infantry"
+		level="21"
+		name="{=mordorrhunbloodspear}Rhûn Bloodspear"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="140" />
+			<skill
+				id="Riding"
+				value="20" />
+			<skill
+				id="OneHanded"
+				value="90" />
+			<skill
+				id="TwoHanded"
+				value="80" />
+			<skill
+				id="Polearm"
+				value="100" />
+			<skill
+				id="Bow"
+				value="60" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="80" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_rhun_bloodforged_warrior"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="mordor_rhun_bloodforged_warrior"
+		default_group="Infantry"
+		level="26"
+		name="{=mordorrhunbloodforgedwarrior}Rhûn Bloodforged Warrior"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="190" />
+			<skill
+				id="Riding"
+				value="20" />
+			<skill
+				id="OneHanded"
+				value="130" />
+			<skill
+				id="TwoHanded"
+				value="80" />
+			<skill
+				id="Polearm"
+				value="170" />
+			<skill
+				id="Bow"
+				value="60" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="80" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_rhun_blade_sentinel"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_sword_5_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="mordor_rhun_blade_sentinel"
+		default_group="Infantry"
+		level="31"
+		name="{=mordorrhunbladesentinel}Rhûn Blade Sentinel"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="230" />
+			<skill
+				id="Riding"
+				value="30" />
+			<skill
+				id="OneHanded"
+				value="70" />
+			<skill
+				id="TwoHanded"
+				value="60" />
+			<skill
+				id="Polearm"
+				value="90" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="30" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_sword_5_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+</NPCCharacters>

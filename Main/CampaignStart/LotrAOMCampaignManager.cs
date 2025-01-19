@@ -31,6 +31,7 @@ namespace LOTRAOM.CampaignStart
         public override void OnGameEnd(Game game)
         {
             MBDebug.SetErrorReportScene(null);
+            base.OnGameEnd(game);
         }
 
         public override void OnGameInitializationFinished(Game game)
@@ -139,7 +140,7 @@ namespace LOTRAOM.CampaignStart
         {
             CharacterCreationState gameState = Game.Current.GameStateManager.CreateState<CharacterCreationState>(new object[]
             {
-                new SandboxCharacterCreationContent()
+                new LOTRAOMCharacterCreationContent()
             });
             Game.Current.GameStateManager.CleanAndPushState(gameState);
         }

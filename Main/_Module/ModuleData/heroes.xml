@@ -1,0 +1,2215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!--lords.xml-->
+	<Hero
+		id="main_hero"
+		father="Hero.main_hero_father"
+		mother="Hero.main_hero_mother"
+		faction="Faction.player_faction" />
+	<Hero
+		id="main_hero_father"
+		alive="false"
+		faction="Faction.player_faction"
+		spouse="Hero.main_hero_mother" />
+	<Hero
+		id="main_hero_mother"
+		alive="false"
+		faction="Faction.player_faction"
+		spouse="Hero.main_hero_father" />
+	<Hero
+		id="dead_lord_2_1"
+		alive="false"
+		faction="Faction.clan_sturgia_2"
+		text="{=bsOLRZyS}Olek the Old was boyar of the Kuloving, the fiercest and most conservative of the Sturgian noble houses. He fell at the battle of Pendraic, leading from the front - as many say Raganvad should have done." />
+	<Hero
+		id="dead_lord_2_2"
+		alive="false"
+		father="Hero.dead_lord_2_1"
+		faction="Faction.clan_sturgia_2"
+		text="{=QyFdfZrC}Varra was a noblewoman of the Kuloving. She died under mysterious circumstances the year after the battle of Pendraic." />
+	<Hero
+		id="dead_lord_3_1"
+		alive="false"
+		faction="Faction.clan_aserai_2"
+		text="{=D3hGevbL}Nimr was a young warrior of the Banu Sarran who led the Aserai contingent at the battle of Pendraic. He was executed by the Banu Qild after seducing a young woman of that clan." />
+	<Hero
+		id="dead_lord_6_1"
+		alive="false"
+		faction="Faction.clan_khuzait_1"
+		text="{=L4b5EWdD}The great Khan Urkhun conquered the eastern frontiers of the Empire and established the Khuzait khanate. Most remember him as a hero, though some resent how he curtailed the ancient liberties of his people to transform them from nomads into lords of a kingdom." />
+	<Hero
+		id="dead_lord_6_2"
+		alive="false"
+		faction="Faction.clan_khuzait_2"
+		text="{=dfmSNTZk}Solun was the chief noyan of the Khergit and the former husband of Mesui, slain at the battle of Pendraic." />
+	<Hero
+		id="dead_lord_6_3"
+		alive="false"
+		faction="Faction.clan_khuzait_3"
+		text="{=CCfjl9eU}Kuyug was the chief noyan of the Arkit clan of the Khuzaits." />
+	<Hero
+		id="dead_lord_6_4"
+		father="Hero.dead_lord_6_3"
+		alive="false"
+		faction="Faction.clan_khuzait_3"
+		text="{=f9Ha1S0s}Undul was a Khuzait noble of the Arkit clan." />
+	<!-- Empire north 1 -->
+	<Hero
+		id="lord_1_1"
+		spouse="Hero.lord_1_2"
+		faction="Faction.clan_empire_north_1"
+		text="{=dunland_wulfgar}Wulf, the Chieftain of Dunland, is a fierce and unyielding leader who has united the scattered clans under his banner. Known for his cunning strategy and relentless determination, he has forged Dunland into a force capable of challenging the might of its enemies. Wulfgar's presence on the battlefield is both commanding and fearsome, as he wields his blade with skill honed through years of conflict. While his methods can be ruthless, his loyalty to his people and their shared cause is unwavering. Wulfgar's leadership is a beacon of hope for the Dunlendings, inspiring them to reclaim their lands and their honor in a world that has long dismissed them. He embodies the resilience and defiance of his people, standing firm against the encroaching powers of Middle-earth." />
+	<Hero
+		id="lord_1_2"
+		spouse="Hero.lord_1_1"
+		faction="Faction.clan_empire_north_1"
+		text="{=dunland_eryndis}Eryndis, the wife of Wulfgar and a vital force in Dunland’s resurgence, is a woman of quiet strength and sharp intellect. Known as ‘The Silent’ for her measured words and decisive actions, she serves as a mediator among the fractious clans, ensuring unity where division might otherwise prevail. Eryndis’s wisdom complements Wulfgar’s might, her counsel shaping the strategies that have brought Dunland to prominence. Though she does not fight on the battlefield, her influence is felt in every decision made by the Dunlending council. Eryndis is beloved by her people for her fairness and mercy, balancing Wulfgar’s stern rule with compassion and pragmatism. Her unwavering resolve and dedication to her people make her a pillar of Dunland’s strength and a symbol of its enduring spirit." />
+	<Hero
+		id="lord_1_41"
+		spouse="Hero.lord_1_1_1"
+		faction="Faction.clan_empire_north_1" />
+	<Hero
+		id="lord_1_411"
+		father="Hero.lord_1_41"
+		faction="Faction.clan_empire_north_1" />
+	<Hero
+		id="lord_1_31"
+		father="Hero.lord_1_1"
+		mother="Hero.lord_1_2"
+		faction="Faction.clan_empire_north_1" />
+	<Hero
+		id="lord_1_1_1"
+		spouse="Hero.lord_1_41"
+		faction="Faction.clan_empire_north_1" />
+	<Hero
+		id="lord_1_1_2"
+		spouse="Hero.lord_1_21"
+		faction="Faction.clan_empire_north_1" />
+	<Hero
+		id="lord_1_21"
+		father="Hero.lord_1_1"
+		mother="Hero.lord_1_2"
+		faction="Faction.clan_empire_north_1" />
+	<!-- Empire north 2 -->
+	<Hero
+		id="lord_1_3"
+		spouse="Hero.lord_1_4"
+		faction="Faction.clan_empire_north_2"
+		text="{=rivendell_elladan}Elladan, the eldest son of Elrond and Celebrían, is a steadfast warrior and a guardian of Rivendell. Alongside his twin brother, Elrohir, Elladan tirelessly defends the borders of the Elven sanctuary and ventures forth to aid the Free Peoples of Middle-earth. Trained in the arts of swordsmanship and archery, his skill in combat is matched only by his keen intellect and unwavering sense of duty. Elladan is driven by a fierce loyalty to his family and an enduring commitment to the preservation of Middle-earth. Despite the weight of his responsibilities, he carries himself with dignity and calm resolve, embodying the strength and wisdom of his noble lineage." />
+	<Hero
+		id="lord_1_4"
+		spouse="Hero.lord_1_3"
+		faction="Faction.clan_empire_north_2" />
+	<Hero
+		id="lord_1_22"
+		faction="Faction.clan_empire_north_2" />
+	<Hero
+		id="lord_1_42"
+		faction="Faction.clan_empire_north_2" />
+	<Hero
+		id="lord_1_32"
+		father="Hero.lord_1_3"
+		mother="Hero.lord_1_4"
+		faction="Faction.clan_empire_north_2" />
+	<Hero
+		id="lord_1_422"
+		father="Hero.lord_1_3"
+		mother="Hero.lord_1_4"
+		faction="Faction.clan_empire_north_2" />
+	<Hero
+		id="lord_1_1_3"
+		spouse="Hero.lord_1_22"
+		faction="Faction.clan_empire_north_2" />
+	<Hero
+		id="lord_1_1_4"
+		spouse="Hero.lord_1_42"
+		faction="Faction.clan_empire_north_2" />
+	<Hero
+		id="lord_1_1_5"
+		father="Hero.lord_1_3"
+		mother="Hero.lord_1_4"
+		faction="Faction.clan_empire_north_2" />
+	<Hero
+		id="lord_1_1_6"
+		father="Hero.lord_1_3"
+		mother="Hero.lord_1_4"
+		faction="Faction.clan_empire_north_2" />
+	<!-- Empire north 3 -->
+	<Hero
+		id="lord_1_5"
+		faction="Faction.clan_empire_north_3"
+		text="{=elrohir_description}Elrohir, the younger twin son of Elrond and Celebrían, embodies the valor and wisdom of the Elves of Rivendell. A skilled warrior and a steadfast leader, he fights with unwavering dedication to protect Middle-earth from the encroaching darkness. Like his brother Elladan, he has devoted his life to combating the forces of Sauron and avenging the injustices done to his family. Elrohir is known for his sharp mind, unwavering loyalty, and readiness to put himself at risk for the greater good. Together with his twin, he rides tirelessly to aid allies in need and ensures that Rivendell remains a bastion of hope against the shadow." />
+	<Hero
+		id="lord_1_1_7"
+		spouse="Hero.lord_1_5"
+		faction="Faction.clan_empire_north_3" />
+	<Hero
+		id="lord_1_1_8"
+		father="Hero.lord_1_5"
+		mother="Hero.lord_1_1_7"
+		faction="Faction.clan_empire_north_3" />
+	<!-- son of neretzes and his wife-->
+	<Hero
+		id="lord_1_6"
+		father="Hero.lord_1_5"
+		mother="Hero.lord_1_1_7"
+		faction="Faction.clan_empire_north_3" />
+	<Hero
+		id="lord_1_33"
+		father="Hero.lord_1_5"
+		mother="Hero.lord_1_1_7"
+		faction="Faction.clan_empire_north_3" />
+	<Hero
+		id="lord_1_43"
+		faction="Faction.clan_empire_north_3" />
+	<!-- lieutenant and family -->
+	<Hero
+		id="lord_1_1_9"
+		spouse="Hero.lord_1_43"
+		faction="Faction.clan_empire_north_3" />
+	<Hero
+		id="lord_1_1_10"
+		father="Hero.lord_1_43"
+		mother="Hero.lord_1_1_9"
+		faction="Faction.clan_empire_north_3" />
+	<Hero
+		id="lord_1_1_11"
+		father="Hero.lord_1_43"
+		mother="Hero.lord_1_1_9"
+		faction="Faction.clan_empire_north_3" />
+	<!-- Empire north 4 -->
+	<Hero
+		id="lord_1_1_12"
+		faction="Faction.clan_empire_north_4"
+		text="{=SeQ5dM4H}Epipheria is a noblewoman of the Impestores, a clan noted for their fanatical loyalty to the aristocratic, oligarchic wing of the Senate and their personal eccentricities. Unlike most of the women of the oligarchs, who tend to be conservative, she trained as a warrior. At the outbreak of the civil war, she took some of her family's famed wealth to raise her own warband to fight the 'tyrant' Rhagaea and the 'upstart' Garios in the name of senatorial supremacy." />
+	<Hero
+		id="lord_1_1_13"
+		spouse="Hero.lord_1_64"
+		faction="Faction.clan_empire_north_4" />
+	<Hero
+		id="lord_1_20"
+		faction="Faction.clan_empire_north_4"
+		text="{=arwen_undomiel_description}Arwen Undómiel, the Evenstar of her people, is the daughter of Elrond and Celebrían. Known for her unparalleled beauty and grace, she is also a symbol of strength and resilience. Arwen's love for Aragorn signifies the unity between Elves and Men, and her choice to forgo immortality for love is a testament to her courage and devotion. A skilled healer and a wise counselor, she embodies the hope and light of Rivendell, standing as a beacon against the shadow that threatens Middle-earth." />
+
+	<Hero
+		id="lord_1_64"
+		faction="Faction.clan_empire_north_4" />
+	<!-- Empire north 5 -->
+	<Hero
+		id="lord_1_1_14"
+		spouse="Hero.lord_1_50"
+		faction="Faction.clan_empire_north_5"
+		text="{=gildor_inglorion_description}Gildor Inglorion, a noble Elf of the House of Finrod, is a wandering lord of great wisdom and insight. Though not bound to Rivendell, his journeys across Middle-earth make him a vital messenger and emissary for the Elves. Gildor’s keen perception and steadfast loyalty to his kin allow him to navigate the dangers of the wilds and aid those in need. He is known for his hospitality and kindness, offering counsel and protection to travelers who cross his path. Gildor embodies the enduring spirit of the Elves, ever watchful and ever faithful to the light in a world shadowed by darkness." />
+
+	<Hero
+		id="lord_1_1_17"
+		faction="Faction.clan_empire_north_5" />
+	<Hero
+		id="lord_1_50"
+		faction="Faction.clan_empire_north_5" />
+	<Hero
+		id="lord_1_66"
+		faction="Faction.clan_empire_north_5" />
+	<!-- Empire north 6 -->
+	<Hero
+		id="lord_1_1_15"
+		spouse="Hero.lord_1_67"
+		faction="Faction.clan_empire_north_6" />
+	<Hero
+		id="lord_1_1_16"
+		father="Hero.lord_1_67"
+		mother="Hero.lord_1_1_15"
+		faction="Faction.clan_empire_north_6" />
+	<Hero
+		id="lord_1_51"
+		faction="Faction.clan_empire_north_6"
+		text="{=glorfindel_description}Glorfindel, the mighty Elf-lord of Rivendell, is renowned for his unmatched valor and strength. Having faced the terror of Balrogs and returned from the halls of Mandos, he is a living legend among the Elves of Middle-earth. His wisdom and power are equaled only by his compassion and dedication to the protection of Rivendell and its allies. As a warrior, Glorfindel’s skill is unrivaled, and his presence on the battlefield inspires awe and courage in those who stand with him." />
+
+	<Hero
+		id="lord_1_67"
+		faction="Faction.clan_empire_north_6" />
+	<!-- Phalentes, clan North 7 -->
+	<Hero
+		id="lord_1_58"
+		faction="Faction.clan_empire_north_7"
+		text="{=erestor_description}Erestor, the chief counselor of Rivendell, is a figure of profound wisdom and insight. Trusted by Elrond for his strategic mind and sound judgment, he plays a vital role in the governance and protection of Rivendell. Erestor’s knowledge of lore and history is unparalleled, making him an invaluable advisor in the fight against Sauron. Though not a warrior, his contributions to the cause are no less significant, as his counsel has shaped many pivotal decisions in the struggle for Middle-earth’s future." />
+
+	<Hero
+		id="lord_1_70"
+		faction="Faction.clan_empire_north_7" />
+	<Hero
+		id="lord_NE7_u"
+		faction="Faction.clan_empire_north_7" />
+	<!-- Empire north 8 - Vatatzes-->
+	<Hero
+		id="lord_NE8_l"
+		spouse="Hero.lord_NE8_s"
+		faction="Faction.clan_empire_north_8"
+		text="{=lindir_description}Lindir, a minstrel of Rivendell, is celebrated for his poetic talent and love of music. A voice of peace and harmony, he brings comfort and joy to the halls of Rivendell during times of darkness. Though less involved in the affairs of war, Lindir’s role is no less important, as his songs preserve the history and culture of the Elves. His artistry serves as a reminder of what is worth fighting for, inspiring hope in the hearts of those who listen." />
+
+	<Hero
+		id="lord_NE8_s"
+		spouse="Hero.lord_NE8_l"
+		faction="Faction.clan_empire_north_8" />
+	<Hero
+		id="lord_NE8_c1"
+		father="Hero.lord_NE8_l"
+		mother="Hero.lord_NE8_s"
+		faction="Faction.clan_empire_north_8" />
+	<Hero
+		id="lord_NE8_c2"
+		father="Hero.lord_NE8_l"
+		mother="Hero.lord_NE8_s"
+		faction="Faction.clan_empire_north_8" />
+	<Hero
+		id="lord_1_56"
+		spouse="Hero.lord_1_56_1"
+		faction="Faction.clan_empire_north_8" />
+	<Hero
+		id="lord_1_56_1"
+		spouse="Hero.lord_1_56"
+		faction="Faction.clan_empire_north_8" />
+	<!-- Empire north 9 - Serapides-->
+	<Hero
+		id="lord_NE9_l"
+		faction="Faction.clan_empire_north_9"
+		text="{=melpomaen_description}Melpomaen, a scribe and scholar of Rivendell, dedicates his life to the preservation of knowledge and the study of lore. Quiet and contemplative, he spends his days in the vast libraries of Rivendell, ensuring that the wisdom of the Eldar is not lost to time. Melpomaen’s careful records and insights are vital to Elrond’s counsel, as his knowledge of ancient texts and prophecies aids in the fight against the growing darkness. Though he wields no weapon, his intellect and diligence are a weapon in their own right." />
+
+	<Hero
+		id="lord_NE9_s"
+		father="Hero.lord_NE9_l"
+		faction="Faction.clan_empire_north_9" />
+	<Hero
+		id="lord_NE9_d"
+		father="Hero.lord_NE9_l"
+		faction="Faction.clan_empire_north_9" />
+
+
+	<!-- Empire west 1 -->
+	<Hero
+		id="lord_1_7"
+		faction="Faction.clan_empire_west_1"
+		text="{=niI9dpuu}Denethor II, the Steward of Gondor, rules Minas Tirith with unwavering authority and a deep-seated duty to protect his people. Known for his strategic mind and devotion to Gondor, Denethor commands respect yet inspires caution, as his decisions are often pragmatic and unyielding. He emphasizes strength, duty, and the survival of Gondor above all else, demanding loyalty and readiness to defend the realm against ever-present threats from Mordor." />
+	<Hero
+		id="lord_1_75"
+		father="Hero.lord_1_7"
+		faction="Faction.clan_empire_west_1"
+		text="{=boromir_description}Boromir, the eldest son of Denethor II, Steward of Gondor, is a proud and valiant warrior dedicated to the defense of his homeland. Renowned for his strength, leadership, and courage in battle, he serves as Gondor's foremost champion against the shadow encroaching from Mordor. Boromir’s unyielding commitment to protecting his people and preserving Gondor’s legacy has earned him the respect of soldiers and citizens alike. Though his heart is burdened by the immense responsibility he carries, his bravery and loyalty make him a beacon of hope for his people." />
+	<!-- Empire west 2 -->
+	<Hero
+		id="lord_1_9"
+		spouse="Hero.lord_1_9_5"
+		faction="Faction.clan_empire_west_2"
+		text="{=imrahil_description}Imrahil, Prince of Dol Amroth, is a beacon of chivalry and valor in Gondor. Renowned for his unmatched courage and noble bearing, he leads the Swan Knights with honor and distinction. Imrahil’s wisdom and diplomacy make him a vital ally in Gondor’s struggle against the shadow. His loyalty to the House of Elessar and his tireless defense of his people ensure his place as one of Gondor’s most revered leaders." />
+	<Hero
+		id="lord_1_9_1"
+		father="Hero.lord_1_9"
+		mother="Hero.lord_1_9_5"
+		faction="Faction.clan_empire_west_2" />
+	<Hero
+		id="lord_1_9_2"
+		father="Hero.lord_1_9"
+		mother="Hero.lord_1_9_5"
+		faction="Faction.clan_empire_west_2" />
+	<Hero
+		id="lord_1_9_3"
+		father="Hero.lord_1_9"
+		mother="Hero.lord_1_9_5"
+		faction="Faction.clan_empire_west_2" />
+	<Hero
+		id="lord_1_9_4"
+		father="Hero.lord_1_9"
+		mother="Hero.lord_1_9_5"
+		faction="Faction.clan_empire_west_2" />
+	<Hero
+		id="lord_1_9_5"
+		spouse="Hero.lord_1_9"
+		faction="Faction.clan_empire_west_2" />
+	<!-- Empire west 3 -->
+	<Hero
+		id="lord_1_11"
+		faction="Faction.clan_empire_west_3" />
+	<Hero
+		id="lord_1_11_1"
+		father="Hero.lord_1_11"
+		faction="Faction.clan_empire_west_3" />
+	<Hero
+		id="lord_1_11_2"
+		father="Hero.lord_1_11"
+		faction="Faction.clan_empire_west_3" />
+	<Hero
+		id="lord_1_11_3"
+		father="Hero.lord_1_11"
+		faction="Faction.clan_empire_west_3" />
+	<Hero
+		id="lord_1_11_4"
+		father="Hero.lord_1_11"
+		faction="Faction.clan_empire_west_3" />
+	<Hero
+		id="lord_1_11_5"
+		father="Hero.lord_1_11"
+		faction="Faction.clan_empire_west_3" />
+	<!-- empire west 4 -->
+	<Hero
+		id="lord_1_40"
+		spouse="Hero.lord_1_40_1"
+		faction="Faction.clan_empire_west_4"
+		text="{=dervorin_description}Dervorin, son of the Lord of the Ringló Vale, is a steadfast and loyal noble of Gondor. Hailing from Ethring in the fertile Ringló Vale, Dervorin embodies the resilience and dedication of the people of southern Gondor. Though not as renowned as the lords of Minas Tirith or Dol Amroth, Dervorin and his family have long served as guardians of the lands that bridge Gondor’s heartland with its western reaches. When called to aid in the defense of Minas Tirith, he answered without hesitation, leading his men with courage and resolve. Dervorin is known for his quiet strength, devotion to duty, and unwavering loyalty to the Steward of Gondor. He may not seek glory, but his presence on the battlefield is a testament to the unity and resolve of all who stand against the shadow threatening their land." />
+	<Hero
+		id="lord_1_40_1"
+		spouse="Hero.lord_1_40"
+		faction="Faction.clan_empire_west_4" />
+	<Hero
+		id="lord_1_46"
+		faction="Faction.clan_empire_west_4" />
+	<Hero
+		id="lord_1_46_1"
+		father="Hero.lord_1_46"
+		faction="Faction.clan_empire_west_4" />
+	<!-- empire west 5 -->
+	<Hero
+		id="lord_1_45"
+		spouse="Hero.lord_1_45_1"
+		faction="Faction.clan_empire_west_5"
+		text="{=forlong_the_fat_description}Forlong the Fat, Lord of Lossarnach, is a larger-than-life figure both in stature and presence. Despite his jovial demeanor and advanced age, Forlong’s strength and bravery are legendary. He leads the men of Lossarnach with passion and unshakable loyalty to Gondor, proving that valor knows no bounds. His boisterous laughter and hearty spirit are as vital in battle as his sword, inspiring his warriors to fight with unmatched zeal." />
+
+	<Hero
+		id="lord_1_45_1"
+		spouse="Hero.lord_1_45"
+		faction="Faction.clan_empire_west_5" />
+	<Hero
+		id="lord_1_45_2"
+		father="Hero.lord_1_45"
+		mother="Hero.lord_1_45_1"
+		faction="Faction.clan_empire_west_5" />
+	<Hero
+		id="lord_1_45_3"
+		father="Hero.lord_1_45"
+		mother="Hero.lord_1_45_1"
+		faction="Faction.clan_empire_west_5" />
+	<Hero
+		id="lord_1_45_4"
+		father="Hero.lord_1_45"
+		mother="Hero.lord_1_45_1"
+		faction="Faction.clan_empire_west_5" />
+	<Hero
+		id="lord_1_45_5"
+		father="Hero.lord_1_45"
+		mother="Hero.lord_1_45_1"
+		faction="Faction.clan_empire_west_5" />
+	<Hero
+		id="lord_1_45_6"
+		father="Hero.lord_1_45"
+		mother="Hero.lord_1_45_1"
+		faction="Faction.clan_empire_west_5" />
+	<Hero
+		id="lord_1_57"
+		spouse="Hero.lord_1_57_1"
+		faction="Faction.clan_empire_west_5" />
+	<Hero
+		id="lord_1_57_1"
+		spouse="Hero.lord_1_57"
+		faction="Faction.clan_empire_west_5" />
+	<Hero
+		id="lord_1_57_2"
+		father="Hero.lord_1_57"
+		mother="Hero.lord_1_57_1"
+		faction="Faction.clan_empire_west_5" />
+	<!-- empire west 6 -->
+	<Hero
+		id="lord_1_52"
+		spouse="Hero.lord_1_52_4"
+		faction="Faction.clan_empire_west_6"
+		text="{=hirluin_the_fair_description}Hirluin the Fair, Lord of Pinnath Gelin, is a paragon of honor and grace. His golden hair and noble bearing set him apart, earning him the admiration of both his people and allies. Hirluin leads the green-cloaked warriors of Pinnath Gelin with unwavering dedication, bringing hope and beauty to the battlefield. His commitment to the cause of Gondor and his undying faith in its future make him a beloved and respected leader." />
+
+	<Hero
+		id="lord_1_52_1"
+		father="Hero.lord_1_52"
+		mother="Hero.lord_1_52_4"
+		faction="Faction.clan_empire_west_6" />
+	<Hero
+		id="lord_1_52_2"
+		father="Hero.lord_1_52"
+		mother="Hero.lord_1_52_4"
+		faction="Faction.clan_empire_west_6" />
+	<Hero
+		id="lord_1_52_3"
+		father="Hero.lord_1_52"
+		mother="Hero.lord_1_52_4"
+		faction="Faction.clan_empire_west_6" />
+	<Hero
+		id="lord_1_52_4"
+		spouse="Hero.lord_1_52"
+		faction="Faction.clan_empire_west_6" />
+	<!-- empire west 7 -->
+	<Hero
+		id="lord_1_53"
+		faction="Faction.clan_empire_west_7"
+		text="{=angbor_the_fearless_description}Angbor the Fearless, Lord of Lamedon, is renowned for his unyielding courage and defiance in the face of adversity. His resolve is unshakable, even when hope seems lost. Angbor rallies the men of Lamedon with fiery speeches and a bold heart, earning him the respect of warriors across Gondor. His leadership in times of dire need has solidified his reputation as one of Gondor’s most daring and resilient leaders." />
+	<Hero
+		id="lord_1_53_1"
+		father="Hero.lord_1_53"
+		faction="Faction.clan_empire_west_7" />
+	<Hero
+		id="lord_1_53_2"
+		father="Hero.lord_1_53"
+		faction="Faction.clan_empire_west_7" />
+	<Hero
+		id="lord_1_53_3"
+		father="Hero.lord_1_53"
+		faction="Faction.clan_empire_west_7" />
+	<!-- Maneolis, clan West 8 -->
+	<Hero
+		id="lord_1_71"
+		spouse="Hero.lord_1_71_1"
+		faction="Faction.clan_empire_west_8"
+		text="{=golasgil_description}Golasgil, Lord of Anfalas, is a steadfast protector of Gondor’s coastal lands. Though his warriors are fewer and less equipped than others, Golasgil’s determination to defend his people against the forces of darkness is unrelenting. Known for his resourcefulness and ability to inspire loyalty among his followers, he embodies the enduring strength of Gondor’s defenders. His presence is a reminder that every corner of Gondor stands united against the shadow." />
+	<Hero
+		id="lord_1_71_1"
+		spouse="Hero.lord_1_71"
+		faction="Faction.clan_empire_west_8" />
+	<Hero
+		id="lord_WE8_c"
+		faction="Faction.clan_empire_west_8" />
+	<Hero
+		id="lord_WE8_u"
+		faction="Faction.clan_empire_west_8" />
+	<!-- Palladios, somewhat dull clan leader, his politically astute sister and her husband-->
+	<Hero
+		id="lord_WE9_l"
+		faction="Faction.clan_empire_west_9"
+		text="{=duinhir_description}Having fought back against the incursions of Mordor for almost four decades, the elderly Lord Duinhir is regarded as a masterful strategist and staunch defender of Gondor. To the anger of him and many of his folk, the war has now reached even the remote reaches of the Blackroot Vale, his home, with many an orc attack coming from the White Mountains. To retaliate against these vile foes and to honor his pledge to the Steward, he set out with his sons, Duilin and Derufin, as their hour of fate draws ever closer. A fate, that is yet to be decided!" />
+	<Hero
+		id="lord_WE9_l_1"
+		father="Hero.lord_WE9_l"
+		faction="Faction.clan_empire_west_9" />
+	<Hero
+		id="lord_WE9_l_2"
+		father="Hero.lord_WE9_l"
+		faction="Faction.clan_empire_west_9" />
+	<Hero
+		id="lord_1_59"
+		spouse="Hero.lord_1_59_1"
+		faction="Faction.clan_empire_west_10" />
+	<Hero
+		id="lord_1_59_1"
+		spouse="Hero.lord_1_59"
+		alive="false"
+		faction="Faction.clan_empire_west_10" />
+	<Hero
+		id="lord_1_59_2"
+		father="Hero.lord_1_59"
+		mother="Hero.lord_1_59_1"
+		faction="Faction.clan_empire_west_10" />
+	<Hero
+		id="lord_1_59_3"
+		father="Hero.lord_1_59"
+		mother="Hero.lord_1_59_1"
+		faction="Faction.clan_empire_west_10" />
+	<Hero
+		id="lord_1_60"
+		spouse="Hero.lord_1_60_1"
+		faction="Faction.clan_empire_west_11"
+		text="{=tirnelion_description}Born into the noble line of the House of Elatanionath, Tirnelion can trace his mighty ancestry back to the ancient island kingdom of Númenor and has ever been a most noble and honorable vassal of Lord Denethor. Now, as the shadow in the east grows longer and his days grow old, he once again must take up arms, defend his liege and be the northernmost bulwark against the incoming tidal wave of darkness. And yet, through these dark days, hope remains and the banners of Lord Tirnelion may fly high once more." />
+	<Hero
+		id="lord_1_60_1"
+		spouse="Hero.lord_1_60"
+		faction="Faction.clan_empire_west_11"
+		text="{=rosfin_description}Lady Rosfin, often dubbed 'The Golden Seagull', is regarded as fair and just throughout all of Gondor. Bearing the resemblance and vigor of the folk of old Númenor, Lady Rosfin's keen sense of duty and her talents in all things managerial have often times made sure that Cair Andros and in turn its inhabitants, survived. As her husband rides off to war once more, it is upon her and her son to see to the defense of Cair Andros, the most crucial river-crossing of the Anduin." />
+	<Hero
+		id="lord_1_60_2"
+		father="Hero.lord_1_60"
+		mother="Hero.lord_1_60_1"
+		faction="Faction.clan_empire_west_11"
+		text="{=galdor_description}Following in the footsteps of a father is seldom easy. However, following in the footsteps of a well-respected and veteran nobleman of Gondor such as Lord Tirnelion is even harder. Yet Galdor, Son of Tirnelion and next in line to the ancestral seat of the House of Elatanionath on Cair Andros has done his share. Trained in the martial arts and military philosophy of Gondor since he was a child, this young general is set to make a name for himself before long. And he must, as the armies of Sauron and the wild men from beyond the dry deserts of Harad draw nearer by the day. It is now upon the young and mighty to take command of ancient Gondor and lead her back to the days of old glory." />
+	<Hero
+		id="lord_1_34"
+		father="Hero.lord_1_7"
+		faction="Faction.clan_empire_west_12"
+		text="{=faramir_description}Faramir, the younger son of Denethor II and brother of Boromir, is a scholar and warrior of great wisdom and compassion. Unlike his brother’s bold and brash demeanor, Faramir possesses a reflective and measured nature, often seeking understanding and diplomacy over conflict. His skill as a ranger and leader of the Ithilien Guard is unmatched, and his unwavering dedication to Gondor’s defense is a testament to his love for his homeland. Faramir’s strength lies not only in his prowess with a blade but in his ability to inspire loyalty and hope, even in the darkest of times." />
+
+
+	<!-- EMPIRE SOUTH 1 -->
+	<Hero
+		id="lord_1_14"
+		faction="Faction.clan_empire_south_1"
+		text="{=sauron_description}Sauron, the Dark Lord of Mordor, is the embodiment of malice and domination in Middle-earth. Once a servant of the Vala Aulë, he turned to evil under the influence of Morgoth and has since sought to bring all free peoples under his iron rule. His will is bound to the One Ring, through which he extends his influence and terror across the lands. Sauron’s cunning, patience, and immense power make him a nearly unstoppable force, driving fear into the hearts of all who oppose him. From his dark tower of Barad-dûr, he commands legions of orcs, men, and other foul creatures, all bent on extinguishing the light of hope in Middle-earth." />
+	<Hero
+		id="lord_1_27"
+		spouse="Hero.lord_1_27_1"
+		faction="Faction.clan_empire_south_1" />
+	<Hero
+		id="lord_1_27_1"
+		spouse="Hero.lord_1_27"
+		faction="Faction.clan_empire_south_1" />
+	<Hero
+		id="lord_1_27_2"
+		father="Hero.lord_1_27"
+		mother="Hero.lord_1_27_1"
+		faction="Faction.clan_empire_south_1" />
+	<Hero
+		id="lord_1_27_3"
+		father="Hero.lord_1_27"
+		mother="Hero.lord_1_27_1"
+		faction="Faction.clan_empire_south_1" />
+	<Hero
+		id="lord_1_37"
+		mother="Hero.lord_1_14"
+		faction="Faction.clan_empire_south_1"
+		text="{=ZwavTRcF}Ira is the daughter of Rhagaea, one of the three claimants to the imperial throne, and the slain emperor Arenicos. At one point, her father appeared to be grooming her as his heir. But though she took well to military campaigns, she also displayed a wild side unbecoming of imperial dignity, carousing in taverns with other young aristocrats and even appearing in the arenas as a gladiator. She is Rhagaea's heir-apparent, but her mother makes no secret of wishing to find her a responsible consort to ensure the continuity of the dynasty." />
+	<Hero
+		id="lord_1_47"
+		spouse="Hero.lord_1_47_1"
+		faction="Faction.clan_empire_south_1" />
+	<Hero
+		id="lord_1_47_1"
+		spouse="Hero.lord_1_47"
+		faction="Faction.clan_empire_south_1" />
+	<Hero
+		id="lord_1_47_2"
+		father="Hero.lord_1_47"
+		mother="Hero.lord_1_47_1"
+		faction="Faction.clan_empire_south_1" />
+	<Hero
+		id="lord_1_47_3"
+		father="Hero.lord_1_47"
+		mother="Hero.lord_1_47_1"
+		faction="Faction.clan_empire_south_1" />
+	<!-- empire south 2 -->
+	<Hero
+		id="lord_1_15"
+		faction="Faction.clan_empire_south_2"
+		text="{=witch_king_description}The Witch-king of Angmar, the leader of the Nazgûl and Sauron’s most powerful servant, is a being of pure terror and malice. Once a great king of men, he succumbed to the power of a Ring of Power and became a wraith enslaved to Sauron’s will. Commanding the forces of Mordor, he spreads destruction and fear across Middle-earth. From his dread steed to his chilling presence on the battlefield, the Witch-king’s name alone strikes fear into the hearts of his enemies. Bound by prophecy, his fate is tied to the ultimate struggle between light and shadow in Middle-earth." />
+	<Hero
+		id="lord_1_155"
+		faction="Faction.clan_empire_south_2"
+		text="{=nazgul_shadow_haradrim_description}The Shadow of Haradrim was once a mighty chieftain from the deserts of Harad, his strength and cunning unmatched in his time. Drawn to Sauron's promises of eternal glory, he accepted the power of the Ring and fell into darkness. Now a Nazgûl, he rides at the forefront of Mordor’s armies, a harbinger of doom to the free peoples of Middle-earth. The Shadow of Haradrim brings the wrath of the south to bear, his presence an unrelenting reminder of Sauron’s reach and power." />
+
+	<Hero
+		id="lord_1_16"
+		faction="Faction.clan_empire_south_2"
+		text="{=nazgul_shadow_dunlendings_description}The Shadow of Dunlendings, a fearsome Nazgûl, once ruled over the wild and unruly clans of Dunland. His dominion was forged through cruelty and strength, but in death, he became a servant of Sauron, bound eternally to the Dark Lord's will. Cloaked in shadow, he brings terror to the battlefield, his presence a reminder of the cost of opposing the power of Mordor. The Shadow of Dunlendings strikes fear into the hearts of his enemies, his dark will commanding obedience from even the most savage of warriors." />
+
+	<Hero
+		id="lord_1_28"
+		faction="Faction.clan_empire_south_2"
+		text="{=nazgul_shadow_numenor_description}The Shadow of Númenor was once a ruler among the great seafarers of Númenor, a man of immense power and ambition. Seduced by Sauron’s promises of immortality, he became one of the first to fall under the sway of the Dark Lord. As a Nazgûl, he is a harbinger of despair, his presence spreading fear and hopelessness among his enemies. Though his body has long since faded, his will remains bound to Sauron, a dark reflection of the might and majesty of Númenor's tragic fall." />
+
+	<Hero
+		id="lord_1_38"
+		faction="Faction.clan_empire_south_2"
+		text="{=nazgul_shadow_dunedain_description}The Shadow of Dúnedain was once a noble and proud chieftain of the northern realms, his lineage traced back to the ancient kings of Arnor. Corrupted by the lure of power and the promises of Sauron, he fell into shadow, his honor twisted into malice. Now, as a Nazgûl, he wields his dark influence against those he once swore to protect, his spectral presence a haunting echo of the greatness that was lost. The Shadow of Dúnedain stands as a grim reminder of the peril of ambition untempered by wisdom." />
+
+	<Hero
+		id="lord_1_48"
+		spouse="Hero.lord_1_48_1"
+		faction="Faction.clan_empire_south_2"
+		text="{=khamul_description}Khamûl, the Shadow of the East, is second only to the Witch-king among the Nazgûl. Known for his relentless pursuit of the One Ring, Khamûl is a master tracker and enforcer of Sauron’s will in the eastern lands. His presence inspires dread, and his ability to sense the Ring’s power makes him a key player in Sauron’s schemes. Khamûl’s loyalty to the Dark Lord is unwavering, and his shadow looms large over all who oppose Mordor." />
+
+	<Hero
+		id="lord_1_48_1"
+		faction="Faction.clan_empire_south_2"
+		text="{=nazgul_shadow_numenor_description}The Shadow of Númenor was once a ruler among the great seafarers of Númenor, a man of immense power and ambition. Seduced by Sauron’s promises of immortality, he became one of the first to fall under the sway of the Dark Lord. As a Nazgûl, he is a harbinger of despair, his presence spreading fear and hopelessness among his enemies. Though his body has long since faded, his will remains bound to Sauron, a dark reflection of the might and majesty of Númenor's tragic fall." />
+
+	<Hero
+		id="lord_1_48_2"
+		faction="Faction.clan_empire_south_2"
+		text="{=nazgul_shadow_northmen_description}The Shadow of Northmen was once a revered warlord among the men of Rhovanion, leading his people with strength and wisdom. Yet his desire for power led him into Sauron’s service, and he succumbed to the darkness of the Ring. Now a Nazgûl, he serves as an instrument of terror, his spectral blade bringing ruin to the enemies of Mordor. The Shadow of Northmen fights with relentless fury, his corrupted spirit forever bound to the will of the Dark Lord." />
+
+	<Hero
+		id="lord_1_48_3"
+		faction="Faction.clan_empire_south_2"
+		text="{=nazgul_shadow_umbar_description}The Shadow of Umbar was once a formidable Corsair captain, feared across the seas for his ruthless conquests and insatiable greed. Entranced by the allure of the Ring’s power, he willingly fell into Sauron’s grasp. As a Nazgûl, he wields his dark influence to command legions of evil, his spectral form a terrifying presence on both land and sea. The Shadow of Umbar spreads chaos and destruction in the name of the Dark Lord, his undying loyalty bound by the unbreakable power of Sauron’s will." />
+
+	<!-- empire south 3 -->
+	<Hero
+		id="lord_1_177"
+		father="Hero.lord_1_17"
+		mother="Hero.lord_1_18"
+		faction="Faction.clan_empire_south_3" />
+	<Hero
+		id="lord_1_29"
+		father="Hero.lord_1_17"
+		mother="Hero.lord_1_18"
+		faction="Faction.clan_empire_south_3" />
+	<Hero
+		id="lord_1_17"
+		spouse="Hero.lord_1_18"
+		faction="Faction.clan_empire_south_3"
+		text="{=saruman_description}Saruman the White, once the chief of the Istari and head of the White Council, fell from grace in his quest for power and knowledge. Once a wise and noble guide, he became consumed by envy and the desire to rival Sauron. Taking residence in Orthanc, he amassed his own army, twisting the wild men of Dunland and breeding a new race of Uruk-hai to serve his ambitions. Saruman’s silver tongue and intellect mask his treachery, and he uses his cunning to manipulate others to his will. Though he seeks to become the master of Middle-earth, his path is one of corruption and downfall." />
+
+	<Hero
+		id="lord_1_18"
+		spouse="Hero.lord_1_17"
+		faction="Faction.clan_empire_south_3" />
+	<Hero
+		id="lord_1_39"
+		father="Hero.lord_1_17"
+		mother="Hero.lord_1_18"
+		faction="Faction.clan_empire_south_3" />
+	<!-- South 4: Hongeros -->
+	<Hero
+		id="lord_1_30"
+		spouse="Hero.lord_1_30_1"
+		faction="Faction.clan_empire_south_4"
+		text="{=gothmog_description}Gothmog, the Lieutenant of Morgul, is a cunning and ruthless commander in Sauron’s forces. Little is known of his origins, but his strategic brilliance and cruelty are well-documented. Gothmog is the architect of many of Mordor’s campaigns, orchestrating the siege of Minas Tirith and leading the orc hordes into battle. His cold, calculating demeanor makes him a vital asset to Sauron, feared and respected by even the most brutal of Mordor’s soldiers." />
+
+	<Hero
+		id="lord_1_30_1"
+		spouse="Hero.lord_1_30"
+		faction="Faction.clan_empire_south_4" />
+	<Hero
+		id="lord_1_49"
+		spouse="Hero.lord_1_49_1"
+		faction="Faction.clan_empire_south_4" />
+	<Hero
+		id="lord_1_49_1"
+		spouse="Hero.lord_1_49"
+		faction="Faction.clan_empire_south_4" />
+	<Hero
+		id="lord_1_49_2"
+		father="Hero.lord_1_49"
+		mother="Hero.lord_1_49_1"
+		faction="Faction.clan_empire_south_4" />
+	<Hero
+		id="lord_1_30_2"
+		father="Hero.lord_1_30"
+		mother="Hero.lord_1_30_1"
+		faction="Faction.clan_empire_south_4" />
+	<Hero
+		id="lord_1_30_3"
+		father="Hero.lord_1_30"
+		mother="Hero.lord_1_30_1"
+		faction="Faction.clan_empire_south_4" />
+	<Hero
+		id="lord_1_56_2"
+		father="Hero.lord_1_56"
+		mother="Hero.lord_1_56_1"
+		faction="Faction.clan_empire_south_4" />
+	<!-- South 5:  -->
+	<Hero
+		id="lord_1_63_2"
+		father="Hero.lord_1_63"
+		mother="Hero.lord_1_63_1"
+		faction="Faction.clan_empire_south_5" />
+	<Hero
+		id="lord_1_63_3"
+		father="Hero.lord_1_63"
+		mother="Hero.lord_1_63_1"
+		faction="Faction.clan_empire_south_5" />
+	<Hero
+		id="lord_1_63"
+		spouse="Hero.lord_1_63_1"
+		faction="Faction.clan_empire_south_5"
+		text="{=gorbag_description}Gorbag, an orc captain stationed at Minas Morgul, is as scheming as he is brutal. Like many orcs, Gorbag is ambitious and often at odds with his peers, but his knack for survival and command keeps him in Sauron’s favor. He relishes the chaos of battle and takes great pleasure in tormenting his enemies, embodying the savage cruelty of Mordor’s forces." />
+
+	<Hero
+		id="lord_1_63_1"
+		spouse="Hero.lord_1_63"
+		faction="Faction.clan_empire_south_5" />
+	<Hero
+		id="lord_1_74"
+		spouse="Hero.lord_1_74_1"
+		faction="Faction.clan_empire_south_5" />
+	<Hero
+		id="lord_1_74_1"
+		spouse="Hero.lord_1_74"
+		faction="Faction.clan_empire_south_5" />
+	<!-- South 6:  -->
+	<Hero
+		id="lord_1_54"
+		spouse="Hero.lord_1_54_1"
+		faction="Faction.clan_empire_south_6"
+		text="{=shagrat_description}Shagrat, the captain of the Tower of Cirith Ungol, is a cunning and opportunistic leader of Mordor’s orcs. Tasked with guarding the pass leading into the heart of Mordor, Shagrat commands his troops with an iron fist, though internal power struggles are common among his kind. Despite his brutish nature, he is a capable tactician and fiercely loyal to Sauron, ensuring that no intruders make it past his watch." />
+
+	<Hero
+		id="lord_1_54_1"
+		spouse="Hero.lord_1_54"
+		faction="Faction.clan_empire_south_6" />
+	<Hero
+		id="lord_1_68"
+		spouse="Hero.lord_1_68_1"
+		faction="Faction.clan_empire_south_6" />
+	<Hero
+		id="lord_1_68_1"
+		spouse="Hero.lord_1_68"
+		faction="Faction.clan_empire_south_6" />
+	<!-- South 7: Avlonos -->
+	<Hero
+		id="lord_1_69_2"
+		father="Hero.lord_1_69"
+		mother="Hero.lord_1_69_1"
+		faction="Faction.clan_empire_south_7" />
+	<Hero
+		id="lord_1_69"
+		spouse="Hero.lord_1_69_1"
+		faction="Faction.clan_empire_south_7" />
+	<Hero
+		id="lord_1_69_1"
+		spouse="Hero.lord_1_69"
+		faction="Faction.clan_empire_south_7" />
+	<Hero
+		id="lord_1_55"
+		spouse="Hero.lord_1_55_1"
+		faction="Faction.clan_empire_south_7"
+		text="{=herumor_description}Herumor, a Black Númenórean of great ambition and cunning, is one of Sauron’s most trusted lieutenants among the Men of Mordor. His descent from Númenor lends him an air of nobility, but his heart is steeped in darkness. Herumor is a master of manipulation and diplomacy, skilled in bending weaker minds to Sauron’s will. He is a dangerous figure, using both his sword and his words to further the Dark Lord’s dominion." />
+
+	<Hero
+		id="lord_1_55_1"
+		spouse="Hero.lord_1_55"
+		faction="Faction.clan_empire_south_7" />
+	<!-- South 8: Prienicos -->
+	<Hero
+		id="lord_1_72"
+		spouse="Hero.lord_1_72_1"
+		faction="Faction.clan_empire_south_8"
+		text="{=bolg_description}Bolg, the son of Azog the Defiler, is a towering orc chieftain and one of Sauron’s most ferocious warriors. Leading armies of orcs and trolls from Dol Guldur, he is renowned for his savage strength and bloodlust. Bolg is a relentless pursuer of his enemies, often striking fear into the hearts of those who oppose Mordor. His brutal tactics and unyielding loyalty to Sauron make him a fearsome force on the battlefield." />
+
+	<Hero
+		id="lord_1_72_1"
+		spouse="Hero.lord_1_72"
+		faction="Faction.clan_empire_south_8" />
+	<Hero
+		id="lord_SE8_c"
+		faction="Faction.clan_empire_south_8" />
+	<!-- Vetranis, older patriarch was a child of a traitor, was rehabilitated by Arenicos-->
+	<Hero
+		id="lord_SE9_l"
+		spouse="Hero.lord_SE9_s"
+		faction="Faction.clan_empire_south_9"
+		text="{=grishnakh_description}Grishnákh, a devious and self-serving orc captain, is often assigned to missions requiring subtlety and cunning. While his ambitions sometimes lead him to question orders, his survival instincts ensure that he remains a useful tool in Sauron’s arsenal. Grishnákh’s sharp mind and cruel wit make him a dangerous adversary, often underestimated by his enemies." />
+
+	<Hero
+		id="lord_SE9_s"
+		spouse="Hero.lord_SE9_l"
+		faction="Faction.clan_empire_south_9" />
+	<Hero
+		id="lord_SE9_c1"
+		father="Hero.lord_SE9_l"
+		mother="Hero.lord_SE9_s"
+		faction="Faction.clan_empire_south_9" />
+	<Hero
+		id="lord_SE9_c2"
+		father="Hero.lord_SE9_l"
+		mother="Hero.lord_SE9_s"
+		faction="Faction.clan_empire_south_9" />
+	<!-- STURGIA - Gundaroving -->
+	<Hero
+		id="lord_2_1"
+		spouse="Hero.lord_2_2"
+		faction="Faction.clan_sturgia_1"
+		text="{=bardii_description}Bard II, the steadfast King of Dale, leads his people with wisdom and courage inherited from his forebears. Renowned for his unyielding resolve and sharp strategic mind, Bard II has fortified the defenses of Dale, ensuring the prosperity and safety of his kingdom against growing threats. Under his rule, the warriors of Dale stand as a disciplined and formidable force, their banners of crimson and gold shining as a beacon of hope in the shadow of looming war. Bard II’s commitment to the Free Peoples of Middle-earth drives his efforts to preserve peace and justice, making his name a symbol of strength and unity. Where Bard II leads, the resolve of Dale remains unshaken, and its people stand proud against any who would challenge their freedom." />
+	<Hero
+		id="lord_2_2"
+		spouse="Hero.lord_2_1"
+		faction="Faction.clan_sturgia_1" />
+	<Hero
+		id="lord_2_13_1"
+		father="Hero.lord_2_13"
+		faction="Faction.clan_sturgia_1" />
+	<Hero
+		id="lord_2_13_2"
+		father="Hero.lord_2_13"
+		faction="Faction.clan_sturgia_1" />
+	<Hero
+		id="lord_2_13_3"
+		father="Hero.lord_2_13"
+		faction="Faction.clan_sturgia_1" />
+	<Hero
+		id="lord_2_13_4"
+		father="Hero.lord_2_13"
+		faction="Faction.clan_sturgia_1" />
+	<Hero
+		id="lord_2_7"
+		father="Hero.lord_2_1"
+		mother="Hero.lord_2_2"
+		faction="Faction.clan_sturgia_1" />
+	<Hero
+		id="lord_2_7_1"
+		father="Hero.lord_2_1"
+		mother="Hero.lord_2_2"
+		faction="Faction.clan_sturgia_1" />
+	<Hero
+		id="lord_2_10"
+		father="Hero.lord_2_1"
+		mother="Hero.lord_2_2"
+		faction="Faction.clan_sturgia_1" />
+	<Hero
+		id="lord_2_13"
+		faction="Faction.clan_sturgia_1" />
+	<!-- Sturgia clan 2 -->
+	<Hero
+		id="lord_2_3"
+		father="Hero.dead_lord_2_1"
+		faction="Faction.clan_sturgia_2"
+		text="{=thorin_iii_description}Thorin III Stonehelm, son of Dáin Ironfoot, carries the weight of Erebor’s future on his shoulders. A skilled warrior and a wise leader, he upholds his father's legacy while forging his own path. Thorin III is deeply respected for his commitment to the defense of Erebor and its people, and his vision for a united dwarven kingdom is admired by his kin. In battle, his presence inspires courage, and in council, his voice is one of measured wisdom. Thorin III stands as a symbol of hope and strength for the dwarves of the Lonely Mountain." />
+	<Hero
+		id="lord_2_4"
+		father="Hero.dead_lord_2_1"
+		faction="Faction.clan_sturgia_2" />
+	<Hero
+		id="lord_2_4_1"
+		mother="Hero.lord_2_4"
+		faction="Faction.clan_sturgia_2" />
+	<Hero
+		id="lord_2_8"
+		father="Hero.lord_2_3"
+		faction="Faction.clan_sturgia_2" />
+	<Hero
+		id="lord_2_11"
+		father="Hero.lord_2_3"
+		faction="Faction.clan_sturgia_2" />
+	<Hero
+		id="lord_2_111"
+		father="Hero.lord_2_3"
+		faction="Faction.clan_sturgia_2" />
+	<!-- Sturgia clan 3 -->
+	<Hero
+		id="lord_2_5"
+		spouse="Hero.lord_2_6"
+		faction="Faction.clan_sturgia_3"
+		text="{=ori_description}Ori, a scribe and adventurer of Erebor, is best known for his devotion to the quest of reclaiming the Lonely Mountain alongside Thorin Oakenshield. A skilled calligrapher and chronicler, Ori recorded many of the events of their journey and the final days of Balin's expedition to Moria. Though not as physically imposing as some of his companions, Ori's courage and loyalty to his kin are undeniable. His steadfastness and intellect make him a valued figure among the dwarves of Erebor, ensuring their stories are preserved for generations to come." />
+	<Hero
+		id="lord_2_6"
+		spouse="Hero.lord_2_5"
+		faction="Faction.clan_sturgia_3" />
+	<Hero
+		id="lord_2_9"
+		father="Hero.lord_2_5"
+		mother="Hero.lord_2_6"
+		faction="Faction.clan_sturgia_3" />
+	<Hero
+		id="lord_2_12"
+		father="Hero.lord_2_5"
+		mother="Hero.lord_2_6"
+		faction="Faction.clan_sturgia_3" />
+	<Hero
+		id="lord_2_121"
+		father="Hero.lord_2_5"
+		mother="Hero.lord_2_6"
+		faction="Faction.clan_sturgia_3" />
+	<!-- Sturgia clan 4 -->
+	<Hero
+		id="lord_2_14"
+		spouse="Hero.lord_2_14_1"
+		faction="Faction.clan_sturgia_4" />
+	<Hero
+		id="lord_2_14_1"
+		spouse="Hero.lord_2_14"
+		faction="Faction.clan_sturgia_4" />
+	<Hero
+		id="lord_2_14_2"
+		father="Hero.lord_2_14"
+		mother="Hero.lord_2_14_1"
+		faction="Faction.clan_sturgia_4" />
+	<Hero
+		id="lord_2_14_3"
+		father="Hero.lord_2_14"
+		mother="Hero.lord_2_14_1"
+		faction="Faction.clan_sturgia_4" />
+	<Hero
+		id="lord_2_16"
+		spouse="Hero.lord_2_16_1"
+		faction="Faction.clan_sturgia_4"
+		text="{=bofur_description}Bofur, a cheerful and kind-hearted dwarf, is a beloved member of the Company of Thorin. Known for his quick wit and optimistic demeanor, Bofur's resilience and loyalty are unwavering. Though he is not of noble lineage, his bravery and determination during the journey to reclaim Erebor earned him great respect among his kin. Whether in battle or at the feasting table, Bofur's presence lifts the spirits of those around him, making him a cherished figure in the halls of Erebor." />
+
+	<Hero
+		id="lord_2_16_1"
+		spouse="Hero.lord_2_16"
+		faction="Faction.clan_sturgia_4" />
+	<Hero
+		id="lord_2_21"
+		spouse="Hero.lord_2_21_1"
+		faction="Faction.clan_sturgia_4" />
+	<Hero
+		id="lord_2_21_1"
+		spouse="Hero.lord_2_21"
+		faction="Faction.clan_sturgia_4" />
+	<!-- Sturgia clan 5 -->
+	<Hero
+		id="lord_2_17"
+		spouse="Hero.lord_2_17_1"
+		faction="Faction.clan_sturgia_5"
+		text="{=thorin_description}Thorin Oakenshield, the exiled king of Erebor, is a figure of immense pride and determination. Driven by a fierce desire to reclaim his homeland, Thorin led the Company on the perilous journey to the Lonely Mountain. Renowned for his skill in battle and unyielding leadership, Thorin embodies the resilience of the dwarven spirit. Yet, his single-minded pursuit of his goals often leads to moments of doubt and conflict. Despite his flaws, Thorin’s bravery and vision remain an inspiration to his people, securing his place as one of the greatest dwarves of the Third Age." />
+
+	<Hero
+		id="lord_2_17_1"
+		spouse="Hero.lord_2_17"
+		faction="Faction.clan_sturgia_5" />
+	<Hero
+		id="lord_2_22"
+		spouse="Hero.lord_2_22_1"
+		faction="Faction.clan_sturgia_5" />
+	<Hero
+		id="lord_2_22_1"
+		spouse="Hero.lord_2_22"
+		faction="Faction.clan_sturgia_5" />
+	<Hero
+		id="lord_2_24"
+		spouse="Hero.lord_2_24_1"
+		faction="Faction.clan_sturgia_5" />
+	<Hero
+		id="lord_2_24_1"
+		spouse="Hero.lord_2_24"
+		faction="Faction.clan_sturgia_5" />
+	<!-- Sturgia clan 6 -->
+	<Hero
+		id="lord_2_18"
+		spouse="Hero.lord_2_18_1"
+		faction="Faction.clan_sturgia_6"
+		text="{=gloin_description}Glóin, a seasoned warrior and skilled craftsman, is one of the proud sons of Durin’s line. Known for his role in Thorin’s Company, Glóin's bravery and loyalty to his kin are unmatched. As a diplomat, he represented Erebor at the Council of Elrond, advocating for unity against the shadow of Sauron. A proud father, Glóin's legacy lives on through his son, Gimli, who carries his courage and resolve. Glóin's contributions to the restoration of Erebor and his dedication to its defense are celebrated throughout the dwarven halls." />
+
+	<Hero
+		id="lord_2_18_1"
+		spouse="Hero.lord_2_18"
+		faction="Faction.clan_sturgia_6" />
+	<Hero
+		id="lord_2_23"
+		faction="Faction.clan_sturgia_6" />
+	<Hero
+		id="lord_2_23_1"
+		father="Hero.lord_2_23"
+		faction="Faction.clan_sturgia_6" />
+	<!-- Sturgia clan 7 -->
+	<Hero
+		id="lord_2_15"
+		faction="Faction.clan_sturgia_7" />
+	<Hero
+		id="lord_2_15_1"
+		father="Hero.lord_2_15"
+		faction="Faction.clan_sturgia_7" />
+	<Hero
+		id="lord_2_15_2"
+		father="Hero.lord_2_15"
+		faction="Faction.clan_sturgia_7" />
+	<Hero
+		id="lord_2_15_3"
+		father="Hero.lord_2_15"
+		faction="Faction.clan_sturgia_7" />
+	<Hero
+		id="lord_2_15_4"
+		father="Hero.lord_2_15"
+		faction="Faction.clan_sturgia_7" />
+	<Hero
+		id="lord_2_19"
+		spouse="Hero.lord_2_19_1"
+		faction="Faction.clan_sturgia_7"
+		text="{=dwalin_description}Dwalin, one of Thorin’s closest and most trusted companions, is a formidable warrior and loyal friend. With his towering presence and unmatched combat prowess, Dwalin has fought valiantly to protect his kin and reclaim Erebor. His stoic demeanor hides a deeply compassionate heart, dedicated to the welfare of his people. Dwalin’s unwavering courage and sense of duty make him a respected leader among the dwarves of the Lonely Mountain, and his contributions to the restoration of their homeland are legendary." />
+
+	<Hero
+		id="lord_2_19_1"
+		spouse="Hero.lord_2_19"
+		faction="Faction.clan_sturgia_7" />
+	<!-- Sturgia clan 8 -->
+	<Hero
+		id="lord_2_20"
+		spouse="Hero.lord_2_20_1"
+		faction="Faction.clan_sturgia_8"
+		text="{=oin_description}Óin, a skilled healer and loyal member of Thorin’s Company, is known for his resourcefulness and dedication to his kin. Though he may prefer to tend to the wounded rather than seek glory in battle, Óin’s courage is undeniable. His contributions to the restoration of Erebor and his wisdom in times of need have earned him the respect and admiration of his fellow dwarves. Quietly resilient, Óin’s steadfastness ensures that the legacy of the dwarves endures." />
+
+	<Hero
+		id="lord_2_20_1"
+		spouse="Hero.lord_2_20"
+		faction="Faction.clan_sturgia_8" />
+	<Hero
+		id="lord_S8_u"
+		faction="Faction.clan_sturgia_8" />
+	<!-- ASERAI clan 1 -->
+	<Hero
+		id="lord_3_1"
+		spouse="Hero.lord_3_2"
+		faction="Faction.clan_aserai_1"
+		text="{=khadurak_description}Khadurak, the Sun Scourge of Harad, commands the armies of the Southlands with unrivaled authority and ruthless ambition. Renowned for his mastery of both strategy and brutality, Khadurak has united the divided tribes of Harad under the banner of the Black Serpent. His warriors, a deadly force of spearmen, archers, and mounted raiders, march with unwavering loyalty, their crimson and gold banners striking fear into all who oppose them. Khadurak’s allegiance to Sauron stems from a shared vision of dominance, as he seeks to expand Harad’s power across Middle-earth. His name is whispered with both reverence and dread, for where Khadurak leads, the desert sun bears witness to conquest and destruction." />
+	<Hero
+		id="lord_3_2"
+		spouse="Hero.lord_3_1"
+		faction="Faction.clan_aserai_1"/>
+		
+	<Hero
+		id="lord_3_7"
+		father="Hero.lord_3_1"
+		mother="Hero.lord_3_2"
+		faction="Faction.clan_aserai_1" />
+	<Hero
+		id="lord_3_10"
+		father="Hero.lord_3_1"
+		mother="Hero.lord_3_2"
+		faction="Faction.clan_aserai_1" />
+	<Hero
+		id="lord_3_13"
+		spouse="Hero.lord_3_13_1"
+		faction="Faction.clan_aserai_1" />
+	<Hero
+		id="lord_3_13_1"
+		spouse="Hero.lord_3_13"
+		faction="Faction.clan_aserai_1" />
+	<Hero
+		id="lord_3_13_2"
+		father="Hero.lord_3_13"
+		mother="Hero.lord_3_13_1"
+		faction="Faction.clan_aserai_1" />
+	<!-- ASERAI clan 2, Banu Sarran-->
+	<Hero
+		id="lord_3_8"
+		father="Hero.lord_3_3"
+		mother="Hero.lord_3_4"
+		faction="Faction.clan_aserai_2" />
+	<Hero
+		id="lord_3_11"
+		father="Hero.lord_3_3"
+		mother="Hero.lord_3_4"
+		faction="Faction.clan_aserai_2" />
+	<Hero
+		id="lord_3_3"
+		spouse="Hero.lord_3_4"
+		faction="Faction.clan_aserai_2"
+		text="{=calemir_description}Calemir, a noble and long-lived Elf of Lothlórien, is a renowned leader and a trusted guardian of the Golden Wood. Known for his sharp mind and unyielding dedication, he serves as a commander of Lothlórien's defenses, ensuring its borders remain impervious to the growing darkness of Middle-earth. Calemir's wisdom, gained from centuries of experience, is matched only by his valor in battle. Though he speaks softly, his words carry the weight of authority, and his presence inspires loyalty among his kin. Fiercely protective of his homeland, Calemir stands as a beacon of hope and strength for the Elves of Lothlórien." />
+
+	<Hero
+		id="lord_3_3_1"
+		father="Hero.lord_3_3"
+		mother="Hero.lord_3_4"
+		faction="Faction.clan_aserai_2" />
+	<Hero
+		id="lord_3_4"
+		spouse="Hero.lord_3_3"
+		faction="Faction.clan_aserai_2" />
+	<!-- ASERAI clan 3, Banu Qild-->
+	<Hero
+		id="lord_3_5"
+		spouse="Hero.lord_3_6"
+		faction="Faction.clan_aserai_3"
+		text="{=haldir_description}Haldir, the skilled and vigilant Marchwarden of Lothlórien, is tasked with guarding the borders of the Golden Wood against any threats. Fiercely loyal to Lady Galadriel and Lord Celeborn, he and his brothers, Rúmil and Orophin, patrol the borders with keen eyes and swift reflexes. Haldir is renowned for his sharp senses, skilled archery, and ability to navigate the forest with stealth. Though often wary of outsiders, he recognizes the importance of alliances and has a deep respect for those who show bravery and honor." />
+
+	<Hero
+		id="lord_3_51"
+		father="Hero.lord_3_5"
+		mother="Hero.lord_3_6"
+		faction="Faction.clan_aserai_3" />
+	<Hero
+		id="lord_3_12"
+		father="Hero.lord_3_5"
+		mother="Hero.lord_3_6"
+		faction="Faction.clan_aserai_3" />
+	<Hero
+		id="lord_3_20"
+		spouse="Hero.lord_3_20_1"
+		faction="Faction.clan_aserai_3" />
+	<Hero
+		id="lord_3_20_1"
+		spouse="Hero.lord_3_20"
+		faction="Faction.clan_aserai_3" />
+	<Hero
+		id="lord_3_20_2"
+		father="Hero.lord_3_20"
+		mother="Hero.lord_3_20_1"
+		faction="Faction.clan_aserai_3" />
+	<Hero
+		id="lord_3_6"
+		spouse="Hero.lord_3_5"
+		faction="Faction.clan_aserai_3" />
+	<Hero
+		id="lord_3_9"
+		father="Hero.lord_3_5"
+		mother="Hero.lord_3_6"
+		faction="Faction.clan_aserai_3" />
+	<!-- Aserai 4 -->
+	<Hero
+		id="lord_3_14"
+		spouse="Hero.lord_3_14_1"
+		faction="Faction.clan_aserai_4" />
+	<Hero
+		id="lord_3_14_1"
+		spouse="Hero.lord_3_14"
+		faction="Faction.clan_aserai_4" />
+	<Hero
+		id="lord_3_15"
+		spouse="Hero.lord_3_15_1"
+		faction="Faction.clan_aserai_4" />
+	<Hero
+		id="lord_3_15_1"
+		spouse="Hero.lord_3_15"
+		faction="Faction.clan_aserai_4" />
+	<Hero
+		id="lord_3_15_2"
+		father="Hero.lord_3_15"
+		mother="Hero.lord_3_15_1"
+		faction="Faction.clan_aserai_4" />
+	<Hero
+		id="lord_3_16"
+		spouse="Hero.lord_3_16_1"
+		faction="Faction.clan_aserai_4"
+		text="{=rumil_description}Rúmil, a brave and watchful guardian of Lothlórien, serves alongside his brothers, Haldir and Orophin, to protect the borders of the Golden Wood. Rúmil is an expert archer and scout, skilled in moving silently through the trees and observing intruders from afar. Though he maintains a calm demeanor, he is fiercely protective of his homeland and the Lady Galadriel. He admires the beauty and tranquility of Lothlórien and is dedicated to ensuring that it remains untouched by the shadow." />
+
+	<Hero
+		id="lord_3_16_1"
+		spouse="Hero.lord_3_16"
+		faction="Faction.clan_aserai_4" />
+	<!-- Aserai 5 -->
+	<Hero
+		id="lord_3_17"
+		spouse="Hero.lord_3_17_1"
+		faction="Faction.clan_aserai_5"
+		text="{=orophin_description}Orophin, a loyal protector of Lothlórien, stands alongside his brothers Haldir and Rúmil in safeguarding the forest's borders. Known for his quiet strength and deep connection to the forest, Orophin possesses both agility and a keen sense of his surroundings, making him an invaluable scout and tracker. His dedication to the Golden Wood is unwavering, and he takes pride in preserving its peace under the guidance of Lady Galadriel and Lord Celeborn." />
+
+	<Hero
+		id="lord_3_17_1"
+		spouse="Hero.lord_3_17"
+		faction="Faction.clan_aserai_5" />
+	<Hero
+		id="lord_3_17_2"
+		father="Hero.lord_3_17"
+		mother="Hero.lord_3_17_1"
+		faction="Faction.clan_aserai_5" />
+	<Hero
+		id="lord_3_21"
+		spouse="Hero.lord_3_21_1"
+		faction="Faction.clan_aserai_5" />
+	<Hero
+		id="lord_3_21_1"
+		spouse="Hero.lord_3_21"
+		faction="Faction.clan_aserai_5" />
+	<!-- Aserai 6, Banu Atij-->
+	<Hero
+		id="lord_3_18"
+		faction="Faction.clan_aserai_6"
+		text="{=aranthon_description}Aranthon, a skilled and wise elven warrior of Lothlórien, is known for his dedication to the safety of his homeland. With a calm but commanding presence, he has served as a mentor to younger elves, guiding them in the arts of archery and forest survival. Aranthon is respected for his insight and strategic mind, and he often accompanies patrols along Lothlórien’s borders to offer guidance and strength." />
+
+	<Hero
+		id="lord_3_18_1"
+		father="Hero.lord_3_18"
+		faction="Faction.clan_aserai_6" />
+	<Hero
+		id="lord_3_18_2"
+		father="Hero.lord_3_18"
+		faction="Faction.clan_aserai_6" />
+	<Hero
+		id="lord_3_18_3"
+		father="Hero.lord_3_18"
+		faction="Faction.clan_aserai_6" />
+	<Hero
+		id="lord_3_18_4"
+		father="Hero.lord_3_18"
+		faction="Faction.clan_aserai_6" />
+	<!-- Aserai 7, Banu Atij-->
+	<Hero
+		id="lord_3_19"
+		spouse="Hero.lord_3_19_1"
+		faction="Faction.clan_aserai_7"
+		text="{=aethirion_description}Aethirion, an elven healer and scholar of Lothlórien, dedicates his life to preserving ancient knowledge and tending to the wounded. Gifted with wisdom and compassion, he is known for his gentle spirit and unmatched skills in healing arts. Though not a warrior, Aethirion plays a vital role in supporting the warriors of Lothlórien, providing them with strength and counsel during times of hardship. His loyalty to Lady Galadriel is steadfast, and he considers the preservation of the Golden Wood his greatest purpose." />
+
+	<Hero
+		id="lord_3_19_1"
+		spouse="Hero.lord_3_19"
+		faction="Faction.clan_aserai_7" />
+	<Hero
+		id="lord_3_19_2"
+		father="Hero.lord_3_19"
+		mother="Hero.lord_3_19_1"
+		faction="Faction.clan_aserai_7" />
+	<Hero
+		id="lord_3_19_3"
+		father="Hero.lord_3_19"
+		mother="Hero.lord_3_19_1"
+		faction="Faction.clan_aserai_7" />
+	<Hero
+		id="lord_3_23"
+		spouse="Hero.lord_3_23_1"
+		faction="Faction.clan_aserai_7" />
+	<Hero
+		id="lord_3_23_1"
+		spouse="Hero.lord_3_23"
+		faction="Faction.clan_aserai_7" />
+	<!-- Aserai 8 -->
+	<Hero
+		id="lord_3_22"
+		spouse="Hero.lord_3_22_1"
+		faction="Faction.clan_aserai_8"
+		text="{=duilin_description}Duilin, a fierce and loyal warrior of Lothlórien, is known for his bravery and unwavering dedication to protecting his homeland. He has earned a reputation for his skill with a spear and his ability to move through the trees with silent precision. Though he rarely speaks, his actions reveal a deep commitment to his people and a willingness to put himself at risk to safeguard Lothlórien. Duilin’s loyalty to the Lady Galadriel is unbreakable, and he is proud to stand as one of her protectors." />
+
+	<Hero
+		id="lord_3_22_1"
+		spouse="Hero.lord_3_22"
+		faction="Faction.clan_aserai_8" />
+	<Hero
+		id="lord_3_22_2"
+		father="Hero.lord_3_22"
+		mother="Hero.lord_3_22_1"
+		faction="Faction.clan_aserai_8" />
+	<Hero
+		id="lord_3_22_3"
+		father="Hero.lord_3_22"
+		mother="Hero.lord_3_22_1"
+		faction="Faction.clan_aserai_8" />
+	<Hero
+		id="lord_3_22_4"
+		father="Hero.lord_3_22"
+		mother="Hero.lord_3_22_1"
+		faction="Faction.clan_aserai_8" />
+	<!-- Eorling -->
+	<Hero
+		id="lord_4_1"
+		spouse="Hero.lord_4_2"
+		faction="Faction.clan_vlandia_1"
+		text="{=theoden_description}Théoden, the noble and courageous King of Rohan, is a ruler deeply committed to his people and their way of life. Known as a wise and just leader, he embodies the spirit of Rohan with his bravery and unwavering sense of duty. Though burdened by years of struggle and recent betrayals, Théoden’s heart remains steadfast. He rides into battle not only as a king but as a warrior, willing to stand shoulder-to-shoulder with his men. Under his leadership, Rohan has endured countless threats, and his resolve inspires loyalty and bravery among his people." />
+	<Hero
+		id="lord_4_2"
+		spouse="Hero.lord_4_1"
+		alive="false"
+		faction="Faction.clan_vlandia_1" />
+	<Hero
+		id="lord_4_7"
+		father="Hero.lord_4_1"
+		mother="Hero.lord_4_2"
+		faction="Faction.clan_vlandia_1"
+		text="{=theodred_description}Théodred, the loyal and valiant son of King Théoden, is a fierce defender of Rohan and a skilled warrior. As heir to the throne, he has spent his life training to protect his homeland and honor his father’s legacy. Théodred is known for his bravery in battle, his tactical mind, and his dedication to his people. He is beloved by the soldiers of Rohan, who respect his willingness to fight alongside them. Though he bears the weight of responsibility, Théodred remains determined to secure the future of Rohan against any threat." />
+	<!-- Eoforing -->
+	<Hero
+		id="lord_4_3"
+		spouse="Hero.lord_4_3_3"
+		faction="Faction.clan_vlandia_2"
+		text="{=eomer_description}Éomer, the noble and fearless nephew of King Théoden, serves as one of Rohan’s most respected warriors and leaders. A loyal marshal of the Riddermark, Éomer is known for his strength, courage, and fierce sense of justice. He has a deep love for his homeland and its people, and he is unwavering in his resolve to protect them. Though often headstrong, Éomer’s loyalty to his family and Rohan is unbreakable. His prowess on the battlefield and his charismatic leadership have earned him the admiration of Rohan’s warriors." />
+
+	<Hero
+		id="lord_4_3_1"
+		father="Hero.lord_4_3"
+		mother="Hero.lord_4_3_3"
+		sister="Hero.lord_4_3_2"
+		faction="Faction.clan_vlandia_2" />
+	<Hero
+		id="lord_4_3_2"
+		father="Hero.lord_4_3"
+		mother="Hero.lord_4_3_3"
+		brother="Hero.lord_4_3_1"
+		faction="Faction.clan_vlandia_2" />
+	<Hero
+		id="lord_4_3_3"
+		spouse="Hero.lord_4_3"
+		faction="Faction.clan_vlandia_2" />
+	<!-- Grimingas -->
+	<Hero
+		id="lord_4_6"
+		faction="Faction.clan_vlandia_3"
+		spouse="Hero.lord_4_6_1"
+		text="{=grimbold_description}Grimbold of Grimslade is a loyal warrior of Rohan, known for his bravery and strength in battle. A fierce commander, he holds the line with unwavering determination, rallying his men against overwhelming odds. Grimbold’s reputation as a dependable and courageous leader precedes him, especially after his heroic efforts at the Fords of Isen. He is a respected captain who inspires loyalty among his troops, embodying the valor and resilience of Rohan's warriors." />
+	<Hero
+		id="lord_4_6_1"
+		spouse="Hero.lord_4_6"
+		faction="Faction.clan_vlandia_3" />
+	<Hero
+		id="lord_4_6_2"
+		father="Hero.lord_4_6"
+		mother="Hero.lord_4_6_1"
+		faction="Faction.clan_vlandia_3" />
+	<!-- Félanding -->
+	<Hero
+		id="lord_4_16"
+		faction="Faction.clan_vlandia_4" />
+	<Hero
+		id="lord_4_16_1"
+		spouse="Hero.lord_4_16"
+		faction="Faction.clan_vlandia_4" />
+	<Hero
+		id="lord_4_16_2"
+		father="Hero.lord_4_16"
+		mother="Hero.lord_4_16_1"
+		faction="Faction.clan_vlandia_4" />
+	<!-- Ordlacing -->
+	<Hero
+		id="lord_4_21"
+		spouse="Hero.lord_4_21_4"
+		faction="Faction.clan_vlandia_5" />
+	<Hero
+		id="lord_4_21_1"
+		father="Hero.lord_4_21"
+		mother="Hero.lord_4_21_4"
+		faction="Faction.clan_vlandia_5" />
+	<Hero
+		id="lord_4_21_2"
+		father="Hero.lord_4_21"
+		mother="Hero.lord_4_21_4"
+		faction="Faction.clan_vlandia_5" />
+	<Hero
+		id="lord_4_21_3"
+		father="Hero.lord_4_21"
+		mother="Hero.lord_4_21_4"
+		faction="Faction.clan_vlandia_5" />
+	<Hero
+		id="lord_4_21_4"
+		spouse="Hero.lord_4_21"
+		faction="Faction.clan_vlandia_5" />
+
+
+	<!-- Celmunding -->
+	<Hero
+		id="lord_4_22"
+		spouse="Hero.lord_4_22_1"
+		faction="Faction.clan_vlandia_6" />
+
+	<Hero
+		id="lord_4_22_1"
+		spouse="Hero.lord_4_22"
+		faction="Faction.clan_vlandia_6" />
+	<!-- Marhad-->
+	<Hero
+		id="lord_4_23"
+		faction="Faction.clan_vlandia_7" />
+	<Hero
+		id="lord_4_23_1"
+		spouse="Hero.lord_4_23"
+		alive="false"
+		faction="Faction.clan_vlandia_7" />
+	<Hero
+		id="lord_4_23_2"
+		father="Hero.lord_4_23"
+		mother="Hero.lord_4_23_1"
+		faction="Faction.clan_vlandia_7" />
+	<!-- Grimmóding -->
+	<Hero
+		id="lord_4_24"
+		faction="Faction.clan_vlandia_8" />
+	<!-- Æthellafing -->
+	<Hero
+		id="lord_4_27"
+		spouse="Hero.lord_4_27_1"
+		faction="Faction.clan_vlandia_9" />
+	<Hero
+		id="lord_4_27_1"
+		spouse="Hero.lord_4_27"
+		faction="Faction.clan_vlandia_9" />
+	<Hero
+		id="lord_4_27_2"
+		father="Hero.lord_4_27"
+		mother="Hero.lord_4_27_1"
+		faction="Faction.clan_vlandia_9" />
+	<Hero
+		id="lord_4_27_3"
+		father="Hero.lord_4_27"
+		mother="Hero.lord_4_27_1"
+		faction="Faction.clan_vlandia_9" />
+	<Hero
+		id="lord_4_27_4"
+		father="Hero.lord_4_27"
+		mother="Hero.lord_4_27_1"
+		faction="Faction.clan_vlandia_9" />
+	<!-- Morcargas -->
+	<Hero
+		id="lord_4_28"
+		faction="Faction.clan_vlandia_10" />
+	<Hero
+		id="lord_4_28_1"
+		father="Hero.lord_4_28"
+		faction="Faction.clan_vlandia_10" />
+	<Hero
+		id="lord_4_28_2"
+		father="Hero.lord_4_28"
+		faction="Faction.clan_vlandia_10" />
+	<Hero
+		id="lord_4_28_3"
+		father="Hero.lord_4_28"
+		faction="Faction.clan_vlandia_10" />
+	<!-- Battanian clans begin -->
+	<Hero
+		id="lord_5_1"
+		faction="Faction.clan_battania_1"
+		text="{=vashrikhan_description}Vashrikhan, the unyielding warlord of Khand, leads the Variags with an iron will and unmatched ferocity. A master tactician and ruthless conqueror, Vashrikhan embodies the indomitable spirit of his people. Under his command, the warriors of Khand have become a disciplined and terrifying force, their swift riders and deadly curved blades leaving a trail of devastation in their wake. Vashrikhan’s allegiance to Sauron is born of ambition and cunning, as he seeks to secure a legacy of power and dominance for Khand. His presence inspires fear and respect among his followers, while to his enemies, he is a harbinger of annihilation and a grim reminder of Mordor’s growing reach." />
+	<Hero
+		id="lord_5_1_1"
+		father="Hero.lord_5_1"
+		faction="Faction.clan_battania_1" />
+	<Hero
+		id="lord_5_3"
+		spouse="Hero.lord_5_4"
+		faction="Faction.clan_battania_2"
+		text="{=HjGYftkH}Ergeon is head of the fen Derngil and brother of the vanished king Aeril. Although his clan deeply resents Caladog, whom they consider a lowborn upstart who probably had something to do with King Uthelhain's disappearance, Ergeon insists that his relatives remain loyal to the new king. The fen Derngils have always stood for a strong monarchy, and he is loathe to return the Battanians to the anarchy that consumed them for much of their history." />
+	<Hero
+		id="lord_5_3_1"
+		father="Hero.lord_5_3"
+		faction="Faction.clan_battania_2" />
+	<Hero
+		id="lord_5_3_2"
+		faction="Faction.clan_battania_2" />
+	<Hero
+		id="lord_5_4"
+		spouse="Hero.lord_5_3"
+		faction="Faction.clan_battania_2" />
+	<Hero
+		id="lord_5_5"
+		faction="Faction.clan_battania_3"
+		spouse="Hero.lord_5_6" />
+	<Hero
+		id="lord_5_5_1"
+		faction="Faction.clan_battania_3"
+		father="Hero.lord_5_5"
+		mother="Hero.lord_5_6" />
+	<Hero
+		id="lord_5_6"
+		faction="Faction.clan_battania_3"
+		spouse="Hero.lord_5_5" />
+	<Hero
+		id="lord_5_7"
+		father="Hero.lord_5_1"
+		faction="Faction.clan_battania_1" />
+	<Hero
+		id="lord_5_8"
+		father="Hero.lord_5_3"
+		faction="Faction.clan_battania_2" />
+	<Hero
+		id="lord_5_9"
+		father="Hero.lord_5_5"
+		mother="Hero.lord_5_6"
+		faction="Faction.clan_battania_3" />
+	<Hero
+		id="lord_5_91"
+		father="Hero.lord_5_5"
+		mother="Hero.lord_5_6"
+		faction="Faction.clan_battania_3" />
+	<Hero
+		id="lord_5_10"
+		father="Hero.lord_5_1"
+		faction="Faction.clan_battania_1" />
+	<Hero
+		id="lord_5_11"
+		father="Hero.lord_5_3"
+		faction="Faction.clan_battania_2" />
+	<Hero
+		id="lord_5_12"
+		father="Hero.lord_5_5"
+		mother="Hero.lord_5_6"
+		faction="Faction.clan_battania_3" />
+	<Hero
+		id="lord_5_13"
+		faction="Faction.clan_battania_1" />
+	<Hero
+		id="lord_5_13_1"
+		father="Hero.lord_5_13"
+		faction="Faction.clan_battania_1" />
+	<Hero
+		id="lord_5_131"
+		father="Hero.lord_5_13"
+		faction="Faction.clan_battania_1" />
+	<Hero
+		id="lord_5_15"
+		faction="Faction.clan_battania_7" />
+	<Hero
+		id="lord_5_15_1"
+		father="Hero.lord_5_15"
+		faction="Faction.clan_battania_7" />
+	<Hero
+		id="lord_5_15_2"
+		father="Hero.lord_5_15"
+		faction="Faction.clan_battania_7" />
+	<Hero
+		id="lord_5_15_3"
+		father="Hero.lord_5_15"
+		faction="Faction.clan_battania_7" />
+	<Hero
+		id="lord_5_14"
+		spouse="Hero.lord_5_14_1"
+		faction="Faction.clan_battania_4" />
+	<Hero
+		id="lord_5_14_1"
+		spouse="Hero.lord_5_14"
+		faction="Faction.clan_battania_4" />
+	<Hero
+		id="lord_5_16"
+		spouse="Hero.lord_5_16_1"
+		faction="Faction.clan_battania_5" />
+	<Hero
+		id="lord_5_16_1"
+		spouse="Hero.lord_5_16"
+		faction="Faction.clan_battania_5" />
+	<Hero
+		id="lord_5_16_2"
+		father="Hero.lord_5_16"
+		mother="Hero.lord_5_16_1"
+		faction="Faction.clan_battania_5" />
+	<Hero
+		id="lord_5_17"
+		spouse="Hero.lord_5_17_1"
+		faction="Faction.clan_battania_6" />
+	<Hero
+		id="lord_5_17_1"
+		spouse="Hero.lord_5_17"
+		faction="Faction.clan_battania_6" />
+	<Hero
+		id="lord_5_18"
+		father="Hero.lord_5_15"
+		spouse="Hero.lord_5_18_1"
+		faction="Faction.clan_battania_7" />
+	<Hero
+		id="lord_5_18_1"
+		spouse="Hero.lord_5_18"
+		faction="Faction.clan_battania_7" />
+	<Hero
+		id="lord_5_19"
+		faction="Faction.clan_battania_4" />
+	<Hero
+		id="lord_5_20"
+		faction="Faction.clan_battania_5" />
+	<Hero
+		id="lord_5_21"
+		spouse="Hero.lord_5_21_1"
+		faction="Faction.clan_battania_6" />
+	<Hero
+		id="lord_5_21_1"
+		spouse="Hero.lord_5_21"
+		faction="Faction.clan_battania_6" />
+	<Hero
+		id="lord_5_21_2"
+		father="Hero.lord_5_21"
+		mother="Hero.lord_5_21_1"
+		faction="Faction.clan_battania_6" />
+	<Hero
+		id="lord_5_22"
+		faction="Faction.clan_battania_4" />
+	<Hero
+		id="lord_6_1"
+		spouse="Hero.lord_6_2"
+		faction="Faction.clan_khuzait_1"
+		preferred_upgrade_formation="HorseArcher"
+		text="{=morzan_description}Morzân, of the Khamûl line and heir to his shadowed legacy, has risen as a powerful leader among the Easterlings. A product of the Third Age’s turmoil, his cunning and ruthlessness mirror his forebear. Devoted to Sauron, Morzân commands the clans of Rhûn with an iron grip, ensuring their might serves the Dark Lord’s will." />
+	<Hero
+		id="lord_6_2"
+		spouse="Hero.lord_6_1"
+		faction="Faction.clan_khuzait_1" />
+	<Hero
+		id="lord_6_3"
+		faction="Faction.clan_khuzait_2" />
+	<Hero
+		id="lord_6_4"
+		faction="Faction.clan_khuzait_2"
+		text="{=muzrag_description}Muzrag, a fierce warlord of Rhûn during the waning years of the Third Age, is renowned for his strength in battle and his unyielding loyalty to Sauron. Leading his warriors with unmatched ferocity, Muzrag thrives on the chaos of war. His relentless raids across Gondor’s borders leave devastation and fear in their wake." />
+	<Hero
+		id="lord_6_5"
+		father="Hero.dead_lord_6_3"
+		faction="Faction.clan_khuzait_3"
+		text="{=ulzhak_description}Ulzhak, a shrewd and ambitious chieftain of Rhûn, rose to power during the Third Age by mastering espionage and political manipulation. His alliances with other clans have solidified Rhûn’s unity under Sauron’s banner. Ulzhak sees the Dark Lord as both a master and an opportunity to expand his own power." />
+
+	<Hero
+		id="lord_6_51"
+		father="Hero.lord_6_5"
+		faction="Faction.clan_khuzait_3" />
+	<Hero
+		id="lord_6_6"
+		faction="Faction.clan_khuzait_4" />
+	<Hero
+		id="lord_6_7"
+		father="Hero.lord_6_1"
+		mother="Hero.lord_6_2"
+		faction="Faction.clan_khuzait_1" />
+	<Hero
+		id="lord_6_8"
+		father="Hero.lord_6_3"
+		mother="Hero.lord_6_4"
+		faction="Faction.clan_khuzait_2" />
+	<Hero
+		id="lord_6_81"
+		father="Hero.lord_6_3"
+		mother="Hero.lord_6_4"
+		faction="Faction.clan_khuzait_2" />
+	<Hero
+		id="lord_6_9"
+		father="Hero.lord_6_5"
+		faction="Faction.clan_khuzait_3" />
+	<Hero
+		id="lord_6_10"
+		father="Hero.lord_6_1"
+		mother="Hero.lord_6_2"
+		faction="Faction.clan_khuzait_1" />
+	<Hero
+		id="lord_6_101"
+		father="Hero.lord_6_1"
+		mother="Hero.lord_6_2"
+		faction="Faction.clan_khuzait_1" />
+	<Hero
+		id="lord_6_11"
+		father="Hero.lord_6_3"
+		mother="Hero.lord_6_4"
+		faction="Faction.clan_khuzait_2" />
+	<Hero
+		id="lord_6_12"
+		father="Hero.lord_6_5"
+		faction="Faction.clan_khuzait_3" />
+	<Hero
+		id="lord_6_13"
+		father="Hero.lord_6_1"
+		faction="Faction.clan_khuzait_1" />
+	<Hero
+		id="lord_6_15"
+		spouse="Hero.lord_6_15_1"
+		father="Hero.dead_lord_6_3"
+		faction="Faction.clan_khuzait_3" />
+	<Hero
+		id="lord_6_15_1"
+		spouse="Hero.lord_6_15"
+		faction="Faction.clan_khuzait_3" />
+	<Hero
+		id="lord_6_15_2"
+		father="Hero.lord_6_15"
+		mother="Hero.lord_6_15_1"
+		faction="Faction.clan_khuzait_3" />
+	<Hero
+		id="lord_6_16"
+		spouse="Hero.lord_6_16_1"
+		faction="Faction.clan_khuzait_4"
+		text="{=lorganii_description}Lorgan III, a descendant of the infamous betrayer Lorgan, seeks to reclaim his house's honor in the Third Age. Known for his charisma and strategic brilliance, he has become a unifying force among the fractious tribes of Rhûn. His skill in rallying forces for Sauron’s war effort makes him a pivotal figure in the Easterling ranks." />
+
+	<Hero
+		id="lord_6_16_1"
+		spouse="Hero.lord_6_16"
+		faction="Faction.clan_khuzait_4" />
+	<Hero
+		id="lord_6_16_2"
+		father="Hero.lord_6_16"
+		mother="Hero.lord_6_16_1"
+		faction="Faction.clan_khuzait_4" />
+	<Hero
+		id="lord_6_17"
+		spouse="Hero.lord_6_17_1"
+		faction="Faction.clan_khuzait_5"
+		text="{=dorgash_description}Dorgash, a brutal warrior of Rhûn, embodies the raw strength and savagery of his people. As the Third Age nears its end, his relentless campaigns against Gondor and its allies strike terror into the Free Peoples. His devotion to Sauron is matched only by his thirst for dominance over all who oppose him." />
+
+	<Hero
+		id="lord_6_17_1"
+		spouse="Hero.lord_6_17"
+		faction="Faction.clan_khuzait_5" />
+	<Hero
+		id="lord_6_17_2"
+		father="Hero.lord_6_17"
+		mother="Hero.lord_6_17_1"
+		faction="Faction.clan_khuzait_5" />
+	<Hero
+		id="lord_6_18"
+		spouse="Hero.lord_6_18_1"
+		faction="Faction.clan_khuzait_6"
+		text="{=harzun_description}Harzun, a seasoned tactician and respected leader of Rhûn, emerged as a crucial ally to Sauron in the Third Age. His disciplined approach to warfare and sharp intellect ensure his forces are always prepared. Harzun’s steady leadership makes him a cornerstone of Rhûn’s contribution to the Dark Lord’s campaigns." />
+
+	<Hero
+		id="lord_6_18_1"
+		spouse="Hero.lord_6_18"
+		faction="Faction.clan_khuzait_6" />
+	<Hero
+		id="lord_6_18_2"
+		father="Hero.lord_6_18"
+		mother="Hero.lord_6_18_1"
+		faction="Faction.clan_khuzait_6" />
+	<Hero
+		id="lord_6_19"
+		spouse="Hero.lord_6_19_1"
+		faction="Faction.clan_khuzait_7"
+		text="{=vorzar_description}Vorzar, an enigmatic figure and spiritual leader of Rhûn, wields great influence among the tribes during the Third Age. As a master of dark rituals and ancient lore, Vorzar channels his people’s reverence into unwavering loyalty to Sauron. His mystical aura and prophetic visions make him a feared and respected presence." />
+
+	<Hero
+		id="lord_6_19_1"
+		spouse="Hero.lord_6_19"
+		faction="Faction.clan_khuzait_7" />
+	<Hero
+		id="lord_6_19_2"
+		father="Hero.lord_6_19"
+		mother="Hero.lord_6_19_1"
+		faction="Faction.clan_khuzait_7" />
+	<!-- Yanserit, Khuzait 8 -->
+	<Hero
+		id="lord_6_20"
+		spouse="Hero.lord_6_20_1"
+		faction="Faction.clan_khuzait_8"
+		text="{=zuruk_description}Zuruk, a pragmatic chieftain of Rhûn, rose to prominence during the Third Age by prioritizing his clan’s survival and prosperity. While outwardly loyal to Sauron, Zuruk’s true allegiance lies with his people. His resourcefulness and cunning make him an indispensable leader amid the chaos of war." />
+
+	<Hero
+		id="lord_6_20_1"
+		spouse="Hero.lord_6_20"
+		faction="Faction.clan_khuzait_8" />
+	<Hero
+		id="lord_K8_u"
+		faction="Faction.clan_khuzait_8" />
+	<Hero
+		id="lord_6_21"
+		spouse="Hero.lord_6_21_1"
+		faction="Faction.clan_khuzait_5" />
+	<Hero
+		id="lord_6_21_1"
+		spouse="Hero.lord_6_21"
+		faction="Faction.clan_khuzait_5" />
+	<Hero
+		id="lord_6_22"
+		spouse="Hero.lord_6_22_1"
+		faction="Faction.clan_khuzait_6" />
+	<Hero
+		id="lord_6_22_1"
+		spouse="Hero.lord_6_22"
+		faction="Faction.clan_khuzait_6" />
+	<Hero
+		id="lord_6_23"
+		faction="Faction.clan_khuzait_7" />
+	<Hero
+		id="lord_6_24"
+		faction="Faction.clan_khuzait_4" />
+	<!-- Banu Ruwaid, dominates  -->
+	<Hero
+		id="lord_A9_l"
+		spouse="Hero.lord_A9_s"
+		faction="Faction.clan_aserai_9"
+		text="{=caradan_description}Caradan, an experienced and disciplined elven archer of Lothlórien, is known for his precise aim and quiet resolve. He is often stationed at key vantage points along the forest’s borders, keeping a vigilant watch for intruders. While he prefers the solitude of the forest, Caradan values the camaraderie of his fellow warriors and is deeply committed to the defense of his homeland. His loyalty to the Lady Galadriel and the beauty of Lothlórien fuels his determination to protect the Golden Wood from any who threaten its peace." />
+
+	<Hero
+		id="lord_A9_s"
+		spouse="Hero.lord_A9_l"
+		faction="Faction.clan_aserai_9" />
+	<Hero
+		id="lord_A9_c"
+		father="Hero.lord_A9_l"
+		mother="Hero.lord_A9_s"
+		faction="Faction.clan_aserai_9" />
+	<Hero
+		id="lord_A9_u"
+		faction="Faction.clan_aserai_9" />
+	<!-- Deáfringas -->
+	<Hero
+		id="lord_V11_l"
+		spouse="Hero.lord_V11_l_1"
+		faction="Faction.clan_vlandia_11" />
+	<Hero
+		id="lord_V11_l_1"
+		spouse="Hero.lord_V11_l"
+		faction="Faction.clan_vlandia_11" />
+	<Hero
+		id="lord_V11_l_2"
+		father="Hero.lord_V11_l"
+		mother="Hero.lord_V11_l_1"
+		faction="Faction.clan_vlandia_11" />
+	<Hero
+		id="lord_V11_l_3"
+		father="Hero.lord_V11_l"
+		mother="Hero.lord_V11_l_1"
+		faction="Faction.clan_vlandia_11" />
+	<Hero
+		id="lord_V11_l_4"
+		father="Hero.lord_V11_l"
+		mother="Hero.lord_V11_l_1"
+		faction="Faction.clan_vlandia_11" />
+
+	<!-- Ælfwiging -->
+	<Hero
+		id="lord_4_29"
+		spouse="Hero.lord_4_29_1"
+		faction="Faction.clan_vlandia_12" />
+	<Hero
+		id="lord_4_29_1"
+		spouse="Hero.lord_4_29"
+		faction="Faction.clan_vlandia_12" />
+	<Hero
+		id="lord_4_29_2"
+		father="Hero.lord_4_29"
+		mother="Hero.lord_4_29_1"
+		faction="Faction.clan_vlandia_12" />
+
+	<!-- Kostaroving -->
+	<Hero
+		id="lord_S9_l"
+		mother="Hero.lord_S9_m"
+		faction="Faction.clan_sturgia_9"
+		text="{=bombur_description}Bombur, the jovial and hearty member of Thorin’s Company, is renowned for his good nature and insatiable appetite. Though his size and love of food are often the subject of jest, Bombur’s courage and loyalty are never in doubt. A dependable companion, he proved his worth many times over during the journey to reclaim Erebor. In the restored halls of the Lonely Mountain, Bombur remains a symbol of the dwarves' enduring spirit and their ability to find joy even in the darkest of times." />
+
+	<Hero
+		id="lord_S9_m"
+		faction="Faction.clan_sturgia_9" />
+	<Hero
+		id="lord_S9_c"
+		father="Hero.lord_S9_l"
+		faction="Faction.clan_sturgia_9" />
+	<Hero
+		id="lord_S9_u"
+		faction="Faction.clan_sturgia_9" />
+	<!-- Oburit -->
+	<Hero
+		id="lord_K9_l"
+		spouse="Hero.lord_K9_s"
+		faction="Faction.clan_khuzait_9"
+		text="{=tharnak_description}Tharnak, a fiery and impulsive warrior of Rhûn, thrives on the battlefield as the Third Age draws to a close. Known for his unrelenting passion for conquest and disdain for weakness, Tharnak drives his warriors to ever-greater feats of aggression. His fervor for Sauron’s cause ensures Rhûn’s forces remain a terrifying force." />
+
+	<Hero
+		id="lord_K9_s"
+		spouse="Hero.lord_K9_l"
+		faction="Faction.clan_khuzait_9" />
+	<Hero
+		id="lord_K9_c1"
+		father="Hero.lord_K9_l"
+		mother="Hero.lord_K9_s"
+		faction="Faction.clan_khuzait_9" />
+	<Hero
+		id="lord_K9_c2"
+		father="Hero.lord_K9_l"
+		mother="Hero.lord_K9_s"
+		faction="Faction.clan_khuzait_9" />
+	<!-- fen Caernacht -->
+	<Hero
+		id="lord_B8_l"
+		spouse="Hero.lord_B8_s"
+		faction="Faction.clan_battania_8" />
+	<Hero
+		id="lord_B8_s"
+		spouse="Hero.lord_B8_l"
+		faction="Faction.clan_battania_8" />
+	<Hero
+		id="lord_B8_c"
+		father="Hero.lord_B8_s"
+		mother="Hero.lord_B8_l"
+		faction="Faction.clan_battania_8" />
+
+	<!-- Erebor -->
+	<!-- Bit Durin -->
+	<Hero
+		id="lord_E1_1"
+		faction="Faction.clan_erebor_1"
+		text="{=dain_ironfoot_description}Dáin Ironfoot, the stalwart and unyielding King under the Mountain, stands as a paragon of dwarven resilience and valor. Renowned for his unwavering determination and tactical prowess, Dáin is a battle-hardened leader who inspires loyalty and courage in his kin. A veteran of countless conflicts, he led the dwarves of the Iron Hills with unmatched strength, bringing stability and prosperity to his people. His resolve in the face of adversity and his dedication to the defense of Erebor and its allies ensure that the legacy of Durin's folk endures through the darkest days of the Third Age." />
+	<Hero
+		id="lord_E1_2"
+		father="Hero.lord_E1_1"
+		mother="Hero.lord_E1_6"
+		faction="Faction.clan_erebor_1" />
+	<Hero
+		id="lord_E1_3"
+		spouse="Hero.lord_E1_2"
+		faction="Faction.clan_erebor_1" />
+	<Hero
+		id="lord_E1_4"
+		father="Hero.lord_E1_1"
+		mother="Hero.lord_E1_6"
+		faction="Faction.clan_erebor_1" />
+	<Hero
+		id="lord_E1_5"
+		father="Hero.lord_E1_2"
+		mother="Hero.lord_E1_3"
+		faction="Faction.clan_erebor_1" />
+	<Hero
+		id="lord_E1_6"
+		spouse="Hero.lord_E1_1"
+		faction="Faction.clan_erebor_1" />
+	<Hero
+		id="lord_E1_11"
+		father="Hero.lord_E1_4"
+		faction="Faction.clan_erebor_1" />
+	<!-- Bit Lóni -->
+	<Hero
+		id="lord_E2_1"
+		faction="Faction.clan_erebor_2" />
+	<Hero
+		id="lord_E2_2"
+		spouse="Hero.lord_E2_1"
+		faction="Faction.clan_erebor_2" />
+	<Hero
+		id="lord_E2_3"
+		father="Hero.lord_E2_1"
+		mother="Hero.lord_E2_2"
+		faction="Faction.clan_erebor_2" />
+	<Hero
+		id="lord_E2_4"
+		father="Hero.lord_E2_1"
+		mother="Hero.lord_E2_2"
+		faction="Faction.clan_erebor_2" />
+	<Hero
+		id="lord_E2_11"
+		father="Hero.lord_E2_3"
+		faction="Faction.clan_erebor_2" />
+	<!-- Bit Rár -->
+	<Hero
+		id="lord_E3_1"
+		spouse="Hero.lord_E3_2"
+		faction="Faction.clan_erebor_3" />
+	<Hero
+		id="lord_E3_2"
+		spouse="Hero.lord_E3_1"
+		faction="Faction.clan_erebor_3" />
+	<Hero
+		id="lord_E3_3"
+		father="Hero.lord_E3_1"
+		mother="Hero.lord_E3_2"
+		faction="Faction.clan_erebor_3" />
+	<Hero
+		id="lord_E3_4"
+		father="Hero.lord_E3_1"
+		mother="Hero.lord_E3_2"
+		faction="Faction.clan_erebor_3" />
+	<Hero
+		id="lord_E3_5"
+		father="Hero.lord_E3_1"
+		mother="Hero.lord_E3_2"
+		faction="Faction.clan_erebor_3" />
+	<Hero
+		id="lord_E3_11"
+		father="Hero.lord_E3_4"
+		faction="Faction.clan_erebor_3" />
+	<!-- Bit Gror -->
+	<Hero
+		id="lord_E4_1"
+		spouse="Hero.lord_E4_2"
+		faction="Faction.clan_erebor_4" />
+	<Hero
+		id="lord_E4_2"
+		spouse="Hero.lord_E4_1"
+		faction="Faction.clan_erebor_4" />
+	<Hero
+		id="lord_E4_3"
+		father="Hero.lord_E4_1"
+		mother="Hero.lord_E4_2"
+		faction="Faction.clan_erebor_4" />
+	<Hero
+		id="lord_E4_4"
+		father="Hero.lord_E4_1"
+		mother="Hero.lord_E4_2"
+		faction="Faction.clan_erebor_4" />
+	<Hero
+		id="lord_E4_11"
+		father="Hero.lord_E4_3"
+		faction="Faction.clan_erebor_4" />
+	<!-- Bit Górli -->
+	<Hero
+		id="lord_E5_1"
+		spouse="Hero.lord_E5_2"
+		faction="Faction.clan_erebor_5" />
+	<Hero
+		id="lord_E5_2"
+		spouse="Hero.lord_E5_1"
+		faction="Faction.clan_erebor_5" />
+	<Hero
+		id="lord_E5_3"
+		father="Hero.lord_E5_1"
+		mother="Hero.lord_E5_2"
+		faction="Faction.clan_erebor_5" />
+	<Hero
+		id="lord_E5_4"
+		father="Hero.lord_E5_1"
+		mother="Hero.lord_E5_2"
+		faction="Faction.clan_erebor_5" />
+	<Hero
+		id="lord_E5_5"
+		father="Hero.lord_E5_1"
+		mother="Hero.lord_E5_2"
+		faction="Faction.clan_erebor_5" />
+	<Hero
+		id="lord_E5_11"
+		father="Hero.lord_E5_5"
+		faction="Faction.clan_erebor_5" />
+	<!-- Bit Róri -->
+	<Hero
+		id="lord_E6_1"
+		spouse="Hero.lord_E6_2"
+		faction="Faction.clan_erebor_6" />
+	<Hero
+		id="lord_E6_2"
+		spouse="Hero.lord_E6_1"
+		alive="false"
+		faction="Faction.clan_erebor_6" />
+	<Hero
+		id="lord_E6_3"
+		father="Hero.lord_E6_1"
+		mother="Hero.lord_E6_2"
+		faction="Faction.clan_erebor_6" />
+	<Hero
+		id="lord_E6_4"
+		father="Hero.lord_E6_1"
+		mother="Hero.lord_E6_2"
+		faction="Faction.clan_erebor_6" />
+	<Hero
+		id="lord_E6_11"
+		father="Hero.lord_E6_4"
+		faction="Faction.clan_erebor_6" />
+	<!-- Bit Nórin-->
+	<Hero
+		id="lord_E7_1"
+		faction="Faction.clan_erebor_7" />
+	<Hero
+		id="lord_E7_11"
+		father="Hero.lord_E7_1"
+		faction="Faction.clan_erebor_7" />
+
+	<!-- Imladris -->
+	<!-- Nos Peredhel -->
+	<Hero
+		id="lord_R1_1"
+		spouse="Hero.lord_R1_2"
+		faction="Faction.clan_rivendell_1"
+		text="{=elrond_description}Elrond, the Lord of Rivendell, is a figure of unmatched wisdom, healing, and foresight. As a descendant of both Elves and Men, he bridges the two worlds with grace and understanding. Rivendell, under his guidance, stands as a sanctuary of knowledge and refuge for all who seek aid in their struggle against the shadow. Elrond’s insight shapes the great councils of the Free Peoples, and his stewardship over the Last Homely House ensures that the light of the Eldar continues to shine. In both counsel and action, he exemplifies the timeless strength and resilience of the Elves." />
+	<Hero
+		id="lord_R1_2"
+		spouse="Hero.lord_R1_1"
+		faction="Faction.clan_rivendell_1" />
+	<Hero
+		id="lord_R1_3"
+		father="Hero.lord_R1_1"
+		mother="Hero.lord_R1_2"
+		faction="Faction.clan_rivendell_1" />
+	<Hero
+		id="lord_R1_4"
+		father="Hero.lord_R1_1"
+		mother="Hero.lord_R1_2"
+		faction="Faction.clan_rivendell_1" />
+	<Hero
+		id="lord_R1_5"
+		father="Hero.lord_R1_1"
+		mother="Hero.lord_R1_2"
+		faction="Faction.clan_rivendell_1" />
+	<Hero
+		id="lord_R1_11"
+		father="Hero.lord_R1_4"
+		faction="Faction.clan_rivendell_1" />
+	<!-- Nos Glorfindel -->
+	<Hero
+		id="lord_R2_1"
+		faction="Faction.clan_rivendell_2" />
+	<Hero
+		id="lord_R2_11"
+		father="Hero.lord_R2_1"
+		faction="Faction.clan_rivendell_2" />
+	<!-- Lasgalen -->
+	<Hero
+		id="lord_M1_1"
+		faction="Faction.clan_mirkwood_1"
+		text="{=thranduil_description}Thranduil, the enigmatic and proud King of the Woodland Realm, rules with a mixture of grandeur and isolationism. Known for his unmatched charisma and the formidable strength of his armies, Thranduil protects his forest kingdom with a fierce determination. While his mistrust of outsiders is well-known, his wisdom and tactical acumen are undeniable. Beneath his regal exterior lies a deep love for his people and an unwavering commitment to their survival. Thranduil’s rule reflects both the beauty and the dangers of Mirkwood, his reign a testament to the enduring legacy of the Woodland Elves." />
+
+
+	<Hero
+		id="lord_M1_11"
+		father="Hero.lord_M1_1"
+		faction="Faction.clan_mirkwood_1"
+		text="{=legolas_description}Legolas, the Prince of the Woodland Realm, is a peerless archer and an agile warrior whose keen senses and swift movements are legendary. As a son of Thranduil, Legolas embodies the resilience and skill of the Silvan Elves, defending his homeland with unmatched precision and resolve. Though young by elven standards, his courage and loyalty are unwavering, and his journey across Middle-earth brings him into the fellowship of the Free Peoples. Legolas’s presence inspires camaraderie and hope, his unerring aim a constant reminder of the might and grace of the Woodland Elves." />
+		
+
+	<!-- Lothlórien -->
+
+	<Hero
+		id="lord_L1_1"
+		faction="Faction.clan_lothlorien_1"
+		text="{=galadriel_description}Galadriel, the Lady of Lothlórien, is a being of extraordinary grace, wisdom, and power. As one of the eldest and most revered Elves in Middle-earth, she wields unmatched foresight and a profound connection to the unseen world. Galadriel’s strength lies not in martial might but in her unwavering resolve to preserve beauty and hope against the encroaching shadow. Her leadership transforms Lothlórien into a haven of serenity and light, and her guidance inspires unity and courage among the Free Peoples of Middle-earth. Through her wisdom and the radiance of Nenya, she embodies the enduring spirit of resistance against darkness." />
+	<Hero
+		id="lord_L1_2"
+		faction="Faction.clan_lothlorien_1"
+		text="{=celeborn_description}Celeborn, the wise and noble Lord of Lothlórien, stands as a stalwart defender of his realm and people. Renowned for his calm demeanor and keen insight, he is a master of strategy and diplomacy, a complement to the ethereal power of Galadriel. Celeborn’s presence in Lothlórien is a beacon of stability and strength, providing wise counsel to those who seek guidance. While his sword remains ever ready to protect his homeland, his true strength lies in his enduring patience and deep understanding of the struggles facing Middle-earth. Celeborn’s leadership ensures that Lothlórien remains a bastion of hope amidst a world in turmoil." />
+
+	<Hero
+		id="lord_L1_3"
+		faction="Faction.clan_lothlorien_1" />
+	
+	<Hero
+		id="lord_I1_1"
+		faction="Faction.clan_isengard_1"
+		text="{=ugluk_description}Uglúk, the ruthless and cunning warlord of Isengard, commands Saruman’s fearsome Uruk-hai with brutal efficiency. Fiercely loyal to his master, Uglúk embodies the relentless discipline and savagery that define the White Wizard’s armies. Known for his harsh demeanor and unyielding resolve, he leads his troops with a mix of intimidation and tactical prowess, ensuring their dominance on the battlefield. Uglúk’s disdain for weakness and his willingness to crush any opposition make him a fearsome figure among both his allies and enemies. Under his command, Isengard’s forces strike terror into the hearts of the Free Peoples of Middle-earth, advancing Saruman’s dark ambitions with every victory." />
+
+	<Hero
+		id="lord_I1_11"
+		father="Hero.lord_I1_1"
+		faction="Faction.clan_isengard_1" />
+
+	<Hero
+		id="lord_G1_1"
+		faction="Faction.clan_gundabad_1"
+		text="{=karguz_description}Karguz, the warlord of Gundabad, is a towering figure of brutality and dominance among the Orcs of the northern stronghold. Renowned for his ferocious combat skills and unrelenting thirst for conquest, he has united the disparate clans of Gundabad under his iron rule. Karguz thrives in the chaos of battle, leading his hordes with ruthless determination and a fearsome presence that instills both fear and loyalty in his followers. With a deep-seated hatred for the Dwarves and the Free Peoples of Middle-earth, Karguz seeks to reclaim the glory of Gundabad’s ancient power. His brutal leadership and cunning strategies make him a relentless force of destruction, poised to spread chaos across the northern lands." />
+	<Hero
+		id="lord_G1_11"
+		father="Hero.lord_G1_1"
+		faction="Faction.clan_gundabad_1" />
+
+	<Hero
+		id="lord_U1_1"
+		faction="Faction.clan_umbar_1"
+		text="{=zarakbal_description}Zarâkbal, the enigmatic and ruthless leader of Umbar, commands the Corsairs with unmatched cunning and ambition. A master strategist and a shrewd manipulator, Zarâkbal wields both the sword and the mind with deadly precision. Under his rule, Umbar thrives as a haven for raiders and seafarers, its dark ships spreading fear across the coasts of Middle-earth. Zarâkbal's vision of dominance extends beyond the seas, as he forges alliances with the forces of shadow and prepares to unleash the might of Umbar against the Free Peoples. His charisma and iron-fisted rule ensure loyalty among his captains, while his name strikes terror into the hearts of his enemies." />
+
+	<Hero
+		id="lord_U1_11"
+		father="Hero.lord_U1_1"
+		faction="Faction.clan_umbar_1" />
+
+	<Hero
+		id="lord_DG1_1"
+		faction="Faction.clan_dolguldur_1"
+		text="{=malduruk_description}Maldrûk, the relentless warlord of Dol Guldur, commands the shadowed legions of the Necromancer's domain with fearsome authority. A towering figure of brutality and cunning, Maldrûk is the embodiment of Dol Guldur's dark ambitions. His mastery of warfare and ruthless discipline has forged the Orcs and creatures under his command into a fearsome force, striking terror into the hearts of all who dwell near the borders of Mirkwood. Maldrûk's loyalty to the shadow ensures his relentless pursuit of the Necromancer's will, as he drives his armies to sow chaos and destruction across Middle-earth. His presence on the battlefield is both a symbol of terror and a grim herald of the growing darkness." />
+
+	<Hero
+		id="lord_DG1_11"
+		father="Hero.lord_DG1_1"
+		faction="Faction.clan_dolguldur_1" />
+<!--Mordor Clans 10 - 18 -->
+	<Hero
+		id="lord_M10_1"
+		faction="Faction.clan_empire_south_10"  />
+
+	<Hero
+		id="lord_M10_11"
+		father="Hero.lord_M10_1"
+		faction="Faction.clan_empire_south_10" />
+
+	<Hero
+		id="lord_M11_1"
+		faction="Faction.clan_empire_south_11" />
+
+	<Hero
+		id="lord_M11_11"
+		father="Hero.lord_M11_1"
+		faction="Faction.clan_empire_south_11" />
+
+	<Hero
+		id="lord_M12_1"
+		faction="Faction.clan_empire_south_12" />
+
+	<Hero
+		id="lord_M12_11"
+		father="Hero.lord_M12_1"
+		faction="Faction.clan_empire_south_12" />
+
+	<Hero
+		id="lord_M13_1"
+		faction="Faction.clan_empire_south_13" />
+
+	<Hero
+		id="lord_M13_11"
+		father="Hero.lord_M13_1"
+		faction="Faction.clan_empire_south_13" />
+
+	<Hero
+		id="lord_M14_1"
+		faction="Faction.clan_empire_south_14" />
+
+	<Hero
+		id="lord_M14_11"
+		father="Hero.lord_M14_1"
+		faction="Faction.clan_empire_south_14" />
+
+	<Hero
+		id="lord_M15_1"
+		faction="Faction.clan_empire_south_15" />
+
+	<Hero
+		id="lord_M15_11"
+		father="Hero.lord_M15_1"
+		faction="Faction.clan_empire_south_15" />
+
+	<Hero
+		id="lord_M16_1"
+		faction="Faction.clan_empire_south_16" />
+
+	<Hero
+		id="lord_M16_11"
+		father="Hero.lord_M16_1"
+		faction="Faction.clan_empire_south_16" />
+
+	<Hero
+		id="lord_M17_1"
+		faction="Faction.clan_empire_south_17" />
+
+	<Hero
+		id="lord_M17_11"
+		father="Hero.lord_M17_1"
+		faction="Faction.clan_empire_south_17" />
+
+	<Hero
+		id="lord_M18_1"
+		faction="Faction.clan_empire_south_18" />
+
+	<Hero
+		id="lord_M18_11"
+		father="Hero.lord_M18_1"
+		faction="Faction.clan_empire_south_18" />
+
+
+</Heroes>

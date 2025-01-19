@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MeetingScenes>
+	<Scene
+		id="meeting_castle_empire_a"
+		culture="Culture.empire"></Scene>
+	<Scene
+		id="meeting_castle_aserai_a"
+		culture="Culture.aserai"></Scene>
+	<Scene
+		id="meeting_castle_vlandia_a"
+		culture="Culture.vlandia"></Scene>
+	<Scene
+		id="meeting_castle_battania_a"
+		culture="Culture.battania"></Scene>
+	<Scene
+		id="meeting_castle_khuzait_a"
+		culture="Culture.khuzait"></Scene>
+	<Scene
+		id="meeting_castle_sturgia_a"
+		culture="Culture.sturgia"></Scene>
+</MeetingScenes>

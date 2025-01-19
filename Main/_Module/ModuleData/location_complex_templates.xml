@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LocationComplexTemplates>
+	<LocationComplexTemplate
+		id="town_complex">
+		<Location
+			id="center"
+			name="{=centertowncomplex}Center"
+			scene_name="empire_town_a"
+			scene_name_1="empire_town_a"
+			scene_name_2="empire_town_a"
+			scene_name_3="empire_town_a"
+			indoor="false"
+			max_prosperity="500"
+			ai_can_enter="CanAlways"
+			ai_can_exit="CanAlways"
+			player_can_enter="CanIfSettlementAccessModelLetsPlayer"
+			player_can_see="CanAlways" />
+		<Location
+			id="arena"
+			name="{=mMU3H6HZ}Arena"
+			scene_name="empire_hippodrome_a"
+			indoor="true"
+			max_prosperity="10"
+			ai_can_enter="CanNever"
+			ai_can_exit="CanIfDay"
+			player_can_enter="CanIfSettlementAccessModelLetsPlayer"
+			player_can_see="CanAlways" />
+		<Location
+			id="tavern"
+			name="{=DO7Vk4iw}Tavern"
+			scene_name="empire_interior_tavern_a"
+			indoor="true"
+			max_prosperity="30"
+			ai_can_enter="CanIfGrownUpMaleOrHero"
+			ai_can_exit="CanAlways"
+			player_can_enter="CanIfSettlementAccessModelLetsPlayer"
+			player_can_see="CanAlways" />
+		<Location
+			id="alley"
+			name="{=XkrL8Wok}Alley"
+			indoor="false"
+			max_prosperity="30"
+			ai_can_enter="CanIfGrownUpMaleOrHero"
+			ai_can_exit="CanAlways"
+			player_can_enter="CanIfSettlementAccessModelLetsPlayer"
+			player_can_see="CanAlways" />
+		<Location
+			id="lordshall"
+			name="{=QTKck7Uj}Lords Hall"
+			scene_name_1="empire_castle_keep_a_l1_interior"
+			scene_name_2="empire_castle_keep_a_l2_interior"
+			scene_name_3="empire_castle_keep_a_l3_interior"
+			indoor="true"
+			max_prosperity="100"
+			ai_can_enter="CanIfHero"
+			ai_can_exit="CanAlways"
+			player_can_enter="CanIfSettlementAccessModelLetsPlayer"
+			player_can_see="CanAlways" />
+		<Location
+			id="prison"
+			name="{=x04UGQDn}Dungeon"
+			scene_name="empire_dungeon_a"
+			indoor="true"
+			max_prosperity="100"
+			ai_can_enter="CanNever"
+			ai_can_exit="CanNever"
+			player_can_enter="CanIfSettlementAccessModelLetsPlayer"
+			player_can_see="CanAlways" />
+		<Location
+			id="house_1"
+			name="{=e7i3UP8q}House"
+			scene_name="empire_house_d_interior"
+			indoor="true"
+			can_be_reserved="true"
+			max_prosperity="5"
+			ai_can_enter="CanNever"
+			ai_can_exit="CanNever"
+			player_can_enter="CanIfSettlementAccessModelLetsPlayer"
+			player_can_see="CanIfSettlementAccessModelLetsPlayer" />
+		<Location
+			id="house_2"
+			name="{=e7i3UP8q}House"
+			scene_name="empire_house_d_interior"
+			indoor="true"
+			can_be_reserved="true"
+			max_prosperity="5"
+			ai_can_enter="CanNever"
+			ai_can_exit="CanNever"
+			player_can_enter="CanIfSettlementAccessModelLetsPlayer"
+			player_can_see="CanIfSettlementAccessModelLetsPlayer" />
+		<Location
+			id="house_3"
+			name="{=e7i3UP8q}House"
+			scene_name="empire_house_d_interior"
+			indoor="true"
+			can_be_reserved="true"
+			max_prosperity="5"
+			ai_can_enter="CanNever"
+			ai_can_exit="CanNever"
+			player_can_enter="CanIfSettlementAccessModelLetsPlayer"
+			player_can_see="CanIfSettlementAccessModelLetsPlayer" />
+		<Passages>
+			<Passage
+				location_1="center"
+				location_2="tavern" />
+			<Passage
+				location_1="center"
+				location_2="arena" />
+			<Passage
+				location_1="center"
+				location_2="lordshall" />
+			<Passage
+				location_1="center"
+				location_2="prison" />
+			<Passage
+				location_1="center"
+				location_2="house_1" />
+			<Passage
+				location_1="center"
+				location_2="house_2" />
+			<Passage
+				location_1="center"
+				location_2="house_3" />
+		</Passages>
+	</LocationComplexTemplate>
+	<LocationComplexTemplate
+		id="village_complex">
+		<Location
+			id="village_center"
+			name="{=25pNV9E3}Village Center"
+			scene_name="empire_village_a"
+			indoor="false"
+			max_prosperity="40"
+			ai_can_enter="CanAlways"
+			ai_can_exit="CanAlways"
+			player_can_enter="CanAlways"
+			player_can_see="CanAlways" />
+		<Passages></Passages>
+	</LocationComplexTemplate>
+	<LocationComplexTemplate
+		id="castle_complex">
+		<Location
+			id="center"
+			name="{=O7lU6qaU}Castle Courtyard"
+			scene_name="aserai_castle_002"
+			scene_name_1="aserai_castle_002"
+			scene_name_2="aserai_castle_002"
+			scene_name_3="aserai_castle_002"
+			indoor="false"
+			max_prosperity="50"
+			ai_can_enter="CanAlways"
+			ai_can_exit="CanAlways"
+			player_can_enter="CanIfSettlementAccessModelLetsPlayer"
+			player_can_see="CanAlways" />
+		<Location
+			id="lordshall"
+			name="{=QTKck7Uj}Lords Hall"
+			scene_name_1="european_castle keep_a_l1_interior"
+			scene_name_2="european_castle keep_a_l2_interior"
+			scene_name_3="european_castle keep_a_l3_interior"
+			indoor="true"
+			max_prosperity="20"
+			ai_can_enter="CanIfHero"
+			ai_can_exit="CanAlways"
+			player_can_enter="CanIfSettlementAccessModelLetsPlayer"
+			player_can_see="CanAlways" />
+		<Location
+			id="prison"
+			name="{=x04UGQDn}Dungeon"
+			scene_name="empire_dungeon_a"
+			indoor="true"
+			max_prosperity="100"
+			ai_can_enter="CanNever"
+			ai_can_exit="CanNever"
+			player_can_enter="CanIfSettlementAccessModelLetsPlayer"
+			player_can_see="CanAlways" />
+		<Passages>
+			<Passage
+				location_1="center"
+				location_2="lordshall" />
+			<Passage
+				location_1="center"
+				location_2="prison" />
+		</Passages>
+	</LocationComplexTemplate>
+	<LocationComplexTemplate
+		id="ambush_complex">
+		<Location
+			id="center"
+			name="{=centertowncomplex}Center"
+			scene_name="ambush_scene_2"
+			indoor="false"
+			max_prosperity="100"
+			ai_can_enter="CanAlways"
+			ai_can_exit="CanAlways"
+			player_can_enter="CanAlways"
+			player_can_see="CanAlways" />
+		<Passages></Passages>
+	</LocationComplexTemplate>
+	<LocationComplexTemplate
+		id="retreat_complex">
+		<Location
+			id="retirement_retreat"
+			name="{=centerretreatcomplex}Center"
+			scene_name="scn_retirement"
+			indoor="false"
+			max_prosperity="100"
+			ai_can_enter="CanNever"
+			ai_can_exit="CanNever"
+			player_can_enter="CanAlways"
+			player_can_see="CanAlways" />
+		<Passages></Passages>
+	</LocationComplexTemplate>
+</LocationComplexTemplates>

@@ -61,6 +61,24 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="_Module\Logs\**" />
+    <Compile Remove="_Module\ModuleData\cultures\**" />
+    <Compile Remove="_Module\ModuleData\heroes\**" />
+    <Compile Remove="_Module\ModuleData\kingdoms\**" />
+    <Compile Remove="_Module\ModuleData\lords\**" />
+    <EmbeddedResource Remove="_Module\Logs\**" />
+    <EmbeddedResource Remove="_Module\ModuleData\cultures\**" />
+    <EmbeddedResource Remove="_Module\ModuleData\heroes\**" />
+    <EmbeddedResource Remove="_Module\ModuleData\kingdoms\**" />
+    <EmbeddedResource Remove="_Module\ModuleData\lords\**" />
+    <None Remove="_Module\Logs\**" />
+    <None Remove="_Module\ModuleData\cultures\**" />
+    <None Remove="_Module\ModuleData\heroes\**" />
+    <None Remove="_Module\ModuleData\kingdoms\**" />
+    <None Remove="_Module\ModuleData\lords\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="LOTRTAOMInformationPatch.cs" />
   </ItemGroup>
 
@@ -76,15 +94,6 @@
     <PackageReference Include="Lib.Harmony" Version="2.3.3" IncludeAssets="compile" />
     <PackageReference Include="Harmony.Extensions" Version="3.2.0.77" PrivateAssets="all" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" />
     <PackageReference Include="BUTR.Harmony.Analyzer" Version="1.0.1.50" PrivateAssets="all" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="_Module\AssetPackages\" />
-    <Folder Include="_Module\Logs\" />
-    <Folder Include="_Module\ModuleData\cultures\" />
-    <Folder Include="_Module\ModuleData\heroes\" />
-    <Folder Include="_Module\ModuleData\kingdoms\" />
-    <Folder Include="_Module\ModuleData\lords\" />
   </ItemGroup>
 
   <ItemGroup>
