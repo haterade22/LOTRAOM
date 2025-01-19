@@ -2127,38 +2127,89 @@
 
 	<Hero
 		id="lord_DG1_11"
-		father="Hero.lord_U1_1"
+		father="Hero.lord_DG1_1"
 		faction="Faction.clan_dolguldur_1" />
+<!--Mordor Clans 10 - 18 -->
+	<Hero
+		id="lord_M10_1"
+		faction="Faction.clan_empire_south_10"  />
+
+	<Hero
+		id="lord_M10_11"
+		father="Hero.lord_M10_1"
+		faction="Faction.clan_empire_south_10" />
+
+	<Hero
+		id="lord_M11_1"
+		faction="Faction.clan_empire_south_11" />
+
+	<Hero
+		id="lord_M11_11"
+		father="Hero.lord_M11_1"
+		faction="Faction.clan_empire_south_11" />
+
+	<Hero
+		id="lord_M12_1"
+		faction="Faction.clan_empire_south_12" />
+
+	<Hero
+		id="lord_M12_11"
+		father="Hero.lord_M12_1"
+		faction="Faction.clan_empire_south_12" />
+
+	<Hero
+		id="lord_M13_1"
+		faction="Faction.clan_empire_south_13" />
+
+	<Hero
+		id="lord_M13_11"
+		father="Hero.lord_M13_1"
+		faction="Faction.clan_empire_south_13" />
+
+	<Hero
+		id="lord_M14_1"
+		faction="Faction.clan_empire_south_14" />
+
+	<Hero
+		id="lord_M14_11"
+		father="Hero.lord_M14_1"
+		faction="Faction.clan_empire_south_14" />
+
+	<Hero
+		id="lord_M15_1"
+		faction="Faction.clan_empire_south_15" />
+
+	<Hero
+		id="lord_M15_11"
+		father="Hero.lord_M15_1"
+		faction="Faction.clan_empire_south_15" />
+
+	<Hero
+		id="lord_M16_1"
+		faction="Faction.clan_empire_south_16" />
+
+	<Hero
+		id="lord_M16_11"
+		father="Hero.lord_M16_1"
+		faction="Faction.clan_empire_south_16" />
+
+	<Hero
+		id="lord_M17_1"
+		faction="Faction.clan_empire_south_17" />
+
+	<Hero
+		id="lord_M17_11"
+		father="Hero.lord_M17_1"
+		faction="Faction.clan_empire_south_17" />
+
+	<Hero
+		id="lord_M18_1"
+		faction="Faction.clan_empire_south_18" />
+
+	<Hero
+		id="lord_M18_11"
+		father="Hero.lord_M18_1"
+		faction="Faction.clan_empire_south_18" />
 
 
-	<!-- New heroes added
-  <Hero id="lord_7_5" spouse="Hero.lord_7_5_1" faction="Faction.clan_battania_8" />
-  <Hero id="lord_7_5_1" spouse="Hero.lord_7_5" faction="Faction.clan_battania_8" />
-  <Hero id="lord_7_5_2" father="Hero.lord_7_5" mother="Hero.lord_7_5_1"
-	faction="Faction.clan_battania_8" />
-  <Hero id="lord_7_5_3" father="Hero.lord_7_5" mother="Hero.lord_7_5_1"
-	faction="Faction.clan_battania_8" />
-  <Hero id="lord_7_5_4" father="Hero.lord_7_5" mother="Hero.lord_7_5_1"
-	faction="Faction.clan_battania_8" />
-  <Hero id="lord_7_6" spouse="Hero.lord_7_6_1" faction="Faction.clan_khuzait_9" />
-  <Hero id="lord_7_6_1" spouse="Hero.lord_7_6" faction="Faction.clan_khuzait_9" />
-  <Hero id="lord_7_6_2" father="Hero.lord_7_6" mother="Hero.lord_7_6_1"
-	faction="Faction.clan_khuzait_9" />
-  <Hero id="lord_7_6_3" father="Hero.lord_7_6" mother="Hero.lord_7_6_1"
-	faction="Faction.clan_khuzait_9" />
-  <Hero id="lord_7_7" spouse="Hero.lord_7_7_1" faction="Faction.clan_sturgia_9" />
-  <Hero id="lord_7_7_1" spouse="Hero.lord_7_7" faction="Faction.clan_sturgia_9" />
-  <Hero id="lord_7_7_2" father="Hero.lord_7_7" mother="Hero.lord_7_7_1"
-	faction="Faction.clan_sturgia_9" />
-  <Hero id="lord_7_7_3" father="Hero.lord_7_7" mother="Hero.lord_7_7_1"
-	faction="Faction.clan_sturgia_9" />
-  <Hero id="lord_7_7_4" father="Hero.lord_7_7" mother="Hero.lord_7_7_1"
-	faction="Faction.clan_sturgia_9" />
-
-  <Hero id="lord_7_8_1" spouse="Hero.lord_7_8" faction="Faction.clan_vlandia_11" />
-  <Hero id="lord_7_8_2" father="Hero.lord_7_8" mother="Hero.lord_7_8_1"
-	faction="Faction.clan_vlandia_11" />
-  <Hero id="lord_7_8_3" father="Hero.lord_7_8" mother="Hero.lord_7_8_1"
-	faction="Faction.clan_vlandia_11" />
-  -->
 </Heroes>

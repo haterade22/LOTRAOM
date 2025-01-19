@@ -24631,8 +24631,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Equipments>
 	</NPCCharacter>
 
-	<!--Dol
-	Guldur-->
+	<!--Dol Guldur-->
 	<NPCCharacter
 		id="lord_DG1_1"
 		name="{=dolguldurclanonename}Maldrûk"
@@ -24742,5 +24741,835 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
+
+	<!--Mordor-->
+	<NPCCharacter
+			id="lord_M10_1"
+			name="{=mordorlordm10_1}Mauhoshat"
+			age="25"
+			voice="earnest"
+			is_hero="true"
+			race="uruk"
+			culture="Culture.mordor"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="30"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-2" />
+			<Trait id="Mercy" value="-2" />
+			<Trait id="Honor" value="0" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_M10_11"
+		name="{=mordorclan10child}Mordor Placeholder Child"
+		age="10"
+		voice="earnest"
+		race="uruk"
+		is_hero="true"
+		culture="Culture.mordor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter
+	id="lord_M11_1"
+	name="{=mordorlordm11_1}Maugrukh"
+	age="25"
+	voice="earnest"
+	is_hero="true"
+	race="uruk"
+	culture="Culture.mordor"
+	occupation="Lord"
+	default_group="Infantry"
+	face_mesh_cache="true">
+		<face>
+			<!--face_key
+		value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+		/-->
+			<BodyProperties
+				version="4"
+				age="30"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-2" />
+			<Trait id="Mercy" value="-2" />
+			<Trait id="Honor" value="0" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_M11_11"
+		name="{=mordorlordm11_11}Zorûk"
+		age="10"
+		voice="earnest"
+		race="uruk"
+		is_hero="true"
+		culture="Culture.mordor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+		value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+		/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Honor" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+	id="lord_M12_1"
+	name="{=mordorlordm12_1}Rûklash"
+	age="25"
+	voice="earnest"
+	is_hero="true"
+	race="uruk"
+	culture="Culture.mordor"
+	occupation="Lord"
+	default_group="Infantry"
+	face_mesh_cache="true">
+		<face>
+			<!--face_key
+		value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+		/-->
+			<BodyProperties
+				version="4"
+				age="30"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-2" />
+			<Trait id="Mercy" value="-2" />
+			<Trait id="Honor" value="0" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_M12_11"
+		name="{=mordorlordm12_11}Zûrgath"
+		age="10"
+		voice="earnest"
+		race="uruk"
+		is_hero="true"
+		culture="Culture.mordor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+		value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+		/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Honor" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<!-- lord_M13_1 and lord_M13_11 -->
+	<NPCCharacter
+		id="lord_M13_1"
+		name="{=mordorlordm13_1}Thûrak"
+		age="25"
+		voice="earnest"
+		is_hero="true"
+		race="uruk"
+		culture="Culture.mordor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="30"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7" />
+			<Trait id="Commander" value="9" />
+			<Trait id="Politician" value="8" />
+			<Trait id="Manager" value="8" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-2" />
+			<Trait id="Mercy" value="-2" />
+			<Trait id="Honor" value="0" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="khu_bat_template_medium" />
+			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_M13_11"
+		name="{=mordorlordm13_11}Gûdrak"
+		age="10"
+		voice="earnest"
+		race="uruk"
+		is_hero="true"
+		culture="Culture.mordor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="1" />
+			<Trait id="Commander" value="1" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Honor" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="khu_bat_template_medium" />
+			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- lord_M14_1 and lord_M14_11 -->
+	<NPCCharacter
+		id="lord_M14_1"
+		name="{=mordorlordm14_1}Nâzgul"
+		age="25"
+		voice="earnest"
+		is_hero="true"
+		race="uruk"
+		culture="Culture.mordor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="30"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7" />
+			<Trait id="Commander" value="9" />
+			<Trait id="Politician" value="8" />
+			<Trait id="Manager" value="8" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-2" />
+			<Trait id="Mercy" value="-2" />
+			<Trait id="Honor" value="0" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="khu_bat_template_medium" />
+			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_M14_11"
+		name="{=mordorlordm14_11}Mâgzûk"
+		age="10"
+		voice="earnest"
+		race="uruk"
+		is_hero="true"
+		culture="Culture.mordor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="1" />
+			<Trait id="Commander" value="1" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Honor" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="khu_bat_template_medium" />
+			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- lord_M15_1 and lord_M15_11 -->
+	<NPCCharacter
+		id="lord_M15_1"
+		name="{=mordorlordm15_1}Dûrzan"
+		age="25"
+		voice="earnest"
+		is_hero="true"
+		race="uruk"
+		culture="Culture.mordor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="30"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7" />
+			<Trait id="Commander" value="9" />
+			<Trait id="Politician" value="8" />
+			<Trait id="Manager" value="8" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-2" />
+			<Trait id="Mercy" value="-2" />
+			<Trait id="Honor" value="0" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="khu_bat_template_medium" />
+			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_M15_11"
+		name="{=mordorlordm15_11}Rûzkhan"
+		age="10"
+		voice="earnest"
+		race="uruk"
+		is_hero="true"
+		culture="Culture.mordor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="1" />
+			<Trait id="Commander" value="1" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Honor" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="khu_bat_template_medium" />
+			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- lord_M16_1 and lord_M16_11 -->
+	<NPCCharacter
+		id="lord_M16_1"
+		name="{=mordorlordm16_1}Gûlnak"
+		age="25"
+		voice="earnest"
+		is_hero="true"
+		race="uruk"
+		culture="Culture.mordor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="30"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7" />
+			<Trait id="Commander" value="9" />
+			<Trait id="Politician" value="8" />
+			<Trait id="Manager" value="8" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-2" />
+			<Trait id="Mercy" value="-2" />
+			<Trait id="Honor" value="0" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="khu_bat_template_medium" />
+			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_M16_11"
+		name="{=mordorlordm16_11}Zûrbak"
+		age="10"
+		voice="earnest"
+		race="uruk"
+		is_hero="true"
+		culture="Culture.mordor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="1" />
+			<Trait id="Commander" value="1" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Honor" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="khu_bat_template_medium" />
+			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- lord_M17_1 and lord_M17_11 -->
+	<NPCCharacter
+		id="lord_M17_1"
+		name="{=mordorlordm17_1}Thûlnar"
+		age="25"
+		voice="earnest"
+		is_hero="true"
+		race="uruk"
+		culture="Culture.mordor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="30"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7" />
+			<Trait id="Commander" value="9" />
+			<Trait id="Politician" value="8" />
+			<Trait id="Manager" value="8" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-2" />
+			<Trait id="Mercy" value="-2" />
+			<Trait id="Honor" value="0" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="khu_bat_template_medium" />
+			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_M17_11"
+		name="{=mordorlordm17_11}Gûltor"
+		age="10"
+		voice="earnest"
+		race="uruk"
+		is_hero="true"
+		culture="Culture.mordor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="1" />
+			<Trait id="Commander" value="1" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Honor" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="khu_bat_template_medium" />
+			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- lord_M18_1 and lord_M18_11 -->
+	<NPCCharacter
+		id="lord_M18_1"
+		name="{=mordorlordm18_1}Kûragh"
+		age="25"
+		voice="earnest"
+		is_hero="true"
+		race="uruk"
+		culture="Culture.mordor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="30"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7" />
+			<Trait id="Commander" value="9" />
+			<Trait id="Politician" value="8" />
+			<Trait id="Manager" value="8" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-2" />
+			<Trait id="Mercy" value="-2" />
+			<Trait id="Honor" value="0" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="khu_bat_template_medium" />
+			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_M18_11"
+		name="{=mordorlordm18_11}Lûrtag"
+		age="10"
+		voice="earnest"
+		race="uruk"
+		is_hero="true"
+		culture="Culture.mordor"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="1" />
+			<Trait id="Commander" value="1" />
+			<Trait id="Politician" value="5" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Honor" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="khu_bat_template_medium" />
+			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
 
 </NPCCharacters>
