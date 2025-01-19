@@ -169,7 +169,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_black" />
 				<equipment
 					slot="Body"
 					id="Item.gond_tab_9ld" />
@@ -192,7 +192,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_two_black" />
 				<equipment
 					slot="Body"
 					id="Item.gond_tab_9ld" />
@@ -405,14 +405,82 @@
 			<upgrade_target id="NPCCharacter.gondor_veteran_swordsman"/>
 		</upgrade_targets>
 		<Equipments>
-
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
 					id="Item.bastard_sword_t2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_black" />
+				<equipment
+					slot="Body"
+					id="Item.gondor_armor" />
+				<equipment
+					slot="Head"
+					id="Item.gondor_helmet" />
+				<equipment
+					slot="Gloves"
+					id="Item.gondor_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.gondor_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.bastard_sword_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_black" />
+				<equipment
+					slot="Body"
+					id="Item.gondor_armor" />
+				<equipment
+					slot="Head"
+					id="Item.gondor_helmet" />
+				<equipment
+					slot="Gloves"
+					id="Item.gondor_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.gondor_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.bastard_sword_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_three_black" />
+				<equipment
+					slot="Body"
+					id="Item.gondor_armor" />
+				<equipment
+					slot="Head"
+					id="Item.gondor_helmet" />
+				<equipment
+					slot="Gloves"
+					id="Item.gondor_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.gondor_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.bastard_sword_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
 					id="Item.gondor_armor" />
@@ -474,14 +542,13 @@
 			<upgrade_target id="NPCCharacter.gondor_veteran_spearman"/>
 		</upgrade_targets>
 		<Equipments>
-
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_black" />
 				<equipment
 					slot="Body"
 					id="Item.gondor_armor" />
@@ -498,6 +565,76 @@
 					slot="Cape"
 					id="Item.gondor_pauldrons" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.gond_spear2" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_black" />
+				<equipment
+					slot="Body"
+					id="Item.gondor_armor" />
+				<equipment
+					slot="Head"
+					id="Item.gondor_helmet" />
+				<equipment
+					slot="Gloves"
+					id="Item.gondor_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.gondor_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.gond_spear2" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_three_black" />
+				<equipment
+					slot="Body"
+					id="Item.gondor_armor" />
+				<equipment
+					slot="Head"
+					id="Item.gondor_helmet" />
+				<equipment
+					slot="Gloves"
+					id="Item.gondor_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.gondor_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.gond_spear2" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
+				<equipment
+					slot="Body"
+					id="Item.gondor_armor" />
+				<equipment
+					slot="Head"
+					id="Item.gondor_helmet" />
+				<equipment
+					slot="Gloves"
+					id="Item.gondor_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.gondor_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+		
 
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -573,7 +710,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -596,7 +733,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_two_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -619,7 +756,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_three_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4" />
@@ -642,7 +779,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4" />
@@ -804,7 +941,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -827,7 +964,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_two_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -850,7 +987,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_three_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4" />
@@ -873,7 +1010,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4" />
@@ -1086,7 +1223,77 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet4" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_three_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet4" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet4" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4" />
@@ -1188,7 +1395,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1214,7 +1421,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_two_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1240,7 +1447,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_three_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4" />
@@ -1292,7 +1499,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4" />
@@ -1349,17 +1556,114 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_one_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_three_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+				<EquipmentSet
+						id="empire_troop_civilian_template_t2"
+						civilian="true" />
 				<equipment slot="Horse" id="Item.charger"/>
 				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="gondor_squire"
@@ -1387,15 +1691,114 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_one_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
 			</EquipmentRoster>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
 			</EquipmentRoster>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_three_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
 			</EquipmentRoster>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
 			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+					id="empire_troop_civilian_template_t2"
+					civilian="true" />
+			<equipment slot="Horse" id="Item.charger"/>
+			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</Equipments>
 	</NPCCharacter>
 
@@ -1682,6 +2085,9 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_swan" />
 			</EquipmentRoster>
 			<EquipmentRoster>
 			</EquipmentRoster>
@@ -1717,6 +2123,10 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_swan" />
+				
 			</EquipmentRoster>
 			<EquipmentRoster>
 			</EquipmentRoster>
@@ -1749,6 +2159,9 @@
 		</skills>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_swan" />
 			</EquipmentRoster>
 			<EquipmentRoster>
 			</EquipmentRoster>
@@ -1812,7 +2225,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_red" />
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor3" />
@@ -1878,7 +2291,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_red" />
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor2" />
@@ -1943,7 +2356,7 @@
 					id="Item.wm_gondor_spear" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_red" />
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
