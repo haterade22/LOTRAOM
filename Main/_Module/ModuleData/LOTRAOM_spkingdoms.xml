@@ -22,6 +22,20 @@
 		title="{=lAWwcO6b}Clans of Dunland"
 		ruler_title="{=hwnp9abW}King"
 		text="{=DunlandFactionDesc}Dunland, a rugged and untamed land of rolling hills and dense forests, is home to the fierce and independent Dunlendings. Often marginalized and at odds with their neighbors, the people of Dunland are hardened by centuries of struggle and survival. Their chieftains lead through strength and cunning, uniting clans under a shared banner of vengeance and freedom. Known for their ferocious warriors and skilled hunters, the Dunlendings favor axes, spears, and bows, fighting with a tenacity born from their deep connection to their ancestral lands. Though their ways may seem primitive to others, the Dunlendings are proud and resourceful, ready to reclaim their rightful place in Middle-earth.">
+		<relationships>
+			<relationship
+				kingdom="Kingdom.vlandia"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.isengard"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_s"
+				value="1"
+				isAtWar="false" />
+		</relationships>
 		<policies>
 			<policy
 				id="policy_royal_privilege" />
@@ -63,6 +77,58 @@
 				kingdom="Kingdom.empire_s"
 				value="-1"
 				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.aserai"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.isengard"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.dolguldur"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.gundabad"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.umbar"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.vlandia"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.battania"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.sturgia"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.lothlorien"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.rivendell"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.mirkwood"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.erebor"
+				value="0"
+				isAtWar="false" />
 		</relationships>
 		<policies>
 			<policy
@@ -103,13 +169,65 @@
 		text="{=Xtyb9Dyr}Mordor is a dark, desolate realm forged in shadow and ruled by the Dark Lord Sauron. Nestled behind the towering black mountains, this kingdom brims with orc armies, ruthless trolls, and fiery forges crafting weapons of war. From his fortress in Barad-dûr, Sauron commands an unstoppable force, poised to spread his dominion across Middle-earth. Mordor’s skies are clouded with ash, and its lands are barren, a fitting domain for Sauron’s twisted ambition and dark magic.">
 		<relationships>
 			<relationship
-				kingdom="Kingdom.vlandia"
-				value="-1"
-				isAtWar="true" />
+				kingdom="Kingdom.khuzait"
+				value="1"
+				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_w"
 				value="-1"
 				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.aserai"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.isengard"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.dolguldur"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.gundabad"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.umbar"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.vlandia"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.battania"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.sturgia"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.lothlorien"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.rivendell"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.mirkwood"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.erebor"
+				value="-1"
+				isAtWar="false" />
 		</relationships>
 		<policies>
 			<policy
@@ -150,6 +268,72 @@
 		title="{=iYCR3xuQ}Kingdom of Dale"
 		ruler_title="{=FmbgPGBL}King"
 		text="{=DaleFactionDesc}Dale, the prosperous city-state at the foot of the Lonely Mountain, is a realm of resilient and industrious men. Rebuilt after Smaug’s defeat, Dale thrives as a center of trade and craftsmanship, its bustling markets brimming with goods from Erebor and beyond. The Bardings, descendants of Bard the Bowman, are known for their valor, resourcefulness, and dedication to protecting their people. Guided by noble leaders, Dale fields disciplined infantry and skilled archers, with warriors trained to defend their city and the surrounding lands. Dale stands as a beacon of renewal and unity, a testament to the enduring spirit of its people amidst the shadows of Middle-earth.">
+		<relationships>
+			<relationship
+				kingdom="Kingdom.khuzait"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_w"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_s"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.aserai"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.isengard"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.dolguldur"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.gundabad"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.umbar"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.vlandia"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.battania"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.sturgia"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.lothlorien"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.rivendell"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.mirkwood"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.erebor"
+				value="1"
+				isAtWar="false" />
+		</relationships>
 		<policies>
 			<policy
 				id="policy_castle_charters" />
@@ -193,7 +377,68 @@
 			<policy
 				id="policy_castle_charters" />
 		</policies>
-
+		<relationships>
+			<relationship
+				kingdom="Kingdom.khuzait"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_w"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.empire_s"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.isengard"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.dolguldur"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.gundabad"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.umbar"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.vlandia"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.battania"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.sturgia"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.lothlorien"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.rivendell"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.mirkwood"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.erebor"
+				value="0"
+				isAtWar="false" />
+		</relationships>
 	</Kingdom>
 
 	<!--Rohan-->
@@ -220,11 +465,63 @@
 			<relationship
 				kingdom="Kingdom.khuzait"
 				value="-1"
-				isAtWar="true" />
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_w"
+				value="1"
+				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_s"
 				value="-1"
 				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.isengard"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.dolguldur"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.gundabad"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.umbar"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.aserai"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.battania"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.sturgia"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.lothlorien"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.rivendell"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.mirkwood"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.erebor"
+				value="0"
+				isAtWar="false" />
 		</relationships>
 		<policies>
 			<policy
@@ -262,6 +559,68 @@
 		title="{=qaDIU0XC}Windriders of Khand"
 		ruler_title="{=afvM7XpQ}Khûdriag"
 		text="{=KhandFactionDesc}Khand, a rugged land of rolling steppes and arid plains, lies southeast of Mordor and serves as a critical corridor between the east and west. Its landscape is marked by expansive grasslands, dry riverbeds, and scattered rocky outcroppings. Historically a region of nomadic tribes, Khand has seen countless raids and battles as its people vie for dominance and survival. Its steppes are traversed by swift riders and caravans, connecting it to the trade routes of Harad and Rhûn. The Variags of Khand, renowned for their martial prowess, draw strength from their harsh environment, and their settlements reflect a blend of utilitarian fortifications and cultural artistry. Khand’s alliance with Sauron has turned this land into a staging ground for his eastern campaigns, its windswept plains echoing with the hoofbeats of war.">
+		<relationships>
+			<relationship
+				kingdom="Kingdom.khuzait"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_w"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_s"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.isengard"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.dolguldur"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.gundabad"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.umbar"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.aserai"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.vlandia"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.sturgia"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.lothlorien"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.rivendell"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.mirkwood"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.erebor"
+				value="-1"
+				isAtWar="false" />
+		</relationships>
 		<policies>
 			<policy
 				id="policy_noble_retinues" />
@@ -295,13 +654,65 @@
 		text="{=fGNdo1BK}Rhûn, a vast and mysterious land to the east of Middle-earth, is home to the Easterlings, a fierce and warlike people. Known for their loyalty to Sauron and their highly skilled cavalry, they bring swift and deadly attacks to any who oppose them. The warriors of Rhun are formidable riders, clad in armor inspired by ancient and Eastern motifs, loyal to their Warlord and ever ready to ride at Mordor's call.">
 		<relationships>
 			<relationship
-				kingdom="Kingdom.vlandia"
-				value="-1"
-				isAtWar="true" />
+				kingdom="Kingdom.battania"
+				value="1"
+				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_w"
 				value="-1"
 				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.empire_s"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.isengard"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.dolguldur"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.gundabad"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.umbar"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.aserai"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.vlandia"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.sturgia"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.lothlorien"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.rivendell"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.mirkwood"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.erebor"
+				value="-1"
+				isAtWar="false" />
 		</relationships>
 		<policies>
 			<policy
@@ -335,6 +746,64 @@
 		title="{=ereborkingdomtitle}Kingdom of Erebor"
 		ruler_title="{=ereborrulertitle}King"
 		text="{=EreborKingdomText}Erebor Test">
+		<relationships>
+			<relationship
+				kingdom="Kingdom.khuzait"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_w"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_s"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.isengard"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.dolguldur"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.gundabad"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.umbar"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.aserai"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.vlandia"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.sturgia"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.lothlorien"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.rivendell"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.mirkwood"
+				value="0"
+				isAtWar="false" />
+		</relationships>
 		<policies>
 			<policy
 				id="policy_royal_privilege" />
@@ -367,6 +836,64 @@
 		title="{=rivendellkingdomtitle}Refuged of Imladris"
 		ruler_title="{=rivendellrulertitle}Lord"
 		text="{=RivendellKingdomText}Rivendell, also known as Imladris, is a sanctuary of wisdom and beauty hidden in the foothills of the Misty Mountains. Guided by Lord Elrond, the haven stands as a beacon of hope and resistance against the growing shadow. The Elves of Rivendell are guardians of ancient lore, skilled in both combat and healing arts. Their banners of silver and blue symbolize the enduring spirit of the Eldar and their unwavering resolve to protect Middle-earth.">
+		<relationships>
+			<relationship
+				kingdom="Kingdom.khuzait"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_w"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_s"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.isengard"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.dolguldur"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.gundabad"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.umbar"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.aserai"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.vlandia"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.sturgia"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.lothlorien"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.erebor"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.mirkwood"
+				value="1"
+				isAtWar="false" />
+		</relationships>
 		<policies>
 			<policy
 				id="policy_royal_privilege" />
@@ -399,6 +926,65 @@
 		title="{=mirkwoodkingdomtitle}Kingdom of Lasgalen"
 		ruler_title="{=mirkwoodrulertitle}Aran"
 		text="{=MirkwoodKingdomText}Mirkwood, the great forest of Middle-earth, is a land of mystery and danger, ruled by the enigmatic King Thranduil. Beneath the towering trees of this ancient woodland, the Silvan Elves dwell, their lives intertwined with the magic and shadows of their home. Skilled archers and warriors, the Elves of Mirkwood defend their realm fiercely, standing guard against the ever-encroaching darkness. Though the forest bears scars from years of strife, it remains a place of haunting beauty and resilience, a testament to the enduring spirit of its people and their resolve to safeguard their ancient homeland.">
+		<relationships>
+			<relationship
+				kingdom="Kingdom.khuzait"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_w"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_s"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.isengard"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.dolguldur"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.gundabad"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.umbar"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.aserai"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.vlandia"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.sturgia"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.lothlorien"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.erebor"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.rivendell"
+				value="1"
+				isAtWar="false" />
+		</relationships>
+
 		<policies>
 			<policy
 				id="policy_royal_privilege" />
@@ -431,6 +1017,65 @@
 		title="{=lothlorienkingdomtitle}Kingdom of Lothlórien"
 		ruler_title="{=lothlorienrulertitle}Lady"
 		text="{=LothlorienKingdomText}Lothlórien, the Golden Wood, is a realm of unmatched beauty and serenity. Under the wise and graceful rule of Lady Galadriel and Lord Celeborn, it serves as a sanctuary for the Free Peoples of Middle-earth. The Elves of Lothlórien are both wise and formidable, their archers unmatched in skill and their warriors clad in armor that shimmers with the light of the Mallorn trees. Protected by the power of the Elven Rings, the Golden Wood stands as a beacon of hope and resilience against the encroaching darkness, its beauty a testament to the enduring spirit of the Elves.">
+		<relationships>
+			<relationship
+				kingdom="Kingdom.khuzait"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_w"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_s"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.isengard"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.dolguldur"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.gundabad"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.umbar"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.aserai"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.vlandia"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.sturgia"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire"
+				value="-1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.mirkwood"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.erebor"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.rivendell"
+				value="1"
+				isAtWar="false" />
+		</relationships>
+
 		<policies>
 			<policy
 				id="policy_royal_privilege" />
@@ -463,6 +1108,68 @@
 		title="{=isengardkingdomtitle}Overlordship of Isengard"
 		ruler_title="{=isengardrulertitle}Warlord"
 		text="{=IsengardKingdomText}Isengard, the stronghold of the White Wizard Saruman, stands as a bastion of power and ambition. Encircled by the mighty Ring of Isengard and fortified by towering walls, it is a symbol of Saruman’s mastery over both the arcane and industrial might. The Uruk-hai, bred for war, march forth under the banner of the White Hand, their discipline and savagery unmatched. Within the halls of Orthanc, Saruman weaves his schemes, a cunning mind bent on domination. Isengard embodies a relentless drive for conquest, a dark force poised to reshape Middle-earth to Saruman’s will.">
+		<relationships>
+			<relationship
+				kingdom="Kingdom.khuzait"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_w"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.aserai"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.dolguldur"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_s"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.gundabad"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.umbar"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.vlandia"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.battania"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.sturgia"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.lothlorien"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.rivendell"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.mirkwood"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.erebor"
+				value="-1"
+				isAtWar="true" />
+		</relationships>
 		<policies>
 			<policy
 				id="policy_royal_privilege" />
@@ -495,6 +1202,68 @@
 		title="{=gundabadkingdomtitle}Gundabad"
 		ruler_title="{=gundabadrulertitle}Warlord"
 		text="{=gundabadKingdomText}Gundabad, the ancient and foreboding stronghold of the Orcs, stands as a bastion of savagery and domination. Rising from the shadow of Mount Gundabad, it is fortified by natural defenses and steeped in the brutal traditions of its masters. The Orcs of Gundabad, bred for war and chaos, rally under bloodied banners, their ferocity and sheer numbers a terror to all who stand against them. Within its darkened halls, the Warlord plots conquest, uniting the fractious tribes with a vision of Orc supremacy. Gundabad is a force of relentless power, poised to plunge Middle-earth into chaos and destruction.">
+		<relationships>
+			<relationship
+				kingdom="Kingdom.khuzait"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_w"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.aserai"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.isengard"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_s"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.dolguldur"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.umbar"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.vlandia"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.battania"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.sturgia"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.lothlorien"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.rivendell"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.mirkwood"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.erebor"
+				value="-1"
+				isAtWar="true" />
+		</relationships>
 		<policies>
 			<policy
 				id="policy_royal_privilege" />
@@ -527,6 +1296,69 @@
 		title="{=umbarkingdomtitle}Haven of Umbar"
 		ruler_title="{=umbarkingdomrulertitle}Corsair King"
 		text="{=UmbarKingdomText}Umbar, the dark haven of the Corsairs, is a realm steeped in maritime power and treacherous ambition. The Corsairs, fierce seafarers loyal to their own cause, raid the coasts of Middle-earth, spreading fear with their swift ships and devastating strikes. Their banners of black and crimson reflect their defiance and dominance of the seas. Umbar, once a Númenórean haven, now thrives as a stronghold of piracy, its harbors echoing with the tales of plunder and conquest.">
+		<relationships>
+			<relationship
+				kingdom="Kingdom.khuzait"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_w"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.aserai"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.isengard"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_s"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.gundabad"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.dolguldur"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.vlandia"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.battania"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.sturgia"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.lothlorien"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.rivendell"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.mirkwood"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.erebor"
+				value="-1"
+				isAtWar="true" />
+		</relationships>
+
 		<policies>
 			<policy
 				id="policy_royal_privilege" />
@@ -561,7 +1393,68 @@
 		title="{=dolguldurkingdomtitle}Necromancy of Dol Guldur"
 		ruler_title="{=dolguldurkingdomrulertitle}Dread-Lord"
 		text="{=DolGuldurKingdomText}Dol Guldur, the fortress of shadow and despair, stands as a menacing beacon of the Necromancer's dark will. Perched on the hill of Amon Lanc within the foreboding forest of Mirkwood, it exudes an aura of malevolence. The Orcs and foul creatures that inhabit its depths are loyal to their dark master, striking fear into the hearts of all who dare venture near. Dol Guldur's banners of black and deep crimson symbolize its relentless corruption and the spreading shadow over Middle-earth. Once a place of peace, the fortress now serves as a stronghold of terror, ready to unleash its forces upon the Free Peoples.">
-
+		<relationships>
+			<relationship
+				kingdom="Kingdom.khuzait"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_w"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.aserai"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.isengard"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire_s"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.gundabad"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.umbar"
+				value="1"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.vlandia"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.battania"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.sturgia"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.empire"
+				value="0"
+				isAtWar="false" />
+			<relationship
+				kingdom="Kingdom.lothlorien"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.rivendell"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.mirkwood"
+				value="-1"
+				isAtWar="true" />
+			<relationship
+				kingdom="Kingdom.erebor"
+				value="-1"
+				isAtWar="true" />
+		</relationships>
 		<policies>
 			<policy
 				id="policy_royal_privilege" />
@@ -573,6 +1466,4 @@
 				id="policy_castle_charters" />
 		</policies>
 	</Kingdom>
-
-
 </Kingdoms>
