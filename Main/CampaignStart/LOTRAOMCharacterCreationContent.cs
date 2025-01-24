@@ -5,23 +5,21 @@ using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.CharacterCreationContent;
 using TaleWorlds.CampaignSystem.CharacterDevelopment;
 using TaleWorlds.CampaignSystem.GameState;
-using TaleWorlds.CampaignSystem.Party;
 using TaleWorlds.Core;
 using TaleWorlds.Localization;
 using TaleWorlds.Library;
 using TaleWorlds.ObjectSystem;
-using TaleWorlds.CampaignSystem.Extensions;
-using System.Linq;
 using System.Reflection;
 using HarmonyLib;
-using TaleWorlds.SaveSystem.Definition;
-using static SandBox.ViewModelCollection.GameOver.StatItem;
 using LOTRAOM.CultureFeats;
 using TaleWorlds.CampaignSystem.Settlements;
 using LOTRAOM.CampaignStart;
+using TaleWorlds.InputSystem;
+using System.Linq;
 
 namespace LOTRAOM
 {
+
     public class LOTRAOMCharacterCreationContent : SandboxCharacterCreationContent
     {
         //public StartBonus Manager // I will probably just get rid of this all together
@@ -64,74 +62,13 @@ namespace LOTRAOM
             CharacterObject playerCharacter = CharacterObject.PlayerCharacter;
             string cultureId = playerCharacter.Culture.StringId;
 
-            string bodyPropString;
-            string raceId = "human"; // Default race to prevent uninitialized variable usage.
-
-            switch (cultureId) //Switching all of these to Human since we only have Human right now. Also added all cultures
-            {
-                case "aserai":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-                case "battania":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-                case "empire":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-                case "khuzait":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-                case "sturgia":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-                case "vlandia":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-                case "gondor":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-                case "mordor":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-                case "erebor":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-                case "rivendell":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-                case "mirkwood":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-                case "lothlorien":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-                case "umbar":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-                case "isengard":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-                case "gundabad":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-                case "dolguldur":
-                    bodyPropString = HumanBodyPropString;
-                    break;
-
-                default:
-                    Debug.FailedAssert("Selected culture is invalid!", "LOTRAOMCharacterCreationContent.cs", "OnCultureSelected", 80);
-                    bodyPropString = HumanBodyPropString;
-                    break;
-            }
+            CampaignStartGlobals.CCCultureData playerRaceData = CampaignStartGlobals.CCCulturesRaceData.TryGetValue(playerCharacter.Culture.StringId, out CampaignStartGlobals.CCCultureData? value) ? value : CampaignStartGlobals.CCCulturesRaceData["default"]; ;
+            string bodyPropString = playerRaceData.BodyPropertiesString;
+            string raceId = playerRaceData.PossibleRaces.First();
 
             BodyProperties.FromString(bodyPropString, out BodyProperties properties);
             playerCharacter.UpdatePlayerCharacterBodyProperties(properties, playerCharacter.Race, playerCharacter.IsFemale);
-            SetRaceForCharacter(playerCharacter, raceId);
-        }
-
-        private static void SetRaceForCharacter(CharacterObject character, string raceId)
-        {
-            character.Race = FaceGen.GetRaceOrDefault(raceId);
+            playerCharacter.Race = FaceGen.GetRaceOrDefault(raceId);
         }
 
         public override int GetSelectedParentType()
@@ -1353,6 +1290,5 @@ namespace LOTRAOM
         //{
         //    return Manager.StoryOption == 9;
         //}
-        private const string HumanBodyPropString = "<BodyProperties version=\"4\" age=\"22.35\" weight=\"0.5417\" build=\"0.5231\"  key=\"000DF00FC00033CD8771188F38770F8801F188778888888888888888546AF0F90088860308888888000000000000000000000000000000000000000043044144\"  />";
     }
 }

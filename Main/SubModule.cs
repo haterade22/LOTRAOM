@@ -7,7 +7,8 @@ using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.Localization;
 using TaleWorlds.MountAndBlade;
-
+using TaleWorlds.Core.ViewModelCollection;
+using TaleWorlds.Core.ViewModelCollection.Selector;
 namespace LOTRAOM
 {
     public class SubModule : MBSubModuleBase
@@ -44,6 +45,7 @@ namespace LOTRAOM
 
             if (gameStarterObject is CampaignGameStarter campaignGameStarter)
             {
+                    campaignGameStarter.AddBehavior(new KeepHeroRaceCampaignBehavior());
             }
         }
 
