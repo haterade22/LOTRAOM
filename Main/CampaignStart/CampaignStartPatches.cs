@@ -86,7 +86,6 @@ namespace LOTRAOM.CampaignStart
         }
         public static string RaceSelected { get; set; } = "human";
     }
-    //          END OF PATCHES FOR THE RACE WIDGET IN CHARACTER CREATION
 
     [HarmonyPatch(typeof(CharacterCreationCultureStageVM), "OnCultureSelection")]
     public class CharacterCreationCultureStageVMPatch
@@ -99,4 +98,5 @@ namespace LOTRAOM.CampaignStart
             HasJustSwitchedCulture = true;
         }
     }
+    //          END OF PATCHES FOR THE RACE WIDGET IN CHARACTER CREATION
 }
