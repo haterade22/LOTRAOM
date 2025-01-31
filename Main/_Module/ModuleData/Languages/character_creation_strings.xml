@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+    <tags>
+        <tag language="English" />
+    </tags>
+    <strings>
+
+		
+		<string id="lotraom_start" text="Your journey through the lands of Middle-earth begins! Behold your character, forged for this epic tale. Continue onward if you are ready, or return to make any final adjustments." />
+
+		<!-- FAMILY MENU -> DUNLAND -->
+		<string id="lotraom_dunland_1" text="Descendants of the Old Chieftains" />
+		<string id="lotraom_dunland_desc_1" text="Your lineage traces back to the old chieftains of Dunland, proud leaders who stood against the encroachment of outsiders. Your father was a respected warrior and a trusted companion of the clan leader, riding at the forefront of battles to protect your people and their traditions." />
+		<string id="lotraom_dunland_2" text="Clan Merchants" />
+		<string id="lotraom_dunland_desc_2" text="Your family traded goods within Dunland and beyond, bartering livestock, furs, and crafted items. They were skilled negotiators, often securing alliances and agreements that benefitted the clan." />
+		<string id="lotraom_dunland_3" text="Free Clansfolk" />
+		<string id="lotraom_dunland_desc_3" text="Your family were free clansfolk, tending to their modest herds and fields in the rugged lands of Dunland. They embodied the independence and resilience of your people, contributing to the strength and survival of the clan." />
+		<string id="lotraom_dunland_4" text="Skilled Artisans" />
+		<string id="lotraom_dunland_desc_4" text="Your family were known for their craftsmanship, creating tools, weapons, and intricate carvings valued by the clan. Their work not only supported the community but also served as a source of pride and tradition." />
+		<string id="lotraom_dunland_5" text="Woodland Foragers" />
+		<string id="lotraom_dunland_desc_5" text="Your family lived on the edge of the forest, relying on hunting, trapping, and foraging. They knew the wilderness intimately, navigating its dangers and resources with skill and caution." />
+		<string id="lotraom_dunland_6" text="Wanderers and Outcasts" />
+		<string id="lotraom_dunland_desc_6" text="Your family lived a transient life on the fringes of Dunland society, scraping by through odd jobs, hunting, or even thievery. They were resourceful survivors, adapting to the harsh realities of life in the shadow of more powerful realms." />
+
+		<!-- FAMILY MENU -> ROHAN -->
+		<string id="lotraom_rohan_1" text="Retainers of the Marshal" />
+		<string id="lotraom_rohan_desc_1" text="Your father was a loyal retainer to one of the Marshals of the Riddermark. He managed the lands of his lord, ensured the readiness of the local levy, and rode at the forefront of battle as a trusted warrior of the Mark." />
+		<string id="lotraom_rohan_2" text="Merchants of Edoras" />
+		<string id="lotraom_rohan_desc_2" text="Your family traded goods in the bustling markets of Edoras, ensuring that the capital of the Riddermark thrived. They organized caravans, bartered with traders from Gondor and beyond, and were known for their fair dealings." />
+		<string id="lotraom_rohan_3" text="Freeholders of the Westfold" />
+		<string id="lotraom_rohan_desc_3" text="Your family tilled the fertile lands of the Westfold, growing crops and raising livestock. As free folk, they were the backbone of Rohan’s strength, providing food and warriors for the kingdom's defense." />
+		<string id="lotraom_rohan_4" text="Smiths of Aldburg" />
+		<string id="lotraom_rohan_desc_4" text="Your family were renowned smiths in Aldburg, crafting weapons and armor for the warriors of the Riddermark. Your father’s skill with the forge was matched only by his dedication to the defense of Rohan." />
+		<string id="lotraom_rohan_5" text="Hunters of the Eastfold" />
+		<string id="lotraom_rohan_desc_5" text="Your family lived on the edge of the Eastfold, relying on their skill with bow and blade to provide for themselves. They were skilled hunters and trackers, navigating the rolling plains and dense woods with ease." />
+		<string id="lotraom_rohan_6" text="Wanderers of the Wold" />
+		<string id="lotraom_rohan_desc_6" text="Your father was a wanderer, traveling across the Wold and beyond. Known for his cunning and resourcefulness, he often worked as a scout or tracker for passing merchants, and sometimes dealt with less savory elements in the borderlands." />
+
+		<!-- FAMILY MENU -> DALE -->
+		<string id="lotraom_dale_1" text="Servants of the King of Dale" />
+		<string id="lotraom_dale_desc_1" text="Your family served the King of Dale, holding positions of respect and authority in the court. They trained with the king’s guards and rode alongside the royal retinue, ensuring the safety of the realm." />
+		<string id="lotraom_dale_2" text="Urban traders" />
+		<string id="lotraom_dale_desc_2" text="Your family were merchants in Dale, organizing trade with Erebor and distant lands. They brought prosperity to the city by mastering the art of negotiation and securing rare goods." />
+		<string id="lotraom_dale_3" text="Free Farmers" />
+		<string id="lotraom_dale_desc_3" text="Your family were hard-working farmers cultivating the fertile lands near the Running River, providing food for the city and its defenders." />
+		<string id="lotraom_dale_4" text="Urban artisans" />
+		<string id="lotraom_dale_desc_4" text="Your family were skilled artisans of Dale, crafting weapons, armor, and tools of remarkable quality for the city and its allies." />
+		<string id="lotraom_dale_5" text="Forest Hunters" />
+		<string id="lotraom_dale_desc_5" text="Your family lived on the forest fringes, hunting deer and gathering herbs. They were adept at tracking and survival, skills passed down through generations." />
+		<string id="lotraom_dale_6" text="Vagabonds" />
+		<string id="lotraom_dale_desc_6" text="Your family lived in the outskirts of Dale, scraping by with odd jobs. Sometimes they fell in with less savory elements, learning the underbelly of city life." />
+
+		<!-- FAMILY MENU -> HARAD -->
+		<string id="lotraom_harad_1" text="Allies of the Black Serpent" />
+		<string id="lotraom_harad_desc_1" text="Your family were trusted allies of the Black Serpent, sworn to fight for the Haradrim and uphold their ancient oaths to the Dark Lord." />
+		<string id="lotraom_harad_2" text="Desert Warriors" />
+		<string id="lotraom_harad_desc_2" text="Your father served as a warrior of Harad, a fierce and loyal soldier skilled in mounted combat and the use of deadly polearms." />
+		<string id="lotraom_harad_3" text="Traders of the South" />
+		<string id="lotraom_harad_desc_3" text="Your family were traders who carried exotic goods like spices, ivory, and silks across the vast deserts and into distant lands." />
+		<string id="lotraom_harad_4" text="Desert Farmers" />
+		<string id="lotraom_harad_desc_4" text="Your family cultivated crops and date palms in an oasis, ensuring their survival through careful irrigation and unyielding labor." />
+		<string id="lotraom_harad_5" text="Nomadic Tribespeople" />
+		<string id="lotraom_harad_desc_5" text="Your family roamed the deserts, herding camels and goats, and living in harmony with the unforgiving land." />
+		<string id="lotraom_harad_6" text="Desert Outlaws" />
+		<string id="lotraom_harad_desc_6" text="Your family survived on the fringes of Harad society, taking what they could by force or cunning. They were feared and respected as desert outlaws." />
+
+		<!-- FAMILY MENU -> KHAND -->
+		<string id="lotraom_khand_1" text="Horse-Lords of Khand" />
+		<string id="lotraom_khand_desc_1" text="Your family were part of the ruling elite of Khand, known for their prowess on horseback and mastery of cavalry warfare." />
+		<string id="lotraom_khand_2" text="Nomadic Healers" />
+		<string id="lotraom_khand_3" text="Clan Warriors" />
+		<string id="lotraom_khand_desc_3" text="Your family were warriors of Khand, fighting fiercely to protect their land and their clan's honor." />
+		<string id="lotraom_khand_4" text="Smiths of the Steppes" />
+		<string id="lotraom_khand_desc_4" text="Your family were renowned smiths, crafting deadly weapons and ornate armor that symbolized the strength of Khand." />
+		<string id="lotraom_khand_5" text="Steppe Hunters" />
+		<string id="lotraom_khand_desc_5" text="Your family survived on the steppe, hunting game and mastering the art of tracking and ambush." />
+		<string id="lotraom_khand_6" text="Bards of Khand" />
+		<string id="lotraom_khand_desc_6" text="Your father was a bard, keeping the stories and songs of Khand alive to inspire and unite the clans." />
+
+		<!-- FAMILY MENU -> EASTERLINGS -->
+		<string id="lotraom_easterling_1" text="Kinsfolk of the Chieftain" />
+		<string id="lotraom_easterling_desc_1" text="Your family were close relatives of the ruling chieftain. Your father was a trusted advisor and warrior, fighting as an armored lancer, while your mother helped manage the affairs of the clan." />
+		<string id="lotraom_easterling_2" text="Merchants of the East" />
+		<string id="lotraom_easterling_desc_2" text="Your family controlled trade caravans across the eastern steppes, bringing silks, spices, and fine wares from distant lands to the cities of Rhûn. Their dealings earned respect and wealth within the region." />
+		<string id="lotraom_easterling_3" text="Nomadic Tribesfolk" />
+		<string id="lotraom_easterling_desc_3" text="Your family belonged to a nomadic clan, tending herds of horses and cattle across the vast steppes. They were known for their marksmanship and their skill as mounted warriors." />
+		<string id="lotraom_easterling_4" text="Steppe Farmers" />
+		<string id="lotraom_easterling_desc_4" text="Your family cultivated fertile patches of land on the steppes, growing wheat and barley for the clans. They were also part of the levied forces, wielding spears and shields in defense of their kin." />
+		<string id="lotraom_easterling_5" text="Spirit Callers" />
+		<string id="lotraom_easterling_desc_5" text="Your family were spiritual guides, channeling the will of the spirits through rituals and ancient songs. They healed the wounded and advised the clans on matters of tradition and strategy." />
+		<string id="lotraom_easterling_6" text="Outland Scouts" />
+		<string id="lotraom_easterling_desc_6" text="Your family lived on the fringes of the great steppe, acting as scouts and trackers for the clans. They were experts at navigating the wilderness and evading pursuers in hostile terrain." />
+
+		<!-- FAMILY MENU -> GONDOR -->
+		<string id="lotraom_gondor_1" text="Noble Houses of Gondor" />
+		<string id="lotraom_gondor_desc_1" text="Your family belonged to one of Gondor's noble houses, sworn to defend the White Tree. Your father was a knight who fought bravely in service to the Steward, while your mother managed the family’s lands and affairs." />
+		<string id="lotraom_gondor_2" text="Merchants of the White City" />
+		<string id="lotraom_gondor_desc_2" text="Your family were prosperous traders within Minas Tirith, dealing in fine goods and wares. Their influence within the city’s merchant guilds brought wealth and respect to your household." />
+		<string id="lotraom_gondor_3" text="Farmers of the Pelennor" />
+		<string id="lotraom_gondor_desc_3" text="Your family tilled the rich soil of the Pelennor Fields, providing sustenance for Minas Tirith. They also served as levy soldiers, standing in defense of the city during times of war." />
+		<string id="lotraom_gondor_4" text="Artisans of Minas Tirith" />
+		<string id="lotraom_gondor_desc_4" text="Your family were skilled craftsmen in Minas Tirith, creating fine armor, weapons, and tapestries that adorned the halls of the White City. Their artistry was renowned across Gondor." />
+		<string id="lotraom_gondor_5" text="Rangers of Ithilien" />
+		<string id="lotraom_gondor_desc_5" text="Your family were members of the Rangers of Ithilien, skilled in the arts of stealth and archery. They patrolled the wilds, protecting Gondor’s borders from the forces of Mordor." />
+		<string id="lotraom_gondor_6" text="Street Urchins of Osgiliath" />
+		<string id="lotraom_gondor_desc_6" text="Your family lived among the ruins of Osgiliath, surviving through cunning and resourcefulness. They scavenged what they could and occasionally served under Gondor’s banners as irregular troops." />
+		
+		<!-- FAMILY MENU -> Mordor -->
+		<string id="lotraom_mordor_1" text="Servants of the Dark Tower" />
+		<string id="lotraom_mordor_desc_1" text="Your family served directly under the command of the Dark Tower. Your father was a brutal enforcer, while your mother worked to instill the will of Sauron among the lesser folk." />
+		<string id="lotraom_mordor_2" text="Merchants of the Black Road" />
+		<string id="lotraom_mordor_desc_2" text="Your family managed trade and supplies within Mordor, ensuring the armies of Sauron were equipped for war. Their dealings were shadowed by intrigue and violence." />
+		<string id="lotraom_mordor_3" text="Slaves of Barad-dûr" />
+		<string id="lotraom_mordor_desc_3" text="Your family were enslaved laborers, toiling in the forges and quarries of Mordor to fuel the war machine of the Dark Lord. Their resilience became a testament to their will to survive." />
+		<string id="lotraom_mordor_4" text="Orc Taskmasters" />
+		<string id="lotraom_mordor_desc_4" text="Your family were tasked with overseeing the labor of Orcs and Men alike, ensuring that Sauron's orders were carried out with ruthless efficiency." />
+		<string id="lotraom_mordor_5" text="Hunters of Gorgoroth" />
+		<string id="lotraom_mordor_desc_5" text="Your family roamed the volcanic plains of Gorgoroth, hunting and tracking prey to sustain the armies of Mordor. Their skill in the wilderness was unmatched." />
+		<string id="lotraom_mordor_6" text="Uruk Overseers" />
+		<string id="lotraom_mordor_desc_6" text="Your family served as overseers for the Uruk-hai legions, enforcing discipline and maintaining order within Sauron’s ranks." />
+
+		<!-- FAMILY MENU -> Rivendell -->
+		<string id="lotraom_rivendell_1" text="Nobles of Imladris" />
+		<string id="lotraom_rivendell_desc_1" text="Your family were esteemed Elves of Imladris, sworn to serve Elrond. They carried the wisdom of ages and the strength to defend Rivendell in its time of need." />
+		<string id="lotraom_rivendell_2" text="Artisans of Rivendell" />
+		<string id="lotraom_rivendell_desc_2" text="Your family were skilled craftsmen and loremasters, creating wonders of Elven craftsmanship and preserving the ancient knowledge of Middle-earth." />
+		<string id="lotraom_rivendell_3" text="Farmers of the Hidden Valley" />
+		<string id="lotraom_rivendell_desc_3" text="Your family tended the fertile fields of Rivendell, ensuring its people and guests were well-fed and sustained in their peaceful haven." />
+		<string id="lotraom_rivendell_4" text="Wardens of the Valley" />
+		<string id="lotraom_rivendell_desc_4" text="Your family served as scouts and guardians, patrolling the borders of Imladris and ensuring the valley remained a sanctuary free from evil." />
+		<string id="lotraom_rivendell_5" text="Elven Scholars" />
+		<string id="lotraom_rivendell_desc_5" text="Your family were scholars of lore, healing, and magic, preserving the ancient knowledge of the Elves and aiding the free peoples of Middle-earth." />
+		<string id="lotraom_rivendell_6" text="Wanderers of the Wild" />
+		<string id="lotraom_rivendell_desc_6" text="Your family were known to venture beyond Rivendell, aiding those in need and learning of the changing world beyond the valley." />
+
+		<!-- FAMILY MENU -> Mirkwood -->
+		<string id="lotraom_mirkwood_1" text="Descendants of Woodland Nobility" />
+		<string id="lotraom_mirkwood_desc_1" text="Your family descended from the noble houses of the Woodland Realm, serving as close advisors and protectors of King Thranduil’s court." />
+		<string id="lotraom_mirkwood_2" text="Merchants of the Forest Path" />
+		<string id="lotraom_mirkwood_desc_2" text="Your family were merchants who traveled the treacherous paths of Mirkwood, bringing goods and trade to the Elvenking’s halls." />
+		<string id="lotraom_mirkwood_3" text="Woodland Farmers" />
+		<string id="lotraom_mirkwood_desc_3" text="Your family lived on the fringes of the Woodland Realm, cultivating the land and gathering what little the shadowed forest provided." />
+		<string id="lotraom_mirkwood_4" text="Artisans of the Woodland Halls" />
+		<string id="lotraom_mirkwood_desc_4" text="Your family were artisans of the Woodland Realm, crafting exquisite weapons and tools from the resources of the forest." />
+		<string id="lotraom_mirkwood_5" text="Hunters of the Deep Woods" />
+		<string id="lotraom_mirkwood_desc_5" text="Your family were skilled hunters who braved the shadowy depths of Mirkwood to provide food and fend off the creatures that lurk within." />
+		<string id="lotraom_mirkwood_6" text="Rangers of the Woodland Realm" />
+		<string id="lotraom_mirkwood_desc_6" text="Your family served as rangers, protecting the borders of the Woodland Realm and guarding the forest paths from intruders and threats alike." />
+
+		<!-- FAMILY MENU -> Lothlorien -->
+		<string id="lotraom_lothlorien_1" text="Nobles of Caras Galadhon" />
+		<string id="lotraom_lothlorien_desc_1" text="Your family served directly under the guidance of Lady Galadriel and Lord Celeborn, defending the heart of Lothlórien with unwavering dedication." />
+		<string id="lotraom_lothlorien_2" text="Artisans of the Golden Wood" />
+		<string id="lotraom_lothlorien_desc_2" text="Your family were master artisans, weaving the beauty of the Golden Wood into their creations, from armor to musical instruments." />
+		<string id="lotraom_lothlorien_3" text="Guardians of the Mallorn Trees" />
+		<string id="lotraom_lothlorien_desc_3" text="Your family protected the sacred Mallorn trees, ensuring the splendor of Lothlórien endured against any threat." />
+		<string id="lotraom_lothlorien_4" text="Rangers of the Dimrill Dale" />
+		<string id="lotraom_lothlorien_desc_4" text="Your family patrolled the borders of Lothlórien, guarding the passes and defending against Orcs and other intruders." />
+		<string id="lotraom_lothlorien_5" text="Healers of the Golden Wood" />
+		<string id="lotraom_lothlorien_desc_5" text="Your family tended to the wounded and preserved the ancient wisdom of healing within the Golden Wood." />
+		<string id="lotraom_lothlorien_6" text="Wanderers of the Galadhrim" />
+		<string id="lotraom_lothlorien_desc_6" text="Your family roamed the lands beyond Lothlórien, aiding allies and spreading word of the Golden Wood’s splendor." />
+
+		<!-- FAMILY MENU -> Erebor -->
+		<string id="lotraom_erebor_1" text="Nobles of the Lonely Mountain" />
+		<string id="lotraom_erebor_desc_1" text="Your family belonged to the noble houses of Erebor, renowned for their skill in battle and crafting unparalleled treasures." />
+		<string id="lotraom_erebor_2" text="Master Smiths" />
+		<string id="lotraom_erebor_desc_2" text="Your family were master smiths of Erebor, crafting the finest weapons and armor in all Middle-earth." />
+		<string id="lotraom_erebor_3" text="Miners of Erebor" />
+		<string id="lotraom_erebor_desc_3" text="Your family delved deep into the Lonely Mountain, extracting precious metals and gemstones to enrich the kingdom." />
+		<string id="lotraom_erebor_4" text="Warriors of the Iron Hills" />
+		<string id="lotraom_erebor_desc_4" text="Your family fought alongside the Iron Hills dwarves, renowned for their unbreakable shield walls and mighty axes." />
+		<string id="lotraom_erebor_5" text="Merchants of Dale" />
+		<string id="lotraom_erebor_desc_5" text="Your family traded goods with the nearby city of Dale, fostering a thriving relationship between the Men of Dale and the Dwarves of Erebor." />
+		<string id="lotraom_erebor_6" text="Wanderers of the Wild" />
+		<string id="lotraom_erebor_desc_6" text="Your family ventured beyond Erebor, seeking adventure, trade, or treasures lost to time." />
+		
+		<!-- FAMILY MENU -> Gundabad -->
+		<string id="lotraom_gundabad_1" text="Nobles of Gundabad" />
+		<string id="lotraom_gundabad_desc_1" text="Your family were among the noble elite of Gundabad, dedicated to reclaiming their ancestral home and defending it from invaders." />
+		<string id="lotraom_gundabad_2" text="Smiths of Gundabad" />
+		<string id="lotraom_gundabad_desc_2" text="Your family were skilled smiths, crafting tools and weapons to equip the defenders of Gundabad." />
+		<string id="lotraom_gundabad_3" text="Miners of Gundabad" />
+		<string id="lotraom_gundabad_desc_3" text="Your family worked tirelessly in the mines of Gundabad, uncovering its hidden riches." />
+		<string id="lotraom_gundabad_4" text="Warriors of the Grey Mountains" />
+		<string id="lotraom_gundabad_desc_4" text="Your family fought against Orcs and other threats in the Grey Mountains, upholding the honor of their kin." />
+		<string id="lotraom_gundabad_5" text="Rangers of Gundabad" />
+		<string id="lotraom_gundabad_desc_5" text="Your family served as rangers, patrolling the wilds around Gundabad and safeguarding its borders from harm." />
+
+		<!-- FAMILY MENU -> Dol Guldur -->
+		<string id="lotraom_dolguldur_1" text="Servants of the Necromancer" />
+		<string id="lotraom_dolguldur_desc_1" text="Your family served directly under the Necromancer, performing his dark bidding and enforcing his will across the region." />
+		<string id="lotraom_dolguldur_2" text="Crafters of Shadowed Steel" />
+		<string id="lotraom_dolguldur_desc_2" text="Your family forged weapons and armor imbued with the dark magic of Dol Guldur, equipping its armies for conquest." />
+		<string id="lotraom_dolguldur_3" text="Miners of the Shadowed Halls" />
+		<string id="lotraom_dolguldur_desc_3" text="Your family labored deep within the caverns of Dol Guldur, extracting resources to feed its war machine." />
+		<string id="lotraom_dolguldur_4" text="Warriors of the Enchanted Wood" />
+		<string id="lotraom_dolguldur_desc_4" text="Your family were fierce warriors who fought to extend the shadow of Dol Guldur over the surrounding lands." />
+		<string id="lotraom_dolguldur_5" text="Hunters of the Dark Forest" />
+		<string id="lotraom_dolguldur_desc_5" text="Your family hunted the twisted creatures of the forest and tracked those who dared trespass into the Necromancer's domain." />
+		<string id="lotraom_dolguldur_6" text="Rogues of Dol Guldur" />
+		<string id="lotraom_dolguldur_desc_6" text="Your family were spies and saboteurs, spreading the influence of Dol Guldur through deception and fear." />
+
+		<!-- FAMILY MENU -> Isengard -->
+		<string id="lotraom_isengard_1" text="Servants of Saruman" />
+		<string id="lotraom_isengard_desc_1" text="Your family worked under the orders of Saruman the White, managing his domain and assisting in his schemes of conquest." />
+		<string id="lotraom_isengard_2" text="Craftsmen of Orthanc" />
+		<string id="lotraom_isengard_desc_2" text="Your family crafted tools and weapons within the shadow of Orthanc, forging instruments of Saruman's will." />
+		<string id="lotraom_isengard_3" text="Laborers of the Deeping Caves" />
+		<string id="lotraom_isengard_desc_3" text="Your family toiled in the deep pits of Isengard, extracting stone and ore to fuel Saruman’s ambitions." />
+		<string id="lotraom_isengard_4" text="Uruk-Hai Warriors" />
+		<string id="lotraom_isengard_desc_4" text="Your family were among the first Uruk-Hai bred by Saruman, warriors forged for war and domination." />
+		<string id="lotraom_isengard_5" text="Scouts of the Wold" />
+		<string id="lotraom_isengard_desc_5" text="Your family were scouts and trackers, ensuring Saruman’s forces moved unseen across the plains of Rohan." />
+		<string id="lotraom_isengard_6" text="Rogues of Isengard" />
+		<string id="lotraom_isengard_desc_6" text="Your family operated in the shadows, gathering intelligence and undermining the enemies of Saruman." />
+
+		<!-- FAMILY MENU -> Umbar -->
+		<string id="lotraom_umbars_1" text="Corsair Captains" />
+		<string id="lotraom_umbars_desc_1" text="Your family were leaders among the Corsairs of Umbar, commanding ships and raiding the coasts of Gondor." />
+		<string id="lotraom_umbars_2" text="Merchants of the Black Tide" />
+		<string id="lotraom_umbars_desc_2" text="Your family conducted trade across the seas, often smuggling goods to fund the Corsairs’ endeavors." />
+		<string id="lotraom_umbars_3" text="Shipwrights of Umbar" />
+		<string id="lotraom_umbars_desc_3" text="Your family constructed the vessels that carried the Corsairs to war, crafting ships of speed and stealth." />
+		<string id="lotraom_umbars_4" text="Pirates of the Coasts" />
+		<string id="lotraom_umbars_desc_4" text="Your family were Corsairs who raided the shores of Gondor and beyond, striking fear into the hearts of their enemies." />
+		<string id="lotraom_umbars_5" text="Navigators of the High Seas" />
+		<string id="lotraom_umbars_desc_5" text="Your family were skilled navigators, charting the dangerous seas and leading the Corsairs to victory." />
+		<string id="lotraom_umbars_6" text="Smugglers of Umbar" />
+		<string id="lotraom_umbars_desc_6" text="Your family moved in the shadows, smuggling goods and information vital to the survival of the Corsairs." />
+
+
+		<!-- YOUTH MENU -> Harad -->
+		<string id="youth_harad_1" text="Trained with the war elephants" />
+		<string id="youth_harad_desc_1" text="You trained alongside Harad's mighty war elephants, learning to wield the spear while perched atop these towering beasts. Your skill earned you a place among the elite elephant riders, a fearsome force in battle." />
+		<string id="youth_harad_2" text="Guarded the city walls" />
+		<string id="youth_harad_desc_2" text="You served as a sentinel on the fortified walls of Harad's desert cities, honing your skills with crossbows and maintaining the intricate defenses that protected your people from invaders." />
+		<string id="youth_harad_3" text="Rode with the desert outriders" />
+		<string id="youth_harad_desc_3" text="You joined Harad's swift outriders, scouting the vast deserts and harassing enemy flanks with your deadly bow and quick reflexes." />
+		<string id="youth_harad_4" text="Trained with the spearmen" />
+		<string id="youth_harad_desc_4" text="You trained as a spearman, one of the steadfast warriors of Harad who form the backbone of its armies, defending against cavalry and holding the line in fierce desert battles." />
+		<string id="youth_harad_5" text="Joined the skirmishers" />
+		<string id="youth_harad_desc_5" text="You fought as a skirmisher, using javelins to harry the enemy from a distance, relying on your speed and agility to evade their counterattacks." />
+		<string id="youth_harad_6" text="Marched with the nomadic clans" />
+		<string id="youth_harad_desc_6" text="You traveled with the nomadic clans of Harad, learning to survive in the harsh desert environment. Their cunning and resourcefulness became your own." />
+
+		<!-- YOUTH MENU -> Khand -->
+		<string id="lotraom_khand_youth_1" text="Trained with the Kheshig Guard."/>
+		<string id="lotraom_khand_youth_desc_1" text="As one of the most promising riders, you were chosen to train with the Kheshig, the elite mounted guard of the Khandish chieftains. With a lance in hand and a steed beneath you, you learned the art of disciplined cavalry combat."/>
+		<string id="lotraom_khand_youth_2" text="Joined the Wall-Watchers."/>
+		<string id="lotraom_khand_youth_desc_2" text="Stationed at the fortified encampments along the borders, you became a Wall-Watcher. Your duties included mastering the crossbow and maintaining the defenses that kept your people safe from invaders."/>
+		<string id="lotraom_khand_youth_3" text="Rode with the Nomadic Scouts."/>
+		<string id="lotraom_khand_youth_desc_3" text="You joined the swift-moving Nomadic Scouts, tasked with surveying the vast steppes and deserts of Khand. Armed with a bow, you tracked enemies and delivered critical intelligence back to the warbands."/>
+		<string id="lotraom_khand_youth_4" text="Trained with the Ashkat Warriors."/>
+		<string id="lotraom_khand_youth_desc_4" text="As a recruit of the Ashkat Warriors, you were equipped with spear and shield, joining the ranks of the Khandish infantry. These hardened fighters form the backbone of the Khandish armies, renowned for their unyielding discipline and strength."/>
+		<string id="lotraom_khand_youth_5" text="Joined the Shadow Riders."/>
+		<string id="lotraom_khand_youth_desc_5" text="The Shadow Riders are masters of deception and infiltration, often acting as spies and saboteurs. You learned to blend into enemy camps and settlements, using trickery, disguise, and cunning to gather intelligence and sow chaos."/>
+
+		<!-- YOUTH MENU -> Dunland -->
+		<string id="lotraom_dunland_youth_1" text="Rode with the Hill Riders."/>
+		<string id="lotraom_dunland_youth_desc_1" text="Mounted on sturdy hill ponies, you joined the Hill Riders, a rare but fierce cavalry force among the Dunlendings. Armed with spear and shield, you learned to navigate the rugged terrain with precision and strength."/>
+		<string id="lotraom_dunland_youth_2" text="Served in the Tribal Longhouse."/>
+		<string id="lotraom_dunland_youth_desc_2" text="Within the tribal longhouses, you helped guard your people’s stockpiles and crafted defenses for the village. Your skill with crossbows and constructing fortifications became invaluable during raids and sieges."/>
+		<string id="lotraom_dunland_youth_3" text="Stood guard with the Border Watch."/>
+		<string id="lotraom_dunland_youth_desc_3" text="You joined the Border Watch, a group of young warriors tasked with defending Dunland’s borders. Armed with javelins and axes, you learned to strike swiftly and retreat before the enemy could retaliate."/>
+		<string id="lotraom_dunland_youth_4" text="Scouted the highlands."/>
+		<string id="lotraom_dunland_youth_desc_4" text="You roamed the highlands and forests as a scout, tracking enemy movements and learning to survive off the land. Your bow became an extension of your arm, your skill saving your people from surprise attacks."/>
+		<string id="lotraom_dunland_youth_5" text="Joined the Spear Brothers."/>
+		<string id="lotraom_dunland_youth_desc_5" text="You became one of the Spear Brothers, a close-knit band of fighters armed with spears and shields. Drawn from the ranks of farmers and herdsmen, they form the heart of Dunland’s infantry, known for their ferocity and endurance."/>
+		<string id="lotraom_dunland_youth_6" text="Trained as a Tribal Skirmisher."/>
+		<string id="lotraom_dunland_youth_desc_6" text="As a Tribal Skirmisher, you learned the art of hit-and-run tactics, striking quickly with thrown weapons and melting into the terrain. Your cunning and agility were critical in harassing enemy forces."/>
+
+		<!-- YOUTH MENU -> Rohan -->
+		<string id="lotraom_rohan_youth_1" text="Trained with the Riders of the Mark."/>
+		<string id="lotraom_rohan_youth_desc_1" text="You proved your skill as a rider, earning the trust of a local marshal who lent you a horse and spear. You trained with the Riders of the Mark, learning to charge into battle with precision and discipline."/>
+		<string id="lotraom_rohan_youth_2" text="Served in the city watch of Edoras."/>
+		<string id="lotraom_rohan_youth_desc_2" text="You stood guard over the gates and walls of Edoras, keeping a watchful eye on the horizon for approaching enemies. You honed your skills with missile weapons and learned the art of fortification."/>
+		<string id="lotraom_rohan_youth_3" text="Joined the skirmishers of the Westfold."/>
+		<string id="lotraom_rohan_youth_desc_3" text="You joined the Westfold skirmishers, a band of agile warriors skilled in harassing the enemy with javelins and close-quarters combat. You learned to stay nimble and strike swiftly."/>
+		<string id="lotraom_rohan_youth_4" text="Rode with the scouts of the Wold."/>
+		<string id="lotraom_rohan_youth_desc_4" text="You rode with the scouts of the Wold, tracking enemy movements and mapping the terrain. Your skill in archery and swift riding made you an invaluable asset to the Rohirrim."/>
+		<string id="lotraom_rohan_youth_5" text="Stood among the spearmen of the Eastfold."/>
+		<string id="lotraom_rohan_youth_desc_5" text="As a spearman of the Eastfold, you fought alongside farmers and villagers, armed with spear and shield. You stood resolute in the shield wall, defending your people against the foes of Rohan."/>
+		<string id="lotraom_rohan_youth_6" text="Traveled with the camp followers of Rohan."/>
+		<string id="lotraom_rohan_youth_desc_6" text="Rather than taking up arms directly, you followed the armies of Rohan as a camp follower. You assisted in tending to the wounded, cooking meals, and sometimes dealing with less savory tasks among the soldiers."/>
+
+		<!-- YOUTH MENU -> Rhûn -->
+		<string id="lotraom_rhun_youth_1" text="Rode with the Khelek Warriors."/>
+		<string id="lotraom_rhun_youth_desc_1" text="You proved your worth as a rider, and a chieftain entrusted you with a sturdy horse and a finely wrought spear. You trained with the Khelek Warriors, the elite cavalry of Rhûn, mastering the art of the charge."/>
+		<string id="lotraom_rhun_youth_2" text="Guarded the settlements of Rhûn."/>
+		<string id="lotraom_rhun_youth_desc_2" text="You patrolled the walls of Rhûn's settlements, vigilant against invaders and raiders. You honed your skills with ranged weapons, preparing for the sieges that threatened your people."/>
+		<string id="lotraom_rhun_youth_3" text="Joined the ranks of the Urûk-thar."/>
+		<string id="lotraom_rhun_youth_desc_3" text="As a member of the Urûk-thar, you fought on the frontlines with agility and precision. Armed with javelins and a short blade, you became adept at harassing enemy formations and retreating to safety."/>
+		<string id="lotraom_rhun_youth_4" text="Scouted the steppes."/>
+		<string id="lotraom_rhun_youth_desc_4" text="You joined the scouts of Rhûn, riding across the vast steppes to gather intelligence and track enemy movements. Your keen eye and swift bow made you a valuable asset."/>
+		<string id="lotraom_rhun_youth_5" text="Fought with the spear line."/>
+		<string id="lotraom_rhun_youth_desc_5" text="Standing shoulder to shoulder with your kin, you fought in the spear line, the backbone of Rhûn’s armies. With your spear and shield, you defended your homeland against all who dared threaten it."/>
+		<string id="lotraom_rhun_youth_6" text="Traveled with the Karash bands."/>
+		<string id="lotraom_rhun_youth_desc_6" text="You avoided direct service in the armies of Rhûn, instead joining the Karash bands—nomadic groups of traders, entertainers, and survivalists who supported the war effort through unconventional means."/>
+
+		<!-- YOUTH MENU -> Dale -->
+		<string id="lotraom_dale_youth_1" text="Served in the Royal Guard of Dale."/>
+		<string id="lotraom_dale_youth_desc_1" text="You pledged your loyalty to the King of Dale, serving as a guard in his elite mounted retinue. Equipped with a fine steed and a sturdy lance, you trained to protect the royal court."/>
+		<string id="lotraom_dale_youth_2" text="Defended the gates of Dale."/>
+		<string id="lotraom_dale_youth_desc_2" text="As a member of the garrison, you stood watch over the gates and walls of Dale. You trained with crossbows and siege engines to prepare for attacks on the city."/>
+		<string id="lotraom_dale_youth_3" text="Trained with the infantry of Dale."/>
+		<string id="lotraom_dale_youth_desc_3" text="You joined the ranks of Dale’s infantry, where you learned to fight with throwing axes and short blades. Quick and light-footed, you harassed enemies from a distance and supported the main lines."/>
+		<string id="lotraom_dale_youth_4" text="Rode with the trackers."/>
+		<string id="lotraom_dale_youth_desc_4" text="As part of the trackers, you scouted the surrounding lands, warning of approaching threats. Your keen aim with a bow and your skill on horseback proved invaluable."/>
+		<string id="lotraom_dale_youth_5" text="Joined the shieldwall."/>
+		<string id="lotraom_dale_youth_desc_5" text="You took your place in Dale’s shieldwall, the backbone of the city’s defenses. Armed with a spear and shield, you stood firm against the enemy’s advance."/>
+		<string id="lotraom_dale_youth_6" text="Traveled with the merchant caravans."/>
+		<string id="lotraom_dale_youth_desc_6" text="You avoided direct military service, choosing instead to accompany merchant caravans as they crossed the Wilderland. You learned to defend yourself and negotiate with traders, rogues, and bandits alike."/>
+
+		<!-- YOUTH MENU -> Gondor -->
+		<string id="lotraom_gondor_youth_1" text="Trained with the Swan Knights."/>
+		<string id="lotraom_gondor_youth_desc_1" text="You joined the ranks of the Swan Knights of Dol Amroth, renowned for their valor and skill in mounted combat. Training with a lance and shield, you prepared to defend Gondor’s borders."/>
+		<string id="lotraom_gondor_youth_2" text="Stood guard in Minas Tirith."/>
+		<string id="lotraom_gondor_youth_desc_2" text="You served in the garrison of Minas Tirith, guarding the White City’s walls. Your training focused on defending against sieges, mastering missile weapons and siege equipment."/>
+		<string id="lotraom_gondor_youth_3" text="Rode with the Rangers of Ithilien."/>
+		<string id="lotraom_gondor_youth_desc_3" text="You patrolled the wilds of Ithilien as a Ranger, scouting enemy movements and striking swiftly from the shadows with bow and sword."/>
+		<string id="lotraom_gondor_youth_4" text="Trained with the Tower Guard."/>
+		<string id="lotraom_gondor_youth_desc_4" text="You joined the elite Tower Guard of Gondor, standing as a defender of the Steward and the White Tower. Armed with spear and shield, you stood firm against all foes."/>
+		<string id="lotraom_gondor_youth_5" text="Marched with the camp followers."/>
+		<string id="lotraom_gondor_youth_desc_5" text="You traveled with Gondor’s armies, aiding in their needs as a camp follower. From foraging to scavenging, you learned the skills of survival and subterfuge in times of war."/>
+
+		<!-- YOUTH MENU -> Mordor -->
+		<string id="lotraom_mordor_youth_1" text="Trained with the Warg Riders."/>
+		<string id="lotraom_mordor_youth_desc_1" text="You were chosen to train with the elite Warg Riders, learning to master the ferocious beasts and wield a spear in devastating charges against Mordor's enemies."/>
+		<string id="lotraom_mordor_youth_2" text="Patrolled the dark fortresses."/>
+		<string id="lotraom_mordor_youth_desc_2" text="You served as a watchman on the towers and walls of Mordor’s fortresses, honing your skills with crossbows and preparing siege engines for inevitable war."/>
+		<string id="lotraom_mordor_youth_3" text="Rode with the Black Scouts."/>
+		<string id="lotraom_mordor_youth_desc_3" text="You joined the Black Scouts, riding across the borders of Mordor to track enemy movements and relay crucial intelligence to the Dark Lord's armies."/>
+		<string id="lotraom_mordor_youth_4" text="Trained with the Orc Infantry."/>
+		<string id="lotraom_mordor_youth_desc_4" text="You marched among the Orc infantry, wielding crude but effective weapons and forming the relentless backbone of Mordor’s war machine."/>
+		<string id="lotraom_mordor_youth_5" text="Joined the Shadow Skirmishers."/>
+		<string id="lotraom_mordor_youth_desc_5" text="You became a Shadow Skirmisher, throwing jagged projectiles and darting in and out of battle to harry the enemy’s flanks."/>
+		<string id="lotraom_mordor_youth_6" text="Marched with the war host."/>
+		<string id="lotraom_mordor_youth_desc_6" text="You avoided the front lines, instead joining the war host’s camp followers who supplied, scavenged, and supported the Dark Lord's forces in unconventional ways."/>
+
+		<!-- YOUTH MENU -> Rivendell -->
+		<string id="lotraom_rivendell_youth_1" text="Trained with the Guard of Imladris."/>
+		<string id="lotraom_rivendell_youth_desc_1" text="You served under the banners of Rivendell, riding as part of its elite cavalry. You were entrusted with the protection of the realm’s borders, wielding a long spear with skill and precision."/>
+		<string id="lotraom_rivendell_youth_2" text="Stood watch at the halls of Elrond."/>
+		<string id="lotraom_rivendell_youth_desc_2" text="You served as a sentry, guarding Rivendell’s sacred halls. Your training focused on long-range accuracy with a bow and defensive preparations for potential sieges."/>
+		<string id="lotraom_rivendell_youth_3" text="Joined the scouting parties."/>
+		<string id="lotraom_rivendell_youth_desc_3" text="You became part of the scouting parties, tasked with traversing the wilds and watching for the stirrings of darkness. You honed your agility and sharp senses during these missions."/>
+		<string id="lotraom_rivendell_youth_4" text="Trained in the art of Elven infantry."/>
+		<string id="lotraom_rivendell_youth_desc_4" text="You stood with the ranks of Rivendell’s warriors, learning to master the spear and sword. The disciplined formation of your comrades inspired your determination."/>
+		<string id="lotraom_rivendell_youth_5" text="Journeyed with the loremasters."/>
+		<string id="lotraom_rivendell_youth_desc_5" text="You accompanied Rivendell’s loremasters as they traveled across Middle-earth, spreading wisdom and forging alliances. You learned the subtleties of diplomacy and persuasion."/>
+
+		<!-- YOUTH MENU -> Mirkwood -->
+		<string id="lotraom_mirkwood_youth_1" text="Trained with the Woodland Riders."/>
+		<string id="lotraom_mirkwood_youth_desc_1" text="You rode through the dark woods, honing your skill as an archer on horseback. You were the swift protectors of the Woodland Realm."/>
+		<string id="lotraom_mirkwood_youth_2" text="Patrolled the darkened glades."/>
+		<string id="lotraom_mirkwood_youth_desc_2" text="You joined the wardens who patrolled the glades of Mirkwood, keeping watch for spiders and darker shadows. Your agility and vigilance served you well."/>
+		<string id="lotraom_mirkwood_youth_3" text="Stood with the Elven Spear Guard."/>
+		<string id="lotraom_mirkwood_youth_desc_3" text="You took your place among the Spear Guard, protecting the Woodland King’s halls from threats both seen and unseen."/>
+		<string id="lotraom_mirkwood_youth_4" text="Joined the shadow trackers."/>
+		<string id="lotraom_mirkwood_youth_desc_4" text="You were among those tasked with tracking the movements of orcs and other foul creatures in the shadows of Mirkwood. Your cunning and adaptability ensured your survival."/>
+		<string id="lotraom_mirkwood_youth_5" text="Marched with the royal banners."/>
+		<string id="lotraom_mirkwood_youth_desc_5" text="You joined the royal court as part of the Woodland King’s entourage, learning diplomacy and leadership among the Elven nobility."/>
+
+		<!-- YOUTH MENU -> Lothlorien -->
+		<string id="lotraom_lothlorien_youth_1" text="Trained with the Galadhrim cavalry."/>
+		<string id="lotraom_lothlorien_youth_desc_1" text="You joined the elite cavalry of Lothlórien, protecting the Golden Wood. You became adept with the lance, defending the borders against intrusions."/>
+		<string id="lotraom_lothlorien_youth_2" text="Guarded the golden borders."/>
+		<string id="lotraom_lothlorien_youth_desc_2" text="You patrolled the borders of the Golden Wood, ensuring that no unwelcome foot entered its sacred grounds. Your skill with a bow was critical in defending against dark forces."/>
+		<string id="lotraom_lothlorien_youth_3" text="Joined the archers of Caras Galadhon."/>
+		<string id="lotraom_lothlorien_youth_desc_3" text="You trained with the famed archers of Lothlórien, learning how to strike swiftly and retreat to cover, leaving the enemy in disarray."/>
+		<string id="lotraom_lothlorien_youth_4" text="Joined the wardens of the trees."/>
+		<string id="lotraom_lothlorien_youth_desc_4" text="You became a warden of the trees, standing guard beneath the towering mallorn trees. Your strength and steadfastness ensured the safety of Lórien’s heart."/>
+		<string id="lotraom_lothlorien_youth_5" text="Marched with the singers of tales."/>
+		<string id="lotraom_lothlorien_youth_desc_5" text="You traveled with the singers of tales, sharing the stories of the Eldar and spreading hope. You learned the art of persuasion and subtlety during your journeys."/>
+
+		<!-- YOUTH MENU -> erebor -->
+		<string id="lotraom_erebor_youth_1" text="Served in the Royal Guard of Erebor."/>
+		<string id="lotraom_erebor_youth_desc_1" text="You pledged your loyalty to the King Under the Mountain, joining his elite guard. Though Dwarves rarely ride, you trained to defend the halls of Erebor with unwavering precision and discipline."/>
+		<string id="lotraom_erebor_youth_2" text="Defended the gates of Erebor."/>
+		<string id="lotraom_erebor_youth_desc_2" text="As part of Erebor’s garrison, you honed your skills with crossbows and stone-throwers. You stood ready to repel any intruder threatening the gates of the Lonely Mountain."/>
+		<string id="lotraom_erebor_youth_3" text="Trained with the Iron Guard."/>
+		<string id="lotraom_erebor_youth_desc_3" text="You joined the Iron Guard, a unit known for their agility and precision. Armed with throwing axes and short blades, you harried foes while protecting the deeper halls."/>
+		<string id="lotraom_erebor_youth_4" text="Scouted the foothills of the Lonely Mountain."/>
+		<string id="lotraom_erebor_youth_desc_4" text="You ventured into the wild lands surrounding Erebor, tracking movements of orcs, trolls, and other threats. Your skill with a bow and knowledge of the terrain made you invaluable."/>
+		<string id="lotraom_erebor_youth_5" text="Stood in the vanguard."/>
+		<string id="lotraom_erebor_youth_desc_5" text="You trained as part of Erebor’s vanguard, wielding massive warhammers and halberds. Standing firm at the front lines, you were a bulwark against any assault."/>
+		<string id="lotraom_erebor_youth_6" text="Worked with the caravan guards."/>
+		<string id="lotraom_erebor_youth_desc_6" text="You accompanied trading caravans laden with Erebor’s treasures, ensuring their safe passage through the Wilderland. You learned the ways of merchants, as well as how to fend off thieves and raiders."/>
+
+		<!-- YOUTH MENU -> isengard -->
+		<string id="lotraom_isengard_youth_1" text="Joined Saruman's cavalry."/>
+		<string id="lotraom_isengard_youth_desc_1" text="You trained as a rider for Saruman's forces, patrolling the lands surrounding Isengard and engaging in skirmishes with Rohan."/>
+		<string id="lotraom_isengard_youth_2" text="Guarded the pits of Orthanc."/>
+		<string id="lotraom_isengard_youth_desc_2" text="You were stationed at Orthanc, guarding the forges and machinery that fueled Saruman’s war effort. Your skill with ranged weapons and siege equipment was honed in preparation for battle."/>
+		<string id="lotraom_isengard_youth_3" text="Fought among the Uruk-hai infantry."/>
+		<string id="lotraom_isengard_youth_desc_3" text="You trained with the ferocious Uruk-hai, learning to fight with brutal efficiency. Your skill with thrown weapons and close combat earned you respect among your kin."/>
+		<string id="lotraom_isengard_youth_4" text="Scouted for Saruman's spies."/>
+		<string id="lotraom_isengard_youth_desc_4" text="You were sent as a scout, gathering intelligence for Saruman. Your ability to track movements and remain unseen made you an invaluable asset."/>
+		<string id="lotraom_isengard_youth_5" text="Joined the ranks of Isengard's pikes."/>
+		<string id="lotraom_isengard_youth_desc_5" text="You became a member of Isengard’s formidable pikemen, known for their discipline and ability to hold the line against cavalry charges."/>
+		<string id="lotraom_isengard_youth_6" text="Marched with Saruman's warbands."/>
+		<string id="lotraom_isengard_youth_desc_6" text="You traveled with Isengard’s warbands, raiding villages and sowing fear among the Free Peoples. You learned to survive on plunder and cunning."/>
+
+		<!-- YOUTH MENU -> Gundabad -->
+		<string id="lotraom_gundabad_youth_1" text="Joined the Warg riders."/>
+		<string id="lotraom_gundabad_youth_desc_1" text="You rode with the Warg riders of Gundabad, striking terror into the hearts of your enemies with swift and deadly raids."/>
+		<string id="lotraom_gundabad_youth_2" text="Guarded the forges of Gundabad."/>
+		<string id="lotraom_gundabad_youth_desc_2" text="You served in the garrison of Gundabad, defending the dark halls and the forges that armed its legions."/>
+		<string id="lotraom_gundabad_youth_3" text="Trained with the berserkers."/>
+		<string id="lotraom_gundabad_youth_desc_3" text="You were among the berserkers of Gundabad, wielding massive weapons with unrelenting ferocity to crush your foes."/>
+		<string id="lotraom_gundabad_youth_4" text="Scouted the mountain passes."/>
+		<string id="lotraom_gundabad_youth_desc_4" text="You roamed the treacherous mountain paths of Gundabad, watching for intruders and ambushing unwary travelers."/>
+		<string id="lotraom_gundabad_youth_5" text="Joined the spear legions."/>
+		<string id="lotraom_gundabad_youth_desc_5" text="You marched with the disciplined spear legions of Gundabad, ready to pierce through any defense."/>
+		<string id="lotraom_gundabad_youth_6" text="Marched with the warbands."/>
+		<string id="lotraom_gundabad_youth_desc_6" text="You followed the warbands of Gundabad, pillaging and striking fear into the lands of men and elves."/>
+
+		<!-- YOUTH MENU -> Dol Guldur -->
+		<string id="lotraom_dolguldur_youth_1" text="Served the Necromancer's riders."/>
+		<string id="lotraom_dolguldur_youth_desc_1" text="You rode in the service of Dol Guldur, spreading terror across the lands of Rhovanion with swift and brutal attacks."/>
+		<string id="lotraom_dolguldur_youth_2" text="Guarded the halls of shadow."/>
+		<string id="lotraom_dolguldur_youth_desc_2" text="You defended the dark halls of Dol Guldur, ensuring the stronghold's defenses remained impenetrable."/>
+		<string id="lotraom_dolguldur_youth_3" text="Trained in the dark arts of war."/>
+		<string id="lotraom_dolguldur_youth_desc_3" text="You honed your skills in the dark arts of warfare, learning to fight with cunning and ruthlessness."/>
+		<string id="lotraom_dolguldur_youth_4" text="Scouted the borders of Mirkwood."/>
+		<string id="lotraom_dolguldur_youth_desc_4" text="You patrolled the edges of Mirkwood, watching for threats and preying on those who wandered too close."/>
+		<string id="lotraom_dolguldur_youth_5" text="Joined the shadow legions."/>
+		<string id="lotraom_dolguldur_youth_desc_5" text="You marched under the banners of shadow, wielding dark weapons to crush your enemies."/>
+		<string id="lotraom_dolguldur_youth_6" text="Lurked in the shadows."/>
+		<string id="lotraom_dolguldur_youth_desc_6" text="You avoided open combat, working instead in secret to undermine the forces of light with cunning and deception."/>
+
+		<!-- YOUTH MENU Umbar -->
+		<string id="lotraom_umber_youth_1" text="Served in the Corsair Fleet."/>
+		<string id="lotraom_umber_youth_desc_1" text="You joined the Corsair Fleet of Umbar, a feared naval force. Training aboard swift ships, you mastered naval combat and the use of polearms for boarding enemy vessels."/>
+		<string id="lotraom_umber_youth_2" text="Guarded the harbors of Umbar."/>
+		<string id="lotraom_umber_youth_desc_2" text="You served in the harbor garrisons, defending the bustling ports of Umbar. With training in crossbows and fortifications, you ensured the safety of its lucrative trade routes."/>
+		<string id="lotraom_umber_youth_3" text="Fought alongside the raiders."/>
+		<string id="lotraom_umber_youth_desc_3" text="You joined the raiders of Umbar, specializing in swift and deadly strikes on coastal settlements. Armed with throwing weapons and short blades, you excelled in ambush tactics."/>
+		<string id="lotraom_umber_youth_4" text="Scouted the open seas."/>
+		<string id="lotraom_umber_youth_desc_4" text="You sailed with the Corsairs as a scout, navigating treacherous waters and spotting enemy ships. Your skill with a bow was invaluable for ranged attacks during naval skirmishes."/>
+		<string id="lotraom_umber_youth_5" text="Joined the spearline."/>
+		<string id="lotraom_umber_youth_desc_5" text="You took up the spear and shield in Umbar’s infantry, the backbone of its coastal defenses. Standing firm against attackers, you proved your worth in the heat of battle."/>
+		<string id="lotraom_umber_youth_6" text="Sailed with the outlaws."/>
+		<string id="lotraom_umber_youth_desc_6" text="You chose a life with the outlaws of Umbar, crewing ships that plundered the coasts and harried merchant vessels. You learned to survive by wit and cunning, thriving in a life of intrigue and danger."/>
+
+		<!-- YOUTH MENU Init -->
+		<string id="lotraom_youth_init_male" text="As a youngster growing up in Arda, war was never too far away. You..."/>
+		<string id="lotraom_youth_init_female" text="In wartorn Arda, some women as well as men learn to fight from an early age. You..."/>
+
+	</strings>
+</base>
