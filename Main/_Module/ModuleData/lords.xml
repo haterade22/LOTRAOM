@@ -1741,12 +1741,32 @@
 				value="1" />
 		</Traits>
 		<Equipments>
-				<EquipmentRoster />
-				<EquipmentSet
-					id="gond_noble_template_bat_a" />
-				<EquipmentSet
-					id="emp_civ_template_default"
-					civilian="true" />
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_spear_a" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Body"
+					id="Item.imrahil_body" />
+				<equipment
+					slot="Head"
+					id="Item.imrahil_helmet" />
+				<equipment
+					slot="Gloves"
+					id="Item.imrahil_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.imrahil_boot" />
+				<equipment
+					slot="Cape"
+					id="Item.imrahil_shoulder" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
@@ -6455,9 +6475,29 @@
 				value="1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_spear_a" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_mustard" />
+				<equipment
+					slot="Body"
+					id="Item.golasgil_body" />
+				<equipment
+					slot="Head"
+					id="Item.golasgil_helment" />
+				<equipment
+					slot="Gloves"
+					id="Item.golasgil_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.golasgil_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.golasgil_shoulder" />
+			</EquipmentRoster>
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -14736,15 +14776,15 @@ voice="Male, northern accent, older, authoritative and competent"-->
 						slot="Cape"
 						id="Item.theodred_pauldrons" />
 				</EquipmentRoster>
-				<equipment
-					slot="Horse"
-					id="Item.noble_horse_southern" />
-				<equipment
-					slot="HorseHarness"
-					id="Item.chain_barding" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<equipment
+			slot="HorseHarness"
+			id="Item.chain_barding" />
 		</Equipments>
 	</NPCCharacter>
 	<!-- Furnhard, as debauched as his father-->

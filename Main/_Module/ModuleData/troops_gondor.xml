@@ -2235,65 +2235,19 @@
 					id="Item.gond_shield_two_swan" />
 				<equipment
 					slot="Body"
-					id="Item.fountain_armor3" />
+					id="Item.imrahil_body" />
 				<equipment
 					slot="Head"
-					id="Item.fountain_helm5" />
+					id="Item.imrahil_helmet" />
 				<equipment
 					slot="Gloves"
-					id="Item.citidel_guard_bracers" />
+					id="Item.imrahil_gloves" />
 				<equipment
 					slot="Leg"
-					id="Item.fountain_guard_boots" />
+					id="Item.imrahil_boot" />
 				<equipment
 					slot="Cape"
-					id="Item.fountain_shoulders3" />
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.wm_gondor_spear_a" />
-				<equipment
-					slot="Item1"
-					id="Item.gond_shield_two_swan" />
-				<equipment
-					slot="Body"
-					id="Item.fountain_armor3" />
-				<equipment
-					slot="Head"
-					id="Item.fountain_helm6" />
-				<equipment
-					slot="Gloves"
-					id="Item.citidel_guard_bracers" />
-				<equipment
-					slot="Leg"
-					id="Item.fountain_guard_boots" />
-				<equipment
-					slot="Cape"
-					id="Item.fountain_shoulders3" />
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.wm_gondor_spear_a" />
-				<equipment
-					slot="Item1"
-					id="Item.gond_shield_two_swan" />
-				<equipment
-					slot="Body"
-					id="Item.fountain_armor3" />
-				<equipment
-					slot="Head"
-					id="Item.fountain_helm7" />
-				<equipment
-					slot="Gloves"
-					id="Item.citidel_guard_bracers" />
-				<equipment
-					slot="Leg"
-					id="Item.fountain_guard_boots" />
-				<equipment
-					slot="Cape"
-					id="Item.fountain_shoulders3" />
+					id="Item.imrahil_shoulder" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"

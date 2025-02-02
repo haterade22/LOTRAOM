@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+	<EquipmentRoster
+		id="gond_noble_template_bat_a"
+		culture="Culture.gondor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.wm_gondor_spear" />
+			<Equipment
+				slot="Item1"
+				id="Item.anduril" />
+			<Equipment
+				slot="Item2"
+				id="Item.gond_shld4" />
+			<Equipment
+				slot="Head"
+				id="Item.fountain_helm20" />
+			<Equipment
+				slot="Cape"
+				id="Item.fountain_shoulders3" />
+			<Equipment
+				slot="Body"
+				id="Item.fountain_armor2" />
+			<Equipment
+				slot="Gloves"
+				id="Item.citidel_guard_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.citidel_guard_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_northern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.northern_ring_barding" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="rohan_noble_template_bat_a"
+		culture="Culture.vlandia">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_noble_sword_3_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.vlandia_lance_2_t4" />
+			<Equipment
+				slot="Item2"
+				id="Item.western_javelin_3_t4" />
+			<Equipment
+				slot="Item3"
+				id="Item.cts_rohan_shield" />
+			<Equipment
+				slot="Head"
+				id="Item.whiterun_helm" />
+			<Equipment
+				slot="Cape"
+				id="Item.whiterun_cloak" />
+			<Equipment
+				slot="Body"
+				id="Item.whiterun_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.whiterun_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.whiterun_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.chain_barding" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+
+	<EquipmentRoster
+			id="witch_king_template"
+			culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item1"
+				id="Item.anduril" />
+			<Equipment
+				slot="Head"
+				id="Item.witch_king_helmet" />
+			<Equipment
+				slot="Cape"
+				id="Item.witch_king_pauldrons" />
+			<Equipment
+				slot="Body"
+				id="Item.witch_king" />
+			<Equipment
+				slot="Gloves"
+				id="Item.witch_king_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.witch_king_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_northern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.northern_ring_barding" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+
+	<EquipmentRoster
+			id="mordor_captain_template_a1"
+			culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_polearm_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.shield_khuzait_infantry_b" />
+			<Equipment
+				slot="Head"
+				id="Item.sk_uruk_mordor_helmet_heavy_a1" />
+			<Equipment
+				slot="Cape"
+				id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+			<Equipment
+				slot="Body"
+				id="Item.sk_uruk_mordor_chainmail_captain_a1" />
+			<Equipment
+				slot="Gloves"
+				id="Item.sk_uruk_mordor_bracer_heavy_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.sk_uruk_mordor_greaves_heavy_a" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+
+
+	<EquipmentRoster
+		id="mordor_captain_template_a2"
+		culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+		<Equipment
+			slot="Item0"
+			id="Item.vlandia_polearm_1_t5" />
+		<Equipment
+			slot="Item1"
+			id="Item.shield_khuzait_infantry_b" />
+		<Equipment
+			slot="Head"
+			id="Item.sk_uruk_mordor_helmet_heavy_a2" />
+		<Equipment
+			slot="Cape"
+			id="Item.sk_uruk_mordor_pauldron_heavy_b" />
+		<Equipment
+			slot="Body"
+			id="Item.sk_uruk_mordor_chainmail_captain_a2" />
+		<Equipment
+			slot="Gloves"
+			id="Item.sk_uruk_mordor_bracer_heavy_b" />
+		<Equipment
+			slot="Leg"
+			id="Item.sk_uruk_mordor_greaves_heavy_b" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+
+
+	<EquipmentRoster
+		id="mordor_captain_template_b1"
+		culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_polearm_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.shield_khuzait_infantry_b" />
+			<Equipment
+				slot="Head"
+				id="Item.sk_uruk_mordor_helmet_heavy_b1" />
+			<Equipment
+				slot="Cape"
+				id="Item.sk_uruk_mordor_pauldron_heavy_c" />
+			<Equipment
+				slot="Body"
+				id="Item.sk_uruk_mordor_chainmail_captain_b1" />
+			<Equipment
+				slot="Gloves"
+				id="Item.sk_uruk_mordor_bracer_heavy_c" />
+			<Equipment
+				slot="Leg"
+				id="Item.sk_uruk_mordor_greaves_heavy_c" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="mordor_captain_template_c1"
+		culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_polearm_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.shield_khuzait_infantry_b" />
+			<Equipment
+				slot="Head"
+				id="Item.sk_uruk_mordor_helmet_heavy_b1" />
+			<Equipment
+				slot="Cape"
+				id="Item.sk_uruk_mordor_pauldron_heavy_c" />
+			<Equipment
+				slot="Body"
+				id="Item.sk_uruk_mordor_chainmail_captain_c1" />
+			<Equipment
+				slot="Gloves"
+				id="Item.sk_uruk_mordor_bracer_heavy_c" />
+			<Equipment
+				slot="Leg"
+				id="Item.sk_uruk_mordor_greaves_heavy_c" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="mordor_captain_template_d1"
+		culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+			slot="Item0"
+			id="Item.vlandia_polearm_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.shield_khuzait_infantry_b" />
+			<Equipment
+				slot="Head"
+				id="Item.sk_uruk_mordor_helmet_heavy_b2" />
+			<Equipment
+				slot="Cape"
+				id="Item.sk_uruk_mordor_pauldron_heavy_d" />
+			<Equipment
+				slot="Body"
+				id="Item.sk_uruk_mordor_chainmail_captain_d1" />
+			<Equipment
+				slot="Gloves"
+				id="Item.sk_uruk_mordor_bracer_heavy_d" />
+			<Equipment
+				slot="Leg"
+				id="Item.sk_uruk_mordor_greaves_heavy_d" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="mordor_captain_template_b2"
+		culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+			slot="Item0"
+			id="Item.vlandia_polearm_1_t5" />
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_polearm_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.shield_khuzait_infantry_b" />
+			<Equipment
+				slot="Head"
+				id="Item.sk_uruk_mordor_helmet_heavy_b2" />
+			<Equipment
+				slot="Cape"
+				id="Item.sk_uruk_mordor_pauldron_heavy_d" />
+			<Equipment
+				slot="Body"
+				id="Item.sk_uruk_mordor_chainmail_captain_b2" />
+			<Equipment
+				slot="Gloves"
+				id="Item.sk_uruk_mordor_bracer_heavy_d" />
+			<Equipment
+				slot="Leg"
+				id="Item.sk_uruk_mordor_greaves_heavy_d" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="mordor_captain_template_c2"
+		culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_polearm_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.shield_khuzait_infantry_b" />
+			<Equipment
+				slot="Cape"
+				id="Item.sk_uruk_mordor_pauldron_heavy_e" />
+			<Equipment
+				slot="Head"
+				id="Item.sk_uruk_mordor_helmet_heavy_c1" />
+			<Equipment
+				slot="Body"
+				id="Item.sk_uruk_mordor_chainmail_captain_c2" />
+			<Equipment
+				slot="Gloves"
+				id="Item.sk_uruk_mordor_bracer_heavy_e" />
+			<Equipment
+				slot="Leg"
+				id="Item.sk_uruk_mordor_greaves_heavy_e" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+
+
+	<EquipmentRoster
+			id="mordor_captain_template_f2"
+			culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_polearm_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.shield_khuzait_infantry_b" />
+			<Equipment
+				slot="Cape"
+				id="Item.sk_uruk_mordor_pauldron_heavy_e" />
+			<Equipment
+				slot="Head"
+				id="Item.sk_uruk_mordor_helmet_heavy_c1" />
+			<Equipment
+				slot="Body"
+				id="Item.sk_uruk_mordor_chainmail_captain_c2" />
+			<Equipment
+				slot="Gloves"
+				id="Item.sk_uruk_mordor_bracer_heavy_e" />
+			<Equipment
+				slot="Leg"
+				id="Item.sk_uruk_mordor_greaves_heavy_e" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+			id="mordor_captain_template_e1"
+			culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.fine_pike_t4" />
+			<Equipment
+				slot="Item1"
+				id="Item.shield_khuzait_infantry_b" />
+			<Equipment
+				slot="Head"
+				id="Item.sk_uruk_mordor_helmet_heavy_c2" />
+			<Equipment
+				slot="Cape"
+				id="Item.sk_uruk_mordor_pauldron_heavy_f" />
+			<Equipment
+				slot="Body"
+				id="Item.sk_uruk_mordor_chainmail_captain_d2" />
+			<Equipment
+				slot="Gloves"
+				id="Item.sk_uruk_mordor_bracer_heavy_f" />
+			<Equipment
+				slot="Leg"
+				id="Item.sk_uruk_mordor_greaves_heavy_f" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+
+	<EquipmentRoster
+			id="mordor_captain_template_e2"
+			culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+			slot="Item0"
+			id="Item.vlandia_polearm_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.shield_khuzait_infantry_b" />
+			<Equipment
+				slot="Head"
+				id="Item.sk_uruk_mordor_helmet_heavy_d1" />
+			<Equipment
+				slot="Cape"
+				id="Item.sk_uruk_mordor_pauldron_heavy_g" />
+			<Equipment
+				slot="Body"
+				id="Item.sk_uruk_mordor_chainmail_captain_d1" />
+			<Equipment
+				slot="Gloves"
+				id="Item.sk_uruk_mordor_bracer_heavy_f" />
+			<Equipment
+				slot="Leg"
+				id="Item.sk_uruk_mordor_greaves_heavy_f" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+
+	<EquipmentRoster
+			id="mordor_captain_template_f1"
+			culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.fine_pike_t4" />
+			<Equipment
+				slot="Item1"
+				id="Item.shield_khuzait_infantry_b" />
+			<Equipment
+				slot="Head"
+				id="Item.sk_uruk_mordor_helmet_heavy_d2" />
+			<Equipment
+				slot="Cape"
+				id="Item.sk_uruk_mordor_pauldron_heavy_h" />
+			<Equipment
+				slot="Body"
+				id="Item.sk_uruk_mordor_chainmail_captain_a2" />
+			<Equipment
+				slot="Gloves"
+				id="Item.sk_uruk_mordor_bracer_heavy_f" />
+			<Equipment
+				slot="Leg"
+				id="Item.sk_uruk_mordor_greaves_heavy_f" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+
+
+	
+	
+	
+</EquipmentRosters>
