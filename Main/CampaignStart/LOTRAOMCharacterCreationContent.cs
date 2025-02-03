@@ -135,7 +135,12 @@ namespace LOTRAOM
                         cultureObject.CultureFeats.Add(culturalFeats.exampleFeat);
                         break;
                     case "mordor":
-                        cultureObject.CultureFeats.Add(culturalFeats.exampleFeat);
+                        cultureObject.CultureFeats.Remove(DefaultCulturalFeats.EmpireGarrisonWageFeat);
+                        cultureObject.CultureFeats.Remove(DefaultCulturalFeats.EmpireArmyInfluenceFeat);
+                        cultureObject.CultureFeats.Remove(DefaultCulturalFeats.EmpireVillageHearthFeat);
+                        cultureObject.CultureFeats.Add(culturalFeats.mordorPartySizeFeat);
+                        cultureObject.CultureFeats.Add(culturalFeats.mordorWageMultiplierFeat);
+                        cultureObject.CultureFeats.Add(culturalFeats.mordorRecruitmentFeat);
                         break;
                     case "rivendell":
                         cultureObject.CultureFeats.Add(culturalFeats.exampleFeat);

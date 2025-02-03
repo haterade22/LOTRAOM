@@ -5,5 +5,11 @@
     </tags>
     <strings>
         <string id="lotraom_start_game" text="Start Age of Man" />
-    </strings>
+		
+		<!-- culture feats-->
+		<string id="mordor_wage_multiplier_desc" text="20% lower troop wages" />
+		<string id="mordor_recruitment_desc" text="20% lower recruitment cost" />
+		<string id="mordor_party_size_desc" text="30% bigger party size" />
+		
+	</strings>
 </base>

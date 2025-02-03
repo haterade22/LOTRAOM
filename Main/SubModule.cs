@@ -9,6 +9,9 @@ using TaleWorlds.Localization;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.Core.ViewModelCollection;
 using TaleWorlds.Core.ViewModelCollection.Selector;
+using TaleWorlds.MountAndBlade.ComponentInterfaces;
+using LOTRAOM.Models;
+using TaleWorlds.CampaignSystem.ComponentInterfaces;
 namespace LOTRAOM
 {
     public class SubModule : MBSubModuleBase
@@ -45,7 +48,12 @@ namespace LOTRAOM
 
             if (gameStarterObject is CampaignGameStarter campaignGameStarter)
             {
-                    campaignGameStarter.AddBehavior(new KeepHeroRaceCampaignBehavior());
+                campaignGameStarter.AddBehavior(new KeepHeroRaceCampaignBehavior());
+
+                // models
+                campaignGameStarter.AddModel(new LOTRAOMNotableSpawnModel(campaignGameStarter.GetExistingModel<NotableSpawnModel>()));
+                campaignGameStarter.AddModel(new LOTRAOMPartyWageModel(campaignGameStarter.GetExistingModel<PartyWageModel>()));
+                campaignGameStarter.AddModel(new LOTRAOMPartySizeModel(campaignGameStarter.GetExistingModel<PartySizeLimitModel>()));
             }
         }
 
