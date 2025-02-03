@@ -47,22 +47,22 @@ namespace LOTRAOM.CampaignStart
         }
         public static Dictionary<string, CCCultureData> CCCulturesRaceData = new()
         {
-            ["aserai"] = new CCCultureData(new List<string>() { "human", "uruk" }, HumanBodyPropString),
-            ["battania"] = new CCCultureData(new List<string>() { "human", "uruk" }, HumanBodyPropString),
-            ["empire"] = new CCCultureData(new List<string>() { "human", "uruk" }, HumanBodyPropString),
-            ["khuzait"] = new CCCultureData(new List<string>() { "human", "uruk" }, HumanBodyPropString),
-            ["sturgia"] = new CCCultureData(new List<string>() { "human", "uruk" }, HumanBodyPropString),
-            ["vlandia"] = new CCCultureData(new List<string>() { "human", "uruk" }, HumanBodyPropString),
-            ["gondor"] = new CCCultureData(new List<string>() { "human", "uruk" }, HumanBodyPropString),
-            ["mordor"] = new CCCultureData(new List<string>() { "human", "uruk" }, HumanBodyPropString),
-            ["erebor"] = new CCCultureData(new List<string>() { "human", "uruk" }, HumanBodyPropString),
+            ["aserai"] = new CCCultureData(new List<string>() { "human"}, HumanBodyPropString),
+            ["battania"] = new CCCultureData(new List<string>() { "human"}, HumanBodyPropString),
+            ["empire"] = new CCCultureData(new List<string>() { "human"}, HumanBodyPropString),
+            ["khuzait"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
+            ["sturgia"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
+            ["vlandia"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
+            ["gondor"] = new CCCultureData(new List<string>() { "human"}, HumanBodyPropString),
+            ["mordor"] = new CCCultureData(new List<string>() { "uruk", "human" }, HumanBodyPropString),
+            ["erebor"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
             ["rivendell"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
-            ["mirkwood"] = new CCCultureData(new List<string>() { "human", "uruk" }, HumanBodyPropString),
-            ["lothlorien"] = new CCCultureData(new List<string>() { "human", "uruk" }, HumanBodyPropString),
+            ["mirkwood"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
+            ["lothlorien"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
             ["umbar"] = new CCCultureData(new List<string>() { "human", "uruk" }, HumanBodyPropString),
-            ["isengard"] = new CCCultureData(new List<string>() { "uruk", "nazghul" }, HumanBodyPropString),
+            ["isengard"] = new CCCultureData(new List<string>() { "uruk" }, HumanBodyPropString),
             ["gundabad"] = new CCCultureData(new List<string>() { "uruk" }, HumanBodyPropString),
-            ["dolguldur"] = new CCCultureData(new List<string>() { "human", "uruk" }, HumanBodyPropString),
+            ["dolguldur"] = new CCCultureData(new List<string>() { "uruk" }, HumanBodyPropString),
             ["default"] = new CCCultureData(new List<string>() { "human", "uruk" }, HumanBodyPropString) // in case culture is missing
         };
         private const string HumanBodyPropString = "<BodyProperties version=\"4\" age=\"22.35\" weight=\"0.5417\" build=\"0.5231\"  key=\"000DF00FC00033CD8771188F38770F8801F188778888888888888888546AF0F90088860308888888000000000000000000000000000000000000000043044144\"  />";
