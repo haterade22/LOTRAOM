@@ -1,106 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
-	<BannerIconData>
-		<BannerIconGroup id="16" name="{=!}LOTRAOM Custom Gondor Banners" is_pattern="false">
-			<Icon id="16001" material_name="lotraom_banner_icons_1" texture_index="0" />
-			<!-- Tree of
+  <BannerIconData>
+    <BannerIconGroup id="16" name="{=!}LOTRAOM Bannerpack 1" is_pattern="false">
+      <Icon id="16001" material_name="lotraom_banner_icons_1" texture_index="0" /> <!-- Tree of
       Gondor 1-->
-			<Icon id="16002" material_name="lotraom_banner_icons_1" texture_index="1" />
-			<!-- Tree of
+      <Icon id="16002" material_name="lotraom_banner_icons_1" texture_index="1" /> <!-- Tree of
       Gondor 2 -->
-			<Icon id="16003" material_name="lotraom_banner_icons_1" texture_index="2" />
-			<!-- Tree of
+      <Icon id="16003" material_name="lotraom_banner_icons_1" texture_index="2" /> <!-- Tree of
       Gondor 3 -->
-			<Icon id="16004" material_name="lotraom_banner_icons_1" texture_index="3" />
-			<!-- Arnor 1 -->
-			<Icon id="16005" material_name="lotraom_banner_icons_1" texture_index="4" />
-			<!-- Arnor 2 -->
-			<Icon id="16006" material_name="lotraom_banner_icons_1" texture_index="5" />
-			<!-- Annuminas -->
-			<Icon id="16007" material_name="lotraom_banner_icons_1" texture_index="6" />
-			<!-- Pelargir 1 -->
-			<Icon id="16008" material_name="lotraom_banner_icons_1" texture_index="7" />
-			<!-- Pelargir 2 -->
-			<Icon id="16009" material_name="lotraom_banner_icons_1" texture_index="8" />
-			<!-- Belfalas 1 -->
-			<Icon id="16010" material_name="lotraom_banner_icons_1" texture_index="9" />
-			<!-- Belfalas 2 -->
-			<Icon id="16011" material_name="lotraom_banner_icons_1" texture_index="10" />
-			<!-- Anfalas -->
-			<Icon id="16012" material_name="lotraom_banner_icons_1" texture_index="11" />
-			<!-- Ithilien -->
-			<Icon id="16013" material_name="lotraom_banner_icons_1" texture_index="12" />
-			<!-- Lamedon -->
-			<Icon id="16014" material_name="lotraom_banner_icons_1" texture_index="13" />
-			<!-- Lossarnach -->
-			<Icon id="16015" material_name="lotraom_banner_icons_1" texture_index="14" />
-			<!-- Ringló Vale -->
-			<Icon id="16016" material_name="lotraom_banner_icons_1" texture_index="15" />
-			<!-- Pinnath
+      <Icon id="16004" material_name="lotraom_banner_icons_1" texture_index="3" /> <!-- Arnor 1 -->
+      <Icon id="16005" material_name="lotraom_banner_icons_1" texture_index="4" /> <!-- Arnor 2 -->
+      <Icon id="16006" material_name="lotraom_banner_icons_1" texture_index="5" /> <!-- Annuminas -->
+      <Icon id="16007" material_name="lotraom_banner_icons_1" texture_index="6" /> <!-- Pelargir 1 -->
+      <Icon id="16008" material_name="lotraom_banner_icons_1" texture_index="7" /> <!-- Pelargir 2 -->
+      <Icon id="16009" material_name="lotraom_banner_icons_1" texture_index="8" /> <!-- Belfalas 1 -->
+      <Icon id="16010" material_name="lotraom_banner_icons_1" texture_index="9" /> <!-- Belfalas 2 -->
+      <Icon id="16011" material_name="lotraom_banner_icons_1" texture_index="10" /> <!-- Anfalas -->
+      <Icon id="16012" material_name="lotraom_banner_icons_1" texture_index="11" /> <!-- Ithilien -->
+      <Icon id="16013" material_name="lotraom_banner_icons_1" texture_index="12" /> <!-- Lamedon -->
+      <Icon id="16014" material_name="lotraom_banner_icons_1" texture_index="13" /> <!-- Lossarnach -->
+      <Icon id="16015" material_name="lotraom_banner_icons_1" texture_index="14" /> <!-- Ringló Vale -->
+      <Icon id="16016" material_name="lotraom_banner_icons_1" texture_index="15" /> <!-- Pinnath
       Gelin -->
-		</BannerIconGroup>
-		<BannerIconGroup id="17" name="{=!}LOTRAOM Custom Dwarven and Elven Banners" is_pattern="false">
-			<Icon id="16017" material_name="lotraom_banner_icons_2" texture_index="0" />
-			<!-- Erebor -->
-			<Icon id="16018" material_name="lotraom_banner_icons_2" texture_index="1" />
-			<!-- Dwarf 1 -->
-			<Icon id="16019" material_name="lotraom_banner_icons_2" texture_index="2" />
-			<!-- Iron Hills -->
-			<Icon id="16020" material_name="lotraom_banner_icons_2" texture_index="3" />
-			<!-- Gimli -->
-			<Icon id="16021" material_name="lotraom_banner_icons_2" texture_index="4" />
-			<!-- Orocarni -->
-			<Icon id="16022" material_name="lotraom_banner_icons_2" texture_index="5" />
-			<!-- Dwarf 2 -->
-			<Icon id="16023" material_name="lotraom_banner_icons_2" texture_index="6" />
-			<!-- Dwarf 3 -->
-			<Icon id="16024" material_name="lotraom_banner_icons_2" texture_index="7" />
-			<!-- Ered Mithrin -->
-			<Icon id="16025" material_name="lotraom_banner_icons_2" texture_index="8" />
-			<!-- Lothlórien 1 -->
-			<Icon id="16026" material_name="lotraom_banner_icons_2" texture_index="9" />
-			<!-- Lindon 1 -->
-			<Icon id="16027" material_name="lotraom_banner_icons_2" texture_index="10" />
-			<!-- Éothéod 1 -->
-			<Icon id="16028" material_name="lotraom_banner_icons_2" texture_index="11" />
-			<!-- Éothéod 2 -->
-			<Icon id="16029" material_name="lotraom_banner_icons_2" texture_index="12" />
-			<!-- Éothéod 3 -->
-			<Icon id="16030" material_name="lotraom_banner_icons_2" texture_index="13" />
-			<!-- Éothéod 4 -->
-			<Icon id="16031" material_name="lotraom_banner_icons_2" texture_index="14" />
-			<!-- Mumakil -->
-			<Icon id="16032" material_name="lotraom_banner_icons_2" texture_index="15" />
-			<!-- Mordor 1 -->
-		</BannerIconGroup>
-		<BannerIconGroup id="18" name="{=!}LOTRAOM TEMP Banners" is_pattern="false">
-			<Icon id="16033" material_name="lotraom_banner_icons_3" texture_index="0" />
-			<!-- Elf -->
-		</BannerIconGroup>
-		<BannerColors>
-			<!-- New colours element-->
-			<!-- Black-->
-			<Color id="2000" hex="0xFF000000" player_can_choose_for_sigil="true" />
-			<Color id="2001" hex="0xFF000000" player_can_choose_for_background="true" />
-			<!-- Red -->
-			<Color id="2002" hex="0xFFdc0000" player_can_choose_for_sigil="true" />
-			<Color id="2003" hex="0xFFdc0000" player_can_choose_for_background="true" />
-			<!-- White -->
-			<Color id="2004" hex="0xFFffffff" player_can_choose_for_sigil="true" />
-			<Color id="2005" hex="0xFFffffff" player_can_choose_for_background="true" />
-			<!-- Brown -->
-			<Color id="2006" hex="0xFF654d37" player_can_choose_for_sigil="true" />
-			<Color id="2007" hex="0xFF654d37" player_can_choose_for_background="true" />
+    </BannerIconGroup>
+    <BannerIconGroup id="17" name="{=!}LOTRAOM Bannerpack 2" is_pattern="false">
+      <Icon id="16017" material_name="lotraom_banner_icons_2" texture_index="0" /> <!-- Erebor -->
+      <Icon id="16018" material_name="lotraom_banner_icons_2" texture_index="1" /> <!-- Dwarf 1 -->
+      <Icon id="16019" material_name="lotraom_banner_icons_2" texture_index="2" /> <!-- Iron Hills -->
+      <Icon id="16020" material_name="lotraom_banner_icons_2" texture_index="3" /> <!-- Gimli -->
+      <Icon id="16021" material_name="lotraom_banner_icons_2" texture_index="4" /> <!-- Orocarni -->
+      <Icon id="16022" material_name="lotraom_banner_icons_2" texture_index="5" /> <!-- Dwarf 2 -->
+      <Icon id="16023" material_name="lotraom_banner_icons_2" texture_index="6" /> <!-- Dwarf 3 -->
+      <Icon id="16024" material_name="lotraom_banner_icons_2" texture_index="7" /> <!-- Ered Mithrin -->
+      <Icon id="16025" material_name="lotraom_banner_icons_2" texture_index="8" /> <!-- Lothlórien 1 -->
+      <Icon id="16026" material_name="lotraom_banner_icons_2" texture_index="9" /> <!-- Lindon 1 -->
+      <Icon id="16027" material_name="lotraom_banner_icons_2" texture_index="10" /> <!-- Éothéod 1 -->
+      <Icon id="16028" material_name="lotraom_banner_icons_2" texture_index="11" /> <!-- Éothéod 2 -->
+      <Icon id="16029" material_name="lotraom_banner_icons_2" texture_index="12" /> <!-- Éothéod 3 -->
+      <Icon id="16030" material_name="lotraom_banner_icons_2" texture_index="13" /> <!-- Éothéod 4 -->
+      <Icon id="16031" material_name="lotraom_banner_icons_2" texture_index="14" /> <!-- Mumakil -->
+      <Icon id="16032" material_name="lotraom_banner_icons_2" texture_index="15" /> <!-- Mordor 1 -->
+    </BannerIconGroup>
+    <BannerIconGroup id="18" name="{=!}LOTRAOM Bannerpack 3" is_pattern="false">
+      <Icon id="16033" material_name="lotraom_banner_icons_3" texture_index="0" /> <!-- Elf 1 -->
+      <Icon id="16034" material_name="lotraom_banner_icons_3" texture_index="1" /> <!-- Eye of Sauron
+      1-->
+      <Icon id="16035" material_name="lotraom_banner_icons_3" texture_index="2" /> <!-- Angmar -->
+      <Icon id="16036" material_name="lotraom_banner_icons_3" texture_index="3" /> <!-- Mordor 2 -->
+      <Icon id="16037" material_name="lotraom_banner_icons_3" texture_index="4" /> <!-- Mordor 3 -->
+      <Icon id="16038" material_name="lotraom_banner_icons_3" texture_index="5" /> <!-- Mordor 4 -->
+      <Icon id="16039" material_name="lotraom_banner_icons_3" texture_index="6" /> <!-- Umbar 1 -->
+      <Icon id="16040" material_name="lotraom_banner_icons_3" texture_index="7" /> <!-- Umbar 2 -->
+      <Icon id="16041" material_name="lotraom_banner_icons_3" texture_index="8" /> <!-- Rohan 1 -->
+      <Icon id="16042" material_name="lotraom_banner_icons_3" texture_index="9" /> <!-- Rohan 2 -->
+      <Icon id="16043" material_name="lotraom_banner_icons_3" texture_index="10" /> <!-- Rohan 3 -->
+      <Icon id="16044" material_name="lotraom_banner_icons_3" texture_index="11" /> <!-- Rohan 4 -->
+      <Icon id="16045" material_name="lotraom_banner_icons_3" texture_index="12" /> <!-- Elf 1 -->
+      <Icon id="16046" material_name="lotraom_banner_icons_3" texture_index="13" /> <!-- Mordor 5 -->
+      <Icon id="16047" material_name="lotraom_banner_icons_3" texture_index="14" /> <!-- Mordor 6 -->
+      <Icon id="16048" material_name="lotraom_banner_icons_3" texture_index="15" /> <!-- Mordor 7 -->
+    </BannerIconGroup>
 
-			<Color id="2008" hex="0xFFC99B6E" player_can_choose_for_sigil="true" />
-			<Color id="2009" hex="0xFFC99B6E" player_can_choose_for_background="true" />
+    <BannerIconGroup id="19" name="{=!}LOTRAOM Bannerpack 4" is_pattern="false">
+      <Icon id="16049" material_name="lotraom_banner_icons_4" texture_index="0" /> <!-- Ringló Vale -->
+      <Icon id="16050" material_name="lotraom_banner_icons_4" texture_index="1" /> <!-- Dale -->
+      <Icon id="16051" material_name="lotraom_banner_icons_4" texture_index="2" /> <!-- Beorning 1 -->
+    </BannerIconGroup>
+    <BannerColors> <!-- New colours element-->
+      <!-- Black-->
+      <Color id="2000" hex="0xFF000000" player_can_choose_for_sigil="true" />
+      <Color id="2001" hex="0xFF000000" player_can_choose_for_background="true" />
+      <!-- Red -->
+      <Color id="2002" hex="0xFFdc0000" player_can_choose_for_sigil="true" />
+      <Color id="2003" hex="0xFFdc0000" player_can_choose_for_background="true" />
+      <!-- White -->
+      <Color id="2004" hex="0xFFffffff" player_can_choose_for_sigil="true" />
+      <Color id="2005" hex="0xFFffffff" player_can_choose_for_background="true" />
+      <!-- Brown -->
+      <Color id="2006" hex="0xFF654d37" player_can_choose_for_sigil="true" />
+      <Color id="2007" hex="0xFF654d37" player_can_choose_for_background="true" />
 
-			<Color id="2010" hex="0xFF615C57" player_can_choose_for_sigil="true" />
-			<Color id="2011" hex="0xFF615C57" player_can_choose_for_background="true" />
+      <Color id="2008" hex="0xFFC99B6E" player_can_choose_for_sigil="true" />
+      <Color id="2009" hex="0xFFC99B6E" player_can_choose_for_background="true" />
 
-			<Color id="2012" hex="0xFF3F3831" player_can_choose_for_sigil="true" />
-			<Color id="2013" hex="0xFF3F3831" player_can_choose_for_background="true" />
-		</BannerColors>
-	</BannerIconData>
+      <Color id="2010" hex="0xFF615C57" player_can_choose_for_sigil="true" />
+      <Color id="2011" hex="0xFF615C57" player_can_choose_for_background="true" />
+
+      <Color id="2012" hex="0xFF3F3831" player_can_choose_for_sigil="true" />
+      <Color id="2013" hex="0xFF3F3831" player_can_choose_for_background="true" />
+
+      <Color id="2014" hex="0xFF570d0d" player_can_choose_for_sigil="true" />
+      <Color id="2015" hex="0xFF570d0d" player_can_choose_for_background="true" />
+
+    </BannerColors>
+  </BannerIconData>
 </base>

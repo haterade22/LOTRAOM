@@ -46,16 +46,16 @@
 		culture="Culture.vlandia">
 		<EquipmentSet
 			civilian="false">
-			<equipment
+			<Equipment
 				slot="Item0"
 				id="Item.vlandia_noble_sword_3_t5" />
-			<equipment
+			<Equipment
 				slot="Item1"
 				id="Item.vlandia_lance_2_t4" />
-			<equipment
+			<Equipment
 				slot="Item2"
 				id="Item.western_javelin_3_t4" />
-			<equipment
+			<Equipment
 				slot="Item3"
 				id="Item.cts_rohan_shield" />
 			<Equipment
@@ -73,10 +73,10 @@
 			<Equipment
 				slot="Leg"
 				id="Item.whiterun_boots" />
-			<equipment
+			<Equipment
 				slot="Horse"
 				id="Item.noble_horse_southern" />
-			<equipment
+			<Equipment
 				slot="HorseHarness"
 				id="Item.chain_barding" />
 		</EquipmentSet>
@@ -127,25 +127,25 @@
 			culture="Culture.mordor">
 		<EquipmentSet
 			civilian="false">
-			<equipment
+			<Equipment
 				slot="Item0"
 				id="Item.vlandia_polearm_1_t5" />
-			<equipment
+			<Equipment
 				slot="Item1"
 				id="Item.shield_khuzait_infantry_b" />
-			<equipment
+			<Equipment
 				slot="Head"
 				id="Item.sk_uruk_mordor_helmet_heavy_a1" />
-			<equipment
+			<Equipment
 				slot="Cape"
 				id="Item.sk_uruk_mordor_pauldron_heavy_a" />
-			<equipment
+			<Equipment
 				slot="Body"
 				id="Item.sk_uruk_mordor_chainmail_captain_a1" />
-			<equipment
+			<Equipment
 				slot="Gloves"
 				id="Item.sk_uruk_mordor_bracer_heavy_a" />
-			<equipment
+			<Equipment
 				slot="Leg"
 				id="Item.sk_uruk_mordor_greaves_heavy_a" />
 		</EquipmentSet>
@@ -161,25 +161,25 @@
 		culture="Culture.mordor">
 		<EquipmentSet
 			civilian="false">
-		<equipment
+		<Equipment
 			slot="Item0"
 			id="Item.vlandia_polearm_1_t5" />
-		<equipment
+		<Equipment
 			slot="Item1"
 			id="Item.shield_khuzait_infantry_b" />
-		<equipment
+		<Equipment
 			slot="Head"
 			id="Item.sk_uruk_mordor_helmet_heavy_a2" />
-		<equipment
+		<Equipment
 			slot="Cape"
 			id="Item.sk_uruk_mordor_pauldron_heavy_b" />
-		<equipment
+		<Equipment
 			slot="Body"
 			id="Item.sk_uruk_mordor_chainmail_captain_a2" />
-		<equipment
+		<Equipment
 			slot="Gloves"
 			id="Item.sk_uruk_mordor_bracer_heavy_b" />
-		<equipment
+		<Equipment
 			slot="Leg"
 			id="Item.sk_uruk_mordor_greaves_heavy_b" />
 		</EquipmentSet>
@@ -195,25 +195,25 @@
 		culture="Culture.mordor">
 		<EquipmentSet
 			civilian="false">
-			<equipment
+			<Equipment
 				slot="Item0"
 				id="Item.vlandia_polearm_1_t5" />
-			<equipment
+			<Equipment
 				slot="Item1"
 				id="Item.shield_khuzait_infantry_b" />
-			<equipment
+			<Equipment
 				slot="Head"
 				id="Item.sk_uruk_mordor_helmet_heavy_b1" />
-			<equipment
+			<Equipment
 				slot="Cape"
 				id="Item.sk_uruk_mordor_pauldron_heavy_c" />
-			<equipment
+			<Equipment
 				slot="Body"
 				id="Item.sk_uruk_mordor_chainmail_captain_b1" />
-			<equipment
+			<Equipment
 				slot="Gloves"
 				id="Item.sk_uruk_mordor_bracer_heavy_c" />
-			<equipment
+			<Equipment
 				slot="Leg"
 				id="Item.sk_uruk_mordor_greaves_heavy_c" />
 		</EquipmentSet>
@@ -228,25 +228,25 @@
 		culture="Culture.mordor">
 		<EquipmentSet
 			civilian="false">
-			<equipment
+			<Equipment
 				slot="Item0"
 				id="Item.vlandia_polearm_1_t5" />
-			<equipment
+			<Equipment
 				slot="Item1"
 				id="Item.shield_khuzait_infantry_b" />
-			<equipment
+			<Equipment
 				slot="Head"
 				id="Item.sk_uruk_mordor_helmet_heavy_b1" />
-			<equipment
+			<Equipment
 				slot="Cape"
 				id="Item.sk_uruk_mordor_pauldron_heavy_c" />
-			<equipment
+			<Equipment
 				slot="Body"
 				id="Item.sk_uruk_mordor_chainmail_captain_c1" />
-			<equipment
+			<Equipment
 				slot="Gloves"
 				id="Item.sk_uruk_mordor_bracer_heavy_c" />
-			<equipment
+			<Equipment
 				slot="Leg"
 				id="Item.sk_uruk_mordor_greaves_heavy_c" />
 		</EquipmentSet>
@@ -261,25 +261,25 @@
 		culture="Culture.mordor">
 		<EquipmentSet
 			civilian="false">
-			<equipment
+			<Equipment
 			slot="Item0"
 			id="Item.vlandia_polearm_1_t5" />
-			<equipment
+			<Equipment
 				slot="Item1"
 				id="Item.shield_khuzait_infantry_b" />
-			<equipment
+			<Equipment
 				slot="Head"
 				id="Item.sk_uruk_mordor_helmet_heavy_b2" />
-			<equipment
+			<Equipment
 				slot="Cape"
 				id="Item.sk_uruk_mordor_pauldron_heavy_d" />
-			<equipment
+			<Equipment
 				slot="Body"
 				id="Item.sk_uruk_mordor_chainmail_captain_d1" />
-			<equipment
+			<Equipment
 				slot="Gloves"
 				id="Item.sk_uruk_mordor_bracer_heavy_d" />
-			<equipment
+			<Equipment
 				slot="Leg"
 				id="Item.sk_uruk_mordor_greaves_heavy_d" />
 		</EquipmentSet>
@@ -294,28 +294,28 @@
 		culture="Culture.mordor">
 		<EquipmentSet
 			civilian="false">
-			<equipment
+			<Equipment
 			slot="Item0"
 			id="Item.vlandia_polearm_1_t5" />
-			<equipment
+			<Equipment
 				slot="Item0"
 				id="Item.vlandia_polearm_1_t5" />
-			<equipment
+			<Equipment
 				slot="Item1"
 				id="Item.shield_khuzait_infantry_b" />
-			<equipment
+			<Equipment
 				slot="Head"
 				id="Item.sk_uruk_mordor_helmet_heavy_b2" />
-			<equipment
+			<Equipment
 				slot="Cape"
 				id="Item.sk_uruk_mordor_pauldron_heavy_d" />
-			<equipment
+			<Equipment
 				slot="Body"
 				id="Item.sk_uruk_mordor_chainmail_captain_b2" />
-			<equipment
+			<Equipment
 				slot="Gloves"
 				id="Item.sk_uruk_mordor_bracer_heavy_d" />
-			<equipment
+			<Equipment
 				slot="Leg"
 				id="Item.sk_uruk_mordor_greaves_heavy_d" />
 		</EquipmentSet>
@@ -330,25 +330,25 @@
 		culture="Culture.mordor">
 		<EquipmentSet
 			civilian="false">
-			<equipment
+			<Equipment
 				slot="Item0"
 				id="Item.vlandia_polearm_1_t5" />
-			<equipment
+			<Equipment
 				slot="Item1"
 				id="Item.shield_khuzait_infantry_b" />
-			<equipment
+			<Equipment
 				slot="Cape"
 				id="Item.sk_uruk_mordor_pauldron_heavy_e" />
-			<equipment
+			<Equipment
 				slot="Head"
 				id="Item.sk_uruk_mordor_helmet_heavy_c1" />
-			<equipment
+			<Equipment
 				slot="Body"
 				id="Item.sk_uruk_mordor_chainmail_captain_c2" />
-			<equipment
+			<Equipment
 				slot="Gloves"
 				id="Item.sk_uruk_mordor_bracer_heavy_e" />
-			<equipment
+			<Equipment
 				slot="Leg"
 				id="Item.sk_uruk_mordor_greaves_heavy_e" />
 		</EquipmentSet>
@@ -364,25 +364,25 @@
 			culture="Culture.mordor">
 		<EquipmentSet
 			civilian="false">
-			<equipment
+			<Equipment
 				slot="Item0"
 				id="Item.vlandia_polearm_1_t5" />
-			<equipment
+			<Equipment
 				slot="Item1"
 				id="Item.shield_khuzait_infantry_b" />
-			<equipment
+			<Equipment
 				slot="Cape"
 				id="Item.sk_uruk_mordor_pauldron_heavy_e" />
-			<equipment
+			<Equipment
 				slot="Head"
 				id="Item.sk_uruk_mordor_helmet_heavy_c1" />
-			<equipment
+			<Equipment
 				slot="Body"
 				id="Item.sk_uruk_mordor_chainmail_captain_c2" />
-			<equipment
+			<Equipment
 				slot="Gloves"
 				id="Item.sk_uruk_mordor_bracer_heavy_e" />
-			<equipment
+			<Equipment
 				slot="Leg"
 				id="Item.sk_uruk_mordor_greaves_heavy_e" />
 		</EquipmentSet>
@@ -397,25 +397,25 @@
 			culture="Culture.mordor">
 		<EquipmentSet
 			civilian="false">
-			<equipment
+			<Equipment
 				slot="Item0"
 				id="Item.fine_pike_t4" />
-			<equipment
+			<Equipment
 				slot="Item1"
 				id="Item.shield_khuzait_infantry_b" />
-			<equipment
+			<Equipment
 				slot="Head"
 				id="Item.sk_uruk_mordor_helmet_heavy_c2" />
-			<equipment
+			<Equipment
 				slot="Cape"
 				id="Item.sk_uruk_mordor_pauldron_heavy_f" />
-			<equipment
+			<Equipment
 				slot="Body"
 				id="Item.sk_uruk_mordor_chainmail_captain_d2" />
-			<equipment
+			<Equipment
 				slot="Gloves"
 				id="Item.sk_uruk_mordor_bracer_heavy_f" />
-			<equipment
+			<Equipment
 				slot="Leg"
 				id="Item.sk_uruk_mordor_greaves_heavy_f" />
 		</EquipmentSet>
@@ -430,25 +430,25 @@
 			culture="Culture.mordor">
 		<EquipmentSet
 			civilian="false">
-			<equipment
+			<Equipment
 			slot="Item0"
 			id="Item.vlandia_polearm_1_t5" />
-			<equipment
+			<Equipment
 				slot="Item1"
 				id="Item.shield_khuzait_infantry_b" />
-			<equipment
+			<Equipment
 				slot="Head"
 				id="Item.sk_uruk_mordor_helmet_heavy_d1" />
-			<equipment
+			<Equipment
 				slot="Cape"
 				id="Item.sk_uruk_mordor_pauldron_heavy_g" />
-			<equipment
+			<Equipment
 				slot="Body"
 				id="Item.sk_uruk_mordor_chainmail_captain_d1" />
-			<equipment
+			<Equipment
 				slot="Gloves"
 				id="Item.sk_uruk_mordor_bracer_heavy_f" />
-			<equipment
+			<Equipment
 				slot="Leg"
 				id="Item.sk_uruk_mordor_greaves_heavy_f" />
 		</EquipmentSet>
@@ -463,25 +463,25 @@
 			culture="Culture.mordor">
 		<EquipmentSet
 			civilian="false">
-			<equipment
+			<Equipment
 				slot="Item0"
 				id="Item.fine_pike_t4" />
-			<equipment
+			<Equipment
 				slot="Item1"
 				id="Item.shield_khuzait_infantry_b" />
-			<equipment
+			<Equipment
 				slot="Head"
 				id="Item.sk_uruk_mordor_helmet_heavy_d2" />
-			<equipment
+			<Equipment
 				slot="Cape"
 				id="Item.sk_uruk_mordor_pauldron_heavy_h" />
-			<equipment
+			<Equipment
 				slot="Body"
 				id="Item.sk_uruk_mordor_chainmail_captain_a2" />
-			<equipment
+			<Equipment
 				slot="Gloves"
 				id="Item.sk_uruk_mordor_bracer_heavy_f" />
-			<equipment
+			<Equipment
 				slot="Leg"
 				id="Item.sk_uruk_mordor_greaves_heavy_f" />
 		</EquipmentSet>
