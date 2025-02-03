@@ -211,6 +211,8 @@
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
@@ -218,6 +220,8 @@
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
 <!-- Lords -->
@@ -238,6 +242,8 @@
 	<IncludedGameTypes>
 		<GameType value="Campaign" />
 		<GameType value="CampaignStoryMode" />
+		<GameType value = "CustomGame"/>
+		<GameType value = "EditorGame"/>
 	</IncludedGameTypes>
 </XmlNode>
 
