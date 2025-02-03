@@ -1407,6 +1407,100 @@
 		</stacks>
 	</MBPartyTemplate>
 
+	<MBPartyTemplate
+		id="kingdom_hero_party_dunland_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="5"
+				max_value="10"
+				troop="NPCCharacter.dunland_peasant" />
+			<PartyTemplateStack
+				min_value="5"
+				max_value="15"
+				troop="NPCCharacter.dunland_levy" />
+			<PartyTemplateStack
+				min_value="5"
+				max_value="20"
+				troop="NPCCharacter.dunland_skirmisher" />
+			<PartyTemplateStack
+				min_value="3"
+				max_value="20"
+				troop="NPCCharacter.dunland_light_infantry" />
+			<PartyTemplateStack
+				min_value="3"
+				max_value="15"
+				troop="NPCCharacter.dunland_light_axemen" />
+			<PartyTemplateStack
+				min_value="3"
+				max_value="15"
+				troop="NPCCharacter.dunland_light_spearmen" />
+			<PartyTemplateStack
+				min_value="2"
+				max_value="15"
+				troop="NPCCharacter.dunland_scout" />
+			<PartyTemplateStack
+				min_value="5"
+				max_value="20"
+				troop="NPCCharacter.dunland_light_archer" />
+			<PartyTemplateStack
+				min_value="2"
+				max_value="20"
+				troop="NPCCharacter.dunland_medium_archer" />
+			<PartyTemplateStack
+				min_value="2"
+				max_value="20"
+				troop="NPCCharacter.dunland_medium_infantry" />
+			<PartyTemplateStack
+				min_value="2"
+				max_value="20"
+				troop="NPCCharacter.dunland_medium_axemen" />
+			<PartyTemplateStack
+				min_value="2"
+				max_value="20"
+				troop="NPCCharacter.dunland_medium_spearmen" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="15"
+				troop="NPCCharacter.dunland_medium_cavalry" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="30"
+				troop="NPCCharacter.dunland_heavy_spearmen" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="20"
+				troop="NPCCharacter.dunland_heavy_infantry" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="25"
+				troop="NPCCharacter.dunland_heavy_axemen" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="25"
+				troop="NPCCharacter.dunland_elite_axemen" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="30"
+				troop="NPCCharacter.wulf_raider" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="30"
+				troop="NPCCharacter.wulf_axemen" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="20"
+				troop="NPCCharacter.wulf_hearthguard" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="20"
+				troop="NPCCharacter.wulf_huscarls" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="20"
+				troop="NPCCharacter.wulf_chosen" />
+		</stacks>
+	</MBPartyTemplate>
+
   <!-- Vassal Reward Troops-->
 	<MBPartyTemplate id="vassal_reward_troops_gondor" >
 		<stacks>
@@ -1427,6 +1521,13 @@
 			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.mordor_uruk_baraddurguard" />
 			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.mordor_rhun_blade_sentinel" />
 			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.mordor_harad_golden_fangmordor_harad_golden_fang" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<MBPartyTemplate id="vassal_reward_troops_dunland" >
+		<stacks>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.wulf_chosen" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.dunland_elite_axemen" />
 		</stacks>
 	</MBPartyTemplate>
 
