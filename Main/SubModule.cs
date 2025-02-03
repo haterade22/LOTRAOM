@@ -27,7 +27,7 @@ namespace LOTRAOM
 
             RemoveSandboxAndStoryOptions();
             Module.CurrentModule.AddInitialStateOption(
-                new InitialStateOption("LOTRAOM", name: new TextObject("{=lotraom_start_game}Start Age of Man", null), 3,
+                new InitialStateOption("LOTRAOM", name: new TextObject("{=lotraom_start_game}Enter The Age of Man", null), 3,
                 () => MBGameManager.StartNewGame(new LotrAOMCampaignManager()),
                 () => (Module.CurrentModule.IsOnlyCoreContentEnabled, new("Disabled during installation.", null)))
             );
