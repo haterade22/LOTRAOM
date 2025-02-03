@@ -205,7 +205,21 @@
 				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
-
+<!--Party Templates-->
+		<XmlNode>
+			<XmlName id="partyTemplates" path="partyTemplates"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="partyTemplates" path="partyTemplatesLOTRAOM"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
 <!-- Lords -->
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="lords"/>

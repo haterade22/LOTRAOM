@@ -10,7 +10,7 @@
 		is_basic_troop="true"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills>
 			<skill
@@ -66,7 +66,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill
@@ -129,7 +129,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill
@@ -169,7 +169,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_black" />
 				<equipment
 					slot="Body"
 					id="Item.gond_tab_9ld" />
@@ -192,7 +192,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_two_black" />
 				<equipment
 					slot="Body"
 					id="Item.gond_tab_9ld" />
@@ -223,7 +223,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill
@@ -298,7 +298,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill
@@ -373,7 +373,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill
@@ -405,14 +405,82 @@
 			<upgrade_target id="NPCCharacter.gondor_veteran_swordsman"/>
 		</upgrade_targets>
 		<Equipments>
-
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
 					id="Item.bastard_sword_t2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_black" />
+				<equipment
+					slot="Body"
+					id="Item.gondor_armor" />
+				<equipment
+					slot="Head"
+					id="Item.gondor_helmet" />
+				<equipment
+					slot="Gloves"
+					id="Item.gondor_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.gondor_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.bastard_sword_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_black" />
+				<equipment
+					slot="Body"
+					id="Item.gondor_armor" />
+				<equipment
+					slot="Head"
+					id="Item.gondor_helmet" />
+				<equipment
+					slot="Gloves"
+					id="Item.gondor_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.gondor_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.bastard_sword_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_three_black" />
+				<equipment
+					slot="Body"
+					id="Item.gondor_armor" />
+				<equipment
+					slot="Head"
+					id="Item.gondor_helmet" />
+				<equipment
+					slot="Gloves"
+					id="Item.gondor_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.gondor_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.bastard_sword_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
 					id="Item.gondor_armor" />
@@ -442,7 +510,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill
@@ -474,14 +542,13 @@
 			<upgrade_target id="NPCCharacter.gondor_veteran_spearman"/>
 		</upgrade_targets>
 		<Equipments>
-
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_black" />
 				<equipment
 					slot="Body"
 					id="Item.gondor_armor" />
@@ -498,6 +565,76 @@
 					slot="Cape"
 					id="Item.gondor_pauldrons" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.gond_spear2" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_black" />
+				<equipment
+					slot="Body"
+					id="Item.gondor_armor" />
+				<equipment
+					slot="Head"
+					id="Item.gondor_helmet" />
+				<equipment
+					slot="Gloves"
+					id="Item.gondor_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.gondor_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.gond_spear2" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_three_black" />
+				<equipment
+					slot="Body"
+					id="Item.gondor_armor" />
+				<equipment
+					slot="Head"
+					id="Item.gondor_helmet" />
+				<equipment
+					slot="Gloves"
+					id="Item.gondor_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.gondor_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.gond_spear2" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
+				<equipment
+					slot="Body"
+					id="Item.gondor_armor" />
+				<equipment
+					slot="Head"
+					id="Item.gondor_helmet" />
+				<equipment
+					slot="Gloves"
+					id="Item.gondor_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.gondor_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.gondor_pauldrons" />
+			</EquipmentRoster>
+		
 
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -512,7 +649,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill
@@ -573,7 +710,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -596,7 +733,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_two_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -619,7 +756,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_three_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4" />
@@ -642,7 +779,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4" />
@@ -695,7 +832,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="200"/>
@@ -711,25 +848,25 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear" />
+					id="Item.wm_gondor_spear_a" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld4" />
+					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
-					id="Item.fountain_guard_armor" />
+					id="Item.fountain_armor3" />
 				<equipment
 					slot="Head"
-					id="Item.fountain_guard_helmet" />
+					id="Item.fountain_helm13" />
 				<equipment
 					slot="Gloves"
-					id="Item.fountain_guard_bracers" />
+					id="Item.citidel_guard_bracers" />
 				<equipment
 					slot="Leg"
 					id="Item.fountain_guard_boots" />
 				<equipment
 					slot="Cape"
-					id="Item.fountain_guard_pauldrons" />
+					id="Item.fountain_shoulders3" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -743,7 +880,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill
@@ -804,7 +941,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -827,7 +964,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_two_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -850,7 +987,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_three_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4" />
@@ -873,7 +1010,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4" />
@@ -925,7 +1062,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="240"/>
@@ -944,7 +1081,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item2"
-					id="Item.gond_shld4" />
+					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -967,7 +1104,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -990,7 +1127,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item2"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1024,7 +1161,7 @@
 		culture="Culture.gondor">
 
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill
@@ -1086,7 +1223,77 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet4" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_three_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet4" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet4" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4" />
@@ -1123,7 +1330,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill
@@ -1188,7 +1395,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1214,7 +1421,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_two_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1240,7 +1447,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_three_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4" />
@@ -1292,7 +1499,7 @@
 					id="Item.vlandia_noble_sword_3_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4" />
@@ -1332,7 +1539,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="0"/>
@@ -1349,17 +1556,114 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_one_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_three_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+				<EquipmentSet
+						id="empire_troop_civilian_template_t2"
+						civilian="true" />
 				<equipment slot="Horse" id="Item.charger"/>
 				<equipment slot="HorseHarness" id="Item.light_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="gondor_squire"
@@ -1369,7 +1673,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="0"/>
@@ -1387,15 +1691,114 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_one_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
 			</EquipmentRoster>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
 			</EquipmentRoster>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_three_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
 			</EquipmentRoster>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_noble_sword_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
 			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+					id="empire_troop_civilian_template_t2"
+					civilian="true" />
+			<equipment slot="Horse" id="Item.charger"/>
+			<equipment slot="HorseHarness" id="Item.light_harness"/>
 		</Equipments>
 	</NPCCharacter>
 
@@ -1408,7 +1811,7 @@
 		
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="250"/>
@@ -1495,7 +1898,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="270"/>
@@ -1581,7 +1984,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="300"/>
@@ -1665,7 +2068,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="0"/>
@@ -1682,16 +2085,55 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_spear_a" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Body"
+					id="Item.fountain_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.fountain_helm1" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.fountain_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.fountain_shoulders1" />
 			</EquipmentRoster>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_spear_a" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Body"
+					id="Item.fountain_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.fountain_helm2" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.fountain_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.fountain_shoulders1" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>	
 	</NPCCharacter>
 	<NPCCharacter id="dol_amroth_veteran_knight"
 		default_group="Cavalry"
@@ -1700,7 +2142,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="0"/>
@@ -1717,14 +2159,50 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_spear_a" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Body"
+					id="Item.fountain_armor2" />
+				<equipment
+					slot="Head"
+					id="Item.fountain_helm20" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.fountain_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.fountain_shoulders2" />
 			</EquipmentRoster>
 			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_spear_a" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Body"
+					id="Item.fountain_armor2" />
+				<equipment
+					slot="Head"
+					id="Item.fountain_helm3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.fountain_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.fountain_shoulders2" />
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
@@ -1735,7 +2213,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="0"/>
@@ -1749,15 +2227,31 @@
 		</skills>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_spear_a" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Body"
+					id="Item.imrahil_body" />
+				<equipment
+					slot="Head"
+					id="Item.imrahil_helmet" />
+				<equipment
+					slot="Gloves"
+					id="Item.imrahil_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.imrahil_boot" />
+				<equipment
+					slot="Cape"
+					id="Item.imrahil_shoulder" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -1771,7 +2265,7 @@
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill
@@ -1806,13 +2300,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_axe_2_t4" />
+					id="Item.vlandia_sword_4_t4" />
 				<equipment
 					slot="Item2"
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_red" />
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor3" />
@@ -1837,7 +2331,7 @@
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill
@@ -1872,19 +2366,19 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_axe_2_t4" />
+					id="Item.vlandia_sword_4_t4" />
 				<equipment
 					slot="Item2"
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_red" />
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor2" />
 				<equipment
 					slot="Head"
-					id="Item.cts_gondor_citadel_helmet" />
+					id="Item.cts_gondor_citadel_helmet1" />
 				<equipment
 					slot="Leg"
 					id="Item.cts_gondor_boot" />
@@ -1903,7 +2397,7 @@
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
-			<face_key_template value="BodyProperty.villager_empire"/>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
 			<skill
@@ -1937,19 +2431,22 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_axe_2_t4" />
+					id="Item.vlandia_sword_4_t4" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_spear" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_red" />
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
 				<equipment
 					slot="Head"
 					id="Item.cts_gondor_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
 				<equipment
 					slot="Leg"
 					id="Item.cts_gondor_boot" />

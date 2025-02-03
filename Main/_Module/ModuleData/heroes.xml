@@ -1274,13 +1274,11 @@
 		id="lord_4_3_1"
 		father="Hero.lord_4_3"
 		mother="Hero.lord_4_3_3"
-		sister="Hero.lord_4_3_2"
 		faction="Faction.clan_vlandia_2" />
 	<Hero
 		id="lord_4_3_2"
 		father="Hero.lord_4_3"
 		mother="Hero.lord_4_3_3"
-		brother="Hero.lord_4_3_1"
 		faction="Faction.clan_vlandia_2" />
 	<Hero
 		id="lord_4_3_3"
