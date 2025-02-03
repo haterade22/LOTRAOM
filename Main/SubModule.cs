@@ -51,6 +51,7 @@ namespace LOTRAOM
                 campaignGameStarter.AddBehavior(new KeepHeroRaceCampaignBehavior());
 
                 // models
+                campaignGameStarter.AddModel(new LOTRAOMNotableSpawnModel(campaignGameStarter.GetExistingModel<NotableSpawnModel>()));
                 campaignGameStarter.AddModel(new LOTRAOMPartyWageModel(campaignGameStarter.GetExistingModel<PartyWageModel>()));
                 campaignGameStarter.AddModel(new LOTRAOMPartySizeModel(campaignGameStarter.GetExistingModel<PartySizeLimitModel>()));
             }
