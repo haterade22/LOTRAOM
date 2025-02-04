@@ -13,7 +13,49 @@
 				id="Item.anduril" />
 			<Equipment
 				slot="Item2"
-				id="Item.gond_shld4" />
+				id="Item.gond_shield_one_black" />
+			<Equipment
+				slot="Head"
+				id="Item.fountain_helm20" />
+			<Equipment
+				slot="Cape"
+				id="Item.fountain_shoulders3" />
+			<Equipment
+				slot="Body"
+				id="Item.fountain_armor2" />
+			<Equipment
+				slot="Gloves"
+				id="Item.citidel_guard_bracers" />
+			<Equipment
+				slot="Leg"
+				id="Item.citidel_guard_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_northern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.northern_ring_barding" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="gond_noble_template_boromir_a"
+		culture="Culture.gondor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.wm_gondor_spear" />
+			<Equipment
+				slot="Item1"
+				id="Item.wm_gondor_boromir_sword" />
+			<Equipment
+				slot="Item2"
+				id="Item.gond_shield_one_black" />
 			<Equipment
 				slot="Head"
 				id="Item.fountain_helm20" />

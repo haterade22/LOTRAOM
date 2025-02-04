@@ -6,4 +6,9 @@
   <PropertyGroup>
     <ActiveDebugProfile>Bannerlord</ActiveDebugProfile>
   </PropertyGroup>
+  <ItemGroup>
+    <None Update="_Module\ModuleData\spnpccharactertemplates.xslt">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
 </Project>

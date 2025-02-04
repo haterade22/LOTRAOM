@@ -3290,7 +3290,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gond_noble_template_boromir_a" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -3856,7 +3856,7 @@
 		is_female="false"
 		culture="Culture.gondor"
 		occupation="Lord"
-		default_group="Infantry"
+		default_group="Ranged"
 		face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" age="22" weight="0" build="0.5671"  key="0000000400000182107973B1A81103B300A189083A697600991871193FB17D5300990603093A2B0532430001330223550000000000001977000000004D246002"  />
@@ -3864,7 +3864,7 @@
 		<skills></skills>
 		<Traits>
 			<Trait
-				id="KnightFightingSkills"
+				id="HorseArcherFightingSkills"
 				value="17" />
 			<Trait
 				id="Commander"
@@ -3887,7 +3887,10 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item1" id="Item.anduril" />
+				<equipment slot="Item0" id="Item.woodland_longbow" />
+				<equipment slot="Item2" id="Item.wm_gondor_faramir_sword" />
+				<equipment slot="Item1" id="Item.gond_shield_one_black" />
+				<equipment slot="Item3" id="Item.bodkin_arrows_a" />
 				<equipment slot="Head" id="Item.ithilien_hood_masked" />
 				<equipment slot="Body" id="Item.faramir_armor" />
 				<equipment slot="Gloves" id="Item.faramir_bracers" />

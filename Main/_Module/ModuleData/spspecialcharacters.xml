@@ -9623,6 +9623,7 @@
 			name="{=!}Cautious Mordor merchant"
 			is_template="true"
 			voice="ironic"
+			race="uruk"
 			default_group="Infantry"
 			is_hero="false"
 			culture="Culture.mordor"
@@ -9656,6 +9657,7 @@
 		id="spc_notable_mordor_0b"
 		name="{=!}{FIRSTNAME} the Vintner"
 		is_template="true"
+		race="uruk"
 		voice="ironic"
 		default_group="Infantry"
 		is_hero="false"
@@ -9694,6 +9696,7 @@
 		name="{=!}Mordor merchant 3, ruthless"
 		voice="curt"
 		is_template="true"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="false"
 		culture="Culture.mordor"
@@ -9726,6 +9729,7 @@
 		name="{=!}Cold Mordor merchant"
 		voice="curt"
 		is_template="true"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="false"
 		culture="Culture.mordor"
@@ -9761,6 +9765,7 @@
 		name="{=!}{FIRSTNAME} the Saltpanner"
 		voice="softspoken"
 		is_template="true"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="false"
 		culture="Culture.mordor"
@@ -9793,6 +9798,7 @@
 		name="{=!}Mordor merchant 6, cautious"
 		voice="softspoken"
 		is_template="true"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="false"
 		culture="Culture.mordor"
@@ -9829,6 +9835,7 @@
 		name="{=!}Mordor merchant 7, selfmade"
 		voice="ironic"
 		is_template="true"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="false"
 		culture="Culture.mordor"
@@ -9858,6 +9865,7 @@
 		name="{=!}Mordor merchant 8, jocular"
 		voice="ironic"
 		is_template="true"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="false"
 		culture="Culture.mordor"
@@ -9890,6 +9898,7 @@
 		name="{=!}Mordor merchant 9, heiress"
 		voice="curt"
 		is_template="true"
+		race="uruk"
 		is_female="true"
 		default_group="Infantry"
 		is_hero="false"
@@ -9923,6 +9932,7 @@
 		name="{=!}Mordor merchant 10, devious"
 		voice="ironic"
 		is_template="true"
+		race="uruk"
 		is_female="true"
 		default_group="Infantry"
 		is_hero="false"
@@ -9961,6 +9971,7 @@
 		id="spc_notable_mordor_5"
 		name="{=!}Messianic Mordor preacher"
 		voice="earnest"
+		race="uruk"
 		is_template="true"
 		default_group="Infantry"
 		is_hero="false"
@@ -9997,6 +10008,7 @@
 		name="{=!}Puritan Mordor preacher"
 		voice="curt"
 		is_template="true"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="false"
 		culture="Culture.mordor"
@@ -10033,6 +10045,7 @@
 		name="{=!}Female Mordor mystic"
 		voice="earnest"
 		is_template="true"
+		race="uruk"
 		default_group="Infantry"
 		is_female="true"
 		culture="Culture.mordor"
@@ -10067,6 +10080,7 @@
 		name="{=!}Mordor gruff labor leader"
 		voice="curt"
 		is_template="true"
+		race="uruk"
 		default_group="Infantry"
 		is_female="false"
 		culture="Culture.mordor"
@@ -10098,6 +10112,7 @@
 		name="{=!}Mordor outgoing labor leader"
 		voice="earnest"
 		is_template="true"
+		race="uruk"
 		default_group="Infantry"
 		is_female="false"
 		culture="Culture.mordor"
@@ -10130,6 +10145,7 @@
 		id="spc_notable_mordor_gl1"
 		name="{=!}Protective Mordor male gang leader"
 		voice="softspoken"
+		race="uruk"
 		is_template="true"
 		default_group="Infantry"
 		is_hero="false"
@@ -10167,6 +10183,7 @@
 		id="spc_notable_mordor_10"
 		name="{=!}Ironic Mordor gang leader"
 		voice="ironic"
+		race="uruk"
 		is_template="true"
 		default_group="Infantry"
 		is_hero="false"
@@ -10204,6 +10221,7 @@
 		id="spc_notable_mordor_11"
 		name="{=!}Intimidating male Mordor gang leader"
 		voice="curt"
+		race="uruk"
 		is_template="true"
 		default_group="Infantry"
 		is_hero="false"
@@ -10242,6 +10260,7 @@
 		name="{=!}Bestial male Mordor gang leader"
 		voice="curt"
 		is_template="true"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="false"
 		culture="Culture.mordor"
@@ -10279,6 +10298,7 @@
 		name="{=!}Female Mordor gang leader"
 		voice="ironic"
 		is_template="true"
+		race="uruk"
 		is_female="true"
 		culture="Culture.mordor"
 		occupation="GangLeader"
@@ -10313,6 +10333,7 @@
 		voice="softspoken"
 		is_template="true"
 		is_female="true"
+		race="uruk"
 		culture="Culture.mordor"
 		occupation="GangLeader"
 		default_group="Infantry">
@@ -10348,6 +10369,7 @@
 		name="{=!}Empire gruff rural notable"
 		voice="curt"
 		is_template="true"
+		race="uruk"
 		default_group="Infantry"
 		culture="Culture.mordor"
 		occupation="RuralNotable">
@@ -10384,6 +10406,7 @@
 		id="spc_notable_mordor_22"
 		name="{=!}Empire rural notable agreeable"
 		voice="softspoken"
+		race="uruk"
 		is_template="true"
 		default_group="Infantry"
 		culture="Culture.mordor"
@@ -10421,6 +10444,7 @@
 		name="{=!}empire rebellious headman"
 		voice="earnest"
 		is_template="true"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="false"
 		culture="Culture.mordor"
@@ -10455,6 +10479,7 @@
 		name="{=!}empire conservative headman"
 		voice="curt"
 		is_template="true"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="false"
 		culture="Culture.mordor"
@@ -10488,6 +10513,7 @@
 		id="spc_mordor_headman_3"
 		name="{=!}Mordor devious headman"
 		voice="softspoken"
+		race="uruk"
 		is_template="true"
 		default_group="Infantry"
 		is_hero="false"
@@ -10528,6 +10554,7 @@
 		voice="curt"
 		age="29"
 		default_group="Infantry"
+		race="uruk"
 		is_template="true"
 		is_hero="false"
 		culture="Culture.mordor"
@@ -10564,6 +10591,7 @@
 		id="spc_wanderer_mordor_1"
 		name="{=xTQPfmS9}{FIRSTNAME} the Bull"
 		voice="earnest"
+		race="uruk"
 		age="29"
 		is_template="true"
 		default_group="Infantry"
@@ -10606,6 +10634,7 @@
 		name="{=Ivx4uJVp}{FIRSTNAME} the Silent"
 		voice="softspoken"
 		age="26"
+		race="uruk"
 		default_group="Infantry"
 		is_template="true"
 		is_hero="false"
@@ -10647,6 +10676,7 @@
 		name="{=1OZBZZCi}{FIRSTNAME} the Boar"
 		voice="ironic"
 		age="40"
+		race="uruk"
 		default_group="Infantry"
 		is_template="true"
 		is_hero="false"
@@ -10689,6 +10719,7 @@
 		name="{=t9e34kgH}{FIRSTNAME} the Robber"
 		voice="ironic"
 		age="22"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="false"
 		is_template="true"
@@ -10730,6 +10761,7 @@
 		name="{=pZSAdyC0}{FIRSTNAME} the Butcher"
 		voice="curt"
 		age="30"
+		race="uruk"
 		default_group="Infantry"
 		is_template="true"
 		is_hero="false"
@@ -10770,6 +10802,7 @@
 		id="spc_wanderer_mordor_6"
 		name="{=OArAImbM}{FIRSTNAME} of the Hills"
 		voice="curt"
+		race="uruk"
 		age="22"
 		default_group="Infantry"
 		is_template="true"
@@ -10814,6 +10847,7 @@
 		voice="ironic"
 		age="24"
 		is_template="true"
+		race="uruk"
 		default_group="Infantry"
 		is_female="true"
 		is_hero="false"
@@ -10853,6 +10887,7 @@
 		voice="curt"
 		age="23"
 		default_group="Infantry"
+		race="uruk"
 		is_template="true"
 		is_female="true"
 		is_hero="false"
@@ -10896,13 +10931,14 @@
 		default_group="Infantry"
 		is_template="true"
 		is_female="true"
+		race="uruk"
 		is_hero="false"
 		culture="Culture.mordor"
 		occupation="Wanderer"
 		skill_template="SkillSet.spc_wanderer_empire_9_skills">
 		<face>
 			<face_key_template
-				value="BodyProperty.townswoman_empire" />
+				value="BodyProperty.townswoman_mordor" />
 		</face>
 		<!--<Hero id="spc_wanderer_mordor_9" faction="Kingdom.mordor" />-->
 		<Traits>
@@ -10936,13 +10972,14 @@
 		is_template="true"
 		age="31"
 		default_group="Infantry"
+		race="uruk"
 		is_hero="false"
 		culture="Culture.mordor"
 		occupation="Wanderer"
 		skill_template="SkillSet.spc_wanderer_empire_10_skills">
 		<face>
 			<face_key_template
-				value="BodyProperty.fighter_empire" />
+				value="BodyProperty.fighter_mordor" />
 		</face>
 		<!--<Hero id="spc_wanderer_mordor_10" faction="Kingdom.mordor" is_template="true" />-->
 		<Traits>
@@ -10979,6 +11016,7 @@
 		name="{=e84pvBYI}{FIRSTNAME} the Dispossessed"
 		voice="earnest"
 		age="28"
+		race="uruk"
 		default_group="Infantry"
 		is_template="true"
 		is_female="true"
@@ -11016,6 +11054,7 @@
 	<NPCCharacter id="caravan_master_mordor"
 				  default_group="Infantry"
 				  level="26"
+				  race="uruk"
 				  name="Mordor Caravan Master"
 				  occupation="CaravanGuard"
 				  culture="Culture.mordor"
@@ -11094,6 +11133,7 @@
 	<!-- ARMED TRADER ############################################################################################ -->
 	<NPCCharacter id="armed_trader_mordor"
 				  default_group="Ranged"
+				  race="uruk"
 				  level="16"
 				  name="Mordor Armed Trader"
 				  occupation="CaravanGuard"
@@ -11208,6 +11248,7 @@
 	<!-- CARAVAN GUARD ############################################################################################ -->
 	<NPCCharacter id="caravan_guard_mordor"
 				  default_group="Cavalry"
+				  race="uruk"
 				  level="21"
 				  name="Mordor Caravan Guard"
 				  upgrade_requires="ItemCategory.horse"
@@ -11345,6 +11386,7 @@
 	</NPCCharacter>
 	<!-- VER CARAVAN GUARD ############################################################################################ -->
 	<NPCCharacter id="veteran_caravan_guard_mordor"
+				  race="uruk"
 				  default_group="Cavalry"
 				  level="26"
 				  name="Mordor Veteran Caravan Guard"
@@ -11485,6 +11527,7 @@
 	<!-- culture defaulted to aesari?... -->
 	<NPCCharacter id="Mordor_duel_preset"
 				  default_group="Infantry"
+				  race="uruk"
 				  level="1"
 				  occupation="Townsfolk"
 				  culture="Culture.mordor"
@@ -11565,6 +11608,7 @@
 				  default_group="Infantry"
 				  level="4"
 				  culture="Culture.mordor"
+				  race="uruk"
 				  occupation="PrisonGuard"
 				  name="{=XgjXfmM1}Prison Guard"
 				  skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
@@ -11614,12 +11658,13 @@
 				  default_group="Infantry"
 				  level="4"
 				  occupation="Soldier"
+				  race="uruk"
 				  culture="Culture.mordor"
 				  name="{=guardnoun}Guard"
 				  skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
 				  is_hidden_encyclopedia="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia" />
+			<face_key_template value="BodyProperty.fighter_mordor" />
 		</face>
 		<skills>
 			<skill id="OneHanded"
@@ -11674,10 +11719,11 @@
 				  is_hero="false"
 				  occupation="Blacksmith"
 				  culture="Culture.mordor"
+				  race="uruk"
 				  name="{=bNnQt4jN}Blacksmith"
 				  skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_vlandia" />
+			<face_key_template value="BodyProperty.villager_mordor" />
 		</face>
 		<skills></skills>
 		<Equipments>
@@ -11725,6 +11771,7 @@
 				  default_group="Infantry"
 				  is_hero="false"
 				  occupation="Weaponsmith"
+				  race="uruk"
 				  culture="Culture.mordor"
 				  name="{=UaN2lfwi}Weaponsmith"
 				  skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
@@ -11772,6 +11819,7 @@
 	<NPCCharacter id="townswoman_mordor"
 				  default_group="Infantry"
 				  is_female="true"
+				  race="uruk"
 				  level="1"
 				  name="Townswoman"
 				  occupation="Townsfolk"
@@ -11886,6 +11934,7 @@
 	<!-- TW INFANT ############################################################################################ -->
 	<NPCCharacter id="townswoman_infant_mordor"
 				  name="{=9Di0NfG2}Infant"
+				  race="uruk"
 				  age="6"
 				  is_female="true"
 				  default_group="Infantry"
@@ -11909,6 +11958,7 @@
 	<!-- TW CHILD ############################################################################################ -->
 	<NPCCharacter id="townswoman_child_mordor"
 				  name="{=pOCOS8um}Child"
+				  race="uruk"
 				  age="6"
 				  is_female="true"
 				  default_group="Infantry"
@@ -11944,6 +11994,7 @@
 	<!-- TW TEENAGER ############################################################################################ -->
 	<NPCCharacter id="townswoman_teenager_mordor"
 				  name="{=o077j2j5}Teenager"
+				  race="uruk"
 				  age="14"
 				  is_female="true"
 				  default_group="Infantry"
@@ -11983,12 +12034,13 @@
 	<!-- TOWNSMAN ############################################################################################ -->
 	<NPCCharacter id="townsman_mordor"
 				  default_group="Infantry"
+				  race="uruk"
 				  name="{=muu5cofb}Townsman"
 				  occupation="Townsfolk"
 				  culture="Culture.mordor"
 				  skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
-			<face_key_template value="BodyProperty.villager_vlandia" />
+			<face_key_template value="BodyProperty.villager_mordor" />
 		</face>
 		<skills></skills>
 		<Equipments>
@@ -12122,6 +12174,7 @@
 	</NPCCharacter>
 	<!-- TM INFANT ############################################################################################ -->
 	<NPCCharacter id="townsman_infant_mordor"
+				  race="uruk"
 				  name="{=9Di0NfG2}Infant"
 				  age="3"
 				  is_female="false"
@@ -12145,6 +12198,7 @@
 	</NPCCharacter>
 	<!-- TM CHILD ############################################################################################ -->
 	<NPCCharacter id="townsman_child_mordor"
+				  race="uruk"
 				  name="{=pOCOS8um}Child"
 				  age="6"
 				  is_female="false"
@@ -12180,6 +12234,7 @@
 	</NPCCharacter>
 	<!-- TM TEENAGER ############################################################################################ -->
 	<NPCCharacter id="townsman_teenager_mordor"
+				  race="uruk"
 				  name="{=o077j2j5}Teenager"
 				  age="14"
 				  is_female="false"
@@ -12215,6 +12270,7 @@
 	</NPCCharacter>
 	<!-- VILLAGE WOMAN ############################################################################################ -->
 	<NPCCharacter id="village_woman_mordor"
+				  race="uruk"
 				  default_group="Infantry"
 				  is_female="true"
 				  level="1"
@@ -12321,6 +12377,7 @@
 	</NPCCharacter>
 	<!-- VILLAGER CHILD ############################################################################################ -->
 	<NPCCharacter id="villager_child_mordor"
+				  race="uruk"
 				  name="{=pOCOS8um}Child"
 				  age="6"
 				  is_female="false"
@@ -12350,6 +12407,7 @@
 	</NPCCharacter>
 	<!-- VILLAGER TEENAGER ############################################################################################ -->
 	<NPCCharacter id="villager_teenager_mordor"
+				  race="uruk"
 				  name="{=o077j2j5}Teenager"
 				  age="14"
 				  is_female="false"
@@ -12385,6 +12443,7 @@
 	</NPCCharacter>
 	<!-- VILLAGE WOMAN CHILD ############################################################################################ -->
 	<NPCCharacter id="village_woman_child_mordor"
+				  race="uruk"
 				  name="{=pOCOS8um}Child"
 				  age="6"
 				  is_female="true"
@@ -12414,6 +12473,7 @@
 	</NPCCharacter>
 	<!-- VILLAGE WOMAN TEENAGER ############################################################################################ -->
 	<NPCCharacter id="village_woman_teenager_mordor"
+				  race="uruk"
 				  name="{=o077j2j5}Teenager"
 				  age="14"
 				  is_female="true"
@@ -12449,6 +12509,7 @@
 	</NPCCharacter>
 	<!-- RANSOM BROKER ############################################################################################ -->
 	<NPCCharacter id="ransom_broker_mordor"
+				  race="uruk"
 				  default_group="Infantry"
 				  is_hero="false"
 				  name="{=W2WXkiAh}Ransom Broker"
@@ -12497,6 +12558,7 @@
 	</NPCCharacter>
 	<!-- GANGLEADER BODYGUARD ############################################################################################ -->
 	<NPCCharacter id="gangleader_bodyguard_mordor"
+				  race="uruk"
 				  default_group="Infantry"
 				  name="{=LNNXiPyV}Gang Leader Bodyguard"
 				  occupation="Townsfolk"
@@ -12632,6 +12694,7 @@
 	</NPCCharacter>
 	<!-- MERCHANT NOTARY ############################################################################################ -->
 	<NPCCharacter id="merchant_notary_mordor"
+				  race="uruk"
 				  default_group="Infantry"
 				  name="{=reoVAtrE}Merchant Notary"
 				  occupation="Townsfolk"
@@ -12773,6 +12836,7 @@
 	</NPCCharacter>
 	<!-- ARTISAN NOTARY ############################################################################################ -->
 	<NPCCharacter id="artisan_notary_mordor"
+				  race="uruk"
 				  default_group="Infantry"
 				  name="{=ECxiXTbF}Artisan Notary"
 				  occupation="Townsfolk"
@@ -12914,6 +12978,7 @@
 	</NPCCharacter>
 	<!-- PREACHER NOTARY ############################################################################################ -->
 	<NPCCharacter id="preacher_notary_mordor"
+				  race="uruk"
 				  default_group="Infantry"
 				  name="{=bLMGbLF8}Preacher Notary"
 				  occupation="Townsfolk"
@@ -13055,6 +13120,7 @@
 	</NPCCharacter>
 	<!-- RURAL NOTARY ############################################################################################ -->
 	<NPCCharacter id="rural_notable_notary_mordor"
+				  race="uruk"
 				  default_group="Infantry"
 				  name="{=AlmaRAib}Rural Notable Notary"
 				  occupation="Townsfolk"
@@ -13197,6 +13263,7 @@
 	<!-- SHOP WORKER ############################################################################################ -->
 	<NPCCharacter id="shop_worker_mordor"
 				  default_group="Infantry"
+				  race="uruk"
 				  name="{=275LD0Gh}Shop Worker"
 				  occupation="ShopWorker"
 				  culture="Culture.mordor"
@@ -13252,6 +13319,7 @@
 	<!-- TAVERN KEEPER ############################################################################################ -->
 	<NPCCharacter id="tavernkeeper_mordor"
 				  default_group="Infantry"
+				  race="uruk"
 				  is_hero="false"
 				  name="{=CsjtWt1g}Tavern Keeper"
 				  occupation="Tavernkeeper"
@@ -13292,6 +13360,7 @@
 	<!-- GAME HOST ############################################################################################ -->
 	<NPCCharacter id="taverngamehost_mordor"
 				  default_group="Infantry"
+				  race="uruk"
 				  is_hero="false"
 				  name="{=twCIejxn}Game Host"
 				  occupation="TavernGameHost"
@@ -13336,6 +13405,7 @@
 	<!-- MUSICIAN ############################################################################################ -->
 	<NPCCharacter id="musician_mordor"
 				  default_group="Infantry"
+				  race="uruk"
 				  is_hero="false"
 				  name="{=zfCoeglY}Musician"
 				  occupation="Musician"
@@ -13383,6 +13453,7 @@
 	</NPCCharacter>
 	<!-- TAVERN WENCH ############################################################################################ -->
 	<NPCCharacter id="tavern_wench_mordor"
+				  race="uruk"
 				  default_group="Infantry"
 				  name="{=z6RMWTaA}Tavern Maid"
 				  is_female="true"
@@ -13444,6 +13515,7 @@
 	</NPCCharacter>
 	<!-- ARMORER ############################################################################################ -->
 	<NPCCharacter id="armorer_mordor"
+				  race="uruk"
 				  default_group="Infantry"
 				  is_hero="false"
 				  occupation="Armorer"

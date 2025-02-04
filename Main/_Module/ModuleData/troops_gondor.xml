@@ -268,7 +268,7 @@
 					id="Item.barbed_arrows" />
 				<equipment
 					slot="Item3"
-					id="Item.empire_sword_1_t2" />
+					id="Item.wm_gondor_sword_a02" />
 				<equipment
 					slot="Body"
 					id="Item.gondor_armor" />
@@ -340,7 +340,7 @@
 					id="Item.barbed_arrows" />
 				<equipment
 					slot="Item3"
-					id="Item.empire_sword_1_t2" />
+					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Body"
 					id="Item.gondor_armor" />
@@ -408,7 +408,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.bastard_sword_t2" />
+					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_one_black" />
@@ -431,7 +431,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.bastard_sword_t2" />
+					id="Item.wm_gondor_sword_a10" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_black" />
@@ -454,7 +454,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.bastard_sword_t2" />
+					id="Item.wm_gondor_sword_a08" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_three_black" />
@@ -477,7 +477,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.bastard_sword_t2" />
+					id="Item.wm_gondor_sword_a03" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_four_black" />
@@ -853,6 +853,9 @@
 					slot="Item1"
 					id="Item.gond_shield_four_black" />
 				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a07" />
+				<equipment
 					slot="Body"
 					id="Item.fountain_armor3" />
 				<equipment
@@ -915,7 +918,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a06" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shld2" />
@@ -938,7 +941,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a07" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_one_black" />
@@ -961,7 +964,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a04" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_black" />
@@ -984,7 +987,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_three_black" />
@@ -1007,7 +1010,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a01" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_four_black" />
@@ -1030,7 +1033,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a09" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shld2" />
@@ -1078,7 +1081,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item1"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a06" />
 				<equipment
 					slot="Item2"
 					id="Item.gond_shield_four_black" />
@@ -1101,7 +1104,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_four_black" />
@@ -1124,7 +1127,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item1"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a03" />
 				<equipment
 					slot="Item2"
 					id="Item.gond_shield_four_black" />
@@ -1196,7 +1199,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shld2" />
@@ -1220,7 +1223,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a10" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_one_black" />
@@ -1243,7 +1246,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a06" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_three_black" />
@@ -1267,7 +1270,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a02" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_four_black" />
@@ -1290,7 +1293,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a04" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_black" />
@@ -1366,7 +1369,7 @@
 					id="Item.western_spear_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a10" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shld2" />
@@ -1392,7 +1395,7 @@
 					id="Item.western_spear_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a01" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_one_black" />
@@ -1418,7 +1421,7 @@
 					id="Item.western_spear_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a07" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_black" />
@@ -1444,7 +1447,7 @@
 					id="Item.western_spear_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a08" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_three_black" />
@@ -1470,7 +1473,7 @@
 					id="Item.western_spear_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a09" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shld4" />
@@ -1496,7 +1499,7 @@
 					id="Item.western_spear_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a08" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_four_black" />
@@ -1561,7 +1564,7 @@
 					id="Item.western_spear_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a10" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_one_black" />
@@ -1587,7 +1590,7 @@
 					id="Item.western_spear_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_black" />
@@ -1613,7 +1616,7 @@
 					id="Item.western_spear_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a01" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_three_black" />
@@ -1639,7 +1642,7 @@
 					id="Item.western_spear_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a02" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_four_black" />
@@ -1696,7 +1699,7 @@
 					id="Item.western_spear_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_one_black" />
@@ -1722,7 +1725,7 @@
 					id="Item.western_spear_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a10" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_black" />
@@ -1748,7 +1751,7 @@
 					id="Item.western_spear_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a03" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_three_black" />
@@ -1774,7 +1777,7 @@
 					id="Item.western_spear_4_t4" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_noble_sword_3_t5" />
+					id="Item.wm_gondor_sword_a07" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_four_black" />
@@ -1868,7 +1871,7 @@
 					id="Item.bodkin_arrows_a" />
 				<equipment
 					slot="Item3"
-					id="Item.battania_2hsword_5_t4" />
+					id="Item.wm_gondor_sword_a10" />
 				<equipment
 					slot="Body"
 					id="Item.ithilien_jerkin_short" />
@@ -1955,7 +1958,7 @@
 					id="Item.bodkin_arrows_a" />
 				<equipment
 					slot="Item3"
-					id="Item.battania_2hsword_5_t4" />
+					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Body"
 					id="Item.ithilien_jerkin_long" />
@@ -2038,7 +2041,7 @@
 					id="Item.bodkin_arrows_a" />
 				<equipment
 					slot="Item3"
-					id="Item.battania_2hsword_5_t4" />
+					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Body"
 					id="Item.faramir_armor" />
@@ -2071,14 +2074,14 @@
 			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="110"/>
+			<skill id="Polearm" value="110"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Throwing" value="50"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.dol_amroth_veteran_knight"/>
@@ -2091,6 +2094,9 @@
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Body"
 					id="Item.fountain_armor1" />
@@ -2114,6 +2120,9 @@
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a10" />
 				<equipment
 					slot="Body"
 					id="Item.fountain_armor1" />
@@ -2145,14 +2154,14 @@
 			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="200"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Throwing" value="50"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.knight_of_the_silver_swan"/>
@@ -2165,6 +2174,9 @@
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Body"
 					id="Item.fountain_armor2" />
@@ -2188,6 +2200,9 @@
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a10" />
 				<equipment
 					slot="Body"
 					id="Item.fountain_armor2" />
@@ -2216,14 +2231,14 @@
 			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="200"/>
+			<skill id="Riding" value="250"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="230"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Throwing" value="50"/>
 		</skills>
 		<Equipments>
 			<EquipmentRoster>
@@ -2233,6 +2248,9 @@
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a10" />
 				<equipment
 					slot="Body"
 					id="Item.imrahil_body" />
@@ -2300,7 +2318,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_sword_4_t4" />
+					id="Item.wm_gondor_sword_a06" />
 				<equipment
 					slot="Item2"
 					id="Item.gond_spear2" />
@@ -2366,7 +2384,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_sword_4_t4" />
+					id="Item.wm_gondor_sword_a10" />
 				<equipment
 					slot="Item2"
 					id="Item.gond_spear2" />
@@ -2431,7 +2449,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_sword_4_t4" />
+					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_spear" />
