@@ -2862,7 +2862,7 @@
 	</NPCCharacter>
 
 	<NPCCharacter id="wulf_hearthguard"
-		default_group="Cavalry"
+		default_group="Infantry"
 		level="21"
 		name="{=wulf_hearthguard}Wulfing Hearthguard"
 		occupation="Soldier"
@@ -2994,7 +2994,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="wulf_huscarls"
-		default_group="Cavalry"
+		default_group="Infantry"
 		level="26"
 		name="{=wulf_huscarls}Wulfing Huscarls"
 		occupation="Soldier"

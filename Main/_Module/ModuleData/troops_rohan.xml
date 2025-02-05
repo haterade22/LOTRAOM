@@ -3652,7 +3652,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="rohan_veteran_horse_archer"
-		default_group="Cavalry"
+		default_group="HorseArcher"
 		level="26"
 		name="{=Rohan Veteran Horse Archer}Rohan Veteran Horse Archer"
 		occupation="Soldier"
@@ -4185,7 +4185,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="eorlinga_horse_archer"
-		default_group="Cavalry"
+		default_group="HorseArcher"
 		level="31"
 		name="{=Rohan Eorlinga Horse Archer}Eorlingas Horse Archer"
 		occupation="Soldier"

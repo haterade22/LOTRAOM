@@ -217,7 +217,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="gondor_bowman"
-		default_group="Infantry"
+		default_group="Ranged"
 		level="16"
 		name="{=Gondor Bowman}Gondor Bowman"
 		occupation="Soldier"
@@ -1535,7 +1535,7 @@
 
 	<!--Gondor Noble Line-->
 	<NPCCharacter id="gondor_page"
-		default_group="Infantry"
+		default_group="Cavalry"
 		level="11"
 		name="{=Gondor_Page}Gondor Page"
 		is_basic_troop="true"
@@ -1545,14 +1545,30 @@
 			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+				<skill
+					id="Athletics"
+					value="30" />
+				<skill
+					id="Riding"
+					value="40" />
+				<skill
+					id="OneHanded"
+					value="45" />
+				<skill
+					id="TwoHanded"
+					value="10" />
+				<skill
+					id="Polearm"
+					value="40" />
+				<skill
+					id="Bow"
+					value="10" />
+				<skill
+					id="Crossbow"
+					value="10" />
+				<skill
+					id="Throwing"
+					value="10" />
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.gondor_squire"/>
@@ -1670,7 +1686,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="gondor_squire"
-		default_group="Infantry"
+		default_group="Cavalry"
 		level="16"
 		name="{=Gondor Veteran Squire}Gondor Veteran Squire"
 		occupation="Soldier"
@@ -1678,15 +1694,31 @@
 		<face>
 			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+		<skills>
+			<skill
+				id="Athletics"
+				value="30" />
+			<skill
+				id="Riding"
+				value="70" />
+			<skill
+				id="OneHanded"
+				value="120" />
+			<skill
+				id="TwoHanded"
+				value="30" />
+			<skill
+				id="Polearm"
+				value="80" />
+			<skill
+				id="Bow"
+				value="10" />
+			<skill
+				id="Crossbow"
+				value="10" />
+			<skill
+				id="Throwing"
+				value="10" />
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.ranger_of_ithilien"/>
@@ -2222,7 +2254,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="knight_of_the_silver_swan"
-		default_group="Infantry"
+		default_group="Cavalry"
 		level="31"
 		name="{=Knight of the Silver Swan}Knight of the Silver Swan"
 		occupation="Soldier"
