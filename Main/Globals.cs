@@ -8,9 +8,6 @@ namespace LOTRAOM
 {
     public static class Globals
     {
-        public static bool IsMordor(string culture)
-        {
-            return culture == "mordor";
-        }
+        public static float MountedTroopWageMultiplier => 0.3f;
     }
 }

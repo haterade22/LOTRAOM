@@ -19,7 +19,7 @@ namespace LOTRAOM.Models
         {
             defaultPartySizeModel = defaultModel;
         }
-        private float MordorPartySizeMultiplier => CultureFeatsGlobals.MordorPartySizeMultiplier;
+        private float MordorPartySizeMultiplier => LOTRAOMCultureFeats.Instance.mordorPartySizeFeat.EffectBonus;
         public override int GetAssumedPartySizeForLordParty(Hero leaderHero, IFaction partyMapFaction, Clan actualClan)
         {
             int baseValue = defaultPartySizeModel.GetAssumedPartySizeForLordParty(leaderHero, partyMapFaction, actualClan);
@@ -29,13 +29,13 @@ namespace LOTRAOM.Models
         private int AddSizeModifiers(Clan clan, int baseValue)
         {
             double value = baseValue;
-            if (Globals.IsMordor(clan.Culture.StringId)) value *= MordorPartySizeMultiplier;
+            if (clan.Culture.HasFeat(LOTRAOMCultureFeats.Instance.mordorPartySizeFeat)) value *= MordorPartySizeMultiplier;
             return (int)value;
         }
 
         private void AddSizeModifiers(PartyBase party, ref ExplainedNumber size)
         {
-            if (Globals.IsMordor(party.Culture.StringId)) size.AddFactor(MordorPartySizeMultiplier, new("Mordor party size bonus."));
+            if (party.Culture.HasFeat(LOTRAOMCultureFeats.Instance.mordorPartySizeFeat)) size.AddFactor(MordorPartySizeMultiplier, new("Mordor party size bonus."));
         }
         public override ExplainedNumber GetPartyMemberSizeLimit(PartyBase party, bool includeDescriptions = false)
         {

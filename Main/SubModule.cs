@@ -54,6 +54,10 @@ namespace LOTRAOM
                 campaignGameStarter.AddModel(new LOTRAOMNotableSpawnModel(campaignGameStarter.GetExistingModel<NotableSpawnModel>()));
                 campaignGameStarter.AddModel(new LOTRAOMPartyWageModel(campaignGameStarter.GetExistingModel<PartyWageModel>()));
                 campaignGameStarter.AddModel(new LOTRAOMPartySizeModel(campaignGameStarter.GetExistingModel<PartySizeLimitModel>()));
+                campaignGameStarter.AddModel(new LOTRAOMVillageProductionCalculatorModel(campaignGameStarter.GetExistingModel<VillageProductionCalculatorModel>()));
+                campaignGameStarter.AddModel(new LOTRAOMBuildingConstructionModel(campaignGameStarter.GetExistingModel<BuildingConstructionModel>()));
+                campaignGameStarter.AddModel(new LOTRAOMArmyManagementCalculationModel(campaignGameStarter.GetExistingModel<ArmyManagementCalculationModel>()));
+                campaignGameStarter.AddModel(new LOTRAOMSettlementMilitiaModel(campaignGameStarter.GetExistingModel<SettlementMilitiaModel>()));
             }
         }
 
