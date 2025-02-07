@@ -95,7 +95,7 @@ namespace LOTRAOM
             base.AddAgeSelectionMenu(characterCreation);
             //AddCultureStartMenu(characterCreation);
 
-            CultureFeatsCampaignStartText culturalFeats = new();
+            LOTRAOMCultureFeats culturalFeats = LOTRAOMCultureFeats.Instance;
 
             foreach (CultureObject cultureObject in MBObjectManager.Instance.GetObjectTypeList<CultureObject>())
             {
@@ -114,7 +114,14 @@ namespace LOTRAOM
                 switch (cultureId) //Will have to investigate if these are actually work
                 {
                     case "vlandia": //Rohan
-                        cultureObject.CultureFeats.Add(culturalFeats.exampleFeat);
+                        cultureObject.CultureFeats.Add(culturalFeats.humanPlusMilitiaProduction);
+                        cultureObject.CultureFeats.Add(culturalFeats.rohanAnimalProductionBonus);
+                        cultureObject.CultureFeats.Add(culturalFeats.rohanNoExtraWageForMounted);
+                        cultureObject.CultureFeats.Add(culturalFeats.rohanSlowerBuildRate);
+                        cultureObject.CultureFeats.Add(culturalFeats.rohanMoreInfluenceToRecruitToArmy);
+                        cultureObject.CultureFeats.Remove(DefaultCulturalFeats.VlandianArmyInfluenceFeat);
+                        cultureObject.CultureFeats.Remove(DefaultCulturalFeats.VlandianCastleVillageProductionFeat);
+                        cultureObject.CultureFeats.Remove(DefaultCulturalFeats.VlandianRenownMercenaryFeat);
                         break;
                     case "sturgia": // Dale
                         cultureObject.CultureFeats.Add(culturalFeats.exampleFeat);
@@ -132,7 +139,13 @@ namespace LOTRAOM
                         cultureObject.CultureFeats.Add(culturalFeats.exampleFeat);
                         break;
                     case "gondor":
-                        cultureObject.CultureFeats.Add(culturalFeats.exampleFeat);
+                        cultureObject.CultureFeats.Add(culturalFeats.humanPlusMilitiaProduction);
+                        cultureObject.CultureFeats.Add(culturalFeats.gondorMoreInfluenceInArmy);
+                        cultureObject.CultureFeats.Add(culturalFeats.gondorReduceInfantryWages);
+                        cultureObject.CultureFeats.Add(culturalFeats.gondorReduceWagesInGarrisons);
+                        cultureObject.CultureFeats.Remove(DefaultCulturalFeats.EmpireArmyInfluenceFeat);
+                        cultureObject.CultureFeats.Remove(DefaultCulturalFeats.EmpireGarrisonWageFeat);
+                        cultureObject.CultureFeats.Remove(DefaultCulturalFeats.EmpireVillageHearthFeat);
                         break;
                     case "mordor":
                         cultureObject.CultureFeats.Remove(DefaultCulturalFeats.EmpireGarrisonWageFeat);

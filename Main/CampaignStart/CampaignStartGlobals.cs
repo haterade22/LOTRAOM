@@ -17,22 +17,22 @@ namespace LOTRAOM.CampaignStart
         public static Dictionary<string, string> StartingSettlement = new()
         {
             // if the mod keeps has multiple factions with same culture (like empire in vanilla) this code will have to be refactored
-             ["aserai"] = "town_EW1",
-             ["empire"] = "town_EW1",
-             ["khuzait"] = "town_EW1",
-             ["sturgia"] = "town_EW1",
+             ["aserai"] = "town_A1",
+             ["empire"] = "town_EN1",
+             ["khuzait"] = "town_K1",
+             ["sturgia"] = "town_S1",
              ["battania"] = "town_EW1",
-             ["vlandia"] = "town_EW1",
+             ["vlandia"] = "town_V1",
              ["gondor"] = "town_EW1",
              ["mordor"] = "town_ES1",
-             ["rivendell"] = "town_EW1",
-             ["mirkwood"] = "town_EW1",
-             ["lothlorien"] = "town_EW1",
-             ["erebor"] = "town_EW1",
-             ["umbar"] = "town_EW1",
-             ["dolguldur"] = "town_EW1",
-             ["isengard"] = "town_EW1",
-             ["gundabad"] = "town_EW1",
+             ["rivendell"] = "town_SWAN_RIVENDELL1",
+             ["mirkwood"] = "town_SWAN_MIRKWOOD1",
+             ["lothlorien"] = "town_SWAN_LOTHLORIEN1",
+             ["erebor"] = "town_SWAN_EREBOR1",
+             ["umbar"] = "town_SWAN_UMBAR1",
+             ["dolguldur"] = "town_SWAN_DOL_GOLDUR1",
+             ["isengard"] = "town_SWAN_ISENGARD1",
+             ["gundabad"] = "town_SWAN_GUNDABAD1",
         };
         internal class CCCultureData
         {
