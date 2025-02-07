@@ -60,7 +60,7 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="4"
-				max_value="36"
+				max_value="100"
 				troop="NPCCharacter.looter" />
 		</stacks>
 	</MBPartyTemplate>
@@ -69,15 +69,15 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="2"
-				max_value="18"
+				max_value="40"
 				troop="NPCCharacter.sea_raiders_bandit" />
 			<PartyTemplateStack
 				min_value="0"
-				max_value="6"
+				max_value="10"
 				troop="NPCCharacter.sea_raiders_raider" />
 			<PartyTemplateStack
 				min_value="0"
-				max_value="3"
+				max_value="15"
 				troop="NPCCharacter.sea_raiders_chief" />
 		</stacks>
 	</MBPartyTemplate>
