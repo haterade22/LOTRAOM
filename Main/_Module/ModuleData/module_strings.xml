@@ -199,16 +199,16 @@
 		text="{=keqS2dGa}???" />
 	<string
 		id="str_you_have_encountered_settlement_to_raid_with_resisting_on_peace"
-		text="{=1AcoIQVl}You have arrived at {SETTLEMENT} to raid it. Some of the residents have gathered to resist you. Raiding this village will cause a war with the {KINGDOM}." />
+		text="{=1AcoIQVl}You have arrived at {SETTLEMENT} to raid it. Some of the residents have gathered to resist you. Raiding this village will cause a war with {KINGDOM}." />
 	<string
 		id="str_you_have_encountered_settlement_to_force_supplies_with_resisting_on_peace"
-		text="{=OBXNbvkK}As you attempt to force the villagers to give you goods, some of the residents gather to resist you. Fighting them will cause a war with the {KINGDOM}." />
+		text="{=OBXNbvkK}As you attempt to force the villagers to give you goods, some of the residents gather to resist you. Fighting them will cause a war with {KINGDOM}." />
 	<string
 		id="str_you_have_encountered_settlement_to_force_volunteers_with_resisting_on_peace"
-		text="{=ySlVPZyF}As you attempt to force the notables to give you recruits, some of the residents gather to resist you. Fighting them will cause a war with the {KINGDOM}." />
+		text="{=ySlVPZyF}As you attempt to force the notables to give you recruits, some of the residents gather to resist you. Fighting them will cause a war with {KINGDOM}." />
 	<string
 		id="str_you_have_encountered_settlement_to_raid_no_resisting_on_peace"
-		text="{=ZxcnmaXi}You have arrived at {SETTLEMENT} to raid it. You do not meet any resistance. Raiding this village will cause a war with the {KINGDOM}." />
+		text="{=ZxcnmaXi}You have arrived at {SETTLEMENT} to raid it. You do not meet any resistance. Raiding this village will cause a war with {KINGDOM}." />
 	<string
 		id="str_you_have_encountered_settlement_to_raid_with_resisting_on_war"
 		text="{=aUNYlvbN}You have arrived at {SETTLEMENT} to raid it. Some of the residents have gathered to resist you." />
@@ -244,7 +244,7 @@
 		text="{=zxckitKe}You have sallied out to attack {PARTY}." />
 	<string
 		id="str_you_have_encountered_PARTY_on_peace"
-		text="{=trRLa9pi}You have encountered {PARTY}. Fighting them will cause a war with the {KINGDOM}." />
+		text="{=trRLa9pi}You have encountered {PARTY}. Fighting them will cause a war with {KINGDOM}." />
 	<string
 		id="str_you_have_encountered_PARTY_they_surrendered"
 		text="{=g7zo28KR}You have encountered {PARTY}. They have no chance against your overwhelming power, and they surrender." />
@@ -3236,16 +3236,16 @@
 		text="{=zCQaPTOK}Mercenary" />
 	<string
 		id="str_hero_rank_of_faction.0"
-		text="{=c6Ei8Fqh}Vassal of the {FACTION_INFORMAL_NAME}" />
+		text="{=c6Ei8Fqh}Vassal of {FACTION_INFORMAL_NAME}" />
 	<string
 		id="str_hero_rank_of_faction.1"
-		text="{=MUCmJaXQ}Ruler of the {FACTION_INFORMAL_NAME}" />
+		text="{=MUCmJaXQ}Ruler of {FACTION_INFORMAL_NAME}" />
 	<string
 		id="str_hero_rank_of_faction_nobleman"
-		text="{=8mBT44QK}Noble of the {FACTION_INFORMAL_NAME}" />
+		text="{=8mBT44QK}Noble of {FACTION_INFORMAL_NAME}" />
 	<string
 		id="str_hero_rank_of_faction_mercenary"
-		text="{=RJJ1Pbjk}Mercenary fighting for the {FACTION_INFORMAL_NAME}" />
+		text="{=RJJ1Pbjk}Mercenary fighting for {FACTION_INFORMAL_NAME}" />
 	<string
 		id="str_crafting"
 		text="{=smithingverb}Smithing" />

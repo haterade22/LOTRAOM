@@ -129,6 +129,99 @@
 	</EquipmentRoster>
 
 	<EquipmentRoster
+		id="rohan_captain_template_bat_a"
+		culture="Culture.vlandia">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_noble_sword_3_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.vlandia_lance_2_t4" />
+			<Equipment
+				slot="Item2"
+				id="Item.western_javelin_3_t4" />
+			<Equipment
+				slot="Item3"
+				id="Item.cts_rohan_shield1" />
+			<Equipment
+				slot="Head"
+				id="Item.cts_rohan_helmet_captain" />
+			<Equipment
+				slot="Cape"
+				id="Item.cts_rohan_captain_shoulder" />
+			<Equipment
+				slot="Body"
+				id="Item.cts_rohan_armor_captain" />
+			<Equipment
+				slot="Gloves"
+				id="Item.cts_rohan_captain_bracer" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_rohan_captain_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.chain_barding" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="rohan_captain_template_bat_b"
+		culture="Culture.vlandia">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_noble_sword_3_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.vlandia_lance_2_t4" />
+			<Equipment
+				slot="Item2"
+				id="Item.western_javelin_3_t4" />
+			<Equipment
+				slot="Item3"
+				id="Item.cts_rohan_shield1" />
+			<Equipment
+				slot="Head"
+				id="Item.cts_rohan_helmet_captain1" />
+			<Equipment
+				slot="Cape"
+				id="Item.cts_rohan_shoulder_captain1" />
+			<Equipment
+				slot="Body"
+				id="Item.cts_rohan_armor_captain1" />
+			<Equipment
+				slot="Gloves"
+				id="Item.cts_rohan_captain_bracers1" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_rohan_captain_boots1" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.chain_barding" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	
+	
+	
+	
+	<EquipmentRoster
 			id="witch_king_template"
 			culture="Culture.mordor">
 		<EquipmentSet

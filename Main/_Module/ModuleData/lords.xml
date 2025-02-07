@@ -14326,7 +14326,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_a" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -14367,7 +14367,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_b" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -14411,7 +14411,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_a" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -14672,7 +14672,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_b" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -14708,7 +14708,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_a" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -14838,7 +14838,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_b" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -14888,7 +14888,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_a" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15149,7 +15149,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_b" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15200,7 +15200,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_b" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16364,7 +16364,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_b" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16509,7 +16509,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_b" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16549,7 +16549,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_a" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16588,7 +16588,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_b" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16626,7 +16626,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_b" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16778,7 +16778,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_a" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16814,7 +16814,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_b" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16932,7 +16932,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_captain_template_bat_a" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
