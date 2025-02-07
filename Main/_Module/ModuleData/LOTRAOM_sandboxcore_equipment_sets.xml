@@ -39,7 +39,9 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true" />
+
 	</EquipmentRoster>
 
 	<EquipmentRoster
@@ -81,7 +83,9 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"
+			/>
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="rohan_noble_template_bat_a"
@@ -125,7 +129,9 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"
+			/>
 	</EquipmentRoster>
 
 	<EquipmentRoster
@@ -170,7 +176,9 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"
+			/>
 	</EquipmentRoster>
 
 	<EquipmentRoster
@@ -215,7 +223,9 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"
+			/>
 	</EquipmentRoster>
 	
 	
@@ -254,7 +264,9 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="true" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"
+			/>
 	</EquipmentRoster>
 
 	<EquipmentRoster
@@ -287,7 +299,8 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"/>
 	</EquipmentRoster>
 
 
@@ -321,7 +334,9 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"
+			/>
 	</EquipmentRoster>
 
 
@@ -355,7 +370,10 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"
+			
+			/>
 	</EquipmentRoster>
 
 	<EquipmentRoster
@@ -388,7 +406,9 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"
+			/>
 	</EquipmentRoster>
 
 	<EquipmentRoster
@@ -421,7 +441,9 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"
+			/>
 	</EquipmentRoster>
 
 	<EquipmentRoster
@@ -457,7 +479,9 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"
+			/>
 	</EquipmentRoster>
 
 	<EquipmentRoster
@@ -490,7 +514,9 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"
+			/>
 	</EquipmentRoster>
 
 
@@ -524,7 +550,9 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"
+			/>
 	</EquipmentRoster>
 	
 	<EquipmentRoster
@@ -557,7 +585,9 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"
+			/>
 	</EquipmentRoster>
 
 	<EquipmentRoster
@@ -590,7 +620,9 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"
+			/>
 	</EquipmentRoster>
 
 	<EquipmentRoster
@@ -623,7 +655,9 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="false" />
+			IsCivilianTemplate="true"
+			IsMediumTemplate="true"
+			/>
 	</EquipmentRoster>
 
 
