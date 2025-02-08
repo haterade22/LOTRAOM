@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
+	<!--gondor-->
+	<!--generic lord fighter battle equipment-->
 	<EquipmentRoster
-		id="gond_noble_template_bat_a"
-		culture="Culture.gondor">
+	id="gondor_bat_template_medium"
+	culture="Culture.gondor">
 		<EquipmentSet
 			civilian="false">
 			<Equipment
@@ -37,11 +39,64 @@
 				id="Item.northern_ring_barding" />
 		</EquipmentSet>
 		<Flags
-			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
 			IsMediumTemplate="true" />
+	</EquipmentRoster>
 
+	<!--generic lord fighter civillian equipment-->
+	<EquipmentRoster
+		id="gondor_civ_template_default"
+		culture="Culture.gondor">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsCombatantTemplate="true"
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic non-fighter lady civillian equipment-->
+	<EquipmentRoster
+	id="gondor_civ_template_lady"
+	culture="Culture.gondor">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsFemaleTemplate="true"
+			IsNobleTemplate="true"
+			IsNoncombatantTemplate="true" />
 	</EquipmentRoster>
 
 	<EquipmentRoster
@@ -84,12 +139,14 @@
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
 			IsCivilianTemplate="true"
-			IsMediumTemplate="true"
 			/>
 	</EquipmentRoster>
+
+	<!--rohan-->
+	<!--generic lord fighter battle equipment-->
 	<EquipmentRoster
-		id="rohan_noble_template_bat_a"
-		culture="Culture.vlandia">
+		id="rohan_bat_template_medium"
+		culture="Culture.rohan">
 		<EquipmentSet
 			civilian="false">
 			<Equipment
@@ -126,17 +183,6 @@
 				slot="HorseHarness"
 				id="Item.chain_barding" />
 		</EquipmentSet>
-		<Flags
-			IsCombatantTemplate="true"
-			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsMediumTemplate="true"
-			/>
-	</EquipmentRoster>
-
-	<EquipmentRoster
-		id="rohan_captain_template_bat_a"
-		culture="Culture.vlandia">
 		<EquipmentSet
 			civilian="false">
 			<Equipment
@@ -173,17 +219,6 @@
 				slot="HorseHarness"
 				id="Item.chain_barding" />
 		</EquipmentSet>
-		<Flags
-			IsCombatantTemplate="true"
-			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsMediumTemplate="true"
-			/>
-	</EquipmentRoster>
-
-	<EquipmentRoster
-		id="rohan_captain_template_bat_b"
-		culture="Culture.vlandia">
 		<EquipmentSet
 			civilian="false">
 			<Equipment
@@ -221,15 +256,100 @@
 				id="Item.chain_barding" />
 		</EquipmentSet>
 		<Flags
-			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsMediumTemplate="true"
-			/>
+			IsMediumTemplate="true" />
 	</EquipmentRoster>
-	
-	
-	
+
+
+	<!--mordor-->
+	<!--generic lord fighter battle equipment-->
+	<EquipmentRoster
+	id="mordor_bat_template_medium"
+	culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_polearm_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.shield_khuzait_infantry_b" />
+			<Equipment
+				slot="Head"
+				id="Item.sk_uruk_mordor_helmet_heavy_a1" />
+			<Equipment
+				slot="Cape"
+				id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+			<Equipment
+				slot="Body"
+				id="Item.sk_uruk_mordor_chainmail_captain_a1" />
+			<Equipment
+				slot="Gloves"
+				id="Item.sk_uruk_mordor_bracer_heavy_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.sk_uruk_mordor_greaves_heavy_a" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsMediumTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic lord fighter civillian equipment-->
+	<EquipmentRoster
+		id="mordor_civ_template_default"
+		culture="Culture.mordor">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsCombatantTemplate="true"
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic non-fighter lady civillian equipment-->
+	<EquipmentRoster
+	id="mordor_civ_template_lady"
+	culture="Culture.mordor">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsFemaleTemplate="true"
+			IsNobleTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
 	
 	<EquipmentRoster
 			id="witch_king_template"
@@ -265,7 +385,6 @@
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
 			IsCivilianTemplate="true"
-			IsMediumTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -299,8 +418,7 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsMediumTemplate="true"/>
+			/>
 	</EquipmentRoster>
 
 
@@ -334,8 +452,6 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsMediumTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -370,9 +486,6 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsMediumTemplate="true"
-			
 			/>
 	</EquipmentRoster>
 
@@ -406,8 +519,6 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsMediumTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -441,8 +552,6 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsMediumTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -479,8 +588,6 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsMediumTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -514,8 +621,6 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsMediumTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -550,8 +655,6 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsMediumTemplate="true"
 			/>
 	</EquipmentRoster>
 	
@@ -585,8 +688,6 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsMediumTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -620,8 +721,6 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsMediumTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -655,13 +754,735 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsMediumTemplate="true"
 			/>
 	</EquipmentRoster>
 
+	<!--rivendell-->
+	<!--generic lord fighter battle equipment-->
+	<EquipmentRoster
+		id="rivendell_bat_template_medium"
+		culture="Culture.rivendell">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.reinforced_kite_shield" />
+			<Equipment
+				slot="Head"
+				id="Item.empire_battle_crown_north" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_plate_vest_armor" />
+			<Equipment
+				slot="Cape"
+				id="Item.varangian_bra_royal" />
+			<Equipment
+				slot="Leg"
+				id="Item.decorated_imperial_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsMediumTemplate="true" />
+	</EquipmentRoster>
 
-	
-	
-	
+	<!--generic lord fighter civillian equipment-->
+	<EquipmentRoster
+		id="rivendell_civ_template_default"
+		culture="Culture.rivendell">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsCombatantTemplate="true"
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic non-fighter lady civillian equipment-->
+	<EquipmentRoster
+	id="rivendell_civ_template_lady"
+	culture="Culture.rivendell">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsFemaleTemplate="true"
+			IsNobleTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<!--mirkwood-->
+	<!--generic lord fighter battle equipment-->
+	<EquipmentRoster
+		id="mirkwood_bat_template_medium"
+		culture="Culture.mirkwood">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.reinforced_kite_shield" />
+			<Equipment
+				slot="Head"
+				id="Item.empire_battle_crown_north" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_plate_vest_armor" />
+			<Equipment
+				slot="Cape"
+				id="Item.varangian_bra_royal" />
+			<Equipment
+				slot="Leg"
+				id="Item.decorated_imperial_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsMediumTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic lord fighter civillian equipment-->
+	<EquipmentRoster
+		id="mirkwood_civ_template_default"
+		culture="Culture.mirkwood">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsCombatantTemplate="true"
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic non-fighter lady civillian equipment-->
+	<EquipmentRoster
+	id="mirkwood_civ_template_lady"
+	culture="Culture.mirkwood">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsFemaleTemplate="true"
+			IsNobleTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<!--lothlorien-->
+	<!--generic lord fighter battle equipment-->
+	<EquipmentRoster
+		id="lothlorien_bat_template_medium"
+		culture="Culture.lothlorien">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.reinforced_kite_shield" />
+			<Equipment
+				slot="Head"
+				id="Item.empire_battle_crown_north" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_plate_vest_armor" />
+			<Equipment
+				slot="Cape"
+				id="Item.varangian_bra_royal" />
+			<Equipment
+				slot="Leg"
+				id="Item.decorated_imperial_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsMediumTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic lord fighter civillian equipment-->
+	<EquipmentRoster
+		id="lothlorien_civ_template_default"
+		culture="Culture.lothlorien">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsCombatantTemplate="true"
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic non-fighter lady civillian equipment-->
+	<EquipmentRoster
+	id="lothlorien_civ_template_lady"
+	culture="Culture.lothlorien">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsFemaleTemplate="true"
+			IsNobleTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<!--erebor-->
+	<!--generic lord fighter battle equipment-->
+	<EquipmentRoster
+		id="erebor_bat_template_medium"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.reinforced_kite_shield" />
+			<Equipment
+				slot="Head"
+				id="Item.empire_battle_crown_north" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_plate_vest_armor" />
+			<Equipment
+				slot="Cape"
+				id="Item.varangian_bra_royal" />
+			<Equipment
+				slot="Leg"
+				id="Item.decorated_imperial_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsMediumTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic lord fighter civillian equipment-->
+	<EquipmentRoster
+		id="erebor_civ_template_default"
+		culture="Culture.erebor">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsCombatantTemplate="true"
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic non-fighter lady civillian equipment-->
+	<EquipmentRoster
+	id="erebor_civ_template_lady"
+	culture="Culture.erebor">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsFemaleTemplate="true"
+			IsNobleTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<!--gundabad-->
+	<!--generic lord fighter battle equipment-->
+	<EquipmentRoster
+		id="gundabad_bat_template_medium"
+		culture="Culture.gundabad">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.reinforced_kite_shield" />
+			<Equipment
+				slot="Head"
+				id="Item.empire_battle_crown_north" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_plate_vest_armor" />
+			<Equipment
+				slot="Cape"
+				id="Item.varangian_bra_royal" />
+			<Equipment
+				slot="Leg"
+				id="Item.decorated_imperial_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsMediumTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic lord fighter civillian equipment-->
+	<EquipmentRoster
+		id="gundabad_civ_template_default"
+		culture="Culture.gundabad">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsCombatantTemplate="true"
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic non-fighter lady civillian equipment-->
+	<EquipmentRoster
+	id="gundabad_civ_template_lady"
+	culture="Culture.gundabad">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsFemaleTemplate="true"
+			IsNobleTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<!--dolguldur-->
+	<!--generic lord fighter battle equipment-->
+	<EquipmentRoster
+		id="dolguldur_bat_template_medium"
+		culture="Culture.dolguldur">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.reinforced_kite_shield" />
+			<Equipment
+				slot="Head"
+				id="Item.empire_battle_crown_north" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_plate_vest_armor" />
+			<Equipment
+				slot="Cape"
+				id="Item.varangian_bra_royal" />
+			<Equipment
+				slot="Leg"
+				id="Item.decorated_imperial_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsMediumTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic lord fighter civillian equipment-->
+	<EquipmentRoster
+		id="dolguldur_civ_template_default"
+		culture="Culture.dolguldur">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsCombatantTemplate="true"
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic non-fighter lady civillian equipment-->
+	<EquipmentRoster
+	id="dolguldur_civ_template_lady"
+	culture="Culture.dolguldur">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsFemaleTemplate="true"
+			IsNobleTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<!--umbar-->
+	<!--generic lord fighter battle equipment-->
+	<EquipmentRoster
+		id="umbar_bat_template_medium"
+		culture="Culture.umbar">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.reinforced_kite_shield" />
+			<Equipment
+				slot="Head"
+				id="Item.empire_battle_crown_north" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_plate_vest_armor" />
+			<Equipment
+				slot="Cape"
+				id="Item.varangian_bra_royal" />
+			<Equipment
+				slot="Leg"
+				id="Item.decorated_imperial_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsMediumTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic lord fighter civillian equipment-->
+	<EquipmentRoster
+		id="umbar_civ_template_default"
+		culture="Culture.umbar">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsCombatantTemplate="true"
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic non-fighter lady civillian equipment-->
+	<EquipmentRoster
+	id="umbar_civ_template_lady"
+	culture="Culture.umbar">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsFemaleTemplate="true"
+			IsNobleTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
+	<!--isengard-->
+	<!--generic lord fighter battle equipment-->
+	<EquipmentRoster
+		id="isengard_bat_template_medium"
+		culture="Culture.isengard">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Item1"
+				id="Item.reinforced_kite_shield" />
+			<Equipment
+				slot="Head"
+				id="Item.empire_battle_crown_north" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_plate_vest_armor" />
+			<Equipment
+				slot="Cape"
+				id="Item.varangian_bra_royal" />
+			<Equipment
+				slot="Leg"
+				id="Item.decorated_imperial_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsMediumTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic lord fighter civillian equipment-->
+	<EquipmentRoster
+		id="isengard_civ_template_default"
+		culture="Culture.isengard">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.imperial_robes" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsCombatantTemplate="true"
+			IsCivilianTemplate="true" />
+	</EquipmentRoster>
+
+	<!--generic non-fighter lady civillian equipment-->
+	<EquipmentRoster
+	id="isengard_civ_template_lady"
+	culture="Culture.isengard">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_noble_sword_1_t5" />
+			<Equipment
+				slot="Body"
+				id="Item.empire_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.light_harness" />
+		</EquipmentSet>
+		<Flags
+			IsFemaleTemplate="true"
+			IsNobleTemplate="true"
+			IsNoncombatantTemplate="true" />
+	</EquipmentRoster>
 </EquipmentRosters>
