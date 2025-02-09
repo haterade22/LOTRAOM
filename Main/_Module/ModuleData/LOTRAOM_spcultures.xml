@@ -14,7 +14,7 @@
 		ranged_elite_militia_troop="NPCCharacter.imperial_militia_veteran_archer"
 		can_have_settlement="true"
 		town_edge_number="16"
-		villager_party_template="PartyTemplate.villager_empire_template"
+		villager_party_template="PartyTemplate.villager_gondor_template"
 		default_party_template="PartyTemplate.kingdom_hero_party_gondor_template"
 		caravan_party_template="PartyTemplate.caravan_template_empire"
 		elite_caravan_party_template="PartyTemplate.elite_caravan_template_empire"
@@ -78,17 +78,17 @@
 		board_game_type="Tablut">
 		<vassal_reward_items>
 			<item
-				id="Item.justicier_2hsword" />
+				id="Item.wm_gondor_spear_a" />
 		</vassal_reward_items>
 		<banner_bearer_replacement_weapons>
 			<item
-				id="Item.iron_spatha_sword_t2" />
+				id="Item.wm_gondor_sword_a05" />
 			<item
-				id="Item.empire_sword_1_t2" />
+				id="Item.wm_gondor_sword_a10" />
 			<item
-				id="Item.empire_sword_2_t3" />
+				id="Item.wm_gondor_faramir_sword" />
 			<item
-				id="Item.empire_sword_6_t5" />
+				id="Item.wm_gondor_boromir_sword" />
 		</banner_bearer_replacement_weapons>
 		<default_policies>
 			<policy
@@ -562,7 +562,7 @@
 	ranged_elite_militia_troop="NPCCharacter.sturgian_militia_veteran_archer"
 	can_have_settlement="true"
 	town_edge_number="16"
-	villager_party_template="PartyTemplate.villager_sturgia_template"
+	villager_party_template="PartyTemplate.villager_erebor_template"
 	default_party_template="PartyTemplate.kingdom_hero_party_sturgia_template"
 	encounter_background_mesh="encounter_sturgia"
 	faction_banner_key="11.12.12.4345.4345.764.764.1.0.0.462.13.13.512.512.764.764.1.0.0"
@@ -1002,7 +1002,7 @@
 		ranged_elite_militia_troop="NPCCharacter.imperial_militia_veteran_archer"
 		can_have_settlement="true"
 		town_edge_number="16"
-		villager_party_template="PartyTemplate.villager_empire_template"
+		villager_party_template="PartyTemplate.villager_mordor_template"
 		default_party_template="PartyTemplate.kingdom_hero_party_mordor_template"
 		caravan_party_template="PartyTemplate.caravan_template_empire"
 		elite_caravan_party_template="PartyTemplate.elite_caravan_template_empire"
@@ -1490,7 +1490,7 @@
 		ranged_elite_militia_troop="NPCCharacter.imperial_militia_veteran_archer"
 		can_have_settlement="true"
 		town_edge_number="16"
-		villager_party_template="PartyTemplate.villager_empire_template"
+		villager_party_template="PartyTemplate.villager_rivendell_template"
 		default_party_template="PartyTemplate.kingdom_hero_party_empire_template"
 		caravan_party_template="PartyTemplate.caravan_template_empire"
 		elite_caravan_party_template="PartyTemplate.elite_caravan_template_empire"
@@ -1987,7 +1987,7 @@
 		ranged_elite_militia_troop="NPCCharacter.imperial_militia_veteran_archer"
 		can_have_settlement="true"
 		town_edge_number="16"
-		villager_party_template="PartyTemplate.villager_empire_template"
+		villager_party_template="PartyTemplate.villager_mirkwood_template"
 		default_party_template="PartyTemplate.kingdom_hero_party_empire_template"
 		caravan_party_template="PartyTemplate.caravan_template_empire"
 		elite_caravan_party_template="PartyTemplate.elite_caravan_template_empire"
@@ -2476,7 +2476,7 @@
 		ranged_elite_militia_troop="NPCCharacter.imperial_militia_veteran_archer"
 		can_have_settlement="true"
 		town_edge_number="16"
-		villager_party_template="PartyTemplate.villager_empire_template"
+		villager_party_template="PartyTemplate.villager_lothlorien_template"
 		default_party_template="PartyTemplate.kingdom_hero_party_empire_template"
 		caravan_party_template="PartyTemplate.caravan_template_empire"
 		elite_caravan_party_template="PartyTemplate.elite_caravan_template_empire"
@@ -2963,7 +2963,7 @@
 			ranged_elite_militia_troop="NPCCharacter.sturgian_militia_veteran_archer"
 			can_have_settlement="true"
 			town_edge_number="16"
-			villager_party_template="PartyTemplate.villager_sturgia_template"
+			villager_party_template="PartyTemplate.villager_umbar_template"
 			default_party_template="PartyTemplate.kingdom_hero_party_sturgia_template"
 			encounter_background_mesh="encounter_sturgia"
 			faction_banner_key="11.12.12.4345.4345.764.764.1.0.0.462.13.13.512.512.764.764.1.0.0"
@@ -3373,7 +3373,7 @@
 		ranged_elite_militia_troop="NPCCharacter.sturgian_militia_veteran_archer"
 		can_have_settlement="true"
 		town_edge_number="16"
-		villager_party_template="PartyTemplate.villager_sturgia_template"
+		villager_party_template="PartyTemplate.villager_isengard_template"
 		default_party_template="PartyTemplate.kingdom_hero_party_sturgia_template"
 		encounter_background_mesh="encounter_sturgia"
 		faction_banner_key="11.12.12.4345.4345.764.764.1.0.0.462.13.13.512.512.764.764.1.0.0"
@@ -3783,7 +3783,7 @@
 		ranged_elite_militia_troop="NPCCharacter.sturgian_militia_veteran_archer"
 		can_have_settlement="true"
 		town_edge_number="16"
-		villager_party_template="PartyTemplate.villager_sturgia_template"
+		villager_party_template="PartyTemplate.villager_gundabad_template"
 		default_party_template="PartyTemplate.kingdom_hero_party_sturgia_template"
 		encounter_background_mesh="encounter_sturgia"
 		faction_banner_key="11.12.12.4345.4345.764.764.1.0.0.462.13.13.512.512.764.764.1.0.0"
@@ -4192,7 +4192,7 @@
 		ranged_elite_militia_troop="NPCCharacter.sturgian_militia_veteran_archer"
 		can_have_settlement="true"
 		town_edge_number="16"
-		villager_party_template="PartyTemplate.villager_sturgia_template"
+		villager_party_template="PartyTemplate.villager_dolguldur_template"
 		default_party_template="PartyTemplate.kingdom_hero_party_sturgia_template"
 		encounter_background_mesh="encounter_sturgia"
 		faction_banner_key="11.12.12.4345.4345.764.764.1.0.0.462.13.13.512.512.764.764.1.0.0"
