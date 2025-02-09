@@ -7400,5 +7400,517 @@ emp_civ_template_flamboyant
 				id="stu_noncom_template_woods" />
 		</Equipments>
 	</NPCCharacter>
+	
+	
+	
+<!--Rohan-->
+	<NPCCharacter
+		id="villager_rohan"
+		default_group="Infantry"
+		level="1"
+		name="{=rohanvillager}Rohan Villager"
+		occupation="Villager"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<!--face_key value="0009013000000000000000000000000000000000000000000000000000000000000a00050000000000000000000000000000000000000000fffffffffc880000" max_value="001cffffc000390ffff88affaa9efffffffffffffff7ffffffff9ffffffffffa0007effff7ffffff000000000000000000000000000000000000000001509181" /-->
+			<BodyProperties
+				version="4"
+				age="25.57"
+				weight="0.3164"
+				build="0.2485"
+				key="00052008000000010070030000001603003300110010200000000001010000000144501304010000000000000000000000000000000000000000000010880000" />
+			<BodyPropertiesMax
+				version="4"
+				age="69.94"
+				weight="0.9923"
+				build="0.7052"
+				key="0010F80FC000370FFFFFEFEFFEEFFF7EEEFFFFFFFEF7EFFEFFFFFFFFFEFFFFFF07CBF0780CFFFFEF000000000000000000000000000000000000000061809105" />
+			<!--<hair_tags>
+    <hair_tag name="ShortAndThin" />
+    <hair_tag name="Tousled" />
+  </hair_tags>
+  <beard_tags>
+    <beard_tag name="LightShortBeard" />
+    <beard_tag name="HeavyShortBeard" />
+    <beard_tag name="Cleanshaven" />
+  </beard_tags>-->
+		</face>
+		<skills></skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.rohan_peasant" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+			civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.hemp_tunic" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.cloth_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.tied_cloth_tunic" />
+				<equipment
+					slot="Head"
+					id="Item.merchants_hat" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.tundra_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_pitchfork_2_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Body"
+					id="Item.hemp_tunic" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_pitchfork_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.tunic_with_shoulder_pads" />
+				<equipment
+					slot="Head"
+					id="Item.merchants_hat" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.fine_town_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.fine_town_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.merchants_hat" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_polearm_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.burlap_waistcoat" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.armwraps" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_sickle_1_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.cloth_tunic" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 
+		<NPCCharacter
+		id="townswoman_rohan"
+		default_group="Infantry"
+		is_female="true"
+		level="1"
+		name="{=WbH2HS8j}Rohan Townswoman"
+		occupation="Townsfolk"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<BodyProperties
+					version="4"
+					age="22.05"
+					weight="0.2918"
+					build="0.2886"
+					key="0000600990000001227101022221000240008203101023225532432173535432004446030401121200000000000000000000000000000000000000000A940001" />
+				<BodyPropertiesMax
+					version="4"
+					age="58.36"
+					weight="0.7701"
+					build="0.838"
+					key="0020F80FD2B4300FFE7EFEEEEDFFFFEFEFFE9EEFEFF8FFEEFFFFEFEE8FFEFFFE05CDC6570CFEFFFF0000000000000000000000000000000000000000698C90C4" />
+				<!--hair_tags>
+    <hair_tag name="Bobbed" />
+    <hair_tag name="RestingOnShoulders" />
+    <hair_tag name="ShoulderLengthTied" />
+    <hair_tag name="AboveShoulderLength" />
+  </hair_tags-->
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster
+					civilian="true">
+					<equipment
+						slot="Body"
+						id="Item.empire_dress" />
+					<equipment
+						slot="Leg"
+						id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster
+					civilian="true">
+					<equipment
+						slot="Body"
+						id="Item.vlandian_dress" />
+					<equipment
+						slot="Leg"
+						id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster
+					civilian="true">
+					<equipment
+						slot="Body"
+						id="Item.empire_dress_b" />
+					<equipment
+						slot="Leg"
+						id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster
+					civilian="true">
+					<equipment
+						slot="Body"
+						id="Item.plain_dress" />
+					<equipment
+						slot="Leg"
+						id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster
+					civilian="true">
+					<equipment
+						slot="Body"
+						id="Item.dress_with_overall" />
+					<equipment
+						slot="Leg"
+						id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster
+					civilian="true">
+					<equipment
+						slot="Body"
+						id="Item.laced_dress" />
+					<equipment
+						slot="Cape"
+						id="Item.female_scarf" />
+					<equipment
+						slot="Leg"
+						id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster
+					civilian="true">
+					<equipment
+						slot="Body"
+						id="Item.empire_dress" />
+					<equipment
+						slot="Cape"
+						id="Item.female_scarf" />
+					<equipment
+						slot="Leg"
+						id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster
+					civilian="true">
+					<equipment
+						slot="Body"
+						id="Item.vlandian_dress" />
+					<equipment
+						slot="Cape"
+						id="Item.female_scarf" />
+					<equipment
+						slot="Leg"
+						id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster
+					civilian="true">
+					<equipment
+						slot="Body"
+						id="Item.empire_dress_b" />
+					<equipment
+						slot="Cape"
+						id="Item.female_scarf" />
+					<equipment
+						slot="Leg"
+						id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster
+					civilian="true">
+					<equipment
+						slot="Body"
+						id="Item.plain_dress" />
+					<equipment
+						slot="Leg"
+						id="Item.ladys_shoe" />
+					<equipment
+						slot="Cape"
+						id="Item.female_scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster
+					civilian="true">
+					<equipment
+						slot="Body"
+						id="Item.dress_with_overall" />
+					<equipment
+						slot="Cape"
+						id="Item.female_scarf" />
+					<equipment
+						slot="Leg"
+						id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster
+					civilian="true">
+					<equipment
+						slot="Body"
+						id="Item.laced_dress" />
+					<equipment
+						slot="Leg"
+						id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment
+						slot="Body"
+						id="Item.laced_dress" />
+					<equipment
+						slot="Leg"
+						id="Item.ladys_shoe" />
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+
+
+		<NPCCharacter
+			id="fighter_rohan"
+			default_group="Infantry"
+			level="1"
+			name="{=!}Rohan Fighter"
+			occupation="Villager"
+			culture="Culture.vlandia"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+			is_template="true">
+			<face>
+				<face_key_template
+					value="BodyProperty.fighter_rohan" />
+				<!--face_key value="0009013000000000000000000000000000000000000000000000000000000000000a00050000000000000000000000000000000000000000fffffffffc880000" max_value="001cffffc000390ffff88affaa9efffffffffffffff7ffffffff9ffffffffffa0007effff7ffffff000000000000000000000000000000000000000001509181" /-->
+				<!--<hair_tags>
+    <hair_tag name="ShortAndThin" />
+    <hair_tag name="Tousled" />
+  </hair_tags>
+  <beard_tags>
+    <beard_tag name="LightShortBeard" />
+    <beard_tag name="HeavyShortBeard" />
+    <beard_tag name="Cleanshaven" />
+  </beard_tags>-->
+			</face>
+			<skills></skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentSet
+					id="fighter_rohan" />
+			</Equipments>
+		</NPCCharacter>
+
+
+		<NPCCharacter
+			id="civillian_template_gangster_tier1_rohan"
+			name="{=!}civillian_template_gangster_tier1_rohan"
+			age="48"
+			voice="curt"
+			default_group="infantry"
+			is_hero="false"
+			culture="Culture.vlandia"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+			is_template="true">
+			<face>
+				<face_key_template
+					value="BodyProperty.villager_rohan" />
+			</face>
+			<Equipments>
+				<EquipmentSet
+					id="civillian_template_gangster_tier1_rohan" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter
+			id="civillian_template_gangster_tier2_rohan"
+			name="{=!}civillian_template_gangster_tier2_rohan"
+			age="48"
+			voice="curt"
+			default_group="infantry"
+			is_hero="false"
+			culture="Culture.vlandia"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+			is_template="true">
+			<face>
+				<face_key_template
+					value="BodyProperty.villager_rohan" />
+			</face>
+			<Equipments>
+				<EquipmentSet
+					id="civillian_template_gangster_tier2_rohan" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter
+			id="civillian_template_gangster_tier3_rohan"
+			name="{=!}civillian_template_gangster_tier3_rohan"
+			age="48"
+			voice="curt"
+			default_group="infantry"
+			is_hero="false"
+			culture="Culture.vlandia"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+			is_template="true">
+			<face>
+				<face_key_template
+					value="BodyProperty.villager_rohan" />
+			</face>
+			<Equipments>
+				<EquipmentSet
+					id="civillian_template_gangster_tier3_rohan" />
+			</Equipments>
+		</NPCCharacter>
+
+
+		<NPCCharacter
+			id="npc_companion_equipment_template_rohan"
+			default_group="Infantry"
+			is_hero="false"
+			level="16"
+			name="{=!}wanderer_equipment"
+			culture="Culture.vlandia"
+			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+			is_template="true">
+			<face>
+				<face_key_template
+					value="BodyProperty.villager_rohan" />
+			</face>
+			<Equipments>
+				<EquipmentSet
+					id="npc_companion_equipment_template_rohan" />
+			</Equipments>
+		</NPCCharacter>
+
+		<NPCCharacter
+		id="npc_armed_wanderer_equipment_template_rohan"
+		default_group="Infantry"
+		is_hero="false"
+		level="16"
+		name="{=!}wanderer_equipment"
+		culture="Culture.vlandia"
+		skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+		is_template="true">
+			<face>
+				<face_key_template
+					value="BodyProperty.villager_rohan" />
+			</face>
+			<Equipments>
+				<EquipmentSet
+					id="npc_armed_wanderer_equipment_template_rohan" />
+			</Equipments>
+		</NPCCharacter>
 </NPCCharacters>
