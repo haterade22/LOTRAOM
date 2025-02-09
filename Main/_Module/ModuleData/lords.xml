@@ -1242,9 +1242,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b1" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_b1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -2752,13 +2752,10 @@
 			<Trait
 				id="Manager"
 				value="10" />
-			<Trait
-				id="Valor"
-				value="-1" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
-				value="2" />
+				value="-1" />
 			<Trait
 				id="Generosity"
 				value="-2" />
@@ -2784,8 +2781,6 @@
 
 		<Equipments>
 			<EquipmentRoster />
-			<EquipmentRoster
-				civilian="true" />
 			<EquipmentSet
 				id="witch_king_template" />
 			<EquipmentSet
@@ -2824,12 +2819,10 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
-			<EquipmentRoster
-				civilian="true" />
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="witch_king_template" />
 			<EquipmentSet
-				id="emp_civ_template_southfrontier"
+				id="witch_king_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -2866,10 +2859,11 @@
 			<Trait id="Authoritarian" value="1" />
 		</Traits>
 		<Equipments>
+			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="witch_king_template" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="witch_king_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -2948,7 +2942,8 @@
 		age="19"
 		voice="curt"
 		is_hero="true"
-		culture="Culture.empire"
+		race="uruk"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -2982,11 +2977,10 @@
 			<!---Opportunist -->
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_a2" />
 			<EquipmentSet
-				id="emp_civ_template_southfrontier"
+				id="mordor_captain_template_a2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -2996,9 +2990,10 @@
 		name="{=OMkSgsV2}Jathea"
 		age="48"
 		voice="curt"
+		race="uruk"
 		is_hero="true"
 		is_female="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -3033,9 +3028,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_a2" />
 			<EquipmentSet
-				id="emp_noncom_template_southfrontier"
+				id="mordor_captain_template_a2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -3354,11 +3349,12 @@
 	000b6d22c0bc100679d8455aa9684859888735557c6493786867627857b28958000d8894038735d900001105000030a30000001f000000000000000000046000 -->
 	<NPCCharacter
 		id="lord_1_27"
-		name="{=waQPRCaT}Patyr"
-		age="37"
+		name="{=waQPRCaT}Maugrash"
+		age="27"
+		race="uruk"
 		voice="earnest"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -3375,8 +3371,8 @@
 		<skills></skills>
 		<Traits>
 			<Trait
-				id="HorseArcherFightingSkills"
-				value="6" />
+				id="KnightFightingSkills"
+				value="7" />
 			<Trait
 				id="Commander"
 				value="8" />
@@ -3388,16 +3384,16 @@
 				value="6" />
 			<Trait
 				id="Mercy"
-				value="1" />
+				value="-2" />
 			<Trait
 				id="Generosity"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -3407,8 +3403,9 @@
 		age="37"
 		is_female="true"
 		voice="softspoken"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -3433,23 +3430,24 @@
 				value="6" />
 			<Trait
 				id="Mercy"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_27_2"
-		name="{=zaHnL2It}Eutropios"
+		name="{=zaHnL2It}Throznak"
 		age="18"
 		voice="earnest"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -3467,11 +3465,11 @@
 		<skills></skills>
 		<Traits>
 			<Trait
-				id="HorseArcherFightingSkills"
+				id="KnightFightingSkills"
 				value="4" />
 			<Trait
 				id="Commander"
-				value="8" />
+				value="5" />
 			<Trait
 				id="Politician"
 				value="2" />
@@ -3487,9 +3485,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_medium" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -3499,8 +3497,9 @@
 		is_female="true"
 		age="18"
 		voice="earnest"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -3539,9 +3538,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -3578,10 +3577,11 @@
 			<Trait id="Authoritarian" value="1" />
 		</Traits>
 		<Equipments>
+			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_heavy" />
+				id="witch_king_template" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="witch_king_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -3592,8 +3592,9 @@
 		name="{=5eTb2xr7}Sanion"
 		age="23"
 		voice="earnest"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -3633,9 +3634,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_heavy" />
+				id="mordor_captain_template_a2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -3955,8 +3956,9 @@
 		age="21"
 		voice="ironic"
 		is_hero="true"
+		race="uruk"
 		is_female="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -3998,11 +4000,10 @@
 				value="1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4041,10 +4042,11 @@
 			<Trait id="Authoritarian" value="1" />
 		</Traits>
 		<Equipments>
+			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="witch_king_template" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="witch_king_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4055,9 +4057,10 @@
 		age="20"
 		voice="ironic"
 		default_group="Cavalry"
+		race="uruk"
 		is_hero="true"
 		is_female="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -4087,13 +4090,13 @@
 				value="1" />
 			<Trait
 				id="Generosity"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_a2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_a2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4365,10 +4368,11 @@
 		id="lord_1_47"
 		name="{=xViSxONn}Ulbos"
 		default_group="Cavalry"
-		age="45"
+		age="30"
+		race="uruk"
 		voice="curt"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -4400,28 +4404,28 @@
 				value="-1" />
 			<Trait
 				id="Honor"
-				value="1" />
+				value="-1" />
 			<Trait
 				id="Generosity"
 				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_heavy" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_47_1"
 		name="{=QvfUqzpF}Mina"
-		age="38"
+		age="28"
 		is_female="true"
+		race="uruk"
 		voice="earnest"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		default_group="Cavalry"
 		occupation="Lord"
 		face_mesh_cache="true">
@@ -4445,17 +4449,16 @@
 				value="4" />
 			<Trait
 				id="Honor"
-				value="1" />
+				value="-1" />
 			<Trait
 				id="Valor"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4465,9 +4468,10 @@
 		default_group="Cavalry"
 		age="14"
 		is_female="true"
+		race="uruk"
 		voice="softspoken"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -4485,11 +4489,10 @@
 			<!-- TEENAGER, NO TRAITS OR SKILLS FOR UNDER-18s -->
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4499,9 +4502,10 @@
 		default_group="Cavalry"
 		age="17"
 		is_female="true"
+		race="uruk"
 		voice="softspoken"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -4519,11 +4523,10 @@
 			<!-- TEENAGER, NO TRAITS OR SKILLS FOR UNDER-18s -->
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4532,10 +4535,11 @@
 		id="lord_1_49"
 		name="{=QGIAbglw}Obron"
 		default_group="Cavalry"
-		age="51"
+		age="31"
 		voice="softspoken"
 		is_hero="true"
-		culture="Culture.empire"
+		race="uruk"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -4568,11 +4572,10 @@
 				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_medium" />
+				id="mordor_captain_template_b1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_b1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4580,11 +4583,12 @@
 		id="lord_1_49_1"
 		name="{=BosCJ3Rb}Tristania"
 		is_female="true"
-		age="37"
+		age="27"
 		default_group="Cavalry"
 		voice="ironic"
 		is_hero="true"
-		culture="Culture.empire"
+		race="uruk"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -4613,11 +4617,10 @@
 				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b1" />
 			<EquipmentSet
-				id="bat_noncom_template_default"
+				id="mordor_captain_template_b1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4628,8 +4631,9 @@
 		default_group="Cavalry"
 		age="17"
 		voice="earnest"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -4645,11 +4649,10 @@
 			<!-- TEENAGER -->
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_b1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7251,11 +7254,10 @@
 				value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="mordor_captain_template_a1" />
+				id="mordor_captain_template_b1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_b1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7265,9 +7267,10 @@
 		voice="curt"
 		age="23"
 		is_female="true"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7293,11 +7296,10 @@
 				value="1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b1" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_b1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7371,7 +7373,7 @@
 		id="lord_1_48"
 		name="{=katzUyMI}Khamûl, the Shadow of the East"
 		default_group="Cavalry"
-		age="39"
+		age="20"
 		race="nazghul"
 		voice="earnest"
 		is_hero="true"
@@ -7386,34 +7388,24 @@
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait
-				id="BalancedFightingSkills"
-				value="6" />
-			<Trait
-				id="Commander"
-				value="8" />
-			<Trait
-				id="Politician"
-				value="8" />
-			<Trait
-				id="Manager"
-				value="10" />
-			<Trait
-				id="Mercy"
-				value="1" />
-			<Trait
-				id="Valor"
-				value="1" />
-			<Trait
-				id="Calculating"
-				value="-1" />
+			<Trait id="CavalryFightingSkills" value="18" />
+			<Trait id="Commander" value="14" />
+			<Trait id="Manager" value="10" />
+			<Trait id="Politician" value="8" />
+			<Trait id="Valor" value="0" />
+			<Trait id="Honor" value="-2" />
+			<Trait id="Mercy" value="-2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="0" />
+			<Trait id="Authoritarian" value="1" />
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_heavy" />
+				id="witch_king_template" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="witch_king_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7452,9 +7444,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="witch_king_template" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="witch_king_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7493,9 +7485,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="witch_king_template" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="witch_king_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7533,9 +7525,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="witch_king_template" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="witch_king_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7544,7 +7536,7 @@
 		id="lord_1_54"
 		name="{=sZebVgCp}Shagrat"
 		voice="ironic"
-		age="38"
+		age="28"
 		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
@@ -7603,11 +7595,10 @@
 				value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="mordor_captain_template_f1" />
+				id="mordor_captain_template_c1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_c1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7616,10 +7607,11 @@
 		name="{=K2UUjntt}Constalia"
 		voice="curt"
 		age="26"
+		race="uruk"
 		is_female="true"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7647,11 +7639,10 @@
 				value="1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_c1" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_c1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7660,10 +7651,11 @@
 		id="lord_1_55"
 		name="{=OymqpgTX}Herumor"
 		voice="softspoken"
-		age="55"
+		age="35"
 		default_group="Cavalry"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7716,11 +7708,10 @@
 				value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_c2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_c2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7730,9 +7721,10 @@
 		voice="softspoken"
 		is_female="true"
 		age="26"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7749,14 +7741,13 @@
 				value="10" />
 			<Trait
 				id="Mercy"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_c2" />
 			<EquipmentSet
-				id="emp_noncom_template_southfrontier"
+				id="mordor_captain_template_c2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7825,11 +7816,10 @@
 				value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="mordor_captain_template_a2" />
+				id="mordor_captain_template_b2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_b2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7839,9 +7829,10 @@
 		voice="curt"
 		age="32"
 		is_female="true"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7873,11 +7864,10 @@
 				value="1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_b2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7887,9 +7877,10 @@
 		voice="curt"
 		age="12"
 		is_female="true"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7905,11 +7896,10 @@
 		<skills></skills>
 		<Traits></Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_b2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7919,9 +7909,10 @@
 		voice="curt"
 		age="9"
 		is_female="true"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7937,11 +7928,10 @@
 		<skills></skills>
 		<Traits></Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_b2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8092,9 +8082,10 @@
 		name="{=9xyXdX4I}Tharos"
 		voice="curt"
 		age="33"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8133,9 +8124,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_c1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_c1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8145,9 +8136,10 @@
 		voice="curt"
 		age="23"
 		is_female="true"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8167,13 +8159,13 @@
 				value="6" />
 			<Trait
 				id="Valor"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_c1" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_c1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8183,9 +8175,10 @@
 		name="{=4YOoGhpK}Niphon"
 		voice="softspoken"
 		age="33"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8217,16 +8210,16 @@
 				value="-1" />
 			<Trait
 				id="Generosity"
-				value="1" />
+				value="-1" />
 			<Trait
 				id="Calculating"
 				value="1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_medium" />
+				id="mordor_captain_template_c2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_c2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8236,9 +8229,10 @@
 		voice="earnest"
 		is_female="true"
 		age="28"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8258,16 +8252,16 @@
 				value="4" />
 			<Trait
 				id="Generosity"
-				value="1" />
+				value="-1" />
 			<Trait
 				id="Calculating"
 				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_c2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_c2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8277,9 +8271,10 @@
 		voice="softspoken"
 		is_female="true"
 		age="7"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8296,9 +8291,9 @@
 		<Traits></Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_c2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_c2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8368,9 +8363,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="mordor_captain_template_b2" />
+				id="mordor_captain_template_d1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_d1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8380,9 +8375,10 @@
 		is_female="true"
 		voice="softspoken"
 		age="31"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8405,13 +8401,13 @@
 				value="6" />
 			<Trait
 				id="Generosity"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_d1" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_d1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8421,9 +8417,10 @@
 		is_female="true"
 		voice="earnest"
 		age="19"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8453,16 +8450,16 @@
 			<!-- eager warrior -->
 			<Trait
 				id="Valor"
-				value="1" />
+				value="-1" />
 			<Trait
 				id="Honor"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_d1" />
 			<EquipmentSet
-				id="emp_civ_template_southfrontier"
+				id="mordor_captain_template_d1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8472,8 +8469,9 @@
 		voice="softspoken"
 		age="30"
 		default_group="Cavalry"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8512,9 +8510,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_medium" />
+				id="mordor_captain_template_b2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_b2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8525,8 +8523,9 @@
 		is_female="true"
 		age="30"
 		default_group="Cavalry"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8550,9 +8549,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_b2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -9242,20 +9241,18 @@
 			<Trait
 				id="Manager"
 				value="12" />
-			<!-- somewhat bitter child of a traitor, rehabilitated and loyal to Rhagaea -->
 			<Trait
 				id="Valor"
 				value="-1" />
 			<Trait
 				id="Generosity"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="mordor_captain_template_c2" />
+				id="mordor_captain_template_e2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_e2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -9265,9 +9262,10 @@
 		age="46"
 		voice="ironic"
 		is_female="true"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -9295,11 +9293,10 @@
 				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_e2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_e2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -9308,9 +9305,10 @@
 		name="{=rf8KHRSP}Pagarios"
 		age="26"
 		voice="earnest"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -9345,11 +9343,10 @@
 				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_e2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_e2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -9358,10 +9355,11 @@
 		name="{=Y0I9T9pe}Diasca"
 		age="24"
 		is_female="true"
+		race="uruk"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -9388,17 +9386,16 @@
 				value="-1" />
 			<Trait
 				id="Honor"
-				value="1" />
+				value="-1" />
 			<Trait
 				id="Authoritarian"
 				value="1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_e2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_e2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -24432,18 +24429,17 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="khu_bat_template_medium" />
+				id="mordor_captain_template_e1" />
 			<EquipmentSet
-				id="khu_noncom_template_default"
+				id="mordor_captain_template_e1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter
 		id="lord_M10_11"
-		name="{=mordorclan10child}Mordor Placeholder Child"
+		name="{=mordorclan10child}Gulzag"
 		age="10"
 		voice="earnest"
 		race="uruk"
@@ -24479,11 +24475,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="5" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="khu_bat_template_medium" />
+				id="mordor_captain_template_e1" />
 			<EquipmentSet
-				id="khu_noncom_template_default"
+				id="mordor_captain_template_e1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -24536,18 +24531,17 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="khu_bat_template_medium" />
+				id="mordor_captain_template_e2" />
 			<EquipmentSet
-				id="khu_noncom_template_default"
+				id="mordor_captain_template_e2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter
 		id="lord_M11_11"
-		name="{=mordorlordm11_11}Zorûk"
+		name="{=mordorlordm11_11}Krogash"
 		age="10"
 		voice="earnest"
 		race="uruk"
@@ -24592,11 +24586,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="khu_bat_template_medium" />
+				id="mordor_captain_template_e2" />
 			<EquipmentSet
-				id="khu_noncom_template_default"
+				id="mordor_captain_template_e2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -24659,7 +24652,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 
 	<NPCCharacter
 		id="lord_M12_11"
-		name="{=mordorlordm12_11}Zûrgath"
+		name="{=mordorlordm12_11}Uzbag"
 		age="10"
 		voice="earnest"
 		race="uruk"
@@ -24704,11 +24697,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="khu_bat_template_medium" />
+				id="mordor_captain_template_f1" />
 			<EquipmentSet
-				id="khu_noncom_template_default"
+				id="mordor_captain_template_f1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -24750,9 +24742,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_f2" />
+			<EquipmentSet
+				id="mordor_captain_template_f2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -24800,7 +24794,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- lord_M14_1 and lord_M14_11 -->
 	<NPCCharacter
 		id="lord_M14_1"
-		name="{=mordorlordm14_1}Nâzgul"
+		name="{=mordorlordm14_1}Uznash"
 		age="25"
 		voice="earnest"
 		is_hero="true"
@@ -24833,9 +24827,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_f2" />
+			<EquipmentSet
+				id="mordor_captain_template_f2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -24874,9 +24870,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_a1" />
+			<EquipmentSet
+				id="mordor_captain_template_a1"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -24916,9 +24914,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_a1" />
+			<EquipmentSet
+				id="mordor_captain_template_a1"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -24957,9 +24957,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_a1" />
+			<EquipmentSet
+				id="mordor_captain_template_a1"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -24999,15 +25001,17 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_a2" />
+			<EquipmentSet
+				id="mordor_captain_template_a2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter
 		id="lord_M16_11"
-		name="{=mordorlordm16_11}Zûrbak"
+		name="{=mordorlordm16_11}Uznash"
 		age="10"
 		voice="earnest"
 		race="uruk"
@@ -25040,9 +25044,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_a2" />
+			<EquipmentSet
+				id="mordor_captain_template_a2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -25082,9 +25088,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_b1" />
+			<EquipmentSet
+				id="mordor_captain_template_b1"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -25123,9 +25131,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_b1" />
+			<EquipmentSet
+				id="mordor_captain_template_b1"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -25165,9 +25175,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_b2" />
+			<EquipmentSet
+				id="mordor_captain_template_b2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -25206,12 +25218,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_b2" />
+			<EquipmentSet
+				id="mordor_captain_template_b2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-
 
 
 </NPCCharacters>

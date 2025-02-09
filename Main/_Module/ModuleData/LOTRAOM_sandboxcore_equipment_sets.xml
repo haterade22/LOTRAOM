@@ -418,6 +418,7 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -452,6 +453,7 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -486,6 +488,7 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -519,6 +522,7 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -552,6 +556,7 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -588,6 +593,7 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -621,6 +627,7 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -653,8 +660,9 @@
 				id="Item.sk_uruk_mordor_greaves_heavy_e" />
 		</EquipmentSet>
 		<Flags
-			IsCombatantTemplate="true"
+		IsCombatantTemplate="true"
 			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
 			/>
 	</EquipmentRoster>
 	
@@ -688,6 +696,7 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -721,6 +730,7 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
 			/>
 	</EquipmentRoster>
 
@@ -754,6 +764,7 @@
 		<Flags
 			IsCombatantTemplate="true"
 			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
 			/>
 	</EquipmentRoster>
 

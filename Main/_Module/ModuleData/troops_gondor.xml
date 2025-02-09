@@ -1080,10 +1080,10 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment
-					slot="Item1"
+					slot="Item0"
 					id="Item.wm_gondor_sword_a06" />
 				<equipment
-					slot="Item2"
+					slot="Item1"
 					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
@@ -1126,10 +1126,10 @@
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment
-					slot="Item1"
+					slot="Item0"
 					id="Item.wm_gondor_sword_a03" />
 				<equipment
-					slot="Item2"
+					slot="Item1"
 					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
