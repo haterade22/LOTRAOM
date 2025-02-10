@@ -267,7 +267,7 @@
 			<PartyTemplateStack
 				min_value="15"
 				max_value="50"
-				troop="NPCCharacter.villager_vlandia" />
+				troop="NPCCharacter.villager_rohan" />
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate
@@ -307,7 +307,7 @@
 			<PartyTemplateStack
 				min_value="15"
 				max_value="50"
-				troop="NPCCharacter.villager_erebor" />
+				troop="NPCCharacter.villager_sturgia" />
 		</stacks>
 	</MBPartyTemplate>
 

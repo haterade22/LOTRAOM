@@ -14253,9 +14253,6 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
-			<!--face_key
-			value="0000fe42c000220458c56743d5b5ab56396a8c717b876e66c7b287ab79c2a84b0005400905c96766000000000000000000000000000000000000000001282000"
-			/-->
 			<BodyProperties
 				version="4"
 				key="0005280140001242947E068A709500460C7250703EB70F135C85021887733A070089B6030822BA9000000000000000000000000000000000000000003F1C7002" />
@@ -14278,13 +14275,45 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Oligarchic" value="1" />
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
-		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet
-				id="vla_king_template_bat_m" />
-			<EquipmentSet
-				id="vla_king_template_civ_m"
-				civilian="true" />
+			<Equipments>
+				<EquipmentRoster>
+					<equipment
+						slot="Item0"
+						id="Item.vlandia_noble_sword_3_t5" />
+					<equipment
+						slot="Item1"
+						id="Item.vlandia_lance_2_t4" />
+					<equipment
+						slot="Item2"
+						id="Item.western_javelin_3_t4" />
+					<equipment
+						slot="Item3"
+						id="Item.cts_rohan_shield" />
+					<equipment
+						slot="Head"
+						id="Item.theodred_helmet" />
+					<equipment
+						slot="Body"
+						id="Item.theodred_armour" />
+					<equipment
+						slot="Gloves"
+						id="Item.theodred_bracers" />
+					<equipment
+						slot="Leg"
+						id="Item.theodred_boots" />
+					<equipment
+						slot="Cape"
+						id="Item.theodred_pauldrons" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="vla_king_template_civ_m"
+					civilian="true" />
+				<equipment
+					slot="Horse"
+					id="Item.noble_horse_southern" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.chain_barding" />
 		</Equipments>
 	</NPCCharacter>
 	<!-- Philenora - benevolent -->
@@ -14783,8 +14812,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				slot="Horse"
 				id="Item.noble_horse_southern" />
 			<equipment
-			slot="HorseHarness"
-			id="Item.chain_barding" />
+				slot="HorseHarness"
+				id="Item.chain_barding" />
 		</Equipments>
 	</NPCCharacter>
 	<!-- Furnhard, as debauched as his father-->

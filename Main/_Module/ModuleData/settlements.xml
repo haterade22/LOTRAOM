@@ -764,7 +764,7 @@
 			<Town id="castle_comp_EW5" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="610" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_siege_001" scene_name_1="empire_siege_001" scene_name_2="empire_siege_001" scene_name_3="empire_siege_001" />
+			<Location id="center" scene_name="SINDARRY_Gondor_Castle1" scene_name_1="SINDARRY_Gondor_Castle1" scene_name_2="SINDARRY_Gondor_Castle1" scene_name_3="SINDARRY_Gondor_Castle1" />
 			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
@@ -830,7 +830,7 @@
 	</Settlement>
 	<Settlement id="castle_village_EW7_1" name="{=Settlements.Settlement.name.castle_village_EW7_1}Endrir" posX="1770.163" posY="1410.736" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW7_1}Oristocorys sits on the Bay of Ortysia, part of the seaway between the western ocean and the Perassic Sea. Early morning sea-mists from the west and the hot sun of midday allow the growing of wine grapes.">
 		<Components>
-			<Village id="castle_village_comp_EW7_1" village_type="VillageType.lumberjack" hearth="603" bound="Settlement.castle_EW7" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW7_1" village_type="VillageType.vineyard" hearth="603" bound="Settlement.castle_EW7" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_004" />
@@ -1428,7 +1428,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_ES6" name="{=Settlements.Settlement.name.castle_ES6}Carchost" owner="Faction.clan_empire_south_10" posX="2070.157" posY="1149.386" culture="Culture.mordor" gate_posX="2067.722" gate_posY="1149.223">
+	<Settlement id="castle_ES6" name="{=Settlements.Settlement.name.castle_ES6}Carchost" owner="Faction.clan_empire_south_1" posX="2070.157" posY="1149.386" culture="Culture.mordor" gate_posX="2067.722" gate_posY="1149.223">
 		<Components>
 			<Town id="castle_comp_ES6" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="670" />
 		</Components>
@@ -1951,7 +1951,6 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-
 	<!-- Sturgia - 5 towns, 18 villages, 6 castles, 3.60 villages per town, 33.3% castle ratio -->
 	<Settlement id="castle_S1" name="{=Settlements.Settlement.name.castle_S1}Stoneheart Hold" owner="Faction.clan_sturgia_5" posX="1865.615" posY="2392.873" culture="Culture.sturgia" gate_posX="1867.503" gate_posY="2392.646">
 		<Components>
@@ -3397,7 +3396,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Vlandia - 8 towns, 22 villages, 5 castles, 2.75 villages per town, 23% castle ratio -->
-	<Settlement id="castle_V1" name="{=Settlements.Settlement.name.castle_V1}Isenford" owner="Faction.clan_vlandia_11" posX="1384.75" posY="1610.231" culture="Culture.vlandia" gate_posX="1383.717" gate_posY="1609.651">
+	<Settlement id="castle_V1" name="{=Settlements.Settlement.name.castle_V1}Starkmoor Keep" owner="Faction.clan_vlandia_11" posX="1121.205" posY="1731.978" culture="Culture.vlandia" gate_posX="1122.107" gate_posY="1730.473">
 		<Components>
 			<Town id="castle_comp_V1" is_castle="true" level="3" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="537" />
 		</Components>
@@ -3407,9 +3406,9 @@
 			<Location id="prison" scene_name="vlandia_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_V1_1" name="{=Settlements.Settlement.name.castle_village_V1_1}Bergenden" posX="1383.801" posY="1603.35" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V1_1}Usanc sits by a small bay that flows into the larger Gulf of Charas. This warm southern land supports the growing of olive trees.">
+	<Settlement id="castle_village_V1_1" name="{=Settlements.Settlement.name.castle_village_V1_1}Breckford" posX="1103.605" posY="1696.04" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V1_1}Usanc sits by a small bay that flows into the larger Gulf of Charas. This warm southern land supports the growing of olive trees.">
 		<Components>
-			<Village id="castle_village_comp_V1_1" village_type="VillageType.olive_trees" hearth="498" gate_rotation="0.008" bound="Settlement.castle_V1" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="castle_village_comp_V1_1" village_type="VillageType.cattle_farm" hearth="498" gate_rotation="0.008" bound="Settlement.castle_V1" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_m" />
@@ -3420,7 +3419,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_V2" name="{=Settlements.Settlement.name.castle_V2}Entwade" owner="Faction.clan_vlandia_9" posX="1385.498" posY="1626.097" culture="Culture.vlandia" gate_posX="1385.689" gate_posY="1626.865">
+	<Settlement id="castle_V2" name="{=Settlements.Settlement.name.castle_V2}Entwade" owner="Faction.clan_vlandia_9" posX="1485.232" posY="1639.93" culture="Culture.vlandia" gate_posX="1483.61" gate_posY="1639.913">
 		<Components>
 			<Town id="castle_comp_V2" is_castle="true" level="2" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="1020" />
 		</Components>
@@ -3430,9 +3429,9 @@
 			<Location id="prison" scene_name="vlandia_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_V2_1" name="{=Settlements.Settlement.name.castle_village_V2_1}Athelburg" posX="1389.734" posY="1635.074" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V2_1}Hongard sits in the warm wooded lands near the meandering Trand river. This land, rich in wheat and once the heartland of the Empire, is now the center of the Vlandian kingdom.">
+	<Settlement id="castle_village_V2_1" name="{=Settlements.Settlement.name.castle_village_V2_1}Elmsworth" posX="1469.924" posY="1594.363" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V2_1}Hongard sits in the warm wooded lands near the meandering Trand river. This land, rich in wheat and once the heartland of the Empire, is now the center of the Vlandian kingdom.">
 		<Components>
-			<Village id="castle_village_comp_V2_1" village_type="VillageType.wheat_farm" hearth="400" gate_rotation="0.008" bound="Settlement.castle_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="castle_village_comp_V2_1" village_type="VillageType.trapper" hearth="400" gate_rotation="0.008" bound="Settlement.castle_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_f" />
@@ -3443,9 +3442,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_V2_2" name="{=Settlements.Settlement.name.castle_village_V2_2}Grenewaet" posX="1392.4" posY="1625.697" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V2_2}Ferton near a curve of the meandering Trand river, not far from a pass leading seaward over the Biscan Hills. The villagers grow olives on the warm, dry landward side of the hills.">
+	<Settlement id="castle_village_V2_2" name="{=Settlements.Settlement.name.castle_village_V2_2}Grimbold’s Hollow" posX="1459.997" posY="1678.101" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V2_2}Ferton near a curve of the meandering Trand river, not far from a pass leading seaward over the Biscan Hills. The villagers grow olives on the warm, dry landward side of the hills.">
 		<Components>
-			<Village id="castle_village_comp_V2_2" village_type="VillageType.olive_trees" hearth="400" gate_rotation="0.008" bound="Settlement.castle_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="castle_village_comp_V2_2" village_type="VillageType.lumberjack" hearth="400" gate_rotation="0.008" bound="Settlement.castle_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_k" />
@@ -3456,7 +3455,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_V3" name="{=Settlements.Settlement.name.castle_V3}Fenmarch" owner="Faction.clan_vlandia_2" posX="1390.443" posY="1651.002" culture="Culture.vlandia" gate_posX="1390.792" gate_posY="1650.026">
+	<Settlement id="castle_V3" name="{=Settlements.Settlement.name.castle_V3}Dunlostir" owner="Faction.clan_vlandia_2" posX="1167.653" posY="1502.832" culture="Culture.vlandia" gate_posX="1169.123" gate_posY="1502.405">
 		<Components>
 			<Town id="castle_comp_V3" is_castle="true" level="1" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="830" />
 		</Components>
@@ -3466,9 +3465,9 @@
 			<Location id="prison" scene_name="vlandia_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_V3_1" name="{=Settlements.Settlement.name.castle_village_V3_1}Beaconwatch" posX="1392.293" posY="1647.593" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V3_1}Drapand sits near the tip of Cape Fal, a promontory just south of the mouth of the Trand River. The villagers venture out far into the seas to cod-rich banks washed by a cold current from the north.">
+	<Settlement id="castle_village_V3_1" name="{=Settlements.Settlement.name.castle_village_V3_1}Leofwine" posX="1168.687" posY="1538.089" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V3_1}Drapand sits near the tip of Cape Fal, a promontory just south of the mouth of the Trand River. The villagers venture out far into the seas to cod-rich banks washed by a cold current from the north.">
 		<Components>
-			<Village id="castle_village_comp_V3_1" village_type="VillageType.fisherman" hearth="285" gate_rotation="0.258" bound="Settlement.castle_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="castle_village_comp_V3_1" village_type="VillageType.vlandian_horse_ranch" hearth="285" gate_rotation="0.258" bound="Settlement.castle_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_i" />
@@ -3479,7 +3478,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_V4" name="{=Settlements.Settlement.name.castle_V4}Langhold" owner="Faction.clan_vlandia_10" posX="1390.714" posY="1666.383" culture="Culture.vlandia" gate_posX="1390.718" gate_posY="1667.174">
+	<Settlement id="castle_V4" name="{=Settlements.Settlement.name.castle_V4}Eorl’s Watch" owner="Faction.clan_vlandia_10" posX="1429.366" posY="1601.739" culture="Culture.vlandia" gate_posX="1428.959" gate_posY="1603.446">
 		<Components>
 			<Town id="castle_comp_V4" is_castle="true" level="3" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="650" />
 		</Components>
@@ -3489,7 +3488,7 @@
 			<Location id="prison" scene_name="vlandia_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_V4_1" name="{=Settlements.Settlement.name.castle_village_V4_1}Fiskworth" posX="1396.226" posY="1667.518" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V4_1}Ormanfard sits by a small, fast-flowing river that runs down from the mountains of the Rhennod to fill the lake known as Ocspool. Rains are plentiful and wheat and barley grow well on the hillsides.">
+	<Settlement id="castle_village_V4_1" name="{=Settlements.Settlement.name.castle_village_V4_1}Ridgestead" posX="1438.754" posY="1587.14" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V4_1}Ormanfard sits by a small, fast-flowing river that runs down from the mountains of the Rhennod to fill the lake known as Ocspool. Rains are plentiful and wheat and barley grow well on the hillsides.">
 		<Components>
 			<Village id="castle_village_comp_V4_1" village_type="VillageType.wheat_farm" hearth="170" gate_rotation="0.208" bound="Settlement.castle_V4" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
@@ -3502,7 +3501,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_V5" name="{=Settlements.Settlement.name.castle_V5}Hornburg" owner="Faction.clan_vlandia_5" posX="1387.584" posY="1578.85" culture="Culture.vlandia" gate_posX="1386.5" gate_posY="1578.667">
+	<Settlement id="castle_V5" name="{=Settlements.Settlement.name.castle_V5}Goldburg" owner="Faction.clan_vlandia_5" posX="1106.986" posY="1555.213" culture="Culture.vlandia" gate_posX="1108.428" gate_posY="1555.38">
 		<Components>
 			<Town id="castle_comp_V5" is_castle="true" level="2" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="630" />
 		</Components>
@@ -3512,9 +3511,9 @@
 			<Location id="prison" scene_name="vlandia_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_V5_1" name="{=Settlements.Settlement.name.castle_village_V5_1}Tildrim" posX="1396.828" posY="1575.866" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V5_1}Tirby sits in the cold misty waters that lie off of the Ebor peninsula. The low-lying lands on the northern side of the Ebor are suited to the growing of flax.">
+	<Settlement id="castle_village_V5_1" name="{=Settlements.Settlement.name.castle_village_V5_1}Fendell" posX="1068.146" posY="1578.808" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V5_1}Tirby sits in the cold misty waters that lie off of the Ebor peninsula. The low-lying lands on the northern side of the Ebor are suited to the growing of flax.">
 		<Components>
-			<Village id="castle_village_comp_V5_1" village_type="VillageType.flax_plant" hearth="640" bound="Settlement.castle_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="castle_village_comp_V5_1" village_type="VillageType.wheat_farm" hearth="640" bound="Settlement.castle_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_i" />
@@ -3525,7 +3524,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_V5_2" name="{=Settlements.Settlement.name.castle_village_V5_2}Norton" posX="1389.455" posY="1574.549" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V5_2}Sirindac lies beneath the high ridges of the Ebor peninsula, somewhat sheltered from the bitter winds blowing out of the northwest. Migrants come here from across the Vlandian lands to prospect for silver in the mountain streams.">
+	<Settlement id="castle_village_V5_2" name="{=Settlements.Settlement.name.castle_village_V5_2}Westfold" posX="1085.791" posY="1502.8" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V5_2}Sirindac lies beneath the high ridges of the Ebor peninsula, somewhat sheltered from the bitter winds blowing out of the northwest. Migrants come here from across the Vlandian lands to prospect for silver in the mountain streams.">
 		<Components>
 			<Village id="castle_village_comp_V5_2" village_type="VillageType.silver_mine" hearth="640" bound="Settlement.castle_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
@@ -3538,7 +3537,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_V6" name="{=Settlements.Settlement.name.castle_V6}Aldburg Keep" owner="Faction.clan_vlandia_6" posX="1407.031" posY="1566.174" culture="Culture.vlandia" gate_posX="1407.476" gate_posY="1565.284">
+	<Settlement id="castle_V6" name="{=Settlements.Settlement.name.castle_V6}Aldenberg" owner="Faction.clan_vlandia_6" posX="1555.683" posY="1675.486" culture="Culture.vlandia" gate_posX="1556.32" gate_posY="1677.121">
 		<Components>
 			<Town id="castle_comp_V6" is_castle="true" level="1" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="760" />
 		</Components>
@@ -3548,9 +3547,9 @@
 			<Location id="prison" scene_name="vlandia_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_V6_1" name="{=Settlements.Settlement.name.castle_village_V6_1}Aldfold" posX="1413.489" posY="1572.075" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V6_1}Caleus lies on the misty coastal plain south of the Bay of Varcheg. Villagers speak a mix of the Vlandian, Sturgian and Battanian tongues. They grow flax in the lowlands here.">
+	<Settlement id="castle_village_V6_1" name="{=Settlements.Settlement.name.castle_village_V6_1}Aldfold" posX="1597.073" posY="1698.598" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V6_1}Caleus lies on the misty coastal plain south of the Bay of Varcheg. Villagers speak a mix of the Vlandian, Sturgian and Battanian tongues. They grow flax in the lowlands here.">
 		<Components>
-			<Village id="castle_village_V6_1" village_type="VillageType.flax_plant" hearth="429" bound="Settlement.castle_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="castle_village_V6_1" village_type="VillageType.cattle_farm" hearth="429" bound="Settlement.castle_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_g" />
@@ -3561,9 +3560,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_V6_2" name="{=Settlements.Settlement.name.castle_village_V6_2}Frodale" posX="1414.954" posY="1565.856" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V6_2}Deriat sits between the Bay of Varcheg and the ridges of the Ebor peninsula. Villagers here trap beaver and mink in the hills and sometimes pursue seals in the waters of the bay.">
+	<Settlement id="castle_village_V6_2" name="{=Settlements.Settlement.name.castle_village_V6_2}Frodale" posX="1556.275" posY="1745.31" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V6_2}Deriat sits between the Bay of Varcheg and the ridges of the Ebor peninsula. Villagers here trap beaver and mink in the hills and sometimes pursue seals in the waters of the bay.">
 		<Components>
-			<Village id="castle_village_V6_2" village_type="VillageType.trapper" hearth="429" bound="Settlement.castle_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="castle_village_V6_2" village_type="VillageType.swine_farm" hearth="429" bound="Settlement.castle_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_k" />
@@ -3574,7 +3573,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_V7" name="{=Settlements.Settlement.name.castle_V7}Forthbrond" owner="Faction.clan_vlandia_1" posX="1424.314" posY="1556.995" culture="Culture.vlandia" gate_posX="1425.248" gate_posY="1557.52">
+	<Settlement id="castle_V7" name="{=Settlements.Settlement.name.castle_V7}Forthbrond" owner="Faction.clan_vlandia_1" posX="1329.787" posY="1591.163" culture="Culture.vlandia" gate_posX="1329.395" gate_posY="1589.453">
 		<Components>
 			<Town id="castle_comp_V7" is_castle="true" level="1" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="770" />
 		</Components>
@@ -3584,9 +3583,9 @@
 			<Location id="prison" scene_name="vlandia_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_V7_1" name="{=Settlements.Settlement.name.castle_village_V7_1}Hightor" posX="1418.428" posY="1553.069" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V7_1}Talivel in the middle of the Trand valley in the heartland of Calradia. Villagers plant olives here on the hillsides.">
+	<Settlement id="castle_village_V7_1" name="{=Settlements.Settlement.name.castle_village_V7_1}Hightor" posX="1355.077" posY="1578.601" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V7_1}Talivel in the middle of the Trand valley in the heartland of Calradia. Villagers plant olives here on the hillsides.">
 		<Components>
-			<Village id="castle_village_V7_1" village_type="VillageType.olive_trees" hearth="667" gate_rotation="0.008" bound="Settlement.castle_V7" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="castle_village_V7_1" village_type="VillageType.vlandian_horse_ranch" hearth="667" gate_rotation="0.008" bound="Settlement.castle_V7" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_n" />
@@ -3597,7 +3596,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_V8" name="{=Settlements.Settlement.name.castle_V8}Forlaw" owner="Faction.clan_vlandia_7" posX="1446.328" posY="1550.318" culture="Culture.vlandia" gate_posX="1445.33" gate_posY="1550.124">
+	<Settlement id="castle_V8" name="{=Settlements.Settlement.name.castle_V8}Theodred’s Hold" owner="Faction.clan_vlandia_7" posX="1407.215" posY="1685.226" culture="Culture.vlandia" gate_posX="1406.162" gate_posY="1683.822">
 		<Components>
 			<Town id="castle_comp_V8" is_castle="true" level="1" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.508" prosperity="780" />
 		</Components>
@@ -3607,9 +3606,9 @@
 			<Location id="prison" scene_name="vlandia_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_V8_1" name="{=Settlements.Settlement.name.castle_village_V8_1}Harrowhill" posX="1454.319" posY="1548.677" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V8_1}Verecsand sits by the waters of the Ocspool, a small but deep inland lake. Villagers here grow wheat in the gentle downs by the lakeside.">
+	<Settlement id="castle_village_V8_1" name="{=Settlements.Settlement.name.castle_village_V8_1}Harrowhill" posX="1332.261" posY="1670.431" culture="Culture.vlandia" text="{=Settlements.Settlement.text.castle_village_V8_1}Verecsand sits by the waters of the Ocspool, a small but deep inland lake. Villagers here grow wheat in the gentle downs by the lakeside.">
 		<Components>
-			<Village id="castle_village_V8_1" village_type="VillageType.wheat_farm" hearth="230" gate_rotation="0.008" bound="Settlement.castle_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="castle_village_V8_1" village_type="VillageType.sheep_farm" hearth="230" gate_rotation="0.008" bound="Settlement.castle_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_c" />
@@ -3621,7 +3620,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Sargot, from Calradic Sargythea, Right Whale bay-->
-	<Settlement id="town_V1" name="{=Settlements.Settlement.name.town_V1}Edoras" owner="Faction.clan_vlandia_1" posX="1355.44" posY="1607.02" culture="Culture.vlandia" gate_posX="1352.15" gate_posY="1610.083" text="{=aOn6pa0D}Sargot is a common name for hills, promontories, islands and other defensible positions in western Calradia. It refers to a fortified encampment of the Massa, a tribe allied to the the Vlandians who joined their invasion.  Though the Massa moved on, their stay was often so traumatic for a district that the name remained long after their departure. This Sargot was actually founded on the ruins of an imperial town, resettled by Vlandians, and which has supplanted the memory of the community that came before it.">
+	<Settlement id="town_V1" name="{=Settlements.Settlement.name.town_V1}Edoras" owner="Faction.clan_vlandia_1" posX="1443.336" posY="1555.492" culture="Culture.vlandia" gate_posX="1445.053" gate_posY="1555" text="{=aOn6pa0D}Sargot is a common name for hills, promontories, islands and other defensible positions in western Calradia. It refers to a fortified encampment of the Massa, a tribe allied to the the Vlandians who joined their invasion.  Though the Massa moved on, their stay was often so traumatic for a district that the name remained long after their departure. This Sargot was actually founded on the ruins of an imperial town, resettled by Vlandians, and which has supplanted the memory of the community that came before it.">
 		<Components>
 			<Town id="town_comp_V1" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.378" prosperity="4500" />
 		</Components>
@@ -3643,9 +3642,9 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- From the Battanian Caliog, place of Cal -->
-	<Settlement id="village_V1_1" name="{=Settlements.Settlement.name.village_V1_1}Simbelmyne" posX="1354.72" posY="1597.09" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V1_1}Calioc on a flat plain between the Epiric and Biscan hills of the central Vlandian lands. The people of this district grow flax on the marshy lands.">
+	<Settlement id="village_V1_1" name="{=Settlements.Settlement.name.village_V1_1}Fenhallow" posX="1463.739" posY="1558.397" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V1_1}Calioc on a flat plain between the Epiric and Biscan hills of the central Vlandian lands. The people of this district grow flax on the marshy lands.">
 		<Components>
-			<Village id="village_comp_V1_1" village_type="VillageType.flax_plant" hearth="132" gate_rotation="0.008" bound="Settlement.town_V1" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="village_comp_V1_1" village_type="VillageType.cattle_farm" hearth="132" gate_rotation="0.008" bound="Settlement.town_V1" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_k" />
@@ -3656,7 +3655,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_V1_2" name="{=Settlements.Settlement.name.village_V1_2}Middlemead" posX="1342.87" posY="1597.452" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V1_2}Etirfurd sits near the Battanian frontier on a low spur just west of where the Etir river comes bursting out of a spring in the cliffs of the Uchalion massif. The villagers here grow wheat, finding a ready market in the garrisons stationed nearby.">
+	<Settlement id="village_V1_2" name="{=Settlements.Settlement.name.village_V1_2}Snowbourn" posX="1424.659" posY="1530.613" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V1_2}Etirfurd sits near the Battanian frontier on a low spur just west of where the Etir river comes bursting out of a spring in the cliffs of the Uchalion massif. The villagers here grow wheat, finding a ready market in the garrisons stationed nearby.">
 		<Components>
 			<Village id="village_comp_V1_2" village_type="VillageType.wheat_farm" hearth="101" gate_rotation="0.258" bound="Settlement.town_V1" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
@@ -3670,7 +3669,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Redstone,  -->
-	<Settlement id="castle_village_V7_2" name="{=Settlements.Settlement.name.castle_village_V7_2}Dunharrow" posX="1426.094" posY="1551" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V1_3}Rodetan takes its name from the ruddy, iron-rich soil of this part of the the Rhennod hills. The mines of this district supply the iron ore for many of the forges of the Vlandian kingdom.">
+	<Settlement id="castle_village_V7_2" name="{=Settlements.Settlement.name.castle_village_V7_2}Dunharrow" posX="1282.248" posY="1566.474" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V1_3}Rodetan takes its name from the ruddy, iron-rich soil of this part of the the Rhennod hills. The mines of this district supply the iron ore for many of the forges of the Vlandian kingdom.">
 		<Components>
 			<Village id="castle_village_comp_V7_2" village_type="VillageType.iron_mine" hearth="264" gate_rotation="0.508" bound="Settlement.castle_V7" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
@@ -3684,7 +3683,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- From Calradic, Lobster claw  // how about Uxhall precursor - Arma-->
-	<Settlement id="town_V2" name="{=Settlements.Settlement.name.town_V2}Grimslade" owner="Faction.clan_vlandia_7" posX="1355.245" posY="1626.865" culture="Culture.vlandia" gate_posX="1350.851" gate_posY="1625.589" text="{=nhmBQIC4}Ocs Hall is one of the few towns in the Vlandian kingdom that was founded after the seizure of the land from the Empire. This valley was once an isolated holdout of Battanians, centered on the Llyn Modris, a lake in a volcanic caldera that was said to be the  seat of a giant. This land was conquered by the Vlandian warlord Oca, who also gave his name to the nearby Ocspool lake. The Battanian tribes were driven inland, and took their legends with them.">
+	<Settlement id="town_V2" name="{=Settlements.Settlement.name.town_V2}Thornhope" owner="Faction.clan_vlandia_3" posX="1612.072" posY="1700.107" culture="Culture.vlandia" gate_posX="1610.783" gate_posY="1699.382" text="{=nhmBQIC4}Ocs Hall is one of the few towns in the Vlandian kingdom that was founded after the seizure of the land from the Empire. This valley was once an isolated holdout of Battanians, centered on the Llyn Modris, a lake in a volcanic caldera that was said to be the  seat of a giant. This land was conquered by the Vlandian warlord Oca, who also gave his name to the nearby Ocspool lake. The Battanian tribes were driven inland, and took their legends with them.">
 		<Components>
 			<Town id="town_comp_V2" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.308" prosperity="4200" />
 		</Components>
@@ -3705,9 +3704,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_V2_1" name="{=Settlements.Settlement.name.village_V2_1}Aldorstowe" posX="1349.637" posY="1620.574" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V2_1}Mareiven sits on the steep wooded slopes of the Rhennod mountains, overlooking the Ocspool. Villagers harvest the tall trees of the heights, selling the logs to cities on the coast.">
+	<Settlement id="village_V2_1" name="{=Settlements.Settlement.name.village_V2_1}Underharrow" posX="1625.745" posY="1659.943" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V2_1}Mareiven sits on the steep wooded slopes of the Rhennod mountains, overlooking the Ocspool. Villagers harvest the tall trees of the heights, selling the logs to cities on the coast.">
 		<Components>
-			<Village id="village_comp_V2_1" village_type="VillageType.lumberjack" hearth="216" gate_rotation="0.008" bound="Settlement.town_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="village_comp_V2_1" village_type="VillageType.iron_mine" hearth="216" gate_rotation="0.008" bound="Settlement.town_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_c" />
@@ -3718,7 +3717,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_V2_2" name="{=Settlements.Settlement.name.village_V2_2}Isenwaecce" posX="1360.623" posY="1622.787" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V2_2}Oritan sits on a short river that rushes out of the mountains of the Ebor peninsula and empties into the Ocspool. The river slows as it hits a nearby bend, allowing the collection of potters' clay from the banks.">
+	<Settlement id="village_V2_2" name="{=Settlements.Settlement.name.village_V2_2}Upbourn" posX="1583.605" posY="1747.167" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V2_2}Oritan sits on a short river that rushes out of the mountains of the Ebor peninsula and empties into the Ocspool. The river slows as it hits a nearby bend, allowing the collection of potters' clay from the banks.">
 		<Components>
 			<Village id="village_comp_V2_2" village_type="VillageType.clay_mine" hearth="347" gate_rotation="0.008" bound="Settlement.town_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
@@ -3731,9 +3730,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_V2_3" name="{=Settlements.Settlement.name.village_V2_3}Athdar" posX="1349.608" posY="1634.431" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V2_3}Fregian sits on the flatlands north of Pravend, where the warmth of the Vlandian south begins to give way to the chills of the north. Villagers plant flax here amid the bogs and pastures.">
+	<Settlement id="village_V2_3" name="{=Settlements.Settlement.name.village_V2_3}Fryntholt" posX="1532.537" posY="1698.191" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V2_3}Fregian sits on the flatlands north of Pravend, where the warmth of the Vlandian south begins to give way to the chills of the north. Villagers plant flax here amid the bogs and pastures.">
 		<Components>
-			<Village id="village_comp_V2_3" village_type="VillageType.flax_plant" hearth="347" gate_rotation="0.008" bound="Settlement.town_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="village_comp_V2_3" village_type="VillageType.wheat_farm" hearth="347" gate_rotation="0.008" bound="Settlement.town_V2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_g" />
@@ -3744,9 +3743,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_V8_2" name="{=Settlements.Settlement.name.castle_village_V8_2}Sunland" posX="1451.587" posY="1559.85" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V2_4}Marin lies on the slopes west of the Ocspool. Misty mornings cooled by sea drifting south and warm afternoons make this land well-suited to the growing of grapes.">
+	<Settlement id="castle_village_V8_2" name="{=Settlements.Settlement.name.castle_village_V8_2}Sunland" posX="1313.75" posY="1664.426" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V2_4}Marin lies on the slopes west of the Ocspool. Misty mornings cooled by sea drifting south and warm afternoons make this land well-suited to the growing of grapes.">
 		<Components>
-			<Village id="castle_village_comp_V8_2" village_type="VillageType.vineyard" hearth="341" gate_rotation="0.008" bound="Settlement.castle_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="castle_village_comp_V8_2" village_type="VillageType.fisherman" hearth="341" gate_rotation="0.008" bound="Settlement.castle_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_i" />
@@ -3759,7 +3758,7 @@
 	</Settlement>
 	<!-- Vlandian ruling clan 4_1, 2, 7, 13 -->
 	<!-- From Calradic Parzeonerea: 'City of He Who Rules By Heaven's Will')-->
-	<Settlement id="town_V3" name="{=Settlements.Settlement.name.town_V3}Thornhope" owner="Faction.clan_vlandia_2" posX="1353.727" posY="1651.855" culture="Culture.vlandia" gate_posX="1350.696" gate_posY="1654.636" text="{=Nx0qK2g6}Paravenos was the second major colony founded by Calradios the Great, and it soon succeeded Charasea as the capital of the Calradians. Eventually, the empire's center of gravity moved east, but Paravenos retained its primacy as the economic center of the West. When Osric Iron-Arm the Vlandian invaded, he recognized Paravenos would be far more valuable as a seat of power than as simply as a source of loot,  and negotiated its surrender with local senators. It passed to a cadet branch of Osric's line, the dey Tihr clan, and is today known as Pravend.">
+	<Settlement id="town_V3" name="{=Settlements.Settlement.name.town_V3}Stowburg" owner="Faction.clan_vlandia_2" posX="1536.408" posY="1574.483" culture="Culture.vlandia" gate_posX="1535.861" gate_posY="1575.394" text="{=Nx0qK2g6}Paravenos was the second major colony founded by Calradios the Great, and it soon succeeded Charasea as the capital of the Calradians. Eventually, the empire's center of gravity moved east, but Paravenos retained its primacy as the economic center of the West. When Osric Iron-Arm the Vlandian invaded, he recognized Paravenos would be far more valuable as a seat of power than as simply as a source of loot,  and negotiated its surrender with local senators. It passed to a cadet branch of Osric's line, the dey Tihr clan, and is today known as Pravend.">
 		<Components>
 			<Town id="town_comp_V3" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.008" prosperity="3200" />
 		</Components>
@@ -3781,9 +3780,9 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Valan's Bay (landing place) -->
-	<Settlement id="castle_village_V3_2" name="{=Settlements.Settlement.name.castle_village_V3_2}Dunfast" posX="1397.973" posY="1652.248" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V3_1}Valanby sits overlooking the Trand estuary. Villagers plant flax in land reclaimed from the riverside marshes.">
+	<Settlement id="castle_village_V3_2" name="{=Settlements.Settlement.name.castle_village_V3_2}Gwanlend" posX="1207.626" posY="1542.242" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V3_1}Valanby sits overlooking the Trand estuary. Villagers plant flax in land reclaimed from the riverside marshes.">
 		<Components>
-			<Village id="castle_village_comp_V3_2" village_type="VillageType.vlandian_horse_ranch" hearth="280" gate_rotation="0.008" bound="Settlement.castle_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="castle_village_comp_V3_2" village_type="VillageType.battanian_horse_ranch" hearth="280" gate_rotation="0.008" bound="Settlement.castle_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_m" />
@@ -3794,7 +3793,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_V3_2" name="{=Settlements.Settlement.name.village_V3_2}Entwash" posX="1362.518" posY="1650.77" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V3_2}Rulund sits in the forested middle valleys of the Trand. The villagers specialize in the raising of hogs, who feast on acorns from the oak woodlands.">
+	<Settlement id="village_V3_2" name="{=Settlements.Settlement.name.village_V3_2}Walstow" posX="1522.14" posY="1557.911" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V3_2}Rulund sits in the forested middle valleys of the Trand. The villagers specialize in the raising of hogs, who feast on acorns from the oak woodlands.">
 		<Components>
 			<Village id="village_comp_V3_2" village_type="VillageType.swine_farm" hearth="112" gate_rotation="0.458" bound="Settlement.town_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
@@ -3807,7 +3806,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_V3_3" name="{=Settlements.Settlement.name.village_V3_3}Eafierd" posX="1361.713" posY="1658.246" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V3_3}Larnac sits on gentle hills on the lower Trand valley. Villagers plant rye, barley and wheat for sale to the hungry urban population of nearby Pravend.">
+	<Settlement id="village_V3_3" name="{=Settlements.Settlement.name.village_V3_3}Stonewold" posX="1531.92" posY="1597.288" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V3_3}Larnac sits on gentle hills on the lower Trand valley. Villagers plant rye, barley and wheat for sale to the hungry urban population of nearby Pravend.">
 		<Components>
 			<Village id="village_comp_V3_3" village_type="VillageType.wheat_farm" hearth="360" gate_rotation="0.008" bound="Settlement.town_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
@@ -3820,9 +3819,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_V3_4" name="{=Settlements.Settlement.name.village_V3_4}Mistham" posX="1358.392" posY="1643.851" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V3_4}Palisont sits at the mouth of a rocky glen that splits the grassy downs north of the Trand river. The soil is thin in these parts, but the village does well farming hogs and other livestock.">
+	<Settlement id="village_V3_4" name="{=Settlements.Settlement.name.village_V3_4}Mistham" posX="1517.919" posY="1628.763" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V3_4}Palisont sits at the mouth of a rocky glen that splits the grassy downs north of the Trand river. The soil is thin in these parts, but the village does well farming hogs and other livestock.">
 		<Components>
-			<Village id="village_comp_V3_4" village_type="VillageType.vineyard" hearth="360" gate_rotation="0.008" bound="Settlement.town_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="village_comp_V3_4" village_type="VillageType.desert_horse_ranch" hearth="360" gate_rotation="0.008" bound="Settlement.town_V3" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_h" />
@@ -3860,7 +3859,7 @@
   </Settlement-->
 	<!-- Thali's well -->
 	<!-- from archaic Calradic Ialonos, home of the Ialoi tribe -->
-	<Settlement id="town_V5" name="{=Settlements.Settlement.name.town_V5}Aldburg" owner="Faction.clan_vlandia_1" posX="1366.352" posY="1582.547" culture="Culture.vlandia" gate_posX="1370.347" gate_posY="1580.032" text="{=79R6gi4l}Galend overlooks the wave-beaten Biscan coast. It takes in the catch from the Biscan's intrepid fishermen who venture out far into the western ocean, as well as the wool of sheep from the green fog-covered hills. The current line of Vlandian kings comes from the clans who settled in this region during Osric Iron-Arm's invasion.">
+	<Settlement id="town_V5" name="{=Settlements.Settlement.name.town_V5}Aldburg" owner="Faction.clan_vlandia_1" posX="1467.66" posY="1521.04" culture="Culture.vlandia" gate_posX="1467.771" gate_posY="1523.906" text="{=79R6gi4l}Galend overlooks the wave-beaten Biscan coast. It takes in the catch from the Biscan's intrepid fishermen who venture out far into the western ocean, as well as the wool of sheep from the green fog-covered hills. The current line of Vlandian kings comes from the clans who settled in this region during Osric Iron-Arm's invasion.">
 		<Components>
 			<Town id="town_comp_V5" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" prosperity="1900" />
 		</Components>
@@ -3882,9 +3881,9 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Dirty stream -->
-	<Settlement id="village_V5_1" name="{=Settlements.Settlement.name.village_V5_1}Everholt" posX="1355.792" posY="1583.616" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V5_1}Furbec sits on a shelf overlooking the rocky Biscan coast of central Vlandia. The climate is warm most of the year, and grapes do well on the slopes of the Biscan hills.">
+	<Settlement id="village_V5_1" name="{=Settlements.Settlement.name.village_V5_1}Everholt" posX="1489.644" posY="1518.891" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V5_1}Furbec sits on a shelf overlooking the rocky Biscan coast of central Vlandia. The climate is warm most of the year, and grapes do well on the slopes of the Biscan hills.">
 		<Components>
-			<Village id="village_comp_V5_1" village_type="VillageType.vineyard" hearth="488" gate_rotation="0.008" bound="Settlement.town_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="village_comp_V5_1" village_type="VillageType.fisherman" hearth="488" gate_rotation="0.008" bound="Settlement.town_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_g" />
@@ -3896,9 +3895,9 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Pre-Calradic, red -->
-	<Settlement id="village_V5_2" name="{=Settlements.Settlement.name.village_V5_2}Aclea" posX="1359.643" posY="1576.295" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V5_2}Meroc is a fishing village overlooking a cove in the Biscan Coast. The villagers sail out into the western ocean in search of mullet and bass near the shore, and tuna and sardines amid the islands to the south.">
+	<Settlement id="village_V5_2" name="{=Settlements.Settlement.name.village_V5_2}Aclea" posX="1445.491" posY="1527.978" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V5_2}Meroc is a fishing village overlooking a cove in the Biscan Coast. The villagers sail out into the western ocean in search of mullet and bass near the shore, and tuna and sardines amid the islands to the south.">
 		<Components>
-			<Village id="village_comp_V5_2" village_type="VillageType.fisherman" hearth="527" bound="Settlement.town_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="village_comp_V5_2" village_type="VillageType.iron_mine" hearth="527" bound="Settlement.town_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_m" />
@@ -3909,7 +3908,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_V5_3" name="{=Settlements.Settlement.name.village_V5_3}Cristhorn" posX="1367.872" posY="1574.399" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V5_3}Nogrent sits on a slope of the Biscan hills in central Vlandia. Villagers here raise sheep on the pastures between the coastal woods and the high crags of the hills.">
+	<Settlement id="village_V5_3" name="{=Settlements.Settlement.name.village_V5_3}Cristhorn" posX="1500.013" posY="1547.927" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V5_3}Nogrent sits on a slope of the Biscan hills in central Vlandia. Villagers here raise sheep on the pastures between the coastal woods and the high crags of the hills.">
 		<Components>
 			<Village id="village_comp_V5_3" village_type="VillageType.sheep_farm" hearth="211" bound="Settlement.town_V5" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
@@ -3924,7 +3923,7 @@
 	</Settlement>
 	<!-- House of Arromanc - Clan 3 old Jelkala and Charys, by the sea. 4_3, 4_8, 4_14 -->
 	<!-- From the pre-Calradic, jackal's den -->
-	<Settlement id="town_V6" name="{=Settlements.Settlement.name.town_V6}Snowbourn" owner="Faction.clan_vlandia_3" posX="1377.599" posY="1564.215" culture="Culture.vlandia" gate_posX="1381.782" gate_posY="1563.585" text="{=R6YJsK89}Jaculan sits in the warmer southern reaches of the Biscan coast, in rolling hills known for their olive trees. It was once a favored resort of the imperial aristocracy, who hunted wild boars amid the oak forests. The independent peasantry of this region are known for their heterodox ideas. The Brotherhood of the Woods is but the latest of a series of rebellions to have broken out here, sometimes aided by an aristocracy that considers them a tool to use against rival Vlandian houses.">
+	<Settlement id="town_V6" name="{=Settlements.Settlement.name.town_V6}Grimburg" owner="Faction.clan_vlandia_7" posX="1203.654" posY="1599.006" culture="Culture.vlandia" gate_posX="1204.861" gate_posY="1601.605" text="{=R6YJsK89}Jaculan sits in the warmer southern reaches of the Biscan coast, in rolling hills known for their olive trees. It was once a favored resort of the imperial aristocracy, who hunted wild boars amid the oak forests. The independent peasantry of this region are known for their heterodox ideas. The Brotherhood of the Woods is but the latest of a series of rebellions to have broken out here, sometimes aided by an aristocracy that considers them a tool to use against rival Vlandian houses.">
 		<Components>
 			<Town id="town_comp_V6" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" prosperity="4000" />
 		</Components>
@@ -3946,9 +3945,9 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- From the pre-Calradic hero Armac-->
-	<Settlement id="village_V6_1" name="{=Settlements.Settlement.name.village_V6_1}Stoke" posX="1366.533" posY="1563.333" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V6_1}Arromanc lies in the Neurval, a valley that runs between the Biscan and Epiric hills. The warm lands of the Vlandian south are well-suited to the growing of olives.">
+	<Settlement id="village_V6_1" name="{=Settlements.Settlement.name.village_V6_1}Gramburg" posX="1178.496" posY="1639.853" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V6_1}Arromanc lies in the Neurval, a valley that runs between the Biscan and Epiric hills. The warm lands of the Vlandian south are well-suited to the growing of olives.">
 		<Components>
-			<Village id="village_comp_V6_1" village_type="VillageType.olive_trees" hearth="120" gate_rotation="0.058" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="village_comp_V6_1" village_type="VillageType.desert_horse_ranch" hearth="120" gate_rotation="0.058" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_j" />
@@ -3959,9 +3958,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_V6_2" name="{=Settlements.Settlement.name.village_V6_2}Brockbridge" posX="1370.862" posY="1557.733" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V6_2}Mot lies in the Neurval, a valley that runs between the Biscan and Epiric hills. The warm lands of the Vlandian south are well-suited to the growing of olives.">
+	<Settlement id="village_V6_2" name="{=Settlements.Settlement.name.village_V6_2}Foldburg" posX="1264.197" posY="1645.629" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V6_2}Mot lies in the Neurval, a valley that runs between the Biscan and Epiric hills. The warm lands of the Vlandian south are well-suited to the growing of olives.">
 		<Components>
-			<Village id="village_comp_V6_2" village_type="VillageType.olive_trees" hearth="615" gate_rotation="0.008" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="village_comp_V6_2" village_type="VillageType.lumberjack" hearth="615" gate_rotation="0.008" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_l" />
@@ -3973,9 +3972,9 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Alderstand-->
-	<Settlement id="village_V6_3" name="{=Settlements.Settlement.name.village_V6_3}Eafierd" posX="1382.516" posY="1557.18" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V6_3}Alorstan sits on a shelf overlooking the sea, at the foot of the Biscan Hills. The warm south of the Vlandian lands is well-suited to the cultivation of olives.">
+	<Settlement id="village_V6_3" name="{=Settlements.Settlement.name.village_V6_3}Westermnet Village" posX="1224.911" posY="1653.96" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V6_3}Alorstan sits on a shelf overlooking the sea, at the foot of the Biscan Hills. The warm south of the Vlandian lands is well-suited to the cultivation of olives.">
 		<Components>
-			<Village id="village_comp_V6_3" village_type="VillageType.olive_trees" hearth="157" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="village_comp_V6_3" village_type="VillageType.cattle_farm" hearth="157" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_k" />
@@ -3986,7 +3985,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_V6_4" name="{=Settlements.Settlement.name.village_V6_4}Jevinnen" posX="1376.632" posY="1554.378" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V6_4}Chornad sits overlooking a pass through the Biscan hills. The villagers of this region, like many in the central Vlandian kingdom, specializing in the raising of pigs.">
+	<Settlement id="village_V6_4" name="{=Settlements.Settlement.name.village_V6_4}Jevinnen" posX="1227.063" posY="1614.982" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V6_4}Chornad sits overlooking a pass through the Biscan hills. The villagers of this region, like many in the central Vlandian kingdom, specializing in the raising of pigs.">
 		<Components>
 			<Village id="village_comp_V6_4" village_type="VillageType.swine_farm" hearth="157" bound="Settlement.town_V6" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
@@ -4000,7 +3999,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- -->
-	<Settlement id="town_V7" name="{=Settlements.Settlement.name.town_V7}Direnfire" owner="Faction.clan_vlandia_4" posX="1395.344" posY="1546.241" culture="Culture.vlandia" gate_posX="1397.572" gate_posY="1550.064" text="{=0cZmKO76}The city known today as Charas is traditionally reckoned to be the first Calradian colony on the shores of their new continent. At the Empire's height, when the capital moved north to Paravenos,  Charasea remained a key hub of sea-faring and trade, while imperial aristocrats built their summer homes on the warm shores of the nearby gulf and cruised their pleasure-boats around its islands. When the Vlandians came, Charas fell into the hands of the ruthless House of dey Cortain, and its wealth funds their ambitions.">
+	<Settlement id="town_V7" name="{=Settlements.Settlement.name.town_V7}Derwath" owner="Faction.clan_vlandia_4" posX="1221.547" posY="1708.087" culture="Culture.vlandia" gate_posX="1219.003" gate_posY="1706.766" text="{=0cZmKO76}The city known today as Charas is traditionally reckoned to be the first Calradian colony on the shores of their new continent. At the Empire's height, when the capital moved north to Paravenos,  Charasea remained a key hub of sea-faring and trade, while imperial aristocrats built their summer homes on the warm shores of the nearby gulf and cruised their pleasure-boats around its islands. When the Vlandians came, Charas fell into the hands of the ruthless House of dey Cortain, and its wealth funds their ambitions.">
 		<Components>
 			<Town id="town_comp_V7" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" prosperity="3000" />
 		</Components>
@@ -4021,9 +4020,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_V7_1" name="{=Settlements.Settlement.name.village_V7_1}Stoke" posX="1403.323" posY="1544.942" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V7_1}Savinth sits on warm, grassy plains north of the Bay of Charas. The land is fine pasture for the renowned horses of the Vlandians.">
+	<Settlement id="village_V7_1" name="{=Settlements.Settlement.name.village_V7_1}Fallowmere" posX="1191.309" posY="1723.841" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V7_1}Savinth sits on warm, grassy plains north of the Bay of Charas. The land is fine pasture for the renowned horses of the Vlandians.">
 		<Components>
-			<Village id="village_comp_V7_1" village_type="VillageType.vlandian_horse_ranch" hearth="680" gate_rotation="0.008" bound="Settlement.town_V7" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="village_comp_V7_1" village_type="VillageType.trapper" hearth="680" gate_rotation="0.008" bound="Settlement.town_V7" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_m" />
@@ -4034,9 +4033,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_V7_2" name="{=Settlements.Settlement.name.village_V7_2}Brockbridge" posX="1400.954" posY="1539.686" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V7_2}The village of Vesin lies by a creek running down from the Epiric Hills to the Bay of Charas. This warm land is well-suited to the growing of olive trees.">
+	<Settlement id="village_V7_2" name="{=Settlements.Settlement.name.village_V7_2}Broadacre" posX="1226.7" posY="1685.132" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V7_2}The village of Vesin lies by a creek running down from the Epiric Hills to the Bay of Charas. This warm land is well-suited to the growing of olive trees.">
 		<Components>
-			<Village id="village_comp_V7_2" village_type="VillageType.olive_trees" hearth="169" gate_rotation="0.008" bound="Settlement.town_V7" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="village_comp_V7_2" village_type="VillageType.wheat_farm" hearth="169" gate_rotation="0.008" bound="Settlement.town_V7" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_m" />
@@ -4048,7 +4047,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Harthar and Sunion, to clan 4 -->
-	<Settlement id="town_V8" name="{=Settlements.Settlement.name.town_V8}Harwick" owner="Faction.clan_vlandia_8" posX="1419.381" posY="1536.042" culture="Culture.vlandia" gate_posX="1421.521" gate_posY="1530.53" text="{=Eb7Lgq10}Ostican was a minor imperial port that became a haven for seafarers of the northern oceans. Many were talented corsairs, employed by imperial factions to harry their foes during the latter empire's intermittent civil wars. Indeed, the some of the first Vlandians to come to Calradia's shores settled in the back alleys of this town, and no doubt sent word to their kinsmen of the riches to be had here should anyone invade in earnest.">
+	<Settlement id="town_V8" name="{=Settlements.Settlement.name.town_V8}Helm's Deep" owner="Faction.clan_vlandia_8" posX="1321.533" posY="1626.752" culture="Culture.vlandia" gate_posX="1321.03" gate_posY="1629.574" text="{=Eb7Lgq10}Ostican was a minor imperial port that became a haven for seafarers of the northern oceans. Many were talented corsairs, employed by imperial factions to harry their foes during the latter empire's intermittent civil wars. Indeed, the some of the first Vlandians to come to Calradia's shores settled in the back alleys of this town, and no doubt sent word to their kinsmen of the riches to be had here should anyone invade in earnest.">
 		<Components>
 			<Town id="town_comp_V8" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.308" prosperity="3900" />
 		</Components>
@@ -4070,9 +4069,9 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Hors' spear -->
-	<Settlement id="village_V8_1" name="{=Settlements.Settlement.name.village_V8_1}Imping" posX="1435.631" posY="1539.554" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V8_1}Horsger is where, according to legend, the warrior Horsa came ashore and planted his spear in the beach. Today it is known for its daring fishermen, who venture out far to find banks, chilled by currents from the north, that are rich in cod.">
+	<Settlement id="village_V8_1" name="{=Settlements.Settlement.name.village_V8_1}Helm's Dike" posX="1363.481" posY="1664.134" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V8_1}Horsger is where, according to legend, the warrior Horsa came ashore and planted his spear in the beach. Today it is known for its daring fishermen, who venture out far to find banks, chilled by currents from the north, that are rich in cod.">
 		<Components>
-			<Village id="village_comp_V8_1" village_type="VillageType.vlandian_horse_ranch" hearth="454" gate_rotation="0.508" bound="Settlement.town_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="village_comp_V8_1" village_type="VillageType.wheat_farm" hearth="454" gate_rotation="0.508" bound="Settlement.town_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_b" />
@@ -4083,9 +4082,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_V8_2" name="{=Settlements.Settlement.name.village_V8_2}Witegawic" posX="1430.44" posY="1535.032" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V8_2}Cananc lies in the wet wooded hills of the northern Rhennod, where cedars grow tall in the sea-mists. The villagers trap beaver, marten and rabbit for their pelts.">
+	<Settlement id="village_V8_2" name="{=Settlements.Settlement.name.village_V8_2}Witegawic" posX="1426.607" posY="1647.667" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V8_2}Cananc lies in the wet wooded hills of the northern Rhennod, where cedars grow tall in the sea-mists. The villagers trap beaver, marten and rabbit for their pelts.">
 		<Components>
-			<Village id="village_comp_V8_2" village_type="VillageType.trapper" hearth="340" gate_rotation="0.008" bound="Settlement.town_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+			<Village id="village_comp_V8_2" village_type="VillageType.sturgian_horse_ranch" hearth="340" gate_rotation="0.008" bound="Settlement.town_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="vlandia_village_l" />
@@ -4096,7 +4095,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_V8_3" name="{=Settlements.Settlement.name.village_V8_3}Witeberg" posX="1429.382" posY="1540.838" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V8_3}Remental sits in a gap in the mountains of the Ebor peninsula. Towering fir and spruce grow on the slopes. Villagers trap fur-bearing animals like marten, rabbit and fox. This wild region has recently attracted many settlers drawn to the relative freedom of the woods, where the rule of the Vlandian barons is much lighter than in the south.">
+	<Settlement id="village_V8_3" name="{=Settlements.Settlement.name.village_V8_3}Witeberg" posX="1417.449" posY="1726.32" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V8_3}Remental sits in a gap in the mountains of the Ebor peninsula. Towering fir and spruce grow on the slopes. Villagers trap fur-bearing animals like marten, rabbit and fox. This wild region has recently attracted many settlers drawn to the relative freedom of the woods, where the rule of the Vlandian barons is much lighter than in the south.">
 		<Components>
 			<Village id="village_comp_V8_3" village_type="VillageType.trapper" hearth="683" gate_rotation="0.508" bound="Settlement.town_V8" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
@@ -4109,7 +4108,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_V9" name="{=Settlements.Settlement.name.town_V9}Upbourn" owner="Faction.clan_vlandia_6" posX="1448.814" posY="1531.749" culture="Culture.vlandia" gate_posX="1445.465" gate_posY="1528.751" text="{=1SnAH5K8}Rovalatys, in the mountains of the Ebor peninsula, was never fully an imperial town. Nordic migrants, drawn to the region by rumors of riches to be made prospecting for silver or hunting for furs, long outnumbered Calradians even before the Vlandian invasion. The Vlandians too recognized its potential, and despite its harsh winters this land is among the more populous regions of the kingdom, with bountiful fields in the valleys of the mountains feeding the constant flow of settlers from the south drawn here by their hunger for wealth.">
+	<Settlement id="town_V9" name="{=Settlements.Settlement.name.town_V9}Grimslade" owner="Faction.clan_vlandia_6" posX="1384.919" posY="1549.73" culture="Culture.vlandia" gate_posX="1384.355" gate_posY="1551.583" text="{=1SnAH5K8}Rovalatys, in the mountains of the Ebor peninsula, was never fully an imperial town. Nordic migrants, drawn to the region by rumors of riches to be made prospecting for silver or hunting for furs, long outnumbered Calradians even before the Vlandian invasion. The Vlandians too recognized its potential, and despite its harsh winters this land is among the more populous regions of the kingdom, with bountiful fields in the valleys of the mountains feeding the constant flow of settlers from the south drawn here by their hunger for wealth.">
 		<Components>
 			<Town id="town_comp_V9" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" prosperity="2800" />
 		</Components>
@@ -4131,7 +4130,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- From calradic, Antolas, east wind-->
-	<Settlement id="village_V9_1" name="{=Settlements.Settlement.name.village_V9_1}Underharrow" posX="1458.646" posY="1538.95" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V9_1}Alantas sits in the center of the mountainous Ebor peninsula. The soil here is thin and the weather here is cold, but rich iron deposits sustain the local economy.">
+	<Settlement id="village_V9_1" name="{=Settlements.Settlement.name.village_V9_1}Woldende" posX="1367.342" posY="1570.375" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V9_1}Alantas sits in the center of the mountainous Ebor peninsula. The soil here is thin and the weather here is cold, but rich iron deposits sustain the local economy.">
 		<Components>
 			<Village id="village_comp_V9_1" village_type="VillageType.iron_mine" hearth="489" gate_rotation="0.258" bound="Settlement.town_V9" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
@@ -4145,7 +4144,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Hal's wasteland -->
-	<Settlement id="village_V9_2" name="{=Settlements.Settlement.name.village_V9_2}Dunharrow" posX="1456.118" posY="1531.118" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V9_2}Halisvust was once a marshy wasteland, but Vlandian settlers drained the waters and sowed wheat and rye in the valley.">
+	<Settlement id="village_V9_2" name="{=Settlements.Settlement.name.village_V9_2}Woldfaest" posX="1395.706" posY="1585.571" culture="Culture.vlandia" text="{=Settlements.Settlement.text.village_V9_2}Halisvust was once a marshy wasteland, but Vlandian settlers drained the waters and sowed wheat and rye in the valley.">
 		<Components>
 			<Village id="village_comp_V9_2" village_type="VillageType.wheat_farm" hearth="282" gate_rotation="0.008" bound="Settlement.town_V9" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
 		</Components>
@@ -6576,12 +6575,8 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-
-
-
-
 	<!--Erebor-->
-	<Settlement id="town_SWAN_EREBOR1" name="{=Settlements.Settlement.name.town_A1}Erebor" owner="Faction.clan_erebor_1" posX="1741.534" posY="2023.553" culture="Culture.erebor" gate_posX="1742.6" gate_posY="2020.629" text="{=erebor_description}Erebor, the Lonely Mountain, stands as a testament to Dwarven resilience and craftsmanship. Its grand halls, carved into the heart of the mountain, gleam with the wealth of a thousand veins of gold and mithril. Erebor serves as the seat of Dwarven kings and a hub of trade and influence in Middle-earth. Its forges burn bright, producing arms and armor of unmatched quality, while its deep vaults hold treasures that rival the greatest kingdoms. Surrounded by the desolation left by Smaug, Erebor is a symbol of recovery, strength, and the enduring spirit of Durin’s Folk.">
+	<Settlement id="town_SWAN_EREBOR1" name="{=Settlements.Settlement.name.town_A1}Erebor" owner="Faction.clan_erebor_1" posX="1741.534" posY="2023.553" culture="Culture.erebor" gate_posX="1742.6" gate_posY="2020.628" text="{=erebor_description}Erebor, the Lonely Mountain, stands as a testament to Dwarven resilience and craftsmanship. Its grand halls, carved into the heart of the mountain, gleam with the wealth of a thousand veins of gold and mithril. Erebor serves as the seat of Dwarven kings and a hub of trade and influence in Middle-earth. Its forges burn bright, producing arms and armor of unmatched quality, while its deep vaults hold treasures that rival the greatest kingdoms. Surrounded by the desolation left by Smaug, Erebor is a symbol of recovery, strength, and the enduring spirit of Durin’s Folk.">
 		<Components>
 			<Town id="town_comp_SWAN_EREBOR1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.108" prosperity="4000" />
 		</Components>
@@ -6602,9 +6597,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}if you see this something is fucked" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_EREBOR1_1" name="{=Settlements.Settlement.name.village_A1_1}Narâkh-zigil" posX="1748.86" posY="2019.634" culture="Culture.erebor" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	<Settlement id="village_SWAN_EREBOR1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1748.86" posY="2019.634" culture="Culture.erebor" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
-			<Village id="village_comp_SWAN_EREBOR1_1" village_type="VillageType.iron_mine" hearth="300" bound="Settlement.town_SWAN_EREBOR1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_EREBOR1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_EREBOR1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_l" />
@@ -6615,9 +6610,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_EREBOR1_2" name="{=Settlements.Settlement.name.village_A1_2}Zundrukar" posX="1752.508" posY="2024.566" culture="Culture.erebor" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	<Settlement id="village_SWAN_EREBOR1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1752.508" posY="2024.566" culture="Culture.erebor" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
-			<Village id="village_comp_SWAN_EREBOR1_2" village_type="VillageType.clay_mine" hearth="235" bound="Settlement.town_SWAN_EREBOR1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_EREBOR1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_EREBOR1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_b" />
@@ -6628,9 +6623,8 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-
 	<!--Rivendell-->
-	<Settlement id="town_SWAN_RIVENDELL1" name="{=Settlements.Settlement.name.town_A1}Rivendell" owner="Faction.clan_rivendell_1" posX="1767.434" posY="2023.553" culture="Culture.rivendell" gate_posX="1768.499" gate_posY="2020.629" text="{=rivendell_description}Rivendell, or Imladris, is a hidden sanctuary nestled in the lush foothills of the Misty Mountains. Founded by Elrond Half-elven, it is a place of wisdom, healing, and beauty, where the burdens of the world feel distant. Rivendell's cascading waterfalls and elegant architecture reflect the timeless grace of the Elves. Within its halls, ancient lore is preserved, and councils of great importance are held. As a haven for the weary, Rivendell stands as a beacon of hope for those who fight against the darkness threatening Middle-earth.">
+	<Settlement id="town_SWAN_RIVENDELL1" name="{=Settlements.Settlement.name.town_A1}Rivendell" owner="Faction.clan_rivendell_1" posX="1767.434" posY="2023.553" culture="Culture.rivendell" gate_posX="1768.5" gate_posY="2020.628" text="{=rivendell_description}Rivendell, or Imladris, is a hidden sanctuary nestled in the lush foothills of the Misty Mountains. Founded by Elrond Half-elven, it is a place of wisdom, healing, and beauty, where the burdens of the world feel distant. Rivendell's cascading waterfalls and elegant architecture reflect the timeless grace of the Elves. Within its halls, ancient lore is preserved, and councils of great importance are held. As a haven for the weary, Rivendell stands as a beacon of hope for those who fight against the darkness threatening Middle-earth.">
 		<Components>
 			<Town id="town_comp_SWAN_RIVENDELL1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.108" prosperity="4000" />
 		</Components>
@@ -6651,9 +6645,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}if you see this something is fucked" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_RIVENDELL1_1" name="{=Settlements.Settlement.name.village_A1_1}Gwaithindor" posX="1774.76" posY="2019.634" culture="Culture.rivendell" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	<Settlement id="village_SWAN_RIVENDELL1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1774.76" posY="2019.634" culture="Culture.rivendell" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
-			<Village id="village_comp_SWAN_RIVENDELL1_1" village_type="VillageType.wheat_farm" hearth="300" bound="Settlement.town_SWAN_RIVENDELL1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_RIVENDELL1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_RIVENDELL1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_l" />
@@ -6664,9 +6658,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_RIVENDELL1_2" name="{=Settlements.Settlement.name.village_A1_2}Imladcalen" posX="1778.408" posY="2024.566" culture="Culture.rivendell" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	<Settlement id="village_SWAN_RIVENDELL1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1778.408" posY="2024.566" culture="Culture.rivendell" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
-			<Village id="village_comp_SWAN_RIVENDELL1_2" village_type="VillageType.vineyard" hearth="235" bound="Settlement.town_SWAN_RIVENDELL1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_RIVENDELL1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_RIVENDELL1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_b" />
@@ -6677,9 +6671,8 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-
 	<!--Mirkwood-->
-	<Settlement id="town_SWAN_MIRKWOOD1" name="{=Settlements.Settlement.name.town_A1}Thranduil's Halls" owner="Faction.clan_mirkwood_1" posX="1798.11" posY="2023.553" culture="Culture.mirkwood" gate_posX="1799.176" gate_posY="2020.629" text="{=thranduil_halls_description}Thranduil’s Halls, hidden deep within the forest of Mirkwood, are a majestic network of underground chambers and grand halls carved from stone and wood. The Elvenking’s palace, illuminated by soft starlight and flickering torches, radiates both elegance and a sense of ancient mystery. Protected by skilled warriors and the natural defenses of the forest, the halls serve as a stronghold against the darkness encroaching upon Mirkwood. Thranduil’s realm is a bastion of Silvan culture, its beauty tempered by the hardships of an enduring struggle.">
+	<Settlement id="town_SWAN_MIRKWOOD1" name="{=Settlements.Settlement.name.town_A1}Thranduil's Halls" owner="Faction.clan_mirkwood_1" posX="1798.11" posY="2023.553" culture="Culture.mirkwood" gate_posX="1799.176" gate_posY="2020.628" text="{=thranduil_halls_description}Thranduil’s Halls, hidden deep within the forest of Mirkwood, are a majestic network of underground chambers and grand halls carved from stone and wood. The Elvenking’s palace, illuminated by soft starlight and flickering torches, radiates both elegance and a sense of ancient mystery. Protected by skilled warriors and the natural defenses of the forest, the halls serve as a stronghold against the darkness encroaching upon Mirkwood. Thranduil’s realm is a bastion of Silvan culture, its beauty tempered by the hardships of an enduring struggle.">
 		<Components>
 			<Town id="town_comp_SWAN_MIRKWOOD1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.108" prosperity="4000" />
 		</Components>
@@ -6700,9 +6693,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}if you see this something is fucked" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_MIRKWOOD1_1" name="{=Settlements.Settlement.name.village_A1_1}Dorthainor" posX="1805.436" posY="2019.634" culture="Culture.mirkwood" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	<Settlement id="village_SWAN_MIRKWOOD1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1805.436" posY="2019.634" culture="Culture.mirkwood" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
-			<Village id="village_comp_SWAN_MIRKWOOD1_1" village_type="VillageType.trapper" hearth="300" bound="Settlement.town_SWAN_MIRKWOOD1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_MIRKWOOD1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_MIRKWOOD1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_l" />
@@ -6713,9 +6706,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_MIRKWOOD1_2" name="{=Settlements.Settlement.name.village_A1_2}Lindorneth" posX="1809.084" posY="2024.566" culture="Culture.mirkwood" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	<Settlement id="village_SWAN_MIRKWOOD1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1809.084" posY="2024.566" culture="Culture.mirkwood" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
-			<Village id="village_comp_SWAN_MIRKWOOD1_2" village_type="VillageType.lumberjack" hearth="235" bound="Settlement.town_SWAN_MIRKWOOD1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_MIRKWOOD1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_MIRKWOOD1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_b" />
@@ -6726,9 +6719,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-
 	<!--Lothlorien-->
-
 	<Settlement id="town_SWAN_LOTHLORIEN1" name="{=Settlements.Settlement.name.town_A1}Caras Galadhon" owner="Faction.clan_lothlorien_1" posX="1824.729" posY="2023.553" culture="Culture.lothlorien" gate_posX="1825.795" gate_posY="2020.628" text="{=caras_galadhon_description}Caras Galadhon, the city of trees, is the heart of Lothlórien and the seat of Lady Galadriel and Lord Celeborn. Its flets rise high among the golden mallorn trees, their silvery light creating an ethereal glow even in the darkest night. The city’s architecture, woven seamlessly into the living trees, reflects the timeless artistry of the Elves. Protected by the power of Nenya, Caras Galadhon is a sanctuary of peace and beauty. Here, the wisdom of the Eldar guides those who seek refuge from the growing shadow in Middle-earth.">
 		<Components>
 			<Town id="town_comp_SWAN_LOTHLORIEN1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.108" prosperity="4000" />
@@ -6750,9 +6741,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}if you see this something is fucked" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_LOTHLORIEN1_1" name="{=Settlements.Settlement.name.village_A1_1}Taurvinyar" posX="1832.055" posY="2019.634" culture="Culture.lothlorien" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	<Settlement id="village_SWAN_LOTHLORIEN1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1832.055" posY="2019.634" culture="Culture.lothlorien" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
-			<Village id="village_comp_SWAN_LOTHLORIEN1_1" village_type="VillageType.vineyard" hearth="300" bound="Settlement.town_SWAN_LOTHLORIEN1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_LOTHLORIEN1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_LOTHLORIEN1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_l" />
@@ -6763,9 +6754,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_LOTHLORIEN1_2" name="{=Settlements.Settlement.name.village_A1_2}Celmithrin" posX="1835.703" posY="2024.566" culture="Culture.lothlorien" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	<Settlement id="village_SWAN_LOTHLORIEN1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1835.703" posY="2024.566" culture="Culture.lothlorien" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
-			<Village id="village_comp_SWAN_LOTHLORIEN1_2" village_type="VillageType.flax_plant" hearth="235" bound="Settlement.town_SWAN_LOTHLORIEN1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_LOTHLORIEN1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_LOTHLORIEN1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_b" />
@@ -6776,8 +6767,6 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-
-
 	<!--Umbar-->
 	<Settlement id="town_SWAN_UMBAR1" name="{=Settlements.Settlement.name.town_A1}Umbar Haven" owner="Faction.clan_umbar_1" posX="1741.534" posY="1991.62" culture="Culture.umbar" gate_posX="1742.6" gate_posY="1988.695" text="{=umbar_haven_description}The Umbar Haven, a bastion of Corsair dominance, lies along the jagged coast of the southern seas. Its harbors bristle with black-sailed ships, each a weapon of terror and piracy. Within its walls, the decadent and ambitious plot their next conquests, their power bolstered by alliances with Mordor. The city thrives on wealth plundered from the Free Peoples, its golden treasures contrasting with the sinister banners of the Black Serpent. Umbar is a city of contrasts—wealth and squalor, beauty and cruelty—a reminder of Númenor’s fractured legacy.">
 		<Components>
@@ -6800,8 +6789,7 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}if you see this something is fucked" />
 		</CommonAreas>
 	</Settlement>
-
-	<Settlement id="village_SWAN_UMBAR1_1" name="{=Settlements.Settlement.name.village_A1_1}Ardûmir" posX="1748.86" posY="1987.701" culture="Culture.umbar" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	<Settlement id="village_SWAN_UMBAR1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1748.86" posY="1987.701" culture="Culture.umbar" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
 			<Village id="village_comp_SWAN_UMBAR1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_UMBAR1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
@@ -6814,7 +6802,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_UMBAR1_2" name="{=Settlements.Settlement.name.village_A1_2}Bârukhôr" posX="1752.508" posY="1992.633" culture="Culture.umbar" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	<Settlement id="village_SWAN_UMBAR1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1752.508" posY="1992.633" culture="Culture.umbar" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
 			<Village id="village_comp_SWAN_UMBAR1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_UMBAR1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
@@ -6827,7 +6815,6 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-
 	<!--Isengard-->
 	<Settlement id="town_SWAN_ISENGARD1" name="{=Settlements.Settlement.name.town_A1}Orthanc" owner="Faction.clan_isengard_1" posX="1767.434" posY="1991.62" culture="Culture.isengard" gate_posX="1768.5" gate_posY="1988.695" text="{=orthanc_description}Orthanc, the indomitable tower of Isengard, rises from the circular stronghold like a shard of night. Crafted by the hands of Númenórean stonewrights, it is impervious to time and siege. Once a place of learning, Orthanc now serves as the seat of Saruman the White, who has twisted its purpose to his dark designs. Beneath its shadow lie the forges and barracks of the Uruk-hai, the machinery of war grinding unceasingly. Orthanc is a symbol of cunning ambition, its black spires casting an ominous shadow over the future of Middle-earth.">
 		<Components>
@@ -6852,7 +6839,7 @@
 	</Settlement>
 	<Settlement id="village_SWAN_ISENGARD1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1774.76" posY="1987.701" culture="Culture.isengard" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
-			<Village id="village_comp_SWAN_ISENGARD1_1" village_type="VillageType.clay_mine" hearth="300" bound="Settlement.town_SWAN_ISENGARD1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_ISENGARD1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_ISENGARD1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_l" />
@@ -6865,7 +6852,7 @@
 	</Settlement>
 	<Settlement id="village_SWAN_ISENGARD1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1778.408" posY="1992.633" culture="Culture.isengard" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
-			<Village id="village_comp_SWAN_ISENGARD1_2" village_type="VillageType.lumberjack" hearth="235" bound="Settlement.town_SWAN_ISENGARD1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_ISENGARD1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_ISENGARD1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_b" />
@@ -6876,10 +6863,8 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-
-
 	<!--Gundabad-->
-	<Settlement id="town_SWAN_GUNDABAD1" name="{=Settlements.Settlement.name.town_A1}Mount Gundabad" owner="Faction.clan_gundabad_1" posX="1798.111" posY="1991.62" culture="Culture.gundabad" gate_posX="1799.176" gate_posY="1988.695" text="{=mount_gundabad_description}Mount Gundabad, the ancient stronghold of Orc-kind, looms at the northern tip of the Misty Mountains. Once hallowed by the Dwarves, it is now a dark and forbidding fortress, home to countless Orcs and their Warg allies. Its tunnels echo with the sounds of forges and the clamor of preparation for war. Mount Gundabad is both a symbol of Orcish dominance and a bastion of unyielding savagery, from which hordes of Sauron’s minions pour forth to lay waste to the Free Peoples of Middle-earth.">
+	<Settlement id="town_SWAN_GUNDABAD1" name="{=Settlements.Settlement.name.town_A1}Mount Gundabad" owner="Faction.clan_gundabad_1" posX="1798.111" posY="1991.62" culture="Culture.gundabad" gate_posX="1799.177" gate_posY="1988.695" text="{=mount_gundabad_description}Mount Gundabad, the ancient stronghold of Orc-kind, looms at the northern tip of the Misty Mountains. Once hallowed by the Dwarves, it is now a dark and forbidding fortress, home to countless Orcs and their Warg allies. Its tunnels echo with the sounds of forges and the clamor of preparation for war. Mount Gundabad is both a symbol of Orcish dominance and a bastion of unyielding savagery, from which hordes of Sauron’s minions pour forth to lay waste to the Free Peoples of Middle-earth.">
 		<Components>
 			<Town id="town_comp_SWAN_GUNDABAD1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.108" prosperity="4000" />
 		</Components>
@@ -6900,9 +6885,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}if you see this something is fucked" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GUNDABAD1_1" name="{=Settlements.Settlement.name.village_A1_1}Drûgthar" posX="1805.437" posY="1987.701" culture="Culture.gundabad" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	<Settlement id="village_SWAN_GUNDABAD1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1805.437" posY="1987.701" culture="Culture.gundabad" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
-			<Village id="village_comp_SWAN_GUNDABAD1_1" village_type="VillageType.iron_mine" hearth="300" bound="Settlement.town_SWAN_GUNDABAD1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_GUNDABAD1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_GUNDABAD1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_l" />
@@ -6913,9 +6898,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GUNDABAD1_2" name="{=Settlements.Settlement.name.village_A1_2}Muzûrlûg" posX="1809.085" posY="1992.633" culture="Culture.gundabad" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	<Settlement id="village_SWAN_GUNDABAD1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1809.085" posY="1992.633" culture="Culture.gundabad" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
-			<Village id="village_comp_SWAN_GUNDABAD1_2" village_type="VillageType.sheep_farm" hearth="235" bound="Settlement.town_SWAN_GUNDABAD1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_GUNDABAD1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_GUNDABAD1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_b" />
@@ -6926,8 +6911,6 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-
-
 	<!--Dol Guldur-->
 	<Settlement id="town_SWAN_DOL_GOLDUR1" name="{=Settlements.Settlement.name.town_A1}Dol Guldur Fortress" owner="Faction.clan_dolguldur_1" posX="1824.729" posY="1991.62" culture="Culture.dolguldur" gate_posX="1825.795" gate_posY="1988.695" text="{=dol_guldur_description}Dol Guldur, the Hill of Sorcery, rises like a festering wound on the southern edge of Mirkwood. Cloaked in perpetual shadow, the fortress was once the stronghold of Sauron as the Necromancer. Its crumbling towers and dark halls reek of malice, and its dungeons are said to hold unspeakable horrors. Even with Sauron’s return to Barad-dûr, Dol Guldur remains a bastion of evil, garrisoned by Orcs, Wargs, and other foul creatures. Its presence casts a pall of fear over the forest, a grim reminder of the Dark Lord’s lingering influence.">
 		<Components>
@@ -6950,9 +6933,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}if you see this something is fucked" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_DOL_GOLDUR1_1" name="{=Settlements.Settlement.name.village_A1_1}Gûlithron" posX="1832.055" posY="1987.701" culture="Culture.dolguldur" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	<Settlement id="village_SWAN_DOL_GOLDUR1_1" name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1832.055" posY="1987.701" culture="Culture.dolguldur" text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
 		<Components>
-			<Village id="village_comp_SWAN_DOL_GOLDUR1_1" village_type="VillageType.iron_mine" hearth="300" bound="Settlement.town_SWAN_DOL_GOLDUR1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_DOL_GOLDUR1_1" village_type="VillageType.fisherman" hearth="300" bound="Settlement.town_SWAN_DOL_GOLDUR1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_l" />
@@ -6963,9 +6946,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_DOL_GOLDUR1_2" name="{=Settlements.Settlement.name.village_A1_2}Baradwaith" posX="1835.703" posY="1992.633" culture="Culture.dolguldur" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	<Settlement id="village_SWAN_DOL_GOLDUR1_2" name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1835.703" posY="1992.633" culture="Culture.dolguldur" text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
 		<Components>
-			<Village id="village_comp_SWAN_DOL_GOLDUR1_2" village_type="VillageType.lumberjack" hearth="235" bound="Settlement.town_SWAN_DOL_GOLDUR1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+			<Village id="village_comp_SWAN_DOL_GOLDUR1_2" village_type="VillageType.olive_trees" hearth="235" bound="Settlement.town_SWAN_DOL_GOLDUR1" background_crop_position="0.308" background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="aserai_village_b" />
