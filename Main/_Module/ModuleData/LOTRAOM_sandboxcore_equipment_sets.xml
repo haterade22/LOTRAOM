@@ -358,7 +358,7 @@
 			civilian="false">
 			<Equipment
 				slot="Item1"
-				id="Item.anduril" />
+				id="Item.witchking_sword" />
 			<Equipment
 				slot="Head"
 				id="Item.witch_king_helmet" />
