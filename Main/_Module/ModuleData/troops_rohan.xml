@@ -2776,7 +2776,7 @@
 				id="Item.vlandia_horse" />
 			<equipment
 				slot="HorseHarness"
-				id="Item.light_harness" />
+				id="Item.halfchain_barding" />
 		</Equipments>
 	</NPCCharacter>
 

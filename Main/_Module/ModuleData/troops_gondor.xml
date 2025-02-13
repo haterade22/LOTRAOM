@@ -1682,7 +1682,7 @@
 						id="empire_troop_civilian_template_t2"
 						civilian="true" />
 				<equipment slot="Horse" id="Item.charger"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
+				<equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="gondor_squire"
@@ -1830,10 +1830,14 @@
 					id="Item.citidel_guard_armor_pauldrons_light" />
 			</EquipmentRoster>
 			<EquipmentSet
-					id="empire_troop_civilian_template_t2"
-					civilian="true" />
-			<equipment slot="Horse" id="Item.charger"/>
-			<equipment slot="HorseHarness" id="Item.light_harness"/>
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.noble_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.chain_barding" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -2172,8 +2176,14 @@
 					id="Item.fountain_shoulders1" />
 			</EquipmentRoster>
 			<EquipmentSet
-				id="battania_troop_civilian_template_t2"
+				id="empire_troop_civilian_template_t1"
 				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.half_scale_barding" />
 		</Equipments>	
 	</NPCCharacter>
 	<NPCCharacter id="dol_amroth_veteran_knight"
@@ -2251,6 +2261,15 @@
 					slot="Cape"
 					id="Item.fountain_shoulders2" />
 			</EquipmentRoster>
+			<EquipmentSet
+				id="empire_troop_civilian_template_t1"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.noble_horse_khamseen" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.mail_and_plate_barding" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="knight_of_the_silver_swan"
@@ -2302,6 +2321,12 @@
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
 				civilian="true" />
+			<equipment
+					slot="Horse"
+					id="Item.noble_horse_southern" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
 		</Equipments>
 	</NPCCharacter>
 
