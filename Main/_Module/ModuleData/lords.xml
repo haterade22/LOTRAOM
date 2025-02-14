@@ -14279,7 +14279,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				<EquipmentRoster>
 					<equipment
 						slot="Item0"
-						id="Item.vlandia_noble_sword_3_t5" />
+						id="Item.theodensword" />
 					<equipment
 						slot="Item1"
 						id="Item.vlandia_lance_2_t4" />
