@@ -1749,6 +1749,9 @@
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
 				<equipment
+					slot="Item2"
+					id="Item.wm_swan_knight_sworda" />
+				<equipment
 					slot="Body"
 					id="Item.imrahil_body" />
 				<equipment
@@ -14282,7 +14285,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 						id="Item.theodensword" />
 					<equipment
 						slot="Item1"
-						id="Item.vlandia_lance_2_t4" />
+						id="Item.wm_rohan_spear_d" />
 					<equipment
 						slot="Item2"
 						id="Item.western_javelin_3_t4" />
@@ -14782,7 +14785,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 						id="Item.vlandia_noble_sword_3_t5" />
 					<equipment
 						slot="Item1"
-						id="Item.vlandia_lance_2_t4" />
+						id="Item.wm_rohan_spear_d" />
 					<equipment
 						slot="Item2"
 						id="Item.western_javelin_3_t4" />

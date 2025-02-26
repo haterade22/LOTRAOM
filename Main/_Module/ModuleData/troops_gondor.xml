@@ -2132,7 +2132,7 @@
 					id="Item.gond_shield_two_swan" />
 				<equipment
 					slot="Item2"
-					id="Item.wm_gondor_sword_a05" />
+					id="Item.wm_swan_knight_swordb" />
 				<equipment
 					slot="Body"
 					id="Item.fountain_armor1" />
@@ -2158,7 +2158,7 @@
 					id="Item.gond_shield_two_swan" />
 				<equipment
 					slot="Item2"
-					id="Item.wm_gondor_sword_a10" />
+					id="Item.wm_swan_knight_swordb" />
 				<equipment
 					slot="Body"
 					id="Item.fountain_armor1" />
@@ -2218,7 +2218,7 @@
 					id="Item.gond_shield_two_swan" />
 				<equipment
 					slot="Item2"
-					id="Item.wm_gondor_sword_a05" />
+					id="Item.wm_swan_knight_swordb" />
 				<equipment
 					slot="Body"
 					id="Item.fountain_armor2" />
@@ -2301,7 +2301,7 @@
 					id="Item.gond_shield_two_swan" />
 				<equipment
 					slot="Item2"
-					id="Item.wm_gondor_sword_a10" />
+					id="Item.wm_swan_knight_sworda" />
 				<equipment
 					slot="Body"
 					id="Item.imrahil_body" />
