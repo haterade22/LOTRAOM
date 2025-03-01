@@ -7078,7 +7078,7 @@
 	</Culture>
 	<Culture
 		id="nord"
-		name="{=sYFaoW7G}Nord"
+		name="{=sYFaoW7G}Hillmen of Rhudaur"
 		is_main_culture="false"
 		elite_basic_troop="NPCCharacter.sturgian_warrior_son"
 		basic_troop="NPCCharacter.sturgian_recruit"
@@ -7112,7 +7112,7 @@
 	</Culture>
 	<Culture
 		id="vakken"
-		name="{=bHh03ob0}Vakken"
+		name="{=bHh03ob0}Lossoth "
 		is_main_culture="false"
 		elite_basic_troop="NPCCharacter.sturgian_warrior_son"
 		basic_troop="NPCCharacter.sturgian_recruit"
@@ -7174,7 +7174,7 @@
 	</Culture>
 	<Culture
 		id="darshi"
-		name="{=IHhWB1aa}Darshi"
+		name="{=IHhWB1aa}The Drúedain"
 		is_main_culture="false"
 		elite_basic_troop="NPCCharacter.aserai_youth"
 		basic_troop="NPCCharacter.aserai_recruit"

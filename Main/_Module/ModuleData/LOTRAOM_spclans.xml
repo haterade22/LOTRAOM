@@ -129,9 +129,9 @@
 		settlement_banner_mesh="encounter_flag_f"
 		is_minor_faction="true"
 		is_clan_type_mercenary="true"
-		name="{=ghilmanClanName}Ghilman"
+		name="{=ghilmanClanName}The Sable Riders"
 		tier="4"
-		text="{=4TiYXBqK}The Ghilman are a band of mercenaries who recruit from the tribes of southern Calradia and the lands to the east. They are legally their own slaves and masters: each “sells“ himself to the order and, in the process, becomes a part-owner. They are known for their fine horses and fine clothes. But no one should assume from their oiled locks, perfumes and peacock feathers that they spend more time preening then training. Their skills as mounted archers are second to none, and as lancers are close behind the Vlandians and the imperial cataphracts.">
+		text="{=taom_sableriders}The Sable Riders are a feared mercenary brotherhood of Variags, hailing from the steppe lands of Khand. These warriors fight not for land, nor for honor, but for gold">
 		<minor_faction_character_templates>
 			<template
 				id="NPCCharacter.spc_ghilman_leader_0" />
@@ -159,11 +159,12 @@
 		settlement_banner_mesh="encounter_flag_f"
 		is_minor_faction="true"
 		is_clan_type_mercenary="true"
-		name="{=LqTTchsa}Legion of the Betrayed"
-		short_name="{=Ssl38GEF}Legion"
+		name="{=LqTTchsa}The Sons of Castamir"
+		short_name="{=Ssl38GEF}The Sons"
 		tier="4"
-		text="{=bhxVA9w7}The Last Legion was created after the Emperor Arenicos abolished the last of the Empire's standing armies in the wake of the battle of Pendraic, relying instead on the archons' private retinues which were significantly cheaper and better at controlling territory. The Legion is made up of men who detested this change: they loved the old army, its standards and its unit histories and its camp life, and they blame the new system for destroying the empire. But an army does not hold together unless it is paid regularly, and they take contracts from imperial and foreign lords alike.">
-		<minor_faction_character_templates>
+		text="{=taom_sonsofcastamir}The Sons of Castamir are the descendants of the rebels who once sought to claim the throne of Gondor in the name of Castamir the Usurper. Though their ancestors were exiled to Umbar, many now wander as mercenaries, hiring their blades to anyone willing to pay. They still harbor hatred for the line of Eärnur and dream of one day restoring Castamir’s rule, though for now, they fight wherever coin and opportunity take them.">
+
+	<minor_faction_character_templates>
 			<template
 				id="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
 			<template
@@ -252,10 +253,11 @@
 		is_minor_faction="true"
 		is_outlaw="true"
 		is_mafia="true"
-		name="{=NObV048p}Beni Zilal"
+		name="{=NObV048p}The Sand Vultures"
 		tier="4"
-		text="{=dRaYhQva}The origins of the Beni Zilal, the Sons of the Shadows, are shrouded in legend. Many of the stories tell of a messianic preacher who ruled from a citadel deep in the desert, entrancing his followers with the help of halucinogenic herbs and terrorizing the Aserai nobility with the threat of assassination. Regardless of how much truth these stories contain, this brotherhood is now a powerful institution in the deep reaches of the Nahasa, collecting protection money from caravans passing through its territory and cutting deals with local potentates while it awaits the day when it may reveal its hand more openly.">
-		<minor_faction_character_templates>
+		text="{=taom_sandvultures}The Sand Vultures are an infamous band of Haradrim warriors, known for their ruthless ambushes in the burning deserts of Haradwaith. Feared by merchants and soldiers alike, they move like ghosts across the dunes, striking swiftly before vanishing into the shifting sands. Though they owe no loyalty to any king, they have often fought for the Black Serpent of Harad, raiding the lands of Gondor and its allies whenever the opportunity arises.">
+
+	<minor_faction_character_templates>
 			<template
 				id="NPCCharacter.spc_beni_zilal_leader_0" />
 			<template
@@ -282,9 +284,9 @@
 		is_minor_faction="true"
 		is_outlaw="true"
 		is_mafia="true"
-		name="{=nh4Y3LOc}Wolfskins"
+		name="{=nh4Y3LOc}The Moonfang Reavers"
 		tier="4"
-		text="{=7bhNgOKd}The Wolfskins are heirs to a long tradition in the Battanian lands in which warriors-in-training go “wilding” for part of their youth, learning the ways of the woods and how to suffer hardship. So long as a Wolfskin wears no sewn clothes, eats no cooked food, and sleeps under no roof, he is immune from the laws of men. In fact, the modern Wolfskins tend to be the sons of wealthy families taking a few years to indulge their feral side, robbing travellers and living viciously and not necessarily hewing to the old code.">
+		text="{=taom_moonfangreavers}The Moonfang Reavers are among the wildest of the Dunlending warbands, warriors who forsake armor for speed, painted in woad and draped in the pelts of the beasts they slay. They believe the spirit of the wolf guides them in battle, granting them unnatural ferocity. To face a Moonfang warrior is to face a man who knows no fear, for they fight with the frenzy of a beast cornered, tearing through their foes in bloody rampages.">
 		<minor_faction_character_templates>
 			<template
 				id="NPCCharacter.spc_wolfskins_leader_0" />
@@ -312,11 +314,11 @@
 		is_minor_faction="true"
 		is_outlaw="true"
 		is_mafia="true"
-		name="{=as2TiAIJ}Brotherhood of the Woods"
-		short_name="{=khnadIv1}Brotherhood"
+		name="{=as2TiAIJ}The Blackwood Outriders"
+		short_name="{=khnadIv1}BlackWood Outriders"
 		tier="4"
-		text="{=xahrUc5n}The Brotherhood of the Woods started as a Vlandian peasant movement, hiding out in the forests, robbing from the rich and giving to the poor. However, it encountered the problems that any long-running rebel movement might - it needed to ensure a steady supply of food, and also ensure that none of the poor would dare earn a bag of coins by informing on them. Slowly but surely, it began to make use of extortion, terror, and corrupt deals with the local authorities to survive, becoming little different from any other organized bandit group in Calradia.">
-		<minor_faction_character_templates>
+		text="{=taom_blackwoodoutriders}The Blackwood Outriders are a band of outcasts, hunters, and renegades who roam the edges of Mirkwood, preying upon travelers and unwelcome invaders alike. Though many were once men of Dale or Rhovanion, they have long since abandoned their former lives, living as outlaws beneath the dark boughs. Skilled archers and deadly skirmishers, they strike from the shadows, fading into the depths of the forest before vengeance can find them.">
+	 <minor_faction_character_templates>
 			<template
 				id="NPCCharacter.spc_brotherhood_of_woods_leader_0" />
 			<template
@@ -357,11 +359,11 @@
 		is_minor_faction="true"
 		is_outlaw="true"
 		is_mafia="true"
-		name="{=MVHawAEp}Hidden Hand"
-		short_name="{=j3KtHQzn}Hand"
+		name="{=MVHawAEp}The Shadow Daggers"
+		short_name="{=j3KtHQzn}Shadow Daggers"
 		tier="3"
-		text="{=nQOf27Rx}The Hidden Hand are a mafia who dominate the rural areas, and sometimes the towns, of the southern parts of the Empire. They thrive by making themselves useful to authorities: repressing unrest, silencing troublesome preachers, and robbing from merchants who compete with their patrons. Many of them go back and forth between a respectable life in the towns and a criminal life in countryside. A member of the Hand might spend two or three months a year in the hills as a brigand, then return to town to work as an enforcer and a ”trader” in stolen goods, knowing full well that no one will ask him too many questions.">
-		<minor_faction_character_templates>
+		text="{=taom_shadowdaggers}The Shadow Daggers are an elusive network of spies, cutthroats, and assassins, rumored to have roots in the dark streets of Umbar. Hired blades of the Corsair lords, they specialize in eliminating enemies from the shadows, poisoning wells, and sowing discord before open war. Their services are expensive, but those who cross them rarely live long enough to regret it.">
+	<minor_faction_character_templates>
 			<template
 				id="NPCCharacter.spc_hidden_hand_leader_0" />
 			<template
@@ -388,11 +390,11 @@
 		is_minor_faction="true"
 		is_outlaw="true"
 		is_mafia="true"
-		name="{=7WL1LWdf}Lake Rats"
-		short_name="{=7WL1LWdf}Lake Rats"
+		name="{=7WL1LWdf}The Greyfin Marauders"
+		short_name="{=7WL1LWdf}Greyfin Marauders"
 		tier="4"
-		text="{=9ZEdEWmi}The Lake Rats live in the marshes on the shores of the great northern lake, in shacks made out of the timbers of ruined ships. They live by “wrecking“ - ie, luring ships onto shoals with false lighthouses and beacons. Because they're scorned by the rest of Calradia - ”all criminals, smell like marsh gas and mud and rotten fish” - they scorn everyone else back. Although mostly Sturgian, their ranks have been swelled by fugitives, debtors, and anyone else who'd rather live by a thieves' code than by the laws of nobles.">
-		<minor_faction_character_templates>
+		text="{=taom_greyfinmarauders}The Greyfin Marauders are a notorious band of river raiders who make their home along the Celduin (Running River). Outlaws and smugglers, they strike at isolated river settlements, looting supplies and vanishing downstream before retribution can follow. Though they often fight for the highest bidder, their true allegiance is to gold, wine, and the thrill of the chase.">
+	<minor_faction_character_templates>
 			<template
 				id="NPCCharacter.spc_lakepike_leader_0" />
 			<template
@@ -429,10 +431,10 @@
 		is_minor_faction="true"
 		is_outlaw="true"
 		is_sect="true"
-		name="{=mtZu1l2j}Embers of the Flame"
-		short_name="{=zcLTthfN}Embers"
+		name="{=mtZu1l2j}The Ashborn"
+		short_name="{=zcLTthfN}Ashborn"
 		tier="3"
-		text="{=B8c2mNKj}The Embers of the Flame are the descendants of a rebel movement that rose up nearly a century ago, after the saintly but ineffective teenaged Emperor Darusos was toppled by one of his generals. They claim that they are preparing the way for Heaven to bring back Darusos and usher in a golden age, but like so many other rebel movements in Calradia they have been forced to turn to extortion to survive.">
+		text="{=taom_ashborn}The Ashborn are the last remnants of dark cults once devoted to Sauron. Though their dark master has fallen, they still whisper prayers to the shadows, seeking to reignite the fires of his dominion. Among their ranks are zealots, black-robed warriors, and fallen men who refuse to accept the Dark Lord’s defeat. Though their numbers dwindle, their hatred burns as fiercely as ever, and their blades remain sharp.">
 		<minor_faction_character_templates>
 			<template
 				id="NPCCharacter.spc_embers_of_flame_leader_0" />
@@ -461,9 +463,9 @@
 		is_minor_faction="true"
 		is_outlaw="true"
 		is_nomad="true"
-		name="{=8ba4tpRU}Jawwal"
+		name="{=8ba4tpRU}The Desert Stalkers"
 		tier="4"
-		text="{=RWOYui01}The Jawwal, or “Roamers,” are the main bedouin confederacy in the Nahasa desert. They wander from highland to lowland grazing grounds, declaring huge swathes of the desert their “territory” in which any caravan must offer protection money. They compose poems of their deeds and mock other clans of the Banu Asera for having given up the “freedom” of black wool tents for stone houses in the oases. The other clans consider them boastful nuisances, though grudgingly respecting them as protectors of the old Aserai ways.">
+		text="{=taom_desertstalkers}The Desert Stalkers are a wandering brotherhood of Haradrim warriors, bound by no kingdom and loyal only to their own. Born of the shifting sands, they are expert trackers, ambushers, and raiders, striking with deadly precision. To the merchants of Gondor and Umbar alike, they are little more than brigands, but in the deep desert, they are spoken of with reverence and fear.">
 		<minor_faction_character_templates>
 			<template
 				id="NPCCharacter.spc_jawwal_leader_0" />
@@ -491,10 +493,11 @@
 		is_minor_faction="true"
 		is_outlaw="true"
 		is_nomad="true"
-		name="{=6BvGhzao}Karakhergit"
+		name="{=6BvGhzao}The Fireborn Riders"
 		tier="4"
-		text="{=XJbDRBfd}The Karakhergit are one of the last nomadic clans in the western steppe. The Urkhunid khans have tried to coax them into settling down, offering them farmlands and serfs in exchange for a commitment to pay taxes and supply military levies, but they have resisted. They are treated by the other clans with a combination of envy and contempt. They trade and sometimes even intermarry with their settled brethren, but they also do a limited amount of kidnapping for ransom and raiding of flocks, and scoff at those who would blame them for carrying on with the heroic old ways.">
-		<minor_faction_character_templates>
+		text="{=taom_firebornriders}The Fireborn Riders are warriors of Rhûn, men who have cast aside their tribal loyalties in search of wealth and war. Swift and deadly, they are masters of the bow and spear, their horsemen striking like the burning wind that sweeps the steppe. Though many still whisper prayers to the Dark Lord in secret, they now serve whoever offers them the richest spoils of war.">
+
+	<minor_faction_character_templates>
 			<template
 				id="NPCCharacter.spc_karakhuzaits_leader_0" />
 			<template
@@ -521,10 +524,11 @@
 		is_minor_faction="true"
 		is_outlaw="true"
 		is_nomad="true"
-		name="{=o7ud4X2X}Forest People"
+		name="{=o7ud4X2X}The Shadowkin"
 		tier="4"
-		text="{=0u8ipbgn}The tribes known as the Forest People practice slash-and-burn farming in the deep woods, outside the grasp of the Sturgian boyars. They burn down tracts of trees, grow crops on the virgin soil fertilized by ash for a few years until the land is exhausted, and move on. It is an inefficient use of land but a very efficient use of labor, suitable for a numerically small population in a large area. Also, because the plots are hard to measure and tax, it's a very good strategy for people who don't care to be governed.">
-		<minor_faction_character_templates>
+		text="{=taom_shadowkin}The Shadowkin are a reclusive and enigmatic group, dwelling in the deepest forests of Middle-earth. Composed of outcast elves, exiles from Rhovanion, and those who have abandoned civilization, they survive by hunting, raiding, and vanishing like ghosts. While they have no master, they sometimes lend their bows to those who respect the old ways and pay them in kind.">
+
+	<minor_faction_character_templates>
 			<template
 				id="NPCCharacter.spc_forest_people_leader_0" />
 			<template
@@ -578,7 +582,7 @@
 
 	<Faction
 		id="clan_empire_north_2"
-		name="{=clanofdunland2}House of the Ironhand"
+		name="{=clanofdunland2}House of the Iron Boar"
 		tier="5"
 		owner="Hero.lord_1_3"
 		culture="Culture.empire"

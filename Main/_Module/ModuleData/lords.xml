@@ -668,7 +668,7 @@
 	<!-- Lucon's wife. Traditional matriarch, benevolent-->
 	<NPCCharacter
 		id="lord_1_2"
-		name="{=dunlandlord}Eryndis"
+		name="{=dunlandlord}Freya Wolfheart"
 		age="20"
 		voice="curt"
 		default_group="Cavalry"
@@ -737,7 +737,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_1"
-		name="{=J0QdMsnX}Susada"
+		name="{=J0QdMsnX}Eldith of the Grey Claw"
 		default_group="Cavalry"
 		age="32"
 		voice="ironic"
@@ -785,7 +785,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_2"
-		name="{=zFPc7VEO}Decantia"
+		name="{=zFPc7VEO}Sigga Wyrmbane"
 		default_group="Cavalry"
 		age="19"
 		voice="earnest"
@@ -827,7 +827,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_3"
-		name="{=EdQ0Lp2a}Veneranda"
+		name="{=EdQ0Lp2a}Sigrun Frostfang"
 		default_group="Cavalry"
 		age="18"
 		voice="ironic"
@@ -872,7 +872,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_4"
-		name="{=JJcFwAUb}Phalarisa"
+		name="{=JJcFwAUb}Thyra Bloodpaw"
 		is_female="true"
 		age="32"
 		voice="softspoken"
@@ -914,7 +914,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_5"
-		name="{=VPH7syd9}Presciana"
+		name="{=VPH7syd9}Hilda Bonecrusher"
 		age="22"
 		voice="softspoken"
 		default_group="Cavalry"
@@ -959,7 +959,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_6"
-		name="{=O6NKphJk}Adrichea"
+		name="{=O6NKphJk}Yrsa the Winter Boar"
 		default_group="Cavalry"
 		age="19"
 		voice="softspoken"
@@ -1004,9 +1004,9 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_7"
-		name="{=v6CSTkR4}Hylasiana"
+		name="{=v6CSTkR4}Wynna Moonfang"
 		default_group="Cavalry"
-		age="46"
+		age="26"
 		voice="curt"
 		is_hero="true"
 		is_female="true"
@@ -1049,7 +1049,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_8"
-		name="{=Ybpa7Nbz}Apolytea"
+		name="{=Ybpa7Nbz}Eira Shadowclaw"
 		age="22"
 		voice="earnest"
 		is_female="true"
@@ -1088,8 +1088,8 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_9"
-		name="{=kAbug2ja}Eodisia"
-		age="46"
+		name="{=kAbug2ja}Sifra Bonewalker"
+		age="36"
 		voice="curt"
 		is_hero="true"
 		is_female="true"
@@ -1130,7 +1130,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_10"
-		name="{=DCAa3GOY}Rhoda"
+		name="{=DCAa3GOY}Haldis Redmist"
 		default_group="Cavalry"
 		age="21"
 		voice="curt"
@@ -1169,7 +1169,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_11"
-		name="{=MrIvBcNH}Amaliana"
+		name="{=MrIvBcNH}Yrla Ghostpelt"
 		default_group="Cavalry"
 		age="20"
 		voice="curt"
@@ -1208,9 +1208,9 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_15"
-		name="{=jqdpTXYV}Justina"
+		name="{=jqdpTXYV}Kaedra Bloodveil"
 		default_group="Cavalry"
-		age="41"
+		age="21"
 		voice="softspoken"
 		is_hero="true"
 		is_female="true"
@@ -1250,7 +1250,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_16"
-		name="{=AEA6qavG}Leontia"
+		name="{=AEA6qavG}Hedra Bonecarver"
 		default_group="Cavalry"
 		age="19"
 		voice="softspoken"
@@ -1296,8 +1296,8 @@
 	<!-- Manteos Argoros, Patriarch of clan 2, stoic STEVEDIDFACE -->
 	<NPCCharacter
 		id="lord_1_3"
-		name="{=6GC0PsSh}Elladan"
-		age="29"
+		name="{=6GC0PsSh}Ragnvald The Boar"
+		age="30"
 		voice="curt"
 		default_group="Infantry"
 		is_hero="true"
@@ -1317,7 +1317,7 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="13" />
 			<Trait
 				id="Commander"
 				value="17" />
@@ -1365,8 +1365,8 @@
 	<!-- Phenoria, matriarch of clan 2, -->
 	<NPCCharacter
 		id="lord_1_4"
-		name="{=WrAMfIG1}Phenoria"
-		age="53"
+		name="{=WrAMfIG1}Brunhild Ironclaw"
+		age="33"
 		voice="curt"
 		is_hero="true"
 		is_female="true"
@@ -1417,7 +1417,7 @@
 	3 patriarch Penton Neretzes is imperial blowhard, part of aristocratic imperial faction -->
 	<NPCCharacter
 		id="lord_1_5"
-		name="{=1cKxsHSh}Elrohir"
+		name="{=1cKxsHSh}Othric The Wild"
 		age="29"
 		voice="earnest"
 		is_hero="true"
@@ -1509,7 +1509,7 @@
   -->
 	<NPCCharacter
 		id="lord_1_6"
-		name="{=q186AQHt}Phadon"
+		name="{=q186AQHt}Sigvald Bloodfang"
 		age="19"
 		voice="earnest"
 		is_hero="true"
@@ -3044,8 +3044,8 @@
 	<!-- Ascyron, Lucon's heir, Sulla type. More enthusiastic than father. Switch with Apys? -->
 	<NPCCharacter
 		id="lord_1_21"
-		name="{=rGuYLmez}Ascyron"
-		age="28"
+		name="{=rGuYLmez}Fenrik the Red Wolf"
+		age="22"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.empire"
@@ -3098,7 +3098,7 @@
 	<!-- Andros. Heir clan 2. Generally benevolent -->
 	<NPCCharacter
 		id="lord_1_22"
-		name="{=uTFjknE2}Andros"
+		name="{=uTFjknE2}Bjornric Strongarm"
 		age="23"
 		voice="earnest"
 		is_hero="true"
@@ -3649,7 +3649,7 @@
 	daughter, conventional aristocratic maiden STEVEDIDFACE -->
 	<NPCCharacter
 		id="lord_1_31"
-		name="{=AccBcEIt}Zoana"
+		name="{=AccBcEIt}Yrsa Blackfang"
 		age="20"
 		voice="earnest"
 		is_hero="true"
@@ -3699,7 +3699,7 @@
 	<!-- Sora, Matthis' daughter. Honorable, a bit moralistic, conscientious ruler -->
 	<NPCCharacter
 		id="lord_1_32"
-		name="{=V1QLbhRl}Sora"
+		name="{=V1QLbhRl}Eldra Bearsong"
 		voice="softspoken"
 		age="21"
 		default_group="Cavalry"
@@ -3756,7 +3756,7 @@
 		is_female="true"
 		culture="Culture.empire"
 		occupation="Lord"
-		name="{=AdK4Ilzw}Chalia"
+		name="{=AdK4Ilzw}Brigid the Howling"
 		face_mesh_cache="true">
 		<face>
 			<!--face_key
@@ -3805,7 +3805,7 @@
 	<!-- Maurentios, younger son of Neretzes -->
 	<NPCCharacter
 		id="lord_1_422"
-		name="{=LQYkBOsU}Maurentios"
+		name="{=LQYkBOsU}Drengulf Bearclaw"
 		default_group="HorseArcher"
 		age="17"
 		voice="softspoken"
@@ -4107,9 +4107,9 @@
 	<!-- clan 1 lieutenant. Lucon's cousin. Far more ruthless than the clan leader -->
 	<NPCCharacter
 		id="lord_1_41"
-		name="{=O75XlydW}Arcor"
+		name="{=O75XlydW}Beregund Wolfborn"
 		default_group="Cavalry"
-		age="50"
+		age="20"
 		voice="curt"
 		is_hero="true"
 		culture="Culture.empire"
@@ -4159,9 +4159,9 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_411"
-		name="{=W1uwgvAQ}Arion"
+		name="{=W1uwgvAQ}Grimwulf Ironfang"
 		default_group="Cavalry"
-		age="19"
+		age="30"
 		voice="curt"
 		is_hero="true"
 		culture="Culture.empire"
@@ -4213,7 +4213,7 @@
 	<!-- clan 2 lieutenant. Mathhis cousin. Ferocious, dedicated to the clan. One eyed -->
 	<NPCCharacter
 		id="lord_1_42"
-		name="{=10urvYUQ}Belithor"
+		name="{=10urvYUQ}Hrodgar Ironhide"
 		default_group="HorseArcher"
 		age="37"
 		voice="softspoken"
@@ -4264,10 +4264,10 @@
 	<!-- Chason. clan 3 lieutenant. Foul tempered -->
 	<NPCCharacter
 		id="lord_1_43"
-		name="{=Dsclf61p}Chason"
+		name="{=Dsclf61p}Drustan Blackwolf"
 		voice="curt"
 		default_group="Cavalry"
-		age="48"
+		age="28"
 		is_hero="true"
 		culture="Culture.empire"
 		occupation="Lord"
@@ -4662,10 +4662,10 @@
 	<!-- Impestores, Lucon's faction. Different personalities but fanatic oligarchs -->
 	<NPCCharacter
 		id="lord_1_20"
-		name="{=rUvnbDi2}Arwen Undómiel"
-		age="28"
+		name="{=rUvnbDi2}Brynhild Ironfury"
+		age="22"
 		voice="softspoken"
-		default_group="HorseArcher"
+		default_group="Cavalry"
 		is_hero="true"
 		is_female="true"
 		culture="Culture.empire"
@@ -4717,7 +4717,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_12"
-		name="{=vlpRh9ZB}Epipheria"
+		name="{=vlpRh9ZB}Gunda the Unshaken"
 		default_group="Cavalry"
 		age="22"
 		voice="curt"
@@ -4829,7 +4829,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_13"
-		name="{=bJBQVoe2}Agnathea"
+		name="{=bJBQVoe2}Thyldis Rockborn"
 		default_group="Cavalry"
 		age="24"
 		voice="softspoken"
@@ -4868,8 +4868,8 @@
 	<!-- Gyphor. Calm, lucon's faction -->
 	<NPCCharacter
 		id="lord_1_50"
-		name="{=jQjouVRk}Gildor Inglorion"
-		age="33"
+		name="{=jQjouVRk}Ulric Stormfang"
+		age="26"
 		voice="softspoken"
 		default_group="Ranged"
 		is_hero="true"
@@ -4938,7 +4938,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_66"
-		name="{=YWJUZlzt}Lantanor"
+		name="{=YWJUZlzt}Halvar Greywolf"
 		default_group="HorseArcher"
 		age="33"
 		voice="earnest"
@@ -4995,7 +4995,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_14"
-		name="{=Bo6IZGAN}Tyliana"
+		name="{=Bo6IZGAN}Morgith Stoneshadow"
 		age="25"
 		voice="softspoken"
 		is_female="true"
@@ -5036,7 +5036,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_17"
-		name="{=y881d2ER}Variasis"
+		name="{=y881d2ER}Guthred Rockbane"
 		is_female="false"
 		age="31"
 		voice="curt"
@@ -5084,8 +5084,8 @@
 	<!-- Nicasor. Gruff but very competent fanatic, lucon's faction. One eyed -->
 	<NPCCharacter
 		id="lord_1_51"
-		name="{=3qr3bhL6}Glorfindel"
-		age="50"
+		name="{=3qr3bhL6}Vargan Bloodtaker"
+		age="25"
 		voice="curt"
 		default_group="Infantry"
 		is_hero="true"
@@ -5151,7 +5151,7 @@
 	<!-- Tasynor, Lucon's faction. Smug, privileged, self-righteous -->
 	<NPCCharacter
 		id="lord_1_58"
-		name="{=MaeS2r7p}Erestor"
+		name="{=MaeS2r7p}Gorvin the Fell"
 		age="30"
 		voice="earnest"
 		default_group="Infantry"
@@ -5222,10 +5222,10 @@
 	recognize her right to inherit -->
 	<NPCCharacter
 		id="lord_1_70"
-		name="{=cjuYkvlX}Panalea"
+		name="{=cjuYkvlX}Veyra the Shadow"
 		voice="earnest"
 		is_female="true"
-		age="34"
+		age="24"
 		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.empire"
@@ -5268,11 +5268,11 @@
 	<!-- Nesthys, quiet strategist-->
 	<NPCCharacter
 		id="lord_NE7_u"
-		name="{=rhSlO9g3}Nesthys"
+		name="{=rhSlO9g3}Haldric the Black Fang"
 		voice="softspoken"
 		is_female="false"
 		default_group="HorseArcher"
-		age="41"
+		age="21"
 		is_hero="true"
 		culture="Culture.empire"
 		occupation="Lord"
@@ -5321,9 +5321,9 @@
 	<!-- Olypos, older. Genuine republican, military-oriented Cicero -->
 	<NPCCharacter
 		id="lord_1_67"
-		name="{=eTS0B8NB}Olypos"
-		default_group="HorseArcher"
-		age="43"
+		name="{=eTS0B8NB}Rudric the Crimson"
+		default_group="Cavalry"
+		age="33"
 		voice="ironic"
 		is_hero="true"
 		culture="Culture.empire"
@@ -7266,7 +7266,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_30_1"
-		name="{=jqdpTXYV}Justina"
+		name="{=jqdpTXYV}Svala Redfang"
 		voice="curt"
 		age="23"
 		is_female="true"
@@ -7940,9 +7940,9 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_56"
-		name="{=MADTaSFV}Seranor"
+		name="{=MADTaSFV}Tormund Ironhowl"
 		voice="curt"
-		age="41"
+		age="31"
 		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.empire"
@@ -7993,10 +7993,10 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_56_1"
-		name="{=2T4CbYRn}Germana"
+		name="{=2T4CbYRn}Vigdis the Silent"
 		is_female="true"
 		voice="curt"
-		age="37"
+		age="22"
 		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.empire"
@@ -8561,7 +8561,7 @@
 	<!-- Vatatzes clan. Non-ideological but served with Lucon -->
 	<NPCCharacter
 		id="lord_NE8_l"
-		name="{=9Pw7LDXY}Lindir"
+		name="{=9Pw7LDXY}Hrodan the Grey"
 		age="18"
 		voice="earnest"
 		default_group="Ranged"
@@ -8627,8 +8627,8 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_NE8_s"
-		name="{=1yJZWqhG}Pradentia"
-		age="38"
+		name="{=1yJZWqhG}Svala Wolfheart"
+		age="19"
 		voice="earnest"
 		is_female="true"
 		default_group="Cavalry"
@@ -8675,7 +8675,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_NE8_c1"
-		name="{=gSR6ObvN}Theavisos"
+		name="{=gSR6ObvN}Eirik Wolfbane"
 		age="19"
 		voice="curt"
 		default_group="Cavalry"
@@ -8723,7 +8723,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_NE8_c2"
-		name="{=stjahQvD}Lucala"
+		name="{=stjahQvD}Bryndis Frostclaw"
 		age="16"
 		voice="softspoken"
 		is_female="true"
@@ -8752,8 +8752,8 @@
 	<!-- Serapides, latter-day Scipios. Angry that moment of glory has passed -->
 	<NPCCharacter
 		id="lord_NE9_l"
-		name="{=2XKnC45z}Melpomaen"
-		age="18"
+		name="{=2XKnC45z}Gunnar One-Eye"
+		age="25"
 		voice="ironic"
 		default_group="Infantry"
 		is_hero="true"
@@ -8820,7 +8820,7 @@
 	<!-- Silasos, wishes to rebuild the clan -->
 	<NPCCharacter
 		id="lord_NE9_s"
-		name="{=GJhRw7qb}Aesos"
+		name="{=GJhRw7qb}Rurik Ironbreaker"
 		age="24"
 		voice="softspoken"
 		default_group="Cavalry"
@@ -8868,7 +8868,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_NE9_d"
-		name="{=lLNkm48w}Vamina"
+		name="{=lLNkm48w}Astrid Redhand"
 		age="22"
 		voice="earnest"
 		is_female="true"
