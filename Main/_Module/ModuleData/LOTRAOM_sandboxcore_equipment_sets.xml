@@ -389,6 +389,43 @@
 	</EquipmentRoster>
 
 	<EquipmentRoster
+			id="nazgul_template"
+			culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item1"
+				id="Item.nazgul_sword" />
+			<Equipment
+				slot="Head"
+				id="Item.witch_king_helmet" />
+			<Equipment
+				slot="Cape"
+				id="Item.witch_king_pauldrons" />
+			<Equipment
+				slot="Body"
+				id="Item.witch_king" />
+			<Equipment
+				slot="Gloves"
+				id="Item.witch_king_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.witch_king_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_northern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.northern_ring_barding" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
+			/>
+	</EquipmentRoster>
+
+	<EquipmentRoster
 			id="mordor_captain_template_a1"
 			culture="Culture.mordor">
 		<EquipmentSet

@@ -1366,7 +1366,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a10" />
@@ -1392,7 +1392,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a01" />
@@ -1418,7 +1418,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a07" />
@@ -1444,7 +1444,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a08" />
@@ -1470,7 +1470,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a09" />
@@ -1496,7 +1496,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a08" />
@@ -1577,7 +1577,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a10" />
@@ -1603,7 +1603,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a05" />
@@ -1629,7 +1629,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a01" />
@@ -1655,7 +1655,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a02" />
@@ -1728,7 +1728,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a05" />
@@ -1754,7 +1754,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a10" />
@@ -1780,7 +1780,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a03" />
@@ -1806,7 +1806,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a07" />
@@ -2126,7 +2126,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_a" />
+					id="Item.wm_gondor_swanknight_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
@@ -2152,7 +2152,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_a" />
+					id="Item.wm_gondor_swanknight_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
@@ -2212,7 +2212,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_a" />
+					id="Item.wm_gondor_swanknight_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
@@ -2238,7 +2238,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_a" />
+					id="Item.wm_gondor_swanknight_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
@@ -2295,7 +2295,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_a" />
+					id="Item.wm_gondor_swanknight_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />

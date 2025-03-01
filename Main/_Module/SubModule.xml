@@ -171,8 +171,17 @@
 				<GameType value = "CustomGame"/>
 				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
-</XmlNode> 
+</XmlNode>
 
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="troops_erebor"/>
+			<IncludedGameTypes>
+				<GameType value ="Campaign"/>
+				<GameType value ="CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
 		
 <!-- Sandbox Equipment Roster -->
 		<XmlNode>

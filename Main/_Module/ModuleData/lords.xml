@@ -1744,7 +1744,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_a" />
+					id="Item.wm_gondor_swanknight_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
@@ -2823,9 +2823,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="witch_king_template" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="witch_king_template"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -2864,9 +2864,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="witch_king_template" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="witch_king_template"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -3582,9 +3582,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="witch_king_template" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="witch_king_template"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4047,9 +4047,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="witch_king_template" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="witch_king_template"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7406,9 +7406,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="witch_king_template" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="witch_king_template"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7447,9 +7447,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="witch_king_template" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="witch_king_template"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7488,9 +7488,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="witch_king_template" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="witch_king_template"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7528,9 +7528,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="witch_king_template" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="witch_king_template"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
