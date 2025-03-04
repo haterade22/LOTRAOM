@@ -2198,7 +2198,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- House of Obas -->
-	<Settlement id="village_S1_1" name="{=Settlements.Settlement.name.village_S1_1}Kelduin’s Watch" posX="1896.172" posY="2387.649" culture="Culture.sturgia" text="{=Settlements.Settlement.text.village_S1_1}Rodobas, the house of Obas, is named for a long-dead Sturgian hill chieftain. Perched high on a ridge overlooking the wilds of Ircara, it serves as a base for trappers looking for furs in the dark woods below,">
+	<Settlement id="village_S1_1" name="{=Settlements.Settlement.name.village_S1_1}Steinholl" posX="1896.172" posY="2387.649" culture="Culture.sturgia" text="{=Settlements.Settlement.text.village_S1_1}Rodobas, the house of Obas, is named for a long-dead Sturgian hill chieftain. Perched high on a ridge overlooking the wilds of Ircara, it serves as a base for trappers looking for furs in the dark woods below,">
 		<Components>
 			<Village id="village_comp_S1_1" village_type="VillageType.trapper" hearth="311" gate_rotation="0.008" bound="Settlement.town_S1" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
 		</Components>
@@ -2302,7 +2302,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_S3" name="{=Settlements.Settlement.name.town_S3}Kelduin’s Watch" owner="Faction.clan_sturgia_2" posX="1861.74" posY="2375.09" culture="Culture.sturgia" gate_posX="1858.925" gate_posY="2371.288" text="{=pbHXtJ82}Omor sits on the eastern shores of Lake Laconis. Long before the Sturgians formed themselves into a principality it was a holy site for the forest tribes, who worshipped their gods and ancestors in the sacred oak trees of the nearby woods. Today, it is an emporium for fur trappers and woodsmen who prowl the Ircara wildlands to the east, and the primeval peace of the forests is drowned out by the sounds of bartering, saws, and the unloading of ships at the lake.">
+	<Settlement id="town_S3" name="{=Settlements.Settlement.name.town_S3}Steinholl" owner="Faction.clan_sturgia_2" posX="1861.74" posY="2375.09" culture="Culture.sturgia" gate_posX="1858.925" gate_posY="2371.288" text="{=pbHXtJ82}Omor sits on the eastern shores of Lake Laconis. Long before the Sturgians formed themselves into a principality it was a holy site for the forest tribes, who worshipped their gods and ancestors in the sacred oak trees of the nearby woods. Today, it is an emporium for fur trappers and woodsmen who prowl the Ircara wildlands to the east, and the primeval peace of the forests is drowned out by the sounds of bartering, saws, and the unloading of ships at the lake.">
 		<Components>
 			<Town id="town_comp_S3" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.008" prosperity="3200" />
 		</Components>
@@ -2429,7 +2429,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Name of a local clan hero-->
-	<Settlement id="town_S5" name="{=Settlements.Settlement.name.town_S5}Skalavik" owner="Faction.clan_sturgia_3" posX="1849.604" posY="2357.68" culture="Culture.sturgia" gate_posX="1853.586" gate_posY="2357.103" text="{=F5HlQdgf}Tyal sits in the western foothills of Mount Iltan, on the eastern borders of the Sturgian lands. This region has long stood aloof from the power struggles of the other Sturgian principalities. Its people are known as wanderers, traders, horse breeders and fur-trappers. The local aristocracy has occasionally exchanged princesses with the steppe tribes to the east to firm up a truce or a trade pact, and proudly includes the names of several great khans on their list of ancestors.">
+	<Settlement id="town_S5" name="{=Settlements.Settlement.name.town_S5}Dale" owner="Faction.clan_sturgia_3" posX="1849.604" posY="2357.68" culture="Culture.sturgia" gate_posX="1853.586" gate_posY="2357.103" text="{=F5HlQdgf}Tyal sits in the western foothills of Mount Iltan, on the eastern borders of the Sturgian lands. This region has long stood aloof from the power struggles of the other Sturgian principalities. Its people are known as wanderers, traders, horse breeders and fur-trappers. The local aristocracy has occasionally exchanged princesses with the steppe tribes to the east to firm up a truce or a trade pact, and proudly includes the names of several great khans on their list of ancestors.">
 		<Components>
 			<Town id="town_comp_S5" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.308" prosperity="1700" />
 		</Components>
@@ -2492,7 +2492,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Name of a local clan hero-->
-	<Settlement id="town_S6" name="{=Settlements.Settlement.name.town_S6}Darkridge" owner="Faction.clan_sturgia_6" posX="1908.085" posY="2338.651" culture="Culture.sturgia" gate_posX="1912.342" gate_posY="2336.588" text="{=PPadNxa6}Sibir was founded in a dark valley amid the Chertyg mountains by Nordic traders, who wished a base to buy furs from the local Vakken-speaking foresters. As the Sturgian tribes became principalities, and elected chieftains evolved into boyars who demanded taxes and labor as their due, this region became a magnet for Sturgians who had little taste for deference. Today, the ambitious Isyaroving family governs this region, but they must always balance their hunger for wealth and men to fight their wars with their subjects' reluctance to provide it.">
+	<Settlement id="town_S6" name="{=Settlements.Settlement.name.town_S6}Banimyrr" owner="Faction.clan_sturgia_6" posX="1908.085" posY="2338.651" culture="Culture.sturgia" gate_posX="1912.342" gate_posY="2336.588" text="{=PPadNxa6}Sibir was founded in a dark valley amid the Chertyg mountains by Nordic traders, who wished a base to buy furs from the local Vakken-speaking foresters. As the Sturgian tribes became principalities, and elected chieftains evolved into boyars who demanded taxes and labor as their due, this region became a magnet for Sturgians who had little taste for deference. Today, the ambitious Isyaroving family governs this region, but they must always balance their hunger for wealth and men to fight their wars with their subjects' reluctance to provide it.">
 		<Components>
 			<Town id="town_comp_S6" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.308" prosperity="1900" />
 		</Components>
@@ -2553,7 +2553,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_S7" name="{=Settlements.Settlement.name.town_S7}Othbrond" owner="Faction.clan_sturgia_5" posX="1864.764" posY="2343.874" culture="Culture.sturgia" gate_posX="1868.289" gate_posY="2346.378" text="{=T2E4xKVn}Revyl, chief town of the rocky Kachyar peninsula, was a traditional rival of Balgard. According to legend the Balgardian princess Arkina, whose husband had been slain by the Revylians, accepted a proposal from her enemy's king to marry and settle the feud. On her wedding night, however, she barred the door of his hall and burned him and a hundred of his kinsmen and warriors alive inside. The feud has long since been settled by pacts and marriages with happier outcomes, although Revylians still resent the ascent of the Balgardian Gundaroving dynasty.">
+	<Settlement id="town_S7" name="{=Settlements.Settlement.name.town_S7}Vargborg" owner="Faction.clan_sturgia_5" posX="1864.764" posY="2343.874" culture="Culture.sturgia" gate_posX="1868.289" gate_posY="2346.378" text="{=T2E4xKVn}Revyl, chief town of the rocky Kachyar peninsula, was a traditional rival of Balgard. According to legend the Balgardian princess Arkina, whose husband had been slain by the Revylians, accepted a proposal from her enemy's king to marry and settle the feud. On her wedding night, however, she barred the door of his hall and burned him and a hundred of his kinsmen and warriors alive inside. The feud has long since been settled by pacts and marriages with happier outcomes, although Revylians still resent the ascent of the Balgardian Gundaroving dynasty.">
 		<Components>
 			<Town id="town_comp_S7" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.308" prosperity="3100" />
 		</Components>
@@ -2874,7 +2874,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Quyaz, Banu Qild  -->
-	<Settlement id="town_A1" name="{=Settlements.Settlement.name.town_A1}Kûrzhad" owner="Faction.clan_aserai_1" posX="1470.045" posY="1917.938" culture="Culture.aserai" gate_posX="1471.111" gate_posY="1915.013" text="{=1ImuW3My}Quyaz was once a mercantile republic that dominated the trade between the western ocean and the Perassic Sea, speaking the now all-but-extinct Kannic tongue, a relative of Nahasawi. But imperial hegemony slowly snuffed out its trade, and the rulers was taken over by mercenaries from the Nahasa. It came intermittently under imperial subjugation but today is a prized holding of the Banu Hulyan, a leading clan of the Aserai sultanate.">
+	<Settlement id="town_A1" name="{=Settlements.Settlement.name.town_A1}Harnen" owner="Faction.clan_aserai_1" posX="1470.045" posY="1917.938" culture="Culture.aserai" gate_posX="1471.111" gate_posY="1915.013" text="{=1ImuW3My}Quyaz was once a mercantile republic that dominated the trade between the western ocean and the Perassic Sea, speaking the now all-but-extinct Kannic tongue, a relative of Nahasawi. But imperial hegemony slowly snuffed out its trade, and the rulers was taken over by mercenaries from the Nahasa. It came intermittently under imperial subjugation but today is a prized holding of the Banu Hulyan, a leading clan of the Aserai sultanate.">
 		<Components>
 			<Town id="town_comp_A1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.108" prosperity="4000" />
 		</Components>
@@ -2948,7 +2948,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Husn Fulq, Qild-->
-	<Settlement id="town_A2" name="{=Settlements.Settlement.name.town_A2}Tulwaîr" owner="Faction.clan_aserai_2" posX="1490.641" posY="1936.107" culture="Culture.aserai" gate_posX="1491.029" gate_posY="1937.579" text="{=bnl7Va4c}Husn Fulq sits at the southeastern edge of the Caldea, the network of rivers and brackish lagoons linking the Empire to the Aserai lands. Fulq, also known as Phalcos, was a dark-faced mercenary chieftain who came from lands far to the south. He founded a fortress here and then parlayed its strategic location into a fortune, taking bribes from the Empire and then from the Aserai to switch sides. After 20 years of playing both sides back and forth he sailed home in a ship laden with gold, but many clans of the Aserai proudly claim descent from him, and the 'Tricks of Fulq' are a staple of many a bazaar storyteller's repetoire.">
+	<Settlement id="town_A2" name="{=Settlements.Settlement.name.town_A2}Urmakh" owner="Faction.clan_aserai_2" posX="1490.641" posY="1936.107" culture="Culture.aserai" gate_posX="1491.029" gate_posY="1937.579" text="{=bnl7Va4c}Husn Fulq sits at the southeastern edge of the Caldea, the network of rivers and brackish lagoons linking the Empire to the Aserai lands. Fulq, also known as Phalcos, was a dark-faced mercenary chieftain who came from lands far to the south. He founded a fortress here and then parlayed its strategic location into a fortune, taking bribes from the Empire and then from the Aserai to switch sides. After 20 years of playing both sides back and forth he sailed home in a ship laden with gold, but many clans of the Aserai proudly claim descent from him, and the 'Tricks of Fulq' are a staple of many a bazaar storyteller's repetoire.">
 		<Components>
 			<Town id="town_comp_A2" is_castle="false" level="3" background_crop_position="0.235" background_mesh="menu_aserai_1" wait_mesh="wait_aserai_town" gate_rotation="0.808" prosperity="4200" />
 		</Components>
@@ -3008,7 +3008,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_A3" name="{=Settlements.Settlement.name.town_A3}Abrakhân" owner="Faction.clan_aserai_4" posX="1468.99" posY="1938.949" culture="Culture.aserai" gate_posX="1467.581" gate_posY="1941.619" text="{=NFIYqaab}Iyakis sits in a cleft in the Jarjara escarpment, where the waters of the fierce but brief desert rains can be trapped and used for irrigation. For generations ago it was an autonomous outpost of the Empire known as Yachios, dominated by the Carasios clan. Fifty years ago however they saw the writing on the wall for imperial dominion in the southlands, and began intermarrying themselves with the tribes of the Nahasa. Today, known as the Qaraz, they take their places in the councils of the sultanate like any other family of the Aserai.">
+	<Settlement id="town_A3" name="{=Settlements.Settlement.name.town_A3}Amrun" owner="Faction.clan_aserai_4" posX="1468.99" posY="1938.949" culture="Culture.aserai" gate_posX="1467.581" gate_posY="1941.619" text="{=NFIYqaab}Iyakis sits in a cleft in the Jarjara escarpment, where the waters of the fierce but brief desert rains can be trapped and used for irrigation. For generations ago it was an autonomous outpost of the Empire known as Yachios, dominated by the Carasios clan. Fifty years ago however they saw the writing on the wall for imperial dominion in the southlands, and began intermarrying themselves with the tribes of the Nahasa. Today, known as the Qaraz, they take their places in the councils of the sultanate like any other family of the Aserai.">
 		<Components>
 			<Town id="town_comp_A3" is_castle="false" level="2" background_crop_position="0.0" background_mesh="menu_aserai_4" wait_mesh="wait_aserai_town" gate_rotation="0.508" prosperity="1800" />
 		</Components>
@@ -3068,7 +3068,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_A4" name="{=Settlements.Settlement.name.town_A4}Hazad-Khân" owner="Faction.clan_aserai_2" posX="1485.823" posY="1910.672" culture="Culture.aserai" gate_posX="1484.601" gate_posY="1907.773" text="{=jXBnf2hQ}Razih is said to be the base from which Kannic explorers set forth to colonize the shores of the Perassic Sea in the centuries before the coming of the empire, the prows of their ships decorated with the intertwined vine leaves of the Kannic goddess of wealth, wine, love and war. Today, the Kannic tongue has been replaced by Nahasawi dialects and their religion is all but forgotten, but the symbol lives on, said to protect those who risk all for the sake of gain or glory.">
+	<Settlement id="town_A4" name="{=Settlements.Settlement.name.town_A4}Jirush" owner="Faction.clan_aserai_2" posX="1485.823" posY="1910.672" culture="Culture.aserai" gate_posX="1484.601" gate_posY="1907.773" text="{=jXBnf2hQ}Razih is said to be the base from which Kannic explorers set forth to colonize the shores of the Perassic Sea in the centuries before the coming of the empire, the prows of their ships decorated with the intertwined vine leaves of the Kannic goddess of wealth, wine, love and war. Today, the Kannic tongue has been replaced by Nahasawi dialects and their religion is all but forgotten, but the symbol lives on, said to protect those who risk all for the sake of gain or glory.">
 		<Components>
 			<Town id="town_comp_A4" is_castle="false" level="1" background_crop_position="0.241" background_mesh="menu_aserai_1" wait_mesh="wait_aserai_town" gate_rotation="0.208" prosperity="4500" />
 		</Components>
@@ -3143,7 +3143,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- eastern towns -->
-	<Settlement id="town_A5" name="{=Settlements.Settlement.name.town_A5}Zajharûn" owner="Faction.clan_aserai_3" posX="1448.392" posY="1907.912" culture="Culture.aserai" gate_posX="1445.237" gate_posY="1909.803" text="{=IIMWPVhU}The inland city of Hubyar is said to be built on the ruins of a luxurious hunting lodge built by the decadent and cruel king Thuran, whom the patriarch Asera slew in vengeance for the enslavement of his family. This memory may explain the worldview of the fierce and austere Banu Qild, who hold the castle today and who detest all frivolity. But the scent of jasmine that can be detected on the night breezes here carries an undercurrent of temptation. It was here that the hero Nimr came to grief, caught in the chamber of a Banu Qild maiden and left hanging in a cage in the market until he perished.">
+	<Settlement id="town_A5" name="{=Settlements.Settlement.name.town_A5}Gha Nekha" owner="Faction.clan_aserai_3" posX="1448.392" posY="1907.912" culture="Culture.aserai" gate_posX="1445.237" gate_posY="1909.803" text="{=IIMWPVhU}The inland city of Hubyar is said to be built on the ruins of a luxurious hunting lodge built by the decadent and cruel king Thuran, whom the patriarch Asera slew in vengeance for the enslavement of his family. This memory may explain the worldview of the fierce and austere Banu Qild, who hold the castle today and who detest all frivolity. But the scent of jasmine that can be detected on the night breezes here carries an undercurrent of temptation. It was here that the hero Nimr came to grief, caught in the chamber of a Banu Qild maiden and left hanging in a cage in the market until he perished.">
 		<Components>
 			<Town id="town_comp_A5" is_castle="false" level="2" background_crop_position="0.179" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.908" prosperity="3200" />
 		</Components>
@@ -3203,7 +3203,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_A6" name="{=Settlements.Settlement.name.town_A6}Shaprakhôr" owner="Faction.clan_aserai_1" posX="1488.944" posY="1893.944" culture="Culture.aserai" gate_posX="1491.017" gate_posY="1891.956" text="{=uO4dxCl8}The port of Sanala is the gateway through which the grain of the lower Damar has flowed forth to feed a hungry world. The Empire's periodic advances south of the Perassic Sea have usually been aimed at seizing this strategic prize. Although the legions were long ago forced to retreat, Sanala remains among the most cosmopolitan cities in Calradia, filled with merchants from many lands bidding for the lowest bulk prices.">
+	<Settlement id="town_A6" name="{=Settlements.Settlement.name.town_A6}Imhûlar" owner="Faction.clan_aserai_1" posX="1488.944" posY="1893.944" culture="Culture.aserai" gate_posX="1491.017" gate_posY="1891.956" text="{=uO4dxCl8}The port of Sanala is the gateway through which the grain of the lower Damar has flowed forth to feed a hungry world. The Empire's periodic advances south of the Perassic Sea have usually been aimed at seizing this strategic prize. Although the legions were long ago forced to retreat, Sanala remains among the most cosmopolitan cities in Calradia, filled with merchants from many lands bidding for the lowest bulk prices.">
 		<Components>
 			<Town id="town_comp_A6" is_castle="false" level="3" background_crop_position="0.401" background_mesh="menu_aserai_4" wait_mesh="wait_aserai_town" gate_rotation="0.408" prosperity="4300" />
 		</Components>
@@ -3276,7 +3276,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_A7" name="{=Settlements.Settlement.name.town_A7}Bâl-Mîrad" owner="Faction.clan_aserai_5" posX="1460.709" posY="1889.573" culture="Culture.aserai" gate_posX="1462.025" gate_posY="1891.034" text="{=GChIoZdd}Askar dominates the middle stretches of the Damar River, as it weaves between the bluffs of the Jarjara Escarpment. This region has been thickly populated for thousands of years, but the river is restless, and every few centuries leaps its banks and erases what comes before. This latest regional capital was an imperial encampment  during their furthest penetration of the Nahasa several centuries ago, taken over by the Aserai tribes after the legions withdrew.">
+	<Settlement id="town_A7" name="{=Settlements.Settlement.name.town_A7}Ub Nishir" owner="Faction.clan_aserai_5" posX="1460.709" posY="1889.573" culture="Culture.aserai" gate_posX="1462.025" gate_posY="1891.034" text="{=GChIoZdd}Askar dominates the middle stretches of the Damar River, as it weaves between the bluffs of the Jarjara Escarpment. This region has been thickly populated for thousands of years, but the river is restless, and every few centuries leaps its banks and erases what comes before. This latest regional capital was an imperial encampment  during their furthest penetration of the Nahasa several centuries ago, taken over by the Aserai tribes after the legions withdrew.">
 		<Components>
 			<Town id="town_comp_A7" is_castle="false" level="3" background_crop_position="0.401" background_mesh="menu_aserai_1" wait_mesh="wait_aserai_town" gate_rotation="0.408" prosperity="2100" />
 		</Components>
@@ -3349,7 +3349,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_A8" name="{=Settlements.Settlement.name.town_A8}Nathûba" owner="Faction.clan_aserai_6" posX="1442.896" posY="1893.12" culture="Culture.aserai" gate_posX="1439.49" gate_posY="1891.031" text="{=J4bgNT0r}The legendary Queen Eshora, it is said, punished the jinn who were harassing her people by imprisoning them in one of the caves above Qasira, carving the mystical eight-pointed star into the rock to seal them in. She sentenced them to haul water from the depths of the earth, feeding the springs that gush forth from the rocks and which for centuries have irrigated the date gardens of Qasira and its surrounding villages.">
+	<Settlement id="town_A8" name="{=Settlements.Settlement.name.town_A8}Kas Shadoul" owner="Faction.clan_aserai_6" posX="1442.896" posY="1893.12" culture="Culture.aserai" gate_posX="1439.49" gate_posY="1891.031" text="{=J4bgNT0r}The legendary Queen Eshora, it is said, punished the jinn who were harassing her people by imprisoning them in one of the caves above Qasira, carving the mystical eight-pointed star into the rock to seal them in. She sentenced them to haul water from the depths of the earth, feeding the springs that gush forth from the rocks and which for centuries have irrigated the date gardens of Qasira and its surrounding villages.">
 		<Components>
 			<Town id="town_comp_A8" is_castle="false" level="2" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.508" prosperity="3500" />
 		</Components>
@@ -5031,7 +5031,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- clan 3, Arkits, lords 5, 9, 15 -->
-	<Settlement id="town_K1" name="{=Settlements.Settlement.name.town_K1}Murakhai" owner="Faction.clan_khuzait_2" posX="2496.42" posY="2062.565" culture="Culture.khuzait" gate_posX="2494.177" gate_posY="2062.83" text="{=YNm9vaHw}Baltakhand, the Fortress of the Axe, was settled by the Iltanlar, mountain-dwelling cousins of the Khuzaits. Centuries ago their beys descended into the plains and created the fortress here that guards the portages of Iltan, the network of lakes and rivers that divides the Sturgian lands from the Khuzaits' realm. Bitter winters protected them from the reach of the Empire, but no blast of wind was cutting enough to stop the horsemen of Khan Urkhun, who 40 years ago forced this town to submit to the khanate.">
+	<Settlement id="town_K1" name="{=Settlements.Settlement.name.town_K1}Bozorganush" owner="Faction.clan_khuzait_2" posX="2496.42" posY="2062.565" culture="Culture.khuzait" gate_posX="2494.177" gate_posY="2062.83" text="{=YNm9vaHw}Baltakhand, the Fortress of the Axe, was settled by the Iltanlar, mountain-dwelling cousins of the Khuzaits. Centuries ago their beys descended into the plains and created the fortress here that guards the portages of Iltan, the network of lakes and rivers that divides the Sturgian lands from the Khuzaits' realm. Bitter winters protected them from the reach of the Empire, but no blast of wind was cutting enough to stop the horsemen of Khan Urkhun, who 40 years ago forced this town to submit to the khanate.">
 		<Components>
 			<Town id="town_comp_K1" is_castle="false" level="1" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="1800" />
 		</Components>
@@ -5105,7 +5105,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- White fortress-->
-	<Settlement id="town_K2" name="{=Settlements.Settlement.name.town_K2}Varalkand" owner="Faction.clan_khuzait_4" posX="2511.645" posY="2052.965" culture="Culture.khuzait" gate_posX="2511.351" gate_posY="2050.461" text="{=4UNOQQRa}The town that the Khuzaits know as Akkalat, the White Fortress, was built by the fearsome Padishah Hoshtar on one of his periodic attempts to conquer the Devseg. For decades the sacred flame that burned from the top of the citadel symbolized his suzerainty over the tribes here. But the Padishah's realm like the Empire is on the defensive and has retreated to the east. Today the Khan's horsetail banners fly in its place.">
+	<Settlement id="town_K2" name="{=Settlements.Settlement.name.town_K2}Caras Sant" owner="Faction.clan_khuzait_4" posX="2511.645" posY="2052.965" culture="Culture.khuzait" gate_posX="2511.351" gate_posY="2050.461" text="{=4UNOQQRa}The town that the Khuzaits know as Akkalat, the White Fortress, was built by the fearsome Padishah Hoshtar on one of his periodic attempts to conquer the Devseg. For decades the sacred flame that burned from the top of the citadel symbolized his suzerainty over the tribes here. But the Padishah's realm like the Empire is on the defensive and has retreated to the east. Today the Khan's horsetail banners fly in its place.">
 		<Components>
 			<Town id="town_comp_K2" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="1700" />
 		</Components>
@@ -5180,7 +5180,7 @@
 	</Settlement>
 	<!-- clan 1, Urkhunait, lords 1, 7, 10, 13 -->
 	<!-- swamp city, Atil -->
-	<Settlement id="town_K3" name="{=Settlements.Settlement.name.town_K3}Uldarûn" owner="Faction.clan_khuzait_1" posX="2484.007" posY="2048.736" culture="Culture.khuzait" gate_posX="2481.971" gate_posY="2049.492" text="{=bPDqyqkb}Makeb sits on the northern tip of Lake Tanaesis, Tanaz in the steppe tongue. Here, it guards the cataract over which the Karakaz river empties into the lake. This city has long been ruled by petty khans and shahs, who collect tolls from traders forced to haul their boats around the rapids. The last of those rulers was beheaded by Urkhun himself after he refused a demand of tribute, after which the ruling family of the Khuzaits seized this town for themselves.">
+	<Settlement id="town_K3" name="{=Settlements.Settlement.name.town_K3}Lest" owner="Faction.clan_khuzait_1" posX="2484.007" posY="2048.736" culture="Culture.khuzait" gate_posX="2481.971" gate_posY="2049.492" text="{=bPDqyqkb}Makeb sits on the northern tip of Lake Tanaesis, Tanaz in the steppe tongue. Here, it guards the cataract over which the Karakaz river empties into the lake. This city has long been ruled by petty khans and shahs, who collect tolls from traders forced to haul their boats around the rapids. The last of those rulers was beheaded by Urkhun himself after he refused a demand of tribute, after which the ruling family of the Khuzaits seized this town for themselves.">
 		<Components>
 			<Town id="town_comp_K3" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="3700" />
 		</Components>
@@ -5241,7 +5241,7 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- clan 2, Khergits. lords 3, 4f, 8, 14 -->
-	<Settlement id="town_K4" name="{=Settlements.Settlement.name.town_K4}Vûlnakhor" owner="Faction.clan_khuzait_3" posX="2488.238" posY="2035.246" culture="Culture.khuzait" gate_posX="2485.463" gate_posY="2030.668" text="{=Dxnj5JQE}Ortongard sits in the dry center of the Devseg plateau, which is dry for most of the year but offers rich grazing in the spring. Founded by Darshi-speaking merchants, it made its wealth buying horses, sheep and cattle from the surrounding herding villages and sending them west to the markets of the empire in huge drives, accompanied by guards to ward off raiders from the steppes. Neither its walls nor its mercenary armies could withstand the coming of Khan Urkhun, however, who it granted to the Khergit clan in recognition of their valor.">
+	<Settlement id="town_K4" name="{=Settlements.Settlement.name.town_K4}Rostamush" owner="Faction.clan_khuzait_3" posX="2488.238" posY="2035.246" culture="Culture.khuzait" gate_posX="2485.463" gate_posY="2030.668" text="{=Dxnj5JQE}Ortongard sits in the dry center of the Devseg plateau, which is dry for most of the year but offers rich grazing in the spring. Founded by Darshi-speaking merchants, it made its wealth buying horses, sheep and cattle from the surrounding herding villages and sending them west to the markets of the empire in huge drives, accompanied by guards to ward off raiders from the steppes. Neither its walls nor its mercenary armies could withstand the coming of Khan Urkhun, however, who it granted to the Khergit clan in recognition of their valor.">
 		<Components>
 			<Town id="town_comp_K4" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="3200" />
 		</Components>
@@ -5314,7 +5314,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_K5" name="{=Settlements.Settlement.name.town_K5}Dorwinion" owner="Faction.clan_khuzait_1" posX="2515.441" posY="2042.42" culture="Culture.khuzait" gate_posX="2515.499" gate_posY="2039.899" text="{=SUnaVliN}Chaikand sits by the reed-marshes on the edge of Lake Tanaesis. In the years when the east was an imperial protectorate, boats laden with hides, wool and salt shuttled across the lake's placid waters, returning with imperial silks and silver. With the coming of the Khuzaits and the subsequent wars the water-trade stopped, but Chaikand remains a major trade entrepot and military base, the fief of the ruling Urkhunait clan. From the pavilions of his palace, the khan can look out across the lake and see the hazy outline of hills that he may one day graze his horses upon.">
+	<Settlement id="town_K5" name="{=Settlements.Settlement.name.town_K5}Mistrand" owner="Faction.clan_khuzait_1" posX="2515.441" posY="2042.42" culture="Culture.khuzait" gate_posX="2515.499" gate_posY="2039.899" text="{=SUnaVliN}Chaikand sits by the reed-marshes on the edge of Lake Tanaesis. In the years when the east was an imperial protectorate, boats laden with hides, wool and salt shuttled across the lake's placid waters, returning with imperial silks and silver. With the coming of the Khuzaits and the subsequent wars the water-trade stopped, but Chaikand remains a major trade entrepot and military base, the fief of the ruling Urkhunait clan. From the pavilions of his palace, the khan can look out across the lake and see the hazy outline of hills that he may one day graze his horses upon.">
 		<Components>
 			<Town id="town_comp_K5" is_castle="false" level="2" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.508" prosperity="3900" />
 		</Components>
@@ -5387,7 +5387,7 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_K6" name="{=Settlements.Settlement.name.town_K6}Bâr-Kalôr" owner="Faction.clan_khuzait_5" posX="2523.58" posY="2033.32" culture="Culture.khuzait" gate_posX="2521.303" gate_posY="2032.237" text="{=ygJkPxyc}The town of Odokh sits at the foot of Kohi Rohini, the mountains of the dawn. Among the most remote of the towns of the Devseg, it is reputed to have been the abode of King Ahhak, a mythical tyrant from whose shoulders flowed serpents. Even today the Kohi Rohini has a reputation for black magic and mystery that helps keep outsiders at bay. The city fell during the Khuzait conquest to the Harfit clan, who have intermarried with the mountain peoples, and who honor their customs, participate in their rituals, and keep their secrets.">
+	<Settlement id="town_K6" name="{=Settlements.Settlement.name.town_K6}Szrel-Kain" owner="Faction.clan_khuzait_5" posX="2523.58" posY="2033.32" culture="Culture.khuzait" gate_posX="2521.303" gate_posY="2032.237" text="{=ygJkPxyc}The town of Odokh sits at the foot of Kohi Rohini, the mountains of the dawn. Among the most remote of the towns of the Devseg, it is reputed to have been the abode of King Ahhak, a mythical tyrant from whose shoulders flowed serpents. Even today the Kohi Rohini has a reputation for black magic and mystery that helps keep outsiders at bay. The city fell during the Khuzait conquest to the Harfit clan, who have intermarried with the mountain peoples, and who honor their customs, participate in their rituals, and keep their secrets.">
 		<Components>
 			<Town id="town_comp_K6" is_castle="false" level="3" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="1700" />
 		</Components>
