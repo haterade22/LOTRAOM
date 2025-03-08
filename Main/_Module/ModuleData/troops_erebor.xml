@@ -222,7 +222,7 @@
 	<NPCCharacter id="erebor_spear_guard"
 		default_group="Infantry"
 		level="21"
-		name="{=erebor_spear_guard}Erebor Spear Guard"
+		name="{=erebor_spear_guard}Erebor Spear-Guard"
 		occupation="Soldier"
 		culture="Culture.erebor">
 		<face>
@@ -258,7 +258,43 @@
 	<NPCCharacter id="erebor_veteran_spear_guard"
 		default_group="Infantry"
 		level="26"
-		name="{=erebor_veteran_spear_guard}Erebor Veteran Spear Guard"
+		name="{=erebor_veteran_spear_guard}Erebor Veteran Spear-Guard"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.erebor_legionary"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="erebor_legionary"
+		default_group="Infantry"
+		level="31"
+		name="{=erebor_legionary}Erebor Legionary"
 		occupation="Soldier"
 		culture="Culture.erebor">
 		<face>
@@ -330,7 +366,7 @@
 	<NPCCharacter id="erebor_axe_guard"
 		default_group="Infantry"
 		level="21"
-		name="{=erebor_axe_guard}Erebor Axe Guard"
+		name="{=erebor_axe_guard}Erebor Axe-Guard"
 		occupation="Soldier"
 		culture="Culture.erebor">
 		<face>
@@ -366,7 +402,7 @@
 	<NPCCharacter id="erebor_veteran_axe_guard"
 		default_group="Infantry"
 		level="26"
-		name="{=erebor_veteran_axe_guard}Erebor Veteran Axe Guard"
+		name="{=erebor_veteran_axe_guard}Erebor Veteran Axe-Guard"
 		occupation="Soldier"
 		culture="Culture.erebor">
 		<face>
@@ -402,7 +438,7 @@
 	<NPCCharacter id="erebor_shield_breaker"
 		default_group="Infantry"
 		level="31"
-		name="{=erebor_shield_breaker}Erebor Shield Breaker"
+		name="{=erebor_shield_breaker}Erebor Shield-Breaker"
 		occupation="Soldier"
 		culture="Culture.erebor">
 		<face>
@@ -437,7 +473,7 @@
 	<NPCCharacter id="erebor_shield_guard"
 		default_group="Infantry"
 		level="21"
-		name="{=erebor_shield_guard}Erebor Shield Guard"
+		name="{=erebor_shield_guard}Erebor Shield-Guard"
 		occupation="Soldier"
 		culture="Culture.erebor">
 		<face>
@@ -473,7 +509,7 @@
 	<NPCCharacter id="erebor_veteran_shield_guard"
 		default_group="Infantry"
 		level="26"
-		name="{=erebor_veteran_shield_guard}Erebor Veteran Shield Guard"
+		name="{=erebor_veteran_shield_guard}Erebor Veteran Shield-Guard"
 		occupation="Soldier"
 		culture="Culture.erebor">
 		<face>

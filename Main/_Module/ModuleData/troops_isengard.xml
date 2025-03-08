@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+	<NPCCharacter id="urukhai_recruit"
+		default_group="Infantry"
+		level="6"
+		name="{=urukhai_recruit}Uruk-Hai Recruit"
+		occupation="Soldier"
+		is_basic_troop="true"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+
+</NPCCharacters>
