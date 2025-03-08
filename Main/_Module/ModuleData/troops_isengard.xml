@@ -21,6 +21,373 @@
 			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_fighter"/>
+			<upgrade_target id="NPCCharacter.urukhai_scout"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="urukhai_fighter"
+		default_group="Infantry"
+		level="11"
+		name="{=urukhai_fighter}Uruk-Hai Fighter"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_warrior"/>
+			<upgrade_target id="NPCCharacter.urukhai_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="urukhai_scout"
+		default_group="Ranged"
+		level="11"
+		name="{=urukhai_scout}Uruk-Hai Scout"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_feller"/>
+			<upgrade_target id="NPCCharacter.urukhai_hunter"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="urukhai_feller"
+		default_group="Infantry"
+		level="16"
+		name="{=urukhai_feller}Uruk-Hai Feller"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_slayer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="urukhai_skirmisher"
+		default_group="Ranged"
+		level="16"
+		name="{=urukhai_skirmisher}Uruk-Hai Skirmisher"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_arbalest"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="urukhai_hunter"
+		default_group="Ranged"
+		level="16"
+		name="{=urukhai_hunter}Uruk-Hai Hunter"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_tracker"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="urukhai_spearman"
+		default_group="Infantry"
+		level="21"
+		name="{=urukhai_spearman}Uruk-Hai Spearman"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_pikeman"/>
+			<upgrade_target id="NPCCharacter.urukhai_veteranspearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="urukhai_swordman"
+		default_group="Infantry"
+		level="21"
+		name="{=urukhai_swordman}Uruk-Hai Swordman"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_infantry"/>
+			<upgrade_target id="NPCCharacter.urukhai_champion"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="urukhai_slayer"
+		default_group="Infantry"
+		level="21"
+		name="{=urukhai_slayer}Uruk-Hai Slayer"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_reaver"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="urukhai_tracker"
+		default_group="Ranged"
+		level="21"
+		name="{=urukhai_tracker}Uruk-Hai Tracker"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="urukhai_arbalest"
+		default_group="Ranged"
+		level="21"
+		name="{=urukhai_arbalest}Uruk-Hai Arbalest"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_crossbowman"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
@@ -36,5 +403,507 @@
 		</Equipments>
 	</NPCCharacter>
 	
+	<NPCCharacter id="urukhai_pikeman"
+		default_group="Infantry"
+		level="26"
+		name="{=urukhai_pikeman}Uruk-Hai Pikeman"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_veteranpikeman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 
+	<NPCCharacter id="urukhai_veteranspearman"
+	default_group="Infantry"
+	level="26"
+	name="{=urukhai_veteranspearman}Uruk-Hai Veteran Spearman"
+	occupation="Soldier"
+	culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_pavise"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="urukhai_infantry"
+	default_group="Infantry"
+	level="26"
+	name="{=urukhai_infantry}Uruk-Hai Infantry"
+	occupation="Soldier"
+	culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_veteraninfantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="urukhai_champion"
+	default_group="Infantry"
+	level="26"
+	name="{=urukhai_champion}Uruk-Hai Champion"
+	occupation="Soldier"
+	culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_berserker"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="urukhai_reaver"
+		default_group="Infantry"
+		level="26"
+		name="{=urukhai_reaver}Uruk-Hai Reaver"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+
+	<NPCCharacter id="urukhai_archer"
+		default_group="Ranged"
+		level="26"
+		name="{=urukhai_archer}Uruk-Hai Archer"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_chosenmarksman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="urukhai_crossbowman"
+		default_group="Ranged"
+		level="26"
+		name="{=urukhai_crossbowman}Uruk-Hai Crossbowman"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_veterancrossbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="urukhai_berserker"
+		default_group="Infantry"
+		level="31"
+		name="{=urukhai_berserker}Uruk-Hai Berserker"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_nazg_hai"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="urukhai_chosenmarksman"
+		default_group="Ranged"
+		level="31"
+		name="{=urukhai_chosenmarksman}Uruk-Hai Chosen Marksman"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="urukhai_veterancrossbowman"
+		default_group="Ranged"
+		level="31"
+		name="{=urukhai_veterancrossbowman}Uruk-Hai Veteran Crossbowman"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="urukhai_veteranpikeman"
+		default_group="Infantry"
+		level="31"
+		name="{=urukhai_veteranpikeman}Uruk-Hai Veteran Pikeman"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="urukhai_pavise"
+		default_group="Infantry"
+		level="31"
+		name="{=urukhai_pavise}Uruk-Hai Pavise Guard"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="urukhai_veteraninfantry"
+			default_group="Infantry"
+			level="31"
+			name="{=urukhai_veteraninfantry}Uruk-Hai Veteran Infantry"
+			occupation="Soldier"
+			culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="urukhai_nazg_hai"
+		default_group="Infantry"
+		level="36"
+		name="{=urukhai_nazg_hai}Uruk-Hai Nazg-hai"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
 </NPCCharacters>
