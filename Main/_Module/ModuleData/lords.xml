@@ -668,7 +668,7 @@
 	<!-- Lucon's wife. Traditional matriarch, benevolent-->
 	<NPCCharacter
 		id="lord_1_2"
-		name="{=dunlandlord}Eryndis"
+		name="{=dunlandlord}Freya Wolfheart"
 		age="20"
 		voice="curt"
 		default_group="Cavalry"
@@ -737,7 +737,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_1"
-		name="{=J0QdMsnX}Susada"
+		name="{=J0QdMsnX}Eldith of the Grey Claw"
 		default_group="Cavalry"
 		age="32"
 		voice="ironic"
@@ -785,7 +785,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_2"
-		name="{=zFPc7VEO}Decantia"
+		name="{=zFPc7VEO}Sigga Wyrmbane"
 		default_group="Cavalry"
 		age="19"
 		voice="earnest"
@@ -827,7 +827,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_3"
-		name="{=EdQ0Lp2a}Veneranda"
+		name="{=EdQ0Lp2a}Sigrun Frostfang"
 		default_group="Cavalry"
 		age="18"
 		voice="ironic"
@@ -872,7 +872,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_4"
-		name="{=JJcFwAUb}Phalarisa"
+		name="{=JJcFwAUb}Thyra Bloodpaw"
 		is_female="true"
 		age="32"
 		voice="softspoken"
@@ -914,7 +914,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_5"
-		name="{=VPH7syd9}Presciana"
+		name="{=VPH7syd9}Hilda Bonecrusher"
 		age="22"
 		voice="softspoken"
 		default_group="Cavalry"
@@ -959,7 +959,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_6"
-		name="{=O6NKphJk}Adrichea"
+		name="{=O6NKphJk}Yrsa the Winter Boar"
 		default_group="Cavalry"
 		age="19"
 		voice="softspoken"
@@ -1004,9 +1004,9 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_7"
-		name="{=v6CSTkR4}Hylasiana"
+		name="{=v6CSTkR4}Wynna Moonfang"
 		default_group="Cavalry"
-		age="46"
+		age="26"
 		voice="curt"
 		is_hero="true"
 		is_female="true"
@@ -1049,7 +1049,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_8"
-		name="{=Ybpa7Nbz}Apolytea"
+		name="{=Ybpa7Nbz}Eira Shadowclaw"
 		age="22"
 		voice="earnest"
 		is_female="true"
@@ -1088,8 +1088,8 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_9"
-		name="{=kAbug2ja}Eodisia"
-		age="46"
+		name="{=kAbug2ja}Sifra Bonewalker"
+		age="36"
 		voice="curt"
 		is_hero="true"
 		is_female="true"
@@ -1130,7 +1130,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_10"
-		name="{=DCAa3GOY}Rhoda"
+		name="{=DCAa3GOY}Haldis Redmist"
 		default_group="Cavalry"
 		age="21"
 		voice="curt"
@@ -1169,7 +1169,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_11"
-		name="{=MrIvBcNH}Amaliana"
+		name="{=MrIvBcNH}Yrla Ghostpelt"
 		default_group="Cavalry"
 		age="20"
 		voice="curt"
@@ -1208,9 +1208,9 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_15"
-		name="{=jqdpTXYV}Justina"
+		name="{=jqdpTXYV}Kaedra Bloodveil"
 		default_group="Cavalry"
-		age="41"
+		age="21"
 		voice="softspoken"
 		is_hero="true"
 		is_female="true"
@@ -1242,15 +1242,15 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b1" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_b1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_16"
-		name="{=AEA6qavG}Leontia"
+		name="{=AEA6qavG}Hedra Bonecarver"
 		default_group="Cavalry"
 		age="19"
 		voice="softspoken"
@@ -1296,8 +1296,8 @@
 	<!-- Manteos Argoros, Patriarch of clan 2, stoic STEVEDIDFACE -->
 	<NPCCharacter
 		id="lord_1_3"
-		name="{=6GC0PsSh}Elladan"
-		age="29"
+		name="{=6GC0PsSh}Ragnvald The Boar"
+		age="30"
 		voice="curt"
 		default_group="Infantry"
 		is_hero="true"
@@ -1317,7 +1317,7 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="13" />
 			<Trait
 				id="Commander"
 				value="17" />
@@ -1365,8 +1365,8 @@
 	<!-- Phenoria, matriarch of clan 2, -->
 	<NPCCharacter
 		id="lord_1_4"
-		name="{=WrAMfIG1}Phenoria"
-		age="53"
+		name="{=WrAMfIG1}Brunhild Ironclaw"
+		age="33"
 		voice="curt"
 		is_hero="true"
 		is_female="true"
@@ -1417,7 +1417,7 @@
 	3 patriarch Penton Neretzes is imperial blowhard, part of aristocratic imperial faction -->
 	<NPCCharacter
 		id="lord_1_5"
-		name="{=1cKxsHSh}Elrohir"
+		name="{=1cKxsHSh}Othric The Wild"
 		age="29"
 		voice="earnest"
 		is_hero="true"
@@ -1509,7 +1509,7 @@
   -->
 	<NPCCharacter
 		id="lord_1_6"
-		name="{=q186AQHt}Phadon"
+		name="{=q186AQHt}Sigvald Bloodfang"
 		age="19"
 		voice="earnest"
 		is_hero="true"
@@ -1744,10 +1744,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_a" />
+					id="Item.wm_gondor_swanknight_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_swan_knight_sworda" />
 				<equipment
 					slot="Body"
 					id="Item.imrahil_body" />
@@ -1828,7 +1831,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -1889,7 +1892,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -2260,7 +2263,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -2322,7 +2325,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -2384,7 +2387,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -2752,13 +2755,10 @@
 			<Trait
 				id="Manager"
 				value="10" />
-			<Trait
-				id="Valor"
-				value="-1" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
-				value="2" />
+				value="-1" />
 			<Trait
 				id="Generosity"
 				value="-2" />
@@ -2784,8 +2784,6 @@
 
 		<Equipments>
 			<EquipmentRoster />
-			<EquipmentRoster
-				civilian="true" />
 			<EquipmentSet
 				id="witch_king_template" />
 			<EquipmentSet
@@ -2824,12 +2822,10 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
-			<EquipmentRoster
-				civilian="true" />
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="emp_civ_template_southfrontier"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -2866,10 +2862,11 @@
 			<Trait id="Authoritarian" value="1" />
 		</Traits>
 		<Equipments>
+			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -2948,7 +2945,8 @@
 		age="19"
 		voice="curt"
 		is_hero="true"
-		culture="Culture.empire"
+		race="uruk"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -2982,11 +2980,10 @@
 			<!---Opportunist -->
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_a2" />
 			<EquipmentSet
-				id="emp_civ_template_southfrontier"
+				id="mordor_captain_template_a2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -2996,9 +2993,10 @@
 		name="{=OMkSgsV2}Jathea"
 		age="48"
 		voice="curt"
+		race="uruk"
 		is_hero="true"
 		is_female="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -3033,9 +3031,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_a2" />
 			<EquipmentSet
-				id="emp_noncom_template_southfrontier"
+				id="mordor_captain_template_a2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -3046,8 +3044,8 @@
 	<!-- Ascyron, Lucon's heir, Sulla type. More enthusiastic than father. Switch with Apys? -->
 	<NPCCharacter
 		id="lord_1_21"
-		name="{=rGuYLmez}Ascyron"
-		age="28"
+		name="{=rGuYLmez}Fenrik the Red Wolf"
+		age="22"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.empire"
@@ -3100,7 +3098,7 @@
 	<!-- Andros. Heir clan 2. Generally benevolent -->
 	<NPCCharacter
 		id="lord_1_22"
-		name="{=uTFjknE2}Andros"
+		name="{=uTFjknE2}Bjornric Strongarm"
 		age="23"
 		voice="earnest"
 		is_hero="true"
@@ -3354,11 +3352,12 @@
 	000b6d22c0bc100679d8455aa9684859888735557c6493786867627857b28958000d8894038735d900001105000030a30000001f000000000000000000046000 -->
 	<NPCCharacter
 		id="lord_1_27"
-		name="{=waQPRCaT}Patyr"
-		age="37"
+		name="{=waQPRCaT}Maugrash"
+		age="27"
+		race="uruk"
 		voice="earnest"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -3375,8 +3374,8 @@
 		<skills></skills>
 		<Traits>
 			<Trait
-				id="HorseArcherFightingSkills"
-				value="6" />
+				id="KnightFightingSkills"
+				value="7" />
 			<Trait
 				id="Commander"
 				value="8" />
@@ -3388,16 +3387,16 @@
 				value="6" />
 			<Trait
 				id="Mercy"
-				value="1" />
+				value="-2" />
 			<Trait
 				id="Generosity"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -3407,8 +3406,9 @@
 		age="37"
 		is_female="true"
 		voice="softspoken"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -3433,23 +3433,24 @@
 				value="6" />
 			<Trait
 				id="Mercy"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_27_2"
-		name="{=zaHnL2It}Eutropios"
+		name="{=zaHnL2It}Throznak"
 		age="18"
 		voice="earnest"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -3467,11 +3468,11 @@
 		<skills></skills>
 		<Traits>
 			<Trait
-				id="HorseArcherFightingSkills"
+				id="KnightFightingSkills"
 				value="4" />
 			<Trait
 				id="Commander"
-				value="8" />
+				value="5" />
 			<Trait
 				id="Politician"
 				value="2" />
@@ -3487,9 +3488,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_medium" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -3499,8 +3500,9 @@
 		is_female="true"
 		age="18"
 		voice="earnest"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -3539,9 +3541,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -3578,10 +3580,11 @@
 			<Trait id="Authoritarian" value="1" />
 		</Traits>
 		<Equipments>
+			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_heavy" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -3592,8 +3595,9 @@
 		name="{=5eTb2xr7}Sanion"
 		age="23"
 		voice="earnest"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -3633,9 +3637,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_heavy" />
+				id="mordor_captain_template_a2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -3645,7 +3649,7 @@
 	daughter, conventional aristocratic maiden STEVEDIDFACE -->
 	<NPCCharacter
 		id="lord_1_31"
-		name="{=AccBcEIt}Zoana"
+		name="{=AccBcEIt}Yrsa Blackfang"
 		age="20"
 		voice="earnest"
 		is_hero="true"
@@ -3695,7 +3699,7 @@
 	<!-- Sora, Matthis' daughter. Honorable, a bit moralistic, conscientious ruler -->
 	<NPCCharacter
 		id="lord_1_32"
-		name="{=V1QLbhRl}Sora"
+		name="{=V1QLbhRl}Eldra Bearsong"
 		voice="softspoken"
 		age="21"
 		default_group="Cavalry"
@@ -3752,7 +3756,7 @@
 		is_female="true"
 		culture="Culture.empire"
 		occupation="Lord"
-		name="{=AdK4Ilzw}Chalia"
+		name="{=AdK4Ilzw}Brigid the Howling"
 		face_mesh_cache="true">
 		<face>
 			<!--face_key
@@ -3801,7 +3805,7 @@
 	<!-- Maurentios, younger son of Neretzes -->
 	<NPCCharacter
 		id="lord_1_422"
-		name="{=LQYkBOsU}Maurentios"
+		name="{=LQYkBOsU}Drengulf Bearclaw"
 		default_group="HorseArcher"
 		age="17"
 		voice="softspoken"
@@ -3955,8 +3959,9 @@
 		age="21"
 		voice="ironic"
 		is_hero="true"
+		race="uruk"
 		is_female="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		default_group="Cavalry"
 		face_mesh_cache="true">
@@ -3998,11 +4003,10 @@
 				value="1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4041,10 +4045,11 @@
 			<Trait id="Authoritarian" value="1" />
 		</Traits>
 		<Equipments>
+			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4055,9 +4060,10 @@
 		age="20"
 		voice="ironic"
 		default_group="Cavalry"
+		race="uruk"
 		is_hero="true"
 		is_female="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -4087,13 +4093,13 @@
 				value="1" />
 			<Trait
 				id="Generosity"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_a2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_a2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4101,9 +4107,9 @@
 	<!-- clan 1 lieutenant. Lucon's cousin. Far more ruthless than the clan leader -->
 	<NPCCharacter
 		id="lord_1_41"
-		name="{=O75XlydW}Arcor"
+		name="{=O75XlydW}Beregund Wolfborn"
 		default_group="Cavalry"
-		age="50"
+		age="20"
 		voice="curt"
 		is_hero="true"
 		culture="Culture.empire"
@@ -4153,9 +4159,9 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_411"
-		name="{=W1uwgvAQ}Arion"
+		name="{=W1uwgvAQ}Grimwulf Ironfang"
 		default_group="Cavalry"
-		age="19"
+		age="30"
 		voice="curt"
 		is_hero="true"
 		culture="Culture.empire"
@@ -4207,7 +4213,7 @@
 	<!-- clan 2 lieutenant. Mathhis cousin. Ferocious, dedicated to the clan. One eyed -->
 	<NPCCharacter
 		id="lord_1_42"
-		name="{=10urvYUQ}Belithor"
+		name="{=10urvYUQ}Hrodgar Ironhide"
 		default_group="HorseArcher"
 		age="37"
 		voice="softspoken"
@@ -4258,10 +4264,10 @@
 	<!-- Chason. clan 3 lieutenant. Foul tempered -->
 	<NPCCharacter
 		id="lord_1_43"
-		name="{=Dsclf61p}Chason"
+		name="{=Dsclf61p}Drustan Blackwolf"
 		voice="curt"
 		default_group="Cavalry"
-		age="48"
+		age="28"
 		is_hero="true"
 		culture="Culture.empire"
 		occupation="Lord"
@@ -4365,10 +4371,11 @@
 		id="lord_1_47"
 		name="{=xViSxONn}Ulbos"
 		default_group="Cavalry"
-		age="45"
+		age="30"
+		race="uruk"
 		voice="curt"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -4400,28 +4407,28 @@
 				value="-1" />
 			<Trait
 				id="Honor"
-				value="1" />
+				value="-1" />
 			<Trait
 				id="Generosity"
 				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_heavy" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_47_1"
 		name="{=QvfUqzpF}Mina"
-		age="38"
+		age="28"
 		is_female="true"
+		race="uruk"
 		voice="earnest"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		default_group="Cavalry"
 		occupation="Lord"
 		face_mesh_cache="true">
@@ -4445,17 +4452,16 @@
 				value="4" />
 			<Trait
 				id="Honor"
-				value="1" />
+				value="-1" />
 			<Trait
 				id="Valor"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4465,9 +4471,10 @@
 		default_group="Cavalry"
 		age="14"
 		is_female="true"
+		race="uruk"
 		voice="softspoken"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -4485,11 +4492,10 @@
 			<!-- TEENAGER, NO TRAITS OR SKILLS FOR UNDER-18s -->
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4499,9 +4505,10 @@
 		default_group="Cavalry"
 		age="17"
 		is_female="true"
+		race="uruk"
 		voice="softspoken"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -4519,11 +4526,10 @@
 			<!-- TEENAGER, NO TRAITS OR SKILLS FOR UNDER-18s -->
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_a1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_a1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4532,10 +4538,11 @@
 		id="lord_1_49"
 		name="{=QGIAbglw}Obron"
 		default_group="Cavalry"
-		age="51"
+		age="31"
 		voice="softspoken"
 		is_hero="true"
-		culture="Culture.empire"
+		race="uruk"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -4568,11 +4575,10 @@
 				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_medium" />
+				id="mordor_captain_template_b1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_b1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4580,11 +4586,12 @@
 		id="lord_1_49_1"
 		name="{=BosCJ3Rb}Tristania"
 		is_female="true"
-		age="37"
+		age="27"
 		default_group="Cavalry"
 		voice="ironic"
 		is_hero="true"
-		culture="Culture.empire"
+		race="uruk"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -4613,11 +4620,10 @@
 				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b1" />
 			<EquipmentSet
-				id="bat_noncom_template_default"
+				id="mordor_captain_template_b1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4628,8 +4634,9 @@
 		default_group="Cavalry"
 		age="17"
 		voice="earnest"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -4645,21 +4652,20 @@
 			<!-- TEENAGER -->
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_b1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	<!-- Impestores, Lucon's faction. Different personalities but fanatic oligarchs -->
 	<NPCCharacter
 		id="lord_1_20"
-		name="{=rUvnbDi2}Arwen Undómiel"
-		age="28"
+		name="{=rUvnbDi2}Brynhild Ironfury"
+		age="22"
 		voice="softspoken"
-		default_group="HorseArcher"
+		default_group="Cavalry"
 		is_hero="true"
 		is_female="true"
 		culture="Culture.empire"
@@ -4711,7 +4717,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_12"
-		name="{=vlpRh9ZB}Epipheria"
+		name="{=vlpRh9ZB}Gunda the Unshaken"
 		default_group="Cavalry"
 		age="22"
 		voice="curt"
@@ -4823,7 +4829,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_13"
-		name="{=bJBQVoe2}Agnathea"
+		name="{=bJBQVoe2}Thyldis Rockborn"
 		default_group="Cavalry"
 		age="24"
 		voice="softspoken"
@@ -4862,8 +4868,8 @@
 	<!-- Gyphor. Calm, lucon's faction -->
 	<NPCCharacter
 		id="lord_1_50"
-		name="{=jQjouVRk}Gildor Inglorion"
-		age="33"
+		name="{=jQjouVRk}Ulric Stormfang"
+		age="26"
 		voice="softspoken"
 		default_group="Ranged"
 		is_hero="true"
@@ -4932,7 +4938,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_66"
-		name="{=YWJUZlzt}Lantanor"
+		name="{=YWJUZlzt}Halvar Greywolf"
 		default_group="HorseArcher"
 		age="33"
 		voice="earnest"
@@ -4989,7 +4995,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_14"
-		name="{=Bo6IZGAN}Tyliana"
+		name="{=Bo6IZGAN}Morgith Stoneshadow"
 		age="25"
 		voice="softspoken"
 		is_female="true"
@@ -5030,7 +5036,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_1_17"
-		name="{=y881d2ER}Variasis"
+		name="{=y881d2ER}Guthred Rockbane"
 		is_female="false"
 		age="31"
 		voice="curt"
@@ -5078,8 +5084,8 @@
 	<!-- Nicasor. Gruff but very competent fanatic, lucon's faction. One eyed -->
 	<NPCCharacter
 		id="lord_1_51"
-		name="{=3qr3bhL6}Glorfindel"
-		age="50"
+		name="{=3qr3bhL6}Vargan Bloodtaker"
+		age="25"
 		voice="curt"
 		default_group="Infantry"
 		is_hero="true"
@@ -5145,7 +5151,7 @@
 	<!-- Tasynor, Lucon's faction. Smug, privileged, self-righteous -->
 	<NPCCharacter
 		id="lord_1_58"
-		name="{=MaeS2r7p}Erestor"
+		name="{=MaeS2r7p}Gorvin the Fell"
 		age="30"
 		voice="earnest"
 		default_group="Infantry"
@@ -5216,10 +5222,10 @@
 	recognize her right to inherit -->
 	<NPCCharacter
 		id="lord_1_70"
-		name="{=cjuYkvlX}Panalea"
+		name="{=cjuYkvlX}Veyra the Shadow"
 		voice="earnest"
 		is_female="true"
-		age="34"
+		age="24"
 		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.empire"
@@ -5262,11 +5268,11 @@
 	<!-- Nesthys, quiet strategist-->
 	<NPCCharacter
 		id="lord_NE7_u"
-		name="{=rhSlO9g3}Nesthys"
+		name="{=rhSlO9g3}Haldric the Black Fang"
 		voice="softspoken"
 		is_female="false"
 		default_group="HorseArcher"
-		age="41"
+		age="21"
 		is_hero="true"
 		culture="Culture.empire"
 		occupation="Lord"
@@ -5315,9 +5321,9 @@
 	<!-- Olypos, older. Genuine republican, military-oriented Cicero -->
 	<NPCCharacter
 		id="lord_1_67"
-		name="{=eTS0B8NB}Olypos"
-		default_group="HorseArcher"
-		age="43"
+		name="{=eTS0B8NB}Rudric the Crimson"
+		default_group="Cavalry"
+		age="33"
 		voice="ironic"
 		is_hero="true"
 		culture="Culture.empire"
@@ -5430,7 +5436,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5529,7 +5535,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5589,7 +5595,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5637,7 +5643,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5719,7 +5725,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5763,7 +5769,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5931,7 +5937,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -6053,7 +6059,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -6098,7 +6104,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -6143,7 +6149,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -6286,7 +6292,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -6644,7 +6650,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -6782,7 +6788,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -6866,7 +6872,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -6918,7 +6924,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -6970,7 +6976,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -7075,7 +7081,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="gond_noble_template_bat_a" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -7251,23 +7257,23 @@
 				value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="mordor_captain_template_a1" />
+				id="mordor_captain_template_b1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_b1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_30_1"
-		name="{=jqdpTXYV}Justina"
+		name="{=jqdpTXYV}Svala Redfang"
 		voice="curt"
 		age="23"
 		is_female="true"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7293,11 +7299,10 @@
 				value="1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b1" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_b1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7371,7 +7376,7 @@
 		id="lord_1_48"
 		name="{=katzUyMI}Khamûl, the Shadow of the East"
 		default_group="Cavalry"
-		age="39"
+		age="20"
 		race="nazghul"
 		voice="earnest"
 		is_hero="true"
@@ -7386,34 +7391,24 @@
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait
-				id="BalancedFightingSkills"
-				value="6" />
-			<Trait
-				id="Commander"
-				value="8" />
-			<Trait
-				id="Politician"
-				value="8" />
-			<Trait
-				id="Manager"
-				value="10" />
-			<Trait
-				id="Mercy"
-				value="1" />
-			<Trait
-				id="Valor"
-				value="1" />
-			<Trait
-				id="Calculating"
-				value="-1" />
+			<Trait id="CavalryFightingSkills" value="18" />
+			<Trait id="Commander" value="14" />
+			<Trait id="Manager" value="10" />
+			<Trait id="Politician" value="8" />
+			<Trait id="Valor" value="0" />
+			<Trait id="Honor" value="-2" />
+			<Trait id="Mercy" value="-2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="0" />
+			<Trait id="Authoritarian" value="1" />
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_heavy" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7452,9 +7447,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7493,9 +7488,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7533,9 +7528,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="nazgul_template"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7544,7 +7539,7 @@
 		id="lord_1_54"
 		name="{=sZebVgCp}Shagrat"
 		voice="ironic"
-		age="38"
+		age="28"
 		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
@@ -7603,11 +7598,10 @@
 				value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="mordor_captain_template_f1" />
+				id="mordor_captain_template_c1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_c1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7616,10 +7610,11 @@
 		name="{=K2UUjntt}Constalia"
 		voice="curt"
 		age="26"
+		race="uruk"
 		is_female="true"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7647,11 +7642,10 @@
 				value="1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_c1" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_c1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7660,10 +7654,11 @@
 		id="lord_1_55"
 		name="{=OymqpgTX}Herumor"
 		voice="softspoken"
-		age="55"
+		age="35"
 		default_group="Cavalry"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7716,11 +7711,10 @@
 				value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_c2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_c2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7730,9 +7724,10 @@
 		voice="softspoken"
 		is_female="true"
 		age="26"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7749,14 +7744,13 @@
 				value="10" />
 			<Trait
 				id="Mercy"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_c2" />
 			<EquipmentSet
-				id="emp_noncom_template_southfrontier"
+				id="mordor_captain_template_c2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7825,11 +7819,10 @@
 				value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="mordor_captain_template_a2" />
+				id="mordor_captain_template_b2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_b2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7839,9 +7832,10 @@
 		voice="curt"
 		age="32"
 		is_female="true"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7873,11 +7867,10 @@
 				value="1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_b2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7887,9 +7880,10 @@
 		voice="curt"
 		age="12"
 		is_female="true"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7905,11 +7899,10 @@
 		<skills></skills>
 		<Traits></Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_b2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7919,9 +7912,10 @@
 		voice="curt"
 		age="9"
 		is_female="true"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -7937,19 +7931,18 @@
 		<skills></skills>
 		<Traits></Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_b2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_56"
-		name="{=MADTaSFV}Seranor"
+		name="{=MADTaSFV}Tormund Ironhowl"
 		voice="curt"
-		age="41"
+		age="31"
 		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.empire"
@@ -8000,10 +7993,10 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_56_1"
-		name="{=2T4CbYRn}Germana"
+		name="{=2T4CbYRn}Vigdis the Silent"
 		is_female="true"
 		voice="curt"
-		age="37"
+		age="22"
 		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.empire"
@@ -8092,9 +8085,10 @@
 		name="{=9xyXdX4I}Tharos"
 		voice="curt"
 		age="33"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8133,9 +8127,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_c1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_c1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8145,9 +8139,10 @@
 		voice="curt"
 		age="23"
 		is_female="true"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8167,13 +8162,13 @@
 				value="6" />
 			<Trait
 				id="Valor"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_c1" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_c1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8183,9 +8178,10 @@
 		name="{=4YOoGhpK}Niphon"
 		voice="softspoken"
 		age="33"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8217,16 +8213,16 @@
 				value="-1" />
 			<Trait
 				id="Generosity"
-				value="1" />
+				value="-1" />
 			<Trait
 				id="Calculating"
 				value="1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_medium" />
+				id="mordor_captain_template_c2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_c2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8236,9 +8232,10 @@
 		voice="earnest"
 		is_female="true"
 		age="28"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8258,16 +8255,16 @@
 				value="4" />
 			<Trait
 				id="Generosity"
-				value="1" />
+				value="-1" />
 			<Trait
 				id="Calculating"
 				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_c2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_c2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8277,9 +8274,10 @@
 		voice="softspoken"
 		is_female="true"
 		age="7"
+		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8296,9 +8294,9 @@
 		<Traits></Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_c2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_c2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8368,9 +8366,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="mordor_captain_template_b2" />
+				id="mordor_captain_template_d1" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_d1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8380,9 +8378,10 @@
 		is_female="true"
 		voice="softspoken"
 		age="31"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8405,13 +8404,13 @@
 				value="6" />
 			<Trait
 				id="Generosity"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_d1" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_d1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8421,9 +8420,10 @@
 		is_female="true"
 		voice="earnest"
 		age="19"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8453,16 +8453,16 @@
 			<!-- eager warrior -->
 			<Trait
 				id="Valor"
-				value="1" />
+				value="-1" />
 			<Trait
 				id="Honor"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_d1" />
 			<EquipmentSet
-				id="emp_civ_template_southfrontier"
+				id="mordor_captain_template_d1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8472,8 +8472,9 @@
 		voice="softspoken"
 		age="30"
 		default_group="Cavalry"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8512,9 +8513,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_medium" />
+				id="mordor_captain_template_b2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_b2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8525,8 +8526,9 @@
 		is_female="true"
 		age="30"
 		default_group="Cavalry"
+		race="uruk"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -8550,16 +8552,16 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_b2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_b2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	<!-- Vatatzes clan. Non-ideological but served with Lucon -->
 	<NPCCharacter
 		id="lord_NE8_l"
-		name="{=9Pw7LDXY}Lindir"
+		name="{=9Pw7LDXY}Hrodan the Grey"
 		age="18"
 		voice="earnest"
 		default_group="Ranged"
@@ -8625,8 +8627,8 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_NE8_s"
-		name="{=1yJZWqhG}Pradentia"
-		age="38"
+		name="{=1yJZWqhG}Svala Wolfheart"
+		age="19"
 		voice="earnest"
 		is_female="true"
 		default_group="Cavalry"
@@ -8673,7 +8675,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_NE8_c1"
-		name="{=gSR6ObvN}Theavisos"
+		name="{=gSR6ObvN}Eirik Wolfbane"
 		age="19"
 		voice="curt"
 		default_group="Cavalry"
@@ -8721,7 +8723,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_NE8_c2"
-		name="{=stjahQvD}Lucala"
+		name="{=stjahQvD}Bryndis Frostclaw"
 		age="16"
 		voice="softspoken"
 		is_female="true"
@@ -8750,8 +8752,8 @@
 	<!-- Serapides, latter-day Scipios. Angry that moment of glory has passed -->
 	<NPCCharacter
 		id="lord_NE9_l"
-		name="{=2XKnC45z}Melpomaen"
-		age="18"
+		name="{=2XKnC45z}Gunnar One-Eye"
+		age="25"
 		voice="ironic"
 		default_group="Infantry"
 		is_hero="true"
@@ -8818,7 +8820,7 @@
 	<!-- Silasos, wishes to rebuild the clan -->
 	<NPCCharacter
 		id="lord_NE9_s"
-		name="{=GJhRw7qb}Aesos"
+		name="{=GJhRw7qb}Rurik Ironbreaker"
 		age="24"
 		voice="softspoken"
 		default_group="Cavalry"
@@ -8866,7 +8868,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_NE9_d"
-		name="{=lLNkm48w}Vamina"
+		name="{=lLNkm48w}Astrid Redhand"
 		age="22"
 		voice="earnest"
 		is_female="true"
@@ -9242,20 +9244,18 @@
 			<Trait
 				id="Manager"
 				value="12" />
-			<!-- somewhat bitter child of a traitor, rehabilitated and loyal to Rhagaea -->
 			<Trait
 				id="Valor"
 				value="-1" />
 			<Trait
 				id="Generosity"
-				value="1" />
+				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="mordor_captain_template_c2" />
+				id="mordor_captain_template_e2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_e2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -9265,9 +9265,10 @@
 		age="46"
 		voice="ironic"
 		is_female="true"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -9295,11 +9296,10 @@
 				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_e2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_e2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -9308,9 +9308,10 @@
 		name="{=rf8KHRSP}Pagarios"
 		age="26"
 		voice="earnest"
+		race="uruk"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -9345,11 +9346,10 @@
 				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="mordor_captain_template_e2" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="mordor_captain_template_e2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -9358,10 +9358,11 @@
 		name="{=Y0I9T9pe}Diasca"
 		age="24"
 		is_female="true"
+		race="uruk"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
-		culture="Culture.empire"
+		culture="Culture.mordor"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
@@ -9388,17 +9389,16 @@
 				value="-1" />
 			<Trait
 				id="Honor"
-				value="1" />
+				value="-1" />
 			<Trait
 				id="Authoritarian"
 				value="1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="mordor_captain_template_e2" />
 			<EquipmentSet
-				id="emp_noncom_template_default"
+				id="mordor_captain_template_e2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -14256,9 +14256,6 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
-			<!--face_key
-			value="0000fe42c000220458c56743d5b5ab56396a8c717b876e66c7b287ab79c2a84b0005400905c96766000000000000000000000000000000000000000001282000"
-			/-->
 			<BodyProperties
 				version="4"
 				key="0005280140001242947E068A709500460C7250703EB70F135C85021887733A070089B6030822BA9000000000000000000000000000000000000000003F1C7002" />
@@ -14281,13 +14278,45 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Oligarchic" value="1" />
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
-		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet
-				id="vla_king_template_bat_m" />
-			<EquipmentSet
-				id="vla_king_template_civ_m"
-				civilian="true" />
+			<Equipments>
+				<EquipmentRoster>
+					<equipment
+						slot="Item0"
+						id="Item.theodensword" />
+					<equipment
+						slot="Item1"
+						id="Item.wm_rohan_spear_d" />
+					<equipment
+						slot="Item2"
+						id="Item.western_javelin_3_t4" />
+					<equipment
+						slot="Item3"
+						id="Item.cts_rohan_shield" />
+					<equipment
+						slot="Head"
+						id="Item.theodred_helmet" />
+					<equipment
+						slot="Body"
+						id="Item.theodred_armour" />
+					<equipment
+						slot="Gloves"
+						id="Item.theodred_bracers" />
+					<equipment
+						slot="Leg"
+						id="Item.theodred_boots" />
+					<equipment
+						slot="Cape"
+						id="Item.theodred_pauldrons" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="vla_king_template_civ_m"
+					civilian="true" />
+				<equipment
+					slot="Horse"
+					id="Item.noble_horse_southern" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.chain_barding" />
 		</Equipments>
 	</NPCCharacter>
 	<!-- Philenora - benevolent -->
@@ -14326,7 +14355,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="rohan_captain_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -14367,7 +14396,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_captain_template_bat_b" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -14411,7 +14440,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_captain_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -14456,7 +14485,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -14497,7 +14526,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -14538,7 +14567,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -14587,7 +14616,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -14628,7 +14657,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -14672,7 +14701,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="rohan_captain_template_bat_b" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -14708,7 +14737,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="rohan_captain_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -14756,7 +14785,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 						id="Item.vlandia_noble_sword_3_t5" />
 					<equipment
 						slot="Item1"
-						id="Item.vlandia_lance_2_t4" />
+						id="Item.wm_rohan_spear_d" />
 					<equipment
 						slot="Item2"
 						id="Item.western_javelin_3_t4" />
@@ -14786,8 +14815,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				slot="Horse"
 				id="Item.noble_horse_southern" />
 			<equipment
-			slot="HorseHarness"
-			id="Item.chain_barding" />
+				slot="HorseHarness"
+				id="Item.chain_barding" />
 		</Equipments>
 	</NPCCharacter>
 	<!-- Furnhard, as debauched as his father-->
@@ -14838,7 +14867,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_captain_template_bat_b" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -14888,7 +14917,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_captain_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -14931,7 +14960,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -14990,7 +15019,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15042,7 +15071,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15098,7 +15127,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15149,7 +15178,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_captain_template_bat_b" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15200,7 +15229,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_captain_template_bat_b" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15247,7 +15276,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15298,7 +15327,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15337,7 +15366,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15388,7 +15417,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15424,7 +15453,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15469,7 +15498,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -15527,7 +15556,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15575,7 +15604,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15615,7 +15644,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -15666,7 +15695,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15702,7 +15731,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -15743,7 +15772,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15783,7 +15812,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15813,7 +15842,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -15853,7 +15882,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15884,7 +15913,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -15925,7 +15954,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -15969,7 +15998,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -16006,7 +16035,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16048,7 +16077,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -16094,7 +16123,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16140,7 +16169,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16182,7 +16211,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16234,7 +16263,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16273,7 +16302,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -16323,7 +16352,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16364,7 +16393,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_captain_template_bat_b" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16399,7 +16428,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -16438,7 +16467,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16473,7 +16502,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -16509,7 +16538,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_captain_template_bat_b" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16549,7 +16578,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_captain_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16588,7 +16617,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_captain_template_bat_b" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16626,7 +16655,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_captain_template_bat_b" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16671,7 +16700,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16707,7 +16736,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16742,7 +16771,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -16778,7 +16807,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_captain_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16814,7 +16843,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_captain_template_bat_b" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16859,7 +16888,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -16895,7 +16924,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16932,7 +16961,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_captain_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -16977,7 +17006,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -21180,7 +21209,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="rohan_noble_template_bat_a" />
+				id="rohan_bat_template_medium" />
 			<EquipmentSet
 				id="vla_noncom_template_default"
 				civilian="true" />
@@ -24432,18 +24461,17 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="khu_bat_template_medium" />
+				id="mordor_captain_template_e1" />
 			<EquipmentSet
-				id="khu_noncom_template_default"
+				id="mordor_captain_template_e1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter
 		id="lord_M10_11"
-		name="{=mordorclan10child}Mordor Placeholder Child"
+		name="{=mordorclan10child}Gulzag"
 		age="10"
 		voice="earnest"
 		race="uruk"
@@ -24479,11 +24507,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="5" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="khu_bat_template_medium" />
+				id="mordor_captain_template_e1" />
 			<EquipmentSet
-				id="khu_noncom_template_default"
+				id="mordor_captain_template_e1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -24536,18 +24563,17 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="khu_bat_template_medium" />
+				id="mordor_captain_template_e2" />
 			<EquipmentSet
-				id="khu_noncom_template_default"
+				id="mordor_captain_template_e2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter
 		id="lord_M11_11"
-		name="{=mordorlordm11_11}Zorûk"
+		name="{=mordorlordm11_11}Krogash"
 		age="10"
 		voice="earnest"
 		race="uruk"
@@ -24592,11 +24618,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="khu_bat_template_medium" />
+				id="mordor_captain_template_e2" />
 			<EquipmentSet
-				id="khu_noncom_template_default"
+				id="mordor_captain_template_e2"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -24659,7 +24684,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 
 	<NPCCharacter
 		id="lord_M12_11"
-		name="{=mordorlordm12_11}Zûrgath"
+		name="{=mordorlordm12_11}Uzbag"
 		age="10"
 		voice="earnest"
 		race="uruk"
@@ -24704,11 +24729,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="khu_bat_template_medium" />
+				id="mordor_captain_template_f1" />
 			<EquipmentSet
-				id="khu_noncom_template_default"
+				id="mordor_captain_template_f1"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -24750,9 +24774,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_f2" />
+			<EquipmentSet
+				id="mordor_captain_template_f2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -24800,7 +24826,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- lord_M14_1 and lord_M14_11 -->
 	<NPCCharacter
 		id="lord_M14_1"
-		name="{=mordorlordm14_1}Nâzgul"
+		name="{=mordorlordm14_1}Uznash"
 		age="25"
 		voice="earnest"
 		is_hero="true"
@@ -24833,9 +24859,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_f2" />
+			<EquipmentSet
+				id="mordor_captain_template_f2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -24874,9 +24902,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_a1" />
+			<EquipmentSet
+				id="mordor_captain_template_a1"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -24916,9 +24946,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_a1" />
+			<EquipmentSet
+				id="mordor_captain_template_a1"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -24957,9 +24989,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_a1" />
+			<EquipmentSet
+				id="mordor_captain_template_a1"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -24999,15 +25033,17 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_a2" />
+			<EquipmentSet
+				id="mordor_captain_template_a2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter
 		id="lord_M16_11"
-		name="{=mordorlordm16_11}Zûrbak"
+		name="{=mordorlordm16_11}Uznash"
 		age="10"
 		voice="earnest"
 		race="uruk"
@@ -25040,9 +25076,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_a2" />
+			<EquipmentSet
+				id="mordor_captain_template_a2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -25082,9 +25120,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_b1" />
+			<EquipmentSet
+				id="mordor_captain_template_b1"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -25123,9 +25163,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_b1" />
+			<EquipmentSet
+				id="mordor_captain_template_b1"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -25165,9 +25207,11 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_b2" />
+			<EquipmentSet
+				id="mordor_captain_template_b2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -25206,12 +25250,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
-			<EquipmentSet id="khu_bat_template_medium" />
-			<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			<EquipmentSet
+				id="mordor_captain_template_b2" />
+			<EquipmentSet
+				id="mordor_captain_template_b2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-
 
 
 </NPCCharacters>

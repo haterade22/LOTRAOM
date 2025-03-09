@@ -5864,10 +5864,6 @@
 		id="str_town_empty_arena_text"
 		text="{=8bSHlWBL}There is no tournament currently in this town." />
 
-
-	
-	
-	
 	<!--Dol Guldur-->
 	<string
 		id="str_faction_official.dolguldur"
@@ -5906,6 +5902,43 @@
 		id="str_neutral_term_for_culture.dolguldur"
 		text="{=dolguldur_neutral}Servants of Dol Guldur" />
 
+	<!--Isengard-->
+	<string
+        id="str_faction_official.isengard"
+        text="{=isengard_official}a captain of Isengard" />
+	<string
+        id="str_faction_official.isengard_f"
+        text="{=isengard_official_f}a captainess of Isengard" />
+	<string
+        id="str_faction_ruler.isengard"
+        text="{=isengard_ruler}The White Hand" />
+	<string
+        id="str_faction_ruler.isengard_f"
+        text="{=isengard_ruler_f}The White Lady" />
+	<string
+        id="str_faction_ruler_term_in_speech.isengard"
+        text="{=isengard_ruler_term}the White Hand, {RULER.NAME}" />
+	<string
+        id="str_faction_ruler_name_with_title.isengard"
+        text="{=isengard_ruler_title}The White Hand {RULER.NAME}" />
+	<string
+        id="str_faction_noble_name_with_title.isengard"
+        text="{=isengard_noble_title}{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+	<string
+        id="str_adjective_for_faction.isengard"
+        text="{=isengard_adjective}Isengard" />
+	<string
+        id="str_short_term_for_faction.isengard"
+        text="{=isengard_short}Isengard" />
+	<string
+        id="str_faction_formal_name_for_culture.isengard"
+        text="{=isengard_formal}The Forces of Isengard" />
+	<string
+        id="str_faction_informal_name_for_culture.isengard"
+        text="{=isengard_informal}Isengard" />
+	<string
+        id="str_neutral_term_for_culture.isengard"
+        text="{=isengard_neutral}Isengard Forces" />
 
 
 	<!--Gundabad-->
@@ -5989,12 +6022,6 @@
 		id="str_neutral_term_for_culture.umbar"
 		text="{=umbar_neutral}Corsairs" />
 
-
-
-
-
-
-
 	<!--Rhun-->
 	<string
 		id="str_faction_official.khuzait"
@@ -6032,10 +6059,6 @@
 	<string
 		id="str_neutral_term_for_culture.khuzait"
 		text="{=rhun_neutral}Easterlings" />
-
-
-
-
 
 	<!--Dunland-->
 	<string
@@ -6235,6 +6258,7 @@
 	<string
 		id="str_neutral_term_for_culture.gondor"
 		text="{=gondor_neutral}Gondorians" />
+	
 	<!--Mordor-->
 	<string
 		id="str_faction_official.mordor"
@@ -6272,6 +6296,7 @@
 	<string
 		id="str_neutral_term_for_culture.mordor"
 		text="{=mordor_neutral}Mordor" />
+	
 	<!--Mirkwood-->
 	<string
 		id="str_faction_official.mirkwood"
@@ -6309,7 +6334,8 @@
 	<string
 		id="str_neutral_term_for_culture.mirkwood"
 		text="{=mirkwood_neutral}Wood-Elves" />
-	<!--Lothlórien-->
+	
+<!--Lothlórien-->
 	<string
 		id="str_faction_official.lothlorien"
 		text="{=lothlorien_official}a guardian of Lothlórien" />
@@ -6423,7 +6449,7 @@
 		id="str_neutral_term_for_culture.erebor"
 		text="{=erebor_neutral}Dwarves of Erebor" />
 
-
+<!--Dale-->
 	<string
 		id="str_faction_official.dale"
 		text="{=dale_official}a noble of Dale" />
@@ -6460,15 +6486,6 @@
 	<string
 		id="str_neutral_term_for_culture.dale"
 		text="{=dale_neutral}Bardings" />
-
-
-
-
-
-
-	<string
-		id="str_neutral_term_for_culture.empire"
-		text="{=CXUXk5ai}Elfs" />
 
 
 

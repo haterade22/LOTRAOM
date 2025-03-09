@@ -60,7 +60,7 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="4"
-				max_value="36"
+				max_value="100"
 				troop="NPCCharacter.looter" />
 		</stacks>
 	</MBPartyTemplate>
@@ -69,15 +69,15 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="2"
-				max_value="18"
+				max_value="40"
 				troop="NPCCharacter.sea_raiders_bandit" />
 			<PartyTemplateStack
 				min_value="0"
-				max_value="6"
+				max_value="10"
 				troop="NPCCharacter.sea_raiders_raider" />
 			<PartyTemplateStack
 				min_value="0"
-				max_value="3"
+				max_value="15"
 				troop="NPCCharacter.sea_raiders_chief" />
 		</stacks>
 	</MBPartyTemplate>
@@ -86,11 +86,11 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="2"
-				max_value="4"
+				max_value="10"
 				troop="NPCCharacter.sea_raiders_raider" />
 			<PartyTemplateStack
 				min_value="1"
-				max_value="1"
+				max_value="5"
 				troop="NPCCharacter.sea_raiders_chief" />
 			<PartyTemplateStack
 				min_value="1"
@@ -103,15 +103,15 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="2"
-				max_value="18"
+				max_value="50"
 				troop="NPCCharacter.mountain_bandits_bandit" />
 			<PartyTemplateStack
 				min_value="0"
-				max_value="6"
+				max_value="20"
 				troop="NPCCharacter.mountain_bandits_raider" />
 			<PartyTemplateStack
 				min_value="0"
-				max_value="3"
+				max_value="5"
 				troop="NPCCharacter.mountain_bandits_chief" />
 		</stacks>
 	</MBPartyTemplate>
@@ -120,11 +120,11 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="2"
-				max_value="4"
+				max_value="10"
 				troop="NPCCharacter.mountain_bandits_raider" />
 			<PartyTemplateStack
 				min_value="1"
-				max_value="1"
+				max_value="5"
 				troop="NPCCharacter.mountain_bandits_chief" />
 			<PartyTemplateStack
 				min_value="1"
@@ -137,15 +137,15 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="2"
-				max_value="18"
+				max_value="50"
 				troop="NPCCharacter.forest_bandits_bandit" />
 			<PartyTemplateStack
 				min_value="0"
-				max_value="6"
+				max_value="25"
 				troop="NPCCharacter.forest_bandits_raider" />
 			<PartyTemplateStack
 				min_value="0"
-				max_value="3"
+				max_value="5"
 				troop="NPCCharacter.forest_bandits_chief" />
 		</stacks>
 	</MBPartyTemplate>
@@ -154,11 +154,11 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="2"
-				max_value="4"
+				max_value="10"
 				troop="NPCCharacter.forest_bandits_raider" />
 			<PartyTemplateStack
 				min_value="1"
-				max_value="1"
+				max_value="5"
 				troop="NPCCharacter.forest_bandits_chief" />
 			<PartyTemplateStack
 				min_value="1"
@@ -171,15 +171,15 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="2"
-				max_value="18"
+				max_value="40"
 				troop="NPCCharacter.desert_bandits_bandit" />
 			<PartyTemplateStack
 				min_value="0"
-				max_value="6"
+				max_value="20"
 				troop="NPCCharacter.desert_bandits_raider" />
 			<PartyTemplateStack
 				min_value="0"
-				max_value="3"
+				max_value="5"
 				troop="NPCCharacter.desert_bandits_chief" />
 		</stacks>
 	</MBPartyTemplate>
@@ -188,11 +188,11 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="2"
-				max_value="4"
+				max_value="10"
 				troop="NPCCharacter.desert_bandits_raider" />
 			<PartyTemplateStack
 				min_value="1"
-				max_value="1"
+				max_value="5"
 				troop="NPCCharacter.desert_bandits_chief" />
 			<PartyTemplateStack
 				min_value="1"
@@ -205,15 +205,15 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="2"
-				max_value="18"
+				max_value="50"
 				troop="NPCCharacter.steppe_bandits_bandit" />
 			<PartyTemplateStack
 				min_value="0"
-				max_value="6"
+				max_value="15"
 				troop="NPCCharacter.steppe_bandits_raider" />
 			<PartyTemplateStack
 				min_value="0"
-				max_value="3"
+				max_value="5"
 				troop="NPCCharacter.steppe_bandits_chief" />
 		</stacks>
 	</MBPartyTemplate>
@@ -222,11 +222,11 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="2"
-				max_value="4"
+				max_value="15"
 				troop="NPCCharacter.steppe_bandits_raider" />
 			<PartyTemplateStack
 				min_value="1"
-				max_value="1"
+				max_value="5"
 				troop="NPCCharacter.steppe_bandits_chief" />
 			<PartyTemplateStack
 				min_value="1"
@@ -239,7 +239,7 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="15"
-				max_value="30"
+				max_value="50"
 				troop="NPCCharacter.villager_empire" />
 		</stacks>
 	</MBPartyTemplate>
@@ -248,7 +248,7 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="15"
-				max_value="30"
+				max_value="50"
 				troop="NPCCharacter.villager_aserai" />
 		</stacks>
 	</MBPartyTemplate>
@@ -257,7 +257,7 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="15"
-				max_value="30"
+				max_value="50"
 				troop="NPCCharacter.villager_sturgia" />
 		</stacks>
 	</MBPartyTemplate>
@@ -266,8 +266,8 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="15"
-				max_value="30"
-				troop="NPCCharacter.villager_vlandia" />
+				max_value="50"
+				troop="NPCCharacter.villager_rohan" />
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate
@@ -275,7 +275,7 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="15"
-				max_value="30"
+				max_value="50"
 				troop="NPCCharacter.villager_battania" />
 		</stacks>
 	</MBPartyTemplate>
@@ -284,10 +284,133 @@
 		<stacks>
 			<PartyTemplateStack
 				min_value="15"
-				max_value="30"
+				max_value="50"
 				troop="NPCCharacter.villager_khuzait" />
 		</stacks>
 	</MBPartyTemplate>
+
+	<!-- Gondor -->
+	<MBPartyTemplate
+		id="villager_gondor_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="50"
+				troop="NPCCharacter.villager_gondor" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- Erebor -->
+	<MBPartyTemplate
+		id="villager_erebor_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="50"
+				troop="NPCCharacter.villager_sturgia" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- Rivendell -->
+	<MBPartyTemplate
+		id="villager_rivendell_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="50"
+				troop="NPCCharacter.villager_empire" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- Mirkwood -->
+	<MBPartyTemplate
+		id="villager_mirkwood_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="50"
+				troop="NPCCharacter.villager_empire" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- Dol Guldur -->
+	<MBPartyTemplate
+		id="villager_dolguldur_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="50"
+				troop="NPCCharacter.villager_empire" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- Gundabad -->
+	<MBPartyTemplate
+		id="villager_gundabad_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="50"
+				troop="NPCCharacter.villager_empire" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- Isengard -->
+	<MBPartyTemplate
+		id="villager_isengard_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="50"
+				troop="NPCCharacter.villager_empire" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- Umbar -->
+	<MBPartyTemplate
+		id="villager_umbar_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="50"
+				troop="NPCCharacter.villager_empire" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- Mordor -->
+	<MBPartyTemplate
+		id="villager_mordor_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="50"
+				troop="NPCCharacter.villager_empire" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<!-- Lothlorien -->
+	<MBPartyTemplate
+		id="villager_lothlorien_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="50"
+				troop="NPCCharacter.villager_empire" />
+		</stacks>
+	</MBPartyTemplate>
+
+
+
+
+
+
+
+
+
+
+
+
+
 	<MBPartyTemplate
 		id="rebels_empire_template">
 		<stacks>

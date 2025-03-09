@@ -1080,10 +1080,10 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment
-					slot="Item1"
+					slot="Item0"
 					id="Item.wm_gondor_sword_a06" />
 				<equipment
-					slot="Item2"
+					slot="Item1"
 					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
@@ -1126,10 +1126,10 @@
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment
-					slot="Item1"
+					slot="Item0"
 					id="Item.wm_gondor_sword_a03" />
 				<equipment
-					slot="Item2"
+					slot="Item1"
 					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
@@ -1366,7 +1366,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a10" />
@@ -1392,7 +1392,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a01" />
@@ -1418,7 +1418,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a07" />
@@ -1444,7 +1444,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a08" />
@@ -1470,7 +1470,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a09" />
@@ -1496,7 +1496,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a08" />
@@ -1577,7 +1577,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a10" />
@@ -1603,7 +1603,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a05" />
@@ -1629,7 +1629,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a01" />
@@ -1655,7 +1655,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a02" />
@@ -1682,7 +1682,7 @@
 						id="empire_troop_civilian_template_t2"
 						civilian="true" />
 				<equipment slot="Horse" id="Item.charger"/>
-				<equipment slot="HorseHarness" id="Item.light_harness"/>
+				<equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="gondor_squire"
@@ -1728,7 +1728,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a05" />
@@ -1754,7 +1754,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a10" />
@@ -1780,7 +1780,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a03" />
@@ -1806,7 +1806,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a07" />
@@ -1830,10 +1830,14 @@
 					id="Item.citidel_guard_armor_pauldrons_light" />
 			</EquipmentRoster>
 			<EquipmentSet
-					id="empire_troop_civilian_template_t2"
-					civilian="true" />
-			<equipment slot="Horse" id="Item.charger"/>
-			<equipment slot="HorseHarness" id="Item.light_harness"/>
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.noble_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.chain_barding" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -2122,13 +2126,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_a" />
+					id="Item.wm_gondor_swanknight_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
 				<equipment
 					slot="Item2"
-					id="Item.wm_gondor_sword_a05" />
+					id="Item.wm_swan_knight_swordb" />
 				<equipment
 					slot="Body"
 					id="Item.fountain_armor1" />
@@ -2148,13 +2152,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_a" />
+					id="Item.wm_gondor_swanknight_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
 				<equipment
 					slot="Item2"
-					id="Item.wm_gondor_sword_a10" />
+					id="Item.wm_swan_knight_swordb" />
 				<equipment
 					slot="Body"
 					id="Item.fountain_armor1" />
@@ -2172,8 +2176,14 @@
 					id="Item.fountain_shoulders1" />
 			</EquipmentRoster>
 			<EquipmentSet
-				id="battania_troop_civilian_template_t2"
+				id="empire_troop_civilian_template_t1"
 				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.half_scale_barding" />
 		</Equipments>	
 	</NPCCharacter>
 	<NPCCharacter id="dol_amroth_veteran_knight"
@@ -2202,13 +2212,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_a" />
+					id="Item.wm_gondor_swanknight_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
 				<equipment
 					slot="Item2"
-					id="Item.wm_gondor_sword_a05" />
+					id="Item.wm_swan_knight_swordb" />
 				<equipment
 					slot="Body"
 					id="Item.fountain_armor2" />
@@ -2228,7 +2238,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_a" />
+					id="Item.wm_gondor_swanknight_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
@@ -2251,6 +2261,15 @@
 					slot="Cape"
 					id="Item.fountain_shoulders2" />
 			</EquipmentRoster>
+			<EquipmentSet
+				id="empire_troop_civilian_template_t1"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.noble_horse_khamseen" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.mail_and_plate_barding" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="knight_of_the_silver_swan"
@@ -2276,13 +2295,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_a" />
+					id="Item.wm_gondor_swanknight_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
 				<equipment
 					slot="Item2"
-					id="Item.wm_gondor_sword_a10" />
+					id="Item.wm_swan_knight_sworda" />
 				<equipment
 					slot="Body"
 					id="Item.imrahil_body" />
@@ -2302,6 +2321,12 @@
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
 				civilian="true" />
+			<equipment
+					slot="Horse"
+					id="Item.noble_horse_southern" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
 		</Equipments>
 	</NPCCharacter>
 

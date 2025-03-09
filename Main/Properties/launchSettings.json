@@ -4,16 +4,15 @@
       "commandName": "Executable",
       "executablePath": "$(GameFolder)\\bin\\$(GameBinariesFolder)\\Bannerlord.exe",
       "commandLineArgs": "/singleplayer _MODULES_*Bannerlord.Harmony*Native*SandBoxCore*CustomBattle*Sandbox*StoryMode*BirthAndDeath*TradeBoundFix*LOTR_Map*Base_Race*LOTRLOME_Armory*$(ModuleId)*_MODULES_",
-      "workingDirectory": "$(GameFolder)\\bin\\$(GameBinariesFolder)"
+      "workingDirectory": "$(GameFolder)\\bin\\$(GameBinariesFolder)",
+      "nativeDebugging": false
     },
-
     "BLSE Bannerlord": {
       "commandName": "Executable",
       "executablePath": "$(GameFolder)\\bin\\$(GameBinariesFolder)\\Bannerlord.BLSE.Standalone.exe",
       "commandLineArgs": "/disableautogenexceptions /singleplayer _MODULES_*Bannerlord.Harmony*Native*SandBoxCore*CustomBattle*Sandbox*StoryMode*$(ModuleId)*_MODULES_",
       "workingDirectory": "$(GameFolder)\\bin\\$(GameBinariesFolder)"
     },
-
     "BLSE Bannerlord With Crash Reporter": {
       "commandName": "Executable",
       "executablePath": "$(GameFolder)\\bin\\$(GameBinariesFolder)\\Bannerlord.BLSE.Standalone.exe",

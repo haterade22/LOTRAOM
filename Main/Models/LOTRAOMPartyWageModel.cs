@@ -19,22 +19,29 @@ namespace LOTRAOM.Models
         {
             defaultPartyWageModel = previousModel;
         }
-        public float MordorWageMultiplier => CultureFeatsGlobals.MordorWageMultiplier;
-        public double MordorRecruitmentMulitpler => CultureFeatsGlobals.MordorRecruitmentMulitpler;
+        public float MordorWageMultiplier => LOTRAOMCultureFeats.Instance.mordorWageMultiplierFeat.EffectBonus;
+        public double MordorRecruitmentMulitpler => LOTRAOMCultureFeats.Instance.mordorRecruitmentFeat.EffectBonus;
         
 
         public override int MaxWage { get { return 1000; } }
 
         public override int GetCharacterWage(CharacterObject character)
         {
-            return defaultPartyWageModel.GetCharacterWage(character);
+            float value = defaultPartyWageModel.GetCharacterWage(character);
+            if (character.IsMounted && !character.Culture.HasFeat(LOTRAOMCultureFeats.Instance.rohanNoExtraWageForMounted))
+                value += value * Globals.MountedTroopWageMultiplier;
+            if (character.IsInfantry && character.Culture.HasFeat(LOTRAOMCultureFeats.Instance.gondorReduceInfantryWages)) 
+                value -= value * LOTRAOMCultureFeats.Instance.gondorReduceInfantryWages.EffectBonus;
+            return (int)value;
         }
 
         public override ExplainedNumber GetTotalWage(MobileParty mobileParty, bool includeDescriptions = false)
         {
             ExplainedNumber wage = defaultPartyWageModel.GetTotalWage(mobileParty, includeDescriptions);
-            if (Globals.IsMordor(mobileParty.Party.Culture.StringId))
-                wage.Add(wage.ResultNumber * -MordorWageMultiplier, new("{=mordor_wage_reduction}Mordor wage reduction")); //the text does not seem to be shown anywhere?
+            if (mobileParty.Party.Culture.HasFeat(LOTRAOMCultureFeats.Instance.mordorWageMultiplierFeat))
+                wage.Add(wage.ResultNumber * -LOTRAOMCultureFeats.Instance.mordorWageMultiplierFeat.EffectBonus, new("{=mordor_wage_reduction}Mordor wage reduction")); //the text does not seem to be shown anywhere?
+            if (mobileParty.IsGarrison && mobileParty.Party.Culture.HasFeat(LOTRAOMCultureFeats.Instance.gondorReduceWagesInGarrisons))
+                wage.AddFactor(-LOTRAOMCultureFeats.Instance.gondorReduceWagesInGarrisons.EffectBonus, new("{=gondor_garrison_wage}Gondor garrison wage reduction"));
             return wage;
         }
 
@@ -43,8 +50,8 @@ namespace LOTRAOM.Models
             int baseCost = defaultPartyWageModel.GetTroopRecruitmentCost(troop, buyerHero, withoutItemCost);
             if (buyerHero == null) return baseCost;
             double realCost = baseCost;
-            if (Globals.IsMordor(buyerHero.Culture.StringId))
-                realCost *= MordorRecruitmentMulitpler;
+            if (buyerHero.Culture.HasFeat(LOTRAOMCultureFeats.Instance.mordorRecruitmentFeat))
+                realCost *= LOTRAOMCultureFeats.Instance.mordorRecruitmentFeat.EffectBonus;
             return (int)realCost;
         }
     }

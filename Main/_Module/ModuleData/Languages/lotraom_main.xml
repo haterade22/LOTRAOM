@@ -10,6 +10,21 @@
 		<string id="mordor_wage_multiplier_desc" text="20% lower troop wages" />
 		<string id="mordor_recruitment_desc" text="20% lower recruitment cost" />
 		<string id="mordor_party_size_desc" text="30% bigger party size" />
-		
+
+
+		<string id="human_militia_production_desc" text="Towns owned by a human culture rulers have +1 militia production" />
+		<string id="human_militia" text="Human culture militia bonus" />
+		<string id="gondor_influence_army_desc" text="Being in army brings 25% more influence" />
+		<string id="gondor_infantry_wage_desc" text="Wages of gondorian infantry are 15% lower" />
+		<string id="gondor_reduce_wages_in_garrison_desc" text="Wages of troops in garrisons are 20% lower" />
+
+		<string id="rohan_animal_production_desc" text="25% production bonus to horse, mule, cow and sheep in villages owned by Rohan rulers" />
+		<string id="rohan_no_extra_wage_for_mounted_desc" text="No extra wage for mounted units" />
+		<string id="rohan_slower_build_desc" text="10% slower build rate for town projects in settlements" />
+		<string id="rohan_army_lord_influence" text="Recruiting lords to armies costs 30% more influence" />
+
+
+		<string id="gondor_garrison_wage" text="Gondor garrison wage reduction" />
+		<string id="mordor_wage_reduction" text="Mordor wage reduction" />
 	</strings>
 </base>

@@ -12,7 +12,6 @@ namespace LOTRAOM.Models
     internal class LOTRAOMNotableSpawnModel : NotableSpawnModel
     {
         NotableSpawnModel previousModel;
-
         public LOTRAOMNotableSpawnModel(NotableSpawnModel previousModel)
         {
             this.previousModel = previousModel;
