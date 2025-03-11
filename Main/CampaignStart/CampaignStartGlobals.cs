@@ -55,7 +55,7 @@ namespace LOTRAOM.CampaignStart
             ["vlandia"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
             ["gondor"] = new CCCultureData(new List<string>() { "human"}, HumanBodyPropString),
             ["mordor"] = new CCCultureData(new List<string>() { "uruk", "human", "orc" }, HumanBodyPropString),
-            ["erebor"] = new CCCultureData(new List<string>() { "human", "dwarf" }, HumanBodyPropString),
+            ["erebor"] = new CCCultureData(new List<string>() { "dwarf" }, HumanBodyPropString),
             ["rivendell"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
             ["mirkwood"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
             ["lothlorien"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
