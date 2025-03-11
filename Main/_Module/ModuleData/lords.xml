@@ -6023,7 +6023,7 @@
 	<NPCCharacter
 		id="lord_1_52"
 		name="{=6TphQddp}Hirluin the Fair"
-		age="55"
+		age="35"
 		voice="ironic"
 		is_hero="true"
 		culture="Culture.gondor"
@@ -6057,12 +6057,24 @@
 			<Trait id="Authoritarian" value="1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.gond_shld2" />
+				<equipment slot="Item1" id="Item.anduril" />
+				<equipment slot="Head" id="Item.hirluin_helmet" />
+				<equipment slot="Body" id="Item.hirluin_body" />
+				<equipment slot="Gloves" id="Item.hirluin_gloves" />
+				<equipment slot="Leg" id="Item.hirluin_boots" />
+				<equipment slot="Cape" id="Item.hirluin_shoulder" />
+			</EquipmentRoster>
 			<EquipmentSet
-				id="gondor_bat_template_medium" />
-			<EquipmentSet
-				id="emp_civ_template_default"
+				id="w_emp_king_template_civ_m"
 				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.empire_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.stripped_leather_harness" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
@@ -6258,7 +6270,7 @@
 		voice="ironic"
 		is_female="false"
 		default_group="Infantry"
-		age="43"
+		age="33"
 		is_hero="true"
 		culture="Culture.gondor"
 		occupation="Lord"
@@ -6290,12 +6302,24 @@
 			<Trait id="Authoritarian" value="1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster />
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.gond_shld2" />
+				<equipment slot="Item1" id="Item.anduril" />
+				<equipment slot="Head" id="Item.angbor_helmet" />
+				<equipment slot="Body" id="Item.angbor_body" />
+				<equipment slot="Gloves" id="Item.angbor_gloves" />
+				<equipment slot="Leg" id="Item.angbor_boots" />
+				<equipment slot="Cape" id="Item.angbor_shoulder" />
+			</EquipmentRoster>
 			<EquipmentSet
-				id="gondor_bat_template_medium" />
-			<EquipmentSet
-				id="emp_civ_template_default"
+				id="w_emp_king_template_civ_m"
 				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.empire_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.stripped_leather_harness" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
