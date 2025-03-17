@@ -901,7 +901,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield2" />
@@ -924,7 +924,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield1" />
@@ -947,7 +947,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield" />
@@ -970,7 +970,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield1" />
@@ -993,7 +993,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield2" />
@@ -1016,7 +1016,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield1" />
@@ -1039,7 +1039,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield" />
@@ -1062,7 +1062,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield1" />
@@ -1072,99 +1072,6 @@
 				<equipment
 					slot="Body"
 					id="Item.cts_rohan_armor22" />
-				<equipment
-					slot="Cape"
-					id="Item.cts_rohan_cape4" />
-				<equipment
-					slot="Gloves"
-					id="Item.cts_rohan_armguard4" />
-				<equipment
-					slot="Leg"
-					id="Item.cts_rohan_boots4" />
-			</EquipmentRoster>
-
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
-				<equipment
-					slot="Item1"
-					id="Item.cts_rohan_shield2" />
-				<equipment
-					slot="Head"
-					id="Item.cts_rohan_helmet2a" />
-				<equipment
-					slot="Body"
-					id="Item.cts_rohan_armor222" />
-				<equipment
-					slot="Cape"
-					id="Item.cts_rohan_cape2" />
-				<equipment
-					slot="Gloves"
-					id="Item.cts_rohan_armguard1" />
-				<equipment
-					slot="Leg"
-					id="Item.cts_rohan_boots1" />
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
-				<equipment
-					slot="Item1"
-					id="Item.cts_rohan_shield1" />
-				<equipment
-					slot="Head"
-					id="Item.cts_rohan_helmet2" />
-				<equipment
-					slot="Body"
-					id="Item.cts_rohan_armor222" />
-				<equipment
-					slot="Cape"
-					id="Item.cts_roha_cape1" />
-				<equipment
-					slot="Gloves"
-					id="Item.cts_rohan_armguard2" />
-				<equipment
-					slot="Leg"
-					id="Item.cts_rohan_boots1" />
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
-				<equipment
-					slot="Item1"
-					id="Item.cts_rohan_shield" />
-				<equipment
-					slot="Head"
-					id="Item.cts_rohan_helmet2" />
-				<equipment
-					slot="Body"
-					id="Item.cts_rohan_armor222" />
-				<equipment
-					slot="Cape"
-					id="Item.cts_rohan_cape3" />
-				<equipment
-					slot="Gloves"
-					id="Item.cts_rohan_armguard3" />
-				<equipment
-					slot="Leg"
-					id="Item.cts_rohan_boots4" />
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
-				<equipment
-					slot="Item1"
-					id="Item.cts_rohan_shield1" />
-				<equipment
-					slot="Head"
-					id="Item.cts_rohan_helmet2a" />
-				<equipment
-					slot="Body"
-					id="Item.cts_rohan_armor222" />
 				<equipment
 					slot="Cape"
 					id="Item.cts_rohan_cape4" />
@@ -1179,7 +1086,100 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield2" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape2" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard1" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_roha_cape1" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard2" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape3" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard3" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.cts_rohan_shield1" />
+				<equipment
+					slot="Head"
+					id="Item.cts_rohan_helmet2a" />
+				<equipment
+					slot="Body"
+					id="Item.cts_rohan_armor222" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_rohan_cape4" />
+				<equipment
+					slot="Gloves"
+					id="Item.cts_rohan_armguard4" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_rohan_boots4" />
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield2" />
@@ -1202,7 +1202,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield1" />
@@ -1225,7 +1225,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield" />
@@ -1248,7 +1248,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_a" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield1" />
@@ -1321,7 +1321,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_c" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield2" />
@@ -1344,7 +1344,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_c" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield1" />
@@ -1367,7 +1367,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_c" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield" />
@@ -1390,7 +1390,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_c" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield1" />
@@ -1413,7 +1413,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_c" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield2" />
@@ -1436,7 +1436,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_c" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield1" />
@@ -1459,7 +1459,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_c" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield" />
@@ -1482,7 +1482,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_c" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield1" />
@@ -1506,7 +1506,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_c" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield2" />
@@ -1529,7 +1529,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_c" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield1" />
@@ -1552,7 +1552,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_c" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield" />
@@ -1575,7 +1575,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_c" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield1" />
@@ -1598,7 +1598,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_c" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield1" />
@@ -1621,7 +1621,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_c" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield" />
@@ -1695,7 +1695,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_b" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield2" />
@@ -1718,7 +1718,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_b" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield1" />
@@ -1741,7 +1741,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_b" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield3" />
@@ -1764,7 +1764,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_e" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield" />
@@ -1834,7 +1834,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_d" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield2" />
@@ -1857,7 +1857,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_e" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield1" />
@@ -1880,7 +1880,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_rohan_spear_e" />
+					id="Item.vlandia_lance_2_t4" />
 				<equipment
 					slot="Item1"
 					id="Item.cts_rohan_shield" />
