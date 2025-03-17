@@ -99,11 +99,11 @@
 				id="Throwing"
 				value="30" />
 		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.mordor_uruk_raider"/>
-			<upgrade_target id="NPCCharacter.mordor_uruk_feller"/>
-		</upgrade_targets>
-
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.mordor_uruk_raider"/>
+				<upgrade_target id="NPCCharacter.mordor_uruk_feller"/>
+			</upgrade_targets>
+		
 		<Equipments>
 			<EquipmentRoster>
 				<equipment
@@ -681,7 +681,7 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter
+	<NPCCharacter 
 		id="mordor_uruk_darkblade"
 		default_group="Infantry"
 		level="31"
@@ -1375,7 +1375,7 @@
 		</Equipments>
 	</NPCCharacter>
 
-
+	
 	<!--Black Uruk Archer Lines-->
 	<NPCCharacter id="mordor_uruk_scout"
 			default_group="Ranged"
@@ -1721,7 +1721,7 @@
 					id="Item.bolt_b" />
 				<equipment
 					slot="Item2"
-					id="Item.sm_mordor_shield_small_a" />
+					id="Item.sm_mordor_shield_small_b" />
 				<equipment
 					slot="Item3"
 					id="Item.sm_uruk_sword_a" />
@@ -1744,7 +1744,7 @@
 					id="Item.bolt_b" />
 				<equipment
 					slot="Item2"
-					id="Item.sm_mordor_shield_small_a" />
+					id="Item.sm_mordor_shield_small_b" />
 				<equipment
 					slot="Item3"
 					id="Item.sm_uruk_sword_a" />
@@ -1770,7 +1770,7 @@
 					id="Item.bolt_b" />
 				<equipment
 					slot="Item2"
-					id="Item.sm_mordor_shield_small_a" />
+					id="Item.sm_mordor_shield_small_b" />
 				<equipment
 					slot="Item3"
 					id="Item.sm_uruk_sword_a" />
@@ -1796,7 +1796,7 @@
 					id="Item.bolt_b" />
 				<equipment
 					slot="Item2"
-					id="Item.sm_mordor_shield_small_a" />
+					id="Item.sm_mordor_shield_small_b" />
 				<equipment
 					slot="Item3"
 					id="Item.sm_uruk_sword_a" />
@@ -2306,7 +2306,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item3"
-					id="Item.sm_mordor_shield_small_a" />
+					id="Item.sm_mordor_shield_small_b" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_a1" />
@@ -2335,7 +2335,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item3"
-					id="Item.sm_mordor_shield_small_a" />
+					id="Item.sm_mordor_shield_small_b" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_a2" />
@@ -2364,7 +2364,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item3"
-					id="Item.sm_mordor_shield_small_a" />
+					id="Item.sm_mordor_shield_small_b" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_b1" />
@@ -2393,7 +2393,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item3"
-					id="Item.sm_mordor_shield_small_a" />
+					id="Item.sm_mordor_shield_small_b" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_b2" />
@@ -2422,7 +2422,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item3"
-					id="Item.sm_mordor_shield_small_a" />
+					id="Item.sm_mordor_shield_small_b" />
 				<equipment
 					slot="Cape"
 					id="Item.sk_uruk_mordor_pauldron_heavy_e" />
@@ -2451,7 +2451,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item3"
-					id="Item.sm_mordor_shield_small_a" />
+					id="Item.sm_mordor_shield_small_b" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_c2" />
@@ -2480,7 +2480,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item3"
-					id="Item.sm_mordor_shield_small_a" />
+					id="Item.sm_mordor_shield_small_b" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_d1" />
@@ -2509,7 +2509,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item3"
-					id="Item.sm_mordor_shield_small_a" />
+					id="Item.sm_mordor_shield_small_b" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_d2" />
@@ -2661,7 +2661,7 @@
 					id="Item.sm_uruk_sword_c" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_c" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_a1" />
@@ -2684,7 +2684,7 @@
 					id="Item.sm_uruk_sword_f" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_c" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_a2" />
@@ -2707,7 +2707,7 @@
 					id="Item.sm_uruk_sword_i" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_c" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_b1" />
@@ -2730,7 +2730,7 @@
 					id="Item.sm_uruk_sword_c" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_c" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_b2" />
@@ -2776,7 +2776,7 @@
 					id="Item.sm_uruk_sword_i" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_c" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_c2" />
@@ -2799,7 +2799,7 @@
 					id="Item.sm_uruk_sword_c" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_c" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_d1" />
@@ -2822,7 +2822,7 @@
 					id="Item.sm_uruk_sword_f" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_c" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_d2" />
@@ -3352,7 +3352,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_c" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_a1" />
@@ -3375,7 +3375,7 @@
 					id="Item.sm_uruk_sword_e" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_c" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_a2" />
@@ -3398,7 +3398,7 @@
 					id="Item.sm_uruk_sword_h" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_c" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_b1" />
@@ -3421,7 +3421,7 @@
 					id="Item.sm_uruk_sword_b" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_c" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_b2" />
@@ -3444,7 +3444,7 @@
 					id="Item.sm_uruk_sword_e" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_c" />
 				<equipment
 					slot="Cape"
 					id="Item.sk_uruk_mordor_pauldron_heavy_e" />
@@ -3467,7 +3467,7 @@
 					id="Item.sm_uruk_sword_h" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_c" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_c2" />
@@ -3490,7 +3490,7 @@
 					id="Item.sm_uruk_sword_b" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_c" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_d1" />
@@ -3513,7 +3513,7 @@
 					id="Item.sm_uruk_sword_e" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_c" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_heavy_d2" />
@@ -3582,7 +3582,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_a" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_elite_b1" />
@@ -3605,7 +3605,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_a" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_elite_b2" />
@@ -3628,7 +3628,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_a" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_elite_b1" />
@@ -3651,7 +3651,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_a" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_elite_b2" />
@@ -3674,7 +3674,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_a" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_elite_b1" />
@@ -3697,7 +3697,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_a" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_elite_b2" />
@@ -3720,7 +3720,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_a" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_elite_b1" />
@@ -3743,7 +3743,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_a" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_elite_b2" />
@@ -3766,7 +3766,7 @@
 					id="Item.sm_uruk_sword_a" />
 				<equipment
 					slot="Item1"
-					id="Item.sm_mordor_shield_tower_b" />
+					id="Item.sm_mordor_shield_tower_a" />
 				<equipment
 					slot="Head"
 					id="Item.sk_uruk_mordor_helmet_elite_b2" />
