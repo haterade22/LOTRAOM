@@ -844,6 +844,7 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.erebor_royal_warden"/>
+			<upgrade_target id="NPCCharacter.erebor_royal_lord_placeholder"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
@@ -926,6 +927,221 @@
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
+
+
+	<NPCCharacter id="erebor_royal_lord_placeholder"
+		default_group="Infantry"
+		race="dwarf"
+		level="36"
+		name="{=erebor_royal_warden}Erebor Royal Placehholder"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_d" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_legionary_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_a2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_d" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_d" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_legionary_a2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_b2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_d" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment
+						slot="Item0"
+						id="Item.dunland_caerdh_axe_1h_d" />
+					<equipment
+						slot="Item1"
+						id="Item.heavy_round_shield" />
+					<equipment
+						slot="Head"
+						id="Item.sk_dwarf_erebor_helmet_plate_legionary_b" />
+					<equipment
+						slot="Body"
+						id="Item.sk_dwarf_erebor_chest_plate_elite_c2" />
+					<equipment
+						slot="Leg"
+						id="Item.sk_dwarf_erebor_greaves_elite_a" />
+					<equipment
+						slot="Gloves"
+						id="Item.sk_dwarf_erebor_bracers_elite_d" />
+					<equipment
+						slot="Cape"
+						id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_d" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_legionary_b2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_d2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_d" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_d" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_legionary_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_d2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_d" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_d" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_legionary_c2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_c2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_d" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_d" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_legionary_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_c2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_d" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_d" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_legionary_d2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_c2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_d" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
 
 
 </NPCCharacters>
