@@ -177,16 +177,14 @@
 					id="Item.gond_tab_9ld" />
 				<equipment
 					slot="Head"
-					id="Item.gond_hlm_mask_b_ld" />
-				<equipment
-					slot="Gloves"
-					id="Item.gondor_bracers" />
+					id="Item.citidel_guard_helmet1" />
 				<equipment
 					slot="Leg"
 					id="Item.gond_bts_lth_ld" />
 				<equipment
 					slot="Cape"
 					id="Item.gond_shldr_plt_ld" />
+
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment
@@ -200,10 +198,7 @@
 					id="Item.gond_tab_9ld" />
 				<equipment
 					slot="Head"
-					id="Item.gond_hlm_mask_b_ld" />
-				<equipment
-					slot="Gloves"
-					id="Item.gondor_bracers" />
+					id="Item.citidel_guard_helmet1" />
 				<equipment
 					slot="Leg"
 					id="Item.gond_bts_lth_ld" />
@@ -272,20 +267,20 @@
 					slot="Item3"
 					id="Item.wm_gondor_sword_a02" />
 				<equipment
-					slot="Body"
-					id="Item.gondor_armor" />
-				<equipment
 					slot="Head"
-					id="Item.gondor_helmet" />
+					id="Item.citidel_guard_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
 				<equipment
 					slot="Gloves"
-					id="Item.gondor_bracers" />
+					id="Item.citidel_guard_bracers" />
 				<equipment
 					slot="Leg"
-					id="Item.gondor_boots" />
+					id="Item.citidel_guard_boots_light" />
 				<equipment
 					slot="Cape"
-					id="Item.gondor_pauldrons" />
+					id="Item.citidel_guard_armor_pauldrons" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -344,20 +339,20 @@
 					slot="Item3"
 					id="Item.wm_gondor_sword_a05" />
 				<equipment
-					slot="Body"
-					id="Item.gondor_armor" />
-				<equipment
 					slot="Head"
-					id="Item.gondor_helmet" />
+					id="Item.citidel_guard_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
 				<equipment
 					slot="Gloves"
-					id="Item.gondor_bracers" />
+					id="Item.citidel_guard_bracers" />
 				<equipment
 					slot="Leg"
-					id="Item.gondor_boots" />
+					id="Item.citidel_guard_boots_light" />
 				<equipment
 					slot="Cape"
-					id="Item.gondor_pauldrons" />
+					id="Item.citidel_guard_armor_pauldrons" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -415,20 +410,20 @@
 					slot="Item1"
 					id="Item.gond_shield_one_black" />
 				<equipment
-					slot="Body"
-					id="Item.gondor_armor" />
-				<equipment
 					slot="Head"
-					id="Item.gondor_helmet" />
+					id="Item.citidel_guard_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
 				<equipment
 					slot="Gloves"
-					id="Item.gondor_bracers" />
+					id="Item.citidel_guard_bracers" />
 				<equipment
 					slot="Leg"
-					id="Item.gondor_boots" />
+					id="Item.citidel_guard_boots_light" />
 				<equipment
 					slot="Cape"
-					id="Item.gondor_pauldrons" />
+					id="Item.citidel_guard_armor_pauldrons" />
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment
@@ -438,20 +433,20 @@
 					slot="Item1"
 					id="Item.gond_shield_two_black" />
 				<equipment
-					slot="Body"
-					id="Item.gondor_armor" />
-				<equipment
 					slot="Head"
-					id="Item.gondor_helmet" />
+					id="Item.citidel_guard_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
 				<equipment
 					slot="Gloves"
-					id="Item.gondor_bracers" />
+					id="Item.citidel_guard_bracers" />
 				<equipment
 					slot="Leg"
-					id="Item.gondor_boots" />
+					id="Item.citidel_guard_boots_light" />
 				<equipment
 					slot="Cape"
-					id="Item.gondor_pauldrons" />
+					id="Item.citidel_guard_armor_pauldrons" />
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment
@@ -461,20 +456,20 @@
 					slot="Item1"
 					id="Item.gond_shield_three_black" />
 				<equipment
-					slot="Body"
-					id="Item.gondor_armor" />
-				<equipment
 					slot="Head"
-					id="Item.gondor_helmet" />
+					id="Item.citidel_guard_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
 				<equipment
 					slot="Gloves"
-					id="Item.gondor_bracers" />
+					id="Item.citidel_guard_bracers" />
 				<equipment
 					slot="Leg"
-					id="Item.gondor_boots" />
+					id="Item.citidel_guard_boots_light" />
 				<equipment
 					slot="Cape"
-					id="Item.gondor_pauldrons" />
+					id="Item.citidel_guard_armor_pauldrons" />
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment
@@ -484,20 +479,20 @@
 					slot="Item1"
 					id="Item.gond_shield_four_black" />
 				<equipment
-					slot="Body"
-					id="Item.gondor_armor" />
-				<equipment
 					slot="Head"
-					id="Item.gondor_helmet" />
+					id="Item.citidel_guard_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
 				<equipment
 					slot="Gloves"
-					id="Item.gondor_bracers" />
+					id="Item.citidel_guard_bracers" />
 				<equipment
 					slot="Leg"
-					id="Item.gondor_boots" />
+					id="Item.citidel_guard_boots_light" />
 				<equipment
 					slot="Cape"
-					id="Item.gondor_pauldrons" />
+					id="Item.citidel_guard_armor_pauldrons" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -552,20 +547,20 @@
 					slot="Item1"
 					id="Item.gond_shield_one_black" />
 				<equipment
-					slot="Body"
-					id="Item.gondor_armor" />
-				<equipment
 					slot="Head"
-					id="Item.gondor_helmet" />
+					id="Item.citidel_guard_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
 				<equipment
 					slot="Gloves"
-					id="Item.gondor_bracers" />
+					id="Item.citidel_guard_bracers" />
 				<equipment
 					slot="Leg"
-					id="Item.gondor_boots" />
+					id="Item.citidel_guard_boots_light" />
 				<equipment
 					slot="Cape"
-					id="Item.gondor_pauldrons" />
+					id="Item.citidel_guard_armor_pauldrons" />
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment
@@ -575,20 +570,20 @@
 					slot="Item1"
 					id="Item.gond_shield_two_black" />
 				<equipment
-					slot="Body"
-					id="Item.gondor_armor" />
-				<equipment
 					slot="Head"
-					id="Item.gondor_helmet" />
+					id="Item.citidel_guard_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
 				<equipment
 					slot="Gloves"
-					id="Item.gondor_bracers" />
+					id="Item.citidel_guard_bracers" />
 				<equipment
 					slot="Leg"
-					id="Item.gondor_boots" />
+					id="Item.citidel_guard_boots_light" />
 				<equipment
 					slot="Cape"
-					id="Item.gondor_pauldrons" />
+					id="Item.citidel_guard_armor_pauldrons" />
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment
@@ -598,20 +593,20 @@
 					slot="Item1"
 					id="Item.gond_shield_three_black" />
 				<equipment
-					slot="Body"
-					id="Item.gondor_armor" />
-				<equipment
 					slot="Head"
-					id="Item.gondor_helmet" />
+					id="Item.citidel_guard_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
 				<equipment
 					slot="Gloves"
-					id="Item.gondor_bracers" />
+					id="Item.citidel_guard_bracers" />
 				<equipment
 					slot="Leg"
-					id="Item.gondor_boots" />
+					id="Item.citidel_guard_boots_light" />
 				<equipment
 					slot="Cape"
-					id="Item.gondor_pauldrons" />
+					id="Item.citidel_guard_armor_pauldrons" />
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment
@@ -621,23 +616,21 @@
 					slot="Item1"
 					id="Item.gond_shield_four_black" />
 				<equipment
-					slot="Body"
-					id="Item.gondor_armor" />
-				<equipment
 					slot="Head"
-					id="Item.gondor_helmet" />
+					id="Item.citidel_guard_helmet1" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
 				<equipment
 					slot="Gloves"
-					id="Item.gondor_bracers" />
+					id="Item.citidel_guard_bracers" />
 				<equipment
 					slot="Leg"
-					id="Item.gondor_boots" />
+					id="Item.citidel_guard_boots_light" />
 				<equipment
 					slot="Cape"
-					id="Item.gondor_pauldrons" />
+					id="Item.citidel_guard_armor_pauldrons" />
 			</EquipmentRoster>
-		
-
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
 				civilian="true" />
@@ -761,7 +754,7 @@
 					id="Item.gond_shield_three_black" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4" />
+					id="Item.citidel_guard_armor1" />
 				<equipment
 					slot="Head"
 					id="Item.citidel_guard_helmet4" />
@@ -784,7 +777,7 @@
 					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4" />
+					id="Item.citidel_guard_armor1" />
 				<equipment
 					slot="Head"
 					id="Item.citidel_guard_helmet3" />
@@ -807,7 +800,7 @@
 					id="Item.gond_shld2" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4" />
+					id="Item.citidel_guard_armor1" />
 				<equipment
 					slot="Head"
 					id="Item.citidel_guard_helmet2" />
@@ -995,7 +988,7 @@
 					id="Item.gond_shield_three_black" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4" />
+					id="Item.citidel_guard_armor1" />
 				<equipment
 					slot="Head"
 					id="Item.citidel_guard_helmet4" />
@@ -1018,7 +1011,7 @@
 					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4" />
+					id="Item.citidel_guard_armor1" />
 				<equipment
 					slot="Head"
 					id="Item.citidel_guard_helmet3" />
@@ -1041,7 +1034,7 @@
 					id="Item.gond_shld2" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4" />
+					id="Item.citidel_guard_armor1" />
 				<equipment
 					slot="Head"
 					id="Item.citidel_guard_helmet2" />
@@ -1231,7 +1224,7 @@
 					id="Item.gond_shield_one_black" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4" />
+					id="Item.citidel_guard_armor1" />
 				<equipment
 					slot="Head"
 					id="Item.citidel_guard_helmet4" />
@@ -1278,7 +1271,7 @@
 					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4" />
+					id="Item.citidel_guard_armor1" />
 				<equipment
 					slot="Head"
 					id="Item.citidel_guard_helmet4" />
@@ -1301,7 +1294,7 @@
 					id="Item.gond_shield_two_black" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4" />
+					id="Item.citidel_guard_armor1" />
 				<equipment
 					slot="Head"
 					id="Item.citidel_guard_helmet4" />
@@ -1455,7 +1448,7 @@
 					id="Item.gond_shield_three_black" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4" />
+					id="Item.citidel_guard_armor1" />
 				<equipment
 					slot="Head"
 					id="Item.citidel_guard_helmet4" />
@@ -1481,7 +1474,7 @@
 					id="Item.gond_shld4" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4" />
+					id="Item.citidel_guard_armor1" />
 				<equipment
 					slot="Head"
 					id="Item.citidel_guard_helmet3" />
@@ -1507,7 +1500,7 @@
 					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4" />
+					id="Item.citidel_guard_armor1" />
 				<equipment
 					slot="Head"
 					id="Item.citidel_guard_helmet2" />
@@ -2662,7 +2655,7 @@
 					id="Item.wm_pelargir_sword_a02" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4" />
+					id="Item.citidel_guard_armor1" />
 				<equipment
 					slot="Head"
 					id="Item.citidel_guard_helmet4" />
@@ -2845,7 +2838,7 @@
 					id="Item.sk_gondor_lossarnach_chest_a" />
 				<equipment
 					slot="Head"
-					id="Item.sk_gondor_lossarnach_helmet_a" />
+					id="Item.citidel_guard_helmet1" />
 				<equipment
 					slot="Leg"
 					id="Item.sk_gondor_lossarnach_boots_a" />
