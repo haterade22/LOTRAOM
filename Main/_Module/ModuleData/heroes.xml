@@ -95,7 +95,7 @@
 		id="lord_1_3"
 		spouse="Hero.lord_1_4"
 		faction="Faction.clan_empire_north_2"
-		text="{=rivendell_elladan}Elladan, the eldest son of Elrond and Celebrían, is a steadfast warrior and a guardian of Rivendell. Alongside his twin brother, Elrohir, Elladan tirelessly defends the borders of the Elven sanctuary and ventures forth to aid the Free Peoples of Middle-earth. Trained in the arts of swordsmanship and archery, his skill in combat is matched only by his keen intellect and unwavering sense of duty. Elladan is driven by a fierce loyalty to his family and an enduring commitment to the preservation of Middle-earth. Despite the weight of his responsibilities, he carries himself with dignity and calm resolve, embodying the strength and wisdom of his noble lineage." />
+		text="{=dunland_ragnvald}Ragnvald the Boar, chieftain of the House of the Iron Boar, is a warrior of immense strength and unyielding will. Renowned for his ferocity in battle, he charges into the fray like the beast he is named for, breaking enemy lines with sheer force and relentless fury. A veteran of countless skirmishes against Rohan and Gondor, Ragnvald is both a fearsome warlord and a cunning leader, guiding his warriors with brutal efficiency. His people revere him as a protector of Dunland’s traditions, a man who refuses to kneel to foreign kings or forsake the old ways. Though his rage in combat is unmatched, he rules his house with a firm but fair hand, ensuring that the strength of the Iron Boar is felt across the land." />
 	<Hero
 		id="lord_1_4"
 		spouse="Hero.lord_1_3"
@@ -138,7 +138,7 @@
 	<Hero
 		id="lord_1_5"
 		faction="Faction.clan_empire_north_3"
-		text="{=elrohir_description}Elrohir, the younger twin son of Elrond and Celebrían, embodies the valor and wisdom of the Elves of Rivendell. A skilled warrior and a steadfast leader, he fights with unwavering dedication to protect Middle-earth from the encroaching darkness. Like his brother Elladan, he has devoted his life to combating the forces of Sauron and avenging the injustices done to his family. Elrohir is known for his sharp mind, unwavering loyalty, and readiness to put himself at risk for the greater good. Together with his twin, he rides tirelessly to aid allies in need and ensures that Rivendell remains a bastion of hope against the shadow." />
+		text="{=dunland_othric}Othric the Wild, master of the House of the Wild Hunt, is a name spoken in whispers across the lands of Dunland and beyond. A warrior-shaman as much as a warlord, he is said to commune with the spirits of the hunt, guiding his riders like a storm upon the plains. Cloaked in the pelts of beasts he has slain with his own hands, Othric leads his warbands in relentless raids, striking fear into the hearts of his enemies with his eerie war cries and savage ferocity. Many claim he is more beast than man, his soul forever bound to the Wild Hunt. Though feared by outsiders, his people revere him as the chosen of the hunt, a leader who ensures Dunland’s enemies never rest, forever pursued by the ghosts of their own fear." />
 	<Hero
 		id="lord_1_1_7"
 		spouse="Hero.lord_1_5"
@@ -189,7 +189,7 @@
 	<Hero
 		id="lord_1_20"
 		faction="Faction.clan_empire_north_4"
-		text="{=arwen_undomiel_description}Arwen Undómiel, the Evenstar of her people, is the daughter of Elrond and Celebrían. Known for her unparalleled beauty and grace, she is also a symbol of strength and resilience. Arwen's love for Aragorn signifies the unity between Elves and Men, and her choice to forgo immortality for love is a testament to her courage and devotion. A skilled healer and a wise counselor, she embodies the hope and light of Rivendell, standing as a beacon against the shadow that threatens Middle-earth." />
+		text="{=dunland_brynhild}Brynhild Ironfury, matron of the House of the Stonefist, is a name that echoes through the highlands of Dunland like the rumble of a coming storm. Towering over her foes, clad in armor forged from the bones of the earth, she stands as an unyielding force on the battlefield. Known for her raw, unrelenting strength, she fights with a brutal efficiency that has earned her the fear and respect of all who stand against Dunland. Brynhild believes in the law of strength—only the unbreakable deserve to lead. In times of war, she is at the vanguard, smashing through enemy lines like a boulder rolling down the mountainside. In times of peace, she forges warriors as she would forge iron—through fire, hammer, and sheer force of will." />
 
 	<Hero
 		id="lord_1_64"
@@ -199,7 +199,7 @@
 		id="lord_1_1_14"
 		spouse="Hero.lord_1_50"
 		faction="Faction.clan_empire_north_5"
-		text="{=gildor_inglorion_description}Gildor Inglorion, a noble Elf of the House of Finrod, is a wandering lord of great wisdom and insight. Though not bound to Rivendell, his journeys across Middle-earth make him a vital messenger and emissary for the Elves. Gildor’s keen perception and steadfast loyalty to his kin allow him to navigate the dangers of the wilds and aid those in need. He is known for his hospitality and kindness, offering counsel and protection to travelers who cross his path. Gildor embodies the enduring spirit of the Elves, ever watchful and ever faithful to the light in a world shadowed by darkness." />
+		text="{=dunland_ulric}Ulric Stormfang, warlord of the House of the Hillmen, is a force as untamed as the lands he calls home. Born amidst the howling winds of the highlands, he rose from a mere raider to a fearsome chieftain, leading his people with a mix of raw strength and cunning. His warriors say that when Ulric charges into battle, the very hills tremble beneath his feet, and the storm answers his call. He bears no love for the lowland kings who seek to bend his people to their will—his only loyalty lies with the highlands and the spirits of his ancestors. With his massive war-axe and a cloak of wolf pelts, he is a living embodiment of the wild defiance that runs through the blood of the Hillmen, ever ready to fight for their freedom and survival." />
 
 	<Hero
 		id="lord_1_1_17"
@@ -223,7 +223,7 @@
 	<Hero
 		id="lord_1_51"
 		faction="Faction.clan_empire_north_6"
-		text="{=glorfindel_description}Glorfindel, the mighty Elf-lord of Rivendell, is renowned for his unmatched valor and strength. Having faced the terror of Balrogs and returned from the halls of Mandos, he is a living legend among the Elves of Middle-earth. His wisdom and power are equaled only by his compassion and dedication to the protection of Rivendell and its allies. As a warrior, Glorfindel’s skill is unrivaled, and his presence on the battlefield inspires awe and courage in those who stand with him." />
+		text="{=dunland_vargan}Vargan Bloodtaker, chieftain of the House of the Red Hand, is a man whose very name is a promise of violence. To him, battle is not merely survival—it is a sacred ritual, a dance of death where only the strongest may stand at the end. His warriors follow him with fanatical devotion, knowing that under his command, they will taste the blood of their enemies and carve their place in legend. Wielding a massive, jagged axe said to be forged in the blood of his foes, Vargan leads from the front, his warband striking like a red storm upon the fields of battle. Feared even among his own kin for his merciless nature, he is the living embodiment of Dunland’s hatred for those who would chain them. To face Vargan is to face death itself—swift, brutal, and without mercy." />
 
 	<Hero
 		id="lord_1_67"
@@ -232,7 +232,7 @@
 	<Hero
 		id="lord_1_58"
 		faction="Faction.clan_empire_north_7"
-		text="{=erestor_description}Erestor, the chief counselor of Rivendell, is a figure of profound wisdom and insight. Trusted by Elrond for his strategic mind and sound judgment, he plays a vital role in the governance and protection of Rivendell. Erestor’s knowledge of lore and history is unparalleled, making him an invaluable advisor in the fight against Sauron. Though not a warrior, his contributions to the cause are no less significant, as his counsel has shaped many pivotal decisions in the struggle for Middle-earth’s future." />
+		text="{=dunland_gorvin}Gorvin the Fell, warlord of the House of the Black Ravagers, is a name that chills the blood of those who hear it. A towering figure clad in the furs of his slain foes, his mere presence commands both fear and obedience. Gorvin leads his warbands with ruthless precision, striking swiftly and without mercy, leaving behind nothing but ruin and ashes. His warriors are not merely raiders—they are predators, hunting the weak and taking what they desire through sheer might. Among the Dunlendings, he is both feared and respected, for he does not tolerate weakness, even among his own. To follow Gorvin is to embrace the darkness of war, to revel in conquest, and to bring destruction to those who would stand against Dunland." />
 
 	<Hero
 		id="lord_1_70"
@@ -245,8 +245,7 @@
 		id="lord_NE8_l"
 		spouse="Hero.lord_NE8_s"
 		faction="Faction.clan_empire_north_8"
-		text="{=lindir_description}Lindir, a minstrel of Rivendell, is celebrated for his poetic talent and love of music. A voice of peace and harmony, he brings comfort and joy to the halls of Rivendell during times of darkness. Though less involved in the affairs of war, Lindir’s role is no less important, as his songs preserve the history and culture of the Elves. His artistry serves as a reminder of what is worth fighting for, inspiring hope in the hearts of those who listen." />
-
+		text="{=dunland_hrodan}Hrodan the Grey, chieftain of the House of the Stone Wolves, is a leader whose presence commands both respect and fear. Unlike many warlords who rule through brute strength alone, Hrodan is known for his patience and wisdom, much like the wolves his house reveres. He does not strike without purpose, but when he does, his enemies find no mercy. His warriors are disciplined, moving like a well-honed pack—silent in the hunt, relentless in the kill. Though feared by outsiders, those under his command know him as a just leader, rewarding loyalty and strength. It is said that when Hrodan howls before battle, it is not only his warriors who answer—but the very spirits of the wild themselves." />
 	<Hero
 		id="lord_NE8_s"
 		spouse="Hero.lord_NE8_l"
@@ -273,7 +272,7 @@
 	<Hero
 		id="lord_NE9_l"
 		faction="Faction.clan_empire_north_9"
-		text="{=melpomaen_description}Melpomaen, a scribe and scholar of Rivendell, dedicates his life to the preservation of knowledge and the study of lore. Quiet and contemplative, he spends his days in the vast libraries of Rivendell, ensuring that the wisdom of the Eldar is not lost to time. Melpomaen’s careful records and insights are vital to Elrond’s counsel, as his knowledge of ancient texts and prophecies aids in the fight against the growing darkness. Though he wields no weapon, his intellect and diligence are a weapon in their own right." />
+		text="{=dunland_gunnar}Gunnar One-Eye, chieftain of the House of the Broken Axe, is a warrior whose legend is carved into the bones of his enemies. Though he lost an eye in battle long ago, he has only grown more dangerous, his other eye burning with the fire of an unbroken will. Gunnar leads his warbands with reckless abandon, fighting with whatever weapon remains in his grasp—even if it is only his fists. To him, surrender is an insult, and death is only a final challenge to be met head-on. His warriors follow him with unshakable loyalty, for he has never fled a battle, never backed down from a fight, and never left a fallen comrade behind. When Gunnar One-Eye roars, his warriors charge, their shattered axes raised high, ready to fight until the last breath." />
 
 	<Hero
 		id="lord_NE9_s"

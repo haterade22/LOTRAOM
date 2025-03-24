@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+	<NPCCharacter id="erebor_recruit"
+		default_group="Infantry"
+		level="6"
+		name="{=Erebor_Recruit}Erebor Recruit"
+		occupation="Soldier"
+		race="dwarf"
+		is_basic_troop="true"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="35"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="35"/>
+			<skill id="TwoHanded" value="25"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.erebor_warrior"/>
+			<upgrade_target id="NPCCharacter.erebor_scout"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_a" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_leather_light_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_leather_light_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_boots_light_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<!--Erebor Ranged-->
+	<NPCCharacter id="erebor_scout"
+		default_group="Ranged"
+		level="11"
+		name="{=Erebor_Scout}Erebor Scout"
+		race="dwarf"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="50"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="30"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.erebor_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item3"
+					id="Item.dunland_caerdh_axe_1h_a" />
+				<equipment
+					slot="Item0"
+					id="Item.composite_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_leather_light_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_leather_light_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_boots_light_b" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_gloves_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="erebor_archer"
+		default_group="Ranged"
+		level="16"
+		race="dwarf"
+		name="{=Erebor_Archer}Erebor Archer"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Throwing" value="30"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.erebor_veteran_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item3"
+					id="Item.dunland_caerdh_axe_1h_a" />
+				<equipment
+					slot="Item0"
+					id="Item.steppe_heavy_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_leather_light_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_leather_light_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_boots_light_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_med_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter 
+		id="erebor_veteran_archer"
+		default_group="Ranged"
+		level="21"
+		race="dwarf"
+		name="{=ereborveteranarcher}Erebor Veteran Archer"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Throwing" value="30"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			<equipment
+				slot="Item0"
+				id="Item.composite_steppe_bow" />
+			<equipment
+				slot="Item1"
+				id="Item.steppe_arrows" />
+			<equipment
+				slot="Item2"
+				id="Item.steppe_arrows" />
+			<equipment
+				slot="Item3"
+				id="Item.dunland_caerdh_axe_1h_a" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_light_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_scale_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_boots_med_b" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_med_a" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_med_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+<!--Erebor Infantry-->
+	<NPCCharacter 
+		id="erebor_warrior"
+		default_group="Infantry"
+		level="11"
+		race="dwarf"
+		name="{=erebor_warrior}Erebor Warrior"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="55"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="35"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="30"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.erebor_axe_infantry"/>
+			<upgrade_target id="NPCCharacter.erebor_spear_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			<equipment
+				slot="Item0"
+				id="Item.dunland_caerdh_axe_1h_b" />
+			<equipment
+				slot="Item1"
+				id="Item.heavy_round_shield" />
+			<equipment
+				slot="Item2"
+				id="Item.steppe_arrows" />
+			<equipment
+				slot="Item3"
+				id="Item.dunland_caerdh_axe_1h_a" />
+			<equipment
+				slot="Head"
+				id="Item.sk_dwarf_erebor_helmet_leather_med_a" />
+			<equipment
+				slot="Body"
+				id="Item.sk_dwarf_erebor_chest_leather_med_b" />
+			<equipment
+				slot="Leg"
+				id="Item.sk_dwarf_erebor_boots_med_a" />
+			<equipment
+				slot="Gloves"
+				id="Item.sk_dwarf_erebor_bracers_med_d" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="erebor_spear_infantry"
+		default_group="Infantry"
+		level="16"
+		race="dwarf"
+		name="{=erebor_spear_infantry}Erebor Spear Infantry"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="125"/>
+			<skill id="TwoHanded" value="125"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.erebor_spear_guard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_spear_a" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_leather_heavy_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_chain_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_boots_med_b" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_med_a" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_med_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter 
+		id="erebor_spear_guard"
+		default_group="Infantry"
+		level="21"
+		race="dwarf"
+		name="{=erebor_spear_guard}Erebor Spear-Guard"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="200"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="160"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.erebor_veteran_spear_guard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_spear_a" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_heavy_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_heavy_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_heavy_b" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_heavy_b" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_heavy_b" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter 
+		id="erebor_veteran_spear_guard"
+		default_group="Infantry"
+		level="26"
+		race="dwarf"
+		name="{=erebor_veteran_spear_guard}Erebor Veteran Spear-Guard"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="250"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="210"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="225"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.erebor_legionary"/>
+		</upgrade_targets>
+		<Equipments>
+				<EquipmentRoster>
+					<equipment
+						slot="Item0"
+						id="Item.wm_gondor_spear_a" />
+					<equipment
+						slot="Item1"
+						id="Item.heavy_round_shield" />
+					<equipment
+						slot="Item2"
+						id="Item.northern_javelin_3_t4" />
+					<equipment
+						slot="Head"
+						id="Item.sk_dwarf_erebor_helmet_plate_heavy_d" />
+					<equipment
+						slot="Body"
+						id="Item.sk_dwarf_erebor_chest_plate_heavy_a" />
+					<equipment
+						slot="Leg"
+						id="Item.sk_dwarf_erebor_greaves_heavy_b" />
+					<equipment
+						slot="Gloves"
+						id="Item.sk_dwarf_erebor_bracers_heavy_c" />
+					<equipment
+						slot="Cape"
+						id="Item.sk_dwarf_erebor_pauldron_plate_elite_a" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="battania_troop_civilian_template_t2"
+					civilian="true" />
+			</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter 
+		id="erebor_legionary"
+		default_group="Infantry"
+		level="31"
+		race="dwarf"
+		name="{=erebor_legionary}Erebor Legionary"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="280"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="280"/>
+			<skill id="TwoHanded" value="280"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_spear_a" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_javelin_3_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.northern_javelin_3_t4" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_lord_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_d" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_b" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_f" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_b" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter 
+		id="erebor_axe_infantry"
+		default_group="Infantry"
+		level="16"
+		race="dwarf"
+		name="{=erebor_axe_infantry}Erebor Axe Infantry"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="160"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="135"/>
+			<skill id="TwoHanded" value="125"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.erebor_shield_guard"/>
+			<upgrade_target id="NPCCharacter.erebor_axe_guard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_a" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_leather_heavy_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_scale_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_boots_med_c" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_med_b" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_med_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter 
+		id="erebor_axe_guard"
+		default_group="Infantry"
+		level="21"
+		race="dwarf"
+		name="{=erebor_axe_guard}Erebor Axe-Guard"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="160"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.erebor_veteran_axe_guard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_2h_a" />
+				<equipment
+					slot="Item1"
+					id="Item.northern_javelin_3_t4" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_heavy_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_heavy_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_heavy_c" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_heavy_c" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_heavy_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter 
+		id="erebor_veteran_axe_guard"
+		default_group="Infantry"
+		level="26"
+		race="dwarf"
+		name="{=erebor_veteran_axe_guard}Erebor Veteran Axe-Guard"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="270"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="210"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="225"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.erebor_shield_breaker"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_2h_b" />
+				<equipment
+					slot="Item1"
+					id="Item.northern_javelin_3_t4" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_elite_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_c" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_elite_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter 
+		id="erebor_shield_breaker"
+		default_group="Infantry"
+		level="31"
+		race="dwarf"
+		name="{=erebor_shield_breaker}Erebor Shield-Breaker"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="310"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="280"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="280"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_2h_a" />
+				<equipment
+					slot="Item1"
+					id="Item.northern_javelin_3_t4" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_lord_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_c" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_b" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_e" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_b" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+		
+	<NPCCharacter id="erebor_shield_guard"
+		default_group="Infantry"
+		level="21"
+		race="dwarf"
+		name="{=erebor_shield_guard}Erebor Shield-Guard"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="200"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="160"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.erebor_veteran_shield_guard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_c" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_heavy_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_heavy_a" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_heavy_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="erebor_veteran_shield_guard"
+		default_group="Infantry"
+		level="26"
+		race="dwarf"
+		name="{=erebor_veteran_shield_guard}Erebor Veteran Shield-Guard"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="250"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="210"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="225"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.erebor_gate_warden"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_b" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_elite_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_b" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_elite_b" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="erebor_gate_warden"
+		default_group="Infantry"
+		level="31"
+		race="dwarf"
+		name="{=erebor_gate_warden}Erebor Gate Warden"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="280"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="280"/>
+			<skill id="TwoHanded" value="280"/>
+			<skill id="Polearm" value="280"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="280"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.erebor_royal_warden"/>
+			<upgrade_target id="NPCCharacter.erebor_royal_lord_placeholder"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_c" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_lord_b" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_b" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_b" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_e" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_b" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="erebor_royal_warden"
+		default_group="Infantry"
+		race="dwarf"
+		level="36"
+		name="{=erebor_royal_warden}Erebor Royal Warden"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_d" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_lord_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_d" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="erebor_royal_lord_placeholder"
+		default_group="Infantry"
+		race="dwarf"
+		level="36"
+		name="{=erebor_royal_warden}Erebor Royal Placehholder"
+		occupation="Soldier"
+		culture="Culture.erebor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_erebor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_d" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_legionary_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_a2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_d" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_d" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_legionary_a2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_b2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_d" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment
+						slot="Item0"
+						id="Item.dunland_caerdh_axe_1h_d" />
+					<equipment
+						slot="Item1"
+						id="Item.heavy_round_shield" />
+					<equipment
+						slot="Head"
+						id="Item.sk_dwarf_erebor_helmet_plate_legionary_b" />
+					<equipment
+						slot="Body"
+						id="Item.sk_dwarf_erebor_chest_plate_elite_c2" />
+					<equipment
+						slot="Leg"
+						id="Item.sk_dwarf_erebor_greaves_elite_a" />
+					<equipment
+						slot="Gloves"
+						id="Item.sk_dwarf_erebor_bracers_elite_d" />
+					<equipment
+						slot="Cape"
+						id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_d" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_legionary_b2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_d2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_d" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_d" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_legionary_c" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_d2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_d" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_d" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_legionary_c2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_c2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_d" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_d" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_legionary_d" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_c2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_d" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.dunland_caerdh_axe_1h_d" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.sk_dwarf_erebor_helmet_plate_legionary_d2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_dwarf_erebor_chest_plate_elite_c2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_dwarf_erebor_greaves_elite_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_dwarf_erebor_bracers_elite_d" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_dwarf_erebor_pauldron_plate_cape_elite_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+
+</NPCCharacters>

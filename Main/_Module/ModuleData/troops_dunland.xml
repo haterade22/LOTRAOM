@@ -941,7 +941,7 @@
 	<NPCCharacter id="dunland_medium_spearmen"
 		default_group="Infantry"
 		level="21"
-		name="{=dunland_medium_spearman}Caerdh Medium Spearman"
+		name="{=dunland_medium_spearman}Caerdh Stormspears"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -1292,7 +1292,7 @@
 	<NPCCharacter id="dunland_medium_axemen"
 			default_group="Infantry"
 			level="21"
-			name="{=dunland_medium_axemen}Caerdh Oathsworn"
+			name="{=dunland_medium_axemen}Caerdh Bloodreavers"
 			occupation="Soldier"
 			culture="Culture.empire">
 		<face>
@@ -1642,7 +1642,7 @@
 	<NPCCharacter id="dunland_heavy_spearmen"
 			default_group="Infantry"
 			level="26"
-			name="{=dunland_heavy_spearman}Caerdh Heavy Spearman"
+			name="{=dunland_heavy_spearman}Caerdh Fangspears"
 			occupation="Soldier"
 			culture="Culture.empire">
 		<face>
@@ -1841,7 +1841,7 @@
 	<NPCCharacter id="dunland_heavy_axemen"
 		default_group="Infantry"
 		level="26"
-		name="{=dunland_heavy_axemen}Caerdh Heavy Axeman"
+		name="{=dunland_heavy_axemen}Caerdh Doomcutters"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -2044,7 +2044,7 @@
 	<NPCCharacter id="dunland_heavy_infantry"
 		default_group="Infantry"
 		level="26"
-		name="{=dunland_heavy_infantry}Cardh Heavy Infantry"
+		name="{=dunland_heavy_infantry}Caerdh Stoneguard"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>

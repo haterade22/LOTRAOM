@@ -154,7 +154,7 @@
 				id="Item.vlandia_noble_sword_3_t5" />
 			<Equipment
 				slot="Item1"
-				id="Item.vlandia_lance_2_t4" />
+				id="Item.wm_rohan_spear_d" />
 			<Equipment
 				slot="Item2"
 				id="Item.western_javelin_3_t4" />
@@ -190,7 +190,7 @@
 				id="Item.vlandia_noble_sword_3_t5" />
 			<Equipment
 				slot="Item1"
-				id="Item.vlandia_lance_2_t4" />
+				id="Item.wm_rohan_spear_d" />
 			<Equipment
 				slot="Item2"
 				id="Item.western_javelin_3_t4" />
@@ -226,7 +226,7 @@
 				id="Item.vlandia_noble_sword_3_t5" />
 			<Equipment
 				slot="Item1"
-				id="Item.vlandia_lance_2_t4" />
+				id="Item.wm_rohan_spear_d" />
 			<Equipment
 				slot="Item2"
 				id="Item.western_javelin_3_t4" />
@@ -359,6 +359,43 @@
 			<Equipment
 				slot="Item1"
 				id="Item.witchking_sword" />
+			<Equipment
+				slot="Head"
+				id="Item.witch_king_helmet" />
+			<Equipment
+				slot="Cape"
+				id="Item.witch_king_pauldrons" />
+			<Equipment
+				slot="Body"
+				id="Item.witch_king" />
+			<Equipment
+				slot="Gloves"
+				id="Item.witch_king_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.witch_king_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_northern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.northern_ring_barding" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
+			/>
+	</EquipmentRoster>
+
+	<EquipmentRoster
+			id="nazgul_template"
+			culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item1"
+				id="Item.nazgul_sword" />
 			<Equipment
 				slot="Head"
 				id="Item.witch_king_helmet" />
@@ -1496,4 +1533,291 @@
 			IsNobleTemplate="true"
 			IsNoncombatantTemplate="true" />
 	</EquipmentRoster>
+	<!--Culture:Erebor -->
+	<!--Retainer -->
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_erebor_1_m"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_erebor_1_m"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_erebor_1_f"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_erebor_1_f"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Merchant -->
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_erebor_2_m"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_erebor_2_m"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_erebor_2_f"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_erebor_2_f"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.footmans_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Freeholder -->
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_erebor_3_m"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.bandit_leather_water_flask" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_erebor_3_m"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.bandit_leather_water_flask" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_erebor_3_f"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.plain_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_erebor_3_f"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.plain_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Artisan -->
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_erebor_4_m"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_erebor_4_m"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_cavalier_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_erebor_4_f"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_erebor_4_f"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cloth_apron" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Forester -->
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_erebor_5_m"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_erebor_5_m"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_erebor_5_f"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_erebor_5_f"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.battania_civil_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.ladys_shoe" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Vagabond -->
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_erebor_6_m"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.torn_bandit_clothes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_erebor_6_m"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.torn_bandit_clothes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_childhood_age_erebor_6_f"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.torn_bandit_clothes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_education_age_erebor_6_f"
+		culture="Culture.erebor">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.torn_bandit_clothes" />
+		</EquipmentSet>
+	</EquipmentRoster>	
+	
+	
+	
+	
 </EquipmentRosters>
