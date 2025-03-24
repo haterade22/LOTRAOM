@@ -71,5 +71,10 @@ namespace LOTRAOM
         {
             base.OnBeforeInitialModuleScreenSetAsRoot();
         }
+        public override void OnGameLoaded(Game game, object initializerObject)
+        {
+            base.OnGameLoaded(game, initializerObject);
+            LOTRAOMCharacterCreationContent.SetCultureFeats();
+        }
     }
 }
