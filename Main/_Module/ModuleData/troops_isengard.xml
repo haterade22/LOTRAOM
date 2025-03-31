@@ -112,6 +112,45 @@
 		</Equipments>
 	</NPCCharacter>
 
+
+	<NPCCharacter id="urukhai_warrior"
+		default_group="Infantry"
+		level="16"
+		name="{=urukhai_warrior}Uruk-Hai Warrior"
+		occupation="Soldier"
+		culture="Culture.isengard">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.urukhai_spearman"/>
+			<upgrade_target id="NPCCharacter.urukhai_swordman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
 	<NPCCharacter id="urukhai_feller"
 		default_group="Infantry"
 		level="16"

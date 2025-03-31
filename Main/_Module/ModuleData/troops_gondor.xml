@@ -45,6 +45,8 @@
 			<upgrade_target id="NPCCharacter.gondor_lamedon_swordsman"/>
 			<upgrade_target id="NPCCharacter.gondor_belfalas_footman"/>
 			<upgrade_target id="NPCCharacter.gondor_blackroot_hunter"/>
+			<upgrade_target id="NPCCharacter.gondor_pg_levy"/>
+			<upgrade_target id="NPCCharacter.gondor_da_page"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
@@ -178,7 +180,7 @@
 					id="Item.gond_tab_9ld" />
 				<equipment
 					slot="Head"
-					id="Item.citidel_guard_helmet1" />
+					id="Item.ga_helmet021" />
 				<equipment
 					slot="Leg"
 					id="Item.gond_bts_lth_ld" />
@@ -198,7 +200,7 @@
 					id="Item.gond_tab_9ld" />
 				<equipment
 					slot="Head"
-					id="Item.citidel_guard_helmet1" />
+					id="Item.ga_helmet021" />
 				<equipment
 					slot="Leg"
 					id="Item.gond_bts_lth_ld" />
@@ -268,7 +270,7 @@
 					id="Item.wm_gondor_sword_a02" />
 				<equipment
 					slot="Head"
-					id="Item.citidel_guard_helmet1" />
+					id="Item.ga_helmet021" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4_slim" />
@@ -341,7 +343,7 @@
 					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Head"
-					id="Item.citidel_guard_helmet1" />
+					id="Item.ga_helmet021" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4_slim" />
@@ -410,7 +412,7 @@
 					id="Item.gond_shield_one_black" />
 				<equipment
 					slot="Head"
-					id="Item.citidel_guard_helmet1" />
+					id="Item.ga_helmet021" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4_slim" />
@@ -433,7 +435,7 @@
 					id="Item.gond_shield_two_black" />
 				<equipment
 					slot="Head"
-					id="Item.citidel_guard_helmet1" />
+					id="Item.ga_helmet021" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4_slim" />
@@ -456,7 +458,7 @@
 					id="Item.gond_shield_three_black" />
 				<equipment
 					slot="Head"
-					id="Item.citidel_guard_helmet1" />
+					id="Item.ga_helmet021" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4_slim" />
@@ -479,7 +481,7 @@
 					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Head"
-					id="Item.citidel_guard_helmet1" />
+					id="Item.ga_helmet021" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4_slim" />
@@ -546,7 +548,7 @@
 					id="Item.gond_shield_one_black" />
 				<equipment
 					slot="Head"
-					id="Item.citidel_guard_helmet1" />
+					id="Item.ga_helmet021" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4_slim" />
@@ -569,7 +571,7 @@
 					id="Item.gond_shield_two_black" />
 				<equipment
 					slot="Head"
-					id="Item.citidel_guard_helmet1" />
+					id="Item.ga_helmet021" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4_slim" />
@@ -592,7 +594,7 @@
 					id="Item.gond_shield_three_black" />
 				<equipment
 					slot="Head"
-					id="Item.citidel_guard_helmet1" />
+					id="Item.ga_helmet021" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4_slim" />
@@ -615,7 +617,7 @@
 					id="Item.gond_shield_four_black" />
 				<equipment
 					slot="Head"
-					id="Item.citidel_guard_helmet1" />
+					id="Item.ga_helmet021" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4_slim" />
@@ -1315,7 +1317,7 @@
 				id="Item.empire_horse" />
 			<equipment
 				slot="HorseHarness"
-				id="Item.stripped_leather_harness" />
+				id="Item.gondor_horse_armor_2" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -1520,7 +1522,7 @@
 				id="Item.t2_empire_horse" />
 			<equipment
 				slot="HorseHarness"
-				id="Item.half_scale_barding" />
+				id="Item.gondor_horse_armor_1" />
 
 		</Equipments>
 	</NPCCharacter>
@@ -1675,7 +1677,7 @@
 						id="empire_troop_civilian_template_t2"
 						civilian="true" />
 				<equipment slot="Horse" id="Item.charger"/>
-				<equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding"/>
+				<equipment slot="HorseHarness" id="Item.gondor_horse_armor_2"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="gondor_squire"
@@ -1830,7 +1832,7 @@
 				id="Item.noble_horse" />
 			<equipment
 				slot="HorseHarness"
-				id="Item.chain_barding" />
+				id="Item.gondor_horse_armor_1" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -2128,45 +2130,19 @@
 					id="Item.wm_swan_knight_swordb" />
 				<equipment
 					slot="Body"
-					id="Item.fountain_armor1" />
+					id="Item.swanknight_cuirass_f" />
 				<equipment
 					slot="Head"
-					id="Item.fountain_helm1" />
+					id="Item.swanknight_helmet_b" />
 				<equipment
 					slot="Gloves"
-					id="Item.citidel_guard_bracers" />
+					id="Item.swanknight_gloves" />
 				<equipment
 					slot="Leg"
-					id="Item.fountain_guard_boots" />
+					id="Item.swanknight_boots_a" />
 				<equipment
 					slot="Cape"
-					id="Item.fountain_shoulders1" />
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.wm_gondor_swanknight_speara" />
-				<equipment
-					slot="Item1"
-					id="Item.gond_shield_two_swan" />
-				<equipment
-					slot="Item2"
-					id="Item.wm_swan_knight_swordb" />
-				<equipment
-					slot="Body"
-					id="Item.fountain_armor1" />
-				<equipment
-					slot="Head"
-					id="Item.fountain_helm2" />
-				<equipment
-					slot="Gloves"
-					id="Item.citidel_guard_bracers" />
-				<equipment
-					slot="Leg"
-					id="Item.fountain_guard_boots" />
-				<equipment
-					slot="Cape"
-					id="Item.fountain_shoulders1" />
+					id="Item.swanknight_shoulders_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="empire_troop_civilian_template_t1"
@@ -2176,7 +2152,7 @@
 				id="Item.noble_horse_imperial" />
 			<equipment
 				slot="HorseHarness"
-				id="Item.half_scale_barding" />
+				id="Item.gondor_horse_armor_1_da" />
 		</Equipments>	
 	</NPCCharacter>
 	<NPCCharacter id="dol_amroth_veteran_knight"
@@ -2214,19 +2190,19 @@
 					id="Item.wm_swan_knight_swordb" />
 				<equipment
 					slot="Body"
-					id="Item.fountain_armor2" />
+					id="Item.swanknight_cuirass_d" />
 				<equipment
 					slot="Head"
-					id="Item.fountain_helm20" />
+					id="Item.swanknight_helmet_c" />
 				<equipment
 					slot="Gloves"
-					id="Item.citidel_guard_bracers" />
+					id="Item.swanknight_gloves" />
 				<equipment
 					slot="Leg"
-					id="Item.fountain_guard_boots" />
+					id="Item.swanknight_boots_b" />
 				<equipment
 					slot="Cape"
-					id="Item.fountain_shoulders2" />
+					id="Item.swanknight_shoulders_b" />
 			</EquipmentRoster>
 			<EquipmentRoster>
 				<equipment
@@ -2262,7 +2238,7 @@
 				id="Item.noble_horse_khamseen" />
 			<equipment
 				slot="HorseHarness"
-				id="Item.mail_and_plate_barding" />
+				id="Item.gondor_swan_horse_armor_1" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="knight_of_the_silver_swan"
@@ -2319,7 +2295,7 @@
 					id="Item.noble_horse_southern" />
 			<equipment
 				slot="HorseHarness"
-				id="Item.imperial_scale_barding" />
+				id="Item.gondor_swan_horse_armor_2" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -3264,7 +3240,6 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.gondor_pelargir_skirmisher"/>
-			<upgrade_target id="NPCCharacter.gondor_pelargir_scout"/>
 		</upgrade_targets>
 		<Equipments>
 
@@ -3576,225 +3551,6 @@
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
 				civilian="true" />
-
-		</Equipments>
-	</NPCCharacter>
-
-	<NPCCharacter id="gondor_pelargir_scout"
-		default_group="Cavalry"
-		level="16"
-		name="{=Pelargir_Scout}Gondor Pelargir Coastwardens"
-		upgrade_requires="ItemCategory.horse"
-		occupation="Soldier"
-		culture="Culture.gondor">
-
-		<face>
-			<face_key_template value="BodyProperty.fighter_gondor"/>
-		</face>
-		<skills >
-			<skill
-				id="Athletics"
-				value="80" />
-			<skill
-				id="Riding"
-				value="80" />
-			<skill
-				id="OneHanded"
-				value="70" />
-			<skill
-				id="TwoHanded"
-				value="10" />
-			<skill
-				id="Polearm"
-				value="120" />
-			<skill
-				id="Bow"
-				value="30" />
-			<skill
-				id="Crossbow"
-				value="10" />
-			<skill
-				id="Throwing"
-				value="100" />
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.gondor_pelargir_lancers"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.wm_pelagir_spear_a" />
-				<equipment
-					slot="Item1"
-					id="Item.gond_shield_one_black" />
-				<equipment
-					slot="Item2"
-					id="Item.wm_pelargir_sword_a01" />
-				<equipment
-					slot="Item3"
-					id="Item.western_javelin_3_t4" />
-				<equipment
-					slot="Body"
-					id="Item.citidel_guard_armor4_slim" />
-				<equipment
-					slot="Head"
-					id="Item.pelargirmarine_helmet_1_a" />
-				<equipment
-					slot="Gloves"
-					id="Item.citidel_guard_gloves" />
-				<equipment
-					slot="Leg"
-					id="Item.citidel_guard_boots" />
-				<equipment
-					slot="Cape"
-					id="Item.citidel_guard_armor_pauldrons_light" />
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.wm_pelagir_spear_a" />
-				<equipment
-					slot="Item1"
-					id="Item.gond_shield_one_black" />
-				<equipment
-					slot="Item2"
-					id="Item.wm_pelargir_sword_a02" />
-				<equipment
-					slot="Item3"
-					id="Item.western_javelin_3_t4" />
-				<equipment
-					slot="Body"
-					id="Item.citidel_guard_armor4_slim" />
-				<equipment
-					slot="Head"
-					id="Item.pelargirmarine_helmet_1_a_coif" />
-				<equipment
-					slot="Gloves"
-					id="Item.citidel_guard_gloves" />
-				<equipment
-					slot="Leg"
-					id="Item.citidel_guard_boots_light" />
-				<equipment
-					slot="Cape"
-					id="Item.citidel_guard_armor_pauldrons_light" />
-			</EquipmentRoster>
-			<EquipmentSet
-				id="battania_troop_civilian_template_t2"
-				civilian="true" />
-			<equipment
-				slot="Horse"
-				id="Item.empire_horse" />
-			<equipment
-				slot="HorseHarness"
-				id="Item.stripped_leather_harness" />
-		</Equipments>
-	</NPCCharacter>
-
-	<NPCCharacter id="gondor_pelargir_lancers"
-		default_group="Cavalry"
-		level="21"
-		name="{=gondor_pelargir_lancers}Gondor Pelargir Lancer"
-		occupation="Soldier"
-		culture="Culture.gondor">
-		<face>
-			<face_key_template value="BodyProperty.fighter_gondor"/>
-		</face>
-		<skills >
-			<skill
-				id="Athletics"
-				value="100" />
-			<skill
-				id="Riding"
-				value="120" />
-			<skill
-				id="OneHanded"
-				value="110" />
-			<skill
-				id="TwoHanded"
-				value="15" />
-			<skill
-				id="Polearm"
-				value="160" />
-			<skill
-				id="Bow"
-				value="40" />
-			<skill
-				id="Crossbow"
-				value="15" />
-			<skill
-				id="Throwing"
-				value="150" />
-		</skills>
-		<Equipments>
-
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.wm_pelagir_spear_c" />
-				<equipment
-					slot="Item2"
-					id="Item.wm_pelargir_sword_a01" />
-				<equipment
-					slot="Item1"
-					id="Item.gond_shield_one_black" />
-				<equipment
-					slot="Item3"
-					id="Item.western_javelin_3_t4" />
-				<equipment
-					slot="Body"
-					id="Item.citidel_guard_armor4_slim" />
-				<equipment
-					slot="Head"
-					id="Item.pelargirmarine_helmet_1_a_plume" />
-				<equipment
-					slot="Gloves"
-					id="Item.citidel_guard_gloves" />
-				<equipment
-					slot="Leg"
-					id="Item.citidel_guard_boots" />
-				<equipment
-					slot="Cape"
-					id="Item.citidel_guard_armor_pauldrons_light" />
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.wm_pelagir_spear_b" />
-				<equipment
-					slot="Item2"
-					id="Item.wm_pelargir_sword_a02" />
-				<equipment
-					slot="Item1"
-					id="Item.gond_shield_one_black" />
-				<equipment
-					slot="Item3"
-					id="Item.western_javelin_3_t4" />
-				<equipment
-					slot="Body"
-					id="Item.citidel_guard_armor4_slim" />
-				<equipment
-					slot="Head"
-					id="Item.pelargirmarine_helmet_1_a_coif_plume" />
-				<equipment
-					slot="Gloves"
-					id="Item.citidel_guard_gloves" />
-				<equipment
-					slot="Leg"
-					id="Item.citidel_guard_boots" />
-				<equipment
-					slot="Cape"
-					id="Item.citidel_guard_armor_pauldrons_light" />
-			</EquipmentRoster>
-			<EquipmentSet
-				id="empire_troop_civilian_template_t2"
-				civilian="true" />
-			<equipment
-				slot="Horse"
-				id="Item.t2_empire_horse" />
-			<equipment
-				slot="HorseHarness"
-				id="Item.half_scale_barding" />
 
 		</Equipments>
 	</NPCCharacter>
@@ -4493,5 +4249,1046 @@
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
+	
+	
+<!--Pinnath Gelin-->
+<NPCCharacter id="gondor_pg_levy"
+		default_group="Infantry"
+		level="11"
+		name="{=gondor_belfalas_footman}Gondor Pinnath Gelin Levy"
+		occupation="Soldier"
+		culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="45" />
+			<skill
+				id="Riding"
+				value="5" />
+			<skill
+				id="OneHanded"
+				value="60" />
+			<skill
+				id="TwoHanded"
+				value="60" />
+			<skill
+				id="Polearm"
+				value="75" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="50" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gondor_pg_footman"/>
+			<upgrade_target id="NPCCharacter.gondor_pg_skirmisher"/>
+			<upgrade_target id="NPCCharacter.gondor_pg_scout"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.gond_spear2" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_gondor_shield_a02" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_javelin_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.pg_helmet_4" />
+				<equipment
+					slot="Body"
+					id="Item.imperial_padded_cloth" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gondor_pg_footman"
+		default_group="Infantry"
+		level="16"
+		name="{=gondor_belfalas_spearman}Gondor Pinnath Gelin Footman"
+		occupation="Soldier"
+		culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="100" />
+			<skill
+				id="Riding"
+				value="5" />
+			<skill
+				id="OneHanded"
+				value="95" />
+			<skill
+				id="TwoHanded"
+				value="100" />
+			<skill
+				id="Polearm"
+				value="95" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gondor_pg_warrior"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.gond_spear2" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_gondor_shield_a02" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_javelin_2_t3" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
+				<equipment
+					slot="Head"
+					id="Item.pg_helmet_4" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gondor_pg_warrior"
+			default_group="Infantry"
+			level="21"
+			name="{=gondor_pg_champion}Gondor Pinnath Gelin Hillsentinel"
+			occupation="Soldier"
+			culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="130" />
+			<skill
+				id="Riding"
+				value="20" />
+			<skill
+				id="OneHanded"
+				value="140" />
+			<skill
+				id="TwoHanded"
+				value="140" />
+			<skill
+				id="Polearm"
+				value="110" />
+			<skill
+				id="Bow"
+				value="60" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="180" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gondor_pg_champion"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.gond_spear2" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_gondor_shield_a02" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_javelin_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.pg_helmet_4" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gondor_pg_champion"
+			default_group="Infantry"
+			level="26"
+			name="{=gondor_pg_champion}Gondor Pinnath Gelin Champion"
+			occupation="Soldier"
+			culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="230" />
+			<skill
+				id="Riding"
+				value="20" />
+			<skill
+				id="OneHanded"
+				value="190" />
+			<skill
+				id="TwoHanded"
+				value="150" />
+			<skill
+				id="Polearm"
+				value="225" />
+			<skill
+				id="Bow"
+				value="60" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="200" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.gond_spear2" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_gondor_shield_a02" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_javelin_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.northern_javelin_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.pg_helmet_4_coif" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.cts_gondor_boot" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	
+<NPCCharacter id="gondor_pg_skirmisher"
+		default_group="Ranged"
+		level="16"
+		name="{=gondor_pg_skirmisher}Gondor Pinnath Gelin Skirmisher"
+		occupation="Soldier"
+		culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="125" />
+			<skill
+				id="Riding"
+				value="10" />
+			<skill
+				id="OneHanded"
+				value="70" />
+			<skill
+				id="TwoHanded"
+				value="90" />
+			<skill
+				id="Polearm"
+				value="30" />
+			<skill
+				id="Bow"
+				value="105" />
+			<skill
+				id="Crossbow"
+				value="10" />
+			<skill
+				id="Throwing"
+				value="80" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gondor_pg_bowguard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.wm_gondor_sword_a05" />
+				<equipment
+					slot="Head"
+					id="Item.pg_helmet_4" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="gondor_pg_bowguard"
+		default_group="Ranged"
+		level="21"
+		name="{=gondor_pg_bowguard}Gondor Pinnath Gelin Bowguard"
+		occupation="Soldier"
+		culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="170" />
+			<skill
+				id="Riding"
+				value="25" />
+			<skill
+				id="OneHanded"
+				value="110" />
+			<skill
+				id="TwoHanded"
+				value="110" />
+			<skill
+				id="Polearm"
+				value="90" />
+			<skill
+				id="Bow"
+				value="145" />
+			<skill
+				id="Crossbow"
+				value="15" />
+			<skill
+				id="Throwing"
+				value="15" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gondor_pg_hillwarden"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_war_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Item2"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Item3"
+					id="Item.wm_gondor_sword_a05" />
+				<equipment
+					slot="Head"
+					id="Item.pg_helmet_4" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gondor_pg_hillwarden"
+		default_group="Ranged"
+		level="26"
+		name="{=gondor_pg_hillwarden}Gondor Pinnath Gelin Hillwarden"
+		occupation="Soldier"
+		culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="200" />
+			<skill
+				id="Riding"
+				value="25" />
+			<skill
+				id="OneHanded"
+				value="150" />
+			<skill
+				id="TwoHanded"
+				value="150" />
+			<skill
+				id="Polearm"
+				value="100" />
+			<skill
+				id="Bow"
+				value="180" />
+			<skill
+				id="Crossbow"
+				value="15" />
+			<skill
+				id="Throwing"
+				value="15" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.steppe_war_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Item2"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Item3"
+					id="Item.wm_gondor_sword_a05" />
+				<equipment
+					slot="Head"
+					id="Item.pg_helmet_4_coif" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gondor_pg_scout"
+			default_group="Cavalry"
+			level="16"
+			name="{=gondor_pg_scout}Gondor Pinnath Gelin Scout"
+			upgrade_requires="ItemCategory.horse"
+			occupation="Soldier"
+			culture="Culture.gondor">
+
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="80" />
+			<skill
+				id="Riding"
+				value="80" />
+			<skill
+				id="OneHanded"
+				value="70" />
+			<skill
+				id="TwoHanded"
+				value="10" />
+			<skill
+				id="Polearm"
+				value="120" />
+			<skill
+				id="Bow"
+				value="30" />
+			<skill
+				id="Crossbow"
+				value="10" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gondor_pg_horseman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_pelagir_spear_a" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_one_black" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_pelargir_sword_a01" />
+				<equipment
+					slot="Item3"
+					id="Item.western_javelin_3_t4" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
+				<equipment
+					slot="Head"
+					id="Item.pg_helmet_4_coif" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_pelagir_spear_a" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_one_black" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_pelargir_sword_a02" />
+				<equipment
+					slot="Item3"
+					id="Item.western_javelin_3_t4" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
+				<equipment
+					slot="Head"
+					id="Item.pg_helmet_4_coif" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.empire_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.stripped_leather_harness" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gondor_pg_horseman"
+		default_group="Cavalry"
+		level="21"
+		name="{=gondor_pg_horseman}Gondor Pinnath Gelin Horseman"
+		occupation="Soldier"
+		culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="100" />
+			<skill
+				id="Riding"
+				value="120" />
+			<skill
+				id="OneHanded"
+				value="110" />
+			<skill
+				id="TwoHanded"
+				value="15" />
+			<skill
+				id="Polearm"
+				value="160" />
+			<skill
+				id="Bow"
+				value="40" />
+			<skill
+				id="Crossbow"
+				value="15" />
+			<skill
+				id="Throwing"
+				value="150" />
+		</skills>
+		<Equipments>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_pelagir_spear_c" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_pelargir_sword_a01" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_one_black" />
+				<equipment
+					slot="Item3"
+					id="Item.western_javelin_3_t4" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
+				<equipment
+					slot="Head"
+					id="Item.pg_helmet_4_coif" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_pelagir_spear_b" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_pelargir_sword_a02" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_one_black" />
+				<equipment
+					slot="Item3"
+					id="Item.western_javelin_3_t4" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
+				<equipment
+					slot="Head"
+					id="Item.pg_helmet_4_coif" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="empire_troop_civilian_template_t2"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_empire_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.half_scale_barding" />
+
+		</Equipments>
+	</NPCCharacter>
+
+<!--Dol Amroth Footline-->
+	
+<NPCCharacter id="gondor_da_page"
+		default_group="Infantry"
+		level="11"
+		name="{=gondor_da_noble}Dol Amroth Page"
+		occupation="Soldier"
+		culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="45" />
+			<skill
+				id="Riding"
+				value="5" />
+			<skill
+				id="OneHanded"
+				value="60" />
+			<skill
+				id="TwoHanded"
+				value="60" />
+			<skill
+				id="Polearm"
+				value="60" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="10" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gondor_da_squire"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_sword_a05" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Body"
+					id="Item.gondor_chainmaila" />
+				<equipment
+					slot="Head"
+					id="Item.gondor_chainmail_helmeta" />
+				<equipment
+					slot="Leg"
+					id="Item.swanknight_boots_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gondor_da_squire"
+		default_group="Infantry"
+		level="16"
+		name="{=gondor_da_footman}Dol Amroth Squire"
+		occupation="Soldier"
+		culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="85" />
+			<skill
+				id="Riding"
+				value="5" />
+			<skill
+				id="OneHanded"
+				value="90" />
+			<skill
+				id="TwoHanded"
+				value="90" />
+			<skill
+				id="Polearm"
+				value="95" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="10" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gondor_da_footknight"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_sword_a05" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Head"
+					id="Item.swanknight_helmet_a" />
+				<equipment
+					slot="Body"
+					id="Item.swanknight_cuirass_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.swanknight_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.swanknight_boots_a" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gondor_da_footknight"
+	   default_group="Infantry"
+	   level="21"
+	   name="{=gondor_da_footknight}Foot Knight of the Silver Swan"
+	   occupation="Soldier"
+	   culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="130" />
+			<skill
+				id="Riding"
+				value="20" />
+			<skill
+				id="OneHanded"
+				value="130" />
+			<skill
+				id="TwoHanded"
+				value="80" />
+			<skill
+				id="Polearm"
+				value="110" />
+			<skill
+				id="Bow"
+				value="60" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="80" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gondor_da_knightsergeant"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_swan_knight_swordb" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Head"
+					id="Item.swanknight_helmet_b" />
+				<equipment
+					slot="Body"
+					id="Item.swanknight_cuirass_e" />
+				<equipment
+					slot="Gloves"
+					id="Item.swanknight_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.swanknight_boots_b" />
+				<equipment
+					slot="Cape"
+					id="Item.swanknight_shoulders_a" />
+			</EquipmentRoster>
+
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="gondor_da_knightsergeant"
+		default_group="Infantry"
+		level="26"
+		name="{=gondor_da_knightsergeant}Knight Sergeant of the Silver Swan"
+		occupation="Soldier"
+		culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="200" />
+			<skill
+				id="Riding"
+				value="20" />
+			<skill
+				id="OneHanded"
+				value="190" />
+			<skill
+				id="TwoHanded"
+				value="80" />
+			<skill
+				id="Polearm"
+				value="150" />
+			<skill
+				id="Bow"
+				value="60" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="80" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gondor_da_knightcommander"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_swan_knight_swordb" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Head"
+					id="Item.swanknight_helmet_b" />
+				<equipment
+					slot="Body"
+					id="Item.swanknight_cuirass_d" />
+				<equipment
+					slot="Gloves"
+					id="Item.swanknight_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.swanknight_boots_b" />
+				<equipment
+					slot="Cape"
+					id="Item.swanknight_shoulders_a" />
+			</EquipmentRoster>
+
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gondor_da_knightcommander"
+		default_group="Infantry"
+		level="31"
+		name="{=gondor_da_footknightswan}Knight Commander of the Silver Swan"
+		occupation="Soldier"
+		culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_swan_knight_sworda" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_swan" />
+				<equipment
+					slot="Head"
+					id="Item.swanknight_helmet_c" />
+				<equipment
+					slot="Body"
+					id="Item.swanknight_cuirass_d" />
+				<equipment
+					slot="Gloves"
+					id="Item.swanknight_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.swanknight_boots_b" />
+				<equipment
+					slot="Cape"
+					id="Item.swanknight_shoulders_b" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
 	
 </NPCCharacters>
