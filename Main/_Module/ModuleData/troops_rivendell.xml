@@ -8,17 +8,17 @@
 		is_basic_troop="true"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="300"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_archer"/>
@@ -60,17 +60,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="325"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="300"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_swordguard"/>
@@ -110,17 +110,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="200"/>
+			<skill id="Athletics" value="325"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="300"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_sentinel"/>
@@ -166,17 +166,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="350"/>
+			<skill id="Riding" value="320"/>
+			<skill id="OneHanded" value="320"/>
+			<skill id="TwoHanded" value="320"/>
+			<skill id="Polearm" value="325"/>
+			<skill id="Bow" value="320"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="325"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_blademasters"/>
@@ -218,17 +218,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="350"/>
+			<skill id="Riding" value="320"/>
+			<skill id="OneHanded" value="320"/>
+			<skill id="TwoHanded" value="320"/>
+			<skill id="Polearm" value="325"/>
+			<skill id="Bow" value="320"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="325"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.noldorin_archer"/>
@@ -273,17 +273,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="350"/>
+			<skill id="Riding" value="320"/>
+			<skill id="OneHanded" value="320"/>
+			<skill id="TwoHanded" value="320"/>
+			<skill id="Polearm" value="325"/>
+			<skill id="Bow" value="320"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="325"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_lightrider"/>
@@ -332,17 +332,17 @@
 			occupation="Soldier"
 			culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="350"/>
+			<skill id="Riding" value="320"/>
+			<skill id="OneHanded" value="320"/>
+			<skill id="TwoHanded" value="320"/>
+			<skill id="Polearm" value="325"/>
+			<skill id="Bow" value="320"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="325"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_knight"/>
@@ -387,17 +387,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="350"/>
+			<skill id="Riding" value="350"/>
+			<skill id="OneHanded" value="350"/>
+			<skill id="TwoHanded" value="350"/>
+			<skill id="Polearm" value="350"/>
+			<skill id="Bow" value="375"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="350"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_marksman"/>
@@ -442,17 +442,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="350"/>
+			<skill id="Riding" value="350"/>
+			<skill id="OneHanded" value="350"/>
+			<skill id="TwoHanded" value="350"/>
+			<skill id="Polearm" value="350"/>
+			<skill id="Bow" value="350"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="350"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_warden"/>
@@ -500,17 +500,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="350"/>
+			<skill id="Riding" value="350"/>
+			<skill id="OneHanded" value="350"/>
+			<skill id="TwoHanded" value="350"/>
+			<skill id="Polearm" value="350"/>
+			<skill id="Bow" value="350"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="350"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_lancers"/>
@@ -556,17 +556,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="400"/>
+			<skill id="Riding" value="400"/>
+			<skill id="OneHanded" value="400"/>
+			<skill id="TwoHanded" value="400"/>
+			<skill id="Polearm" value="400"/>
+			<skill id="Bow" value="400"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="400"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -606,17 +606,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 	<face>
-		<face_key_template value="BodyProperty.fighter_sturgia"/>
+		<face_key_template value="BodyProperty.fighter_rivendell"/>
 	</face>
 	<skills >
-		<skill id="Athletics" value="0"/>
-		<skill id="Riding" value="0"/>
-		<skill id="OneHanded" value="0"/>
-		<skill id="TwoHanded" value="0"/>
-		<skill id="Polearm" value="0"/>
-		<skill id="Bow" value="0"/>
+		<skill id="Athletics" value="400"/>
+		<skill id="Riding" value="400"/>
+		<skill id="OneHanded" value="400"/>
+		<skill id="TwoHanded" value="400"/>
+		<skill id="Polearm" value="400"/>
+		<skill id="Bow" value="400"/>
 		<skill id="Crossbow" value="0"/>
-		<skill id="Throwing" value="0"/>
+		<skill id="Throwing" value="400"/>
 	</skills>
 	<upgrade_targets>
 	</upgrade_targets>
@@ -654,17 +654,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="400"/>
+			<skill id="Riding" value="400"/>
+			<skill id="OneHanded" value="400"/>
+			<skill id="TwoHanded" value="400"/>
+			<skill id="Polearm" value="400"/>
+			<skill id="Bow" value="400"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="400"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -702,17 +702,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="400"/>
+			<skill id="Riding" value="400"/>
+			<skill id="OneHanded" value="400"/>
+			<skill id="TwoHanded" value="400"/>
+			<skill id="Polearm" value="400"/>
+			<skill id="Bow" value="400"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="400"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -756,17 +756,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="400"/>
+			<skill id="Riding" value="400"/>
+			<skill id="OneHanded" value="400"/>
+			<skill id="TwoHanded" value="400"/>
+			<skill id="Polearm" value="400"/>
+			<skill id="Bow" value="395"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="400"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_royalarcher"/>
@@ -812,17 +812,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="400"/>
+			<skill id="Riding" value="400"/>
+			<skill id="OneHanded" value="400"/>
+			<skill id="TwoHanded" value="400"/>
+			<skill id="Polearm" value="400"/>
+			<skill id="Bow" value="450"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="400"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_ohtarion"/>
@@ -867,17 +867,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="425"/>
+			<skill id="Riding" value="425"/>
+			<skill id="OneHanded" value="425"/>
+			<skill id="TwoHanded" value="425"/>
+			<skill id="Polearm" value="425"/>
+			<skill id="Bow" value="425"/>
+			<skill id="Crossbow" value="425"/>
+			<skill id="Throwing" value="425"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_starshard"/>
@@ -925,17 +925,17 @@
 			occupation="Soldier"
 			culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="400"/>
+			<skill id="Riding" value="400"/>
+			<skill id="OneHanded" value="400"/>
+			<skill id="TwoHanded" value="400"/>
+			<skill id="Polearm" value="400"/>
+			<skill id="Bow" value="400"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="400"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -983,17 +983,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="500"/>
+			<skill id="Riding" value="500"/>
+			<skill id="OneHanded" value="500"/>
+			<skill id="TwoHanded" value="500"/>
+			<skill id="Polearm" value="500"/>
+			<skill id="Bow" value="500"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="500"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -1041,17 +1041,17 @@
 		is_basic_troop="true"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="425"/>
+			<skill id="Riding" value="425"/>
+			<skill id="OneHanded" value="425"/>
+			<skill id="TwoHanded" value="425"/>
+			<skill id="Polearm" value="425"/>
+			<skill id="Bow" value="425"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="425"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_royal_guard"/>
@@ -1090,17 +1090,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="450"/>
+			<skill id="Riding" value="450"/>
+			<skill id="OneHanded" value="450"/>
+			<skill id="TwoHanded" value="450"/>
+			<skill id="Polearm" value="450"/>
+			<skill id="Bow" value="450"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="450"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_royal_knight"/>
@@ -1139,17 +1139,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="480"/>
+			<skill id="Riding" value="480"/>
+			<skill id="OneHanded" value="480"/>
+			<skill id="TwoHanded" value="480"/>
+			<skill id="Polearm" value="480"/>
+			<skill id="Bow" value="480"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="480"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_high_captain"/>
@@ -1188,17 +1188,17 @@
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="500"/>
+			<skill id="Riding" value="500"/>
+			<skill id="OneHanded" value="500"/>
+			<skill id="TwoHanded" value="500"/>
+			<skill id="Polearm" value="500"/>
+			<skill id="Bow" value="500"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="500"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
