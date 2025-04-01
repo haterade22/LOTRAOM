@@ -934,7 +934,7 @@
 	<NPCCharacter id="rhun_noble_youth"
 		default_group="Cavalry"
 		level="11"
-		name="{=harad_noble}Rhûnnic Noble Youth"
+		name="{=rhun_noble_youth}Rhûnnic Noble Youth"
 		occupation="Soldier"
 		is_basic_troop="true"
 		culture="Culture.khuzait">
@@ -1096,7 +1096,7 @@
 	<NPCCharacter id="rhun_cataphract"
 		default_group="Cavalry"
 		level="31"
-		name="{=harad_fangking}Rhûnnic Cataphract"
+		name="{=rhun_cataphract}Rhûnnic Kataphrakt"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>

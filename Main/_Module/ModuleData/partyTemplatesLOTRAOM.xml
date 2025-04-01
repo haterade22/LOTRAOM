@@ -1466,6 +1466,38 @@
 		</stacks>
 	</MBPartyTemplate>
 
+	
+	<!--Rivendell-->
+
+	<MBPartyTemplate id="kingdom_hero_party_rivendell_template" >
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.rivendell_recruit" />
+			<PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.rivendell_archer" />
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.rivendell_infantry" />
+			<PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.rivendell_swordguard" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_sentinel" />
+			<PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.rivendell_scout" />
+			<PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.rivendell_rider" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.noldorin_archer" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_lightrider" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_knight" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_blademasters" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_swords" />
+			<PartyTemplateStack min_value="3" max_value="20" troop="NPCCharacter.rivendell_spearguard" />
+			<PartyTemplateStack min_value="3" max_value="20" troop="NPCCharacter.rivendell_lancers" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_marksman" />
+			<PartyTemplateStack min_value="2" max_value="20" troop="NPCCharacter.rivendell_royalarcher" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_warden" />
+			<PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.rivendell_starshard" />
+			<PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.rivendell_ohtarion" />
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.rivendell_noble" />
+			<PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.rivendell_royal_guard" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_royal_knight" />
+			<PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.rivendell_high_captain" />
+			
+		</stacks>
+	</MBPartyTemplate>
+	
 
 	<!--Erebor-->
 	<MBPartyTemplate id="kingdom_hero_party_erebor_template" >
