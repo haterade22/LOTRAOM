@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/BUTR/Bannerlord.XmlSchemas/master/SubModule.xsd" >
 	<Id value="LOTRAOM" />
 	<Name value="LOTRAOM" />
-	<Version value="v0.0.1" />
+	<Version value="v0.0.5" />
 	<DefaultModule value="false" />
 	<ModuleCategory value="Singleplayer"/>
 	<ModuleType value="Community" />
