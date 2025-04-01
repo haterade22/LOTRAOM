@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-	<NPCCharacter id="rhun_tribesman"
+	<NPCCharacter id="easterling_tribesman"
 		default_group="Infantry"
 		level="6"
-		name="{=Rhun Tribesman}Rhun Tribesman"
+		name="{=easterling_tribesman}Easterling Tribesman"
 		occupation="Soldier"
+		is_basic_troop="true"
 		culture="Culture.khuzait">
 		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="0"/>
@@ -20,30 +21,45 @@
 			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rhun_footman"/>
-			<upgrade_target id="NPCCharacter.rhun_foot_scout"/>
+			<upgrade_target id="NPCCharacter.easterling_footman"/>
+			<upgrade_target id="NPCCharacter.easterling_watcher"/>
+			<upgrade_target id="NPCCharacter.easterling_scout"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="rhun_nobleman"
-		default_group="Cavalry"
+
+	<NPCCharacter id="easterling_footman"
+		default_group="Infantry"
 		level="11"
-		name="{=Rhun Nobleman}Rhun Nobleman"
+		name="{=easterling_footman}Easterling Footman"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="0"/>
@@ -56,37 +72,113 @@
 			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rhun_rider"/>
+			<upgrade_target id="NPCCharacter.easterling_swordsman"/>
+			<upgrade_target id="NPCCharacter.easterling_spear_bearer"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="easterling_watcher"
+		default_group="Ranged"
+		level="11"
+		name="{=easterling_watcher}Easterling Watcher"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.easterling_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="rhun_rider"
-		default_group="Cavalry"
+
+	<NPCCharacter id="easterling_scout"
+			default_group="Cavalry"
+			level="11"
+			name="{=easterling_scout}Easterling Scout"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.easterling_rider"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="easterling_swordsman"
+		default_group="Infantry"
 		level="16"
-		name="{=Rhun Rider}Rhun Rider"
+		name="{=easterling_swordsman}Easterling Swordsman"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="0"/>
@@ -99,37 +191,406 @@
 			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rhun_veteran_rider"/>
+			<upgrade_target id="NPCCharacter.easterling_veteran_swordsman"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim02_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim02_toso" />
+				<equipment
+					slot="Cape"
+					id="Item.haradrim02_pauldrons" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim02_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim02_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="easterling_spear_bearer"
+		default_group="Infantry"
+		level="16"
+		name="{=easterling_spear_bearer}Easterling Spear Bearer"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.easterling_halberdier"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim02_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim02_toso" />
+				<equipment
+					slot="Cape"
+					id="Item.haradrim02_pauldrons" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim02_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim02_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="easterling_archer"
+		default_group="Ranged"
+		level="16"
+		name="{=easterling_archer}Easterling Archer"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.easterling_marksman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="rhun_veteran_rider"
+
+
+	<NPCCharacter id="easterling_rider"
+			default_group="Cavalry"
+			level="16"
+			name="{=easterling_rider}Easterling Rider"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.easterling_lancer"/>
+			<upgrade_target id="NPCCharacter.easterling_horsearcher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.southern_spear_3_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.bound_adarga" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Head"
+					id="Item.brass_aserai_helmet_b_leather" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_scale_armor_on_cloth" />
+				<equipment
+					slot="Leg"
+					id="Item.eastern_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.buttoned_leather_bracers" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.camel" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.camel_saddle" />
+		</Equipments>
+	</NPCCharacter>
+
+
+
+
+	<NPCCharacter id="easterling_veteran_swordsman"
+		default_group="Infantry"
+		level="21"
+		name="{=easterling_veteran_swordsman}Easterling Veteran Infantry"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.easterling_war_guard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_5_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.harad03_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad03_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad03_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad03_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.harad03_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="easterling_halberdier"
+		default_group="Infantry"
+		level="21"
+		name="{=easterling_halberdier}Easterling Halberdier"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.easterling_pillar"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_5_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.harad03_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad03_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad03_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad03_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.harad03_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="easterling_marksman"
+		default_group="Ranged"
+		level="21"
+		name="{=easterling_marksman}Easterling Sharpshooter"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.easterling_shadowguard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+
+
+<NPCCharacter id="easterling_horsearcher"
 		default_group="Cavalry"
 		level="21"
-		name="{=Rhun Veteran Rider}Rhun Veteran Rider"
+		name="{=easterling_horsearcher}Easterling Horse Archer"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+	<face>
+		<face_key_template value="BodyProperty.fighter_khuzait"/>
+	</face>
+	<skills >
+		<skill id="Athletics" value="0"/>
+		<skill id="Riding" value="0"/>
+		<skill id="OneHanded" value="0"/>
+		<skill id="TwoHanded" value="0"/>
+		<skill id="Polearm" value="0"/>
+		<skill id="Bow" value="0"/>
+		<skill id="Crossbow" value="0"/>
+		<skill id="Throwing" value="0"/>
+	</skills>
+	<upgrade_targets>
+		<upgrade_target id="NPCCharacter.easterling_sunbow"/>
+	</upgrade_targets>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment
+				slot="Item0"
+				id="Item.eastern_spear_4_t4" />
+			<equipment
+				slot="Item1"
+				id="Item.studded_adarga" />
+			<equipment
+				slot="Item2"
+				id="Item.eastern_javelin_3_t4" />
+			<equipment
+				slot="Item3"
+				id="Item.aserai_sword_5_t4" />
+			<equipment
+				slot="Head"
+				id="Item.brass_aserai_helmet_b_open" />
+			<equipment
+				slot="Body"
+				id="Item.aserai_scale_armor_on_chain" />
+			<equipment
+				slot="Leg"
+				id="Item.strapped_mail_chausses" />
+			<equipment
+				slot="Gloves"
+				id="Item.rough_tied_bracers" />
+		</EquipmentRoster>
+		<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		<equipment
+			slot="Horse"
+			id="Item.war_camel" />
+		<equipment
+			slot="HorseHarness"
+			id="Item.camel_saddle" />
+	</Equipments>
+</NPCCharacter>
+
+
+	<NPCCharacter id="easterling_lancer"
+		default_group="Cavalry"
+		level="21"
+		name="{=easterling_lancer}Easterling Lancer"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="0"/>
@@ -142,37 +603,452 @@
 			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rhun_horsemaster"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
+				<equipment
+					slot="Item0"
+					id="Item.eastern_spear_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.studded_adarga" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.aserai_sword_5_t4" />
+				<equipment
+					slot="Head"
+					id="Item.brass_aserai_helmet_b_open" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_scale_armor_on_chain" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_mail_chausses" />
+				<equipment
+					slot="Gloves"
+					id="Item.rough_tied_bracers" />
+			</EquipmentRoster>
+			<EquipmentSet
+					id="aserai_troop_civilian_template_t3"
+					civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.war_camel" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.camel_saddle" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="easterling_war_guard"
+		default_group="Infantry"
+		level="26"
+		name="{=easterling_war_guard}Easterling War Guard"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.easterling_bloodsworn"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="rhun_horsemaster"
+
+	<NPCCharacter id="easterling_pillar"
+	default_group="Infantry"
+	level="26"
+	name="{=easterling_pillar}Easterling Pillar of the East"
+	occupation="Soldier"
+	culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.easterling_chosen"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="easterling_shadowguard"
+		default_group="Ranged"
+		level="26"
+		name="{=easterling_shadowguard}Easterling Shadow Guard"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.easterling_eye"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="easterling_sunbow"
+		default_group="HorseArcher"
+		level="26"
+		name="{=easterling_sunbow}Easterling Sunbow"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.easterling_eyeofthewaste"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="easterling_bloodsworn"
+		default_group="Infantry"
+		level="31"
+		name="{=easterling_bloodsworn}Easterling Bloodsworn"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="easterling_chosen"
+		default_group="Infantry"
+		level="31"
+		name="{=easterling_chosen}Chosen of the East"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="easterling_eye"
+		default_group="Ranged"
+		level="31"
+		name="{=easterling_eye}Eye of the East"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="easterling_eyeofthewaste"
+			default_group="HorseArcher"
+			level="31"
+			name="{=easterling_eyeofthewaste}Easterling Eye of the Wastes"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	
+
+	<NPCCharacter id="rhun_noble_youth"
+		default_group="Cavalry"
+		level="11"
+		name="{=harad_noble}Rhûnnic Noble Youth"
+		occupation="Soldier"
+		is_basic_troop="true"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.rhun_noble_rider"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="rhun_noble_rider"
+		default_group="Cavalry"
+		level="16"
+		name="{=rhun_noble_rider}Rhûnnic Noble Rider"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.rhun_honor_guard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="rhun_honor_guard"
+		default_group="Cavalry"
+		level="21"
+		name="{=rhun_honor_guard}Rhûnnic Honor Guard"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.rhun_bloodrider"/>
+
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="rhun_bloodrider"
 		default_group="Cavalry"
 		level="26"
-		name="{=Rhun Horsemaster}Rhun Horsemaster"
+		name="{=rhun_bloodrider}Rhûnnic Blood Rider"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="0"/>
@@ -185,77 +1061,46 @@
 			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rhun_cataphract_of_balchoth"/>
+			<upgrade_target id="NPCCharacter.rhun_cataphract"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_5_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.harad04_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad04_body" />
+				<equipment
+					slot="Cape"
+					id="Item.harad04_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad04_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.harad04_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="rhun_cataphract_of_balchoth"
+
+	<NPCCharacter id="rhun_cataphract"
 		default_group="Cavalry"
 		level="31"
-		name="{=Rhun Cataphract of Balchoth}Rhun Cataphract of Balchoth"
+		name="{=harad_fangking}Rhûnnic Cataphract"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rhun_footman"
-		default_group="Infantry"
-		level="11"
-		name="{=Rhun Footman}Rhun Footman"
-		occupation="Soldier"
-		culture="Culture.khuzait">
-		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="0"/>
@@ -268,390 +1113,36 @@
 			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rhun_warrior"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_6_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.harad05_v1_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad05_v4_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad05_v4_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad05_v1_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.harad05_v4_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+		
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="rhun_foot_scout"
-		default_group="Infantry"
-		level="11"
-		name="{=Rhun Foot Scout}Rhun Foot Scout"
-		occupation="Soldier"
-		culture="Culture.khuzait">
-		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rhun_archer"/>
-			<upgrade_target id="NPCCharacter.rhun_scout"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rhun_archer"
-		default_group="Infantry"
-		level="16"
-		name="{=Rhun Archer}Rhun Archer"
-		occupation="Soldier"
-		culture="Culture.khuzait">
-		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rhun_veteran_archer"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rhun_scout"
-		default_group="Cavalry"
-		level="16"
-		name="{=Rhun Scout}Rhun Scout"
-		upgrade_requires="ItemCategory.war_horse"
-		occupation="Soldier"
-		culture="Culture.khuzait">
-		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rhun_horse_archer"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rhun_horse_archer"
-		default_group="Cavalry"
-		level="21"
-		name="{=Rhun Horse Archer}Rhun Horse Archer"
-		occupation="Soldier"
-		culture="Culture.khuzait">
-		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rhun_horse_archer_of_balchoth"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rhun_horse_archer_of_balchoth"
-		default_group="Cavalry"
-		level="26"
-		name="{=Rhun Horse Archer of Balchoth}Rhun Horse Archer of Balchoth"
-		occupation="Soldier"
-		culture="Culture.khuzait">
-		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-				<equipment slot="HorseHarness" id="Item.steppe_harness"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-				<equipment slot="Item2" id="Item.throwing_stone"/>
-				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<equipment slot="Leg" id="Item.wrapped_shoes"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rhun_veteran_archer"
-		default_group="Infantry"
-		level="21"
-		name="{=Rhun Veteran Archer}Rhun Veteran Archer"
-		occupation="Soldier"
-		culture="Culture.khuzait">
-		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rhun_marksman_of_balchoth"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rhun_marksman_of_balchoth"
-		default_group="Infantry"
-		level="26"
-		name="{=Rhun Marksman of Balchoth}Rhun Marksman of Balchoth"
-		occupation="Soldier"
-		culture="Culture.khuzait">
-		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rhun_warrior"
-		default_group="Infantry"
-		level="16"
-		name="{=Rhun Warrior}Rhun Warrior"
-		occupation="Soldier"
-		culture="Culture.khuzait">
-		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rhun_veteran_warrior"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rhun_veteran_warrior"
-		default_group="Infantry"
-		level="21"
-		name="{=Rhun Veteran Warrior}Rhun Veteran Warrior"
-		occupation="Soldier"
-		culture="Culture.khuzait">
-		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.rhun_blademaster_of_balchoth"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="rhun_blademaster_of_balchoth"
-		default_group="Infantry"
-		level="26"
-		name="{=Rhun Blademaster of Balchoth}Rhun Blademaster of Balchoth"
-		occupation="Soldier"
-		culture="Culture.khuzait">
-		<face>
-			<face_key_template value="BodyProperty.villager_khuzait"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
-		</skills>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
+
 </NPCCharacters>
