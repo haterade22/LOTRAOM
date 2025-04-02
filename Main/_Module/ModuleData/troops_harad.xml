@@ -11,14 +11,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="40"/>
 			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="25"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="20"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.harad_militia"/>
@@ -61,13 +61,13 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="10"/>
 			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
@@ -109,13 +109,13 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="10"/>
 			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
@@ -146,14 +146,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="45"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="60"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.harad_spearguard"/>
@@ -182,75 +182,6 @@
 					slot="Leg"
 					id="Item.haradrim02_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.aserai_sword_3_t3" />
-				<equipment
-					slot="Item1"
-					id="Item.desert_round_shield" />
-				<equipment
-					slot="Head"
-					id="Item.haradrim02a_head" />
-				<equipment
-					slot="Body"
-					id="Item.haradrim02a_toso" />
-				<equipment
-					slot="Cape"
-					id="Item.haradrim02_pauldrons" />
-				<equipment
-					slot="Gloves"
-					id="Item.haradrim02a_gloves" />
-				<equipment
-					slot="Leg"
-					id="Item.haradrim02_boots" />
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.aserai_sword_3_t3" />
-				<equipment
-					slot="Item1"
-					id="Item.desert_round_shield" />
-				<equipment
-					slot="Head"
-					id="Item.haradrim02b_head" />
-				<equipment
-					slot="Body"
-					id="Item.haradrim02b_toso" />
-				<equipment
-					slot="Cape"
-					id="Item.haradrim02_pauldrons" />
-				<equipment
-					slot="Gloves"
-					id="Item.haradrim02b_gloves" />
-				<equipment
-					slot="Leg"
-					id="Item.haradrim02_boots" />
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.aserai_sword_3_t3" />
-				<equipment
-					slot="Item1"
-					id="Item.desert_round_shield" />
-				<equipment
-					slot="Head"
-					id="Item.haradrim02c_head" />
-				<equipment
-					slot="Body"
-					id="Item.haradrim02c_toso" />
-				<equipment
-					slot="Cape"
-					id="Item.haradrim02_pauldrons" />
-				<equipment
-					slot="Gloves"
-					id="Item.haradrim02c_gloves" />
-				<equipment
-					slot="Leg"
-					id="Item.haradrim02_boots" />
-			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
 				civilian="true" />
@@ -268,14 +199,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="45"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="60"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.harad_footman"/>
@@ -343,14 +274,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="45"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="125"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="60"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.harad_marksman"/>
@@ -396,14 +327,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="110"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="45"/>
+			<skill id="Polearm" value="110"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="60"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.harad_camelrider"/>
@@ -460,14 +391,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="150"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="160"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.harad_sunlance"/>
@@ -512,14 +443,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="150"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.harad_bronzefang"/>
@@ -565,14 +496,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="150"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="160"/>
+			<skill id="Bow" value="175"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.harad_vipereye"/>
@@ -588,6 +519,9 @@
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 			</EquipmentRoster>
+			<EquipmentSet
+						id="aserai_troop_civilian_template_t3"
+						civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -602,14 +536,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="160"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.harad_camel_lancer"/>
@@ -663,14 +597,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="150"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="160"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.harad_warlance"/>
@@ -686,6 +620,9 @@
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 			</EquipmentRoster>
+			<EquipmentSet
+					id="aserai_troop_civilian_template_t3"
+					civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -699,14 +636,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="150"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="160"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.harad_champion"/>
@@ -722,6 +659,9 @@
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 			</EquipmentRoster>
+			<EquipmentSet
+					id="aserai_troop_civilian_template_t3"
+					civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -736,29 +676,48 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="220"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="OneHanded" value="190"/>
+			<skill id="TwoHanded" value="190"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="225"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="100"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.harad_serpent_eye"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Head"
+					id="Item.harad08_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad08_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad08_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.harad08_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+					id="aserai_troop_civilian_template_t3"
+					civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -772,14 +731,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="220"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="220"/>
 			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="200"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -835,14 +794,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="250"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="100"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -857,6 +816,9 @@
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 			</EquipmentRoster>
+			<EquipmentSet
+					id="aserai_troop_civilian_template_t3"
+					civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -871,28 +833,44 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="250"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="220"/>
 			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="200"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_6_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.harad05_v1_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad05_v2_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad04_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad05_v1_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.harad05_v2_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -906,33 +884,52 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="250"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="220"/>
+			<skill id="Bow" value="270"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="100"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Head"
+					id="Item.harad08_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad08_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad08_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.harad08_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+					id="aserai_troop_civilian_template_t3"
+					civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="harad_noble"
-		default_group="Infantry"
+		default_group="Cavalry"
 		level="11"
 		name="{=harad_noble}Youngblood of the Serpent"
 		occupation="Soldier"
@@ -942,11 +939,11 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="110"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -965,6 +962,15 @@
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_khuzait_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.steppe_half_barding" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -978,11 +984,11 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -1002,6 +1008,15 @@
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_khuzait_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.steppe_half_barding" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -1015,11 +1030,11 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="Athletics" value="200"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="210"/>
+			<skill id="TwoHanded" value="210"/>
+			<skill id="Polearm" value="210"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -1040,6 +1055,15 @@
 			<EquipmentRoster civilian="true">
 			</EquipmentRoster>
 		</Equipments>
+		<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		<equipment
+			slot="Horse"
+			id="Item.t2_khuzait_horse" />
+		<equipment
+			slot="HorseHarness"
+			id="Item.steppe_half_barding" />
 	</NPCCharacter>
 
 	<NPCCharacter id="harad_horsearcher"
@@ -1052,12 +1076,12 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="200"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="190"/>
+			<skill id="TwoHanded" value="190"/>
+			<skill id="Polearm" value="190"/>
+			<skill id="Bow" value="200"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
 		</skills>
@@ -1080,19 +1104,19 @@
 					id="Item.aserai_sword_5_t4" />
 				<equipment
 					slot="Head"
-					id="Item.harad04_helmet" />
+					id="Item.harad06_v1_helmet" />
 				<equipment
 					slot="Body"
-					id="Item.harad04_body" />
+					id="Item.harad06_v1_torso" />
 				<equipment
 					slot="Cape"
-					id="Item.harad04_cape" />
+					id="Item.harad05_v1_cape" />
 				<equipment
 					slot="Gloves"
-					id="Item.harad04_glove" />
+					id="Item.harad05_v1_gloves" />
 				<equipment
 					slot="Leg"
-					id="Item.harad04_boots" />
+					id="Item.harad06_v1_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
@@ -1116,14 +1140,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="Athletics" value="260"/>
+			<skill id="Riding" value="260"/>
+			<skill id="OneHanded" value="230"/>
+			<skill id="TwoHanded" value="230"/>
+			<skill id="Polearm" value="230"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="220"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.harad_fangking"/>
@@ -1132,29 +1156,38 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_5_t4" />
+					id="Item.aserai_lance_1_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.desert_round_shield" />
+					id="Item.ornate_adarga" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_javelin_3_t4" />
 				<equipment
 					slot="Head"
-					id="Item.harad04_helmet" />
+					id="Item.harad07_helmet" />
 				<equipment
 					slot="Body"
-					id="Item.harad04_body" />
+					id="Item.harad07_torso" />
 				<equipment
 					slot="Cape"
-					id="Item.harad04_cape" />
+					id="Item.harad06_v1_cape" />
 				<equipment
 					slot="Gloves"
-					id="Item.harad04_glove" />
+					id="Item.harad07_glove" />
 				<equipment
 					slot="Leg"
-					id="Item.harad04_boots" />
+					id="Item.harad06_v1_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
 				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_khuzait_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.steppe_half_barding" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -1168,14 +1201,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Athletics" value="280"/>
+			<skill id="Riding" value="270"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="280"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="220"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -1195,19 +1228,19 @@
 					id="Item.aserai_sword_5_t4" />
 				<equipment
 					slot="Head"
-					id="Item.harad04_helmet" />
+					id="Item.harad07_helmet" />
 				<equipment
 					slot="Body"
-					id="Item.harad04_body" />
+					id="Item.harad07_torso" />
 				<equipment
 					slot="Cape"
-					id="Item.harad04_cape" />
+					id="Item.harad06_v1_cape" />
 				<equipment
 					slot="Gloves"
-					id="Item.harad04_glove" />
+					id="Item.harad07_glove" />
 				<equipment
 					slot="Leg"
-					id="Item.harad04_boots" />
+					id="Item.harad06_v1_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
@@ -1231,14 +1264,14 @@
 			<face_key_template value="BodyProperty.fighter_aserai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="Athletics" value="270"/>
+			<skill id="Riding" value="270"/>
+			<skill id="OneHanded" value="240"/>
+			<skill id="TwoHanded" value="240"/>
+			<skill id="Polearm" value="250"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="250"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -1246,10 +1279,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_6_t4" />
+					id="Item.aserai_lance_1_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.desert_round_shield" />
+					id="Item.ornate_adarga" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_javelin_3_t4" />
 				<equipment
 					slot="Head"
 					id="Item.harad05_v1_helmet" />
@@ -1266,55 +1302,15 @@
 					slot="Leg"
 					id="Item.harad05_v4_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.aserai_sword_6_t4" />
-				<equipment
-					slot="Item1"
-					id="Item.desert_round_shield" />
-				<equipment
-					slot="Head"
-					id="Item.harad05_v1_helmet" />
-				<equipment
-					slot="Body"
-					id="Item.harad05_v2_torso" />
-				<equipment
-					slot="Cape"
-					id="Item.harad05_v2_cape" />
-				<equipment
-					slot="Gloves"
-					id="Item.harad05_v1_gloves" />
-				<equipment
-					slot="Leg"
-					id="Item.harad05_v2_boots" />
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.aserai_sword_6_t4" />
-				<equipment
-					slot="Item1"
-					id="Item.desert_round_shield" />
-				<equipment
-					slot="Head"
-					id="Item.harad05_v1_helmet" />
-				<equipment
-					slot="Body"
-					id="Item.harad05_v3_torso" />
-				<equipment
-					slot="Cape"
-					id="Item.harad05_v3_cape" />
-				<equipment
-					slot="Gloves"
-					id="Item.harad05_v1_gloves" />
-				<equipment
-					slot="Leg"
-					id="Item.harad05_v3_boots" />
-			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
 				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_khuzait_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.steppe_half_barding" />
 		</Equipments>
 	</NPCCharacter>
 	
