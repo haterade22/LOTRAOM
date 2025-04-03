@@ -943,32 +943,19 @@
 	</Settlement>
 	<!-- blackheath. To Ascyron, Lucon's heir -->
 	<!--Gondor-->
-	<Settlement id="castle_EW1" name="{=Settlements.Settlement.name.castle_EW1}Tarnost"
-	  owner="Faction.clan_empire_west_2" posX="1573.092" posY="1287.483" culture="Culture.gondor"
-	  gate_posX="1572.332" gate_posY="1287.987">
+	<Settlement id="castle_EW1" name="{=Settlements.Settlement.name.castle_EW1}Tarnost" owner="Faction.clan_empire_west_2" posX="1573.092" posY="1287.483" culture="Culture.gondor" gate_posX="1572.332" gate_posY="1287.987">
 		<Components>
-			<Town id="castle_comp_EW1" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="880" />
+			<Town id="castle_comp_EW1" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="880" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004"
-			  scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_EW1_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW1_1}Amrûnaur" posX="1605.128"
-	  posY="1247.518" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW1_1}Garontor gives its name to the promontory between the Gulf of Charas and the inland Perassic sea. Coastal meadows, where tall grasses tolerant of the ocean salt-spray thrive, support the rearing of fine horses.">
+	<Settlement id="castle_village_EW1_1" name="{=Settlements.Settlement.name.castle_village_EW1_1}Amrûnaur" posX="1605.128" posY="1247.518" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW1_1}Garontor gives its name to the promontory between the Gulf of Charas and the inland Perassic sea. Coastal meadows, where tall grasses tolerant of the ocean salt-spray thrive, support the rearing of fine horses.">
 		<Components>
-			<Village id="castle_village_comp_EW1_1" village_type="VillageType.europe_horse_ranch"
-			  hearth="166" bound="Settlement.castle_EW1" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW1_1" village_type="VillageType.europe_horse_ranch" hearth="166" bound="Settlement.castle_EW1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_008" />
@@ -979,32 +966,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_EW2" name="{=Settlements.Settlement.name.castle_EW2}Lorilad"
-	  owner="Faction.clan_empire_west_3" posX="1673.165" posY="1162.325" culture="Culture.gondor"
-	  gate_posX="1674.201" gate_posY="1163.741">
+	<Settlement id="castle_EW2" name="{=Settlements.Settlement.name.castle_EW2}Lorilad" owner="Faction.clan_empire_west_3" posX="1673.165" posY="1162.325" culture="Culture.gondor" gate_posX="1674.201" gate_posY="1163.741">
 		<Components>
-			<Town id="castle_comp_EW2" is_castle="true" level="2" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="760" />
+			<Town id="castle_comp_EW2" is_castle="true" level="2" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="760" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004"
-			  scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_EW2_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW2_1}Tir Serni" posX="1716.297"
-	  posY="1153.505" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW2_1}Thorios sits in the Aris valley in the heart of Calradia. River irrigation and the relatively warm inland climate ensure that the grain fields of this district, along with neighboring Bergum, feed much of the central empire.">
+	<Settlement id="castle_village_EW2_1" name="{=Settlements.Settlement.name.castle_village_EW2_1}Tir Serni" posX="1716.297" posY="1153.505" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW2_1}Thorios sits in the Aris valley in the heart of Calradia. River irrigation and the relatively warm inland climate ensure that the grain fields of this district, along with neighboring Bergum, feed much of the central empire.">
 		<Components>
-			<Village id="castle_village_comp_EW2_1" village_type="VillageType.wheat_farm" hearth="232"
-			  bound="Settlement.castle_EW2" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW2_1" village_type="VillageType.wheat_farm" hearth="232" bound="Settlement.castle_EW2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_c" />
@@ -1015,15 +989,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_EW2_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW2_2}Dol Caranthan" posX="1761.515"
-	  posY="1147.516" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW2_2}Bergum sits in the Aris valley in the heart of Calradia. River irrigation and the relatively warm inland climate ensure that the grain fields of this district, along with neighboring Thorios, feed much of the central empire.">
+	<Settlement id="castle_village_EW2_2" name="{=Settlements.Settlement.name.castle_village_EW2_2}Dol Caranthan" posX="1761.515" posY="1147.516" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW2_2}Bergum sits in the Aris valley in the heart of Calradia. River irrigation and the relatively warm inland climate ensure that the grain fields of this district, along with neighboring Thorios, feed much of the central empire.">
 		<Components>
-			<Village id="castle_village_comp_EW2_2" village_type="VillageType.wheat_farm" hearth="232"
-			  bound="Settlement.castle_EW2" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW2_2" village_type="VillageType.wheat_farm" hearth="232" bound="Settlement.castle_EW2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_e" />
@@ -1034,32 +1002,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_EW3" name="{=Settlements.Settlement.name.castle_EW3}Ethring"
-	  owner="Faction.clan_empire_west_10" posX="1515.533" posY="1310.182" culture="Culture.gondor"
-	  gate_posX="1515.39" gate_posY="1308.62">
+	<Settlement id="castle_EW3" name="{=Settlements.Settlement.name.castle_EW3}Ethring" owner="Faction.clan_empire_west_10" posX="1515.533" posY="1310.182" culture="Culture.gondor" gate_posX="1515.39" gate_posY="1308.62">
 		<Components>
-			<Town id="castle_comp_EW3" is_castle="true" level="2" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="740" />
+			<Town id="castle_comp_EW3" is_castle="true" level="2" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="740" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_siege_001" scene_name_1="empire_siege_001"
-			  scene_name_2="empire_siege_001" scene_name_3="empire_siege_001" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_siege_001" scene_name_1="empire_siege_001" scene_name_2="empire_siege_001" scene_name_3="empire_siege_001" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_EW3_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW3_1}Hareth" posX="1496.594" posY="1300.32"
-	  culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW3_1}Onica lies on the northern shores of the Perassic sea. The hills of this district are terraced with the olive groves for which the southern Empire is famous, producing a light, fragrant oil.">
+	<Settlement id="castle_village_EW3_1" name="{=Settlements.Settlement.name.castle_village_EW3_1}Hareth" posX="1496.594" posY="1300.32" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW3_1}Onica lies on the northern shores of the Perassic sea. The hills of this district are terraced with the olive groves for which the southern Empire is famous, producing a light, fragrant oil.">
 		<Components>
-			<Village id="castle_village_comp_EW3_1" village_type="VillageType.vineyard" hearth="312"
-			  bound="Settlement.castle_EW3" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW3_1" village_type="VillageType.vineyard" hearth="312" bound="Settlement.castle_EW3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_004" />
@@ -1070,32 +1025,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_EW4" name="{=Settlements.Settlement.name.castle_EW4}Cair Andros"
-	  owner="Faction.clan_empire_west_1" posX="1781.529" posY="1424.711" culture="Culture.gondor"
-	  gate_posX="1781.702" gate_posY="1423.083">
+	<Settlement id="castle_EW4" name="{=Settlements.Settlement.name.castle_EW4}Cair Andros" owner="Faction.clan_empire_west_1" posX="1781.529" posY="1424.711" culture="Culture.gondor" gate_posX="1781.702" gate_posY="1423.083">
 		<Components>
-			<Town id="castle_comp_EW4" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="660" />
+			<Town id="castle_comp_EW4" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="660" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004"
-			  scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_EW4_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Parth Duin" posX="1786.399"
-	  posY="1409.438" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_EW4_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Parth Duin" posX="1786.399" posY="1409.438" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_EW4_1" village_type="VillageType.date_farm" hearth="346"
-			  gate_rotation="0.208" bound="Settlement.castle_EW4" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW4_1" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_EW4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -1106,33 +1048,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_EW5" name="{=Settlements.Settlement.name.castle_EW5}Linhir"
-	  owner="Faction.clan_empire_west_3" posX="1581.308" posY="1186.742" culture="Culture.gondor"
-	  gate_posX="1579.971" gate_posY="1187.563">
+	<Settlement id="castle_EW5" name="{=Settlements.Settlement.name.castle_EW5}Linhir" owner="Faction.clan_empire_west_3" posX="1581.308" posY="1186.742" culture="Culture.gondor" gate_posX="1579.971" gate_posY="1187.563">
 		<Components>
-			<Town id="castle_comp_EW5" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="610" />
+			<Town id="castle_comp_EW5" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="610" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="SINDARRY_Gondor_Castle1"
-			  scene_name_1="SINDARRY_Gondor_Castle1" scene_name_2="SINDARRY_Gondor_Castle1"
-			  scene_name_3="SINDARRY_Gondor_Castle1" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="SINDARRY_Gondor_Castle1" scene_name_1="SINDARRY_Gondor_Castle1" scene_name_2="SINDARRY_Gondor_Castle1" scene_name_3="SINDARRY_Gondor_Castle1" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_EW5_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW5_1}Eregost" posX="1562.328"
-	  posY="1169.618" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW5_1}Veron in the foothills of the Uchalion massif, near the headwaters of the Garys river. On summer nights the hills above the village are dotted with the fires of shepherds, taking their animals to graze on the upland pastures.">
+	<Settlement id="castle_village_EW5_1" name="{=Settlements.Settlement.name.castle_village_EW5_1}Eregost" posX="1562.328" posY="1169.618" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW5_1}Veron in the foothills of the Uchalion massif, near the headwaters of the Garys river. On summer nights the hills above the village are dotted with the fires of shepherds, taking their animals to graze on the upland pastures.">
 		<Components>
-			<Village id="castle_village_comp_EW5_1" village_type="VillageType.vineyard" hearth="421"
-			  gate_rotation="0.208" bound="Settlement.castle_EW5" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW5_1" village_type="VillageType.vineyard" hearth="421" gate_rotation="0.208" bound="Settlement.castle_EW5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_b" />
@@ -1143,15 +1071,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_EW5_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW5_2}Arandal" posX="1585.933"
-	  posY="1207.532" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW5_2}Goleryn sits in the warm, oak-covered Epiric hills, near both the Vlandian and Battanian frontiers. Sheep-raising is a way of life in these parts, as is sheep-rustling. ">
+	<Settlement id="castle_village_EW5_2" name="{=Settlements.Settlement.name.castle_village_EW5_2}Arandal" posX="1585.933" posY="1207.532" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW5_2}Goleryn sits in the warm, oak-covered Epiric hills, near both the Vlandian and Battanian frontiers. Sheep-raising is a way of life in these parts, as is sheep-rustling. ">
 		<Components>
-			<Village id="castle_village_comp_EW5_2" village_type="VillageType.sheep_farm" hearth="421"
-			  gate_rotation="0.208" bound="Settlement.castle_EW5" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW5_2" village_type="VillageType.sheep_farm" hearth="421" gate_rotation="0.208" bound="Settlement.castle_EW5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_a" />
@@ -1162,32 +1084,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_EW6" name="{=Settlements.Settlement.name.castle_EW6}Fanuilond Castle"
-	  owner="Faction.clan_empire_west_3" posX="1565.751" posY="1137.205" culture="Culture.gondor"
-	  gate_posX="1566.787" gate_posY="1138.621">
+	<Settlement id="castle_EW6" name="{=Settlements.Settlement.name.castle_EW6}Fanuilond Castle" owner="Faction.clan_empire_west_3" posX="1565.751" posY="1137.205" culture="Culture.gondor" gate_posX="1566.787" gate_posY="1138.621">
 		<Components>
-			<Town id="castle_comp_EW6" is_castle="true" level="3" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.408"
-			  prosperity="640" />
+			<Town id="castle_comp_EW6" is_castle="true" level="3" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.408" prosperity="640" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_f" scene_name_1="empire_castle_f"
-			  scene_name_2="empire_castle_f" scene_name_3="empire_castle_f" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_f" scene_name_1="empire_castle_f" scene_name_2="empire_castle_f" scene_name_3="empire_castle_f" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_EW6_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW6_1}Fanuilond" posX="1582.832"
-	  posY="1128.43" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW6_1}Hertogea lies in the shadow of Mount Erithrys, a huge basalt slab thrust up from the depths of the earth. Villagers grow olives on the slopes leading up the mountain.">
+	<Settlement id="castle_village_EW6_1" name="{=Settlements.Settlement.name.castle_village_EW6_1}Fanuilond" posX="1582.832" posY="1128.43" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW6_1}Hertogea lies in the shadow of Mount Erithrys, a huge basalt slab thrust up from the depths of the earth. Villagers grow olives on the slopes leading up the mountain.">
 		<Components>
-			<Village id="castle_village_comp_EW6_1" village_type="VillageType.olive_trees" hearth="347"
-			  gate_rotation="0.208" bound="Settlement.castle_EW6" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW6_1" village_type="VillageType.olive_trees" hearth="347" gate_rotation="0.208" bound="Settlement.castle_EW6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_j" />
@@ -1198,32 +1107,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_EW7" name="{=Settlements.Settlement.name.castle_EW7}Rimmon"
-	  owner="Faction.clan_empire_west_1" posX="1682.955" posY="1395.397" culture="Culture.gondor"
-	  gate_posX="1681.506" gate_posY="1396.16">
+	<Settlement id="castle_EW7" name="{=Settlements.Settlement.name.castle_EW7}Rimmon" owner="Faction.clan_empire_west_1" posX="1682.955" posY="1395.397" culture="Culture.gondor" gate_posX="1681.506" gate_posY="1396.16">
 		<Components>
-			<Town id="castle_comp_EW7" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.408"
-			  prosperity="820" />
+			<Town id="castle_comp_EW7" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.408" prosperity="820" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_g" scene_name_1="empire_castle_g"
-			  scene_name_2="empire_castle_g" scene_name_3="empire_castle_g" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_g" scene_name_1="empire_castle_g" scene_name_2="empire_castle_g" scene_name_3="empire_castle_g" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_EW7_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW7_1}Endrir" posX="1770.163" posY="1410.736"
-	  culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW7_1}Oristocorys sits on the Bay of Ortysia, part of the seaway between the western ocean and the Perassic Sea. Early morning sea-mists from the west and the hot sun of midday allow the growing of wine grapes.">
+	<Settlement id="castle_village_EW7_1" name="{=Settlements.Settlement.name.castle_village_EW7_1}Endrir" posX="1770.163" posY="1410.736" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW7_1}Oristocorys sits on the Bay of Ortysia, part of the seaway between the western ocean and the Perassic Sea. Early morning sea-mists from the west and the hot sun of midday allow the growing of wine grapes.">
 		<Components>
-			<Village id="castle_village_comp_EW7_1" village_type="VillageType.vineyard" hearth="603"
-			  bound="Settlement.castle_EW7" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW7_1" village_type="VillageType.vineyard" hearth="603" bound="Settlement.castle_EW7" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_004" />
@@ -1234,15 +1130,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_EW7_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW7_2}Rond Gaer" posX="1719.097"
-	  posY="1408.245" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW7_2}Elvania sits on the Bay of Ortysia, part of the seaway between the western ocean and the Perassic Sea. Olive trees grow on the slopes of the nearby hills, warmed by the southern sun.">
+	<Settlement id="castle_village_EW7_2" name="{=Settlements.Settlement.name.castle_village_EW7_2}Rond Gaer" posX="1719.097" posY="1408.245" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW7_2}Elvania sits on the Bay of Ortysia, part of the seaway between the western ocean and the Perassic Sea. Olive trees grow on the slopes of the nearby hills, warmed by the southern sun.">
 		<Components>
-			<Village id="castle_village_comp_EW7_2" village_type="VillageType.iron_mine" hearth="603"
-			  bound="Settlement.castle_EW7" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW7_2" village_type="VillageType.iron_mine" hearth="603" bound="Settlement.castle_EW7" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_u" />
@@ -1253,32 +1143,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_EW8" name="{=Settlements.Settlement.name.castle_EW8}Henneth Annûn"
-	  owner="Faction.clan_empire_west_1" posX="1814.319" posY="1462.608" culture="Culture.gondor"
-	  gate_posX="1814.641" gate_posY="1464.214">
+	<Settlement id="castle_EW8" name="{=Settlements.Settlement.name.castle_EW8}Henneth Annûn" owner="Faction.clan_empire_west_1" posX="1814.319" posY="1462.608" culture="Culture.gondor" gate_posX="1814.641" gate_posY="1464.214">
 		<Components>
-			<Town id="castle_comp_EW8" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.408"
-			  prosperity="610" />
+			<Town id="castle_comp_EW8" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.408" prosperity="610" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_siege_001" scene_name_1="empire_siege_001"
-			  scene_name_2="empire_siege_001" scene_name_3="empire_siege_001" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_siege_001" scene_name_1="empire_siege_001" scene_name_2="empire_siege_001" scene_name_3="empire_siege_001" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_EW8_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW8_1}Bar Tawar" posX="1841.004"
-	  posY="1416.234" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW8_1}Gersegos sits in the gorges of the Miron river, as it cuts between the cliffs of the Cursion Escarpment and the Dryatic mountains. Villagers have sunk mines into a spur that overlooks the village, extracting silver and other precious metals.">
+	<Settlement id="castle_village_EW8_1" name="{=Settlements.Settlement.name.castle_village_EW8_1}Bar Tawar" posX="1841.004" posY="1416.234" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW8_1}Gersegos sits in the gorges of the Miron river, as it cuts between the cliffs of the Cursion Escarpment and the Dryatic mountains. Villagers have sunk mines into a spur that overlooks the village, extracting silver and other precious metals.">
 		<Components>
-			<Village id="village_comp_EW8_1" village_type="VillageType.silver_mine" hearth="201"
-			  bound="Settlement.castle_EW8" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW8_1" village_type="VillageType.silver_mine" hearth="201" bound="Settlement.castle_EW8" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_h" />
@@ -1290,23 +1167,15 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Minas Tirith-->
-	<Settlement id="town_EW1" name="{=Settlements.Settlement.name.town_EW1}Minas Tirith"
-	  owner="Faction.clan_empire_west_1" posX="1789.459" posY="1362.884" culture="Culture.gondor"
-	  gate_posX="1790.998" gate_posY="1362.775"
-	  text="{=minastirith}Minas Tirith stands as the unwavering heart of Gondor, a city renowned for its towering fortifications and rich history of courage. Its seven levels rise majestically against the backdrop of the White Mountains, symbolizing the resilience and strength of Gondor's people. Throughout countless wars, the city has stood as a bastion against the darkness from the east, with each stone bearing the weight of battles long past. Today, Minas Tirith remains deeply Gondorian, yet those who recall the ancient struggles remember that, though the White Tower shines bright, shadows gather ever near.">
+	<Settlement id="town_EW1" name="{=Settlements.Settlement.name.town_EW1}Minas Tirith" owner="Faction.clan_empire_west_1" posX="1789.459" posY="1362.884" culture="Culture.gondor" gate_posX="1790.998" gate_posY="1362.775" text="{=minastirith}Minas Tirith stands as the unwavering heart of Gondor, a city renowned for its towering fortifications and rich history of courage. Its seven levels rise majestically against the backdrop of the White Mountains, symbolizing the resilience and strength of Gondor's people. Throughout countless wars, the city has stood as a bastion against the darkness from the east, with each stone bearing the weight of battles long past. Today, Minas Tirith remains deeply Gondorian, yet those who recall the ancient struggles remember that, though the White Tower shines bright, shadows gather ever near.">
 		<Components>
-			<Town id="town_comp_EW1" is_castle="false" level="3" background_crop_position="0.0"
-			  background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.108"
-			  prosperity="5200" />
+			<Town id="town_comp_EW1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.108" prosperity="5200" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="Gondor_Template" scene_name_1="Gondor_Template"
-			  scene_name_2="Gondor_Template" scene_name_3="Gondor_Template" />
+			<Location id="center" scene_name="Gondor_Template" scene_name_1="Gondor_Template" scene_name_2="Gondor_Template" scene_name_3="Gondor_Template" />
 			<Location id="arena" scene_name="arena_empire_a" />
 			<Location id="tavern" scene_name="empire_house_c_tavern_a" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 			<Location id="house_1" scene_name="empire_house_d_interior_house" />
 			<Location id="house_2" scene_name="empire_house_d_interior_house" />
@@ -1319,14 +1188,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_EW1_1" name="{=Settlements.Settlement.name.village_EW1_1}Harlond"
-	  posX="1799.769" posY="1318.854" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW1_1}Primessos lies in the wooded upper reaches of the Gavys valley. Pigs, fed on the acorns of the southern oak trees, thrive in this climate.">
+	<Settlement id="village_EW1_1" name="{=Settlements.Settlement.name.village_EW1_1}Harlond" posX="1799.769" posY="1318.854" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW1_1}Primessos lies in the wooded upper reaches of the Gavys valley. Pigs, fed on the acorns of the southern oak trees, thrive in this climate.">
 		<Components>
-			<Village id="village_comp_EW1_1" village_type="VillageType.wheat_farm" hearth="333"
-			  bound="Settlement.town_EW1" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW1_1" village_type="VillageType.wheat_farm" hearth="333" bound="Settlement.town_EW1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_i" />
@@ -1337,14 +1201,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_EW1_2" name="{=Settlements.Settlement.name.village_EW1_2}Thinbar"
-	  posX="1799.626" posY="1358.988" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW1_2}Montos sits at the base of the Cursion escarpment, near the Battanian frontier. The foresters here keep a watchful eye on their neighbors, always looking for raiding parties coming westward from the valley of the Miron river to their east.">
+	<Settlement id="village_EW1_2" name="{=Settlements.Settlement.name.village_EW1_2}Thinbar" posX="1799.626" posY="1358.988" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW1_2}Montos sits at the base of the Cursion escarpment, near the Battanian frontier. The foresters here keep a watchful eye on their neighbors, always looking for raiding parties coming westward from the valley of the Miron river to their east.">
 		<Components>
-			<Village id="village_comp_EW1_2" village_type="VillageType.flax_plant" hearth="132"
-			  bound="Settlement.town_EW1" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW1_2" village_type="VillageType.flax_plant" hearth="132" bound="Settlement.town_EW1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_008" />
@@ -1355,15 +1214,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_EW6_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW6_2}Rochallor" posX="1540.564"
-	  posY="1148.824" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW1_3}Nideon sits on a low-lying meander of the Zeos river, in the shadow of the plutonic Mount Erithrys. Flax grows in fields reclaimed from the river marshlands.">
+	<Settlement id="castle_village_EW6_2" name="{=Settlements.Settlement.name.castle_village_EW6_2}Rochallor" posX="1540.564" posY="1148.824" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW1_3}Nideon sits on a low-lying meander of the Zeos river, in the shadow of the plutonic Mount Erithrys. Flax grows in fields reclaimed from the river marshlands.">
 		<Components>
-			<Village id="castle_village_comp_EW6_2" village_type="VillageType.vineyard" hearth="165"
-			  bound="Settlement.castle_EW6" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW6_2" village_type="VillageType.vineyard" hearth="165" bound="Settlement.castle_EW6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_h" />
@@ -1375,23 +1228,15 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- City named after Empress Zeona -->
-	<Settlement id="town_EW2" name="{=Settlements.Settlement.name.town_EW2}West Osgiliath"
-	  owner="Faction.clan_empire_west_1" posX="1821.372" posY="1358.503" culture="Culture.gondor"
-	  gate_posX="1825.63" gate_posY="1359.051"
-	  text="{=kghCLS9q}Zeonica sits by the seaside at the base of the Iltaric hills, a land of wine, grain and horses. It was named for the Lady Zeona, one of the few women to rule the Empire - admittedly as regent for her son rather than Empress Regnant. It is known for the Zeonic Wind, a gale that blows northward across the Perassic Sea every summer carrying the burning heat of the Nahasa desert to the imperial south. In other seasons the weather here is mild, a weather pattern that has provided many a poet with a metaphor for the transience of passion.">
+	<Settlement id="town_EW2" name="{=Settlements.Settlement.name.town_EW2}West Osgiliath" owner="Faction.clan_empire_west_1" posX="1821.372" posY="1358.503" culture="Culture.gondor" gate_posX="1825.63" gate_posY="1359.051" text="{=kghCLS9q}Zeonica sits by the seaside at the base of the Iltaric hills, a land of wine, grain and horses. It was named for the Lady Zeona, one of the few women to rule the Empire - admittedly as regent for her son rather than Empress Regnant. It is known for the Zeonic Wind, a gale that blows northward across the Perassic Sea every summer carrying the burning heat of the Nahasa desert to the imperial south. In other seasons the weather here is mild, a weather pattern that has provided many a poet with a metaphor for the transience of passion.">
 		<Components>
-			<Town id="town_comp_EW2" is_castle="false" level="3" background_crop_position="0.0"
-			  background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.808"
-			  prosperity="4500" />
+			<Town id="town_comp_EW2" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_4" wait_mesh="wait_empire_town" gate_rotation="0.808" prosperity="4500" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="empire_town_d" scene_name_1="empire_town_d"
-			  scene_name_2="empire_town_d" scene_name_3="empire_town_d" />
+			<Location id="center" scene_name="empire_town_d" scene_name_1="empire_town_d" scene_name_2="empire_town_d" scene_name_3="empire_town_d" />
 			<Location id="arena" scene_name="arena_empire_a" />
 			<Location id="tavern" scene_name="empire_house_c_tavern_a" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 			<Location id="house_1" scene_name="empire_house_d_interior_house" />
 			<Location id="house_2" scene_name="empire_house_d_interior_house" />
@@ -1404,15 +1249,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_EW3_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW3_2}Eilendoth " posX="1540.33"
-	  posY="1334.079" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW2_1}Tarcutis sits on the shores of the Perassic sea. The sandy soil and morning mists, channeled by offshore islands, allows the growing of grapes overlooking the beaches.">
+	<Settlement id="castle_village_EW3_2" name="{=Settlements.Settlement.name.castle_village_EW3_2}Eilendoth " posX="1540.33" posY="1334.079" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW2_1}Tarcutis sits on the shores of the Perassic sea. The sandy soil and morning mists, channeled by offshore islands, allows the growing of grapes overlooking the beaches.">
 		<Components>
-			<Village id="castle_village_comp_EW3_2" village_type="VillageType.vineyard" hearth="546"
-			  bound="Settlement.castle_EW3" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW3_2" village_type="VillageType.vineyard" hearth="546" bound="Settlement.castle_EW3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_x" />
@@ -1423,14 +1262,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_EW2_2" name="{=Settlements.Settlement.name.village_EW2_2}Tumladen"
-	  posX="1776.592" posY="1387.117" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW2_2}Neocorys, the new village, sits in gently sloping land in the Temea valley cleared only recently of forest. The local landowners have established stud farms, supplying horses to the imperial cavalry.">
+	<Settlement id="village_EW2_2" name="{=Settlements.Settlement.name.village_EW2_2}Tumladen" posX="1776.592" posY="1387.117" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW2_2}Neocorys, the new village, sits in gently sloping land in the Temea valley cleared only recently of forest. The local landowners have established stud farms, supplying horses to the imperial cavalry.">
 		<Components>
-			<Village id="village_comp_EW2_2" village_type="VillageType.wheat_farm" hearth="192"
-			  bound="Settlement.town_EW2" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW2_2" village_type="VillageType.wheat_farm" hearth="192" bound="Settlement.town_EW2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_004" />
@@ -1441,14 +1275,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_EW2_3" name="{=Settlements.Settlement.name.village_EW2_3}Alsasos"
-	  posX="1799.47" posY="1334.324" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW2_3}Alsasos sits in the west end of the Temea, a broad valley north of the Perassic sea. Though the climate is relatively dry here, artesian wells allow farmers to grow bountiful crops of wheat.">
+	<Settlement id="village_EW2_3" name="{=Settlements.Settlement.name.village_EW2_3}Alsasos" posX="1799.47" posY="1334.324" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW2_3}Alsasos sits in the west end of the Temea, a broad valley north of the Perassic sea. Though the climate is relatively dry here, artesian wells allow farmers to grow bountiful crops of wheat.">
 		<Components>
-			<Village id="village_comp_EW2_3" village_type="VillageType.wheat_farm" hearth="272"
-			  bound="Settlement.town_EW2" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW2_3" village_type="VillageType.wheat_farm" hearth="272" bound="Settlement.town_EW2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_f" />
@@ -1459,14 +1288,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_EW2_4" name="{=Settlements.Settlement.name.village_EW2_4}Zeocorys"
-	  posX="1816.178" posY="1381.536" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW2_4}Zeocorys at the foot of the Ilataric hills, running along the southern coast of the Empire. Though the climate is relatively dry here, artesian wells allow farmers to grow bountiful crops of wheat.">
+	<Settlement id="village_EW2_4" name="{=Settlements.Settlement.name.village_EW2_4}Zeocorys" posX="1816.178" posY="1381.536" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW2_4}Zeocorys at the foot of the Ilataric hills, running along the southern coast of the Empire. Though the climate is relatively dry here, artesian wells allow farmers to grow bountiful crops of wheat.">
 		<Components>
-			<Village id="village_comp_EW2_4" village_type="VillageType.wheat_farm" hearth="143"
-			  bound="Settlement.town_EW2" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW2_4" village_type="VillageType.wheat_farm" hearth="143" bound="Settlement.town_EW2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_008" />
@@ -1477,23 +1301,15 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_EW3" name="{=Settlements.Settlement.name.town_EW3}East Osgiliath"
-	  owner="Faction.clan_empire_west_1" posX="1844.138" posY="1359.217" culture="Culture.gondor"
-	  gate_posX="1839.884" gate_posY="1358.637"
-	  text="{=TI3fS2xN}Every realm has a city whose inhabitants are mocked for their provincial unsophistication, and for the Empire that city was Jalmarys. One of the first imperial colonies established inland of the Perassic Sea, it served the Empire as a base to subdue the western Palaic tribes. Paravenos was happy to accept the plunder and slaves sent to them from its garrison, but snickered at them behind their backs. That changed when the Jalmaryan general Carsos staged a military coup. When a senator, stymied by his thick accent, nervously asked him to repeat a decree, he unsheathed his sword and said, 'Do you understand this?'">
+	<Settlement id="town_EW3" name="{=Settlements.Settlement.name.town_EW3}East Osgiliath" owner="Faction.clan_empire_west_1" posX="1844.138" posY="1359.217" culture="Culture.gondor" gate_posX="1839.884" gate_posY="1358.637" text="{=TI3fS2xN}Every realm has a city whose inhabitants are mocked for their provincial unsophistication, and for the Empire that city was Jalmarys. One of the first imperial colonies established inland of the Perassic Sea, it served the Empire as a base to subdue the western Palaic tribes. Paravenos was happy to accept the plunder and slaves sent to them from its garrison, but snickered at them behind their backs. That changed when the Jalmaryan general Carsos staged a military coup. When a senator, stymied by his thick accent, nervously asked him to repeat a decree, he unsheathed his sword and said, 'Do you understand this?'">
 		<Components>
-			<Town id="town_comp_EW3" is_castle="false" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.508"
-			  prosperity="2700" />
+			<Town id="town_comp_EW3" is_castle="false" level="1" background_crop_position="0.0" background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.508" prosperity="2700" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="empire_town_i" scene_name_1="empire_town_i"
-			  scene_name_2="empire_town_i" scene_name_3="empire_town_i" />
+			<Location id="center" scene_name="empire_town_i" scene_name_1="empire_town_i" scene_name_2="empire_town_i" scene_name_3="empire_town_i" />
 			<Location id="arena" scene_name="arena_empire_a" />
 			<Location id="tavern" scene_name="empire_house_c_tavern_a" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 			<Location id="house_1" scene_name="empire_house_d_interior_house" />
 			<Location id="house_2" scene_name="empire_house_d_interior_house" />
@@ -1506,15 +1322,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_EW4_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_2}Parth Forant" posX="1797.004"
-	  posY="1423" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW3_1}Gamardan sits at the head of a small bay that branches off the larger Gulf of Charas. The wines of this region are unusually sweet and strong, and valued throughout the Empire.">
+	<Settlement id="castle_village_EW4_2" name="{=Settlements.Settlement.name.castle_village_EW4_2}Parth Forant" posX="1797.004" posY="1423" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW3_1}Gamardan sits at the head of a small bay that branches off the larger Gulf of Charas. The wines of this region are unusually sweet and strong, and valued throughout the Empire.">
 		<Components>
-			<Village id="castle_village_comp_EW4_2" village_type="VillageType.fisherman" hearth="427"
-			  bound="Settlement.castle_EW4" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW4_2" village_type="VillageType.fisherman" hearth="427" bound="Settlement.castle_EW4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_s" />
@@ -1527,14 +1337,9 @@
 	</Settlement>
 	<!-- A royal demesne-->
 	<!-- Goat's head Aegoscapsae shortening to Aegosca -Armagan -->
-	<Settlement id="village_EW3_2" name="{=Settlements.Settlement.name.village_EW3_2}Aegosca"
-	  posX="1801.369" posY="1413.871" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW3_2}Aegosca sits at the head of the Temea, a broad valley in southern Calradia. Though named for the goats that used to roam this region, the landowners have turned over the pastures to the raising of far more profitable horses.">
+	<Settlement id="village_EW3_2" name="{=Settlements.Settlement.name.village_EW3_2}Aegosca" posX="1801.369" posY="1413.871" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW3_2}Aegosca sits at the head of the Temea, a broad valley in southern Calradia. Though named for the goats that used to roam this region, the landowners have turned over the pastures to the raising of far more profitable horses.">
 		<Components>
-			<Village id="village_comp_EW3_2" village_type="VillageType.trapper" hearth="427"
-			  bound="Settlement.town_EW3" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW3_2" village_type="VillageType.trapper" hearth="427" bound="Settlement.town_EW3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_002" />
@@ -1545,14 +1350,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_EW3_3" name="{=Settlements.Settlement.name.village_EW3_3}Dradios"
-	  posX="1821.559" posY="1311.399" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW3_3}Dradios sits by the Lesser Amynis, a tributary stream of the Aminys river that rushes down from the heights above. Villagers divert the mountain streams to irrigate their rich grainfields.">
+	<Settlement id="village_EW3_3" name="{=Settlements.Settlement.name.village_EW3_3}Dradios" posX="1821.559" posY="1311.399" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW3_3}Dradios sits by the Lesser Amynis, a tributary stream of the Aminys river that rushes down from the heights above. Villagers divert the mountain streams to irrigate their rich grainfields.">
 		<Components>
-			<Village id="village_comp_EW3_3" village_type="VillageType.salt_mine" hearth="501"
-			  gate_rotation="0.008" bound="Settlement.town_EW3" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW3_3" village_type="VillageType.salt_mine" hearth="501" gate_rotation="0.008" bound="Settlement.town_EW3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_003" />
@@ -1565,23 +1365,15 @@
 	</Settlement>
 	<!-- Ortysia sits on a low-lying delta near the end of the lake. Reed-beds, like Itil or Astrakhan -->
 	<!-- quailmarsh -->
-	<Settlement id="town_EW4" name="{=Settlements.Settlement.name.town_EW4}Dol Amroth"
-	  owner="Faction.clan_empire_west_2" posX="1386.045" posY="1211.557" culture="Culture.gondor"
-	  gate_posX="1388.91" gate_posY="1211.591"
-	  text="{=JhBSnWAe}Ortysia, named for the quails who inhabit the nearby coastal marshes, was the first Calradian colony on the shores of the Perassic Sea. In its early centuries, it fell under the authority of the Kannic city-state of Quyaz, but the empire's expansion soon united the colony with its mother republic. For centuries, sailors coming from the pirate-infested islands of the Bay of Charas gave thanks when they saw its towers looming through the haze of the western Perassic, signalling a return to safe imperial-patrolled waters.">
+	<Settlement id="town_EW4" name="{=Settlements.Settlement.name.town_EW4}Dol Amroth" owner="Faction.clan_empire_west_2" posX="1386.045" posY="1211.557" culture="Culture.gondor" gate_posX="1388.91" gate_posY="1211.591" text="{=JhBSnWAe}Ortysia, named for the quails who inhabit the nearby coastal marshes, was the first Calradian colony on the shores of the Perassic Sea. In its early centuries, it fell under the authority of the Kannic city-state of Quyaz, but the empire's expansion soon united the colony with its mother republic. For centuries, sailors coming from the pirate-infested islands of the Bay of Charas gave thanks when they saw its towers looming through the haze of the western Perassic, signalling a return to safe imperial-patrolled waters.">
 		<Components>
-			<Town id="town_comp_EW4" is_castle="false" level="2" background_crop_position="0.45"
-			  background_mesh="menu_empire_seaside_2" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="5600" />
+			<Town id="town_comp_EW4" is_castle="false" level="2" background_crop_position="0.45" background_mesh="menu_empire_seaside_2" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="5600" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="empire_town_c" scene_name_1="empire_town_c"
-			  scene_name_2="empire_town_c" scene_name_3="empire_town_c" />
+			<Location id="center" scene_name="empire_town_c" scene_name_1="empire_town_c" scene_name_2="empire_town_c" scene_name_3="empire_town_c" />
 			<Location id="arena" scene_name="arena_empire_a" />
 			<Location id="tavern" scene_name="empire_house_c_tavern_a" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 			<Location id="house_1" scene_name="empire_house_d_interior_house" />
 			<Location id="house_2" scene_name="empire_house_d_interior_house" />
@@ -1594,14 +1386,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_EW4_1" name="{=Settlements.Settlement.name.village_EW4_1}Edhellond"
-	  posX="1415.306" posY="1269.784" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW4_1}Arpotis sits on a high bluff overlooking the confluences of the Aminys, Gavys and Zeos rivers. The sides of the hills are terraced to grow wheat, with cisterns to catch the rain blowing up from the sea.">
+	<Settlement id="village_EW4_1" name="{=Settlements.Settlement.name.village_EW4_1}Edhellond" posX="1415.306" posY="1269.784" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW4_1}Arpotis sits on a high bluff overlooking the confluences of the Aminys, Gavys and Zeos rivers. The sides of the hills are terraced to grow wheat, with cisterns to catch the rain blowing up from the sea.">
 		<Components>
-			<Village id="village_comp_EW4_1" village_type="VillageType.fisherman" hearth="825"
-			  gate_rotation="0.408" bound="Settlement.town_EW4" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW4_1" village_type="VillageType.fisherman" hearth="825" gate_rotation="0.408" bound="Settlement.town_EW4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_003" />
@@ -1612,15 +1399,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_EW1_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW1_2}Belfalas Pass" posX="1574.973"
-	  posY="1305.598" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW4_2}Lysia gives its name to the narrow strait where the Perassic Sea joins the western ocean. It lies just on the Perassic side of the straits, near broad beaches that allow the farming of salt.">
+	<Settlement id="castle_village_EW1_2" name="{=Settlements.Settlement.name.castle_village_EW1_2}Belfalas Pass" posX="1574.973" posY="1305.598" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW4_2}Lysia gives its name to the narrow strait where the Perassic Sea joins the western ocean. It lies just on the Perassic side of the straits, near broad beaches that allow the farming of salt.">
 		<Components>
-			<Village id="castle_village_comp_EW1_2" village_type="VillageType.salt_mine" hearth="155"
-			  bound="Settlement.castle_EW1" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW1_2" village_type="VillageType.salt_mine" hearth="155" bound="Settlement.castle_EW1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_x" />
@@ -1631,14 +1412,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_EW4_3" name="{=Settlements.Settlement.name.village_EW4_3}Echad-l-Sedryn"
-	  posX="1446.972" posY="1279.616" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW4_3}Vinela sits beneath the waterfalls where the Aminys river rushes down to join the Perassic Sea. Villagers collect salt from the sea in the shadow of coastal cliffs.">
+	<Settlement id="village_EW4_3" name="{=Settlements.Settlement.name.village_EW4_3}Echad-l-Sedryn" posX="1446.972" posY="1279.616" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW4_3}Vinela sits beneath the waterfalls where the Aminys river rushes down to join the Perassic Sea. Villagers collect salt from the sea in the shadow of coastal cliffs.">
 		<Components>
-			<Village id="village_comp_EW4_3" village_type="VillageType.olive_trees" hearth="655"
-			  bound="Settlement.town_EW4" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW4_3" village_type="VillageType.olive_trees" hearth="655" bound="Settlement.town_EW4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_x" />
@@ -1649,14 +1425,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_EW4_4" name="{=Settlements.Settlement.name.village_EW4_4}Thonfalas"
-	  posX="1366.531" posY="1188.154" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW4_4}Garengolia lies near a rich vein of silver in hills overlooking the Gavys river. The Empire have minted its denars from these mines for centuries.">
+	<Settlement id="village_EW4_4" name="{=Settlements.Settlement.name.village_EW4_4}Thonfalas" posX="1366.531" posY="1188.154" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW4_4}Garengolia lies near a rich vein of silver in hills overlooking the Gavys river. The Empire have minted its denars from these mines for centuries.">
 		<Components>
-			<Village id="village_comp_EW4_4" village_type="VillageType.vineyard" hearth="395"
-			  bound="Settlement.town_EW4" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW4_4" village_type="VillageType.vineyard" hearth="395" bound="Settlement.town_EW4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_007" />
@@ -1669,23 +1440,15 @@
 	</Settlement>
 	<!-- Imperial subfaction 2 begins -->
 	<!-- Amytatis and Bostrum, clan 4 patriarch and faction 2 leader, soldier's soldier -->
-	<Settlement id="town_EW5" name="{=Settlements.Settlement.name.town_EW5}Bar Melui"
-	  owner="Faction.clan_empire_west_5" posX="1762.724" posY="1302.471" culture="Culture.gondor"
-	  gate_posX="1765.045" gate_posY="1300.79"
-	  text="{=rX8oGVvV}The Palaic chieftain of Amitatys had a particularly grim reputation, a tyrant who slaughtered innocents to appease the gods of the underworld in the hope they would grant him immortality. Inevitably, he fell into conflict with the Empire, and during the siege an earthquake crumbled his walls and allowed imperial troops into the city. More died in the ensuing sack than the tyrant had ever killed, but it was war, and the outcome - attributed to the wrath of Heaven - was a staple of imperial propaganda as they expanded their foothold in the region.">
+	<Settlement id="town_EW5" name="{=Settlements.Settlement.name.town_EW5}Bar Melui" owner="Faction.clan_empire_west_5" posX="1762.724" posY="1302.471" culture="Culture.gondor" gate_posX="1765.045" gate_posY="1300.79" text="{=rX8oGVvV}The Palaic chieftain of Amitatys had a particularly grim reputation, a tyrant who slaughtered innocents to appease the gods of the underworld in the hope they would grant him immortality. Inevitably, he fell into conflict with the Empire, and during the siege an earthquake crumbled his walls and allowed imperial troops into the city. More died in the ensuing sack than the tyrant had ever killed, but it was war, and the outcome - attributed to the wrath of Heaven - was a staple of imperial propaganda as they expanded their foothold in the region.">
 		<Components>
-			<Town id="town_comp_EW5" is_castle="false" level="3" background_crop_position="0.0"
-			  background_mesh="menu_empire_5" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="4400" />
+			<Town id="town_comp_EW5" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_5" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="4400" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="empire_town_j_siege" scene_name_1="empire_town_j_siege"
-			  scene_name_2="empire_town_j_siege" scene_name_3="empire_town_j_siege" />
+			<Location id="center" scene_name="empire_town_j_siege" scene_name_1="empire_town_j_siege" scene_name_2="empire_town_j_siege" scene_name_3="empire_town_j_siege" />
 			<Location id="arena" scene_name="arena_empire_a" />
 			<Location id="tavern" scene_name="empire_house_c_tavern_a" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 			<Location id="house_1" scene_name="empire_house_d_interior_house" />
 			<Location id="house_2" scene_name="empire_house_d_interior_house" />
@@ -1698,14 +1461,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_EW5_1" name="{=Settlements.Settlement.name.village_EW5_1}Imloth Melui"
-	  posX="1778.292" posY="1291.677" gate_rotation="0.5" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW5_1}Elipa sits near the upper reaches of the Aris valley. These sunny, well-watered highlands are one of the breadbaskets of the Empire.">
+	<Settlement id="village_EW5_1" name="{=Settlements.Settlement.name.village_EW5_1}Imloth Melui" posX="1778.292" posY="1291.677" gate_rotation="0.5" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW5_1}Elipa sits near the upper reaches of the Aris valley. These sunny, well-watered highlands are one of the breadbaskets of the Empire.">
 		<Components>
-			<Village id="village_comp_EW5_1" village_type="VillageType.wheat_farm" hearth="187"
-			  bound="Settlement.town_EW5" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW5_1" village_type="VillageType.wheat_farm" hearth="187" bound="Settlement.town_EW5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_p" />
@@ -1716,14 +1474,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_EW5_2" name="{=Settlements.Settlement.name.village_EW5_2}Rosuldrië"
-	  posX="1777.709" posY="1253.711" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW5_2}Phasos sits amid rolling chalk hills between the Temea and Aris valleys. The rich grass of the down is some of the best horse-breeding land in the Empire.">
+	<Settlement id="village_EW5_2" name="{=Settlements.Settlement.name.village_EW5_2}Rosuldrië" posX="1777.709" posY="1253.711" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW5_2}Phasos sits amid rolling chalk hills between the Temea and Aris valleys. The rich grass of the down is some of the best horse-breeding land in the Empire.">
 		<Components>
-			<Village id="village_comp_EW5_2" village_type="VillageType.olive_trees" hearth="187"
-			  bound="Settlement.town_EW5" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW5_2" village_type="VillageType.olive_trees" hearth="187" bound="Settlement.town_EW5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_g" />
@@ -1735,23 +1488,15 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- The Rhotians, probably a tribe-->
-	<Settlement id="town_EW6" name="{=Settlements.Settlement.name.town_EW6}Pelargir"
-	  owner="Faction.clan_empire_west_3" posX="1742.175" posY="1195.676" culture="Culture.gondor"
-	  gate_posX="1743.87" gate_posY="1197.44"
-	  text="{=5SpYVtie}Rhotae is a former Palaic hill-fort in the shadow of the basalt slab of Mount Erithrys, once known as Rotash. It fell to the Empire shortly afer Lageta. The Palaic chief here, when he heard of what happened to his neighbor, slaughtered a dozen imperial citizens under his protection. The eccentric long-haired general Sarapios led the punitive column that took Rotash and burned it to the ground. 'Lageta we took treacherously but with little bloodshed. Rotash we took honorably, with great bloodshed,' he supposedly said afterwards. 'Both will be remembered as a stain on our name. The victor always takes the blame, but keeps the gold.'">
+	<Settlement id="town_EW6" name="{=Settlements.Settlement.name.town_EW6}Pelargir" owner="Faction.clan_empire_west_3" posX="1742.175" posY="1195.676" culture="Culture.gondor" gate_posX="1743.87" gate_posY="1197.44" text="{=5SpYVtie}Rhotae is a former Palaic hill-fort in the shadow of the basalt slab of Mount Erithrys, once known as Rotash. It fell to the Empire shortly afer Lageta. The Palaic chief here, when he heard of what happened to his neighbor, slaughtered a dozen imperial citizens under his protection. The eccentric long-haired general Sarapios led the punitive column that took Rotash and burned it to the ground. 'Lageta we took treacherously but with little bloodshed. Rotash we took honorably, with great bloodshed,' he supposedly said afterwards. 'Both will be remembered as a stain on our name. The victor always takes the blame, but keeps the gold.'">
 		<Components>
-			<Town id="town_comp_EW6" is_castle="false" level="2" background_crop_position="0.0"
-			  background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.808"
-			  prosperity="4900" />
+			<Town id="town_comp_EW6" is_castle="false" level="2" background_crop_position="0.0" background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.808" prosperity="4900" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="empire_town_h" scene_name_1="empire_town_h"
-			  scene_name_2="empire_town_h" scene_name_3="empire_town_h" />
+			<Location id="center" scene_name="empire_town_h" scene_name_1="empire_town_h" scene_name_2="empire_town_h" scene_name_3="empire_town_h" />
 			<Location id="arena" scene_name="arena_empire_a" />
 			<Location id="tavern" scene_name="empire_house_c_tavern_a" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 			<Location id="house_1" scene_name="empire_house_d_interior_house" />
 			<Location id="house_2" scene_name="empire_house_d_interior_house" />
@@ -1764,14 +1509,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_EW6_1" name="{=Settlements.Settlement.name.village_EW6_1}Minas Imduin"
-	  posX="1773.781" posY="1208.924" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
+	<Settlement id="village_EW6_1" name="{=Settlements.Settlement.name.village_EW6_1}Minas Imduin" posX="1773.781" posY="1208.924" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_EW6_1" village_type="VillageType.fisherman" hearth="104"
-			  gate_rotation="0.908" bound="Settlement.town_EW6" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW6_1" village_type="VillageType.fisherman" hearth="104" gate_rotation="0.908" bound="Settlement.town_EW6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -1783,15 +1523,9 @@
 		</CommonAreas>
 	</Settlement>
 	<!-- Redrock -->
-	<Settlement id="castle_village_EW8_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW8_2}Lanthiriath" posX="1834.807"
-	  posY="1429.41" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW6_2}Vathea sits high on the slopes of the Dryatic mountains, facing across the valley to the great basalt slab of Mount Erithrys. The villagers mine iron from shafts sunk deep into the cliffs of the mountains.">
+	<Settlement id="castle_village_EW8_2" name="{=Settlements.Settlement.name.castle_village_EW8_2}Lanthiriath" posX="1834.807" posY="1429.41" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_2}Vathea sits high on the slopes of the Dryatic mountains, facing across the valley to the great basalt slab of Mount Erithrys. The villagers mine iron from shafts sunk deep into the cliffs of the mountains.">
 		<Components>
-			<Village id="castle_village_comp_EW8_2" village_type="VillageType.iron_mine" hearth="104"
-			  gate_rotation="0.008" bound="Settlement.castle_EW8" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_EW8_2" village_type="VillageType.iron_mine" hearth="104" gate_rotation="0.008" bound="Settlement.castle_EW8" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_f" />
@@ -1802,14 +1536,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_EW6_3" name="{=Settlements.Settlement.name.village_EW6_3}Bar Erui"
-	  posX="1750.549" posY="1220.313" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW6_3}Thersenion sits in the upper Aminys valley, in the shadow of Mount Erithrys, a great basalt slab thrust up from the depths of the earth. This district is one of the grain breadbaskets of the Empire.">
+	<Settlement id="village_EW6_3" name="{=Settlements.Settlement.name.village_EW6_3}Bar Erui" posX="1750.549" posY="1220.313" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_3}Thersenion sits in the upper Aminys valley, in the shadow of Mount Erithrys, a great basalt slab thrust up from the depths of the earth. This district is one of the grain breadbaskets of the Empire.">
 		<Components>
-			<Village id="village_comp_EW6_3" village_type="VillageType.wheat_farm" hearth="267"
-			  bound="Settlement.town_EW6" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW6_3" village_type="VillageType.wheat_farm" hearth="267" bound="Settlement.town_EW6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_004" />
@@ -1820,14 +1549,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_EW6_4" name="{=Settlements.Settlement.name.village_EW6_4}Dol Calimir"
-	  posX="1734.186" posY="1214.461" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW6_4}Leblenion lies alongside the Aminys river in the shadow of Mount Erithrys, a great basalt slab thrust up from the depths of the earth. This district is one of the grain breadbaskets of the Empire.">
+	<Settlement id="village_EW6_4" name="{=Settlements.Settlement.name.village_EW6_4}Dol Calimir" posX="1734.186" posY="1214.461" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_4}Leblenion lies alongside the Aminys river in the shadow of Mount Erithrys, a great basalt slab thrust up from the depths of the earth. This district is one of the grain breadbaskets of the Empire.">
 		<Components>
-			<Village id="village_comp_EW6_4" village_type="VillageType.olive_trees" hearth="339"
-			  bound="Settlement.town_EW6" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_EW6_4" village_type="VillageType.olive_trees" hearth="339" bound="Settlement.town_EW6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_y" />
@@ -8713,25 +8437,16 @@
 			<Location id="retirement_retreat" scene_name="scn_retirement" max_prosperity="100" />
 		</Locations>
 	</Settlement>
-	<!--Gondor
-  Round 2-->
-	<Settlement id="town_SWAN_GONDOR1" name="{=Settlements.Settlement.name.town_EW6}Calembel"
-	  owner="Faction.clan_empire_west_7" posX="1456.059" posY="1310.321" culture="Culture.gondor"
-	  gate_posX="1458.75" gate_posY="1311.303"
-	  text="{=5SpYVtie}Rhotae is a former Palaic hill-fort in the shadow of the basalt slab of Mount Erithrys, once known as Rotash. It fell to the Empire shortly afer Lageta. The Palaic chief here, when he heard of what happened to his neighbor, slaughtered a dozen imperial citizens under his protection. The eccentric long-haired general Sarapios led the punitive column that took Rotash and burned it to the ground. 'Lageta we took treacherously but with little bloodshed. Rotash we took honorably, with great bloodshed,' he supposedly said afterwards. 'Both will be remembered as a stain on our name. The victor always takes the blame, but keeps the gold.'">
+	<!--Gondor Round 2-->
+	<Settlement id="town_SWAN_GONDOR1" name="{=Settlements.Settlement.name.town_EW6}Calembel" owner="Faction.clan_empire_west_7" posX="1456.059" posY="1310.321" culture="Culture.gondor" gate_posX="1458.75" gate_posY="1311.303" text="{=5SpYVtie}Rhotae is a former Palaic hill-fort in the shadow of the basalt slab of Mount Erithrys, once known as Rotash. It fell to the Empire shortly afer Lageta. The Palaic chief here, when he heard of what happened to his neighbor, slaughtered a dozen imperial citizens under his protection. The eccentric long-haired general Sarapios led the punitive column that took Rotash and burned it to the ground. 'Lageta we took treacherously but with little bloodshed. Rotash we took honorably, with great bloodshed,' he supposedly said afterwards. 'Both will be remembered as a stain on our name. The victor always takes the blame, but keeps the gold.'">
 		<Components>
-			<Town id="town_comp_SWAN_GONDOR1" is_castle="false" level="2" background_crop_position="0.0"
-			  background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.808"
-			  prosperity="4900" />
+			<Town id="town_comp_SWAN_GONDOR1" is_castle="false" level="2" background_crop_position="0.0" background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.808" prosperity="4900" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="empire_town_h" scene_name_1="empire_town_h"
-			  scene_name_2="empire_town_h" scene_name_3="empire_town_h" />
+			<Location id="center" scene_name="empire_town_h" scene_name_1="empire_town_h" scene_name_2="empire_town_h" scene_name_3="empire_town_h" />
 			<Location id="arena" scene_name="arena_empire_a" />
 			<Location id="tavern" scene_name="empire_house_c_tavern_a" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 			<Location id="house_1" scene_name="empire_house_d_interior_house" />
 			<Location id="house_2" scene_name="empire_house_d_interior_house" />
@@ -8744,14 +8459,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GONDOR1_1" name="{=Settlements.Settlement.name.village_EW6_1}Dinadab"
-	  posX="1479.05" posY="1306.978" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
+	<Settlement id="village_SWAN_GONDOR1_1" name="{=Settlements.Settlement.name.village_EW6_1}Dinadab" posX="1479.05" posY="1306.978" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR1_1" village_type="VillageType.sheep_farm" hearth="104"
-			  gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR1" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR1_1" village_type="VillageType.sheep_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -8762,15 +8472,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GONDOR1_2"
-	  name="{=Settlements.Settlement.name.village_EW6_1}Bar Elir" posX="1466.215" posY="1303.102"
-	  culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
+	<Settlement id="village_SWAN_GONDOR1_2" name="{=Settlements.Settlement.name.village_EW6_1}Bar Elir" posX="1466.215" posY="1303.102" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR1_2" village_type="VillageType.vineyard" hearth="104"
-			  gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR1" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR1_2" village_type="VillageType.vineyard" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -8781,23 +8485,15 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_SWAN_GONDOR2" name="{=Settlements.Settlement.name.town_EW6}Ost Anglebed"
-	  owner="Faction.clan_empire_west_3" posX="1665.821" posY="1304.531" culture="Culture.gondor"
-	  gate_posX="1668.457" gate_posY="1303.407"
-	  text="{=5SpYVtie}Rhotae is a former Palaic hill-fort in the shadow of the basalt slab of Mount Erithrys, once known as Rotash. It fell to the Empire shortly afer Lageta. The Palaic chief here, when he heard of what happened to his neighbor, slaughtered a dozen imperial citizens under his protection. The eccentric long-haired general Sarapios led the punitive column that took Rotash and burned it to the ground. 'Lageta we took treacherously but with little bloodshed. Rotash we took honorably, with great bloodshed,' he supposedly said afterwards. 'Both will be remembered as a stain on our name. The victor always takes the blame, but keeps the gold.'">
+	<Settlement id="town_SWAN_GONDOR2" name="{=Settlements.Settlement.name.town_EW6}Ost Anglebed" owner="Faction.clan_empire_west_3" posX="1665.821" posY="1304.531" culture="Culture.gondor" gate_posX="1668.457" gate_posY="1303.407" text="{=5SpYVtie}Rhotae is a former Palaic hill-fort in the shadow of the basalt slab of Mount Erithrys, once known as Rotash. It fell to the Empire shortly afer Lageta. The Palaic chief here, when he heard of what happened to his neighbor, slaughtered a dozen imperial citizens under his protection. The eccentric long-haired general Sarapios led the punitive column that took Rotash and burned it to the ground. 'Lageta we took treacherously but with little bloodshed. Rotash we took honorably, with great bloodshed,' he supposedly said afterwards. 'Both will be remembered as a stain on our name. The victor always takes the blame, but keeps the gold.'">
 		<Components>
-			<Town id="town_comp_SWAN_GONDOR2" is_castle="false" level="2" background_crop_position="0.0"
-			  background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.808"
-			  prosperity="4900" />
+			<Town id="town_comp_SWAN_GONDOR2" is_castle="false" level="2" background_crop_position="0.0" background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.808" prosperity="4900" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="empire_town_h" scene_name_1="empire_town_h"
-			  scene_name_2="empire_town_h" scene_name_3="empire_town_h" />
+			<Location id="center" scene_name="empire_town_h" scene_name_1="empire_town_h" scene_name_2="empire_town_h" scene_name_3="empire_town_h" />
 			<Location id="arena" scene_name="arena_empire_a" />
 			<Location id="tavern" scene_name="empire_house_c_tavern_a" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 			<Location id="house_1" scene_name="empire_house_d_interior_house" />
 			<Location id="house_2" scene_name="empire_house_d_interior_house" />
@@ -8810,15 +8506,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GONDOR2_1"
-	  name="{=Settlements.Settlement.name.village_EW6_1}Linhirion" posX="1660.469" posY="1284.711"
-	  culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
+	<Settlement id="village_SWAN_GONDOR2_1" name="{=Settlements.Settlement.name.village_EW6_1}Linhirion" posX="1660.469" posY="1284.711" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR2_1" village_type="VillageType.cattle_farm" hearth="104"
-			  gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR2" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR2_1" village_type="VillageType.cattle_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -8829,15 +8519,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GONDOR2_2"
-	  name="{=Settlements.Settlement.name.village_EW6_1}Gelindor" posX="1671.94" posY="1224.229"
-	  culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
+	<Settlement id="village_SWAN_GONDOR2_2" name="{=Settlements.Settlement.name.village_EW6_1}Gelindor" posX="1671.94" posY="1224.229" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR2_2" village_type="VillageType.sheep_farm" hearth="104"
-			  gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR2" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR2_2" village_type="VillageType.sheep_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -8848,23 +8532,15 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_SWAN_GONDOR3" name="{=Settlements.Settlement.name.town_EW6}Morlad"
-	  owner="Faction.clan_empire_west_9" posX="1383.926" posY="1418.491" culture="Culture.gondor"
-	  gate_posX="1381.555" gate_posY="1420.099"
-	  text="{=5SpYVtie}Rhotae is a former Palaic hill-fort in the shadow of the basalt slab of Mount Erithrys, once known as Rotash. It fell to the Empire shortly afer Lageta. The Palaic chief here, when he heard of what happened to his neighbor, slaughtered a dozen imperial citizens under his protection. The eccentric long-haired general Sarapios led the punitive column that took Rotash and burned it to the ground. 'Lageta we took treacherously but with little bloodshed. Rotash we took honorably, with great bloodshed,' he supposedly said afterwards. 'Both will be remembered as a stain on our name. The victor always takes the blame, but keeps the gold.'">
+	<Settlement id="town_SWAN_GONDOR3" name="{=Settlements.Settlement.name.town_EW6}Morlad" owner="Faction.clan_empire_west_9" posX="1383.926" posY="1418.491" culture="Culture.gondor" gate_posX="1381.555" gate_posY="1420.099" text="{=5SpYVtie}Rhotae is a former Palaic hill-fort in the shadow of the basalt slab of Mount Erithrys, once known as Rotash. It fell to the Empire shortly afer Lageta. The Palaic chief here, when he heard of what happened to his neighbor, slaughtered a dozen imperial citizens under his protection. The eccentric long-haired general Sarapios led the punitive column that took Rotash and burned it to the ground. 'Lageta we took treacherously but with little bloodshed. Rotash we took honorably, with great bloodshed,' he supposedly said afterwards. 'Both will be remembered as a stain on our name. The victor always takes the blame, but keeps the gold.'">
 		<Components>
-			<Town id="town_comp_SWAN_GONDOR3" is_castle="false" level="2" background_crop_position="0.0"
-			  background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.808"
-			  prosperity="4900" />
+			<Town id="town_comp_SWAN_GONDOR3" is_castle="false" level="2" background_crop_position="0.0" background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.808" prosperity="4900" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="empire_town_h" scene_name_1="empire_town_h"
-			  scene_name_2="empire_town_h" scene_name_3="empire_town_h" />
+			<Location id="center" scene_name="empire_town_h" scene_name_1="empire_town_h" scene_name_2="empire_town_h" scene_name_3="empire_town_h" />
 			<Location id="arena" scene_name="arena_empire_a" />
 			<Location id="tavern" scene_name="empire_house_c_tavern_a" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 			<Location id="house_1" scene_name="empire_house_d_interior_house" />
 			<Location id="house_2" scene_name="empire_house_d_interior_house" />
@@ -8877,14 +8553,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GONDOR3_1" name="{=Settlements.Settlement.name.village_EW6_1}Sardol"
-	  posX="1330.696" posY="1397.348" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
+	<Settlement id="village_SWAN_GONDOR3_1" name="{=Settlements.Settlement.name.village_EW6_1}Sardol" posX="1330.696" posY="1397.348" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR3_1" village_type="VillageType.iron_mine" hearth="104"
-			  gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR3" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR3_1" village_type="VillageType.iron_mine" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -8895,15 +8566,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GONDOR3_2"
-	  name="{=Settlements.Settlement.name.village_EW6_1}Alagrant" posX="1341.399" posY="1401.303"
-	  culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
+	<Settlement id="village_SWAN_GONDOR3_2" name="{=Settlements.Settlement.name.village_EW6_1}Alagrant" posX="1341.399" posY="1401.303" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR3_2" village_type="VillageType.silver_mine" hearth="104"
-			  gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR3" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR3_2" village_type="VillageType.silver_mine" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -8914,14 +8579,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GONDOR3_3" name="{=Settlements.Settlement.name.village_EW6_1}Erech"
-	  posX="1425.405" posY="1403.614" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
+	<Settlement id="village_SWAN_GONDOR3_3" name="{=Settlements.Settlement.name.village_EW6_1}Erech" posX="1425.405" posY="1403.614" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR3_3" village_type="VillageType.salt_mine" hearth="104"
-			  gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR3" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR3_3" village_type="VillageType.salt_mine" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -8932,23 +8592,15 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_SWAN_GONDOR4" name="{=Settlements.Settlement.name.town_EW6}Ost Arndir"
-	  owner="Faction.clan_empire_west_6" posX="1101.22" posY="1448.104" culture="Culture.gondor"
-	  gate_posX="1100.536" gate_posY="1445.321"
-	  text="{=5SpYVtie}Rhotae is a former Palaic hill-fort in the shadow of the basalt slab of Mount Erithrys, once known as Rotash. It fell to the Empire shortly afer Lageta. The Palaic chief here, when he heard of what happened to his neighbor, slaughtered a dozen imperial citizens under his protection. The eccentric long-haired general Sarapios led the punitive column that took Rotash and burned it to the ground. 'Lageta we took treacherously but with little bloodshed. Rotash we took honorably, with great bloodshed,' he supposedly said afterwards. 'Both will be remembered as a stain on our name. The victor always takes the blame, but keeps the gold.'">
+	<Settlement id="town_SWAN_GONDOR4" name="{=Settlements.Settlement.name.town_EW6}Ost Arndir" owner="Faction.clan_empire_west_7" posX="1101.22" posY="1448.104" culture="Culture.gondor" gate_posX="1100.536" gate_posY="1445.321" text="{=5SpYVtie}Rhotae is a former Palaic hill-fort in the shadow of the basalt slab of Mount Erithrys, once known as Rotash. It fell to the Empire shortly afer Lageta. The Palaic chief here, when he heard of what happened to his neighbor, slaughtered a dozen imperial citizens under his protection. The eccentric long-haired general Sarapios led the punitive column that took Rotash and burned it to the ground. 'Lageta we took treacherously but with little bloodshed. Rotash we took honorably, with great bloodshed,' he supposedly said afterwards. 'Both will be remembered as a stain on our name. The victor always takes the blame, but keeps the gold.'">
 		<Components>
-			<Town id="town_comp_SWAN_GONDOR4" is_castle="false" level="2" background_crop_position="0.0"
-			  background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.808"
-			  prosperity="4900" />
+			<Town id="town_comp_SWAN_GONDOR4" is_castle="false" level="2" background_crop_position="0.0" background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.808" prosperity="4900" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="empire_town_h" scene_name_1="empire_town_h"
-			  scene_name_2="empire_town_h" scene_name_3="empire_town_h" />
+			<Location id="center" scene_name="empire_town_h" scene_name_1="empire_town_h" scene_name_2="empire_town_h" scene_name_3="empire_town_h" />
 			<Location id="arena" scene_name="arena_empire_a" />
 			<Location id="tavern" scene_name="empire_house_c_tavern_a" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 			<Location id="house_1" scene_name="empire_house_d_interior_house" />
 			<Location id="house_2" scene_name="empire_house_d_interior_house" />
@@ -8961,14 +8613,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GONDOR4_1" name="{=Settlements.Settlement.name.village_EW6_1}Mereham"
-	  posX="1089.321" posY="1413.19" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
+	<Settlement id="village_SWAN_GONDOR4_1" name="{=Settlements.Settlement.name.village_EW6_1}Mereham" posX="1089.321" posY="1413.19" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR4_1" village_type="VillageType.cattle_farm" hearth="104"
-			  gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR4" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR4_1" village_type="VillageType.cattle_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -8979,15 +8626,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GONDOR4_2"
-	  name="{=Settlements.Settlement.name.village_EW6_1}Munadhor" posX="1162.703" posY="1429.163"
-	  culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
+	<Settlement id="village_SWAN_GONDOR4_2" name="{=Settlements.Settlement.name.village_EW6_1}Munadhor" posX="1162.703" posY="1429.163" culture="Culture.gondor" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR4_2" village_type="VillageType.sheep_farm" hearth="104"
-			  gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR4" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR4_2" village_type="VillageType.sheep_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -8998,23 +8639,15 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="town_SWAN_GONDOR5" name="{=Settlements.Settlement.name.town_EW6}Lond Cirion"
-	  owner="Faction.clan_empire_west_8" posX="1071.032" posY="1196.223" culture="Culture.gondor"
-	  gate_posX="1072.838" gate_posY="1198.447"
-	  text="{=5SpYVtie}Rhotae is a former Palaic hill-fort in the shadow of the basalt slab of Mount Erithrys, once known as Rotash. It fell to the Empire shortly afer Lageta. The Palaic chief here, when he heard of what happened to his neighbor, slaughtered a dozen imperial citizens under his protection. The eccentric long-haired general Sarapios led the punitive column that took Rotash and burned it to the ground. 'Lageta we took treacherously but with little bloodshed. Rotash we took honorably, with great bloodshed,' he supposedly said afterwards. 'Both will be remembered as a stain on our name. The victor always takes the blame, but keeps the gold.'">
+	<Settlement id="town_SWAN_GONDOR5" name="{=Settlements.Settlement.name.town_EW6}Lond Cirion" owner="Faction.clan_empire_west_7" posX="1071.032" posY="1196.223" culture="Culture.gondor" gate_posX="1072.838" gate_posY="1198.447" text="{=5SpYVtie}Rhotae is a former Palaic hill-fort in the shadow of the basalt slab of Mount Erithrys, once known as Rotash. It fell to the Empire shortly afer Lageta. The Palaic chief here, when he heard of what happened to his neighbor, slaughtered a dozen imperial citizens under his protection. The eccentric long-haired general Sarapios led the punitive column that took Rotash and burned it to the ground. 'Lageta we took treacherously but with little bloodshed. Rotash we took honorably, with great bloodshed,' he supposedly said afterwards. 'Both will be remembered as a stain on our name. The victor always takes the blame, but keeps the gold.'">
 		<Components>
-			<Town id="town_comp_SWAN_GONDOR5" is_castle="false" level="2" background_crop_position="0.0"
-			  background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.808"
-			  prosperity="4900" />
+			<Town id="town_comp_SWAN_GONDOR5" is_castle="false" level="2" background_crop_position="0.0" background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.808" prosperity="4900" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="empire_town_h" scene_name_1="empire_town_h"
-			  scene_name_2="empire_town_h" scene_name_3="empire_town_h" />
+			<Location id="center" scene_name="empire_town_h" scene_name_1="empire_town_h" scene_name_2="empire_town_h" scene_name_3="empire_town_h" />
 			<Location id="arena" scene_name="arena_empire_a" />
 			<Location id="tavern" scene_name="empire_house_c_tavern_a" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 			<Location id="house_1" scene_name="empire_house_d_interior_house" />
 			<Location id="house_2" scene_name="empire_house_d_interior_house" />
@@ -9027,15 +8660,9 @@
 			<Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GONDOR5_1"
-	  name="{=Settlements.Settlement.name.village_EW6_1}Arthiant" posX="1075.733" posY="1243.272"
-	  culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
+	<Settlement id="village_SWAN_GONDOR5_1" name="{=Settlements.Settlement.name.village_EW6_1}Arthiant" posX="1075.733" posY="1243.272" culture="Culture.empire" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR5_1" village_type="VillageType.sheep_farm" hearth="104"
-			  gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR5" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR5_1" village_type="VillageType.sheep_farm" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -9046,15 +8673,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="village_SWAN_GONDOR5_2"
-	  name="{=Settlements.Settlement.name.village_EW6_1}Tumbamar" posX="1057.031" posY="1188.692"
-	  culture="Culture.empire"
-	  text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
+	<Settlement id="village_SWAN_GONDOR5_2" name="{=Settlements.Settlement.name.village_EW6_1}Tumbamar" posX="1057.031" posY="1188.692" culture="Culture.empire" text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
-			<Village id="village_comp_SWAN_GONDOR5_2" village_type="VillageType.fisherman" hearth="104"
-			  gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR5" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="village_comp_SWAN_GONDOR5_2" village_type="VillageType.fisherman" hearth="104" gate_rotation="0.908" bound="Settlement.town_SWAN_GONDOR5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_l" />
@@ -9065,32 +8686,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_SWAN_GONDOR1" name="{=Settlements.Settlement.name.castle_EW7}Dol Darnel"
-	  owner="Faction.clan_empire_west_11" posX="1518.671" posY="1489.26" culture="Culture.gondor"
-	  gate_posX="1516.971" gate_posY="1488.823">
+	<Settlement id="castle_SWAN_GONDOR1" name="{=Settlements.Settlement.name.castle_EW7}Dol Darnel" owner="Faction.clan_empire_west_11" posX="1518.671" posY="1489.26" culture="Culture.gondor" gate_posX="1516.971" gate_posY="1488.823">
 		<Components>
-			<Town id="castle_comp_SWAN_GONDOR1" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.408"
-			  prosperity="820" />
+			<Town id="castle_comp_SWAN_GONDOR1" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.408" prosperity="820" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_g" scene_name_1="empire_castle_g"
-			  scene_name_2="empire_castle_g" scene_name_3="empire_castle_g" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_g" scene_name_1="empire_castle_g" scene_name_2="empire_castle_g" scene_name_3="empire_castle_g" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR1_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW7_1}Veluin" posX="1670.783" posY="1451.6"
-	  culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW7_1}Oristocorys sits on the Bay of Ortysia, part of the seaway between the western ocean and the Perassic Sea. Early morning sea-mists from the west and the hot sun of midday allow the growing of wine grapes.">
+	<Settlement id="castle_village_SWAN_GONDOR1_1" name="{=Settlements.Settlement.name.castle_village_EW7_1}Veluin" posX="1670.783" posY="1451.6" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW7_1}Oristocorys sits on the Bay of Ortysia, part of the seaway between the western ocean and the Perassic Sea. Early morning sea-mists from the west and the hot sun of midday allow the growing of wine grapes.">
 		<Components>
-			<Village id="castle_village_SWAN_GONDOR1_1" village_type="VillageType.europe_horse_ranch"
-			  hearth="603" bound="Settlement.castle_SWAN_GONDOR1" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_SWAN_GONDOR1_1" village_type="VillageType.europe_horse_ranch" hearth="603" bound="Settlement.castle_SWAN_GONDOR1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_004" />
@@ -9101,15 +8709,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR1_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW7_2}Arveluin" posX="1572.99"
-	  posY="1470.147" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW7_2}Elvania sits on the Bay of Ortysia, part of the seaway between the western ocean and the Perassic Sea. Olive trees grow on the slopes of the nearby hills, warmed by the southern sun.">
+	<Settlement id="castle_village_SWAN_GONDOR1_2" name="{=Settlements.Settlement.name.castle_village_EW7_2}Arveluin" posX="1572.99" posY="1470.147" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW7_2}Elvania sits on the Bay of Ortysia, part of the seaway between the western ocean and the Perassic Sea. Olive trees grow on the slopes of the nearby hills, warmed by the southern sun.">
 		<Components>
-			<Village id="castle_village_SWAN_GONDOR1_2" village_type="VillageType.wheat_farm" hearth="603"
-			  bound="Settlement.castle_SWAN_GONDOR1" background_crop_position="0.0"
-			  background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village"
-			  castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_SWAN_GONDOR1_2" village_type="VillageType.wheat_farm" hearth="603" bound="Settlement.castle_SWAN_GONDOR1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_u" />
@@ -9120,32 +8722,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_SWAN_GONDOR2" name="{=Settlements.Settlement.name.castle_EW4}Tumladen"
-	  owner="Faction.clan_empire_west_3" posX="1746.747" posY="1263.904" culture="Culture.gondor"
-	  gate_posX="1747.336" gate_posY="1262.376">
+	<Settlement id="castle_SWAN_GONDOR2" name="{=Settlements.Settlement.name.castle_EW4}Tumladen" owner="Faction.clan_empire_west_3" posX="1746.747" posY="1263.904" culture="Culture.gondor" gate_posX="1747.336" gate_posY="1262.376">
 		<Components>
-			<Town id="castle_comp_SWAN_GONDOR2" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="660" />
+			<Town id="castle_comp_SWAN_GONDOR2" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="660" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004"
-			  scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR2_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Daelvor" posX="1748.111"
-	  posY="1249.862" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR2_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Daelvor" posX="1748.111" posY="1249.862" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR2_1" village_type="VillageType.swine_farm"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR2"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR2_1" village_type="VillageType.swine_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9156,15 +8745,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR2_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Sarnhad" posX="1790.728"
-	  posY="1237.355" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR2_2" name="{=Settlements.Settlement.name.castle_village_EW4_1}Sarnhad" posX="1790.728" posY="1237.355" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR2_2" village_type="VillageType.date_farm"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR2"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR2_2" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9175,32 +8758,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_SWAN_GONDOR3" name="{=Settlements.Settlement.name.castle_EW4}Erynos"
-	  owner="Faction.clan_empire_west_3" posX="1709.273" posY="1253.464" culture="Culture.gondor"
-	  gate_posX="1709.094" gate_posY="1252.57">
+	<Settlement id="castle_SWAN_GONDOR3" name="{=Settlements.Settlement.name.castle_EW4}Erynos" owner="Faction.clan_empire_west_3" posX="1709.273" posY="1253.464" culture="Culture.gondor" gate_posX="1709.094" gate_posY="1252.57">
 		<Components>
-			<Town id="castle_comp_SWAN_GONDOR3" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="660" />
+			<Town id="castle_comp_SWAN_GONDOR3" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="660" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004"
-			  scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR3_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Malbarth" posX="1723.016"
-	  posY="1251.029" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR3_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Malbarth" posX="1723.016" posY="1251.029" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR3_1" village_type="VillageType.fisherman"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR3"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR3_1" village_type="VillageType.fisherman" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9211,15 +8781,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR3_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Sarnhad" posX="1710.454"
-	  posY="1235.421" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR3_2" name="{=Settlements.Settlement.name.castle_village_EW4_1}Sarnhad" posX="1710.454" posY="1235.421" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR3_2" village_type="VillageType.clay_mine"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR3"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR3_2" village_type="VillageType.clay_mine" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9230,32 +8794,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_SWAN_GONDOR4" name="{=Settlements.Settlement.name.castle_EW4}Aerthir"
-	  owner="Faction.clan_empire_west_3" posX="1659.739" posY="1211.127" culture="Culture.gondor"
-	  gate_posX="1660.328" gate_posY="1209.599">
+	<Settlement id="castle_SWAN_GONDOR4" name="{=Settlements.Settlement.name.castle_EW4}Aerthir" owner="Faction.clan_empire_west_3" posX="1659.739" posY="1211.127" culture="Culture.gondor" gate_posX="1660.328" gate_posY="1209.599">
 		<Components>
-			<Town id="castle_comp_SWAN_GONDOR4" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="660" />
+			<Town id="castle_comp_SWAN_GONDOR4" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="660" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004"
-			  scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR4_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Londareth" posX="1685.409"
-	  posY="1205.368" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR4_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Londareth" posX="1685.409" posY="1205.368" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR4_1" village_type="VillageType.silver_mine"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR4"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR4_1" village_type="VillageType.silver_mine" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR4" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9266,32 +8817,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_SWAN_GONDOR5" name="{=Settlements.Settlement.name.castle_EW4}Lancrath"
-	  owner="Faction.clan_empire_west_7" posX="1353.225" posY="1351.621" culture="Culture.gondor"
-	  gate_posX="1353.793" gate_posY="1349.961">
+	<Settlement id="castle_SWAN_GONDOR5" name="{=Settlements.Settlement.name.castle_EW4}Lancrath" owner="Faction.clan_empire_west_3" posX="1353.225" posY="1351.621" culture="Culture.gondor" gate_posX="1353.793" gate_posY="1349.961">
 		<Components>
-			<Town id="castle_comp_SWAN_GONDOR5" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="660" />
+			<Town id="castle_comp_SWAN_GONDOR5" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="660" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004"
-			  scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR5_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Drengist" posX="1347.599"
-	  posY="1324.934" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR5_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Drengist" posX="1347.599" posY="1324.934" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR5_1" village_type="VillageType.swine_farm"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR5"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR5_1" village_type="VillageType.swine_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9302,15 +8840,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR5_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Gobel Drún" posX="1336.891"
-	  posY="1343.505" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR5_2" name="{=Settlements.Settlement.name.castle_village_EW4_1}Gobel Drún" posX="1336.891" posY="1343.505" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR5_2" village_type="VillageType.wheat_farm"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR5"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR5_2" village_type="VillageType.wheat_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR5" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9321,32 +8853,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_SWAN_GONDOR6" name="{=Settlements.Settlement.name.castle_EW4}Tadrent"
-	  owner="Faction.clan_empire_west_2" posX="1441.213" posY="1256.785" culture="Culture.gondor"
-	  gate_posX="1439.586" gate_posY="1256.97">
+	<Settlement id="castle_SWAN_GONDOR6" name="{=Settlements.Settlement.name.castle_EW4}Tadrent" owner="Faction.clan_empire_west_3" posX="1441.213" posY="1256.785" culture="Culture.gondor" gate_posX="1439.586" gate_posY="1256.97">
 		<Components>
-			<Town id="castle_comp_SWAN_GONDOR6" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="660" />
+			<Town id="castle_comp_SWAN_GONDOR6" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="660" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004"
-			  scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR6_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Fordol" posX="1432.465" posY="1266.899"
-	  culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR6_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Fordol" posX="1432.465" posY="1266.899" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR6_1" village_type="VillageType.date_farm"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR6"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR6_1" village_type="VillageType.date_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR6" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9357,32 +8876,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_SWAN_GONDOR7" name="{=Settlements.Settlement.name.castle_EW4}Tolfalas"
-	  owner="Faction.clan_empire_west_2" posX="1498.477" posY="1056.781" culture="Culture.gondor"
-	  gate_posX="1497.511" gate_posY="1055.458">
+	<Settlement id="castle_SWAN_GONDOR7" name="{=Settlements.Settlement.name.castle_EW4}Tolfalas" owner="Faction.clan_empire_west_3" posX="1498.477" posY="1056.781" culture="Culture.gondor" gate_posX="1497.511" gate_posY="1055.458">
 		<Components>
-			<Town id="castle_comp_SWAN_GONDOR7" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="660" />
+			<Town id="castle_comp_SWAN_GONDOR7" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="660" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004"
-			  scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR7_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Tol Fennas" posX="1479.819"
-	  posY="1043.87" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR7_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Tol Fennas" posX="1479.819" posY="1043.87" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR7_1" village_type="VillageType.fisherman"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR7"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR7_1" village_type="VillageType.fisherman" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR7" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9393,32 +8899,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_SWAN_GONDOR8" name="{=Settlements.Settlement.name.castle_EW4}Bergraw"
-	  owner="Faction.clan_empire_west_6" posX="1027.814" posY="1434.048" culture="Culture.gondor"
-	  gate_posX="1028.382" gate_posY="1432.388">
+	<Settlement id="castle_SWAN_GONDOR8" name="{=Settlements.Settlement.name.castle_EW4}Bergraw" owner="Faction.clan_empire_west_3" posX="1027.814" posY="1434.048" culture="Culture.gondor" gate_posX="1028.382" gate_posY="1432.388">
 		<Components>
-			<Town id="castle_comp_SWAN_GONDOR8" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="660" />
+			<Town id="castle_comp_SWAN_GONDOR8" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="660" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004"
-			  scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR8_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Camloth" posX="1037.653" posY="1389.94"
-	  culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR8_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Camloth" posX="1037.653" posY="1389.94" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR8_1" village_type="VillageType.iron_mine"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR8"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR8_1" village_type="VillageType.iron_mine" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR8" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9429,15 +8922,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR8_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Eryndolen" posX="1005.902"
-	  posY="1432.964" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR8_2" name="{=Settlements.Settlement.name.castle_village_EW4_1}Eryndolen" posX="1005.902" posY="1432.964" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR8_2" village_type="VillageType.lumberjack"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR8"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR8_2" village_type="VillageType.lumberjack" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR8" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9448,32 +8935,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_SWAN_GONDOR9" name="{=Settlements.Settlement.name.castle_EW4}Iaphel"
-	  owner="Faction.clan_empire_west_6" posX="1134.078" posY="1366.375" culture="Culture.gondor"
-	  gate_posX="1133.189" gate_posY="1366.173">
+	<Settlement id="castle_SWAN_GONDOR9" name="{=Settlements.Settlement.name.castle_EW4}Iaphel" owner="Faction.clan_empire_west_3" posX="1134.078" posY="1366.375" culture="Culture.gondor" gate_posX="1133.189" gate_posY="1366.173">
 		<Components>
-			<Town id="castle_comp_SWAN_GONDOR9" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="660" />
+			<Town id="castle_comp_SWAN_GONDOR9" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="660" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004"
-			  scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR9_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Barathrain" posX="1114.698"
-	  posY="1404.616" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR9_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Barathrain" posX="1114.698" posY="1404.616" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR9_1" village_type="VillageType.fisherman"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR9"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR9_1" village_type="VillageType.fisherman" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR9" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9484,15 +8958,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR9_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Gelintir" posX="1103.948"
-	  posY="1354.926" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR9_2" name="{=Settlements.Settlement.name.castle_village_EW4_1}Gelintir" posX="1103.948" posY="1354.926" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR9_2" village_type="VillageType.europe_horse_ranch"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR9"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR9_2" village_type="VillageType.europe_horse_ranch" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR9" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9503,32 +8971,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_SWAN_GONDOR10" name="{=Settlements.Settlement.name.castle_EW4}Melgobas"
-	  owner="Faction.clan_empire_west_8" posX="1184.778" posY="1342.894" culture="Culture.gondor"
-	  gate_posX="1186.367" gate_posY="1343.29">
+	<Settlement id="castle_SWAN_GONDOR10" name="{=Settlements.Settlement.name.castle_EW4}Melgobas" owner="Faction.clan_empire_west_3" posX="1184.778" posY="1342.894" culture="Culture.gondor" gate_posX="1186.367" gate_posY="1343.29">
 		<Components>
-			<Town id="castle_comp_SWAN_GONDOR10" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="660" />
+			<Town id="castle_comp_SWAN_GONDOR10" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="660" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004"
-			  scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR10_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Thombad" posX="1189.059"
-	  posY="1266.177" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR10_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Thombad" posX="1189.059" posY="1266.177" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR10_1" village_type="VillageType.iron_mine"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR10"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR10_1" village_type="VillageType.iron_mine" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR10" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9539,15 +8994,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR10_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Lithengris" posX="1236.912"
-	  posY="1337.23" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR10_2" name="{=Settlements.Settlement.name.castle_village_EW4_1}Lithengris" posX="1236.912" posY="1337.23" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR10_2" village_type="VillageType.salt_mine"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR10"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR10_2" village_type="VillageType.salt_mine" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR10" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9558,32 +9007,19 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_SWAN_GONDOR11" name="{=Settlements.Settlement.name.castle_EW4}Barad Faen"
-	  owner="Faction.clan_empire_west_8" posX="1064.747" posY="1343.179" culture="Culture.gondor"
-	  gate_posX="1063.144" gate_posY="1343.512">
+	<Settlement id="castle_SWAN_GONDOR11" name="{=Settlements.Settlement.name.castle_EW4}Barad Faen" owner="Faction.clan_empire_west_3" posX="1064.747" posY="1343.179" culture="Culture.gondor" gate_posX="1063.144" gate_posY="1343.512">
 		<Components>
-			<Town id="castle_comp_SWAN_GONDOR11" is_castle="true" level="1" background_crop_position="0.0"
-			  background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908"
-			  prosperity="660" />
+			<Town id="castle_comp_SWAN_GONDOR11" is_castle="true" level="1" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="660" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.castle_complex">
-			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004"
-			  scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
-			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior"
-			  scene_name_2="empire_castle_keep_a_l2_interior"
-			  scene_name_3="empire_castle_keep_a_l3_interior" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
+			<Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
 			<Location id="prison" scene_name="empire_dungeon_a" />
 		</Locations>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR11_1"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Dringon" posX="1027.797"
-	  posY="1340.276" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR11_1" name="{=Settlements.Settlement.name.castle_village_EW4_1}Dringon" posX="1027.797" posY="1340.276" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR11_1" village_type="VillageType.fisherman"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR11"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR11_1" village_type="VillageType.fisherman" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR11" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />
@@ -9594,15 +9030,9 @@
 			<Area type="Bog" name="{=iXA5SttU}Bog" />
 		</CommonAreas>
 	</Settlement>
-	<Settlement id="castle_village_SWAN_GONDOR11_2"
-	  name="{=Settlements.Settlement.name.castle_village_EW4_1}Fimlothel" posX="1014.635"
-	  posY="1286.049" culture="Culture.gondor"
-	  text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
+	<Settlement id="castle_village_SWAN_GONDOR11_2" name="{=Settlements.Settlement.name.castle_village_EW4_1}Fimlothel" posX="1014.635" posY="1286.049" culture="Culture.gondor" text="{=Settlements.Settlement.text.castle_village_EW4_1}Thractorae sits on a small bay that feeds into the larger Gulf of Charas. These lands, stirred by hot winds from the south and watered by hillside springs, have been used by imperial landowners for the experimental growing of date palms.">
 		<Components>
-			<Village id="castle_village_comp_SWAN_GONDOR11_2" village_type="VillageType.wheat_farm"
-			  hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR11"
-			  background_crop_position="0.0" background_mesh="gui_bg_village_empire"
-			  wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
+			<Village id="castle_village_comp_SWAN_GONDOR11_2" village_type="VillageType.wheat_farm" hearth="346" gate_rotation="0.208" bound="Settlement.castle_SWAN_GONDOR11" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.village_complex">
 			<Location id="village_center" scene_name="empire_village_v" />

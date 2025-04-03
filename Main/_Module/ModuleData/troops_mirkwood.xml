@@ -5,7 +5,8 @@
 		level="6"
 		name="{=Mirkwood Recruit}Mirkwood Recruit"
 		occupation="Soldier"
-		culture="Culture.battania">
+		is_basic_troop="true"
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -41,7 +42,7 @@
 		level="11"
 		name="{=Mirkwood Ranger}Mirkwood Ranger"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -76,7 +77,7 @@
 		level="16"
 		name="{=Mirkwood Silvan Archer}Mirkwood Silvan Archer"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -111,7 +112,7 @@
 		level="21"
 		name="{=Mirkwood Veteran Silvan Archer}Mirkwood Veteran Silvan Archer"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -146,7 +147,7 @@
 		level="26"
 		name="{=Mirkwood Lasgalen Archer}Mirkwood Lasgalen Archer"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -181,7 +182,7 @@
 		level="31"
 		name="{=Mirkwood Royal Lasgalen Archer}Mirkwood Royal Lasgalen Archer"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -213,7 +214,7 @@
 		level="11"
 		name="{=Mirkwood Guardsman}Mirkwood Guardsman"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -248,7 +249,7 @@
 		level="11"
 		name="{=Mirkwood Scout}Mirkwood Scout"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -284,7 +285,7 @@
 		level="16"
 		name="{=Mirkwood Bowman}Mirkwood Bowman"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -320,7 +321,7 @@
 		name="{=Mirkwood Mounted Scout}Mirkwood Mounted Scout"
 		upgrade_requires="ItemCategory.horse"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -363,7 +364,7 @@
 		level="21"
 		name="{=Mirkwood Horse Archer}Mirkwood Horse Archer"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -403,7 +404,7 @@
 		level="21"
 		name="{=Mirkwood Archer}Mirkwood Archer"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -438,7 +439,7 @@
 		level="26"
 		name="{=Mirkwood Veteran Archer}Mirkwood Veteran Archer"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -470,7 +471,7 @@
 		level="16"
 		name="{=Mirkwood Veteran Guardsman}Mirkwood Veteran Guardsman"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -505,7 +506,7 @@
 		level="21"
 		name="{=Mirkwood Sentinel}Mirkwood Sentinel"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -541,7 +542,7 @@
 		level="26"
 		name="{=Mirkwood Royal Swordsman}Mirkwood Royal Swordsman"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
@@ -573,7 +574,7 @@
 		level="26"
 		name="{=Mirkwood Royal Spearman}Mirkwood Royal Spearman"
 		occupation="Soldier"
-		culture="Culture.battania">
+		culture="Culture.mirkwood">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
