@@ -48,7 +48,7 @@ namespace LOTRAOM.Models
             }
             return defaultModel.GetBasicVolunteer(hero);
         }
-        private static readonly List<Func<Hero, List<VolunteerChance>?>> CallHierarchy = new() { GetVolunteerFromOwnerClanStringId, GetVolunteerFromSettlementStringId, GetVolunteerFromSettlementFactionStringId };
+        private static readonly List<Func<Hero, List<VolunteerChance>?>> CallHierarchy = new() { GetVolunteerFromOwnerClanStringId, GetVolunteerFromSettlementStringId, GetVolunteerFromSettlementCultureStringId };
 
         static List<VolunteerChance>? GetVolunteerFromSettlementStringId(Hero notable)
         {
@@ -60,9 +60,9 @@ namespace LOTRAOM.Models
             FromSettlementOwnerClanStringId.TryGetValue(notable.CurrentSettlement.OwnerClan.StringId, out List<VolunteerChance>? value);
             return value;
         }
-        static List<VolunteerChance>? GetVolunteerFromSettlementFactionStringId(Hero notable)
+        static List<VolunteerChance>? GetVolunteerFromSettlementCultureStringId(Hero notable)
         {
-            FromSettlementFactionStringId.TryGetValue(notable.CurrentSettlement.MapFaction.StringId, out List<VolunteerChance>? value);
+            FromSettlementFactionStringId.TryGetValue(notable.CurrentSettlement.MapFaction.Culture.StringId, out List<VolunteerChance>? value);
             return value;
         }
 
