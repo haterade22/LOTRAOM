@@ -12,7 +12,8 @@ using TaleWorlds.Core.ViewModelCollection.Selector;
 using TaleWorlds.MountAndBlade.ComponentInterfaces;
 using LOTRAOM.Models;
 using TaleWorlds.CampaignSystem.ComponentInterfaces;
-using LOTRAOM.CampaignBehaviors;
+using LOTRAOM.CultureFeats;
+using LOTRAOM.Patches;
 namespace LOTRAOM
 {
     public class SubModule : MBSubModuleBase
