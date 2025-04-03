@@ -21,7 +21,7 @@ namespace LOTRAOM.Models
         {
             int baseValue = previousModel.GetTargetNotableCountForSettlement(settlement, occupation);
             if (settlement.Culture.StringId == "mordor" && settlement.IsTown && occupation == Occupation.Merchant)
-                baseValue += 2;
+                baseValue += 3;
             return baseValue;
         }
     }
