@@ -48,7 +48,7 @@ namespace LOTRAOM.Models
             }
             return defaultModel.GetBasicVolunteer(hero);
         }
-        private static readonly List<Func<Hero, List<VolunteerChance>?>> CallHierarchy = new() { GetVolunteerFromOwnerClanStringId, GetVolunteerFromSettlementStringId };
+        private static readonly List<Func<Hero, List<VolunteerChance>?>> CallHierarchy = new() { GetVolunteerFromOwnerClanStringId, GetVolunteerFromSettlementStringId, GetVolunteerFromSettlementFactionStringId };
 
         static List<VolunteerChance>? GetVolunteerFromSettlementStringId(Hero notable)
         {
@@ -60,6 +60,11 @@ namespace LOTRAOM.Models
             FromSettlementOwnerClanStringId.TryGetValue(notable.CurrentSettlement.OwnerClan.StringId, out List<VolunteerChance>? value);
             return value;
         }
+        static List<VolunteerChance>? GetVolunteerFromSettlementFactionStringId(Hero notable)
+        {
+            FromSettlementFactionStringId.TryGetValue(notable.CurrentSettlement.MapFaction.StringId, out List<VolunteerChance>? value);
+            return value;
+        }
 
         private static readonly Dictionary<string, List<VolunteerChance>> FromNotableStringId = new() { };
         private static readonly Dictionary<string, List<VolunteerChance>> FromSettlementStringId = new()
@@ -69,6 +74,10 @@ namespace LOTRAOM.Models
         private static readonly Dictionary<string, List<VolunteerChance>> FromSettlementOwnerClanStringId = new()
         {
             ["clan_empire_south_1"] = new List<VolunteerChance> { new("looter", 1) }
+        };
+        private static readonly Dictionary<string, List<VolunteerChance>> FromSettlementFactionStringId = new()
+        {
+            ["mordor"] = new List<VolunteerChance> { new("mordor_uruk_grunt", 3), new("mordor_rhun_servant", 1) }
         };
 
         public class VolunteerChance
