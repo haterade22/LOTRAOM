@@ -5,7 +5,7 @@ namespace LOTRAOM.CultureFeats
 {
     public class LOTRAOMCultureFeats
     {
-        private static LOTRAOMCultureFeats _instance;
+        private static LOTRAOMCultureFeats _instance = new();
         public static LOTRAOMCultureFeats Instance 
         {
             get

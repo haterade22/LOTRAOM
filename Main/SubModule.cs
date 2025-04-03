@@ -12,6 +12,7 @@ using TaleWorlds.Core.ViewModelCollection.Selector;
 using TaleWorlds.MountAndBlade.ComponentInterfaces;
 using LOTRAOM.Models;
 using TaleWorlds.CampaignSystem.ComponentInterfaces;
+using LOTRAOM.CampaignBehaviors;
 namespace LOTRAOM
 {
     public class SubModule : MBSubModuleBase
@@ -58,6 +59,7 @@ namespace LOTRAOM
                 campaignGameStarter.AddModel(new LOTRAOMBuildingConstructionModel(campaignGameStarter.GetExistingModel<BuildingConstructionModel>()));
                 campaignGameStarter.AddModel(new LOTRAOMArmyManagementCalculationModel(campaignGameStarter.GetExistingModel<ArmyManagementCalculationModel>()));
                 campaignGameStarter.AddModel(new LOTRAOMSettlementMilitiaModel(campaignGameStarter.GetExistingModel<SettlementMilitiaModel>()));
+                campaignGameStarter.AddModel(new AOMVolunteerModel(campaignGameStarter.GetExistingModel<VolunteerModel>()));
             }
         }
 

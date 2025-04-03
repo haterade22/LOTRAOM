@@ -5,7 +5,9 @@ using TaleWorlds.CampaignSystem.Settlements;
 
 namespace LOTRAOM.Patches
 {
+#pragma warning disable BHA0001 // Member does not exist in Type
     [HarmonyPatch(typeof(DefaultInformationRestrictionModel))]
+#pragma warning restore BHA0001 // Member does not exist in Type
     public class LOTRLOME_DefaultInformationRestrictionModelPatch
     {
         [HarmonyPrefix]
