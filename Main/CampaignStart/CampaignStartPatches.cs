@@ -36,13 +36,19 @@ namespace LOTRAOM.CampaignStart
                 return 0;
             }
 
-            CampaignStartGlobals.CCCultureData playerRaceData = CampaignStartGlobals.CCCulturesRaceData.TryGetValue(CharacterCreationCultureStageVMPatch.CurrentlySelectedCulture, out var value) ? value : CampaignStartGlobals.CCCulturesRaceData["default"];
+            CampaignStartGlobals.CCCultureData playerRaceData = CampaignStartGlobals.CCCulturesRaceData["default"];
+            if (CharacterCreationCultureStageVMPatch.CurrentlySelectedCulture != null &&
+                CampaignStartGlobals.CCCulturesRaceData.TryGetValue(CharacterCreationCultureStageVMPatch.CurrentlySelectedCulture, out var selectedRaceData))
+                playerRaceData = selectedRaceData;
             List<string> possibleCultureRaces = playerRaceData.PossibleRaces;
             return possibleCultureRaces.IndexOf(FaceGenVMOnSelectRacePatch.RaceSelected);
         }
         private static string[] GetAvailableRacesNames(FaceGenVM vm) // sets RaceSelector so it only contains available races 
         {
-            CampaignStartGlobals.CCCultureData playerRaceData = CampaignStartGlobals.CCCulturesRaceData.TryGetValue(CharacterCreationCultureStageVMPatch.CurrentlySelectedCulture, out var value) ? value : CampaignStartGlobals.CCCulturesRaceData["default"];
+            CampaignStartGlobals.CCCultureData playerRaceData = CampaignStartGlobals.CCCulturesRaceData["default"];
+            if (CharacterCreationCultureStageVMPatch.CurrentlySelectedCulture != null &&
+                CampaignStartGlobals.CCCulturesRaceData.TryGetValue(CharacterCreationCultureStageVMPatch.CurrentlySelectedCulture, out var selectedRaceData))
+                playerRaceData = selectedRaceData;
             List<string> possibleCultureRaces = playerRaceData.PossibleRaces;
             return possibleCultureRaces.ToArray();
         }
