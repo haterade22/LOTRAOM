@@ -18,7 +18,7 @@ namespace LOTRAOM.Patches
             return false; // Skip original method
         }
 
-        [HarmonyPrefix]
+        [HarmonyPrefix] 
         [HarmonyPatch(nameof(DefaultInformationRestrictionModel.DoesPlayerKnowDetailsOf), new[] { typeof(Hero) })]
         private static bool DoesPlayerKnowDetailsOfHeroPrefix(ref bool __result)
         {
