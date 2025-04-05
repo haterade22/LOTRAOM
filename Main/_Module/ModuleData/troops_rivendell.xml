@@ -2,7 +2,7 @@
 <NPCCharacters>
 	<NPCCharacter id="rivendell_recruit"
 		default_group="Infantry"
-		level="6"
+		level="21"
 		name="{=rivendell_recruit}Imladris Recruit"
 		occupation="Soldier"
 		is_basic_troop="true"
@@ -55,7 +55,7 @@
 
 	<NPCCharacter id="rivendell_infantry"
 		default_group="Infantry"
-		level="11"
+		level="26"
 		name="{=rivendell_infantry}Imladris Infantry"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -105,7 +105,7 @@
 
 	<NPCCharacter id="rivendell_archer"
 		default_group="Ranged"
-		level="11"
+		level="26"
 		name="{=rivendell_archer}Imladris Archer"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -161,7 +161,7 @@
 
 	<NPCCharacter id="rivendell_swordguard"
 		default_group="Infantry"
-		level="16"
+		level="31"
 		name="{=rivendell_swordguard}Imladris Swordguard"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -213,7 +213,7 @@
 
 	<NPCCharacter id="rivendell_sentinel"
 		default_group="Ranged"
-		level="16"
+		level="31"
 		name="{=rivendell_sentinel}Imladris Sentinel"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -268,7 +268,7 @@
 
 	<NPCCharacter id="rivendell_scout"
 		default_group="HorseArcher"
-		level="16"
+		level="31"
 		name="{=rivendell_scout}Imladris Scout"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -327,7 +327,7 @@
 
 	<NPCCharacter id="rivendell_rider"
 			default_group="Cavalry"
-			level="16"
+			level="31"
 			name="{=rivendell_rider}Imladris Rider"
 			occupation="Soldier"
 			culture="Culture.rivendell">
@@ -382,7 +382,7 @@
 
 	<NPCCharacter id="noldorin_archer"
 		default_group="Ranged"
-		level="21"
+		level="36"
 		name="{=noldorin_archer}Noldorin Archer"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -437,7 +437,7 @@
 
 	<NPCCharacter id="rivendell_lightrider"
 		default_group="HorseArcher"
-		level="21"
+		level="36"
 		name="{=rivendell_lightrider}Imladris Light Rider"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -495,7 +495,7 @@
 
 	<NPCCharacter id="rivendell_knight"
 		default_group="Cavalry"
-		level="21"
+		level="36"
 		name="{=rivendell_knight}Imladris Knight"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -551,7 +551,7 @@
 
 	<NPCCharacter id="rivendell_blademasters"
 		default_group="Infantry"
-		level="31"
+		level="46"
 		name="{=rivendell_blademasters}Imladris Blademaster"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -601,7 +601,7 @@
 
 <NPCCharacter id="rivendell_swords"
 		default_group="Infantry"
-		level="31"
+		level="46"
 		name="{=rivendell_swords}Noldorin Swords"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -649,7 +649,7 @@
 
 <NPCCharacter id="rivendell_spearguard"
 		default_group="Infantry"
-		level="31"
+		level="46"
 		name="{=rivendell_spearguard}Imladris Spearguard"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -697,7 +697,7 @@
 
 	<NPCCharacter id="rivendell_lancers"
 		default_group="Cavalry"
-		level="31"
+		level="41"
 		name="{=rivendell_lancer}Rivendell Lancer"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -751,7 +751,7 @@
 
 	<NPCCharacter id="rivendell_marksman"
 		default_group="Ranged"
-		level="26"
+		level="41"
 		name="{=rivendell_marksman}Noldorin Marksman"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -807,7 +807,7 @@
 
 	<NPCCharacter id="rivendell_royalarcher"
 		default_group="Ranged"
-		level="31"
+		level="46"
 		name="{=rivendell_royalarcher}Rivendell Royal Archer"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -815,14 +815,14 @@
 			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="400"/>
-			<skill id="Riding" value="400"/>
-			<skill id="OneHanded" value="400"/>
-			<skill id="TwoHanded" value="400"/>
-			<skill id="Polearm" value="400"/>
+			<skill id="Athletics" value="450"/>
+			<skill id="Riding" value="450"/>
+			<skill id="OneHanded" value="450"/>
+			<skill id="TwoHanded" value="450" />
+			<skill id="Polearm" value="450"/>
 			<skill id="Bow" value="450"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="400"/>
+			<skill id="Throwing" value="450"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rivendell_ohtarion"/>
@@ -862,7 +862,7 @@
 
 	<NPCCharacter id="rivendell_warden"
 		default_group="HorseArcher"
-		level="26"
+		level="41"
 		name="{=rivendell_warden}Imladris Warden"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -920,7 +920,7 @@
 
 	<NPCCharacter id="rivendell_starshard"
 			default_group="HorseArcher"
-			level="31"
+			level="46"
 			name="{=rivendell_starshard}Imladris Starshard Rider "
 			occupation="Soldier"
 			culture="Culture.rivendell">
@@ -928,14 +928,14 @@
 			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="400"/>
-			<skill id="Riding" value="400"/>
-			<skill id="OneHanded" value="400"/>
-			<skill id="TwoHanded" value="400"/>
-			<skill id="Polearm" value="400"/>
-			<skill id="Bow" value="400"/>
+			<skill id="Athletics" value="450"/>
+			<skill id="Riding" value="450"/>
+			<skill id="OneHanded" value="450"/>
+			<skill id="TwoHanded" value="450"/>
+			<skill id="Polearm" value="450"/>
+			<skill id="Bow" value="450"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="400"/>
+			<skill id="Throwing" value="450"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -978,7 +978,7 @@
 
 	<NPCCharacter id="rivendell_ohtarion"
 		default_group="Ranged"
-		level="36"
+		level="51"
 		name="{=rivendell_ohtarion}Rivendell Ohtarion"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -1035,7 +1035,7 @@
 	
 	<NPCCharacter id="rivendell_noble"
 		default_group="Cavalry"
-		level="16"
+		level="36"
 		name="{=rivendell_noble}Rivendell Noble"
 		occupation="Soldier"
 		is_basic_troop="true"
@@ -1085,7 +1085,7 @@
 
 	<NPCCharacter id="rivendell_royal_guard"
 		default_group="Cavalry"
-		level="21"
+		level="41"
 		name="{=rivendell_royal_guard}Rivendell Royal Guard"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -1134,7 +1134,7 @@
 
 	<NPCCharacter id="rivendell_royal_knight"
 		default_group="Cavalry"
-		level="26"
+		level="46"
 		name="{=rivendell_royal_knight}Rivendell Royal Knight"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -1183,7 +1183,7 @@
 
 	<NPCCharacter id="rivendell_high_captain"
 		default_group="Cavalry"
-		level="31"
+		level="51"
 		name="{=rivendell_high_captain}Rivendell High Captain"
 		occupation="Soldier"
 		culture="Culture.rivendell">
@@ -1191,14 +1191,14 @@
 			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="500"/>
-			<skill id="Riding" value="500"/>
-			<skill id="OneHanded" value="500"/>
-			<skill id="TwoHanded" value="500"/>
-			<skill id="Polearm" value="500"/>
-			<skill id="Bow" value="500"/>
+			<skill id="Athletics" value="525"/>
+			<skill id="Riding" value="525"/>
+			<skill id="OneHanded" value="525"/>
+			<skill id="TwoHanded" value="525"/>
+			<skill id="Polearm" value="525"/>
+			<skill id="Bow" value="525"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="500"/>
+			<skill id="Throwing" value="525"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>

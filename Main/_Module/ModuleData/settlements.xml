@@ -1254,7 +1254,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="castle_EW8" name="{=Settlements.Settlement.name.castle_EW8}Henneth Annûn"
-	  owner="Faction.clan_empire_west_1" posX="1814.319" posY="1462.608" culture="Culture.gondor"
+	  owner="Faction.clan_empire_west_12" posX="1814.319" posY="1462.608" culture="Culture.gondor"
 	  gate_posX="1814.641" gate_posY="1464.214">
 		<Components>
 			<Town id="castle_comp_EW8" is_castle="true" level="1" background_crop_position="0.0"
@@ -9981,11 +9981,11 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_SWAN_ISENGARD1_1"
-	  name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1350.069" posY="1709.115"
+	  name="{=Settlements.Settlement.name.village_A1_1}Tharnûl-dûm" posX="1350.069" posY="1709.115"
 	  culture="Culture.isengard"
-	  text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	 text="{=Settlements.Settlement.text.village_Isengard_1}Tharnûl-dûm lies at the base of the Misty Mountains, where dark veins of iron run deep through the stone. Once a quiet hamlet, it now groans with the sound of hammers and furnaces, feeding Isengard’s forges with ore for war. The air hangs heavy with soot, and the earth bleeds metal for the White Hand.">
 		<Components>
-			<Village id="village_comp_SWAN_ISENGARD1_1" village_type="VillageType.fisherman" hearth="300"
+			<Village id="village_comp_SWAN_ISENGARD1_1" village_type="VillageType.iron_mine" hearth="300"
 			  bound="Settlement.town_SWAN_ISENGARD1" background_crop_position="0.145"
 			  background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village"
 			  castle_background_mesh="gui_bg_castle_aserai" />
@@ -10000,11 +10000,11 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_SWAN_ISENGARD1_2"
-	  name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1329.702" posY="1705.902"
+	  name="{=Settlements.Settlement.name.village_A1_2}Durthandûr" posX="1329.702" posY="1705.902"
 	  culture="Culture.isengard"
-	  text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	text="{=Settlements.Settlement.text.village_Isengard_2}Durthandûr crouches at the edge of what was once a greenwood, now scarred by axe and flame. Day and night, laborers fell ancient trees and drag them to the roads leading north to Isengard. The forest weeps, but the saws do not stop — not while Saruman builds his legions.">
 		<Components>
-			<Village id="village_comp_SWAN_ISENGARD1_2" village_type="VillageType.olive_trees"
+			<Village id="village_comp_SWAN_ISENGARD1_2" village_type="VillageType.lumberjack"
 			  hearth="235" bound="Settlement.town_SWAN_ISENGARD1" background_crop_position="0.308"
 			  background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village"
 			  castle_background_mesh="gui_bg_castle_aserai" />

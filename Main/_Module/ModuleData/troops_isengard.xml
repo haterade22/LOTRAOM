@@ -3,6 +3,7 @@
 	<NPCCharacter id="urukhai_recruit"
 		default_group="Infantry"
 		level="6"
+		race="uruk"
 		name="{=urukhai_recruit}Uruk-Hai Recruit"
 		occupation="Soldier"
 		is_basic_troop="true"
@@ -11,10 +12,10 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
 			<skill id="Polearm" value="0"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
@@ -26,21 +27,38 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_1h_sword_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="urukhai_fighter"
 		default_group="Infantry"
 		level="11"
+		race="uruk"
 		name="{=urukhai_fighter}Uruk-Hai Fighter"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -48,10 +66,10 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="150"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
 			<skill id="Polearm" value="0"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
@@ -63,21 +81,38 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_1h_sword_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="urukhai_scout"
 		default_group="Ranged"
 		level="11"
+		race="uruk"
 		name="{=urukhai_scout}Uruk-Hai Scout"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -85,12 +120,12 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="150"/>
 			<skill id="Riding" value="0"/>
 			<skill id="OneHanded" value="0"/>
 			<skill id="TwoHanded" value="0"/>
 			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Bow" value="100"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
 		</skills>
@@ -100,15 +135,34 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_isengard_bow_a01" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -116,6 +170,7 @@
 	<NPCCharacter id="urukhai_warrior"
 		default_group="Infantry"
 		level="16"
+		race="uruk"
 		name="{=urukhai_warrior}Uruk-Hai Warrior"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -123,11 +178,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="175"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="175"/>
+			<skill id="TwoHanded" value="175"/>
+			<skill id="Polearm" value="175"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -138,15 +193,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_1h_sword_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -154,6 +225,7 @@
 	<NPCCharacter id="urukhai_feller"
 		default_group="Infantry"
 		level="16"
+		race="uruk"
 		name="{=urukhai_feller}Uruk-Hai Feller"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -161,11 +233,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="175"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="175"/>
+			<skill id="TwoHanded" value="185"/>
+			<skill id="Polearm" value="175"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -175,21 +247,35 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_2h_axe_c" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="urukhai_skirmisher"
 		default_group="Ranged"
 		level="16"
+		race="uruk"
 		name="{=urukhai_skirmisher}Uruk-Hai Skirmisher"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -197,13 +283,13 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="175"/>
 			<skill id="Riding" value="0"/>
 			<skill id="OneHanded" value="0"/>
 			<skill id="TwoHanded" value="0"/>
 			<skill id="Polearm" value="0"/>
 			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
+			<skill id="Crossbow" value="75"/>
 			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
@@ -211,21 +297,38 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_isengard_crossbow_a01" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_a" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="urukhai_hunter"
 		default_group="Ranged"
 		level="16"
+		race="uruk"
 		name="{=urukhai_hunter}Uruk-Hai Hunter"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -233,12 +336,12 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="150"/>
 			<skill id="Riding" value="0"/>
 			<skill id="OneHanded" value="0"/>
 			<skill id="TwoHanded" value="0"/>
 			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Bow" value="150"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
 		</skills>
@@ -247,21 +350,41 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_isengard_bow_a01" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="urukhai_spearman"
 		default_group="Infantry"
 		level="21"
+		race="uruk"
 		name="{=urukhai_spearman}Uruk-Hai Spearman"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -269,11 +392,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="250"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="300"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -284,21 +407,38 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_spear_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a02" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="urukhai_swordman"
 		default_group="Infantry"
 		level="21"
+		race="uruk"
 		name="{=urukhai_swordman}Uruk-Hai Swordman"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -306,11 +446,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="250"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -321,15 +461,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_1h_sword_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -337,6 +493,7 @@
 	<NPCCharacter id="urukhai_slayer"
 		default_group="Infantry"
 		level="21"
+		race="uruk"
 		name="{=urukhai_slayer}Uruk-Hai Slayer"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -344,11 +501,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="300"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -358,21 +515,35 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_2h_axe_a" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="urukhai_tracker"
 		default_group="Ranged"
 		level="21"
+		race="uruk"
 		name="{=urukhai_tracker}Uruk-Hai Tracker"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -380,12 +551,12 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="225"/>
 			<skill id="Riding" value="0"/>
 			<skill id="OneHanded" value="0"/>
 			<skill id="TwoHanded" value="0"/>
 			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Bow" value="220"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
 		</skills>
@@ -394,21 +565,41 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_isengard_bow_a01" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="urukhai_arbalest"
 		default_group="Ranged"
 		level="21"
+		race="uruk"
 		name="{=urukhai_arbalest}Uruk-Hai Arbalest"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -422,7 +613,7 @@
 			<skill id="TwoHanded" value="0"/>
 			<skill id="Polearm" value="0"/>
 			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
+			<skill id="Crossbow" value="150"/>
 			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
@@ -430,21 +621,38 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_isengard_crossbow_a01" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	
 	<NPCCharacter id="urukhai_pikeman"
 		default_group="Infantry"
 		level="26"
+		race="uruk"
 		name="{=urukhai_pikeman}Uruk-Hai Pikeman"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -452,11 +660,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="350"/>
 			<skill id="Riding" value="0"/>
 			<skill id="OneHanded" value="0"/>
 			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="Polearm" value="350"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -466,33 +674,47 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_pike_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="urukhai_veteranspearman"
-	default_group="Infantry"
-	level="26"
-	name="{=urukhai_veteranspearman}Uruk-Hai Veteran Spearman"
-	occupation="Soldier"
-	culture="Culture.isengard">
+		default_group="Infantry"
+		level="26"
+		race="uruk"
+		name="{=urukhai_veteranspearman}Uruk-Hai Veteran Spearman"
+		occupation="Soldier"
+		culture="Culture.isengard">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="300"/>
 			<skill id="Riding" value="0"/>
 			<skill id="OneHanded" value="0"/>
 			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="Polearm" value="350"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -502,34 +724,51 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_spear_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a02" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 
 	<NPCCharacter id="urukhai_infantry"
-	default_group="Infantry"
-	level="26"
-	name="{=urukhai_infantry}Uruk-Hai Infantry"
-	occupation="Soldier"
-	culture="Culture.isengard">
+		default_group="Infantry"
+		level="26"
+		race="uruk"
+		name="{=urukhai_infantry}Uruk-Hai Infantry"
+		occupation="Soldier"
+		culture="Culture.isengard">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="300"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -539,34 +778,51 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_1h_sword_a" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 
 	<NPCCharacter id="urukhai_champion"
-	default_group="Infantry"
-	level="26"
-	name="{=urukhai_champion}Uruk-Hai Champion"
-	occupation="Soldier"
-	culture="Culture.isengard">
+		default_group="Infantry"
+		level="26"
+		race="uruk"
+		name="{=urukhai_champion}Uruk-Hai Champion"
+		occupation="Soldier"
+		culture="Culture.isengard">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="325"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="325"/>
+			<skill id="TwoHanded" value="325"/>
+			<skill id="Polearm" value="325"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -576,21 +832,38 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_berserker_sword" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	
 	<NPCCharacter id="urukhai_reaver"
 		default_group="Infantry"
 		level="26"
+		race="uruk"
 		name="{=urukhai_reaver}Uruk-Hai Reaver"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -598,11 +871,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="325"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -611,15 +884,28 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_2h_axe_a" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -628,6 +914,7 @@
 	<NPCCharacter id="urukhai_archer"
 		default_group="Ranged"
 		level="26"
+		race="uruk"
 		name="{=urukhai_archer}Uruk-Hai Archer"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -640,7 +927,7 @@
 			<skill id="OneHanded" value="0"/>
 			<skill id="TwoHanded" value="0"/>
 			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Bow" value="250"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
 		</skills>
@@ -649,21 +936,41 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_isengard_bow_a02" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="urukhai_crossbowman"
 		default_group="Ranged"
 		level="26"
+		race="uruk"
 		name="{=urukhai_crossbowman}Uruk-Hai Crossbowman"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -677,7 +984,7 @@
 			<skill id="TwoHanded" value="0"/>
 			<skill id="Polearm" value="0"/>
 			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
+			<skill id="Crossbow" value="250"/>
 			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
@@ -685,15 +992,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_isengard_crossbow_a01" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_c" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -707,11 +1030,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="400"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="350"/>
+			<skill id="TwoHanded" value="400"/>
+			<skill id="Polearm" value="400"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -721,15 +1044,28 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_berserker_sword" />			
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -737,6 +1073,7 @@
 	<NPCCharacter id="urukhai_chosenmarksman"
 		default_group="Ranged"
 		level="31"
+		race="uruk"
 		name="{=urukhai_chosenmarksman}Uruk-Hai Chosen Marksman"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -744,12 +1081,12 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="300"/>
 			<skill id="Riding" value="0"/>
 			<skill id="OneHanded" value="0"/>
 			<skill id="TwoHanded" value="0"/>
 			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="Bow" value="280"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
 		</skills>
@@ -757,21 +1094,38 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_isengard_bow_a02" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="urukhai_veterancrossbowman"
 		default_group="Ranged"
 		level="31"
+		race="uruk"
 		name="{=urukhai_veterancrossbowman}Uruk-Hai Veteran Crossbowman"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -779,28 +1133,44 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="300"/>
 			<skill id="Riding" value="0"/>
 			<skill id="OneHanded" value="0"/>
 			<skill id="TwoHanded" value="0"/>
 			<skill id="Polearm" value="0"/>
 			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
+			<skill id="Crossbow" value="300"/>
 			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_isengard_crossbow_a01" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_d" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -808,6 +1178,7 @@
 	<NPCCharacter id="urukhai_veteranpikeman"
 		default_group="Infantry"
 		level="31"
+		race="uruk"
 		name="{=urukhai_veteranpikeman}Uruk-Hai Veteran Pikeman"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -815,34 +1186,48 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="350"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="350"/>
+			<skill id="TwoHanded" value="350"/>
+			<skill id="Polearm" value="400"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="350"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_pike_a" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="urukhai_pavise"
 		default_group="Infantry"
 		level="31"
+		race="uruk"
 		name="{=urukhai_pavise}Uruk-Hai Pavise Guard"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -850,11 +1235,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="350"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="350"/>
+			<skill id="TwoHanded" value="350"/>
+			<skill id="Polearm" value="350"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -863,33 +1248,50 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_spear_a" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a02" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="urukhai_veteraninfantry"
 			default_group="Infantry"
 			level="31"
-			name="{=urukhai_veteraninfantry}Uruk-Hai Veteran Infantry"
+			race="uruk"
+			name="{=urukhai_veteraninfantry}Champions of the White Hand"
 			occupation="Soldier"
 			culture="Culture.isengard">
 		<face>
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="350"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="350"/>
+			<skill id="TwoHanded" value="350"/>
+			<skill id="Polearm" value="350"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -898,21 +1300,38 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_1h_sword_a" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="urukhai_nazg_hai"
 		default_group="Infantry"
 		level="36"
+		race="uruk"
 		name="{=urukhai_nazg_hai}Uruk-Hai Nazg-hai"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -920,11 +1339,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="450"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="450"/>
+			<skill id="TwoHanded" value="450"/>
+			<skill id="Polearm" value="450"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -933,15 +1352,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_berserker_sword" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a02" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -949,6 +1384,7 @@
 	<NPCCharacter id="orthanc_chosen"
 		default_group="Infantry"
 		level="16"
+		race="uruk"
 		name="{=orthanic_chosen}Orthanc Chosen"
 		occupation="Soldier"
 		is_basic_troop="true"
@@ -957,11 +1393,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="250"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -971,21 +1407,38 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_berserker_sword" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a02" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="orthanc_guard"
 		default_group="Infantry"
 		level="21"
+		race="uruk"
 		name="{=orthanic_guard}Orthanc Guard"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -993,11 +1446,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="295"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="295"/>
+			<skill id="TwoHanded" value="295"/>
+			<skill id="Polearm" value="295"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -1007,21 +1460,38 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_berserker_sword" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a02" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="orthanc_warden"
 		default_group="Infantry"
 		level="26"
+		race="uruk"
 		name="{=orthanic_warden}Orthanc Warden"
 		occupation="Soldier"
 		culture="Culture.isengard">
@@ -1029,11 +1499,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="375"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="350"/>
+			<skill id="TwoHanded" value="350"/>
+			<skill id="Polearm" value="350"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -1043,20 +1513,37 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_berserker_sword" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a02" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="orthanc_bodyguard"
 		default_group="Infantry"
+		race="uruk"
 		level="31"
 		name="{=orthanic_bodyguard}Orthanc Bodyguard"
 		occupation="Soldier"
@@ -1065,11 +1552,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="450"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="400"/>
+			<skill id="TwoHanded" value="400"/>
+			<skill id="Polearm" value="400"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -1078,15 +1565,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_berserker_sword" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a02" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	
