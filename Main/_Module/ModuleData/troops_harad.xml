@@ -1000,14 +1000,6 @@
 		<Equipments>
 			<EquipmentRoster>
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
 				civilian="true" />
@@ -1044,17 +1036,6 @@
 
 		</upgrade_targets>
 		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
 		<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
 				civilian="true" />
@@ -1064,6 +1045,7 @@
 		<equipment
 			slot="HorseHarness"
 			id="Item.steppe_half_barding" />
+		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="harad_horsearcher"

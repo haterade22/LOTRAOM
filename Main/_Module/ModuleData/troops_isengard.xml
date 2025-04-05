@@ -1104,6 +1104,9 @@
 					slot="Item2"
 					id="Item.piercing_arrows" />
 				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
 					slot="Cape"
 					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
 				<equipment
