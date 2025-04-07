@@ -1023,6 +1023,7 @@
 	<NPCCharacter id="urukhai_berserker"
 		default_group="Infantry"
 		level="31"
+		race="uruk"
 		name="{=urukhai_berserker}Uruk-Hai Berserker"
 		occupation="Soldier"
 		culture="Culture.isengard">

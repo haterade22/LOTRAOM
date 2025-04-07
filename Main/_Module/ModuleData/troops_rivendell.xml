@@ -25,33 +25,33 @@
 			<upgrade_target id="NPCCharacter.rivendell_infantry"/>
 		</upgrade_targets>
 		<Equipments>
-				<EquipmentRoster>
-					<equipment
-						slot="Item0"
-						id="Item.aserai_sword_3_t3" />
-					<equipment
-						slot="Item1"
-						id="Item.wm_elven_shield_a" />
-					<equipment
-						slot="Head"
-						id="Item.rivendell_helmet_gold" />
-					<equipment
-						slot="Body"
-						id="Item.rivendell_body_gold_a" />
-					<equipment
-						slot="Gloves"
-						id="Item.rivendell_gloves_gold" />
-					<equipment
-						slot="Leg"
-						id="Item.rivendell_boots" />
-				</EquipmentRoster>
-				<EquipmentSet
-					id="aserai_troop_civilian_template_t3"
-					civilian="true" />
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_elven_shield_a" />
+				<equipment
+					slot="Head"
+					id="Item.rivendell_helmet_gold" />
+				<equipment
+					slot="Body"
+					id="Item.rivendell_body_gold_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.rivendell_gloves_gold" />
+				<equipment
+					slot="Leg"
+					id="Item.rivendell_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
-	
+
 
 	<NPCCharacter id="rivendell_infantry"
 		default_group="Infantry"
@@ -139,7 +139,7 @@
 					id="Item.piercing_arrows" />
 				<equipment
 					slot="Item3"
-					id="Item.aserai_sword_3_t3" />		
+					id="Item.aserai_sword_3_t3" />
 				<equipment
 					slot="Head"
 					id="Item.rivendell_helmet_gold" />
@@ -596,63 +596,15 @@
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	
 
 
-<NPCCharacter id="rivendell_swords"
-		default_group="Infantry"
-		level="46"
-		name="{=rivendell_swords}Noldorin Swords"
-		occupation="Soldier"
-		culture="Culture.rivendell">
-	<face>
-		<face_key_template value="BodyProperty.fighter_rivendell"/>
-	</face>
-	<skills >
-		<skill id="Athletics" value="400"/>
-		<skill id="Riding" value="400"/>
-		<skill id="OneHanded" value="400"/>
-		<skill id="TwoHanded" value="400"/>
-		<skill id="Polearm" value="400"/>
-		<skill id="Bow" value="400"/>
-		<skill id="Crossbow" value="0"/>
-		<skill id="Throwing" value="400"/>
-	</skills>
-	<upgrade_targets>
-	</upgrade_targets>
-	<Equipments>
-		<EquipmentRoster>
-			<equipment
-				slot="Item0"
-				id="Item.aserai_sword_3_t3" />
-			<equipment
-				slot="Item1"
-				id="Item.wm_elven_shield_a" />
-			<equipment
-				slot="Head"
-				id="Item.rivendell_helmet_gold" />
-			<equipment
-				slot="Body"
-				id="Item.rivendell_body_gold_a" />
-			<equipment
-				slot="Gloves"
-				id="Item.rivendell_gloves_gold" />
-			<equipment
-				slot="Leg"
-				id="Item.rivendell_boots" />
-		</EquipmentRoster>
-		<EquipmentSet
-			id="aserai_troop_civilian_template_t3"
-			civilian="true" />
-	</Equipments>
-</NPCCharacter>
 
-<NPCCharacter id="rivendell_spearguard"
-		default_group="Infantry"
-		level="46"
-		name="{=rivendell_spearguard}Imladris Spearguard"
-		occupation="Soldier"
-		culture="Culture.rivendell">
+	<NPCCharacter id="rivendell_swords"
+			default_group="Infantry"
+			level="46"
+			name="{=rivendell_swords}Noldorin Swords"
+			occupation="Soldier"
+			culture="Culture.rivendell">
 		<face>
 			<face_key_template value="BodyProperty.fighter_rivendell"/>
 		</face>
@@ -668,31 +620,79 @@
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
-	<Equipments>
-		<EquipmentRoster>
-			<equipment
-				slot="Item0"
-				id="Item.aserai_sword_3_t3" />
-			<equipment
-				slot="Item1"
-				id="Item.wm_elven_shield_a" />
-			<equipment
-				slot="Head"
-				id="Item.rivendell_helmet_gold" />
-			<equipment
-				slot="Body"
-				id="Item.rivendell_body_gold_a" />
-			<equipment
-				slot="Gloves"
-				id="Item.rivendell_gloves_gold" />
-			<equipment
-				slot="Leg"
-				id="Item.rivendell_boots" />
-		</EquipmentRoster>
-		<EquipmentSet
-			id="aserai_troop_civilian_template_t3"
-			civilian="true" />
-	</Equipments>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_elven_shield_a" />
+				<equipment
+					slot="Head"
+					id="Item.rivendell_helmet_gold" />
+				<equipment
+					slot="Body"
+					id="Item.rivendell_body_gold_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.rivendell_gloves_gold" />
+				<equipment
+					slot="Leg"
+					id="Item.rivendell_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="rivendell_spearguard"
+			default_group="Infantry"
+			level="46"
+			name="{=rivendell_spearguard}Imladris Spearguard"
+			occupation="Soldier"
+			culture="Culture.rivendell">
+		<face>
+			<face_key_template value="BodyProperty.fighter_rivendell"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="400"/>
+			<skill id="Riding" value="400"/>
+			<skill id="OneHanded" value="400"/>
+			<skill id="TwoHanded" value="400"/>
+			<skill id="Polearm" value="400"/>
+			<skill id="Bow" value="400"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="400"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_elven_shield_a" />
+				<equipment
+					slot="Head"
+					id="Item.rivendell_helmet_gold" />
+				<equipment
+					slot="Body"
+					id="Item.rivendell_body_gold_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.rivendell_gloves_gold" />
+				<equipment
+					slot="Leg"
+					id="Item.rivendell_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="rivendell_lancers"
@@ -958,7 +958,7 @@
 					id="Item.rivendell_body_silver_b" />
 				<equipment
 					slot="Gloves"
-					id="Item.rivendell_silver" />
+					id="Item.rivendell_gloves_silver" />
 				<equipment
 					slot="Leg"
 					id="Item.rivendell_boots" />
@@ -974,7 +974,7 @@
 				id="Item.saddle_of_aeneas" />
 		</Equipments>
 	</NPCCharacter>
-	
+
 
 	<NPCCharacter id="rivendell_ohtarion"
 		default_group="Ranged"
@@ -1031,8 +1031,8 @@
 	</NPCCharacter>
 
 
-<!--Noble Line-->
-	
+	<!--Noble Line-->
+
 	<NPCCharacter id="rivendell_noble"
 		default_group="Cavalry"
 		level="36"
