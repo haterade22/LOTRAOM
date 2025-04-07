@@ -1254,7 +1254,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="castle_EW8" name="{=Settlements.Settlement.name.castle_EW8}Henneth Annûn"
-	  owner="Faction.clan_empire_west_1" posX="1814.319" posY="1462.608" culture="Culture.gondor"
+	  owner="Faction.clan_empire_west_12" posX="1814.319" posY="1462.608" culture="Culture.gondor"
 	  gate_posX="1814.641" gate_posY="1464.214">
 		<Components>
 			<Town id="castle_comp_EW8" is_castle="true" level="1" background_crop_position="0.0"
@@ -1858,7 +1858,7 @@
 	</Settlement>
 	<!--Mordor-->
 	<Settlement id="castle_village_ES1_1"
-	  name="{=Settlements.Settlement.name.castle_village_ES1_1}Zâmbul" posX="1952.84" posY="1407.452"
+	  name="{=Settlements.Settlement.name.castle_village_ES1_1}Zâmbul" posX="1953.325" posY="1412.569"
 	  culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES1_1}Odrysa lies on the far eastern frontiers of the Empire, just across the River Tiagys from lands that are now the Khuzait Khanate. Though this area is dry, oak and other trees grow in the Tiagys gorges and other nooks in the hills, sustaining a small lumber industry.">
 		<Components>
@@ -1895,8 +1895,8 @@
 		</Locations>
 	</Settlement>
 	<Settlement id="castle_village_ES2_1"
-	  name="{=Settlements.Settlement.name.castle_village_ES2_1}Balgoth" posX="1994.609"
-	  posY="1445.162" culture="Culture.mordor"
+	  name="{=Settlements.Settlement.name.castle_village_ES2_1}Balgoth" posX="1998.682"
+	  posY="1446.523" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES2_1}Corenia is one of the farthest flung villages of the empire to speak the Calradic tongue. It sits in the plains southeast of Lake Tanaesis in the shadow of the Akkan Hills, beyond which is spoken only Darshi and the languages of the steppe. Villagers grow grain here, keeping watch for raiders from across the frontiers.">
 		<Components>
 			<Village id="castle_village_comp_ES2_1" village_type="VillageType.wheat_farm" hearth="258"
@@ -1914,8 +1914,8 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="castle_village_ES2_2"
-	  name="{=Settlements.Settlement.name.castle_village_ES2_2}Kruzgoth" posX="1965.468"
-	  posY="1459.576" culture="Culture.mordor"
+	  name="{=Settlements.Settlement.name.castle_village_ES2_2}Kruzgoth" posX="1962.255"
+	  posY="1460.056" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES2_2}Metachia is the lies on the southern shores of Lake Tanaesis in the frontier lands beyond River Tiagys. This imperial colony, established in more peaceful times, is a center for mulberry bushes used in silk production.">
 		<Components>
 			<Village id="castle_village_comp_ES2_2" village_type="VillageType.silk_plant" hearth="258"
@@ -1951,8 +1951,8 @@
 		</Locations>
 	</Settlement>
 	<Settlement id="castle_village_ES3_1"
-	  name="{=Settlements.Settlement.name.castle_village_ES3_1}Nurngash" posX="2021.986"
-	  posY="1338.674" culture="Culture.mordor"
+	  name="{=Settlements.Settlement.name.castle_village_ES3_1}Nurngash" posX="2018.536"
+	  posY="1342.172" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES3_1}Melion in a narrow valley near the center of the Myzead, a rugged plateau in the east of the Empire. Villagers here cultivate mulberry bushes. The leaves are harvested and fed to silkworks, producing thread much valued by both refined imperial nobles for their courtwear and hard-riding nomads and frontiersmen, who wear it beneath their armor as an extra layer of protection against arrows.">
 		<Components>
 			<Village id="castle_village_comp_ES3_1" village_type="VillageType.silk_plant" hearth="448"
@@ -1970,7 +1970,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="castle_village_ES3_2"
-	  name="{=Settlements.Settlement.name.castle_village_ES3_2}Uludûn" posX="1980.988" posY="1323.857"
+	  name="{=Settlements.Settlement.name.castle_village_ES3_2}Uludûn" posX="1981.692" posY="1324.934"
 	  culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES3_2}Sagolina sits at the foot of a narrow valley in the Myzead, a rugged plateau in eastern Calradia. The silver mined from nearby hills helps explain the effort and expense to which the Empire has gone in past centuries to conquer and defend these lands.">
 		<Components>
@@ -2007,8 +2007,8 @@
 		</Locations>
 	</Settlement>
 	<Settlement id="castle_village_ES4_1"
-	  name="{=Settlements.Settlement.name.castle_village_ES4_1}Vethrûl" posX="2074.825" posY="1424.77"
-	  culture="Culture.mordor"
+	  name="{=Settlements.Settlement.name.castle_village_ES4_1}Vethrûl" posX="2071.589"
+	  posY="1422.748" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES4_1}Lavenia is a fishing village on the northeastern shores of the Perassic Sea. The nearby castle guards one of the main passages over the network of lakes and salt lagoons known as the Calsea, one of the gateways to Aserai lands.">
 		<Components>
 			<Village id="castle_village_comp_ES4_1" village_type="VillageType.fisherman" hearth="378"
@@ -2026,8 +2026,8 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="castle_village_ES4_2"
-	  name="{=Settlements.Settlement.name.castle_village_ES4_2}Thaurdom" posX="2040.68" posY="1386.82"
-	  culture="Culture.mordor"
+	  name="{=Settlements.Settlement.name.castle_village_ES4_2}Thaurdom" posX="2038.776"
+	  posY="1381.995" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES4_2}Ethemisa sits on the river that the Aserai call the Nahr al-Kals, the Bitter River, and what imperial citizens call the Calsa. Here, the river has just descended from the coastal hills and has not yet reached the alkali plains of the southeast. The lands around produce a fine crop of grain.">
 		<Components>
 			<Village id="castle_village_comp_ES4_2" village_type="VillageType.wheat_farm" hearth="378"
@@ -2063,8 +2063,8 @@
 		</Locations>
 	</Settlement>
 	<Settlement id="castle_village_ES5_1"
-	  name="{=Settlements.Settlement.name.castle_village_ES5_1}Naggrod" posX="2018.239"
-	  posY="1137.972" culture="Culture.mordor"
+	  name="{=Settlements.Settlement.name.castle_village_ES5_1}Naggrod" posX="2018.659"
+	  posY="1141.513" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES5_1}Morenia sits overlooking the Sethys river, on a low pass leading over the hills to the valley of the Lycarea. Villagers collect clay from the riverbanks for the kilns of the imperial southlands.">
 		<Components>
 			<Village id="castle_village_comp_ES5_1" village_type="VillageType.clay_mine" hearth="497"
@@ -2099,8 +2099,8 @@
 		</Locations>
 	</Settlement>
 	<Settlement id="castle_village_ES6_1"
-	  name="{=Settlements.Settlement.name.castle_village_ES6_1}Ghashdûm" posX="2140.074"
-	  posY="1281.269" culture="Culture.mordor"
+	  name="{=Settlements.Settlement.name.castle_village_ES6_1}Ghashdûm" posX="2136.955"
+	  posY="1282.524" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES6_1}Sestadaim sits on the western side of the great Ornian rock, an outcrop in the center of the Lycarea valley. Some say the vultures for which the rock is named once gathered here to feast on the bodies of those who died working the local silver mines.">
 		<Components>
 			<Village id="castle_village_comp_ES6_1" village_type="VillageType.silver_mine" hearth="158"
@@ -2118,8 +2118,8 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="castle_ES7" name="{=Settlements.Settlement.name.castle_ES7}Ghashgund"
-	  owner="Faction.clan_empire_south_9" posX="1965.616" posY="1199.422" culture="Culture.mordor"
-	  gate_posX="1967.234" gate_posY="1199.678"
+	  owner="Faction.clan_empire_south_9" posX="1965.505" posY="1199.418" culture="Culture.mordor"
+	  gate_posX="1967.123" gate_posY="1199.674"
 	  text="{=ghashgund_description}Ghashgund, the Forge of Flame, is a sprawling industrial hub nestled in the shadow of Mount Doom. This infernal complex is where the fires of Mordor are harnessed to craft weapons of war for Sauron’s armies. Its choking smoke blackens the sky, and its forges ring with the relentless hammering of Orcish blacksmiths. The air is thick with ash and the acrid stench of molten metal, while the overseers, brutal and tireless, drive their workers to produce tools of destruction. Ghashgund is not just a place of industry but a grim symbol of the Dark Lord's unyielding thirst for domination.">
 		<Components>
 			<Town id="castle_comp_ES7" is_castle="true" level="1" background_crop_position="0.0"
@@ -2136,8 +2136,8 @@
 		</Locations>
 	</Settlement>
 	<Settlement id="castle_village_ES7_1"
-	  name="{=Settlements.Settlement.name.castle_village_ES7_1}Dûralith" posX="1966.3" posY="1215.774"
-	  culture="Culture.mordor"
+	  name="{=Settlements.Settlement.name.castle_village_ES7_1}Dûralith" posX="1965.865"
+	  posY="1214.336" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES7_1}Jogurys lies on the flat western shores of Lake Tanaesis. This land was originally inhabited by nomadic tribes and has come under cultivation only recently. Imperial colonists have made intensive efforts to grow mullberry bushes here to raise silkworms, a lucrative product in this region.">
 		<Components>
 			<Village id="castle_village_comp_ES7_1" village_type="VillageType.silk_plant" hearth="303"
@@ -2173,8 +2173,8 @@
 		</Locations>
 	</Settlement>
 	<Settlement id="castle_village_ES8_1"
-	  name="{=Settlements.Settlement.name.castle_village_ES8_1}Dol Angûl" posX="2236.685"
-	  posY="1130.188" culture="Culture.mordor"
+	  name="{=Settlements.Settlement.name.castle_village_ES8_1}Dol Angûl" posX="2233.743"
+	  posY="1130.244" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES8_1}Chanopsis sits near the headwaters of the Sethys river in the plateau region known as the Myzead. Wheat grows well on the sun-baked plains.">
 		<Components>
 			<Village id="castle_village_comp_ES8_1" village_type="VillageType.wheat_farm" hearth="582"
@@ -2224,7 +2224,7 @@
 	</Settlement>
 	<!-- Feverheat -->
 	<Settlement id="castle_village_ES1_2"
-	  name="{=Settlements.Settlement.name.castle_village_ES1_2}Ulzgor" posX="1941.269" posY="1421.56"
+	  name="{=Settlements.Settlement.name.castle_village_ES1_2}Ulzgor" posX="1944.627" posY="1420.416"
 	  culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES1_1}Caira sits amid the network of rivers, lakes and lagoons known as the Calsea. Any further east, the land becomes alkaline and barren, but here the floodplains of the parallel Calsa and Tiagys rivers allow the growing of wheat.">
 		<Components>
@@ -2243,7 +2243,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES1_2" name="{=Settlements.Settlement.name.village_ES1_2}Narguldûr"
-	  posX="2008.632" posY="1441.961" culture="Culture.mordor"
+	  posX="2012.987" posY="1440.531" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES1_2}Polisia sits among the network of rivers and lakes known as the Calsea near the Aserai borderlands. Villagers harvest salt from a lagoon to their west, a former inlet of the Perassic sea that was cut off by a sandspit. These lowlands are shunned by many others in Calradia, who find the air thick and fetid, but the inhabitants are proud of their role keeping watch on the Aserai.">
 		<Components>
 			<Village id="village_comp_ES1_2" village_type="VillageType.salt_mine" hearth="218"
@@ -2261,7 +2261,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES1_3" name="{=Settlements.Settlement.name.village_ES1_3}Mornazg"
-	  posX="2005.702" posY="1454.756" culture="Culture.mordor"
+	  posX="2010.088" posY="1452.938" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES1_3}Tegresos sits just north of the River Calsa, right before it enters the network of lakes, creeks and lagoons that form the borderlands with the Aserai. The inhabitants of this region have bred sheep that feed on marsh-grasses.">
 		<Components>
 			<Village id="village_comp_ES1_3" village_type="VillageType.sheep_farm" hearth="231"
@@ -2279,7 +2279,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES1_4" name="{=Settlements.Settlement.name.village_ES1_4}Morbâr"
-	  posX="2029.64" posY="1418.972" culture="Culture.mordor"
+	  posX="2032.59" posY="1417.079" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES1_4}Erebulos lies by a lagoon that was formerly part of the Perassic Sea, closed by a recently formed sandspit. Villagers scoop clay from the creek-bottoms here, selling it to the pottery kilns of Danustica and other nearby towns.">
 		<Components>
 			<Village id="village_comp_ES1_4" village_type="VillageType.clay_mine" hearth="231"
@@ -2299,8 +2299,8 @@
 	<!-- Rhogas and Lykaron - west and center of larger southern lake, clan 7, queen-->
 	<!-- Rhogas is tight between lake and mountains, like Trebizond -->
 	<Settlement id="town_ES2" name="{=Settlements.Settlement.name.town_ES2}Lhingris"
-	  owner="Faction.clan_empire_south_4" posX="2371.582" posY="1435.653" culture="Culture.mordor"
-	  gate_posX="2374.099" gate_posY="1433.302"
+	  owner="Faction.clan_empire_south_4" posX="2354.302" posY="1438.005" culture="Culture.mordor"
+	  gate_posX="2357.685" gate_posY="1438.655"
 	  text="{=town_of_seregost_description}Seregost, the Shadowed Citadel, rises ominously amidst the icy expanse of Mordor's northern wastes. Encased in frost and shrouded in perpetual gloom, it serves as a stronghold for Sauron’s lieutenants and a staging ground for his dark designs. The fortress is a grim labyrinth of jagged spires and blackened stone, its halls echoing with the harsh commands of orc captains and the sinister whispers of dark sorcery. Seregost’s strategic position makes it a crucial link between Mordor’s heartland and its northern outposts, its garrison poised to crush any who dare challenge the Dark Lord’s supremacy. It is a place of foreboding and relentless purpose, a beacon of terror against the desolate skyline.">
 		<Components>
 			<Town id="town_comp_ES2" is_castle="false" level="1" background_crop_position="0.45"
@@ -2328,8 +2328,8 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="castle_village_ES5_2"
-	  name="{=Settlements.Settlement.name.castle_village_ES5_2}Durthos" posX="2006.241"
-	  posY="1115.197" culture="Culture.mordor"
+	  name="{=Settlements.Settlement.name.castle_village_ES5_2}Durthos" posX="2031.036"
+	  posY="1116.199" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES2_1}The village of Atphynia sits near the mouth of the Sethys river, just before it splits into three to form the valley known as Tripotamia. Villagers here have laid out salt pans near where the Sethys estuary joins the Perassic sea.">
 		<Components>
 			<Village id="castle_village_ES5_2" village_type="VillageType.salt_mine" hearth="130"
@@ -2347,7 +2347,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES2_2" name="{=Settlements.Settlement.name.village_ES2_2}Dagorlad"
-	  posX="2389.086" posY="1403.747" culture="Culture.mordor"
+	  posX="2386.957" posY="1404.053" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES2_2}Gorcorys sits on the Gorea, the southernmost tributary of the Sethys river in the valley of Tripotamia. The dark, well-watered soil here makes this region an imperial breadbasket.">
 		<Components>
 			<Village id="village_comp_ES2_2" village_type="VillageType.wheat_farm" hearth="355"
@@ -2365,7 +2365,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES2_3" name="{=Settlements.Settlement.name.village_ES2_3}Morgash"
-	  posX="2357.021" posY="1364.273" culture="Culture.mordor"
+	  posX="2354.704" posY="1365.252" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES2_3}Avalyps sits near the headwaters of the River Calsa in the warm coastal hills of the southern Empire.The dark, well-watered soil here makes this region an imperial breadbasket.">
 		<Components>
 			<Village id="village_comp_ES2_3" village_type="VillageType.wheat_farm" hearth="355"
@@ -2383,7 +2383,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES2_4" name="{=Settlements.Settlement.name.village_ES2_4}Gorgul"
-	  posX="2408.772" posY="1440.132" culture="Culture.mordor"
+	  posX="2403.658" posY="1434.899" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES2_4}Alision lies on the northern coast of the Perassic Sea. Though fishing is poor in these parts, villagers have constructed salt pans that stick far out into the shallow waters.">
 		<Components>
 			<Village id="village_comp_ES2_4" village_type="VillageType.salt_mine" hearth="355"
@@ -2432,7 +2432,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES3_1" name="{=Settlements.Settlement.name.village_ES3_1}Zirakdum"
-	  posX="2152.497" posY="1195.866" culture="Culture.mordor"
+	  posX="2131.585" posY="1182.507" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES3_1}Canoros sits in the flat southern reaches of the Lycarea plain. This land has been good horse country since even before the Empire came, furnishing the steeds of the Lycarean riders who routed several Calradian armies before their final defeat and absorption into the imperial cavalry.">
 		<Components>
 			<Village id="village_comp_ES3_1" village_type="VillageType.europe_horse_ranch" hearth="202"
@@ -2450,7 +2450,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES3_2" name="{=Settlements.Settlement.name.village_ES3_2}Gorzul"
-	  posX="2118.789" posY="1222.851" culture="Culture.mordor"
+	  posX="2117.185" posY="1223.317" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES3_2}Tevea sits where the plains of Lycarea slowly ascend to meet the base of the Ornian Rock. They raise sheeps on the slopes of this massive outcrop, named for the vultures who glare down from its heights onto the hazy flatlands below.">
 		<Components>
 			<Village id="village_comp_ES3_2" village_type="VillageType.sheep_farm" hearth="440"
@@ -2468,7 +2468,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES3_3" name="{=Settlements.Settlement.name.village_ES3_3}Ashzûl"
-	  posX="2107.929" posY="1147.869" culture="Culture.mordor"
+	  posX="2112.668" posY="1169.232" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES3_3}Zestea sits where the plains of Lycarea meet the coastal Iltaric hills. Sheep graze on the low slopes overlooking the hazy flatlands.">
 		<Components>
 			<Village id="village_comp_ES3_3" village_type="VillageType.swine_farm" hearth="273"
@@ -2515,7 +2515,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES4_1" name="{=Settlements.Settlement.name.village_ES4_1}Lugorth"
-	  posX="2068.776" posY="1403.406" culture="Culture.mordor"
+	  posX="2071.885" posY="1402.575" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES4_1}Sagora on a low ridge in the middle of the Lycarean plain. This district is one of the rockier and less fertile parts of the plain, but the valley scrubs still supports the grazing of sheep.">
 		<Components>
 			<Village id="village_comp_ES4_1" village_type="VillageType.sheep_farm" hearth="500"
@@ -2533,7 +2533,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="castle_village_ES8_2"
-	  name="{=Settlements.Settlement.name.castle_village_ES8_2}Goruzg" posX="2282.994" posY="1123.55"
+	  name="{=Settlements.Settlement.name.castle_village_ES8_2}Goruzg" posX="2281.596" posY="1126.039"
 	  culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES4_2}Popsia in a narrow canyon between the Ornian Rock and the valley of the Ophthys pool. Trees grow tall here in the cool shadows of the hills, and villagers harvest pines for sale as lumber.">
 		<Components>
@@ -2552,7 +2552,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES4_3" name="{=Settlements.Settlement.name.village_ES4_3}Mâshrak"
-	  posX="2085.157" posY="1369.569" culture="Culture.mordor"
+	  posX="2083.401" posY="1365.588" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES4_3}Canterion lies in the east of the Lycarean plain. The slowly rising land here gets more rain than other parts of the plain, and the rich grasses have made it good horse country since even before the coming of the Empire.">
 		<Components>
 			<Village id="village_comp_ES4_3" village_type="VillageType.europe_horse_ranch" hearth="169"
@@ -2599,7 +2599,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES5_1" name="{=Settlements.Settlement.name.village_ES5_1}Mirkash"
-	  posX="1945.27" posY="1478.268" culture="Culture.mordor"
+	  posX="1951.969" posY="1475.083" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES5_1}Lanthas in the broad plains south of Lake Tanaesis. This is good sheep country, but in a land scoured by imperial fugitives, wild Eleftheroi riders and steppe nomads, the villagers here have learned to watch their flocks closely.">
 		<Components>
 			<Village id="village_comp_ES5_1" village_type="VillageType.sheep_farm" hearth="402"
@@ -2617,7 +2617,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES5_2" name="{=Settlements.Settlement.name.village_ES5_2}Thûrzor"
-	  posX="1968.131" posY="1438.718" culture="Culture.mordor"
+	  posX="1970.799" posY="1441.958" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES5_2}Lartusys lies near the southern end of Lake Tanaesis. The village sits near a deposit of salt, and salt springs occasionally bubble to the surface, feeding the legend that this was once a gateway to a haunted underground sea.">
 		<Components>
 			<Village id="village_comp_ES5_2" village_type="VillageType.salt_mine" hearth="288"
@@ -2635,7 +2635,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES5_3" name="{=Settlements.Settlement.name.village_ES5_3}Kargash"
-	  posX="1926.196" posY="1452.693" culture="Culture.mordor"
+	  posX="1929.809" posY="1453.105" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES5_3}Parasemnos sits in a low pass linking the Tanaeitic plain with the valley of the Calsa river. The villagers raise sheep on brushlands that have been turned into pasture.">
 		<Components>
 			<Village id="village_comp_ES5_3" village_type="VillageType.salt_mine" hearth="282"
@@ -2682,7 +2682,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES6_1" name="{=Settlements.Settlement.name.village_ES6_1}Mordhal"
-	  posX="1914.128" posY="1520.511" culture="Culture.mordor"
+	  posX="1914.512" posY="1516.874" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES6_1}Saldannis lies beneath gypsum bluffs overlooking the River Sethys. The fine soil of the hills makes for a sticky clay when it washes down to the river, much prized by the potters of the imperial south.">
 		<Components>
 			<Village id="village_comp_ES6_1" village_type="VillageType.clay_mine" hearth="248"
@@ -2701,7 +2701,7 @@
 	</Settlement>
 	<!-- Oakwood -->
 	<Settlement id="village_ES6_2" name="{=Settlements.Settlement.name.village_ES6_2}Zalgoth"
-	  posX="1923.484" posY="1470.169" culture="Culture.mordor"
+	  posX="1927.272" posY="1470.598" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES6_2}Spotia lies alongside the gently flowing Sethys river. The low rolling hills of this district comprise one of the breadbaskets of the Empire.">
 		<Components>
 			<Village id="village_comp_ES6_2" village_type="VillageType.wheat_farm" hearth="163"
@@ -2719,8 +2719,8 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="castle_village_ES6_2"
-	  name="{=Settlements.Settlement.name.castle_village_ES6_2}Druzgûl" posX="2086.749"
-	  posY="1311.342" culture="Culture.mordor"
+	  name="{=Settlements.Settlement.name.castle_village_ES6_2}Druzgûl" posX="2087.369" posY="1311.16"
+	  culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES6_3}Amycon lies in a series of small but sharp ridges between the Ornion Rock and the Aris valley. The people of this land are sheep herders, known for their dry, salty cheese flavored with cumin.">
 		<Components>
 			<Village id="castle_village_ES6_2" village_type="VillageType.sheep_farm" hearth="133"
@@ -2767,7 +2767,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES7_1" name="{=Settlements.Settlement.name.village_ES7_1}Durkhal"
-	  posX="1973.52" posY="1346.147" culture="Culture.mordor"
+	  posX="1974.377" posY="1346.796" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES7_1}Psotai sits near the southern tip of Lake Tanaesis. The low-lying fields here are one of the major grain producing centers of the eastern frontier regions.">
 		<Components>
 			<Village id="village_comp_ES7_1" village_type="VillageType.wheat_farm" hearth="268"
@@ -2785,7 +2785,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_ES7_2" name="{=Settlements.Settlement.name.village_ES7_2}Ghâlûm"
-	  posX="1950.111" posY="1379.638" culture="Culture.mordor"
+	  posX="1946.883" posY="1377.503" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES7_2}Vargornis is a fishing village on Lake Tanaesis. Huge pike can sometimes be found in the lake's waters, along with more common perch and bream.">
 		<Components>
 			<Village id="village_comp_ES7_3" village_type="VillageType.fisherman" hearth="223"
@@ -2803,8 +2803,8 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="castle_village_ES7_2"
-	  name="{=Settlements.Settlement.name.castle_village_ES7_2}Gorbulg" posX="2014.217"
-	  posY="1211.231" culture="Culture.mordor"
+	  name="{=Settlements.Settlement.name.castle_village_ES7_2}Gorbulg" posX="2000.723"
+	  posY="1221.463" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES7_3}Eunalica sits on the western shores of Lake Tanaesis. This low-lying country is fine land for the growing of flax.">
 		<Components>
 			<Village id="castle_village_ES7_2" village_type="VillageType.flax_plant" hearth="256"
@@ -9048,7 +9048,7 @@
 	</Settlement>
 	<Settlement id="village_SWAN_GONDOR5_2"
 	  name="{=Settlements.Settlement.name.village_EW6_1}Tumbamar" posX="1057.031" posY="1188.692"
-	  culture="Culture.empire"
+	  culture="Culture.gondor"
 	  text="{=Settlements.Settlement.text.village_EW6_1}Carphenion lies in the wooded highlands between the great basalt slab of Mount Erithrys and the Dryatic mountains. The villagers raise cattle in the highland pastures.">
 		<Components>
 			<Village id="village_comp_SWAN_GONDOR5_2" village_type="VillageType.fisherman" hearth="104"
@@ -9981,11 +9981,11 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_SWAN_ISENGARD1_1"
-	  name="{=Settlements.Settlement.name.village_A1_1}Felarion" posX="1350.069" posY="1709.115"
+	  name="{=Settlements.Settlement.name.village_A1_1}Tharnûl-dûm" posX="1350.069" posY="1709.115"
 	  culture="Culture.isengard"
-	  text="{=Settlements.Settlement.text.village_A1_1}Tasheba lies on the western edges of the Bahr al-Yeshm. Fishermen venture out into the protected waters, gentle and calm for most of the year, for tuna and sardines.">
+	 text="{=Settlements.Settlement.text.village_Isengard_1}Tharnûl-dûm lies at the base of the Misty Mountains, where dark veins of iron run deep through the stone. Once a quiet hamlet, it now groans with the sound of hammers and furnaces, feeding Isengard’s forges with ore for war. The air hangs heavy with soot, and the earth bleeds metal for the White Hand.">
 		<Components>
-			<Village id="village_comp_SWAN_ISENGARD1_1" village_type="VillageType.fisherman" hearth="300"
+			<Village id="village_comp_SWAN_ISENGARD1_1" village_type="VillageType.iron_mine" hearth="300"
 			  bound="Settlement.town_SWAN_ISENGARD1" background_crop_position="0.145"
 			  background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village"
 			  castle_background_mesh="gui_bg_castle_aserai" />
@@ -10000,11 +10000,11 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_SWAN_ISENGARD1_2"
-	  name="{=Settlements.Settlement.name.village_A1_2}Calafas" posX="1329.702" posY="1705.902"
+	  name="{=Settlements.Settlement.name.village_A1_2}Durthandûr" posX="1329.702" posY="1705.902"
 	  culture="Culture.isengard"
-	  text="{=Settlements.Settlement.text.village_A1_2}Baq slightly inland from the Bahr al-Yeshm sea, beneath the great granite outcrop of the Jabal Tamar. The seawinds bring the uplands here just enough rain to support the cultivation of olive trees.">
+	text="{=Settlements.Settlement.text.village_Isengard_2}Durthandûr crouches at the edge of what was once a greenwood, now scarred by axe and flame. Day and night, laborers fell ancient trees and drag them to the roads leading north to Isengard. The forest weeps, but the saws do not stop — not while Saruman builds his legions.">
 		<Components>
-			<Village id="village_comp_SWAN_ISENGARD1_2" village_type="VillageType.olive_trees"
+			<Village id="village_comp_SWAN_ISENGARD1_2" village_type="VillageType.lumberjack"
 			  hearth="235" bound="Settlement.town_SWAN_ISENGARD1" background_crop_position="0.308"
 			  background_mesh="menu_aserai_village_3" wait_mesh="wait_aserai_village"
 			  castle_background_mesh="gui_bg_castle_aserai" />
@@ -10175,7 +10175,7 @@
 		</Locations>
 	</Settlement>
 	<Settlement id="castle_village_SWAN_MORDOR1_1"
-	  name="{=Settlements.Settlement.name.castle_village_ES1_1}TBD1" posX="2124.918" posY="1418.895"
+	  name="{=Settlements.Settlement.name.castle_village_ES1_1}TBD1" posX="2130.814" posY="1417.395"
 	  culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES1_1}Odrysa lies on the far eastern frontiers of the Empire, just across the River Tiagys from lands that are now the Khuzait Khanate. Though this area is dry, oak and other trees grow in the Tiagys gorges and other nooks in the hills, sustaining a small lumber industry.">
 		<Components>
@@ -10194,8 +10194,8 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="castle_SWAN_MORDOR2" name="{=Settlements.Settlement.name.castle_ES1}Mîr Abôr"
-	  owner="Faction.clan_empire_south_3" posX="2226.723" posY="1225.213" culture="Culture.mordor"
-	  gate_posX="2225.688" gate_posY="1226.482"
+	  owner="Faction.clan_empire_south_3" posX="2228.988" posY="1221.638" culture="Culture.mordor"
+	  gate_posX="2227.953" gate_posY="1222.907"
 	  text="{=nargroth_description}Nargroth, the Maw of Mordor, is a bleak and foreboding fortress carved into the cliffs overlooking the great Ashen Wastes. Its jagged towers rise like fangs, and its gates, fashioned from iron and obsidian, seem to devour all who enter. Known for its dungeons of despair, Nargroth is a place of torment where prisoners are broken and spies are interrogated. Its watchtowers, manned by ever-vigilant sentries, provide an unyielding gaze across the desolate expanse of Mordor. Nargroth is a bastion of terror, a grim reminder of the Dark Lord's reach.">
 		<Components>
 			<Town id="castle_comp_SWAN_MORDOR2" is_castle="true" level="3" background_crop_position="0.0"
@@ -10212,7 +10212,7 @@
 		</Locations>
 	</Settlement>
 	<Settlement id="castle_village_SWAN_MORDOR2_1"
-	  name="{=Settlements.Settlement.name.castle_village_ES1_1}TBD1" posX="2210.64" posY="1234.073"
+	  name="{=Settlements.Settlement.name.castle_village_ES1_1}TBD1" posX="2213.449" posY="1230.483"
 	  culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES1_1}Odrysa lies on the far eastern frontiers of the Empire, just across the River Tiagys from lands that are now the Khuzait Khanate. Though this area is dry, oak and other trees grow in the Tiagys gorges and other nooks in the hills, sustaining a small lumber industry.">
 		<Components>
@@ -10231,8 +10231,8 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="castle_SWAN_MORDOR3" name="{=Settlements.Settlement.name.castle_ES1}Barad Wath"
-	  owner="Faction.clan_empire_south_3" posX="2424.873" posY="1222.281" culture="Culture.mordor"
-	  gate_posX="2425.517" gate_posY="1223.787"
+	  owner="Faction.clan_empire_south_3" posX="2421.892" posY="1213.986" culture="Culture.mordor"
+	  gate_posX="2421.934" gate_posY="1212.349"
 	  text="{=nargroth_description}Nargroth, the Maw of Mordor, is a bleak and foreboding fortress carved into the cliffs overlooking the great Ashen Wastes. Its jagged towers rise like fangs, and its gates, fashioned from iron and obsidian, seem to devour all who enter. Known for its dungeons of despair, Nargroth is a place of torment where prisoners are broken and spies are interrogated. Its watchtowers, manned by ever-vigilant sentries, provide an unyielding gaze across the desolate expanse of Mordor. Nargroth is a bastion of terror, a grim reminder of the Dark Lord's reach.">
 		<Components>
 			<Town id="castle_comp_SWAN_MORDOR3" is_castle="true" level="3" background_crop_position="0.0"
@@ -10249,7 +10249,7 @@
 		</Locations>
 	</Settlement>
 	<Settlement id="castle_village_SWAN_MORDOR3_1"
-	  name="{=Settlements.Settlement.name.castle_village_ES1_1}TBD1" posX="2424.729" posY="1252.406"
+	  name="{=Settlements.Settlement.name.castle_village_ES1_1}TBD1" posX="2421.515" posY="1253.277"
 	  culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES1_1}Odrysa lies on the far eastern frontiers of the Empire, just across the River Tiagys from lands that are now the Khuzait Khanate. Though this area is dry, oak and other trees grow in the Tiagys gorges and other nooks in the hills, sustaining a small lumber industry.">
 		<Components>
@@ -10268,8 +10268,8 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="castle_SWAN_MORDOR4" name="{=Settlements.Settlement.name.castle_ES1}Matûrlan Grad"
-	  owner="Faction.clan_empire_south_3" posX="2499.366" posY="1321.118" culture="Culture.mordor"
-	  gate_posX="2497.738" gate_posY="1320.943"
+	  owner="Faction.clan_empire_south_3" posX="2523.722" posY="1332.12" culture="Culture.mordor"
+	  gate_posX="2522.094" gate_posY="1331.945"
 	  text="{=nargroth_description}Nargroth, the Maw of Mordor, is a bleak and foreboding fortress carved into the cliffs overlooking the great Ashen Wastes. Its jagged towers rise like fangs, and its gates, fashioned from iron and obsidian, seem to devour all who enter. Known for its dungeons of despair, Nargroth is a place of torment where prisoners are broken and spies are interrogated. Its watchtowers, manned by ever-vigilant sentries, provide an unyielding gaze across the desolate expanse of Mordor. Nargroth is a bastion of terror, a grim reminder of the Dark Lord's reach.">
 		<Components>
 			<Town id="castle_comp_SWAN_MORDOR4" is_castle="true" level="3" background_crop_position="0.0"
@@ -10286,7 +10286,7 @@
 		</Locations>
 	</Settlement>
 	<Settlement id="castle_village_SWAN_MORDOR4_1"
-	  name="{=Settlements.Settlement.name.castle_village_ES1_1}TBD1" posX="2512.511" posY="1343.127"
+	  name="{=Settlements.Settlement.name.castle_village_ES1_1}TBD1" posX="2510.295" posY="1344.397"
 	  culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES1_1}Odrysa lies on the far eastern frontiers of the Empire, just across the River Tiagys from lands that are now the Khuzait Khanate. Though this area is dry, oak and other trees grow in the Tiagys gorges and other nooks in the hills, sustaining a small lumber industry.">
 		<Components>
@@ -10305,8 +10305,8 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="castle_SWAN_MORDOR5" name="{=Settlements.Settlement.name.castle_ES1}Luglûrak"
-	  owner="Faction.clan_empire_south_3" posX="2065.087" posY="1179.812" culture="Culture.mordor"
-	  gate_posX="2063.556" gate_posY="1179.231"
+	  owner="Faction.clan_empire_south_3" posX="2065.516" posY="1179.918" culture="Culture.mordor"
+	  gate_posX="2063.985" gate_posY="1179.337"
 	  text="{=nargroth_description}Nargroth, the Maw of Mordor, is a bleak and foreboding fortress carved into the cliffs overlooking the great Ashen Wastes. Its jagged towers rise like fangs, and its gates, fashioned from iron and obsidian, seem to devour all who enter. Known for its dungeons of despair, Nargroth is a place of torment where prisoners are broken and spies are interrogated. Its watchtowers, manned by ever-vigilant sentries, provide an unyielding gaze across the desolate expanse of Mordor. Nargroth is a bastion of terror, a grim reminder of the Dark Lord's reach.">
 		<Components>
 			<Town id="castle_comp_SWAN_MORDOR5" is_castle="true" level="3" background_crop_position="0.0"
@@ -10323,7 +10323,7 @@
 		</Locations>
 	</Settlement>
 	<Settlement id="castle_village_SWAN_MORDOR5_1"
-	  name="{=Settlements.Settlement.name.castle_village_ES1_1}TBD1" posX="2057.696" posY="1160.352"
+	  name="{=Settlements.Settlement.name.castle_village_ES1_1}TBD1" posX="2082.55" posY="1167.437"
 	  culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.castle_village_ES1_1}Odrysa lies on the far eastern frontiers of the Empire, just across the River Tiagys from lands that are now the Khuzait Khanate. Though this area is dry, oak and other trees grow in the Tiagys gorges and other nooks in the hills, sustaining a small lumber industry.">
 		<Components>
@@ -10371,7 +10371,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_SWAN_MORDOR1_1" name="{=Settlements.Settlement.name.village_ES3_1}TBD"
-	  posX="2218.845" posY="1429.229" culture="Culture.mordor"
+	  posX="2221.3" posY="1433.908" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES3_1}Canoros sits in the flat southern reaches of the Lycarea plain. This land has been good horse country since even before the Empire came, furnishing the steeds of the Lycarean riders who routed several Calradian armies before their final defeat and absorption into the imperial cavalry.">
 		<Components>
 			<Village id="village_comp_SWAN_MORDOR1_1" village_type="VillageType.europe_horse_ranch"
@@ -10389,7 +10389,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_SWAN_MORDOR1_2" name="{=Settlements.Settlement.name.village_ES3_2}TBD"
-	  posX="2151.112" posY="1401.329" culture="Culture.mordor"
+	  posX="2150.051" posY="1404.309" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES3_2}Tevea sits where the plains of Lycarea slowly ascend to meet the base of the Ornian Rock. They raise sheeps on the slopes of this massive outcrop, named for the vultures who glare down from its heights onto the hazy flatlands below.">
 		<Components>
 			<Village id="village_comp_SWAN_MORDOR1_2" village_type="VillageType.sheep_farm" hearth="440"
@@ -10407,7 +10407,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_SWAN_MORDOR1_3" name="{=Settlements.Settlement.name.village_ES3_3}TBD"
-	  posX="2187.948" posY="1444.805" culture="Culture.mordor"
+	  posX="2185.794" posY="1442.217" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES3_3}Zestea sits where the plains of Lycarea meet the coastal Iltaric hills. Sheep graze on the low slopes overlooking the hazy flatlands.">
 		<Components>
 			<Village id="village_comp_SWAN_MORDOR1_3" village_type="VillageType.swine_farm" hearth="273"
@@ -10425,8 +10425,8 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="town_SWAN_MORDOR2" name="{=Settlements.Settlement.name.town_ES3}Ôtur Ûlgum"
-	  owner="Faction.clan_empire_south_2" posX="2372.121" posY="1290.686" culture="Culture.mordor"
-	  gate_posX="2368.677" gate_posY="1290.734"
+	  owner="Faction.clan_empire_south_2" posX="2372.12" posY="1291.798" culture="Culture.mordor"
+	  gate_posX="2368.675" gate_posY="1291.846"
 	  text="{=town_of_durthang_description}Durthang, a grim fortress perched on the rocky slopes of the Ephel Dúath, serves as a vital outpost for the Dark Lord's dominion. Once a bastion of Gondor, it has long since fallen into ruin and been claimed by the forces of Mordor. Its crumbling walls and jagged towers are manned by ruthless orcs, ever watchful for intruders or signs of rebellion. The air around Durthang is thick with the smoke of forges and the stench of despair, as its garrison tirelessly prepares for war. A place of unrelenting shadow, Durthang is both a warning and a weapon, securing Sauron’s control over the approaches to his dark realm.">
 		<Components>
 			<Town id="town_comp_SWAN_MORDOR2" is_castle="false" level="3" background_crop_position="0.0"
@@ -10454,7 +10454,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_SWAN_MORDOR2_1" name="{=Settlements.Settlement.name.village_ES3_1}TBD"
-	  posX="2329.19" posY="1283.841" culture="Culture.mordor"
+	  posX="2326.693" posY="1284.569" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES3_1}Canoros sits in the flat southern reaches of the Lycarea plain. This land has been good horse country since even before the Empire came, furnishing the steeds of the Lycarean riders who routed several Calradian armies before their final defeat and absorption into the imperial cavalry.">
 		<Components>
 			<Village id="village_comp_SWAN_MORDOR2_1" village_type="VillageType.europe_horse_ranch"
@@ -10472,7 +10472,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_SWAN_MORDOR2_2" name="{=Settlements.Settlement.name.village_ES3_2}TBD"
-	  posX="2274.556" posY="1251.659" culture="Culture.mordor"
+	  posX="2272.4" posY="1252.328" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES3_2}Tevea sits where the plains of Lycarea slowly ascend to meet the base of the Ornian Rock. They raise sheeps on the slopes of this massive outcrop, named for the vultures who glare down from its heights onto the hazy flatlands below.">
 		<Components>
 			<Village id="village_comp_SWAN_MORDOR2_2" village_type="VillageType.sheep_farm" hearth="440"
@@ -10490,7 +10490,7 @@
 		</CommonAreas>
 	</Settlement>
 	<Settlement id="village_SWAN_MORDOR2_3" name="{=Settlements.Settlement.name.village_ES3_3}TBD"
-	  posX="2217.576" posY="1269.765" culture="Culture.mordor"
+	  posX="2215.191" posY="1270.063" culture="Culture.mordor"
 	  text="{=Settlements.Settlement.text.village_ES3_3}Zestea sits where the plains of Lycarea meet the coastal Iltaric hills. Sheep graze on the low slopes overlooking the hazy flatlands.">
 		<Components>
 			<Village id="village_comp_SWAN_MORDOR2_3" village_type="VillageType.swine_farm" hearth="273"

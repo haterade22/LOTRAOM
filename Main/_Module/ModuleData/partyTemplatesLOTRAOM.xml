@@ -1389,13 +1389,53 @@
 	  <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_page" />
 	  <PartyTemplateStack min_value="3" max_value="20" troop="NPCCharacter.gondor_archer" />
       <PartyTemplateStack min_value="3" max_value="20" troop="NPCCharacter.gondor_bowman" />
-      <PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.gondor_lamedon_swordsman" />
       <PartyTemplateStack min_value="2" max_value="20" troop="NPCCharacter.ranger_of_ithilien" />
       <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.dol_amroth_knight" />
 	  <PartyTemplateStack min_value="1" max_value="15" troop="NPCCharacter.veteran_ranger_of_ithilien" />
       <PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.master_ranger_of_ithilien" />
 	  <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.dol_amroth_veteran_knight" />
 	  <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.knight_of_the_silver_swan" />
+	  <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_da_knightsergeant" />
+	  <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_da_knightcommander" />
+	  <PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.gondor_da_footknight" />
+      <PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.gondor_da_squire" />
+      <PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.gondor_da_page" />
+      <PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.gondor_pg_horseman" />
+	  <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_pg_scout" />
+      <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_pg_hillwarden" />
+      <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_pg_bowguard" />
+	  <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_pg_skirmisher" />
+	  <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_pg_champion" />
+	  <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_pg_warrior" />
+	  <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_pg_footman" />
+	  <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_pg_levy" />
+	  <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_blackroot_elite_longbowmen" />
+      <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_blackroot_longbowmen" />
+      <PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.gondor_blackroot_archer" />
+      <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_blackroot_skirmisher" />
+      <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_blackroot_hunter" />
+	  <PartyTemplateStack min_value="1" max_value="15" troop="NPCCharacter.gondor_belfalas_elite_pikemen" />
+      <PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.gondor_belfalas_guard" />
+	  <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_belfalas_pikemen" />
+	  <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_belfalas_spearman" />
+		<PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.gondor_belfalas_footman" />
+		<PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.gondor_pelargir_veteran_marine" />
+		<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.gondor_pelargir_marine" />
+		<PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.gondor_pelargir_archer" />
+		<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_pelargir_skirmisher" />
+		<PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.gondor_pelargir_sailor" />
+		<PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.gondor_lossarnach_wrathbearers" />
+		<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_lossarnach_axeguard" />
+		<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_lossarnach_heavy_axemen" />
+		<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_lossarnach_axemen" />
+		<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_lossarnach_footman" />
+		<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_lamedon_noble" />
+		<PartyTemplateStack min_value="3" max_value="20" troop="NPCCharacter.gondor_lamedon_guard" />
+		<PartyTemplateStack min_value="3" max_value="20" troop="NPCCharacter.gondor_lamedon_knight" />
+		<PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.gondor_lamedon_swordsman" />
+		<PartyTemplateStack min_value="2" max_value="20" troop="NPCCharacter.gondor_lamedon_highland_defender" />
+		<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.gondor_lamedon_bladeguard" />
+		<PartyTemplateStack min_value="1" max_value="15" troop="NPCCharacter.gondor_lamedon_swordsman" />
 	</stacks>
   </MBPartyTemplate>
 
@@ -1416,19 +1456,48 @@
 			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.mordor_uruk_reaper" />
 			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.mordor_uruk_deathwarden" />
 			<PartyTemplateStack min_value="4" max_value="20" troop="NPCCharacter.mordor_uruk_archer" />
-			<PartyTemplateStack min_value="4" max_value="10" troop="NPCCharacter.mordor_uruk_crossbow" />
 			<PartyTemplateStack min_value="2" max_value="20" troop="NPCCharacter.mordor_uruk_shieldbearer" />
 			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.mordor_uruk_infantry" />
 			<PartyTemplateStack min_value="1" max_value="15" troop="NPCCharacter.mordor_uruk_shieldguard" />
 			<PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.mordor_uruk_vanguard" />
 			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.mordor_uruk_captain" />
-			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.mordor_uruk_boltmaster" />
-			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.mordor_uruk_ironbolt" />
 			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.mordor_uruk_marksman" />
 			<PartyTemplateStack min_value="2" max_value="20" troop="NPCCharacter.mordor_uruk_baraddurguard" />
 		</stacks>
 	</MBPartyTemplate>
 
+	
+	<!--Rivendell-->
+
+	<MBPartyTemplate id="kingdom_hero_party_rivendell_template" >
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_recruit" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_archer" />
+			<PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.rivendell_infantry" />
+			<PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.rivendell_swordguard" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_sentinel" />
+			<PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.rivendell_scout" />
+			<PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.rivendell_rider" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.noldorin_archer" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_lightrider" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_knight" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_blademasters" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_swords" />
+			<PartyTemplateStack min_value="3" max_value="20" troop="NPCCharacter.rivendell_spearguard" />
+			<PartyTemplateStack min_value="3" max_value="20" troop="NPCCharacter.rivendell_lancers" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_marksman" />
+			<PartyTemplateStack min_value="2" max_value="20" troop="NPCCharacter.rivendell_royalarcher" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_warden" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_starshard" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_ohtarion" />
+			<PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.rivendell_noble" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_royal_guard" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.rivendell_royal_knight" />
+			<PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.rivendell_high_captain" />
+			
+		</stacks>
+	</MBPartyTemplate>
+	
 
 	<!--Erebor-->
 	<MBPartyTemplate id="kingdom_hero_party_erebor_template" >

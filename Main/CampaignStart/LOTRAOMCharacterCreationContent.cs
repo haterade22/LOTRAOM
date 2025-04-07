@@ -84,27 +84,17 @@ namespace LOTRAOM
                 mapState.Handler.TeleportCameraToMainParty();
             }
         }
-
-        protected override void OnInitialized(CharacterCreation characterCreation)
+        public static void SetCultureFeats()
         {
-            AddParentsMenu(characterCreation);
-            AddChildhoodMenu(characterCreation);
-            AddEducationMenu(characterCreation);
-            AddYouthMenu(characterCreation);
-            AddAdulthoodMenu(characterCreation);
-            base.AddAgeSelectionMenu(characterCreation);
-            //AddCultureStartMenu(characterCreation);
-
             LOTRAOMCultureFeats culturalFeats = LOTRAOMCultureFeats.Instance;
 
             foreach (CultureObject cultureObject in MBObjectManager.Instance.GetObjectTypeList<CultureObject>())
             {
                 string cultureId = cultureObject.StringId;
 
-                FieldInfo _description = AccessTools.Field(typeof(PropertyObject), "_description");
-
-                _description.SetValue(DefaultCulturalFeats.BattanianMilitiaFeat, new TextObject("Towns owned by rulers with the current culture have +1 militia production."));
-                _description.SetValue(DefaultCulturalFeats.KhuzaitAnimalProductionFeat, new TextObject("25% production bonus to horse, mule, cow and sheep in villages owned by all rulers."));
+                //FieldInfo _description = AccessTools.Field(typeof(PropertyObject), "_description");
+                //_description.SetValue(DefaultCulturalFeats.BattanianMilitiaFeat, new TextObject("Towns owned by rulers with the current culture have +1 militia production."));
+                //_description.SetValue(DefaultCulturalFeats.KhuzaitAnimalProductionFeat, new TextObject("25% production bonus to horse, mule, cow and sheep in villages owned by all rulers."));
 
 
                 // this is an example on how to remove a feat text
@@ -181,6 +171,17 @@ namespace LOTRAOM
                         break;
                 }
             }
+        }
+        protected override void OnInitialized(CharacterCreation characterCreation)
+        {
+            AddParentsMenu(characterCreation);
+            AddChildhoodMenu(characterCreation);
+            AddEducationMenu(characterCreation);
+            AddYouthMenu(characterCreation);
+            AddAdulthoodMenu(characterCreation);
+            base.AddAgeSelectionMenu(characterCreation);
+            //AddCultureStartMenu(characterCreation);
+            SetCultureFeats();
         }
 
         protected new void AddParentsMenu(CharacterCreation characterCreation)

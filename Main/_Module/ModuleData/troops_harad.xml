@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+	<NPCCharacter id="harad_levy"
+		default_group="Infantry"
+		level="6"
+		name="{=harad_levy}Haradrim Levy"
+		occupation="Soldier"
+		is_basic_troop="true"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="25"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_militia"/>
+			<upgrade_target id="NPCCharacter.harad_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_militia"
+		default_group="Infantry"
+		level="11"
+		name="{=harad_militia}Haradrim Militia"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_spearfighter"/>
+			<upgrade_target id="NPCCharacter.harad_swordfighter"/>
+			<upgrade_target id="NPCCharacter.harad_camelscout"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim_boots" />
+			</EquipmentRoster>
+			</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_skirmisher"
+		default_group="Ranged"
+		level="11"
+		name="{=harad_skirmisher}Haradrim Skirmisher"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="harad_spearfighter"
+		default_group="Infantry"
+		level="16"
+		name="{=harad_spearfighter}Haradrim Spear Fighter"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="45"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_spearguard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim02_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim02_toso" />
+				<equipment
+					slot="Cape"
+					id="Item.haradrim02_pauldrons" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim02_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim02_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="harad_swordfighter"
+		default_group="Infantry"
+		level="16"
+		name="{=harad_swordfighter}Haradrim Sword Fighter"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="45"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_footman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim02a_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim02a_toso" />
+				<equipment
+					slot="Cape"
+					id="Item.haradrim02_pauldrons" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim02a_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim02_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim02c_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim02c_toso" />
+				<equipment
+					slot="Cape"
+					id="Item.haradrim02_pauldrons" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim02c_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim02_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_archer"
+		default_group="Ranged"
+		level="16"
+		name="{=harad_archer}Harad Desert Archer"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="45"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="125"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_marksman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim02b_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim02b_toso" />
+				<equipment
+					slot="Cape"
+					id="Item.haradrim02_pauldrons" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim02b_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim02_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="harad_camelscout"
+			default_group="Cavalry"
+			level="16"
+			name="{=harad_camelscout}Harad Camel Scout"
+			occupation="Soldier"
+			culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="110"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="45"/>
+			<skill id="Polearm" value="110"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_camelrider"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.southern_spear_3_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.bound_adarga" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Head"
+					id="Item.brass_aserai_helmet_b_leather" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_scale_armor_on_cloth" />
+				<equipment
+					slot="Leg"
+					id="Item.eastern_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.buttoned_leather_bracers" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.camel" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.camel_saddle" />
+		</Equipments>
+	</NPCCharacter>
+
+
+
+	
+	<NPCCharacter id="harad_spearguard"
+		default_group="Infantry"
+		level="21"
+		name="{=harad_spearguard}Haradrim Spear Guard"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="160"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_sunlance"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_5_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.harad03_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad03_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad03_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad03_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.harad03_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_footman"
+		default_group="Infantry"
+		level="21"
+		name="{=harad_footman}Haradrim Footman"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_bronzefang"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_5_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.harad03_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad03_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad03_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad03_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.harad03_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="harad_marksman"
+		default_group="Ranged"
+		level="21"
+		name="{=harad_marksman}Haradrim Marksman"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="160"/>
+			<skill id="Bow" value="175"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_vipereye"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+			<EquipmentSet
+						id="aserai_troop_civilian_template_t3"
+						civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="harad_camelrider"
+	default_group="Cavalry"
+	level="21"
+	name="{=harad_camelrider}Haradrim Camel Rider"
+	occupation="Soldier"
+	culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="160"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_camel_lancer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.eastern_spear_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.studded_adarga" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.aserai_sword_5_t4" />
+				<equipment
+					slot="Head"
+					id="Item.brass_aserai_helmet_b_open" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_scale_armor_on_chain" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_mail_chausses" />
+				<equipment
+					slot="Gloves"
+					id="Item.rough_tied_bracers" />
+			</EquipmentRoster>
+			<EquipmentSet
+					id="aserai_troop_civilian_template_t3"
+					civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.war_camel" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.camel_saddle" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_sunlance"
+		default_group="Infantry"
+		level="26"
+		name="{=harad_sunlance}Haradrim Sunlance"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="160"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_warlance"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+			<EquipmentSet
+					id="aserai_troop_civilian_template_t3"
+					civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_bronzefang"
+	default_group="Infantry"
+	level="26"
+	name="{=harad_bronzefang}Haradrim Bronze Fang"
+	occupation="Soldier"
+	culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="160"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_champion"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+			<EquipmentSet
+					id="aserai_troop_civilian_template_t3"
+					civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="harad_vipereye"
+	default_group="Ranged"
+	level="26"
+	name="{=harad_vipereye}Haradrim Viper"
+	occupation="Soldier"
+	culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="190"/>
+			<skill id="TwoHanded" value="190"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="225"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_serpent_eye"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Head"
+					id="Item.harad08_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad08_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad08_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.harad08_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+					id="aserai_troop_civilian_template_t3"
+					civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_camel_lancer"
+		default_group="Cavalry"
+		level="26"
+		name="{=harad_camel_lancer}Haradrim Camel Lancer"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="220"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.eastern_spear_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.studded_adarga" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.aserai_sword_5_t4" />
+				<equipment
+					slot="Head"
+					id="Item.harad05_v1_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad05_v1_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad05_v1_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad05_v1_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.harad05_v1_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.war_camel" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.camel_saddle" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_warlance"
+		default_group="Infantry"
+		level="31"
+		name="{=harad_warlance}Haradrim Warlance"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="250"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+			<EquipmentSet
+					id="aserai_troop_civilian_template_t3"
+					civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="harad_champion"
+		default_group="Infantry"
+		level="31"
+		name="{=harad_champion}Haradrim Champion"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="250"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="220"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_6_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.harad05_v1_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad05_v2_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad04_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad05_v1_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.harad05_v2_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_serpent_eye"
+		default_group="Ranged"
+		level="31"
+		name="{=harad_serpent_eye}Haradrim Serpent Eyes"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="250"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="220"/>
+			<skill id="Bow" value="270"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.piercing_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Head"
+					id="Item.harad08_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad08_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad08_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.harad08_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+					id="aserai_troop_civilian_template_t3"
+					civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_noble"
+		default_group="Cavalry"
+		level="11"
+		name="{=harad_noble}Youngblood of the Serpent"
+		occupation="Soldier"
+		is_basic_troop="true"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="110"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_sandblade"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_khuzait_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.steppe_half_barding" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_sandblade"
+		default_group="Infantry"
+		level="16"
+		name="{=harad_sandblade}Initiate of the Sand Blades"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_gildedfang"/>
+			<upgrade_target id="NPCCharacter.harad_horsearcher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_khuzait_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.steppe_half_barding" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_gildedfang"
+		default_group="Cavalry"
+		level="21"
+		name="{=harad_gildedfang}Warrior of the Gilded Fang"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="200"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="210"/>
+			<skill id="TwoHanded" value="210"/>
+			<skill id="Polearm" value="210"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_serpentguard"/>
+
+		</upgrade_targets>
+		<Equipments>
+		<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+		<equipment
+			slot="Horse"
+			id="Item.t2_khuzait_horse" />
+		<equipment
+			slot="HorseHarness"
+			id="Item.steppe_half_barding" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_horsearcher"
+		default_group="HorseArcher"
+		level="21"
+		name="{=harad_horsearcher}Rider of the Golden Veil"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="200"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="190"/>
+			<skill id="TwoHanded" value="190"/>
+			<skill id="Polearm" value="190"/>
+			<skill id="Bow" value="200"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_serpenthorsearcher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.aserai_sword_5_t4" />
+				<equipment
+					slot="Head"
+					id="Item.harad06_v1_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad06_v1_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad05_v1_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad05_v1_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.harad06_v1_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_khuzait_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.steppe_half_barding" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_serpentguard"
+		default_group="Cavalry"
+		level="26"
+		name="{=harad_serpentguard}Serpent Guard"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="260"/>
+			<skill id="Riding" value="260"/>
+			<skill id="OneHanded" value="230"/>
+			<skill id="TwoHanded" value="230"/>
+			<skill id="Polearm" value="230"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="220"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.harad_fangking"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_lance_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.ornate_adarga" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Head"
+					id="Item.harad07_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad07_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad06_v1_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad07_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.harad06_v1_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_khuzait_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.steppe_half_barding" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_serpenthorsearcher"
+		default_group="HorseArcher"
+		level="26"
+		name="{=harad_serpenthorsearcher}Serpent Archer"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="280"/>
+			<skill id="Riding" value="270"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="280"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="220"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>			
+				<equipment
+					slot="Item0"
+					id="Item.composite_steppe_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.steppe_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.aserai_sword_5_t4" />
+				<equipment
+					slot="Head"
+					id="Item.harad07_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad07_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad06_v1_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad07_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.harad06_v1_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_khuzait_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.steppe_half_barding" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="harad_fangking"
+		default_group="Cavalry"
+		level="31"
+		name="{=harad_fangking}Fang of the King"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="270"/>
+			<skill id="Riding" value="270"/>
+			<skill id="OneHanded" value="240"/>
+			<skill id="TwoHanded" value="240"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="250"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_lance_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.ornate_adarga" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Head"
+					id="Item.harad05_v1_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad05_v4_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad05_v4_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad05_v1_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.harad05_v4_boots" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_khuzait_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.steppe_half_barding" />
+		</Equipments>
+	</NPCCharacter>
+	
+</NPCCharacters>

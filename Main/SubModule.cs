@@ -1,28 +1,24 @@
 ﻿using HarmonyLib;
 using LOTRAOM.CampaignStart;
-using LOTRAOM;
 using System.Collections.Generic;
 using System.Linq;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.Localization;
 using TaleWorlds.MountAndBlade;
-using TaleWorlds.Core.ViewModelCollection;
-using TaleWorlds.Core.ViewModelCollection.Selector;
-using TaleWorlds.MountAndBlade.ComponentInterfaces;
 using LOTRAOM.Models;
 using TaleWorlds.CampaignSystem.ComponentInterfaces;
+using LOTRAOM.Patches;
+using TaleWorlds.CampaignSystem.ViewModelCollection;
 namespace LOTRAOM
 {
     public class SubModule : MBSubModuleBase
     {
-        private Harmony? harmony;
-
+        private Harmony harmony = new Harmony("com.lotrmod.lotr_lome");
+        private bool manualPatchesHaveFired;
         protected override void OnSubModuleLoad()
         {
             base.OnSubModuleLoad();
-
-            harmony = new Harmony("com.lotrmod.lotr_lome");
             harmony.PatchAll();
 
             RemoveSandboxAndStoryOptions();
@@ -58,6 +54,10 @@ namespace LOTRAOM
                 campaignGameStarter.AddModel(new LOTRAOMBuildingConstructionModel(campaignGameStarter.GetExistingModel<BuildingConstructionModel>()));
                 campaignGameStarter.AddModel(new LOTRAOMArmyManagementCalculationModel(campaignGameStarter.GetExistingModel<ArmyManagementCalculationModel>()));
                 campaignGameStarter.AddModel(new LOTRAOMSettlementMilitiaModel(campaignGameStarter.GetExistingModel<SettlementMilitiaModel>()));
+                campaignGameStarter.AddModel(new AOMVolunteerModel(campaignGameStarter.GetExistingModel<VolunteerModel>()));
+                campaignGameStarter.AddModel(new AOMCharacterStatsModel(campaignGameStarter.GetExistingModel<CharacterStatsModel>()));
+                campaignGameStarter.AddModel(new AOMTroopUpgradeModel(campaignGameStarter.GetExistingModel<PartyTroopUpgradeModel>()));
+
             }
         }
 
@@ -71,5 +71,28 @@ namespace LOTRAOM
         {
             base.OnBeforeInitialModuleScreenSetAsRoot();
         }
+        public override void OnGameLoaded(Game game, object initializerObject)
+        {
+            base.OnGameLoaded(game, initializerObject);
+            LOTRAOMCharacterCreationContent.SetCultureFeats();
+        }
+        public override void OnGameInitializationFinished(Game game)
+        {
+            if (!manualPatchesHaveFired)
+            {
+                manualPatchesHaveFired = true;
+                RunManualPatches();
+            }
+        }
+        private void RunManualPatches()
+        {
+#pragma warning disable BHA0003 // Type was not found
+            System.Reflection.MethodInfo originalTierMethod = AccessTools.Method("CampaignUIHelper:GetCharacterTierData");
+            System.Reflection.MethodInfo originalDeserterMethod = AccessTools.Method("DesertionCampaignBehavior:PartiesCheckDesertionDueToPartySizeExceedsPaymentRatio");
+#pragma warning restore BHA0003 // Type was not found
+            harmony.Patch(originalTierMethod, prefix: new HarmonyMethod(typeof(GetCharacterTierDataPatch), nameof(GetCharacterTierDataPatch.Prefix)));
+            harmony.Patch(originalDeserterMethod, prefix: new HarmonyMethod(typeof(PartiesDesertionPatch), nameof(PartiesDesertionPatch.Prefix)));
+        }
+
     }
 }
