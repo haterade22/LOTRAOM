@@ -1444,37 +1444,37 @@
 			<PartyTemplateStack
 				min_value="8"
 				max_value="8"
-				troop="NPCCharacter.gondor_swordsman" />
+				troop="NPCCharacter.caravan_guard_gondor" />
 			<PartyTemplateStack
 				min_value="4"
 				max_value="4"
-				troop="NPCCharacter.gondor_archer" />
+				troop="NPCCharacter.armed_trader_gondor" />
 			<PartyTemplateStack
 				min_value="2"
 				max_value="2"
-				troop="NPCCharacter.gondor_veteran_swordsman" />
+				troop="NPCCharacter.veteran_caravan_guard_gondor" />
 		</stacks>
 	</MBPartyTemplate>
 
 	<MBPartyTemplate
-		id="elite_caravan_template_gondorr">
+		id="elite_caravan_template_gondor">
 		<stacks>
 			<PartyTemplateStack
 				min_value="8"
 				max_value="8"
-				troop="NPCCharacter.gondor_swordsman" />
+				troop="NPCCharacter.armed_trader_gondor" />
 			<PartyTemplateStack
 				min_value="7"
 				max_value="7"
-				troop="NPCCharacter.gondor_archer" />
+				troop="NPCCharacter.caravan_guard_gondor" />
 			<PartyTemplateStack
 				min_value="8"
 				max_value="8"
-				troop="NPCCharacter.gondor_veteran_swordsman" />
+				troop="NPCCharacter.veteran_caravan_guard_gondor" />
 			<PartyTemplateStack
 				min_value="2"
 				max_value="2"
-				troop="NPCCharacter.gondor_tower_guard_swordsman" />
+				troop="NPCCharacter.caravan_master_gondor" />
 		</stacks>
 	</MBPartyTemplate>
 	
@@ -1488,7 +1488,7 @@
 			<PartyTemplateStack
 				min_value="1"
 				max_value="1"
-				troop="NPCCharacter.gondor_spearman" />
+				troop="NPCCharacter.gondor_archer" />
 		</stacks>
 	</MBPartyTemplate>
 

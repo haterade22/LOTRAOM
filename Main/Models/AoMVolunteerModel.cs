@@ -193,7 +193,7 @@ namespace LOTRAOM.Models
             ["clan_rivendell_2"] = new List<VolunteerChance> { new("rivendell_noble", 7), new("rivendell_recruit", 3) },
 
             //Mirkwood
-            ["clan_mirkwood_1"] = new List<VolunteerChance> { new("rivendell_noble", 7), new("rivendell_recruit", 3) },
+            ["clan_mirkwood_1"] = new List<VolunteerChance> { new("rivendell_noble", 7), new("mirkwood_recruit", 3) },
 
             //Lothlorien
             ["clan_lothlorien_1"] = new List<VolunteerChance> { new("rivendell_noble", 7), new("rivendell_recruit", 3) },
@@ -216,7 +216,7 @@ namespace LOTRAOM.Models
             ["gondor"] = new List<VolunteerChance> { new("gondor_levyman", 3), new("gondor_page", 1) },
             ["erebor"] = new List<VolunteerChance> { new("erebor_recruit", 3)},
             ["rivendell"] = new List<VolunteerChance> { new("rivendell_recruit", 3), new("rivendell_noble", 1) },
-            ["mirkwood"] = new List<VolunteerChance> { new("rivendell_recruit", 3), new("rivendell_noble", 1) },
+            ["mirkwood"] = new List<VolunteerChance> { new("mirkwood_recruit", 9), new("rivendell_noble", 1) },
             ["lothlorien"] = new List<VolunteerChance> { new("rivendell_recruit", 3), new("rivendell_noble", 1) },
             ["umbar"] = new List<VolunteerChance> { new("mordor_uruk_grunt", 3)},
             ["isengard"] = new List<VolunteerChance> { new("urukhai_recruit", 3), new("orthanc_chosen", 1) },
