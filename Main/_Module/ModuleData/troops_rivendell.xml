@@ -672,7 +672,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_3_t3" />
+					id="Item.western_spear_1_t2" />
 				<equipment
 					slot="Item1"
 					id="Item.wm_elven_shield_a" />
@@ -1060,7 +1060,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_3_t3" />
+					id="Item.empire_lance_3_t5" />
 				<equipment
 					slot="Item1"
 					id="Item.wm_elven_shield_a" />
@@ -1080,6 +1080,12 @@
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
 				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.saddle_of_aeneas" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -1109,7 +1115,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_3_t3" />
+					id="Item.empire_lance_3_t5" />
 				<equipment
 					slot="Item1"
 					id="Item.wm_elven_shield_a" />
@@ -1129,6 +1135,12 @@
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
 				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.saddle_of_aeneas" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -1158,7 +1170,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_3_t3" />
+					id="Item.empire_lance_3_t5" />
 				<equipment
 					slot="Item1"
 					id="Item.wm_elven_shield_a" />
@@ -1178,9 +1190,14 @@
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
 				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.saddle_of_aeneas" />
 		</Equipments>
 	</NPCCharacter>
-
 	<NPCCharacter id="rivendell_high_captain"
 		default_group="Cavalry"
 		level="51"
@@ -1206,7 +1223,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_3_t3" />
+					id="Item.empire_lance_3_t5" />
 				<equipment
 					slot="Item1"
 					id="Item.wm_elven_shield_a" />
@@ -1226,6 +1243,15 @@
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
 				civilian="true" />
+			<EquipmentSet
+					id="aserai_troop_civilian_template_t3"
+					civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.noble_horse_southern" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.saddle_of_aeneas" />
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>
