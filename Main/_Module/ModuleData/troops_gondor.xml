@@ -1072,6 +1072,8 @@
 			<skill id="Crossbow" value="100"/>
 			<skill id="Throwing" value="100"/>
 		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
 				<equipment
