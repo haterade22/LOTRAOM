@@ -3759,7 +3759,7 @@
 	<NPCCharacter id="gondor_belfalas_guard"
 			default_group="Infantry"
 			level="21"
-			name="{=gondor_lossarnach_axeguard}Gondor Belfalas Guard"
+			name="{=gondor_belfalas_guard}Gondor Belfalas Guard"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -4412,7 +4412,7 @@
 			<skill
 				id="Riding"
 				value="20" />
-			<skill
+			<skillgondor_lamedon_swordsman
 				id="OneHanded"
 				value="140" />
 			<skill
