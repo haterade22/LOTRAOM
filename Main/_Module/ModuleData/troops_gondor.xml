@@ -4412,7 +4412,7 @@
 			<skill
 				id="Riding"
 				value="20" />
-			<skillgondor_lamedon_swordsman
+			<skill
 				id="OneHanded"
 				value="140" />
 			<skill
