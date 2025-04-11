@@ -3,13 +3,13 @@
 	<NPCCharacter id="urukhai_recruit"
 		default_group="Infantry"
 		level="6"
-		name="{=urukhai_recruit}Uruk-Hai Recruit"
 		race="uruk"
+		name="{=urukhai_recruit}Uruk-Hai Recruit"
 		occupation="Soldier"
 		is_basic_troop="true"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
+			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="100"/>
@@ -27,6 +27,27 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_1h_sword_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -63,7 +84,24 @@
 				<equipment
 					slot="Item0"
 					id="Item.isengard_1h_sword_b" />
-				
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -106,7 +144,21 @@
 				<equipment
 					slot="Item2"
 					id="Item.barbed_arrows" />
-			
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -141,11 +193,27 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-				
 				<equipment
 					slot="Item0"
+					id="Item.isengard_1h_sword_b" />
+				<equipment
+					slot="Item1"
 					id="Item.wm_isengard_shield_a01" />
-			
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -182,7 +250,21 @@
 				<equipment
 					slot="Item0"
 					id="Item.isengard_2h_axe_c" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -221,7 +303,21 @@
 				<equipment
 					slot="Item1"
 					id="Item.bolt_a" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -263,7 +359,21 @@
 				<equipment
 					slot="Item2"
 					id="Item.barbed_arrows" />
-			
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -303,7 +413,21 @@
 				<equipment
 					slot="Item1"
 					id="Item.wm_isengard_shield_a02" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -340,6 +464,24 @@
 				<equipment
 					slot="Item0"
 					id="Item.isengard_1h_sword_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -376,7 +518,21 @@
 				<equipment
 					slot="Item0"
 					id="Item.isengard_2h_axe_a" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -418,7 +574,21 @@
 				<equipment
 					slot="Item2"
 					id="Item.barbed_arrows" />
-			
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -457,7 +627,21 @@
 				<equipment
 					slot="Item1"
 					id="Item.bolt_b" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -493,7 +677,21 @@
 				<equipment
 					slot="Item0"
 					id="Item.isengard_pike_b" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -529,7 +727,24 @@
 				<equipment
 					slot="Item0"
 					id="Item.isengard_spear_b" />
-				
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a02" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -566,7 +781,24 @@
 				<equipment
 					slot="Item0"
 					id="Item.isengard_1h_sword_a" />
-				
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -606,7 +838,21 @@
 				<equipment
 					slot="Item1"
 					id="Item.wm_isengard_shield_a01" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -641,7 +887,21 @@
 				<equipment
 					slot="Item0"
 					id="Item.isengard_2h_axe_a" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -685,7 +945,21 @@
 				<equipment
 					slot="Item2"
 					id="Item.barbed_arrows" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -724,7 +998,21 @@
 				<equipment
 					slot="Item1"
 					id="Item.bolt_c" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -760,7 +1048,21 @@
 				<equipment
 					slot="Item0"
 					id="Item.isengard_berserker_sword" />			
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -802,7 +1104,21 @@
 				<equipment
 					slot="Item2"
 					id="Item.piercing_arrows" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -840,7 +1156,21 @@
 				<equipment
 					slot="Item1"
 					id="Item.bolt_d" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -876,7 +1206,21 @@
 				<equipment
 					slot="Item0"
 					id="Item.isengard_pike_a" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -914,7 +1258,21 @@
 				<equipment
 					slot="Item1"
 					id="Item.wm_isengard_shield_a02" />
-			
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -952,7 +1310,21 @@
 				<equipment
 					slot="Item1"
 					id="Item.wm_isengard_shield_a01" />
-			
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -990,7 +1362,21 @@
 				<equipment
 					slot="Item1"
 					id="Item.wm_isengard_shield_a02" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -1031,7 +1417,21 @@
 				<equipment
 					slot="Item1"
 					id="Item.wm_isengard_shield_a02" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -1070,7 +1470,21 @@
 				<equipment
 					slot="Item1"
 					id="Item.wm_isengard_shield_a02" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -1109,7 +1523,21 @@
 				<equipment
 					slot="Item1"
 					id="Item.wm_isengard_shield_a02" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -1147,7 +1575,21 @@
 				<equipment
 					slot="Item1"
 					id="Item.wm_isengard_shield_a02" />
-				
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_mordor_helmet_elite_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_mordor_pauldron_heavy_a" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_mordor_chainmail_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_mordor_bracer_heavy_a" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_mordor_greaves_heavy_a" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
