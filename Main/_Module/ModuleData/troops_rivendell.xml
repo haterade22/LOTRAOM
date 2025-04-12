@@ -39,6 +39,9 @@
 					slot="Body"
 					id="Item.rivendell_body_gold_a" />
 				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_a" />
+				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_gold" />
 				<equipment
@@ -90,6 +93,9 @@
 				<equipment
 					slot="Body"
 					id="Item.rivendell_body_gold_a" />
+				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_b" />
 				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_gold" />
@@ -147,6 +153,9 @@
 					slot="Body"
 					id="Item.rivendell_body_gold_b" />
 				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_a" />
+				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_gold" />
 				<equipment
@@ -197,6 +206,9 @@
 				<equipment
 					slot="Body"
 					id="Item.rivendell_body_gold_a" />
+				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_b" />
 				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_gold" />
@@ -250,6 +262,9 @@
 				<equipment
 					slot="Head"
 					id="Item.rivendell_helmet_gold" />
+				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_a" />
 				<equipment
 					slot="Body"
 					id="Item.rivendell_body_gold_b" />
@@ -306,8 +321,11 @@
 					slot="Body"
 					id="Item.rivendell_body_silver_b" />
 				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_a" />
+				<equipment
 					slot="Gloves"
-					id="Item.rivendell_silver" />
+					id="Item.rivendell_gloves_silver" />
 				<equipment
 					slot="Leg"
 					id="Item.rivendell_boots" />
@@ -356,11 +374,17 @@
 					slot="Item1"
 					id="Item.wm_elven_shield_a" />
 				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
 					slot="Head"
 					id="Item.rivendell_helmet_silver" />
 				<equipment
 					slot="Body"
 					id="Item.rivendell_body_silver_d" />
+				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_b" />
 				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_silver" />
@@ -420,6 +444,9 @@
 					slot="Head"
 					id="Item.rivendell_helmet_gold" />
 				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_a" />
+				<equipment
 					slot="Body"
 					id="Item.rivendell_body_gold_b" />
 				<equipment
@@ -475,8 +502,11 @@
 					slot="Body"
 					id="Item.rivendell_body_silver_b" />
 				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_a" />
+				<equipment
 					slot="Gloves"
-					id="Item.rivendell_silver" />
+					id="Item.rivendell_gloves_silver" />
 				<equipment
 					slot="Leg"
 					id="Item.rivendell_boots" />
@@ -524,11 +554,17 @@
 					slot="Item1"
 					id="Item.wm_elven_shield_a" />
 				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
 					slot="Head"
 					id="Item.rivendell_helmet_silver" />
 				<equipment
 					slot="Body"
 					id="Item.rivendell_body_silver_d" />
+				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_b" />
 				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_silver" />
@@ -585,6 +621,9 @@
 					slot="Body"
 					id="Item.rivendell_body_gold_a" />
 				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_b" />
+				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_gold" />
 				<equipment
@@ -635,6 +674,9 @@
 					slot="Body"
 					id="Item.rivendell_body_gold_a" />
 				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_b" />
+				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_gold" />
 				<equipment
@@ -683,6 +725,9 @@
 					slot="Body"
 					id="Item.rivendell_body_gold_a" />
 				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_b" />
+				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_gold" />
 				<equipment
@@ -725,11 +770,17 @@
 					slot="Item1"
 					id="Item.wm_elven_shield_a" />
 				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
 					slot="Head"
 					id="Item.rivendell_helmet_silver" />
 				<equipment
 					slot="Body"
 					id="Item.rivendell_body_silver_d" />
+				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_b" />
 				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_silver" />
@@ -792,6 +843,9 @@
 					slot="Body"
 					id="Item.rivendell_body_gold_b" />
 				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_a" />
+				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_gold" />
 				<equipment
@@ -848,6 +902,9 @@
 					slot="Body"
 					id="Item.rivendell_body_gold_b" />
 				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_a" />
+				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_gold" />
 				<equipment
@@ -900,8 +957,11 @@
 					slot="Body"
 					id="Item.rivendell_body_silver_b" />
 				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_a" />
+				<equipment
 					slot="Gloves"
-					id="Item.rivendell_silver" />
+					id="Item.rivendell_gloves_silver" />
 				<equipment
 					slot="Leg"
 					id="Item.rivendell_boots" />
@@ -956,6 +1016,9 @@
 				<equipment
 					slot="Body"
 					id="Item.rivendell_body_silver_b" />
+				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_a" />
 				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_silver" />
@@ -1015,6 +1078,9 @@
 					slot="Head"
 					id="Item.rivendell_helmet_gold" />
 				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_a" />
+				<equipment
 					slot="Body"
 					id="Item.rivendell_body_gold_b" />
 				<equipment
@@ -1065,11 +1131,17 @@
 					slot="Item1"
 					id="Item.wm_elven_shield_a" />
 				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
 					slot="Head"
 					id="Item.rivendell_helmet_gold" />
 				<equipment
 					slot="Body"
 					id="Item.rivendell_body_gold_c" />
+				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_a" />
 				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_gold" />
@@ -1120,11 +1192,17 @@
 					slot="Item1"
 					id="Item.wm_elven_shield_a" />
 				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
 					slot="Head"
 					id="Item.rivendell_helmet_gold" />
 				<equipment
 					slot="Body"
 					id="Item.rivendell_body_gold_c" />
+				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_a" />
 				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_gold" />
@@ -1175,11 +1253,17 @@
 					slot="Item1"
 					id="Item.wm_elven_shield_a" />
 				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
 					slot="Head"
 					id="Item.rivendell_helmet_gold" />
 				<equipment
 					slot="Body"
 					id="Item.rivendell_body_gold_c" />
+				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_a" />
 				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_gold" />
@@ -1228,11 +1312,17 @@
 					slot="Item1"
 					id="Item.wm_elven_shield_a" />
 				<equipment
+					slot="Item2"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
 					slot="Head"
 					id="Item.rivendell_helmet_gold" />
 				<equipment
 					slot="Body"
 					id="Item.rivendell_body_gold_d" />
+				<equipment
+					slot="Cape"
+					id="Item.rivendell_cape_a" />
 				<equipment
 					slot="Gloves"
 					id="Item.rivendell_gloves_gold" />

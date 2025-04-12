@@ -5163,7 +5163,7 @@
 					id="Item.swanknight_helmet_b" />
 				<equipment
 					slot="Body"
-					id="Item.swanknight_cuirass_e" />
+					id="Item.swanknight_cuirass_c" />
 				<equipment
 					slot="Gloves"
 					id="Item.swanknight_gloves" />
@@ -5232,7 +5232,7 @@
 					id="Item.swanknight_helmet_b" />
 				<equipment
 					slot="Body"
-					id="Item.swanknight_cuirass_d" />
+					id="Item.swanknight_cuirass_e" />
 				<equipment
 					slot="Gloves"
 					id="Item.swanknight_gloves" />
@@ -5281,7 +5281,7 @@
 					id="Item.swanknight_helmet_c" />
 				<equipment
 					slot="Body"
-					id="Item.swanknight_cuirass_d" />
+					id="Item.swanknight_cuirass_e" />
 				<equipment
 					slot="Gloves"
 					id="Item.swanknight_gloves" />
