@@ -38,13 +38,13 @@
 					id="Item.haradrim_head" />
 				<equipment
 					slot="Body"
-					id="Item.haradrim_torso" />
+					id="Item.khuzait_belt_leather" />
 				<equipment
 					slot="Gloves"
-					id="Item.haradrim_gloves" />
+					id="Item.easterlingwarriors01_gloves" />
 				<equipment
 					slot="Leg"
-					id="Item.haradrim_boots" />
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
@@ -85,17 +85,23 @@
 					id="Item.desert_round_shield" />
 				<equipment
 					slot="Head"
-					id="Item.haradrim_head" />
+					id="Item.easterlingwarriors04_helmet" />
 				<equipment
 					slot="Body"
-					id="Item.haradrim_torso" />
+					id="Item.easterlingwarriors04_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.easterlingwarriors04_cape" />
 				<equipment
 					slot="Gloves"
-					id="Item.haradrim_gloves" />
+					id="Item.easterlingwarriors01_gloves" />
 				<equipment
 					slot="Leg"
-					id="Item.haradrim_boots" />
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -123,15 +129,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterlingwarriors04_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.easterlingwarriors04_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.easterlingwarriors04_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterlingwarriors01_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -159,15 +181,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterlingwarriors04_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.easterlingwarriors04_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.easterlingwarriors04_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterlingwarriors01_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -203,19 +241,19 @@
 					id="Item.desert_round_shield" />
 				<equipment
 					slot="Head"
-					id="Item.haradrim02_head" />
+					id="Item.easterlingwarriors03_helmet" />
 				<equipment
 					slot="Body"
-					id="Item.haradrim02_toso" />
+					id="Item.easterlingwarriors03_torso" />
 				<equipment
 					slot="Cape"
-					id="Item.haradrim02_pauldrons" />
+					id="Item.easterlingwarriors03_cape" />
 				<equipment
 					slot="Gloves"
-					id="Item.haradrim02_gloves" />
+					id="Item.easterlingwarriors01_gloves" />
 				<equipment
 					slot="Leg"
-					id="Item.haradrim02_boots" />
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
@@ -256,19 +294,19 @@
 					id="Item.desert_round_shield" />
 				<equipment
 					slot="Head"
-					id="Item.haradrim02_head" />
+					id="Item.easterlingwarriors03_helmet" />
 				<equipment
 					slot="Body"
-					id="Item.haradrim02_toso" />
+					id="Item.easterlingwarriors03_torso" />
 				<equipment
 					slot="Cape"
-					id="Item.haradrim02_pauldrons" />
+					id="Item.easterlingwarriors03_cape" />
 				<equipment
 					slot="Gloves"
-					id="Item.haradrim02_gloves" />
+					id="Item.easterlingwarriors01_gloves" />
 				<equipment
 					slot="Leg"
-					id="Item.haradrim02_boots" />
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
@@ -300,15 +338,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterlingwarriors03_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.easterlingwarriors03_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.easterlingwarriors03_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterlingwarriors01_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -348,20 +402,20 @@
 					slot="Item2"
 					id="Item.eastern_javelin_3_t4" />
 				<equipment
-					slot="Item3"
-					id="Item.aserai_sword_3_t3" />
-				<equipment
 					slot="Head"
-					id="Item.brass_aserai_helmet_b_leather" />
+					id="Item.easterlingwarriors03_helmet" />
 				<equipment
 					slot="Body"
-					id="Item.aserai_scale_armor_on_cloth" />
+					id="Item.easterlingwarriors03_torso" />
 				<equipment
-					slot="Leg"
-					id="Item.eastern_leather_boots" />
+					slot="Cape"
+					id="Item.easterlingwarriors03_cape" />
 				<equipment
 					slot="Gloves"
-					id="Item.buttoned_leather_bracers" />
+					id="Item.easterlingwarriors01_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
@@ -410,19 +464,19 @@
 					id="Item.desert_round_shield" />
 				<equipment
 					slot="Head"
-					id="Item.harad03_helmet" />
+					id="Item.easterlingwarriors01_helmet" />
 				<equipment
 					slot="Body"
-					id="Item.harad03_torso" />
+					id="Item.easterlingwarriors01_torso" />
 				<equipment
 					slot="Cape"
-					id="Item.harad03_cape" />
+					id="Item.easterlingwarriors01_cape" />
 				<equipment
 					slot="Gloves"
-					id="Item.harad03_glove" />
+					id="Item.easterlingwarriors01_gloves" />
 				<equipment
 					slot="Leg"
-					id="Item.harad03_boots" />
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
@@ -462,19 +516,19 @@
 					id="Item.desert_round_shield" />
 				<equipment
 					slot="Head"
-					id="Item.harad03_helmet" />
+					id="Item.easterlingwarriors01_helmet" />
 				<equipment
 					slot="Body"
-					id="Item.harad03_torso" />
+					id="Item.easterlingwarriors01_torso" />
 				<equipment
 					slot="Cape"
-					id="Item.harad03_cape" />
+					id="Item.easterlingwarriors01_cape" />
 				<equipment
 					slot="Gloves"
-					id="Item.harad03_glove" />
+					id="Item.easterlingwarriors01_gloves" />
 				<equipment
 					slot="Leg"
-					id="Item.harad03_boots" />
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
@@ -507,15 +561,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterlingwarriors01_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.easterlingwarriors01_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.easterlingwarriors01_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterlingwarriors01_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	
@@ -559,16 +629,19 @@
 				id="Item.aserai_sword_5_t4" />
 			<equipment
 				slot="Head"
-				id="Item.brass_aserai_helmet_b_open" />
+				id="Item.easterlingwarriors01_helmet" />
 			<equipment
 				slot="Body"
-				id="Item.aserai_scale_armor_on_chain" />
+				id="Item.easterlingwarriors01_torso" />
 			<equipment
-				slot="Leg"
-				id="Item.strapped_mail_chausses" />
+				slot="Cape"
+				id="Item.easterlingwarriors01_cape" />
 			<equipment
 				slot="Gloves"
-				id="Item.rough_tied_bracers" />
+				id="Item.easterlingwarriors01_gloves" />
+			<equipment
+				slot="Leg"
+				id="Item.easterlingwarriors01_boots" />
 		</EquipmentRoster>
 		<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
@@ -620,16 +693,19 @@
 					id="Item.aserai_sword_5_t4" />
 				<equipment
 					slot="Head"
-					id="Item.brass_aserai_helmet_b_open" />
+					id="Item.easterlingwarriors01_helmet" />
 				<equipment
 					slot="Body"
-					id="Item.aserai_scale_armor_on_chain" />
+					id="Item.easterlingwarriors01_torso" />
 				<equipment
-					slot="Leg"
-					id="Item.strapped_mail_chausses" />
+					slot="Cape"
+					id="Item.easterlingwarriors01_cape" />
 				<equipment
 					slot="Gloves"
-					id="Item.rough_tied_bracers" />
+					id="Item.easterlingwarriors01_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 					id="aserai_troop_civilian_template_t3"
@@ -667,15 +743,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterlingwarriors02_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.easterlingwarriors02_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.easterlingwarriors02_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterlingwarriors01_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -703,15 +795,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterlingwarriors02_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.easterlingwarriors02_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.easterlingwarriors02_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterlingwarriors01_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -740,15 +848,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterlingwarriors02_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.easterlingwarriors02_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.easterlingwarriors02_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterlingwarriors01_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -776,15 +900,46 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_sword_3_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.desert_round_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterlingwarriors02_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.easterlingwarriors02_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.easterlingwarriors02_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterlingwarriors01_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.easterlingwarriors01_boots" />
+				<equipment
+					slot="Head"
+					id="Item.easterlingwarriors02_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.easterlingwarriors02_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.easterlingwarriors02_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterlingwarriors01_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -811,15 +966,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_sword_1_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -847,15 +1018,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_sword_1_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -882,15 +1069,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_sword_1_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	
@@ -917,15 +1120,31 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_sword_1_t2" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 

@@ -2825,7 +2825,7 @@
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -2866,7 +2866,7 @@
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -3584,7 +3584,7 @@
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4049,7 +4049,7 @@
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -5642,8 +5642,15 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
-			<EquipmentSet
-				id="gondor_bat_template_medium" />
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.gond_shld2" />
+				<equipment slot="Item1" id="Item.wm_gondor_sword_a10" />
+				<equipment slot="Head" id="Item.forlong_helmet" />
+				<equipment slot="Body" id="Item.forlong_body" />
+				<equipment slot="Gloves" id="Item.forlong_gloves" />
+				<equipment slot="Leg" id="Item.forlong_boots" />
+				<equipment slot="Cape" id="Item.forlong_shoulder" />
+			</EquipmentRoster>
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -7432,7 +7439,7 @@
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7473,7 +7480,7 @@
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7514,7 +7521,7 @@
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7554,7 +7561,7 @@
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>

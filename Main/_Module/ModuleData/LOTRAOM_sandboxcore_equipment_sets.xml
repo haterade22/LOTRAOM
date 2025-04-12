@@ -398,19 +398,57 @@
 				id="Item.nazgul_sword" />
 			<Equipment
 				slot="Head"
-				id="Item.witch_king_helmet" />
+				id="Item.nazgul_helmet" />
 			<Equipment
 				slot="Cape"
-				id="Item.witch_king_pauldrons" />
+				id="Item.nazgul_pauldrons" />
 			<Equipment
 				slot="Body"
-				id="Item.witch_king" />
+				id="Item.nazgul_armor" />
 			<Equipment
 				slot="Gloves"
-				id="Item.witch_king_gloves" />
+				id="Item.nazgul_gloves" />
 			<Equipment
 				slot="Leg"
-				id="Item.witch_king_boots" />
+				id="Item.nazgul_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_northern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.northern_ring_barding" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
+			/>
+	</EquipmentRoster>
+
+
+	<EquipmentRoster
+		id="nazgul_template_civ"
+		culture="Culture.mordor">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item1"
+				id="Item.nazgul_sword" />
+			<Equipment
+				slot="Head"
+				id="Item.nazgul_helmet" />
+			<Equipment
+				slot="Cape"
+				id="Item.nazgul_pauldrons" />
+			<Equipment
+				slot="Body"
+				id="Item.nazgul_armor" />
+			<Equipment
+				slot="Gloves"
+				id="Item.nazgul_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.nazgul_boots" />
 			<Equipment
 				slot="Horse"
 				id="Item.noble_horse_northern" />
