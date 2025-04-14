@@ -1,0 +1,4 @@
+1. affinity system:
+good/ evil cultures should have affinity towards each other:
+Add affinity to:
+FactionManager.GetRelationBetweenClans(Clan clan1, Clan clan2)

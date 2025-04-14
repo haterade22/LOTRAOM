@@ -1,0 +1,33 @@
+﻿<Brushes>
+	<Brush Name="Diplomacy.Support.Fill">
+		<Layers>
+			<BrushLayer Name="Default" Sprite="SPKingdom\progress_bar_fill" HorizontalFlip="true"/>
+		</Layers>
+		<Styles>
+			<Style Name="Default">
+				<BrushLayer Name="Default" />
+			</Style>
+		</Styles>
+	</Brush>
+	<Brush Name="Diplomacy.Support.Handle">
+		<Layers>
+			<BrushLayer Name="Default" Sprite="SPKingdom\progress_bar_indicator" />
+		</Layers>
+		<Styles>
+			<Style Name="Default">
+				<BrushLayer Name="Default" />
+			</Style>
+		</Styles>
+	</Brush>
+	<Brush Name="Diplomacy.ParagraphSmall.Text" Font="FiraSansExtraCondensed-Light" TextHorizontalAlignment="Center">
+		<Styles>
+			<Style Name="Default" FontColor="#F4E1C4FF" TextOutlineAmount="0.1" TextGlowRadius="0" TextBlur="0" TextShadowOffset="1" TextShadowAngle="60" FontSize="20" />
+		</Styles>
+	</Brush>
+	<Brush Name="Diplomacy.TitleSmall.Text" Font="Galahad" TextHorizontalAlignment="Center">
+		<Styles>
+			<Style Name="Default" FontColor="#ECC79BFF" TextOutlineAmount="0.1" TextGlowRadius="0" TextBlur="0.3" TextShadowOffset="0" TextShadowAngle="60" FontSize="28"/>
+		</Styles>
+	</Brush>
+
+</Brushes>

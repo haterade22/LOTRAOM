@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using TaleWorlds.Core;
 
-namespace LOTRAOM
+namespace LOTRAOM.Extensions
 {
-    internal static class Extensions
+    internal static class ModelExtension
     {
         public static TBaseModel GetExistingModel<TBaseModel>(this IGameStarter campaignGameStarter) where TBaseModel : GameModel
         {

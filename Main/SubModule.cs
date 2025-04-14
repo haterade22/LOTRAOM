@@ -9,7 +9,9 @@ using TaleWorlds.MountAndBlade;
 using LOTRAOM.Models;
 using TaleWorlds.CampaignSystem.ComponentInterfaces;
 using LOTRAOM.Patches;
-using TaleWorlds.CampaignSystem.ViewModelCollection;
+using LOTRAOM.Extensions;
+using LOTRAOM.BalanceOfPower;
+
 namespace LOTRAOM
 {
     public class SubModule : MBSubModuleBase
@@ -21,7 +23,7 @@ namespace LOTRAOM
             Harmony.DEBUG = true;
             base.OnSubModuleLoad();
             harmony.PatchAll();
-
+    
             RemoveSandboxAndStoryOptions();
             Module.CurrentModule.AddInitialStateOption(
                 new InitialStateOption("LOTRAOM", name: new TextObject("{=lotraom_start_game}Enter The Age of Man", null), 3,
@@ -55,6 +57,7 @@ namespace LOTRAOM
             if (gameStarterObject is CampaignGameStarter campaignGameStarter)
             {
                 campaignGameStarter.AddBehavior(new KeepHeroRaceCampaignBehavior());
+                campaignGameStarter.AddBehavior(new BalanceOfPowerCampaignBehavior());
 
                 // models
                 campaignGameStarter.AddModel(new LOTRAOMNotableSpawnModel(campaignGameStarter.GetExistingModel<NotableSpawnModel>()));
@@ -67,7 +70,6 @@ namespace LOTRAOM
                 campaignGameStarter.AddModel(new AOMVolunteerModel(campaignGameStarter.GetExistingModel<VolunteerModel>()));
                 campaignGameStarter.AddModel(new AOMCharacterStatsModel(campaignGameStarter.GetExistingModel<CharacterStatsModel>()));
                 campaignGameStarter.AddModel(new AOMTroopUpgradeModel(campaignGameStarter.GetExistingModel<PartyTroopUpgradeModel>()));
-
             }
         }
 
