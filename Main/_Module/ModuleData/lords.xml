@@ -2793,7 +2793,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_155"
-		name="{=UTFGUeVQ}Nazgûl, the Shadow of Haradrim"
+		name="{=UTFGUeVQ}Nazgûl, The Dark Marshall "
 		age="20"
 		voice="ironic"
 		race="nazghul"
@@ -2815,10 +2815,10 @@
 			<Trait id="Valor" value="0" />
 			<Trait id="Honor" value="-2" />
 			<Trait id="Mercy" value="-2" />
-			<Trait id="Calculating" value="1" />
+			<Trait id="Calculating" value="2" />
 			<Trait id="Egalitarian" value="0" />
 			<Trait id="Oligarchic" value="0" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -2832,7 +2832,7 @@
 	<!-- Martira, sister of Destor, somewhat withdrawn -->
 	<NPCCharacter
 		id="lord_1_16"
-		name="{=2fYYfHUI}Nazgûl, the Shadow of Dunlendings"
+		name="{=2fYYfHUI}Nazgûl, The Knight of Umbar"
 		age="20"
 		voice="softspoken"
 		is_hero="true"
@@ -3550,7 +3550,7 @@
 	<!-- Leonipardes heir. Cunning, aggressive, somewhat devious -->
 	<NPCCharacter
 		id="lord_1_28"
-		name="{=HGBWqbhQ}Nazgûl, the Shadow of Númenor"
+		name="{=HGBWqbhQ}Nazgûl, The Betrayer"
 		age="20"
 		voice="earnest"
 		race="nazghul"
@@ -4013,7 +4013,7 @@
 	<!-- leonipardes's daughter -->
 	<NPCCharacter
 		id="lord_1_38"
-		name="{=6YiMWxVM}Nazgûl, the Shadow of Dúnedain"
+		name="{=6YiMWxVM}Nazgûl, the Undying"
 		age="20"
 		voice="softspoken"
 		race="nazghul"
@@ -7405,7 +7405,7 @@
 	<!-- Leonipardes lieutenant. brave, good-natured, not especially thoughtful. -->
 	<NPCCharacter
 		id="lord_1_48"
-		name="{=katzUyMI}Khamûl, the Shadow of the East"
+		name="{=katzUyMI}Khamûl, the Dwimmerlaik"
 		default_group="Cavalry"
 		age="20"
 		race="nazghul"
@@ -7445,7 +7445,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_48_1"
-		name="{=ozpbN30B}Nazgûl, the Shadow of Black Númenóreans"
+		name="{=ozpbN30B}Nazgûl, the Tainted"
 		default_group="Cavalry"
 		is_female="false"
 		age="20"

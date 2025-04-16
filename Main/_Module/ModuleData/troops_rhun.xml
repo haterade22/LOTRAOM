@@ -11,14 +11,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_footman"/>
@@ -62,14 +62,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_swordsman"/>
@@ -115,14 +115,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_archer"/>
@@ -131,10 +131,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_3_t3" />
+					id="Item.composite_bow" />
 				<equipment
 					slot="Item1"
-					id="Item.desert_round_shield" />
+					id="Item.bodkin_arrows_b" />
+				<equipment
+					slot="Item2"
+					id="Item.bodkin_arrows_b" />
 				<equipment
 					slot="Head"
 					id="Item.easterlingwarriors04_helmet" />
@@ -167,14 +170,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_rider"/>
@@ -219,14 +222,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_veteran_swordsman"/>
@@ -272,14 +275,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_halberdier"/>
@@ -324,14 +327,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_marksman"/>
@@ -340,10 +343,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_3_t3" />
+					id="Item.steppe_heavy_bow" />
 				<equipment
 					slot="Item1"
-					id="Item.desert_round_shield" />
+					id="Item.bodkin_arrows_b" />
+				<equipment
+					slot="Item2"
+					id="Item.bodkin_arrows_b" />
 				<equipment
 					slot="Head"
 					id="Item.easterlingwarriors03_helmet" />
@@ -377,14 +383,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_lancer"/>
@@ -442,14 +448,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_war_guard"/>
@@ -494,14 +500,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_pillar"/>
@@ -547,14 +553,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_shadowguard"/>
@@ -563,25 +569,31 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_3_t3" />
+					id="Item.composite_steppe_bow" />
 				<equipment
 					slot="Item1"
-					id="Item.desert_round_shield" />
+					id="Item.bodkin_arrows_b" />
+				<equipment
+					slot="Item2"
+					id="Item.bodkin_arrows_b" />
+				<equipment
+					slot="Item3"
+					id="Item.khuzait_sword_3_t3" />
 				<equipment
 					slot="Head"
-					id="Item.easterlingwarriors01_helmet" />
+					id="Item.easterling02_v1_helmet" />
 				<equipment
 					slot="Body"
-					id="Item.easterlingwarriors01_torso" />
+					id="Item.easterling02_v1_torso" />
 				<equipment
 					slot="Cape"
-					id="Item.easterlingwarriors01_cape" />
+					id="Item.easterling02_v1_cape" />
 				<equipment
 					slot="Gloves"
-					id="Item.easterlingwarriors01_gloves" />
+					id="Item.easterling02_v1_gloves" />
 				<equipment
 					slot="Leg"
-					id="Item.easterlingwarriors01_boots" />
+					id="Item.easterling02_v1_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
@@ -601,14 +613,14 @@
 		<face_key_template value="BodyProperty.fighter_khuzait"/>
 	</face>
 	<skills >
-		<skill id="Athletics" value="0"/>
-		<skill id="Riding" value="0"/>
-		<skill id="OneHanded" value="0"/>
-		<skill id="TwoHanded" value="0"/>
-		<skill id="Polearm" value="0"/>
-		<skill id="Bow" value="0"/>
-		<skill id="Crossbow" value="0"/>
-		<skill id="Throwing" value="0"/>
+		<skill id="Athletics" value="150"/>
+		<skill id="Riding" value="150"/>
+		<skill id="OneHanded" value="150"/>
+		<skill id="TwoHanded" value="150"/>
+		<skill id="Polearm" value="150"/>
+		<skill id="Bow" value="180"/>
+		<skill id="Crossbow" value="150"/>
+		<skill id="Throwing" value="150"/>
 	</skills>
 	<upgrade_targets>
 		<upgrade_target id="NPCCharacter.easterling_sunbow"/>
@@ -666,14 +678,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -729,14 +741,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_bloodsworn"/>
@@ -781,14 +793,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_chosen"/>
@@ -834,14 +846,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="230"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="240"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_eye"/>
@@ -850,25 +862,31 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_3_t3" />
+					id="Item.composite_steppe_bow" />
 				<equipment
 					slot="Item1"
-					id="Item.desert_round_shield" />
+					id="Item.bodkin_arrows_b" />
+				<equipment
+					slot="Item2"
+					id="Item.bodkin_arrows_b" />
+				<equipment
+					slot="Item3"
+					id="Item.khuzait_sword_3_t3" />
 				<equipment
 					slot="Head"
-					id="Item.easterlingwarriors02_helmet" />
+					id="Item.easterling02_v1_helmet_v2" />
 				<equipment
 					slot="Body"
-					id="Item.easterlingwarriors02_torso" />
+					id="Item.easterling02_v1_torso" />
 				<equipment
 					slot="Cape"
-					id="Item.easterlingwarriors02_cape" />
+					id="Item.easterling02_v1_cape" />
 				<equipment
 					slot="Gloves"
-					id="Item.easterlingwarriors01_gloves" />
+					id="Item.easterling02_v1_gloves" />
 				<equipment
 					slot="Leg"
-					id="Item.easterlingwarriors01_boots" />
+					id="Item.easterling02_v1_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
@@ -886,14 +904,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="190"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="235"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_eyeofthewaste"/>
@@ -902,10 +920,16 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_3_t3" />
+					id="Item.composite_steppe_bow" />
 				<equipment
 					slot="Item1"
-					id="Item.desert_round_shield" />
+					id="Item.bodkin_arrows_b" />
+				<equipment
+					slot="Item2"
+					id="Item.bodkin_arrows_b" />
+				<equipment
+					slot="Item3"
+					id="Item.khuzait_sword_3_t3" />
 				<equipment
 					slot="Head"
 					id="Item.easterlingwarriors02_helmet" />
@@ -953,14 +977,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="270"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -1005,14 +1029,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="270"/>
+			<skill id="Riding" value="250"/>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -1056,14 +1080,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="270"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="190"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="285"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -1071,10 +1095,16 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.khuzait_sword_1_t2" />
+					id="Item.steppe_war_bow" />
 				<equipment
 					slot="Item1"
-					id="Item.easterling_shield" />
+					id="Item.bodkin_arrows_b" />
+				<equipment
+					slot="Item2"
+					id="Item.bodkin_arrows_b" />
+				<equipment
+					slot="Item3"
+					id="Item.khuzait_sword_3_t3" />
 				<equipment
 					slot="Head"
 					id="Item.easterling_head" />
@@ -1107,14 +1137,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="270"/>
+			<skill id="Riding" value="250"/>
+			<skill id="OneHanded" value="190"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="285"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -1122,10 +1152,16 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.khuzait_sword_1_t2" />
+					id="Item.steppe_war_bow" />
 				<equipment
 					slot="Item1"
-					id="Item.easterling_shield" />
+					id="Item.bodkin_arrows_b" />
+				<equipment
+					slot="Item2"
+					id="Item.bodkin_arrows_b" />
+				<equipment
+					slot="Item3"
+					id="Item.khuzait_sword_3_t3" />
 				<equipment
 					slot="Head"
 					id="Item.easterling_head" />
@@ -1161,29 +1197,48 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="125"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rhun_noble_rider"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.khuzait_sword_4_t4" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -1197,29 +1252,48 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="175"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rhun_honor_guard"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_lance_2_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.khuzait_sword_4_t4" />
+				<equipment
+					slot="Head"
+					id="Item.easterling_head" />
+				<equipment
+					slot="Body"
+					id="Item.easterling_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.easterling_glove" />
+				<equipment
+					slot="Leg"
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
 			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -1233,31 +1307,50 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="250"/>
+			<skill id="OneHanded" value="190"/>
+			<skill id="TwoHanded" value="190"/>
+			<skill id="Polearm" value="210"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rhun_bloodrider"/>
 
 		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-			</EquipmentRoster>
-		</Equipments>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment
+						slot="Item0"
+						id="Item.khuzait_lance_2_t4" />
+					<equipment
+						slot="Item1"
+						id="Item.easterling_shield" />
+					<equipment
+						slot="Item2"
+						id="Item.khuzait_sword_4_t4" />
+					<equipment
+						slot="Head"
+						id="Item.easterling_head" />
+					<equipment
+						slot="Body"
+						id="Item.easterling_torso" />
+					<equipment
+						slot="Gloves"
+						id="Item.easterling_glove" />
+					<equipment
+						slot="Leg"
+						id="Item.easterling_boots" />
+					<equipment
+						slot="Cape"
+						id="Item.easterling_cape" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="aserai_troop_civilian_template_t3"
+					civilian="true" />
+			</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="rhun_bloodrider"
@@ -1270,42 +1363,50 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="250"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="240"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.rhun_cataphract"/>
 		</upgrade_targets>
 		<Equipments>
-			<EquipmentRoster>
-				<equipment
-					slot="Item0"
-					id="Item.aserai_sword_5_t4" />
-				<equipment
-					slot="Item1"
-					id="Item.desert_round_shield" />
-				<equipment
-					slot="Head"
-					id="Item.harad04_helmet" />
-				<equipment
-					slot="Body"
-					id="Item.harad04_body" />
-				<equipment
-					slot="Cape"
-					id="Item.harad04_cape" />
-				<equipment
-					slot="Gloves"
-					id="Item.harad04_glove" />
-				<equipment
-					slot="Leg"
-					id="Item.harad04_boots" />
-			</EquipmentRoster>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment
+						slot="Item0"
+						id="Item.khuzait_lance_2_t4" />
+					<equipment
+						slot="Item1"
+						id="Item.easterling_shield" />
+					<equipment
+						slot="Item2"
+						id="Item.khuzait_sword_4_t4" />
+					<equipment
+						slot="Head"
+						id="Item.easterling_head" />
+					<equipment
+						slot="Body"
+						id="Item.easterling_torso" />
+					<equipment
+						slot="Gloves"
+						id="Item.easterling_glove" />
+					<equipment
+						slot="Leg"
+						id="Item.easterling_boots" />
+					<equipment
+						slot="Cape"
+						id="Item.easterling_cape" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="aserai_troop_civilian_template_t3"
+					civilian="true" />
+			</Equipments>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
 				civilian="true" />
@@ -1322,14 +1423,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
-			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Athletics" value="270"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="280"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -1337,27 +1438,29 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_6_t4" />
+					id="Item.khuzait_lance_2_t4" />
 				<equipment
 					slot="Item1"
-					id="Item.desert_round_shield" />
+					id="Item.easterling_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.khuzait_sword_4_t4" />
 				<equipment
 					slot="Head"
-					id="Item.harad05_v1_helmet" />
+					id="Item.easterling_head" />
 				<equipment
 					slot="Body"
-					id="Item.harad05_v4_torso" />
-				<equipment
-					slot="Cape"
-					id="Item.harad05_v4_cape" />
+					id="Item.easterling_torso" />
 				<equipment
 					slot="Gloves"
-					id="Item.harad05_v1_gloves" />
+					id="Item.easterling_glove" />
 				<equipment
 					slot="Leg"
-					id="Item.harad05_v4_boots" />
+					id="Item.easterling_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.easterling_cape" />
 			</EquipmentRoster>
-		
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
 				civilian="true" />

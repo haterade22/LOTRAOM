@@ -43,6 +43,7 @@
 			<upgrade_target id="NPCCharacter.mordor_uruk_scout"/>
 			<upgrade_target id="NPCCharacter.mordor_rhun_servant"/>
 			<upgrade_target id="NPCCharacter.mordor_harad_initiate"/>
+			<upgrade_target id="NPCCharacter.mordor_black_numenorean"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
@@ -3334,6 +3335,72 @@
 		</Equipments>
 	</NPCCharacter>
 
+	<NPCCharacter
+		id="mordor_black_numenorean"
+		default_group="Infantry"
+		level="31"
+		name="{=mordor_black_numenorean}Black Númenórean Marshal"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="280" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="280" />
+			<skill
+				id="TwoHanded"
+				value="250" />
+			<skill
+				id="Polearm"
+				value="255" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="290" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sm_uruk_sword_a" />
+				<equipment
+					slot="Item1"
+					id="Item.sm_mordor_shield_tower_b" />
+				<equipment
+					slot="Head"
+					id="Item.ar_ardunian_elite_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.ar_ardunian_elite_armour" />
+				<equipment
+					slot="Gloves"
+					id="Item.ar_ardunian_elite_hand" />
+				<equipment
+					slot="Leg"
+					id="Item.ar_ardunian_elite_shoses" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	
 
 	<!-- Harad Line -->
 

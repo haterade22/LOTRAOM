@@ -108,18 +108,18 @@ namespace LOTRAOM.Models
             ["clan_empire_west_12"] = new List<VolunteerChance> { new("ranger_of_ithilien", 3), new("gondor_page", 1) },
            
             //Rohan
-            ["clan_vlandia_1"] = new List<VolunteerChance> { new("rohan_peasant", 9), new("rohan_outrider", 1) },         
-            ["clan_vlandia_2"] = new List<VolunteerChance> { new("rohan_peasant", 9), new("rohan_outrider", 1) },
-            ["clan_vlandia_3"] = new List<VolunteerChance> { new("rohan_peasant", 9), new("rohan_outrider", 1) },
-            ["clan_vlandia_4"] = new List<VolunteerChance> { new("rohan_peasant", 9), new("rohan_outrider", 1) },
-            ["clan_vlandia_5"] = new List<VolunteerChance> { new("rohan_peasant", 9), new("rohan_outrider", 1) },
-            ["clan_vlandia_6"] = new List<VolunteerChance> { new("rohan_peasant", 9), new("rohan_outrider", 1) },
-            ["clan_vlandia_7"] = new List<VolunteerChance> { new("rohan_peasant", 9), new("rohan_outrider", 1) },
-            ["clan_vlandia_8"] = new List<VolunteerChance> { new("rohan_peasant", 9), new("rohan_outrider", 1) },
-            ["clan_vlandia_9"] = new List<VolunteerChance> { new("rohan_peasant", 9), new("rohan_outrider", 1) },
-            ["clan_vlandia_10"] = new List<VolunteerChance> { new("rohan_peasant", 9), new("rohan_outrider", 1) },
-            ["clan_vlandia_11"] = new List<VolunteerChance> { new("rohan_peasant", 9), new("rohan_outrider", 1) },
-            ["clan_vlandia_12"] = new List<VolunteerChance> { new("rohan_peasant", 9), new("rohan_outrider", 1) },
+            ["clan_vlandia_1"] = new List<VolunteerChance> { new("rohan_peasant", 8), new("rohan_outrider", 2) },         
+            ["clan_vlandia_2"] = new List<VolunteerChance> { new("rohan_peasant", 8), new("rohan_outrider", 2) },
+            ["clan_vlandia_3"] = new List<VolunteerChance> { new("rohan_peasant", 8), new("rohan_outrider", 2) },
+            ["clan_vlandia_4"] = new List<VolunteerChance> { new("rohan_peasant", 8), new("rohan_outrider", 2) },
+            ["clan_vlandia_5"] = new List<VolunteerChance> { new("rohan_peasant", 8), new("rohan_outrider", 2) },
+            ["clan_vlandia_6"] = new List<VolunteerChance> { new("rohan_peasant", 8), new("rohan_outrider", 2) },
+            ["clan_vlandia_7"] = new List<VolunteerChance> { new("rohan_peasant", 8), new("rohan_outrider", 2) },
+            ["clan_vlandia_8"] = new List<VolunteerChance> { new("rohan_peasant", 8), new("rohan_outrider", 2) },
+            ["clan_vlandia_9"] = new List<VolunteerChance> { new("rohan_peasant", 8), new("rohan_outrider", 2) },
+            ["clan_vlandia_10"] = new List<VolunteerChance> { new("rohan_peasant",8), new("rohan_outrider", 2) },
+            ["clan_vlandia_11"] = new List<VolunteerChance> { new("rohan_peasant", 8), new("rohan_outrider", 2) },
+            ["clan_vlandia_12"] = new List<VolunteerChance> { new("rohan_peasant", 8), new("rohan_outrider", 2) },
 
 
             //Harad
