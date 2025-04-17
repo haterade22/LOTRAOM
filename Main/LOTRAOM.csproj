@@ -106,8 +106,4 @@
     <None Include="_Module\ModuleData\project.mbproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="CampaignBehaviors\" />
-  </ItemGroup>
-
 </Project>

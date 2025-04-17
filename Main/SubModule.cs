@@ -10,7 +10,8 @@ using LOTRAOM.Models;
 using TaleWorlds.CampaignSystem.ComponentInterfaces;
 using LOTRAOM.Patches;
 using LOTRAOM.Extensions;
-using LOTRAOM.BalanceOfPower;
+using LOTRAOM.Momentum;
+using LOTRAOM.CampaignBehaviors;
 
 namespace LOTRAOM
 {
@@ -54,11 +55,17 @@ namespace LOTRAOM
         {
             base.OnGameStart(game, gameStarterObject);
 
-            if (gameStarterObject is CampaignGameStarter campaignGameStarter)
-            {
-                campaignGameStarter.AddBehavior(new KeepHeroRaceCampaignBehavior());
-                campaignGameStarter.AddBehavior(new BalanceOfPowerCampaignBehavior());
+            //test 
+                //foreach (Kingdom kingdom in Kingdom.All)
+                //    foreach (Kingdom kingdom2 in Kingdom.All)
+                //    FactionManager.SetNeutral
 
+           if (gameStarterObject is CampaignGameStarter campaignGameStarter)
+           {
+                campaignGameStarter.AddBehavior(new KeepHeroRaceCampaignBehavior());
+                campaignGameStarter.AddBehavior(new AoMDiplomacy());
+                campaignGameStarter.AddBehavior(new MomentumCampaignBehavior());
+                
                 // models
                 campaignGameStarter.AddModel(new LOTRAOMNotableSpawnModel(campaignGameStarter.GetExistingModel<NotableSpawnModel>()));
                 campaignGameStarter.AddModel(new LOTRAOMPartyWageModel(campaignGameStarter.GetExistingModel<PartyWageModel>()));
@@ -70,9 +77,12 @@ namespace LOTRAOM
                 campaignGameStarter.AddModel(new AOMVolunteerModel(campaignGameStarter.GetExistingModel<VolunteerModel>()));
                 campaignGameStarter.AddModel(new AOMCharacterStatsModel(campaignGameStarter.GetExistingModel<CharacterStatsModel>()));
                 campaignGameStarter.AddModel(new AOMTroopUpgradeModel(campaignGameStarter.GetExistingModel<PartyTroopUpgradeModel>()));
+                campaignGameStarter.AddModel(new AOMDiplomacyModel(campaignGameStarter.GetExistingModel<DiplomacyModel>()));
+                campaignGameStarter.AddModel(new AOMKingdomDecisionPermissionModel());
+                //we can edit this to make factions based on raiding (raiding gives more items)
+                //campaignGameStarter.GetExistingModel<DefaultRaidModel>
             }
         }
-
         protected override void OnSubModuleUnloaded()
         {
             base.OnSubModuleUnloaded();

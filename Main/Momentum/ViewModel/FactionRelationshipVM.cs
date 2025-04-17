@@ -6,13 +6,13 @@ using TaleWorlds.Core;
 using TaleWorlds.Core.ViewModelCollection.Information;
 using TaleWorlds.Library;
 
-namespace LOTRAOM.BalanceOfPower.ViewModel
+namespace LOTRAOM.Momentum.ViewModel
 {
-    public sealed class DiplomacyFactionRelationshipVM : TaleWorlds.Library.ViewModel
+    public sealed class FactionRelationshipVM : TaleWorlds.Library.ViewModel
     {
         public IFaction Faction { get; init; }
 
-        public DiplomacyFactionRelationshipVM(IFaction faction, HintViewModel? hint = null)
+        public FactionRelationshipVM(IFaction faction, HintViewModel? hint = null)
         {
             Faction = faction;
             _imageIdentifier = new ImageIdentifierVM(BannerCode.CreateFrom(faction.Banner), true);
@@ -21,9 +21,9 @@ namespace LOTRAOM.BalanceOfPower.ViewModel
         }
         private void ExecuteLink() => Campaign.Current.EncyclopediaManager.GoToLink(Faction.EncyclopediaLink);
 
-        public override bool Equals(object obj) => obj is DiplomacyFactionRelationshipVM vm && Equals(vm);
+        public override bool Equals(object obj) => obj is FactionRelationshipVM vm && Equals(vm);
 
-        public bool Equals(DiplomacyFactionRelationshipVM vm) => EqualityComparer<IFaction>.Default.Equals(Faction, vm.Faction);
+        public bool Equals(FactionRelationshipVM vm) => EqualityComparer<IFaction>.Default.Equals(Faction, vm.Faction);
 
         public override int GetHashCode() => -301155118 + EqualityComparer<IFaction>.Default.GetHashCode(Faction);
 

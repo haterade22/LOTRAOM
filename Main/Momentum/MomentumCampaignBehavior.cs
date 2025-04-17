@@ -1,0 +1,47 @@
+﻿using System;
+using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.Settlements;
+using TaleWorlds.Localization;
+using TaleWorlds.SaveSystem;
+namespace LOTRAOM.Momentum
+{
+    public class MomentumCampaignBehavior : CampaignBehaviorBase
+    {
+        public static MomentumCampaignBehavior Instance { get { return Campaign.Current.GetCampaignBehavior<MomentumCampaignBehavior>(); } }
+        [SaveableField(0)] private WarOfTheRingData _warOfTheRingData;
+        public WarOfTheRingData WarOfTheRingdata
+        {
+            get
+            {
+                _warOfTheRingData ??= new WarOfTheRingData();
+                return _warOfTheRingData;
+            }
+        }
+        public override void RegisterEvents()
+        {
+            CampaignEvents.ArmyDispersed.AddNonSerializedListener(this, OnArmyCreated);
+            CampaignEvents.ArmyGathered.AddNonSerializedListener(this, OnArmyGathered);
+        }
+
+        private void OnArmyGathered(Army army, Settlement settlement)
+        {
+            if (!WarOfTheRingdata.DoesFactionTakePartInWar(army.ArmyOwner.MapFaction)) return;
+            var time = CampaignTime.DaysFromNow(2);
+            WarOfTheRingdata.AddEvent(MomentumActionType.ArmyGathered, new MomentumEvent(2, new TextObject("army gathered"), MomentumActionType.ArmyGathered, GetEventEndTime(MomentumActionType.ArmyGathered)));
+
+        }
+
+        private void OnArmyCreated(Army army, Army.ArmyDispersionReason reason, bool arg3)
+        {
+        }
+
+        public override void SyncData(IDataStore dataStore)
+        {
+            dataStore.SyncData("_warOfTheRingData", ref _warOfTheRingData);
+        }
+        public static CampaignTime GetEventEndTime(MomentumActionType type)
+        {
+            return CampaignTime.DaysFromNow(2);
+        }
+    }
+}

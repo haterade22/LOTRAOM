@@ -1,9 +1,10 @@
-﻿using TaleWorlds.Library;
+﻿using LOTRAOM.Momentum;
+using TaleWorlds.Library;
 using TaleWorlds.Localization;
 
-namespace LOTRAOM.BalanceOfPower.ViewModel
+namespace LOTRAOM.Momentum.ViewModel
 {
-    internal class BalanceOfPowerBreakdownVM : TaleWorlds.Library.ViewModel
+    internal class MomentumBreakdownVM : TaleWorlds.Library.ViewModel
     {
         [DataSourceProperty] public string Text { get; set; }
 
@@ -15,20 +16,20 @@ namespace LOTRAOM.BalanceOfPower.ViewModel
 
         [DataSourceProperty] public string WarExhaustionValueFaction2 { get; set; }
 
-        public BalanceOfPowerBreakdownVM(BalanceOfPowerBreakdown breakdown)
+        public MomentumBreakdownVM(MomentumBreakdown breakdown)
         {
             switch (breakdown.Type)
             {
-                case BalanceOfPowerActionType.Casualty:
+                case MomentumActionType.Casualty:
                     Text = new TextObject("Casualties").ToString();
                     break;
-                case BalanceOfPowerActionType.Raid:
+                case MomentumActionType.Raid:
                     Text = new TextObject("Villages Raided").ToString();
                     break;
-                case BalanceOfPowerActionType.Siege:
+                case MomentumActionType.Siege:
                     Text = new TextObject("Fiefs Lost").ToString();
                     break;
-                case BalanceOfPowerActionType.Occupied:
+                case MomentumActionType.Occupied:
                     Text = new TextObject("Occupied").ToString();
                     break;
                 default:

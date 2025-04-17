@@ -4,15 +4,15 @@ using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.Library;
 
-namespace LOTRAOM.BalanceOfPower.ViewModel
+namespace LOTRAOM.Momentum.ViewModel
 {
-    public class BalanceOfPowerStatVM : TaleWorlds.Library.ViewModel
+    public class MomentumStatVM : TaleWorlds.Library.ViewModel
     {
         [DataSourceProperty] public string Name { get; set; }
         [DataSourceProperty] public string ValueFactionGood { get; set; }
         [DataSourceProperty] public string ValueFactionEvil { get; set; }
 
-        public BalanceOfPowerStatVM(string name, string valueGood, string valueEvil)
+        public MomentumStatVM(string name, string valueGood, string valueEvil)
         {
             Name = name;
             ValueFactionGood = valueGood;

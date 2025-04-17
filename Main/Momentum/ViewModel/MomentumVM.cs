@@ -1,0 +1,125 @@
+﻿using LOTRAOM.Momentum;
+using System;
+using TaleWorlds.CampaignSystem;
+using TaleWorlds.Core;
+using TaleWorlds.Core.ViewModelCollection.Information;
+using TaleWorlds.Library;
+using TaleWorlds.Localization;
+
+namespace LOTRAOM.Momentum.ViewModel
+{
+    internal sealed class MomentumVM : TaleWorlds.Library.ViewModel
+    {
+        private readonly Action _finalize;
+        [DataSourceProperty] public string StartDate { get; set; }
+        [DataSourceProperty] public string Duration { get; set; }
+        [DataSourceProperty] public string BalanceOfPowerOverview { get; set; }
+        [DataSourceProperty] public MBBindingList<MomentumBreakdownVM> Breakdowns { get; set; }
+        [DataSourceProperty] public string StatsLabel { get; set; }
+        [DataSourceProperty] public MBBindingList<MomentumStatVM> Stats { get; set; } = null!;
+
+        [DataSourceProperty] public HintViewModel HelpHint { get; set; }
+
+        [DataSourceProperty] public string WarExhaustionRate { get; set; }
+
+        [DataSourceProperty] public HintViewModel RateHelpHint { get; set; }
+
+        [DataSourceProperty] public string ScreenName { get { return new TextObject("Balance of Power").ToString(); } }
+
+        private MBBindingList<FactionRelationshipVM> _goodFactionParticipants = new();
+        private MBBindingList<FactionRelationshipVM> _evilFactionParticipants = new();
+        private WarOfTheRingData warOfTheRingData { get { return MomentumCampaignBehavior.Instance.WarOfTheRingdata; } }
+
+        MBBindingList<FactionRelationshipVM> _goodFactionLeader;
+        MBBindingList<FactionRelationshipVM> _evilFactionLeader;
+        [DataSourceProperty] public MBBindingList<FactionRelationshipVM> GoodFactionLeader { get { return _goodFactionLeader; } }
+        [DataSourceProperty] public MBBindingList<FactionRelationshipVM> EvilFactionLeader { get { return _evilFactionLeader; } }
+
+        [DataSourceProperty]
+        public MBBindingList<FactionRelationshipVM> GoodFactionParticipants
+        {
+            get => _goodFactionParticipants;
+            set
+            {
+                if (value != _goodFactionParticipants)
+                {
+                    _goodFactionParticipants = value;
+                    OnPropertyChanged(nameof(GoodFactionParticipants));
+                }
+            }
+        }
+        [DataSourceProperty]
+        public MBBindingList<FactionRelationshipVM> EvilFactionParticipants
+        {
+            get => _evilFactionParticipants;
+            set
+            {
+                if (value != _evilFactionParticipants)
+                {
+                    _evilFactionParticipants = value;
+                    OnPropertyChanged(nameof(EvilFactionParticipants));
+                }
+            }
+        }
+        [DataSourceProperty] public ImageIdentifierVM GoodAllianceVisual { get; set; } = null!;
+        [DataSourceProperty] public ImageIdentifierVM EvilAllianceVisual { get; set; } = null!;
+        public MomentumVM(Action onFinalize)
+        {
+            Kingdom mordor = MomentumGlobals.Mordor;
+            Kingdom gondor = MomentumGlobals.Gondor;
+            _goodFactionLeader = new()
+            {
+                new FactionRelationshipVM(gondor)
+            };
+            _evilFactionLeader = new()
+            {
+                new FactionRelationshipVM(mordor)
+            };
+            EvilAllianceVisual = new ImageIdentifierVM(BannerCode.CreateFrom(mordor.Banner), true);
+            _finalize = onFinalize;
+            StartDate = new TextObject("info 1").ToString();
+            Duration = new TextObject("info 2").ToString();
+
+            //Duration = new TextObject("{=qHrihV27}War Duration: {WAR_DURATION} days")
+            //    .SetTextVariable("WAR_DURATION", (int)warStartDate.ElapsedDaysUntilNow)
+            //    .ToString();
+            Breakdowns = new();
+            var breakdowns = MomentumGlobals.MockBalanceOfPowerBreakdown();
+            Stats = MomentumGlobals.MockTotalStats();
+            Breakdowns.Clear();
+            foreach (var breakdown in breakdowns) Breakdowns.Add(new MomentumBreakdownVM(breakdown));
+
+            BalanceOfPowerOverview = new TextObject("").ToString();
+            RateHelpHint = new HintViewModel(GameTexts.FindText("str_warexhaustionrate_help"));
+            StatsLabel = "Total stats";
+            RefreshValues();
+
+            foreach (var kingdom in warOfTheRingData.GoodKingdoms.Kingdoms)
+            {
+                GoodFactionParticipants.Add(new FactionRelationshipVM(kingdom));
+            }
+            foreach (var kingdom in warOfTheRingData.EvilKingdoms.Kingdoms)
+            {
+                EvilFactionParticipants.Add(new FactionRelationshipVM(kingdom));
+            }
+        }
+        //private HintViewModel CreateHint(Kingdom kingdom1, Kingdom kingdom2)
+        //{
+        //    TextObject textObject;
+        //    textObject = new("hint");
+        //    return new HintViewModel(textObject);
+        //}
+
+        public override void RefreshValues()
+        {
+            base.RefreshValues();
+            Kingdom mordor = MomentumGlobals.Mordor;
+            Kingdom gondor = MomentumGlobals.Gondor;
+        }
+
+        private void OnComplete()
+        {
+            _finalize();
+        }
+    }
+}

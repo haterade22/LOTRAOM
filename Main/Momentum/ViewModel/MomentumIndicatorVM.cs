@@ -1,18 +1,17 @@
-﻿using LOTRAOM.BalanceOfPower;
-using System.Linq;
+﻿using System.Linq;
 using System.Text.RegularExpressions;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Library;
 
-namespace LOTRAOM.BalanceOfPower.ViewModel
+namespace LOTRAOM.Momentum.ViewModel
 {
-    internal sealed class BalanceOfPowerIndicatorVM : TaleWorlds.Library.ViewModel
+    internal sealed class MomentumIndicatorVM : TaleWorlds.Library.ViewModel
     {
 
-        private BalanceOfPowerIndicatorItemVM _balanceOfPowerView;
+        private MomentumIndicatorItemVM _balanceOfPowerView;
 
         [DataSourceProperty]
-        public BalanceOfPowerIndicatorItemVM OneKingdom
+        public MomentumIndicatorItemVM OneKingdom
         {
             get => _balanceOfPowerView;
             set
@@ -24,7 +23,7 @@ namespace LOTRAOM.BalanceOfPower.ViewModel
                 }
             }
         }
-        public BalanceOfPowerIndicatorVM()
+        public MomentumIndicatorVM()
         {
             RefreshValues();
             //CampaignEvents.WarDeclared.AddNonSerializedListener(this, HandleStanceChange);
@@ -59,7 +58,7 @@ namespace LOTRAOM.BalanceOfPower.ViewModel
 
         public override void RefreshValues()
         {
-            OneKingdom = new BalanceOfPowerIndicatorItemVM();
+            OneKingdom = new MomentumIndicatorItemVM();
         }
     }
 }

@@ -3,7 +3,7 @@ using HarmonyLib.BUTR.Extensions;
 using TaleWorlds.Engine.GauntletUI;
 using TaleWorlds.ScreenSystem;
 
-namespace LOTRAOM.BalanceOfPower.Views
+namespace LOTRAOM.Momentum.Views
 {
     public abstract class GenericInterface
     {

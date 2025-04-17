@@ -42,24 +42,24 @@
 
 								<ListPanel MarginTop="60" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="VerticalBottomToTop" HorizontalAlignment="Center">
 									<Children>
-
-
 										<!-- Leaders -->
 										<Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" MarginTop="20">
 											<Children>
 												<TextWidget ClipContents="false" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Text="Leaders" />
 											</Children>
 										</Widget>
+
+
 										<ListPanel VerticalAlignment="Top" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" LayoutImp.LayoutMethod="HorizontalLeftToRight" >
 											<Children>
-												<ListPanel MarginRight="20" DataSource="{Faction1Allies}" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" LayoutImp.LayoutMethod="HorizontalRightToLeft">
+												<ListPanel MarginRight="20" DataSource="{GoodFactionLeader}" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" LayoutImp.LayoutMethod="HorizontalRightToLeft">
 													<ItemTemplate>
 														<!--Member-->
 														<Relationship/>
 													</ItemTemplate>
 												</ListPanel>
 												<Widget VerticalAlignment="Center" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="2" SuggestedHeight="85" Sprite="Encyclopedia\divider_vertical"/>
-												<ListPanel VerticalAlignment="Top" MarginLeft="20" DataSource="{Faction2Allies}" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" LayoutImp.LayoutMethod="HorizontalLeftToRight">
+												<ListPanel VerticalAlignment="Top" MarginLeft="20" DataSource="{EvilFactionLeader}" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" LayoutImp.LayoutMethod="HorizontalLeftToRight">
 													<ItemTemplate>
 														<!--Member-->
 														<Relationship/>
@@ -67,6 +67,7 @@
 												</ListPanel>
 											</Children>
 										</ListPanel>
+
 										<!-- Alliances -->
 										<Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" MarginTop="20">
 											<Children>
@@ -75,14 +76,14 @@
 										</Widget>
 										<ListPanel VerticalAlignment="Top" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" LayoutImp.LayoutMethod="HorizontalLeftToRight" >
 											<Children>
-												<ListPanel MarginRight="20" DataSource="{Faction1Allies}" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" LayoutImp.LayoutMethod="HorizontalRightToLeft">
+												<ListPanel MarginRight="20" DataSource="{GoodFactionParticipants}" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" LayoutImp.LayoutMethod="HorizontalRightToLeft">
 													<ItemTemplate>
 														<!--Member-->
 														<Relationship/>
 													</ItemTemplate>
 												</ListPanel>
 												<Widget VerticalAlignment="Center" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="2" SuggestedHeight="85" Sprite="Encyclopedia\divider_vertical"/>
-												<ListPanel VerticalAlignment="Top" MarginLeft="20" DataSource="{Faction2Allies}" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" LayoutImp.LayoutMethod="HorizontalLeftToRight">
+												<ListPanel VerticalAlignment="Top" MarginLeft="20" DataSource="{EvilFactionParticipants}" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" LayoutImp.LayoutMethod="HorizontalLeftToRight">
 													<ItemTemplate>
 														<!--Member-->
 														<Relationship/>

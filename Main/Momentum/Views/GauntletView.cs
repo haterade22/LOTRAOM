@@ -1,16 +1,16 @@
 ﻿using JetBrains.Annotations;
-using LOTRAOM.BalanceOfPower.ViewModel;
+using LOTRAOM.Momentum.ViewModel;
 using SandBox.View.Map;
 using TaleWorlds.Engine.GauntletUI;
 using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.MountAndBlade.View;
 
-namespace LOTRAOM.BalanceOfPower.Views
+namespace LOTRAOM.Momentum.Views
 {
-    public class BalanceOfPowerIndicator : MapView
+    public class MomentumIndicator : MapView
     {
-        private BalanceOfPowerIndicatorVM _dataSource = null!;
+        private MomentumIndicatorVM _dataSource = null!;
         private GauntletLayer _layerAsGauntletLayer = null!;
 
         protected override void OnMapScreenUpdate(float dt)
@@ -22,10 +22,10 @@ namespace LOTRAOM.BalanceOfPower.Views
         protected override void CreateLayout()
         {
             base.CreateLayout();
-            _dataSource = new BalanceOfPowerIndicatorVM();
+            _dataSource = new MomentumIndicatorVM();
             Layer = new GauntletLayer(100);
             _layerAsGauntletLayer = (Layer as GauntletLayer)!;
-            _layerAsGauntletLayer!.LoadMovie("BalanceOfPowerMapIndicator", _dataSource);
+            _layerAsGauntletLayer!.LoadMovie("MomentumMapIndicator", _dataSource);
             Layer.InputRestrictions.SetInputRestrictions(false, InputUsageMask.MouseButtons | InputUsageMask.Keyboardkeys);
             MapScreen.AddLayer(Layer);
         }

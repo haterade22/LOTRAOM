@@ -1,15 +1,12 @@
-﻿using LOTRAOM.BalanceOfPower.ViewModel;
-using System;
+﻿using LOTRAOM.Momentum.ViewModel;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Library;
 
-namespace LOTRAOM.BalanceOfPower
+namespace LOTRAOM.Momentum
 {
-    public static class BalanceOfPowerGlobals
+    public static class MomentumGlobals
     {
         public static Kingdom Mordor
         {
@@ -25,21 +22,21 @@ namespace LOTRAOM.BalanceOfPower
                 return Kingdom.All.Where(x => x.Culture.StringId == "gondor").FirstOrDefault()!;
             }
         }
-        public static List<BalanceOfPowerBreakdown> MockBalanceOfPowerBreakdown()
+        public static List<MomentumBreakdown> MockBalanceOfPowerBreakdown()
         {
-            List<BalanceOfPowerBreakdown> list = new()
+            List<MomentumBreakdown> list = new()
             {
-                new BalanceOfPowerBreakdown()
+                new MomentumBreakdown()
                 {
-                    Type = BalanceOfPowerActionType.Casualty,
+                    Type = MomentumActionType.Casualty,
                     ValueFaction1 = 0,
                     ValueFaction2 = 0,
                     BalanceOfPowerFraction1 = 0,
                     BalanceOfPowerFraction2 = 0
                 },
-                new BalanceOfPowerBreakdown()
+                new MomentumBreakdown()
                 {
-                    Type = BalanceOfPowerActionType.Occupied,
+                    Type = MomentumActionType.Occupied,
                     ValueFaction1 = 1,
                     ValueFaction2 = 1,
                     BalanceOfPowerFraction1 = 1,
@@ -48,9 +45,9 @@ namespace LOTRAOM.BalanceOfPower
             };
             return list;
         }
-        public static MBBindingList<BalanceOfPowerStatVM> MockTotalStats()
+        public static MBBindingList<MomentumStatVM> MockTotalStats()
         {
-            return new MBBindingList<BalanceOfPowerStatVM>()
+            return new MBBindingList<MomentumStatVM>()
             {
                 new("Total Deaths", "0", "0"),
                 new("Total Successful Sieges", "0", "0"),

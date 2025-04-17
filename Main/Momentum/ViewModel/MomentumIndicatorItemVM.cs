@@ -1,13 +1,12 @@
-﻿using JetBrains.Annotations;
-using LOTRAOM.BalanceOfPower.Views;
+﻿using LOTRAOM.Momentum.Views;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.ScreenSystem;
 
-namespace LOTRAOM.BalanceOfPower.ViewModel
+namespace LOTRAOM.Momentum.ViewModel
 {
-    internal sealed class BalanceOfPowerIndicatorItemVM : TaleWorlds.Library.ViewModel
+    internal sealed class MomentumIndicatorItemVM : TaleWorlds.Library.ViewModel
     {
         private bool _isCriticalFaction1;
         private bool _isCriticalFaction2;
@@ -30,6 +29,11 @@ namespace LOTRAOM.BalanceOfPower.ViewModel
             }
         }
 
+        [DataSourceProperty]
+        public int Momentum
+        {
+            get => MomentumCampaignBehavior.Instance.WarOfTheRingdata.Momentum;
+        }
 
         [DataSourceProperty]
         public int OpponentWarExhaustion
@@ -100,23 +104,21 @@ namespace LOTRAOM.BalanceOfPower.ViewModel
                 }
             }
         }
-
-        public BalanceOfPowerIndicatorItemVM()
+        public MomentumIndicatorItemVM()
         {
             RefreshValues();
         }
-
         public override void RefreshValues()
         {
             base.RefreshValues();
             var playerKingdom = Clan.PlayerClan.Kingdom;
-            Faction1Visual = new ImageIdentifierVM(BannerCode.CreateFrom(BalanceOfPowerGlobals.Gondor.Banner), true);
-            Faction2Visual = new ImageIdentifierVM(BannerCode.CreateFrom(BalanceOfPowerGlobals.Mordor.Banner), true);
+            Faction1Visual = new ImageIdentifierVM(BannerCode.CreateFrom(MomentumGlobals.Gondor.Banner), true);
+            Faction2Visual = new ImageIdentifierVM(BannerCode.CreateFrom(MomentumGlobals.Mordor.Banner), true);
         }
         private void OpenDetailedBalanceOfPowerView()
         {
             InformationManager.DisplayMessage(new InformationMessage("Factions"));
-            new DetailWarViewInterface().ShowInterface(ScreenManager.TopScreen);
+            new MomentumInterface().ShowInterface(ScreenManager.TopScreen);
         }
     }
 }

@@ -1,0 +1,67 @@
+﻿using LOTRAOM.Extensions;
+using LOTRAOM.Momentum;
+using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.ComponentInterfaces;
+using TaleWorlds.CampaignSystem.GameComponents;
+using TaleWorlds.CampaignSystem.Settlements;
+using TaleWorlds.Core;
+using TaleWorlds.Localization;
+
+namespace LOTRAOM.Models
+{
+    internal class AOMKingdomDecisionPermissionModel : KingdomDecisionPermissionModel
+    {
+
+        public AOMKingdomDecisionPermissionModel() {}
+
+        public override bool IsAnnexationDecisionAllowed(Settlement annexedSettlement)
+        {
+            return true;
+        }
+
+        public override bool IsExpulsionDecisionAllowed(Clan expelledClan)
+        {
+            return true;
+        }
+
+        public override bool IsKingSelectionDecisionAllowed(Kingdom kingdom)
+        {
+            return true;
+        }
+
+        public override bool IsPeaceDecisionAllowedBetweenKingdoms(Kingdom kingdom1, Kingdom kingdom2, out TextObject reason)
+        {
+
+            WarOfTheRingData data = MomentumCampaignBehavior.Instance.WarOfTheRingdata;
+            if (data.HasWarStarted() && data.DoesFactionTakePartInWar(kingdom1) && data.DoesFactionTakePartInWar(kingdom2))
+            {
+                reason = new TextObject("There can be no peace between the forces of good and evil!");
+                return false;
+            }
+            reason = TextObject.Empty;
+            return true;
+        }
+
+        public override bool IsPolicyDecisionAllowed(PolicyObject policy)
+        {
+            return true;
+        }
+
+        public override bool IsWarDecisionAllowedBetweenKingdoms(Kingdom kingdom1, Kingdom kingdom2, out TextObject reason)
+        {
+            if (kingdom1.Culture.IsGoodCulture() && kingdom2.Culture.IsGoodCulture())
+            {
+                //@todo localization
+                reason = new TextObject("We can not attack our friends against the forces of darkness!");
+                return false;
+            }
+            if (kingdom1.Culture.IsEvilCulture() && kingdom2.Culture.IsEvilCulture())
+            {
+                reason = new TextObject("We can not attack our friends against the forces of darkness!");
+                return false;
+            }
+            reason = TextObject.Empty;
+            return true;
+        }
+    }
+}

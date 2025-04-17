@@ -1,15 +1,13 @@
-﻿using JetBrains.Annotations;
-using LOTRAOM.BalanceOfPower.ViewModel;
-using TaleWorlds.CampaignSystem;
+﻿using LOTRAOM.Momentum.ViewModel;
 using TaleWorlds.Engine.GauntletUI;
 using TaleWorlds.InputSystem;
 using TaleWorlds.ScreenSystem;
 
-namespace LOTRAOM.BalanceOfPower.Views
+namespace LOTRAOM.Momentum.Views
 {
-    internal class DetailWarViewInterface : GenericInterface
+    internal class MomentumInterface : GenericInterface
     {
-        protected override string MovieName => "DetailedBalanceOfPowerView";
+        protected override string MovieName => "MomentumView";
 
         public void ShowInterface(ScreenBase screenBase)
         {
@@ -27,7 +25,7 @@ namespace LOTRAOM.BalanceOfPower.Views
             _layer.IsFocusLayer = true;
             ScreenManager.TrySetFocus(_layer);
             screenBase.AddLayer(_layer);
-            _vm = new DetailBalanceOfPowerVM(OnFinalize);
+            _vm = new MomentumVM(OnFinalize);
             _movie = LoadMovie();
         }
 
