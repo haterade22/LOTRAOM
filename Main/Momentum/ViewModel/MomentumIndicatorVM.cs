@@ -2,27 +2,29 @@
 using System.Text.RegularExpressions;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Library;
+using TaleWorlds.Localization;
 
 namespace LOTRAOM.Momentum.ViewModel
 {
     internal sealed class MomentumIndicatorVM : TaleWorlds.Library.ViewModel
     {
 
-        private MomentumIndicatorItemVM _balanceOfPowerView;
+        private MomentumIndicatorItemVM _momentumIndicatorVM;
 
         [DataSourceProperty]
-        public MomentumIndicatorItemVM OneKingdom
+        public MomentumIndicatorItemVM MomentumIndicator
         {
-            get => _balanceOfPowerView;
+            get => _momentumIndicatorVM;
             set
             {
-                if (value != _balanceOfPowerView)
+                if (value != _momentumIndicatorVM)
                 {
-                    _balanceOfPowerView = value;
-                    OnPropertyChanged(nameof(OneKingdom));
+                    _momentumIndicatorVM = value;
+                    OnPropertyChanged(nameof(MomentumIndicator));
                 }
             }
         }
+        [DataSourceProperty] public string MomentumIndicatorText { get { return new TextObject("Momentum").ToString(); } }
         public MomentumIndicatorVM()
         {
             RefreshValues();
@@ -53,12 +55,12 @@ namespace LOTRAOM.Momentum.ViewModel
 
         public void UpdateBanners()
         {
-            OneKingdom.RefreshValues();
+            MomentumIndicator.RefreshValues();
         }
 
         public override void RefreshValues()
         {
-            OneKingdom = new MomentumIndicatorItemVM();
+            MomentumIndicator = new MomentumIndicatorItemVM();
         }
     }
 }

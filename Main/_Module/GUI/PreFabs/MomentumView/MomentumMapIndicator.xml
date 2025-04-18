@@ -23,8 +23,8 @@
 
 		<Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Top" >
 			<Children>
-				<TextWidget DataSource="{OneKingdom}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="100" SuggestedWidth="200"  PositionYOffset="80" HorizontalAlignment="Center" Text="Momentum" />
-				<ButtonWidget DataSource="{OneKingdom}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Command.Click="OpenDetailedBalanceOfPowerView" DoNotPassEventsToChildren="true" UpdateChildrenStates="true">
+				<TextWidget DataSource="{MomentumIndicator}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="100" SuggestedWidth="200"  PositionYOffset="80" HorizontalAlignment="Center" Text="@MomentumIndicatorText" />
+				<ButtonWidget DataSource="{MomentumIndicator}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Command.Click="OpenDetailedBalanceOfPowerView" DoNotPassEventsToChildren="true" UpdateChildrenStates="true">
 					<Children>
 						<SliderWidget Sprite="BlankWhiteSquare_9" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="350" SuggestedHeight="65" HorizontalAlignment="Center" DoNotUpdateHandleSize="true" Handle="SliderHandle" IsDiscrete="true" Locked="false" MaxValueInt="100" MinValueInt="-100" ValueInt="@Momentum" MarginTop="10" IsEnabled="false">
 							<Children>

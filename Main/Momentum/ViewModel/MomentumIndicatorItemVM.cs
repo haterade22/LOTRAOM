@@ -10,7 +10,6 @@ namespace LOTRAOM.Momentum.ViewModel
     {
         private bool _isCriticalFaction1;
         private bool _isCriticalFaction2;
-        private int _playerWarExhaustion, _opponentWarExhaustion = 10;
         private ImageIdentifierVM _faction1Visual = null!;
         private ImageIdentifierVM _faction2Visual = null!;
 
@@ -35,34 +34,10 @@ namespace LOTRAOM.Momentum.ViewModel
             get => MomentumCampaignBehavior.Instance.WarOfTheRingdata.Momentum;
         }
 
-        [DataSourceProperty]
-        public int OpponentWarExhaustion
+        private void OnMomentumChanged()
         {
-            get => _opponentWarExhaustion;
-            set
-            {
-                if (value != _opponentWarExhaustion)
-                {
-                    _opponentWarExhaustion = value;
-                    OnPropertyChanged(nameof(OpponentWarExhaustion));
-                }
-            }
+            OnPropertyChanged(nameof(Momentum));
         }
-
-        [DataSourceProperty]
-        public int PlayerWarExhaustion
-        {
-            get => _playerWarExhaustion;
-            set
-            {
-                if (value != _playerWarExhaustion)
-                {
-                    _playerWarExhaustion = value;
-                    OnPropertyChanged(nameof(PlayerWarExhaustion));
-                }
-            }
-        }
-
         [DataSourceProperty]
         public ImageIdentifierVM Faction1Visual
         {
@@ -106,6 +81,7 @@ namespace LOTRAOM.Momentum.ViewModel
         }
         public MomentumIndicatorItemVM()
         {
+            MomentumCampaignBehavior.Instance.OnMomentumChanged += OnMomentumChanged;
             RefreshValues();
         }
         public override void RefreshValues()

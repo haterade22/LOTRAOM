@@ -7,6 +7,7 @@ namespace LOTRAOM.Momentum
 {
     public class MomentumCampaignBehavior : CampaignBehaviorBase
     {
+        public Action OnMomentumChanged;
         public static MomentumCampaignBehavior Instance { get { return Campaign.Current.GetCampaignBehavior<MomentumCampaignBehavior>(); } }
         [SaveableField(0)] private WarOfTheRingData _warOfTheRingData;
         public WarOfTheRingData WarOfTheRingdata
@@ -25,10 +26,9 @@ namespace LOTRAOM.Momentum
 
         private void OnArmyGathered(Army army, Settlement settlement)
         {
-            if (!WarOfTheRingdata.DoesFactionTakePartInWar(army.ArmyOwner.MapFaction)) return;
-            var time = CampaignTime.DaysFromNow(2);
-            WarOfTheRingdata.AddEvent(MomentumActionType.ArmyGathered, new MomentumEvent(2, new TextObject("army gathered"), MomentumActionType.ArmyGathered, GetEventEndTime(MomentumActionType.ArmyGathered)));
-
+            if (!WarOfTheRingdata.DoesFactionTakePartInWar(army.Kingdom)) return;
+            WarOfTheRingdata.AddEvent(army.Kingdom, MomentumActionType.ArmyGathered, new MomentumEvent(20, new TextObject("army gathered"), MomentumActionType.ArmyGathered, GetEventEndTime(MomentumActionType.ArmyGathered)));
+            OnMomentumChanged.Invoke();
         }
 
         private void OnArmyCreated(Army army, Army.ArmyDispersionReason reason, bool arg3)
