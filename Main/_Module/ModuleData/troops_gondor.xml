@@ -2354,6 +2354,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor3" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4" />
 				<equipment
@@ -2414,6 +2417,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor2" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_b" />
 				<equipment
@@ -2428,6 +2434,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor2" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_b" />
 				<equipment
@@ -2441,6 +2450,9 @@
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor2" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
 				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_b" />
@@ -2507,6 +2519,9 @@
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Gloves"
 					id="Item.citidel_guard_bracers" />
 				<equipment
@@ -2524,6 +2539,9 @@
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Gloves"
 					id="Item.citidel_guard_bracers" />
 				<equipment
@@ -2537,6 +2555,9 @@
 				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
@@ -2601,6 +2622,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
 				<equipment
@@ -2618,6 +2642,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
 				<equipment
@@ -2634,6 +2661,9 @@
 				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
@@ -2700,6 +2730,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
 				<equipment
@@ -2720,6 +2753,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
 				<equipment
@@ -2739,6 +2775,9 @@
 				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
@@ -2802,6 +2841,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
 				<equipment
@@ -2818,6 +2860,9 @@
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
 				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
@@ -2838,6 +2883,9 @@
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
 				<equipment
 					slot="Gloves"
 					id="Item.citidel_guard_bracers" />
