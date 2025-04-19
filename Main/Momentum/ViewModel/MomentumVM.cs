@@ -5,7 +5,7 @@ using TaleWorlds.Core;
 using TaleWorlds.Core.ViewModelCollection.Information;
 using TaleWorlds.Library;
 using TaleWorlds.Localization;
-
+using System.Collections.Generic;
 namespace LOTRAOM.Momentum.ViewModel
 {
     internal sealed class MomentumVM : TaleWorlds.Library.ViewModel
@@ -83,11 +83,8 @@ namespace LOTRAOM.Momentum.ViewModel
             //Duration = new TextObject("{=qHrihV27}War Duration: {WAR_DURATION} days")
             //    .SetTextVariable("WAR_DURATION", (int)warStartDate.ElapsedDaysUntilNow)
             //    .ToString();
-            Breakdowns = new();
-            var breakdowns = MomentumGlobals.MockBalanceOfPowerBreakdown();
+            CalculateBreakdowns();
             Stats = MomentumGlobals.MockTotalStats();
-            Breakdowns.Clear();
-            foreach (var breakdown in breakdowns) Breakdowns.Add(new MomentumBreakdownVM(breakdown));
 
             BalanceOfPowerOverview = new TextObject("").ToString();
             RateHelpHint = new HintViewModel(GameTexts.FindText("str_warexhaustionrate_help"));
@@ -103,6 +100,20 @@ namespace LOTRAOM.Momentum.ViewModel
                 EvilFactionParticipants.Add(new FactionRelationshipVM(kingdom));
             }
         }
+        private void CalculateBreakdowns()
+        {
+            Breakdowns = new();
+            Breakdowns.Clear();
+
+            foreach (MomentumActionType eventType in Enum.GetValues(typeof(MomentumActionType)))
+            {
+                Queue<MomentumEvent> goodEvents = warOfTheRingData.GoodKingdoms.WarOfTheRingEvents[eventType];
+                Queue<MomentumEvent> badEvents = warOfTheRingData.EvilKingdoms.WarOfTheRingEvents[eventType];
+                MomentumTempBreakdown tempBreakdown = new(eventType, goodEvents, badEvents);
+                Breakdowns.Add(new MomentumBreakdownVM(tempBreakdown));
+            }
+        }
+
         //private HintViewModel CreateHint(Kingdom kingdom1, Kingdom kingdom2)
         //{
         //    TextObject textObject;

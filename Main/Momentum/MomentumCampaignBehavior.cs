@@ -27,7 +27,7 @@ namespace LOTRAOM.Momentum
         private void OnArmyGathered(Army army, Settlement settlement)
         {
             if (!WarOfTheRingdata.DoesFactionTakePartInWar(army.Kingdom)) return;
-            WarOfTheRingdata.AddEvent(army.Kingdom, MomentumActionType.ArmyGathered, new MomentumEvent(20, new TextObject("army gathered"), MomentumActionType.ArmyGathered, GetEventEndTime(MomentumActionType.ArmyGathered)));
+            WarOfTheRingdata.AddEvent(army.Kingdom, MomentumActionType.ArmyGathered, new MomentumEvent(20, new TextObject($"Army led by {army.ArmyOwner.Name} has gathered"), MomentumActionType.ArmyGathered, GetEventEndTime(MomentumActionType.ArmyGathered)));
             OnMomentumChanged.Invoke();
         }
 

@@ -98,11 +98,19 @@
 
 										<ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" MarginTop="10">
 											<Children>
-												<ListPanel HorizontalAlignment="Center" DataSource="{Breakdowns}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="VerticalBottomToTop">
+												<ListPanel DataSource="{Breakdowns}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="VerticalBottomToTop">
 													<ItemTemplate>
 														<ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren">
 															<Children>
-																<TextWidget WidthSizePolicy="Fixed" SuggestedWidth="50" HeightSizePolicy="CoverChildren" Brush="Info.Text" Brush.TextHorizontalAlignment="Center" Text="@WarExhaustionValueFaction1"/>
+																<HintWidget DataSource="{ValueFaction1}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" MarginLeft="15" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" >
+																	<Children>
+																		<ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsEnabled="false">
+																			<Children>
+																				<TextWidget DataSource="{..}" WidthSizePolicy="Fixed" SuggestedWidth="50" HeightSizePolicy="CoverChildren" Brush="Info.Text" Brush.TextHorizontalAlignment="Center" Text="@Number1"/>
+																			</Children>
+																		</ListPanel>
+																	</Children>
+																</HintWidget>
 															</Children>
 														</ListPanel>
 													</ItemTemplate>
@@ -120,7 +128,15 @@
 													<ItemTemplate>
 														<ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren">
 															<Children>
-																<TextWidget WidthSizePolicy="Fixed" SuggestedWidth="50" HeightSizePolicy="CoverChildren" Brush="Info.Text" Brush.TextHorizontalAlignment="Center" Text="@WarExhaustionValueFaction2"/>
+																<HintWidget DataSource="{ValueFaction2}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" MarginLeft="15" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" >
+																	<Children>
+																		<ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" IsEnabled="false">
+																			<Children>
+																				<TextWidget DataSource="{..}" WidthSizePolicy="Fixed" SuggestedWidth="50" HeightSizePolicy="CoverChildren" Brush="Info.Text" Brush.TextHorizontalAlignment="Center" Text="@Number2"/>
+																			</Children>
+																		</ListPanel>
+																	</Children>
+																</HintWidget>
 															</Children>
 														</ListPanel>
 													</ItemTemplate>

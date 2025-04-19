@@ -13,6 +13,16 @@ namespace LOTRAOM.Momentum
         List<Kingdom> _kingdoms = new();
         [SaveableField(1)] public Dictionary<MomentumActionType, Queue<MomentumEvent>> WarOfTheRingEvents = new();
         [SaveableField(2)] private int momentum = 0;
+
+        public WarOfTheRingFactionData()
+        {
+            foreach (MomentumActionType eventType in Enum.GetValues(typeof(MomentumActionType)))
+            {
+                if (!WarOfTheRingEvents.ContainsKey(eventType))
+                    WarOfTheRingEvents[eventType] = new();
+            }
+        }
+
         public int WarSideMomentum { get { return momentum; } }
         public List<Kingdom> Kingdoms { get { return _kingdoms; } }
         public float TotalStrength

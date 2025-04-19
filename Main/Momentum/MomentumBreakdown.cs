@@ -1,4 +1,6 @@
-﻿using TaleWorlds.CampaignSystem;
+﻿using System.Collections;
+using System.Collections.Generic;
+using TaleWorlds.CampaignSystem;
 using TaleWorlds.Localization;
 
 namespace LOTRAOM.Momentum
@@ -16,6 +18,29 @@ namespace LOTRAOM.Momentum
             MomentumActionType = type;
         }
     }
+    public class MomentumTempBreakdown
+    {
+        public CampaignTime EndTime { get; }
+        public ExplainedNumber MomentumGoodSideValue;
+        public ExplainedNumber MomentumEvilSideValue;
+        public TextObject Description { get; }
+        public MomentumActionType MomentumActionType { get; }
+        public MomentumTempBreakdown(MomentumActionType type, Queue<MomentumEvent> goodSideEvents, Queue<MomentumEvent> evilSideEvents)
+        {
+            MomentumGoodSideValue = new(0, true);
+            MomentumEvilSideValue = new(0, true);
+            MomentumActionType = type;
+            foreach (var goodSideEvent in goodSideEvents)
+            {
+                //MomentumGoodSideValue.Add(30, new TextObject("test"));
+                MomentumGoodSideValue.Add((float)goodSideEvent.MomentumValue, goodSideEvent.Description);
+            }
+            foreach (var evilSideEvent in evilSideEvents)
+            {
+                MomentumEvilSideValue.Add((float)evilSideEvent.MomentumValue, evilSideEvent.Description);
+            }
+        }
+    }
     public enum MomentumActionType
     {
         ArmyGathered,
@@ -25,12 +50,12 @@ namespace LOTRAOM.Momentum
         Daily,
         Occupied
     }
-    public struct MomentumBreakdown
-    {
-        public MomentumActionType Type { init; get; }
-        public int ValueFaction1 { init; get; }
-        public int ValueFaction2 { init; get; }
-        public float BalanceOfPowerFraction1 { init; get; }
-        public float BalanceOfPowerFraction2 { init; get; }
-    }
+    //public struct MomentumBreakdown
+    //{
+    //    public MomentumActionType Type { init; get; }
+    //    public int ValueFaction1 { init; get; }
+    //    public int ValueFaction2 { init; get; }
+    //    public float BalanceOfPowerFraction1 { init; get; }
+    //    public float BalanceOfPowerFraction2 { init; get; }
+    //}
 }
