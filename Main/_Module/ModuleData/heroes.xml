@@ -2099,6 +2099,36 @@
 		faction="Faction.clan_isengard_1" />
 
 	<Hero
+		id="lord_I2_1"
+		faction="Faction.clan_isengard_2"
+		text="{=mauhur_description}Mauhúr, captain of the Red Echelon, is a relentless tactician forged in the blood pits beneath Isengard. Clad in iron, he commands the vanguard of Saruman’s war host with ruthless precision. Mauhúr believes victory is won not by strength alone, but by the cold execution of orders. His warband is always first into the breach, driving fear into the hearts of men with disciplined aggression and merciless efficiency. To Mauhúr, hesitation is failure—and failure is death. Under his command, the Red Echelon carves a path of destruction worthy of the White Hand." />
+
+	<Hero
+		id="lord_I2_11"
+		father="Hero.lord_I2_1"
+		faction="Faction.clan_isengard_2" />
+
+	<Hero
+		id="lord_I3_1"
+		faction="Faction.clan_isengard_3"
+		text="{=lugdush_description}Lugdush, grim commander of the Black Echelon, is a brutal enforcer of Saruman’s doctrine. Towering and iron-clad, he drills his soldiers into a wall of shields and steel, smashing opposition with unflinching discipline. Unlike his berserker kin, Lugdush values structure over rage—his warriors are trained, not frenzied. He speaks little but strikes decisively, and his presence on the battlefield signals a cold, inevitable advance. Among the Uruk-hai, Lugdush is feared not for his voice, but for the silence that follows his command." />
+
+	<Hero
+		id="lord_I3_11"
+		father="Hero.lord_I3_1"
+		faction="Faction.clan_isengard_3" />
+	
+	<Hero
+		id="lord_I4_1"
+		faction="Faction.clan_isengard_4"
+		text="{=lurtz_description}Lurtz, the savage chieftain of the Black Maw, is the embodiment of raw Uruk ferocity. Bred for strength and domination, he leads his berserker warband with a thirst for slaughter unmatched even among the White Hand. Lurtz scorns restraint—his warriors fight in brutal packs, tearing through enemy ranks with overwhelming violence. Though he lacks the finesse of Saruman’s other captains, few can rival his battlefield presence. Driven by fury and instinct, Lurtz and the Black Maw are loosed only when Saruman demands utter annihilation." />
+
+	<Hero
+		id="lord_I4_11"
+		father="Hero.lord_I4_1"
+		faction="Faction.clan_isengard_4" />
+
+	<Hero
 		id="lord_G1_1"
 		faction="Faction.clan_gundabad_1"
 		text="{=karguz_description}Karguz, the warlord of Gundabad, is a towering figure of brutality and dominance among the Orcs of the northern stronghold. Renowned for his ferocious combat skills and unrelenting thirst for conquest, he has united the disparate clans of Gundabad under his iron rule. Karguz thrives in the chaos of battle, leading his hordes with ruthless determination and a fearsome presence that instills both fear and loyalty in his followers. With a deep-seated hatred for the Dwarves and the Free Peoples of Middle-earth, Karguz seeks to reclaim the glory of Gundabad’s ancient power. His brutal leadership and cunning strategies make him a relentless force of destruction, poised to spread chaos across the northern lands." />

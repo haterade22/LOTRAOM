@@ -148,6 +148,167 @@
 
 			<Color id="2014" hex="0xFF570d0d" player_can_choose_for_sigil="true" />
 			<Color id="2015" hex="0xFF570d0d" player_can_choose_for_background="true" />
+			<!-- Dark Blue Shades -->
+			<Color id="200" hex="0xff34495e" player_can_choose_for_background="true" />
+			<Color id="201" hex="0xff2c3e50" player_can_choose_for_background="true" />
+			<Color id="202" hex="0xff30336b" player_can_choose_for_sigil="true" />
+			<Color id="203" hex="0xff130f40" player_can_choose_for_sigil="true" />
+
+			<!-- Red Shades -->
+			<Color id="204" hex="0xfffff1f0" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="205" hex="0xffffccc7" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="206" hex="0xffffa39e" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="207" hex="0xffff7875" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="208" hex="0xffff4d4f" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="209" hex="0xfff5222d" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="210" hex="0xffcf1322" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="211" hex="0xffa8071a" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="212" hex="0xff820014" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="213" hex="0xff5c0011" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+
+			<!-- Volcano Shades -->
+			<Color id="214" hex="0xfffff2e8" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="215" hex="0xffffd8bf" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="216" hex="0xffffbb96" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="217" hex="0xffff9c6e" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="218" hex="0xffff7a45" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="219" hex="0xfffa541c" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="220" hex="0xffd4380d" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="221" hex="0xffad2102" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="222" hex="0xff871400" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="223" hex="0xff610b00" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+
+			<!-- Orange Shades -->
+			<Color id="224" hex="0xfffff7e6" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="225" hex="0xffffe7ba" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="226" hex="0xffffd591" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="227" hex="0xffffc069" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="228" hex="0xffffa940" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="229" hex="0xfffa8c16" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="230" hex="0xffd46b08" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="231" hex="0xffad4e00" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="232" hex="0xff873800" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="233" hex="0xff612500" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+
+			<!-- Gold Shades -->
+			<Color id="234" hex="0xfffffbe6" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="235" hex="0xfffff1b8" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="236" hex="0xffffe58f" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="237" hex="0xffffd666" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="238" hex="0xffffc53d" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="239" hex="0xfffaad14" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="240" hex="0xffd48806" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="241" hex="0xffad6800" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="242" hex="0xff874d00" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="243" hex="0xff613400" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+
+			<!-- Yellow Shades -->
+			<Color id="244" hex="0xfffeffe6" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="245" hex="0xffffffb8" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="246" hex="0xfffffb8f" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="247" hex="0xfffff566" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="248" hex="0xffffec3d" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="249" hex="0xfffadb14" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="250" hex="0xffd4b106" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="251" hex="0xffad8b00" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="252" hex="0xff876800" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="253" hex="0xff614700" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+
+			<!-- Lime Shades -->
+			<Color id="254" hex="0xfffcffe6" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="255" hex="0xfff4ffb8" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="256" hex="0xffeaff8f" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="257" hex="0xffd3f261" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="258" hex="0xffbae637" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="259" hex="0xffa0d911" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="260" hex="0xff7cb305" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="261" hex="0xff5b8c00" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="262" hex="0xff3f6600" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="263" hex="0xff254000" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+
+			<!-- Green Shades -->
+			<Color id="264" hex="0xfff6ffed" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="265" hex="0xffd9f7be" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="266" hex="0xffb7eb8f" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="267" hex="0xff95de64" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="268" hex="0xff73d13d" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="269" hex="0xff52c41a" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="270" hex="0xff389e0d" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="271" hex="0xff237804" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="272" hex="0xff135200" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="273" hex="0xff092b00" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+
+			<!-- Cyan Shades -->
+			<Color id="274" hex="0xffe6fffb" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="275" hex="0xffb5f5ec" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="276" hex="0xff87e8de" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="277" hex="0xff5cdbd3" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="278" hex="0xff36cfc9" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="279" hex="0xff13c2c2" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="280" hex="0xff08979c" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="281" hex="0xff006d75" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="282" hex="0xff00474f" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="283" hex="0xff002329" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+
+			<!-- Sky Blue Shades -->
+			<Color id="284" hex="0xffe6f7ff" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="285" hex="0xffbae7ff" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="286" hex="0xff91d5ff" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="287" hex="0xff69c0ff" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="288" hex="0xff40a9ff" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="289" hex="0xff1890ff" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="290" hex="0xff096dd9" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="291" hex="0xff0050b3" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="292" hex="0xff003a8c" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="293" hex="0xff002766" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+
+			<!-- Geek Blue Shades -->
+			<Color id="294" hex="0xfff0f5ff" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="295" hex="0xffd6e4ff" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="296" hex="0xffadc6ff" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="297" hex="0xff85a5ff" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="298" hex="0xff597ef7" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="299" hex="0xff2f54eb" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="300" hex="0xff1d39c4" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="301" hex="0xff10239e" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="302" hex="0xff061178" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="303" hex="0xff030852" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+
+			<!-- Purple Shades -->
+			<Color id="304" hex="0xfff9f0ff" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="305" hex="0xffefdbff" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="306" hex="0xffd3adf7" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="307" hex="0xffb37feb" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="308" hex="0xff9254de" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="309" hex="0xff722ed1" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="310" hex="0xff531dab" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="311" hex="0xff391085" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="312" hex="0xff22075e" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="313" hex="0xff120338" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+
+			<!-- Magenta Shades -->
+			<Color id="314" hex="0xfffff0f6" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="315" hex="0xffffd6e7" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="316" hex="0xffffadd2" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="317" hex="0xffff85c0" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="318" hex="0xfff759ab" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="319" hex="0xffeb2f96" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="320" hex="0xffc41d7f" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="321" hex="0xff9e1068" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="322" hex="0xff780650" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="323" hex="0xff520339" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+
+			<!-- Grayscale Shades -->
+			<Color id="324" hex="0xffebebeb" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="325" hex="0xffd6d6d6" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="326" hex="0xffc3c3c3" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="327" hex="0xffababab" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="328" hex="0xff949494" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="329" hex="0xff7d7d7d" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="330" hex="0xff636363" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="331" hex="0xff474747" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="332" hex="0xff262626" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
+			<Color id="333" hex="0xff000000" player_can_choose_for_background="true" player_can_choose_for_sigil="true" />
 
 		</BannerColors>
 	</BannerIconData>
