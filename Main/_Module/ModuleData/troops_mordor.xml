@@ -4,13 +4,13 @@
 	<NPCCharacter id="mordor_uruk_grunt"
 		default_group="Infantry"
 		level="6"
-		name="{=mordor_uruk_grunt}Black Uruk Grunt"
-		race="uruk"
+		name="{=mordor_orc_grunt}Orc Grunt"
+		race="orc"
 		occupation="Soldier"
 		is_basic_troop="true"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -43,6 +43,8 @@
 			<upgrade_target id="NPCCharacter.mordor_uruk_scout"/>
 			<upgrade_target id="NPCCharacter.mordor_rhun_servant"/>
 			<upgrade_target id="NPCCharacter.mordor_harad_initiate"/>
+			<upgrade_target id="NPCCharacter.mordor_black_numenorean"/>
+			<upgrade_target id="NPCCharacter.mordor_orc_warrior"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
@@ -71,7 +73,7 @@
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -153,7 +155,7 @@
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -229,7 +231,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -459,7 +461,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -690,7 +692,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -943,7 +945,7 @@
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -1051,7 +1053,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -1258,7 +1260,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -1385,7 +1387,7 @@
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -1535,7 +1537,7 @@
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -1678,7 +1680,7 @@
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -1833,7 +1835,7 @@
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -1915,7 +1917,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -2146,7 +2148,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -2376,7 +2378,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -2606,7 +2608,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -2837,7 +2839,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -3090,7 +3092,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -3334,6 +3336,72 @@
 		</Equipments>
 	</NPCCharacter>
 
+	<NPCCharacter
+		id="mordor_black_numenorean"
+		default_group="Infantry"
+		level="31"
+		name="{=mordor_black_numenorean}Black Númenórean Marshal"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="280" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="OneHanded"
+				value="280" />
+			<skill
+				id="TwoHanded"
+				value="250" />
+			<skill
+				id="Polearm"
+				value="255" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="290" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sm_uruk_sword_a" />
+				<equipment
+					slot="Item1"
+					id="Item.sm_mordor_shield_tower_b" />
+				<equipment
+					slot="Head"
+					id="Item.ar_ardunian_elite_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.ar_ardunian_elite_armour" />
+				<equipment
+					slot="Gloves"
+					id="Item.ar_ardunian_elite_hand" />
+				<equipment
+					slot="Leg"
+					id="Item.ar_ardunian_elite_shoses" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	
 
 	<!-- Harad Line -->
 
@@ -3823,7 +3891,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -3891,7 +3959,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -3959,7 +4027,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills >
 			<skill
@@ -4028,7 +4096,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills >
 			<skill
@@ -4096,7 +4164,7 @@
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
-			<face_key_template value="BodyProperty.villager_uruk_mordor"/>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
 		</face>
 		<skills>
 			<skill
@@ -4147,6 +4215,209 @@
 				<equipment
 					slot="Cape"
 					id="Item.easterling_cape" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	
+
+
+<!--Orc-->
+
+
+<NPCCharacter id="mordor_orc_warrior"
+		default_group="Infantry"
+		level="11"
+		name="{=mordor_orc_warrior}[Mordor] Orc Warrior"
+		race="orc"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="60" />
+			<skill
+				id="Riding"
+				value="30" />
+			<skill
+				id="OneHanded"
+				value="70" />
+			<skill
+				id="TwoHanded"
+				value="60" />
+			<skill
+				id="Polearm"
+				value="90" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="30" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_orc_warbrute"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_sword_5_t4" />
+				<equipment
+					slot="Head"
+					id="Item.moriaorc_v1_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.moriaorc_v1_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.moriaorc_v1_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.moriaorc_v1_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.moriaorc_v1_shoulder" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+<NPCCharacter id="mordor_orc_warbrute"
+		default_group="Infantry"
+		level="16"
+		name="{=mordor_orc_warbrute}[Mordor] Orc Warbrute"
+		race="orc"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="100" />
+			<skill
+				id="Riding"
+				value="30" />
+			<skill
+				id="OneHanded"
+				value="100" />
+			<skill
+				id="TwoHanded"
+				value="100" />
+			<skill
+				id="Polearm"
+				value="110" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="0" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mordor_orc_blackguard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_sword_5_t4" />
+				<equipment
+					slot="Head"
+					id="Item.moriaorc_v2_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.moriaorc_v2_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.moriaorc_v2_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.moriaorc_v1_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.moriaorc_v1_shoulder" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="mordor_orc_blackguard"
+		default_group="Infantry"
+		level="21"
+		name="{=mordor_orc_blackguard}[Mordor] Orc Black Guard"
+		race="orc"
+		occupation="Soldier"
+		culture="Culture.mordor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_uruk_mordor"/>
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="140" />
+			<skill
+				id="Riding"
+				value="30" />
+			<skill
+				id="OneHanded"
+				value="130" />
+			<skill
+				id="TwoHanded"
+				value="130" />
+			<skill
+				id="Polearm"
+				value="120" />
+			<skill
+				id="Bow"
+				value="0" />
+			<skill
+				id="Crossbow"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="30" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_sword_5_t4" />
+				<equipment
+					slot="Head"
+					id="Item.moriaorc_v3_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.moriaorc_v4_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.moriaorc_v4_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.moriaorc_v1_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.moriaorc_v1_shoulder" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"

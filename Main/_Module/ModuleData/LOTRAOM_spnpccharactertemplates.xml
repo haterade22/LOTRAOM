@@ -7766,4 +7766,730 @@ emp_civ_template_flamboyant
 					id="npc_armed_wanderer_equipment_template_rohan" />
 			</Equipments>
 		</NPCCharacter>
+
+<!--Gondor Caravan and Others-->
+	<NPCCharacter
+			id="caravan_master_gondor"
+			default_group="Infantry"
+			level="31"
+			name="{=gondorcaravanmaster}Gondor Caravan Master"
+			occupation="CaravanGuard"
+			culture="Culture.gondor">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_gondor" />
+		</face>
+		<skills >
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_sword_a06" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet8" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_sword_a05" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet7" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_sword_a03" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet6" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="armed_trader_gondor"
+		default_group="Ranged"
+		level="16"
+		name="{=gondorarmedtrader}Gondor Armed Trader"
+		occupation="CaravanGuard"
+		culture="Culture.gondor"
+		is_basic_troop="true">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_gondor" />
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="100" />
+			<skill
+				id="Riding"
+				value="10" />
+			<skill
+				id="OneHanded"
+				value="80" />
+			<skill
+				id="TwoHanded"
+				value="40" />
+			<skill
+				id="Polearm"
+				value="70" />
+			<skill
+				id="Bow"
+				value="80" />
+			<skill
+				id="Crossbow"
+				value="10" />
+			<skill
+				id="Throwing"
+				value="10" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item3"
+					id="Item.wm_gondor_sword_a02" />
+				<equipment
+					slot="Head"
+					id="Item.ga_helmet021" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="caravan_guard_gondor"
+			default_group="Cavalry"
+			level="21"
+			name="{=caravan_guard_gondor}Gondor Caravan Guard"
+			occupation="CaravanGuard"
+			culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="140" />
+			<skill
+				id="Riding"
+				value="110" />
+			<skill
+				id="OneHanded"
+				value="110" />
+			<skill
+				id="TwoHanded"
+				value="15" />
+			<skill
+				id="Polearm"
+				value="150" />
+			<skill
+				id="Bow"
+				value="40" />
+			<skill
+				id="Crossbow"
+				value="15" />
+			<skill
+				id="Throwing"
+				value="15" />
+		</skills>
+		<Equipments>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_gondorknight_speara" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a10" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shld2" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet4" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_gondorknight_speara" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a01" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_one_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_gondorknight_speara" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a07" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet2" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_gondorknight_speara" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a08" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_three_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet4" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_gondorknight_speara" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a09" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shld4" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_gondorknight_speara" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a08" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet2" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="empire_troop_civilian_template_t2"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_empire_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.gondor_horse_armor_1" />
+
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="veteran_caravan_guard_gondor"
+			default_group="Cavalry"
+			level="26"
+			name="{=veteran_caravan_guard_gondor}Gondor Caravan Guard"
+			occupation="CaravanGuard"
+			culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="140" />
+			<skill
+				id="Riding"
+				value="150" />
+			<skill
+				id="OneHanded"
+				value="110" />
+			<skill
+				id="TwoHanded"
+				value="15" />
+			<skill
+				id="Polearm"
+				value="180" />
+			<skill
+				id="Bow"
+				value="40" />
+			<skill
+				id="Crossbow"
+				value="15" />
+			<skill
+				id="Throwing"
+				value="15" />
+		</skills>
+		<Equipments>
+
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_gondorknight_speara" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a10" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shld2" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet4" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_gondorknight_speara" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a01" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_one_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_gondorknight_speara" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a07" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet2" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_gondorknight_speara" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a08" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_three_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet4" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_gondorknight_speara" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a09" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shld4" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet3" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_gondorknight_speara" />
+				<equipment
+					slot="Item2"
+					id="Item.wm_gondor_sword_a08" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor1" />
+				<equipment
+					slot="Head"
+					id="Item.citidel_guard_helmet2" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons_light" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="empire_troop_civilian_template_t2"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_empire_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.gondor_horse_armor_1" />
+
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="prison_guard_gondor"
+		default_group="Infantry"
+		level="21"
+		name="{=Gondor Swordsman}Gondor Prison Guard"
+		occupation="PrisonGuard"
+		culture="Culture.gondor">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gondor"/>
+		</face>
+		<skills >
+			<skill
+				id="Athletics"
+				value="130" />
+			<skill
+				id="Riding"
+				value="20" />
+			<skill
+				id="OneHanded"
+				value="130" />
+			<skill
+				id="TwoHanded"
+				value="80" />
+			<skill
+				id="Polearm"
+				value="110" />
+			<skill
+				id="Bow"
+				value="60" />
+			<skill
+				id="Crossbow"
+				value="60" />
+			<skill
+				id="Throwing"
+				value="80" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_sword_a05" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_one_black" />
+				<equipment
+					slot="Head"
+					id="Item.ga_helmet021" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_sword_a10" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_two_black" />
+				<equipment
+					slot="Head"
+					id="Item.ga_helmet021" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_sword_a08" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_three_black" />
+				<equipment
+					slot="Head"
+					id="Item.ga_helmet021" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_gondor_sword_a03" />
+				<equipment
+					slot="Item1"
+					id="Item.gond_shield_four_black" />
+				<equipment
+					slot="Head"
+					id="Item.ga_helmet021" />
+				<equipment
+					slot="Body"
+					id="Item.citidel_guard_armor4_slim" />
+				<equipment
+					slot="Gloves"
+					id="Item.citidel_guard_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
+				<equipment
+					slot="Cape"
+					id="Item.citidel_guard_armor_pauldrons" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
 </NPCCharacters>

@@ -49,15 +49,15 @@ namespace LOTRAOM.Models
         private static readonly Dictionary<int, int> XpPerTier = new()
         {
             { 1, 100 },
-            { 2, 300 },
-            { 3, 550 },
-            { 4, 900 },
-            { 5, 1300 },
-            { 6, 1700 },
-            { 7, 2100 },
-            { 8, 2500 },
-            { 9, 2900 },
-            { 10, 3300 }
+            { 2, 600 },
+            { 3, 1150 },
+            { 4, 2200 },
+            { 5, 3300 },
+            { 6, 4700 },
+            { 7, 6100 },
+            { 8, 7500 },
+            { 9, 8900 },
+            { 10, 9300 }
         };
         public override int GetXpCostForUpgrade(PartyBase party, CharacterObject characterObject, CharacterObject upgradeTarget)
         {

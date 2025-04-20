@@ -1072,6 +1072,8 @@
 			<skill id="Crossbow" value="100"/>
 			<skill id="Throwing" value="100"/>
 		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
 				<equipment
@@ -1540,30 +1542,30 @@
 			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
-				<skill
-					id="Athletics"
-					value="30" />
-				<skill
-					id="Riding"
-					value="40" />
-				<skill
-					id="OneHanded"
-					value="45" />
-				<skill
-					id="TwoHanded"
-					value="10" />
-				<skill
-					id="Polearm"
-					value="40" />
-				<skill
-					id="Bow"
-					value="10" />
-				<skill
-					id="Crossbow"
-					value="10" />
-				<skill
-					id="Throwing"
-					value="10" />
+			<skill
+				id="Athletics"
+				value="30" />
+			<skill
+				id="Riding"
+				value="40" />
+			<skill
+				id="OneHanded"
+				value="45" />
+			<skill
+				id="TwoHanded"
+				value="10" />
+			<skill
+				id="Polearm"
+				value="40" />
+			<skill
+				id="Bow"
+				value="10" />
+			<skill
+				id="Crossbow"
+				value="10" />
+			<skill
+				id="Throwing"
+				value="10" />
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.gondor_squire"/>
@@ -1673,11 +1675,11 @@
 					slot="Cape"
 					id="Item.citidel_guard_armor_pauldrons_light" />
 			</EquipmentRoster>
-				<EquipmentSet
-						id="empire_troop_civilian_template_t2"
-						civilian="true" />
-				<equipment slot="Horse" id="Item.charger"/>
-				<equipment slot="HorseHarness" id="Item.gondor_horse_armor_2"/>
+			<EquipmentSet
+					id="empire_troop_civilian_template_t2"
+					civilian="true" />
+			<equipment slot="Horse" id="Item.charger"/>
+			<equipment slot="HorseHarness" id="Item.gondor_horse_armor_2"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="gondor_squire"
@@ -2153,7 +2155,7 @@
 			<equipment
 				slot="HorseHarness"
 				id="Item.gondor_horse_armor_1_da" />
-		</Equipments>	
+		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dol_amroth_veteran_knight"
 		default_group="Cavalry"
@@ -2352,6 +2354,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor3" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4" />
 				<equipment
@@ -2412,6 +2417,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor2" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_b" />
 				<equipment
@@ -2426,6 +2434,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor2" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_b" />
 				<equipment
@@ -2439,6 +2450,9 @@
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor2" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
 				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_b" />
@@ -2505,6 +2519,9 @@
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Gloves"
 					id="Item.citidel_guard_bracers" />
 				<equipment
@@ -2522,6 +2539,9 @@
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Gloves"
 					id="Item.citidel_guard_bracers" />
 				<equipment
@@ -2535,6 +2555,9 @@
 				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
@@ -2599,6 +2622,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
 				<equipment
@@ -2616,6 +2642,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
 				<equipment
@@ -2632,6 +2661,9 @@
 				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
@@ -2698,6 +2730,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
 				<equipment
@@ -2718,6 +2753,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
 				<equipment
@@ -2737,6 +2775,9 @@
 				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
@@ -2800,6 +2841,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
 				<equipment
@@ -2816,6 +2860,9 @@
 				<equipment
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
+				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
 				<equipment
 					slot="Head"
 					id="Item.gondor_lamedon_helmet_4_c" />
@@ -2837,6 +2884,9 @@
 					slot="Body"
 					id="Item.cts_gondor_armor1" />
 				<equipment
+					slot="Cape"
+					id="Item.cts_gondor_pauldrons" />
+				<equipment
 					slot="Gloves"
 					id="Item.citidel_guard_bracers" />
 				<equipment
@@ -2848,7 +2898,7 @@
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	
+
 
 	<!--Men of Lossarnach-->
 	<NPCCharacter id="gondor_lossarnach_footman"
@@ -3201,8 +3251,8 @@
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	
-<!--Pelargir Line-->
+
+	<!--Pelargir Line-->
 	<NPCCharacter id="gondor_pelargir_sailor"
 			default_group="Infantry"
 			level="11"
@@ -3392,16 +3442,13 @@
 					id="Item.pelargirmarine_helmet_6_b_coif_plume" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4_slim" />
+					id="Item.lrd_gondor_marines_3_armour" />
 				<equipment
 					slot="Gloves"
-					id="Item.citidel_guard_bracers" />
+					id="Item.lrd_marines_gondor_1_gloves" />
 				<equipment
 					slot="Leg"
-					id="Item.citidel_guard_boots_light" />
-				<equipment
-					slot="Cape"
-					id="Item.citidel_guard_armor_pauldrons" />
+					id="Item.lrd_marines_gondor_1_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -3465,16 +3512,13 @@
 					id="Item.pelargirmarine_helmet_6_a_coif" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4_slim" />
+					id="Item.lrd_marines_gondor_2_armour" />
 				<equipment
 					slot="Gloves"
-					id="Item.citidel_guard_bracers" />
+					id="Item.lrd_marines_gondor_3_gloves" />
 				<equipment
 					slot="Leg"
-					id="Item.citidel_guard_boots_light" />
-				<equipment
-					slot="Cape"
-					id="Item.citidel_guard_armor_pauldrons" />
+					id="Item.lrd_marines_gondor_1_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -3537,16 +3581,13 @@
 					id="Item.pelargirmarine_helmet_6_a_coif_plume" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4_slim" />
+					id="Item.lrd_gondor_marines_1_armour" />
 				<equipment
 					slot="Gloves"
-					id="Item.citidel_guard_gloves" />
+					id="Item.lrd_marines_gondor_2_gloves" />
 				<equipment
 					slot="Leg"
-					id="Item.citidel_guard_boots" />
-				<equipment
-					slot="Cape"
-					id="Item.citidel_guard_armor_pauldrons_light" />
+					id="Item.lrd_marines_gondor_1_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -3608,6 +3649,9 @@
 				<equipment
 					slot="Body"
 					id="Item.imperial_padded_cloth" />
+				<equipment
+				    slot="Leg"
+				    id="Item.citidel_guard_boots_light" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -3754,7 +3798,7 @@
 	<NPCCharacter id="gondor_belfalas_guard"
 			default_group="Infantry"
 			level="21"
-			name="{=gondor_lossarnach_axeguard}Gondor Belfalas Guard"
+			name="{=gondor_belfalas_guard}Gondor Belfalas Guard"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -3883,7 +3927,7 @@
 		</Equipments>
 	</NPCCharacter>
 
-<!--Blackroot Vale Line -->
+	<!--Blackroot Vale Line -->
 	<NPCCharacter id="gondor_blackroot_hunter"
 		default_group="Ranged"
 		level="11"
@@ -4249,15 +4293,15 @@
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	
-	
-<!--Pinnath Gelin-->
-<NPCCharacter id="gondor_pg_levy"
-		default_group="Infantry"
-		level="11"
-		name="{=gondor_belfalas_footman}Gondor Pinnath Gelin Levy"
-		occupation="Soldier"
-		culture="Culture.gondor">
+
+
+	<!--Pinnath Gelin-->
+	<NPCCharacter id="gondor_pg_levy"
+			default_group="Infantry"
+			level="11"
+			name="{=gondor_belfalas_footman}Gondor Pinnath Gelin Levy"
+			occupation="Soldier"
+			culture="Culture.gondor">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
@@ -4296,10 +4340,10 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.gond_spear2" />
+					id="Item.wm_gondor_pg_speara" />
 				<equipment
 					slot="Item1"
-					id="Item.wm_gondor_shield_a02" />
+					id="Item.gond_shield_three_green" />
 				<equipment
 					slot="Item2"
 					id="Item.northern_javelin_2_t3" />
@@ -4309,6 +4353,9 @@
 				<equipment
 					slot="Body"
 					id="Item.imperial_padded_cloth" />
+				<equipment
+					slot="Leg"
+					id="Item.citidel_guard_boots_light" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -4358,25 +4405,25 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.gond_spear2" />
+					id="Item.wm_gondor_pg_speara" />
 				<equipment
 					slot="Item1"
-					id="Item.wm_gondor_shield_a02" />
+					id="Item.gond_shield_three_green" />
 				<equipment
 					slot="Item2"
 					id="Item.northern_javelin_2_t3" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4_slim" />
+					id="Item.pg_spearman_armor_01" />
 				<equipment
 					slot="Head"
 					id="Item.pg_helmet_4" />
 				<equipment
 					slot="Gloves"
-					id="Item.citidel_guard_gloves" />
+					id="Item.pg_spearman_glove" />
 				<equipment
 					slot="Leg"
-					id="Item.citidel_guard_boots" />
+					id="Item.pg_spearman_boots" />
 				<equipment
 					slot="Cape"
 					id="Item.citidel_guard_armor_pauldrons_light" />
@@ -4430,10 +4477,10 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.gond_spear2" />
+					id="Item.wm_gondor_pg_speara" />
 				<equipment
 					slot="Item1"
-					id="Item.wm_gondor_shield_a02" />
+					id="Item.gond_shield_three_green" />
 				<equipment
 					slot="Item2"
 					id="Item.northern_javelin_2_t3" />
@@ -4442,13 +4489,13 @@
 					id="Item.pg_helmet_4" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4_slim" />
+					id="Item.pg_spearman_armor_02" />
 				<equipment
 					slot="Gloves"
-					id="Item.citidel_guard_gloves" />
+					id="Item.pg_spearman_glove" />
 				<equipment
 					slot="Leg"
-					id="Item.citidel_guard_boots" />
+					id="Item.pg_spearman_boots" />
 				<equipment
 					slot="Cape"
 					id="Item.citidel_guard_armor_pauldrons_light" />
@@ -4500,10 +4547,10 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.gond_spear2" />
+					id="Item.wm_gondor_pg_speara" />
 				<equipment
 					slot="Item1"
-					id="Item.wm_gondor_shield_a02" />
+					id="Item.gond_shield_three_green" />
 				<equipment
 					slot="Item2"
 					id="Item.northern_javelin_2_t3" />
@@ -4515,16 +4562,16 @@
 					id="Item.pg_helmet_4_coif" />
 				<equipment
 					slot="Body"
-					id="Item.citidel_guard_armor4_slim" />
+					id="Item.pg_spearman_armor_03" />
 				<equipment
 					slot="Cape"
 					id="Item.citidel_guard_armor_pauldrons_light" />
 				<equipment
 					slot="Gloves"
-					id="Item.citidel_guard_bracers" />
+					id="Item.pg_spearman_glove" />
 				<equipment
 					slot="Leg"
-					id="Item.cts_gondor_boot" />
+					id="Item.pg_spearman_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -4532,13 +4579,13 @@
 		</Equipments>
 	</NPCCharacter>
 
-	
-<NPCCharacter id="gondor_pg_skirmisher"
-		default_group="Ranged"
-		level="16"
-		name="{=gondor_pg_skirmisher}Gondor Pinnath Gelin Skirmisher"
-		occupation="Soldier"
-		culture="Culture.gondor">
+
+	<NPCCharacter id="gondor_pg_skirmisher"
+			default_group="Ranged"
+			level="16"
+			name="{=gondor_pg_skirmisher}Gondor Pinnath Gelin Skirmisher"
+			occupation="Soldier"
+			culture="Culture.gondor">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
@@ -4799,10 +4846,10 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_pelagir_spear_a" />
+					id="Item.wm_gondor_pg_speara" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_three_green" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_pelargir_sword_a01" />
@@ -4828,10 +4875,10 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_pelagir_spear_a" />
+					id="Item.wm_gondor_pg_speara" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_three_green" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_pelargir_sword_a02" />
@@ -4906,13 +4953,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_pelagir_spear_c" />
+					id="Item.wm_gondor_pg_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_pelargir_sword_a01" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_three_green" />
 				<equipment
 					slot="Item3"
 					id="Item.western_javelin_3_t4" />
@@ -4935,13 +4982,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_pelagir_spear_b" />
+					id="Item.wm_gondor_pg_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_pelargir_sword_a02" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_three_green" />
 				<equipment
 					slot="Item3"
 					id="Item.western_javelin_3_t4" />
@@ -4974,14 +5021,14 @@
 		</Equipments>
 	</NPCCharacter>
 
-<!--Dol Amroth Footline-->
-	
-<NPCCharacter id="gondor_da_page"
-		default_group="Infantry"
-		level="11"
-		name="{=gondor_da_noble}Dol Amroth Page"
-		occupation="Soldier"
-		culture="Culture.gondor">
+	<!--Dol Amroth Footline-->
+
+	<NPCCharacter id="gondor_da_page"
+			default_group="Infantry"
+			level="11"
+			name="{=gondor_da_noble}Dol Amroth Page"
+			occupation="Soldier"
+			culture="Culture.gondor">
 		<face>
 			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
@@ -5155,7 +5202,7 @@
 					id="Item.swanknight_helmet_b" />
 				<equipment
 					slot="Body"
-					id="Item.swanknight_cuirass_e" />
+					id="Item.swanknight_cuirass_c" />
 				<equipment
 					slot="Gloves"
 					id="Item.swanknight_gloves" />
@@ -5224,7 +5271,7 @@
 					id="Item.swanknight_helmet_b" />
 				<equipment
 					slot="Body"
-					id="Item.swanknight_cuirass_d" />
+					id="Item.swanknight_cuirass_e" />
 				<equipment
 					slot="Gloves"
 					id="Item.swanknight_gloves" />
@@ -5273,7 +5320,7 @@
 					id="Item.swanknight_helmet_c" />
 				<equipment
 					slot="Body"
-					id="Item.swanknight_cuirass_d" />
+					id="Item.swanknight_cuirass_e" />
 				<equipment
 					slot="Gloves"
 					id="Item.swanknight_gloves" />
@@ -5289,6 +5336,6 @@
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	
-	
+
+
 </NPCCharacters>
