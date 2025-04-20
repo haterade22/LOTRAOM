@@ -20,8 +20,10 @@ namespace LOTRAOM.Models
         public override int GetTargetNotableCountForSettlement(Settlement settlement, Occupation occupation)
         {
             int baseValue = previousModel.GetTargetNotableCountForSettlement(settlement, occupation);
-            if (settlement.Culture.StringId == "mordor" && settlement.IsTown && occupation == Occupation.Merchant)
+            if (settlement.Culture.StringId == Globals.MordorCulture && settlement.IsTown && occupation == Occupation.Merchant)
                 baseValue += 3;
+            if (settlement.Culture.StringId == Globals.IsengardCulture && settlement.StringId == "town_SWAN_ISENGARD1" && occupation == Occupation.Merchant) //orthanc
+                return 20;
             return baseValue;
         }
     }

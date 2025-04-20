@@ -47,10 +47,6 @@ namespace LOTRAOM.Momentum
         public void EditMomentum(int amount)
         {
             momentum += amount;
-            if (momentum > 100)
-                momentum = 100;
-            else if (momentum < -100)
-                momentum = -100;
         }
     }
     public class WarOfTheRingData

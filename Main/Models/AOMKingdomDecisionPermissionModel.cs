@@ -57,7 +57,12 @@ namespace LOTRAOM.Models
             }
             if (kingdom1.Culture.IsEvilCulture() && kingdom2.Culture.IsEvilCulture())
             {
-                reason = new TextObject("We can not attack our friends against the forces of darkness!");
+                reason = new TextObject("It's time to stop the infighting, we know who our enemies are!");
+                return false;
+            }
+            if (kingdom1.StringId == Globals.MordorKingdom?.StringId && !MomentumCampaignBehavior.Instance.hasIsengardAttacked)
+            {
+                reason = new TextObject("We are still preparing for our conquest");
                 return false;
             }
             reason = TextObject.Empty;
