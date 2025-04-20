@@ -2793,7 +2793,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_155"
-		name="{=UTFGUeVQ}Nazgûl, the Shadow of Haradrim"
+		name="{=UTFGUeVQ}Nazgûl, The Dark Marshall "
 		age="20"
 		voice="ironic"
 		race="nazghul"
@@ -2815,24 +2815,24 @@
 			<Trait id="Valor" value="0" />
 			<Trait id="Honor" value="-2" />
 			<Trait id="Mercy" value="-2" />
-			<Trait id="Calculating" value="1" />
+			<Trait id="Calculating" value="2" />
 			<Trait id="Egalitarian" value="0" />
 			<Trait id="Oligarchic" value="0" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Authoritarian" value="2" />
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	<!-- Martira, sister of Destor, somewhat withdrawn -->
 	<NPCCharacter
 		id="lord_1_16"
-		name="{=2fYYfHUI}Nazgûl, the Shadow of Dunlendings"
+		name="{=2fYYfHUI}Nazgûl, The Knight of Umbar"
 		age="20"
 		voice="softspoken"
 		is_hero="true"
@@ -2866,7 +2866,7 @@
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -3550,7 +3550,7 @@
 	<!-- Leonipardes heir. Cunning, aggressive, somewhat devious -->
 	<NPCCharacter
 		id="lord_1_28"
-		name="{=HGBWqbhQ}Nazgûl, the Shadow of Númenor"
+		name="{=HGBWqbhQ}Nazgûl, The Betrayer"
 		age="20"
 		voice="earnest"
 		race="nazghul"
@@ -3584,7 +3584,7 @@
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4013,7 +4013,7 @@
 	<!-- leonipardes's daughter -->
 	<NPCCharacter
 		id="lord_1_38"
-		name="{=6YiMWxVM}Nazgûl, the Shadow of Dúnedain"
+		name="{=6YiMWxVM}Nazgûl, the Undying"
 		age="20"
 		voice="softspoken"
 		race="nazghul"
@@ -4049,7 +4049,7 @@
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -5642,8 +5642,15 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
-			<EquipmentSet
-				id="gondor_bat_template_medium" />
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.gond_shld2" />
+				<equipment slot="Item1" id="Item.wm_gondor_sword_a10" />
+				<equipment slot="Head" id="Item.forlong_helmet" />
+				<equipment slot="Body" id="Item.forlong_body" />
+				<equipment slot="Gloves" id="Item.forlong_gloves" />
+				<equipment slot="Leg" id="Item.forlong_boots" />
+				<equipment slot="Cape" id="Item.forlong_shoulder" />
+			</EquipmentRoster>
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -7398,7 +7405,7 @@
 	<!-- Leonipardes lieutenant. brave, good-natured, not especially thoughtful. -->
 	<NPCCharacter
 		id="lord_1_48"
-		name="{=katzUyMI}Khamûl, the Shadow of the East"
+		name="{=katzUyMI}Khamûl, the Dwimmerlaik"
 		default_group="Cavalry"
 		age="20"
 		race="nazghul"
@@ -7432,13 +7439,13 @@
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_48_1"
-		name="{=ozpbN30B}Nazgûl, the Shadow of Black Númenóreans"
+		name="{=ozpbN30B}Nazgûl, the Tainted"
 		default_group="Cavalry"
 		is_female="false"
 		age="20"
@@ -7473,7 +7480,7 @@
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7514,7 +7521,7 @@
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -7554,7 +7561,7 @@
 			<EquipmentSet
 				id="nazgul_template" />
 			<EquipmentSet
-				id="nazgul_template"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -23992,27 +23999,25 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</Equipments>
 	</NPCCharacter>
 
-	<!--Umbar-->
+	<!--Isengard-->
 	<NPCCharacter
 		id="lord_I1_1"
 		name="{=isengardclanonename}Uglúk"
 		age="40"
 		voice="earnest"
 		is_hero="true"
+		race="uruk_hai"
 		culture="Culture.isengard"
 		occupation="Lord"
 		default_group="Infantry"
 		face_mesh_cache="true">
 		<face>
-			<!--face_key
-			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
-			/-->
 			<BodyProperties
 				version="4"
 				age="35"
-				weight="0.2"
-				build="0.74"
-				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+				weight="0.6713"
+				build="0.9606"
+				key="0000F00E40CC3002F18111F1FAFE111F010186EE87FE5F001010F10E8550FF4A008EA60308FFE01E000000000000000000000000000000000000000043040142" />
 		</face>
 		<skills></skills>
 		<Traits>
@@ -24028,6 +24033,166 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait
 				id="Manager"
 				value="8" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-1" />
+			<Trait id="Mercy" value="-2" />
+			<Trait id="Honor" value="0" />
+			<Trait id="Calculating" value="2" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="isengard_captain_template_a" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_I1_11"
+		name="{=isendgardchildname}Uglúk Child"
+		age="10"
+		voice="earnest"
+		is_hero="true"
+		race="uruk_hai"
+		culture="Culture.isengard"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter
+		id="lord_I2_1"
+		name="{=isengardclanname2}Mauhúr"
+		age="25"
+		voice="earnest"
+		is_hero="true"
+		race="uruk_hai"
+		culture="Culture.isengard"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.09" weight="0.4282" build="0.5139"  key="0000F008C0CC3002F181116178B9111F00F086EE87FE5F0010100100807000120088660308FEE01A000000000000000000000000000000000000000043040042"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-1" />
+			<Trait id="Mercy" value="-2" />
+			<Trait id="Honor" value="0" />
+			<Trait id="Calculating" value="2" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="isengard_captain_template_b" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_I2_11"
+		name="{=isendgardchildname2}Mauhúr Child"
+		age="10"
+		voice="earnest"
+		is_hero="true"
+		race="uruk_hai"
+		culture="Culture.isengard"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait id="Valor" value="2" />
 			<Trait id="Generosity" value="1" />
@@ -24049,11 +24214,164 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 
 	<NPCCharacter
-		id="lord_I1_11"
-		name="{=isendgardchildname}Uglúk Child"
+		id="lord_I3_1"
+		name="{=isengardclanlord3}Lugdush"
+		age="25"
+		voice="earnest"
+		is_hero="true"
+		race="uruk_hai"
+		culture="Culture.isengard"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.09" weight="0.6829" build="0.6343"  key="0005F00E40CC3003D68111100061000E00F086EE87FE5F101010010080700012009AA60309FEE0160000000000000000000000000000000000000000432C0042"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-1" />
+			<Trait id="Mercy" value="-2" />
+			<Trait id="Honor" value="0" />
+			<Trait id="Calculating" value="2" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="isengard_captain_template_c" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_I3_11"
+		name="{=isendgardchildname}Lugdush Child"
 		age="10"
 		voice="earnest"
 		is_hero="true"
+		race="uruk_hai"
+		culture="Culture.isengard"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key
+			value="0016f12640fc334d7b57826ca4c57ca67949e6aca88b3acd7a45da9768858686000259a40573767b00001105000030a30000001f000000000000000000006000"
+			/-->
+			<BodyProperties
+				version="4"
+				age="20"
+				weight="0.2"
+				build="0.74"
+				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Honor" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_I4_1"
+		name="{=isengardclanlord4}Lurtz"
+		age="25"
+		voice="earnest"
+		is_hero="true"
+		race="uruk_hai"
+		culture="Culture.isengard"
+		occupation="Lord"
+		default_group="Infantry"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.09" weight="0.6829" build="0.6343"  key="0002F00FC0CC3003FF80F0F006FFF01F000077E1BE3E700F0111EFEE80100012009AA60309FFE00B0000000000000000000000000000000000000000432C0042"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="-1" />
+			<Trait id="Mercy" value="-2" />
+			<Trait id="Honor" value="0" />
+			<Trait id="Calculating" value="2" />
+			<Trait id="Egalitarian" value="0" />
+			<Trait id="Oligarchic" value="1" />
+			<Trait id="Authoritarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="isengard_captain_template_a" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="lord_I4_11"
+		name="{=isendgardchildname}Lurtz Child"
+		age="10"
+		voice="earnest"
+		is_hero="true"
+		race="uruk_hai"
 		culture="Culture.isengard"
 		occupation="Lord"
 		default_group="Infantry"

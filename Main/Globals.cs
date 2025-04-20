@@ -9,5 +9,6 @@ namespace LOTRAOM
     public static class Globals
     {
         public static float MountedTroopWageMultiplier => 0.3f;
+        public static bool IsNewCampaignCreating = false;
     }
 }

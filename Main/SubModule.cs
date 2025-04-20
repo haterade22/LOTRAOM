@@ -18,6 +18,7 @@ namespace LOTRAOM
         private bool manualPatchesHaveFired;
         protected override void OnSubModuleLoad()
         {
+            Harmony.DEBUG = true;
             base.OnSubModuleLoad();
             harmony.PatchAll();
 
@@ -37,6 +38,15 @@ namespace LOTRAOM
             {
                 Module.CurrentModule.AddInitialStateOption(initialStateOption);
             }
+        }
+        public override void OnAfterGameInitializationFinished(Game game, object starterObject)
+        {
+            Globals.IsNewCampaignCreating = false;
+        }
+        public override void OnNewGameCreated(Game game, object initializerObject)
+        {
+            base.OnNewGameCreated(game, initializerObject);
+            Globals.IsNewCampaignCreating = true;
         }
         protected override void OnGameStart(Game game, IGameStarter gameStarterObject)
         {

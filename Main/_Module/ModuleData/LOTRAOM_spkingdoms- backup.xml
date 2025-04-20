@@ -25,8 +25,8 @@
 		<relationships>
 			<relationship
 				kingdom="Kingdom.vlandia"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.isengard"
 				value="1"
@@ -71,32 +71,32 @@
 		<relationships>
 			<relationship
 				kingdom="Kingdom.khuzait"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.empire_s"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.aserai"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.isengard"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.dolguldur"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.gundabad"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.umbar"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.vlandia"
 				value="1"
@@ -174,8 +174,8 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_w"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.aserai"
 				value="1"
@@ -198,7 +198,7 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.vlandia"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.battania"
@@ -214,19 +214,19 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.lothlorien"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.rivendell"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.mirkwood"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.erebor"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 		</relationships>
 		<policies>
@@ -327,7 +327,7 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.mirkwood"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.erebor"
@@ -384,8 +384,8 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_w"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.empire_s"
 				value="1"
@@ -408,7 +408,7 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.vlandia"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.battania"
@@ -432,7 +432,7 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.mirkwood"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.erebor"
@@ -464,7 +464,7 @@
 		<relationships>
 			<relationship
 				kingdom="Kingdom.khuzait"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_w"
@@ -472,27 +472,27 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_s"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.isengard"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.dolguldur"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.gundabad"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.umbar"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.aserai"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.battania"
@@ -504,8 +504,8 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.lothlorien"
 				value="1"
@@ -566,7 +566,7 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_w"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_s"
@@ -594,7 +594,7 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.vlandia"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.sturgia"
@@ -606,19 +606,19 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.lothlorien"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.rivendell"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.mirkwood"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.erebor"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 		</relationships>
 		<policies>
@@ -659,8 +659,8 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_w"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.empire_s"
 				value="1"
@@ -687,7 +687,7 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.vlandia"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.sturgia"
@@ -699,19 +699,19 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.lothlorien"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.rivendell"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.mirkwood"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.erebor"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 		</relationships>
 		<policies>
@@ -749,7 +749,7 @@
 		<relationships>
 			<relationship
 				kingdom="Kingdom.khuzait"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_w"
@@ -757,27 +757,27 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_s"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.isengard"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.dolguldur"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.gundabad"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.umbar"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.aserai"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.vlandia"
@@ -789,7 +789,7 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.lothlorien"
@@ -839,7 +839,7 @@
 		<relationships>
 			<relationship
 				kingdom="Kingdom.khuzait"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_w"
@@ -847,27 +847,27 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_s"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.isengard"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.dolguldur"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.gundabad"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.umbar"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.aserai"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.vlandia"
@@ -879,7 +879,7 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.lothlorien"
@@ -929,7 +929,7 @@
 		<relationships>
 			<relationship
 				kingdom="Kingdom.khuzait"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_w"
@@ -937,27 +937,27 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_s"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.isengard"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.dolguldur"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.gundabad"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.umbar"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.aserai"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.vlandia"
@@ -969,7 +969,7 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.lothlorien"
@@ -1020,7 +1020,7 @@
 		<relationships>
 			<relationship
 				kingdom="Kingdom.khuzait"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_w"
@@ -1028,27 +1028,27 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_s"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.isengard"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.dolguldur"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.gundabad"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.umbar"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.aserai"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.vlandia"
@@ -1060,7 +1060,7 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire"
-				value="0"
+				value="-1"
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.mirkwood"
@@ -1115,8 +1115,8 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_w"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.aserai"
 				value="1"
@@ -1139,8 +1139,8 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.vlandia"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.battania"
 				value="0"
@@ -1155,20 +1155,20 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.lothlorien"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.rivendell"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.mirkwood"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.erebor"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 		</relationships>
 		<policies>
 			<policy
@@ -1209,8 +1209,8 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_w"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.aserai"
 				value="1"
@@ -1233,8 +1233,8 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.vlandia"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.battania"
 				value="0"
@@ -1249,20 +1249,20 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.lothlorien"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.rivendell"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.mirkwood"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.erebor"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 		</relationships>
 		<policies>
 			<policy
@@ -1303,8 +1303,8 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_w"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.aserai"
 				value="1"
@@ -1327,8 +1327,8 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.vlandia"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.battania"
 				value="0"
@@ -1343,20 +1343,20 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.lothlorien"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.rivendell"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.mirkwood"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.erebor"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 		</relationships>
 
 		<policies>
@@ -1400,8 +1400,8 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.empire_w"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.aserai"
 				value="1"
@@ -1424,8 +1424,8 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.vlandia"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.battania"
 				value="0"
@@ -1440,20 +1440,20 @@
 				isAtWar="false" />
 			<relationship
 				kingdom="Kingdom.lothlorien"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.rivendell"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.mirkwood"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 			<relationship
 				kingdom="Kingdom.erebor"
-				value="0"
-				isAtWar="false" />
+				value="-1"
+				isAtWar="true" />
 		</relationships>
 		<policies>
 			<policy

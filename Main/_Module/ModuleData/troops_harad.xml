@@ -1033,12 +1033,37 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.harad_serpentguard"/>
-
 		</upgrade_targets>
 		<Equipments>
+		<EquipmentRoster>
+			<equipment
+				slot="Item0"
+				id="Item.aserai_lance_1_t5" />
+			<equipment
+				slot="Item1"
+				id="Item.ornate_adarga" />
+			<equipment
+				slot="Item2"
+				id="Item.eastern_javelin_3_t4" />
+			<equipment
+				slot="Head"
+				id="Item.harad05_v1_helmet" />
+			<equipment
+				slot="Body"
+				id="Item.harad05_v4_torso" />
+			<equipment
+				slot="Cape"
+				id="Item.harad05_v4_cape" />
+			<equipment
+				slot="Gloves"
+				id="Item.harad05_v1_gloves" />
+			<equipment
+				slot="Leg"
+				id="Item.harad05_v4_boots" />
+		</EquipmentRoster>
 		<EquipmentSet
-				id="aserai_troop_civilian_template_t3"
-				civilian="true" />
+			id="aserai_troop_civilian_template_t3"
+			civilian="true" />
 		<equipment
 			slot="Horse"
 			id="Item.t2_khuzait_horse" />
@@ -1047,6 +1072,7 @@
 			id="Item.steppe_half_barding" />
 		</Equipments>
 	</NPCCharacter>
+
 
 	<NPCCharacter id="harad_horsearcher"
 		default_group="HorseArcher"
