@@ -9,14 +9,14 @@
 		is_basic_troop="true"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="90"/>
+			<skill id="Athletics" value="50"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="80"/>
-			<skill id="TwoHanded" value="80"/>
-			<skill id="Polearm" value="70"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -34,8 +34,22 @@
 					slot="Item1"
 					id="Item.wm_isengard_shield_a01" />
 				<equipment
-					slot="Head"
-					id="Item.sk_uruk_hai_helmet_skir_a1" />
+					slot="Body"
+					id="Item.sk_uruk_hai_tunic_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_light_a1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_shoes_a1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_1h_sword_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
 				<equipment
 					slot="Body"
 					id="Item.sk_uruk_hai_tunic_a1" />
@@ -60,7 +74,7 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="150"/>
@@ -92,7 +106,30 @@
 					id="Item.sk_uruk_hai_pauldron_light_a1" />
 				<equipment
 					slot="Body"
-					id="Item.sk_uruk_hai_tunic_a1" />
+					id="Item.sk_uruk_hai_chainmail_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_light_a1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_shoes_a1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_1h_sword_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_skir_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_light_a1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_chainmail_a2" />
 				<equipment
 					slot="Gloves"
 					id="Item.sk_uruk_hai_bracer_light_a1" />
@@ -114,14 +151,14 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="150"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
 			<skill id="Bow" value="100"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -175,7 +212,7 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="175"/>
@@ -230,7 +267,7 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="175"/>
@@ -255,10 +292,30 @@
 					id="Item.sk_uruk_hai_helmet_sword_light_a4" />
 				<equipment
 					slot="Cape"
-					id="Item.sk_uruk_hai_pauldron_light_a1" />
+					id="Item.sk_uruk_hai_pauldron_light_a2" />
 				<equipment
 					slot="Body"
 					id="Item.sk_uruk_hai_plate_light_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_light_b1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_medium_b1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_2h_axe_c" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_sword_light_a4" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_light_a3" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_light_b1" />
 				<equipment
 					slot="Gloves"
 					id="Item.sk_uruk_hai_bracer_light_b1" />
@@ -280,14 +337,14 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="175"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="75"/>
 			<skill id="Throwing" value="0"/>
@@ -314,10 +371,36 @@
 					id="Item.sk_uruk_hai_pauldron_light_a1" />
 				<equipment
 					slot="Body"
-					id="Item.sk_uruk_hai_plate_light_b2" />
+					id="Item.sk_uruk_hai_plate_light_a1" />
 				<equipment
 					slot="Gloves"
 					id="Item.sk_uruk_hai_bracer_light_a1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_shoes_a1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.wm_isengard_crossbow_a01" />
+				<equipment
+					slot="Item1"
+					id="Item.bolt_a" />
+				<equipment
+					slot="Item2"
+					id="Item.isengard_1h_sword_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_skir_a4" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_light_a2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_light_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_light_a2" />
 				<equipment
 					slot="Leg"
 					id="Item.sk_uruk_hai_shoes_a1" />
@@ -336,14 +419,14 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="150"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
 			<skill id="Bow" value="150"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -392,7 +475,7 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="250"/>
@@ -424,7 +507,7 @@
 					id="Item.sk_uruk_hai_pauldron_light_a2" />
 				<equipment
 					slot="Body"
-					id="Item.sk_uruk_hai_plate_light_a1" />
+					id="Item.sk_uruk_hai_plate_med_a1" />
 				<equipment
 					slot="Gloves"
 					id="Item.sk_uruk_hai_bracer_light_a2" />
@@ -432,6 +515,76 @@
 					slot="Leg"
 					id="Item.sk_uruk_hai_greaves_medium_b2" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_spear_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a02" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_spear_light_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_light_a2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_med_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_light_a2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_medium_b2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_spear_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a02" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_spear_light_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_light_a2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_med_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_light_a2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_medium_b2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_spear_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a02" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_spear_light_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_light_a2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_med_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_light_a2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_medium_b2" />
+			</EquipmentRoster>
+			
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
 				civilian="true" />
@@ -446,7 +599,7 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="250"/>
@@ -478,7 +631,76 @@
 					id="Item.sk_uruk_hai_pauldron_light_a3" />
 				<equipment
 					slot="Body"
-					id="Item.sk_uruk_hai_plate_light_b1" />
+					id="Item.sk_uruk_hai_plate_med_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_light_b1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_medium_a2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_1h_sword_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_sword_light_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_light_a3" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_med_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_light_b1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_medium_a2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_1h_sword_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_sword_light_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_light_a3" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_med_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_light_b1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_medium_a2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_1h_sword_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_sword_light_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_light_a3" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_med_b1" />
 				<equipment
 					slot="Gloves"
 					id="Item.sk_uruk_hai_bracer_light_b1" />
@@ -501,7 +723,7 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="300"/>
@@ -537,6 +759,66 @@
 					slot="Leg"
 					id="Item.sk_uruk_hai_greaves_medium_b1" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_2h_axe_a" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_sword_med_a4" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_light_a3" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_med_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_medium_a2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_medium_b1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_2h_axe_a" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_sword_med_a4" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_light_a3" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_med_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_medium_a2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_medium_b1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_2h_axe_a" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_sword_med_a4" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_light_a3" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_med_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_medium_a2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_medium_b1" />
+			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
 				civilian="true" />
@@ -551,14 +833,14 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="225"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="120"/>
 			<skill id="Bow" value="220"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -610,14 +892,14 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="220"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="120"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="150"/>
 			<skill id="Throwing" value="0"/>
@@ -666,7 +948,7 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="350"/>
@@ -694,7 +976,27 @@
 					id="Item.sk_uruk_hai_pauldron_med_a1" />
 				<equipment
 					slot="Body"
-					id="Item.sk_uruk_hai_plate_med_b1" />
+					id="Item.sk_uruk_hai_plate_heavy_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_medium_b3" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_medium_a2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_pike_b" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_spear_med_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_med_a1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_heavy_b2" />
 				<equipment
 					slot="Gloves"
 					id="Item.sk_uruk_hai_bracer_medium_b3" />
@@ -716,7 +1018,7 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="300"/>
@@ -747,7 +1049,30 @@
 					id="Item.sk_uruk_hai_pauldron_med_a1" />
 				<equipment
 					slot="Body"
-					id="Item.sk_uruk_hai_plate_med_b1" />
+					id="Item.sk_uruk_hai_plate_heavy_a2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_medium_b3" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_medium_a2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_spear_b" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a02" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_spear_med_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_med_a1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_heavy_a1" />
 				<equipment
 					slot="Gloves"
 					id="Item.sk_uruk_hai_bracer_medium_b3" />
@@ -770,7 +1095,7 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="300"/>
@@ -801,7 +1126,30 @@
 					id="Item.sk_uruk_hai_pauldron_med_a2" />
 				<equipment
 					slot="Body"
-					id="Item.sk_uruk_hai_plate_med_a1" />
+					id="Item.sk_uruk_hai_plate_heavy_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_medium_b3" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_medium_a2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_1h_sword_a" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a01" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_sword_med_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_med_a2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_heavy_b1" />
 				<equipment
 					slot="Gloves"
 					id="Item.sk_uruk_hai_bracer_medium_b3" />
@@ -824,7 +1172,7 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="325"/>
@@ -852,7 +1200,27 @@
 					id="Item.sk_uruk_hai_pauldron_med_a2" />
 				<equipment
 					slot="Body"
-					id="Item.sk_uruk_hai_plate_med_a2" />
+					id="Item.sk_uruk_hai_plate_heavy_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_medium_b2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_medium_a2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_berserker_sword" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_sword_med_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_med_a2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_heavy_a2" />
 				<equipment
 					slot="Gloves"
 					id="Item.sk_uruk_hai_bracer_medium_b2" />
@@ -874,7 +1242,7 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="325"/>
@@ -901,7 +1269,27 @@
 					id="Item.sk_uruk_hai_pauldron_med_a1" />
 				<equipment
 					slot="Body"
-					id="Item.sk_uruk_hai_plate_med_a2" />
+					id="Item.sk_uruk_hai_plate_heavy_b1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_medium_b1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_medium_a1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_2h_axe_a" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_sword_med_a3" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_med_a1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_heavy_b2" />
 				<equipment
 					slot="Gloves"
 					id="Item.sk_uruk_hai_bracer_medium_b1" />
@@ -925,14 +1313,14 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="300"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
 			<skill id="Bow" value="250"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -984,15 +1372,15 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="300"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
-			<skill id="Bow" value="0"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="200"/>
 			<skill id="Crossbow" value="250"/>
 			<skill id="Throwing" value="0"/>
 		</skills>
@@ -1040,7 +1428,7 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_berserker"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="400"/>
@@ -1073,10 +1461,61 @@
 					slot="Leg"
 					id="Item.sk_uruk_hai_shoes_a1" />
 			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_berserker_sword_2h" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_bers_a3" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_skirt_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_gloves_a1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_shoes_a1" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_berserker_sword_2h" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_bers_a1" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_skirt_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_elite_b1" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_shoes_a1" />
+			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
 				civilian="true" />
 		</Equipments>
+		<EquipmentRoster>
+			<equipment
+				slot="Item0"
+				id="Item.isengard_berserker_sword_2h" />
+			<equipment
+				slot="Head"
+				id="Item.sk_uruk_hai_helmet_bers_a4" />
+			<equipment
+				slot="Body"
+				id="Item.sk_uruk_hai_skirt_a1" />
+			<equipment
+				slot="Gloves"
+				id="Item.sk_uruk_hai_bracer_elite_b3" />
+			<equipment
+				slot="Leg"
+				id="Item.sk_uruk_hai_shoes_a1" />
+		</EquipmentRoster>
 	</NPCCharacter>
 
 
@@ -1088,14 +1527,14 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="300"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="210"/>
+			<skill id="TwoHanded" value="210"/>
+			<skill id="Polearm" value="210"/>
 			<skill id="Bow" value="280"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -1143,14 +1582,14 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="300"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="210"/>
+			<skill id="TwoHanded" value="210"/>
+			<skill id="Polearm" value="210"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="300"/>
 			<skill id="Throwing" value="0"/>
@@ -1196,7 +1635,7 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="350"/>
@@ -1223,13 +1662,33 @@
 					id="Item.sk_uruk_hai_pauldron_heavy_b2" />
 				<equipment
 					slot="Body"
-					id="Item.sk_uruk_hai_plate_elite_b2" />
+					id="Item.sk_uruk_hai_plate_elite_a2" />
 				<equipment
 					slot="Gloves"
 					id="Item.sk_uruk_hai_bracer_elite_b2" />
 				<equipment
 					slot="Leg"
 					id="Item.sk_uruk_hai_greaves_heavy_a2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_pike_a" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_spear_heavy_a3" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_heavy_b2" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_elite_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_elite_b2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_heavy_a1" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="battania_troop_civilian_template_t2"
@@ -1245,7 +1704,7 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="350"/>
@@ -1275,7 +1734,30 @@
 					id="Item.sk_uruk_hai_pauldron_heavy_a3" />
 				<equipment
 					slot="Body"
-					id="Item.sk_uruk_hai_plate_heavy_a1" />
+					id="Item.sk_uruk_hai_plate_elite_a1" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_elite_b3" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_heavy_a2" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.isengard_spear_a" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a02" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_spear_heavy_a2" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_heavy_a3" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_elite_a2" />
 				<equipment
 					slot="Gloves"
 					id="Item.sk_uruk_hai_bracer_elite_b3" />
@@ -1297,7 +1779,7 @@
 			occupation="Soldier"
 			culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="350"/>
@@ -1327,7 +1809,7 @@
 					id="Item.sk_uruk_hai_pauldron_med_a2" />
 				<equipment
 					slot="Body"
-					id="Item.sk_uruk_hai_plate_heavy_a1" />
+					id="Item.sk_uruk_hai_plate_elite_b2" />
 				<equipment
 					slot="Gloves"
 					id="Item.sk_uruk_hai_bracer_heavy_a3" />
@@ -1349,7 +1831,7 @@
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_berserker"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="450"/>
@@ -1398,12 +1880,12 @@
 		default_group="Infantry"
 		level="36"
 		race="uruk_hai"
-		name="{=orthanic_chosen}[Isengard] Orthanc Chosen"
+		name="{=orthanic_chosen}[Isengard] Orthanc Guard"
 		occupation="Soldier"
 		is_basic_troop="true"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="250"/>
@@ -1452,11 +1934,11 @@
 		default_group="Infantry"
 		level="41"
 		race="uruk_hai"
-		name="{=orthanic_guard}[Isengard] Orthanc Guard"
+		name="{=orthanic_guard}[Isengard] Guard of the Hand"
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="295"/>
@@ -1505,11 +1987,11 @@
 		default_group="Infantry"
 		level="46"
 		race="uruk_hai"
-		name="{=orthanic_warden}[Isengard] Orthanc Warden"
+		name="{=orthanic_warden}[Isengard] Orthanc Chosen"
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="375"/>
@@ -1558,11 +2040,11 @@
 		default_group="Infantry"
 		race="uruk_hai"
 		level="51"
-		name="{=orthanic_bodyguard}[Isengard] Orthanc Bodyguard"
+		name="{=orthanic_bodyguard}[Isengard] Saruman's Chosen Guard"
 		occupation="Soldier"
 		culture="Culture.isengard">
 		<face>
-			<face_key_template value="BodyProperty.villager_battania"/>
+			<face_key_template value="BodyProperty.fighter_uruk_hai"/>
 		</face>
 		<skills >
 			<skill id="Athletics" value="450"/>

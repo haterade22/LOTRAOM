@@ -199,8 +199,11 @@ namespace LOTRAOM.Models
             ["clan_lothlorien_1"] = new List<VolunteerChance> { new("rivendell_noble", 2), new("rivendell_recruit", 8) },
 
             //isengard
-            ["clan_isengard_1"] = new List<VolunteerChance> { new("urukhai_recruit", 8), new("orthanc_chosen", 2) },         
-            
+            ["clan_isengard_1"] = new List<VolunteerChance> { new("urukhai_recruit", 8), new("orthanc_chosen", 2) },
+            ["clan_isengard_2"] = new List<VolunteerChance> { new("urukhai_recruit", 8), new("orthanc_chosen", 2) },
+            ["clan_isengard_3"] = new List<VolunteerChance> { new("urukhai_recruit", 8), new("orthanc_chosen", 2) },
+            ["clan_isengard_4"] = new List<VolunteerChance> { new("urukhai_recruit", 8), new("orthanc_chosen", 2) },
+
             //gundabad
             ["clan_gundabad_1"] = new List<VolunteerChance> { new("mordor_uruk_grunt", 1) },
             

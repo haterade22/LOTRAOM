@@ -639,6 +639,11 @@
 	<Faction
 		id="clan_empire_west_1"
 		name="{=OVQoC9fn}House of Húrinionath"
+		label_color="FF2A2A2A"
+		color="FF1C1C1C"
+		color2="FFD6D6D6"
+		alternative_color="FF101010"
+		alternative_color2="FFBFBFBF"
 		tier="6"
 		owner="Hero.lord_1_7"
 		culture="Culture.gondor"
@@ -649,11 +654,11 @@
 	<Faction
 		id="clan_empire_west_2"
 		name="{=a4GxTbPD}House of Imrazôrionath"
-		label_color="FF50697B"
-		color="FF2D3F4F"
-		color2="FF94B3C7"
-		alternative_color="FF50697B"
-		alternative_color2="FF2D3F4F"
+		label_color="FF3A5474"             
+		color="FF1E3A69"                  
+		color2="FFD6D3C4"                 
+		alternative_color="FF2A4260"      
+		alternative_color2="FF89A7BE"      
 		tier="5"
 		owner="Hero.lord_1_9"
 		culture="Culture.gondor"
@@ -664,6 +669,11 @@
 	<Faction
 		id="clan_empire_west_3"
 		name="{=tdGvElSy}House of Eärnurionath"
+		label_color="FF415D4A"
+		color="FF3E5370"
+		color2="FFC8B98A"
+		alternative_color="FF3B5E49"
+		alternative_color2="FFB59F66"
 		tier="4"
 		owner="Hero.lord_1_11"
 		culture="Culture.gondor"
@@ -674,6 +684,7 @@
 	<Faction
 		id="clan_empire_west_4"
 		name="{=xqkKtWqa}House of Molorion"
+		
 		tier="4"
 		owner="Hero.lord_1_40"
 		culture="Culture.gondor"
@@ -684,6 +695,11 @@
 	<Faction
 		id="clan_empire_west_5"
 		name="{=cd0yDTM1}House of Ausirionath"
+		label_color="FF404433"
+		color="FF4D5138"
+		color2="FFDFD5B8"
+		alternative_color="FF343726"
+		alternative_color2="FFC8B68A"
 		tier="3"
 		owner="Hero.lord_1_45"
 		culture="Culture.gondor"
@@ -694,6 +710,11 @@
 	<Faction
 		id="clan_empire_west_6"
 		name="{=ApJrV7bA}House of Halboronionath"
+		label_color="FF3C5A25"
+		color="FF496F2D"
+		color2="FFE0D4B0"
+		alternative_color="FF2E451A"
+		alternative_color2="FFC8B17D"
 		tier="3"
 		owner="Hero.lord_1_52"
 		culture="Culture.gondor"
@@ -704,6 +725,11 @@
 	<Faction
 		id="clan_empire_west_7"
 		name="{=bjemmmcF}House of Malandilionath"
+		label_color="FF551818"
+		color="FF6B1C1C"
+		color2="FFE3C2A8"
+		alternative_color="FF421111"
+		alternative_color2="FFCBA07E"
 		tier="3"
 		owner="Hero.lord_1_53"
 		culture="Culture.gondor"
@@ -714,6 +740,11 @@
 	<Faction
 		id="clan_empire_west_8"
 		name="{=pdz4YsEf}House of Olindurionath"
+		label_color="FF7A5321"
+		color="FF9E6222"
+		color2="FFE5D9B8"
+		alternative_color="FF6B4518"
+		alternative_color2="FFCBB78C"
 		tier="1"
 		owner="Hero.lord_1_71"
 		culture="Culture.gondor"
@@ -724,6 +755,11 @@
 	<Faction
 		id="clan_empire_west_9"
 		name="{=LTWTTQ71}House of Danuhirionath"
+		label_color="FF1F1F1C"
+		color="FF0A0A08"
+		color2="FFC7C4B3"
+		alternative_color="FF171716"
+		alternative_color2="FFA6A28E"
 		tier="2"
 		owner="Hero.lord_WE9_l"
 		culture="Culture.gondor"
@@ -734,6 +770,11 @@
 	<Faction
 		id="clan_empire_west_10"
 		name="{=pdz4YsEf}House of Barahirionath"
+		label_color="FF56461A"
+		color="FF685116"
+		color2="FFE4D6B5"
+		alternative_color="FF4B3B0F"
+		alternative_color2="FFCCB98A"
 		tier="1"
 		owner="Hero.lord_1_59"
 		culture="Culture.gondor"
@@ -744,6 +785,11 @@
 	<Faction
 		id="clan_empire_west_11"
 		name="{=pdz4YsEf}House of Elatanionath"
+		label_color="FF2A2A2A"
+		color="FF1C1C1C"
+		color2="FFD9D6C4"
+		alternative_color="FF101010"
+		alternative_color2="FFBAB6A0"
 		tier="1"
 		owner="Hero.lord_1_60"
 		culture="Culture.gondor"
@@ -754,6 +800,11 @@
 	<Faction
 		id="clan_empire_west_12"
 		name="{=pdz4YsEf}House of Faramirionath"
+		label_color="FF3A4F3A"
+		color="FF2E4631"
+		color2="FFE0D8BD"
+		alternative_color="FF223624"
+		alternative_color2="FFB9AA79"
 		tier="1"
 		owner="Hero.lord_1_34"
 		culture="Culture.gondor"
@@ -1541,6 +1592,37 @@
 		is_noble="true"
 		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16053.172.171.483.483.764.764.0.0.0" />
 	
+	<Faction
+		id="clan_isengard_2"
+		name="{=clanofisengard2}The Red Echelon"
+		tier="5"
+		owner="Hero.lord_I2_1"
+		culture="Culture.isengard"
+		super_faction="Kingdom.isengard"
+		is_noble="true"
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16053.172.171.483.483.764.764.0.0.0" />
+
+	<Faction
+		id="clan_isengard_3"
+		name="{=clanofisengard3}The Black Echelon"
+		tier="4"
+		owner="Hero.lord_I3_1"
+		culture="Culture.isengard"
+		super_faction="Kingdom.isengard"
+		is_noble="true"
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16053.172.171.483.483.764.764.0.0.0" />
+
+
+	<Faction
+		id="clan_isengard_4"
+		name="{=clanofisengard3}The Black Maw"
+		tier="3"
+		owner="Hero.lord_I4_1"
+		culture="Culture.isengard"
+		super_faction="Kingdom.isengard"
+		is_noble="true"
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16053.172.171.483.483.764.764.0.0.0" />
+
 	<!-- Gundabad -->
 	<Faction
 		id="clan_gundabad_1"

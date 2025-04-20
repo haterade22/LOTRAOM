@@ -1576,6 +1576,100 @@
 		</stacks>
 	</MBPartyTemplate>
 
+	<!--Isengard-->
+	<MBPartyTemplate id="kingdom_hero_party_isengard_template" >
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.urukhai_recruit" />
+			<PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.urukhai_fighter" />
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.urukhai_scout" />
+			<PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.urukhai_warrior" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.urukhai_skirmisher" />
+			<PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.urukhai_feller" />
+			<PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.urukhai_hunter" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.urukhai_spearman" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.urukhai_swordman" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.urukhai_slayer" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.urukhai_arbalest" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.urukhai_tracker" />
+			<PartyTemplateStack min_value="3" max_value="20" troop="NPCCharacter.urukhai_pikeman" />
+			<PartyTemplateStack min_value="3" max_value="20" troop="NPCCharacter.urukhai_veteranspearman" />
+			<PartyTemplateStack min_value="2" max_value="20" troop="NPCCharacter.urukhai_infantry" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.urukhai_champion" />
+			<PartyTemplateStack min_value="1" max_value="15" troop="NPCCharacter.urukhai_reaver" />
+			<PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.urukhai_archer" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.urukhai_crossbowman" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.urukhai_veteranpikeman" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.urukhai_pavise" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.urukhai_veteraninfantry" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.urukhai_berserker" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.urukhai_chosenmarksman" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.urukhai_veterancrossbowman" />
+			<PartyTemplateStack min_value="1" max_value="30" troop="NPCCharacter.urukhai_nazg_hai" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.orthanc_chosen" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.orthanc_guard" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.orthanc_warden" />
+			<PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.orthanc_bodyguard" />
+	
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate
+		  id="caravan_template_isengard">
+		<stacks>
+			<PartyTemplateStack
+				min_value="8"
+				max_value="8"
+				troop="NPCCharacter.caravan_guard_gondor" />
+			<PartyTemplateStack
+				min_value="4"
+				max_value="4"
+				troop="NPCCharacter.armed_trader_gondor" />
+			<PartyTemplateStack
+				min_value="2"
+				max_value="2"
+				troop="NPCCharacter.veteran_caravan_guard_gondor" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<MBPartyTemplate
+		id="elite_caravan_template_isengard">
+		<stacks>
+			<PartyTemplateStack
+				min_value="8"
+				max_value="8"
+				troop="NPCCharacter.armed_trader_gondor" />
+			<PartyTemplateStack
+				min_value="7"
+				max_value="7"
+				troop="NPCCharacter.caravan_guard_gondor" />
+			<PartyTemplateStack
+				min_value="8"
+				max_value="8"
+				troop="NPCCharacter.veteran_caravan_guard_gondor" />
+			<PartyTemplateStack
+				min_value="2"
+				max_value="2"
+				troop="NPCCharacter.caravan_master_gondor" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<MBPartyTemplate
+		id="militia_isengard_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.urukhai_infantry" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.urukhai_arbalest" />
+		</stacks>
+	</MBPartyTemplate>
+
+
+
+
+	<!--Dunland-->
 	<MBPartyTemplate
 		id="kingdom_hero_party_dunland_template">
 		<stacks>

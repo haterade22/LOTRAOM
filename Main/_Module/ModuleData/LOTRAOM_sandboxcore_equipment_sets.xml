@@ -843,6 +843,154 @@
 			/>
 	</EquipmentRoster>
 
+	<EquipmentRoster
+		id="isengard_captain_template_a"
+		culture="Culture.isengard">
+		<EquipmentSet
+			civilian="false">
+				<equipment
+					slot="Item0"
+					id="Item.isengard_berserker_sword" />
+				<equipment
+					slot="Item1"
+					id="Item.wm_isengard_shield_a02" />
+				<equipment
+					slot="Item2"
+					id="Item.isengard_2h_axe_a" />
+				<equipment
+					slot="Head"
+					id="Item.sk_uruk_hai_helmet_officer_a1" />
+				<equipment
+					slot="Cape"
+					id="Item.sk_uruk_hai_pauldron_heavy_b3" />
+				<equipment
+					slot="Body"
+					id="Item.sk_uruk_hai_plate_elite_b2" />
+				<equipment
+					slot="Gloves"
+					id="Item.sk_uruk_hai_bracer_elite_b2" />
+				<equipment
+					slot="Leg"
+					id="Item.sk_uruk_hai_greaves_heavy_a2" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
+			/>
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="isengard_captain_template_b"
+		culture="Culture.isengard">
+		<EquipmentSet
+			civilian="false">
+			<equipment
+				slot="Item0"
+				id="Item.isengard_berserker_sword" />
+			<equipment
+				slot="Item1"
+				id="Item.wm_isengard_shield_a02" />
+			<equipment
+				slot="Item2"
+				id="Item.isengard_2h_axe_a" />
+			<equipment
+				slot="Head"
+				id="Item.sk_uruk_hai_helmet_officer_a2" />
+			<equipment
+				slot="Cape"
+				id="Item.sk_uruk_hai_pauldron_heavy_b3" />
+			<equipment
+				slot="Body"
+				id="Item.sk_uruk_hai_plate_elite_b2" />
+			<equipment
+				slot="Gloves"
+				id="Item.sk_uruk_hai_bracer_elite_b2" />
+			<equipment
+				slot="Leg"
+				id="Item.sk_uruk_hai_greaves_heavy_a2" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
+			/>
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="isengard_captain_template_c"
+		culture="Culture.isengard">
+		<EquipmentSet
+			civilian="false">
+			<equipment
+				slot="Item0"
+				id="Item.isengard_berserker_sword" />
+			<equipment
+				slot="Item1"
+				id="Item.wm_isengard_shield_a02" />
+			<equipment
+				slot="Item2"
+				id="Item.isengard_2h_axe_a" />
+			<equipment
+				slot="Head"
+				id="Item.sk_uruk_hai_helmet_officer_a3" />
+			<equipment
+				slot="Cape"
+				id="Item.sk_uruk_hai_pauldron_heavy_b3" />
+			<equipment
+				slot="Body"
+				id="Item.sk_uruk_hai_plate_elite_b2" />
+			<equipment
+				slot="Gloves"
+				id="Item.sk_uruk_hai_bracer_elite_b2" />
+			<equipment
+				slot="Leg"
+				id="Item.sk_uruk_hai_greaves_heavy_a2" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
+			/>
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="isengard_captain_template_d"
+		culture="Culture.isengard">
+		<EquipmentSet
+			civilian="false">
+			<equipment
+				slot="Item0"
+				id="Item.isengard_berserker_sword" />
+			<equipment
+				slot="Item1"
+				id="Item.wm_isengard_shield_a02" />
+			<equipment
+				slot="Item2"
+				id="Item.isengard_2h_axe_a" />
+			<equipment
+				slot="Head"
+				id="Item.sk_uruk_hai_helmet_officer_a4" />
+			<equipment
+				slot="Cape"
+				id="Item.sk_uruk_hai_pauldron_heavy_b3" />
+			<equipment
+				slot="Body"
+				id="Item.sk_uruk_hai_plate_elite_b2" />
+			<equipment
+				slot="Gloves"
+				id="Item.sk_uruk_hai_bracer_elite_b2" />
+			<equipment
+				slot="Leg"
+				id="Item.sk_uruk_hai_greaves_heavy_a2" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
+			/>
+	</EquipmentRoster>
+
 	<!--rivendell-->
 	<!--generic lord fighter battle equipment-->
 	<EquipmentRoster

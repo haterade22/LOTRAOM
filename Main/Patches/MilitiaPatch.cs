@@ -201,6 +201,10 @@ namespace LOTRAOM.Patches
 
             //Isengard
             ["clan_isengard_1"] = new MilitiaData("orthanc_warden", "orthanc_bodyguard", "urukhai_archer", "urukhai_veterancrossbowman"),
+            ["clan_isengard_2"] = new MilitiaData("orthanc_warden", "orthanc_bodyguard", "urukhai_archer", "urukhai_veterancrossbowman"),
+            ["clan_isengard_3"] = new MilitiaData("orthanc_warden", "orthanc_bodyguard", "urukhai_archer", "urukhai_veterancrossbowman"),
+            ["clan_isengard_4"] = new MilitiaData("orthanc_warden", "orthanc_bodyguard", "urukhai_archer", "urukhai_veterancrossbowman"),
+
 
             //Gundabad
             ["clan_gundabad_1"] = new MilitiaData("mordor_uruk_vanguard", "mordor_uruk_baraddurguard", "mordor_uruk_archer", "mordor_uruk_marksman"),
