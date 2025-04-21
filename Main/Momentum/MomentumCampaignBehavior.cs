@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using TaleWorlds.CampaignSystem.Party;
 using TaleWorlds.CampaignSystem.MapEvents;
 using TaleWorlds.Core;
+using SandBox.View.Map;
+using LOTRAOM.Momentum.Views;
 namespace LOTRAOM.Momentum
 {
     public class MomentumCampaignBehavior : CampaignBehaviorBase
@@ -83,6 +85,12 @@ namespace LOTRAOM.Momentum
         public static CampaignTime GetEventEndTime(MomentumActionType type)
         {
             return CampaignTime.DaysFromNow(2);
+        }
+
+        public void AddMomentumUI()
+        {
+            if (AoMSettings.Instance.BalanceOfPower)
+                MapScreen.Instance.AddMapView<MomentumIndicator>();
         }
     }
 }

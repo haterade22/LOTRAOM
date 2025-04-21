@@ -67,6 +67,24 @@ namespace LOTRAOM.Momentum
             else
                 EvilKingdoms.AddEvent(type, momentumEvent);
         }
+
+        public void AddKingdom(Kingdom kingdom)
+        {
+            if (!HasWarStarted())
+                MomentumCampaignBehavior.Instance.AddMomentumUI();
+            if (kingdom.Culture.IsGoodCulture())
+            {
+                GoodKingdoms.Kingdoms.Add(kingdom);
+                foreach(var evilKingdom in EvilKingdoms.Kingdoms)
+                    FactionManager.DeclareWar(kingdom, evilKingdom);
+            }
+            else
+            {
+                EvilKingdoms.Kingdoms.Add(kingdom);
+                foreach (var evilKingdom in GoodKingdoms.Kingdoms)
+                    FactionManager.DeclareWar(kingdom, evilKingdom);
+            }
+        }
         public bool HasWarStarted()
         {
             return GoodKingdoms.Kingdoms.Count + EvilKingdoms.Kingdoms.Count > 0;
