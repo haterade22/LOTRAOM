@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TaleWorlds.CampaignSystem;
 using static LOTRAOM.CampaignStart.CampaignStartGlobals;
+using static TaleWorlds.MountAndBlade.Agent;
 
 namespace LOTRAOM
 {
@@ -45,5 +47,25 @@ namespace LOTRAOM
             return false;
         }
 
+        public static Kingdom? MordorKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == MordorCulture);
+        public static Kingdom? IsengardKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == IsengardCulture);
+        public static Kingdom? RohanKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == RohanCulture);
+        public static Kingdom? GondorKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == Gondorculture);
+        public static Kingdom? DunlandKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == DunlandCulture);
+
+        public static Kingdom? DolGuldurKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == DolguldurCulture);
+        public static Kingdom? GundabadKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == GundabadCulture);
+        public static Kingdom? MirkwoodKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == MirkwoodCulture);
+        public static Kingdom? LorienKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == LothlorienCulture);
+
+        public static Kingdom? RhunKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == RhunCulture);
+        public static Kingdom? EreborKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == EreborCulture);
+        public static Kingdom? DaleKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == DaleCulture);
+        public static Kingdom? UmbarKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == UmbarCulture);
+        public static Kingdom? HaradKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == HaradCulture);
+        public static Kingdom? KhandKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == KhandCulture);
+        public static Kingdom? RivendellKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == RivendellCulture);
+
+        public static string Orthanc = "town_comp_SWAN_ISENGARD1";
     }
 }

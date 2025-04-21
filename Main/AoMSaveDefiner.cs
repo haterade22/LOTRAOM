@@ -1,4 +1,5 @@
-﻿using LOTRAOM.Momentum;
+﻿using LOTRAOM.CampaignBehaviors;
+using LOTRAOM.Momentum;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,8 @@ namespace LOTRAOM
             AddClassDefinition(typeof(WarOfTheRingData), 1);
             AddClassDefinition(typeof(MomentumEvent), 2);
             AddClassDefinition(typeof(WarOfTheRingFactionData), 3);
-            AddEnumDefinition(typeof(MomentumActionType), 4);
+            AddClassDefinition(typeof(DelayedDiplomaticEvent), 4);
+            AddEnumDefinition(typeof(MomentumActionType), 5);
         }
         protected override void DefineContainerDefinitions()
         {
@@ -26,6 +28,8 @@ namespace LOTRAOM
             ConstructContainerDefinition(typeof(Queue<MomentumEvent>));
             ConstructContainerDefinition(typeof(Dictionary<MomentumActionType, Queue<MomentumEvent>>));
             ConstructContainerDefinition(typeof(List<Kingdom>));
+            ConstructContainerDefinition(typeof(List<string>));
+            ConstructContainerDefinition(typeof(List<DelayedDiplomaticEvent>));
         }
     }
 }

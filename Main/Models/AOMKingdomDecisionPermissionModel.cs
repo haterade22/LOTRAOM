@@ -57,9 +57,25 @@ namespace LOTRAOM.Models
             }
             if (kingdom1.Culture.IsEvilCulture() && kingdom2.Culture.IsEvilCulture())
             {
-                reason = new TextObject("We can not attack our friends against the forces of darkness!");
+                reason = new TextObject("It's time to stop the infighting, we know who our enemies are!");
                 return false;
             }
+            if (kingdom1.StringId == Globals.MordorKingdom?.StringId && !MomentumCampaignBehavior.Instance.hasIsengardAttacked)
+            {
+                reason = new TextObject("We are still preparing for our conquest");
+                return false;
+            }
+            if ((kingdom1.Culture.StringId == Globals.RohanCulture || kingdom1.Culture.StringId == Globals.Gondorculture) && kingdom2.Culture.StringId == Globals.IsengardCulture)
+            {
+                reason = new TextObject("The tower of Orthanoc belongs to the keeper of peace, Saruman the White. We will not attack our ally.");
+                return false;
+            }
+            if (kingdom2.Culture.StringId == Globals.RivendellCulture || ((kingdom2.Culture.StringId == Globals.MirkwoodCulture || kingdom2.Culture.StringId == Globals.LothlorienCulture) && kingdom1.Culture.StringId != Globals.DolguldurCulture && kingdom1.Culture.StringId != Globals.GundabadCulture))
+            {
+                reason = new TextObject("The elves are stagnant, and unworthy of our attention, we need to defeat the kingdom of man first!");
+                return false;
+            }
+
             reason = TextObject.Empty;
             return true;
         }

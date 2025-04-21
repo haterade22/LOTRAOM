@@ -76,6 +76,7 @@ namespace LOTRAOM.Momentum.ViewModel
                 new FactionRelationshipVM(mordor)
             };
             EvilAllianceVisual = new ImageIdentifierVM(BannerCode.CreateFrom(mordor.Banner), true);
+            GoodAllianceVisual = new ImageIdentifierVM(BannerCode.CreateFrom(gondor.Banner), true);
             _finalize = onFinalize;
             StartDate = new TextObject("info 1").ToString();
             Duration = new TextObject("info 2").ToString();

@@ -78,7 +78,10 @@ namespace LOTRAOM
                 campaignGameStarter.AddModel(new AOMCharacterStatsModel(campaignGameStarter.GetExistingModel<CharacterStatsModel>()));
                 campaignGameStarter.AddModel(new AOMTroopUpgradeModel(campaignGameStarter.GetExistingModel<PartyTroopUpgradeModel>()));
                 campaignGameStarter.AddModel(new AOMDiplomacyModel(campaignGameStarter.GetExistingModel<DiplomacyModel>()));
+                campaignGameStarter.AddModel(new AoMSettlementFoodModel(campaignGameStarter.GetExistingModel<SettlementFoodModel>()));
+                campaignGameStarter.AddModel(new AoMSettlementProsperityModel(campaignGameStarter.GetExistingModel<SettlementProsperityModel>()));
                 campaignGameStarter.AddModel(new AOMKingdomDecisionPermissionModel());
+                
                 //we can edit this to make factions based on raiding (raiding gives more items)
                 //campaignGameStarter.GetExistingModel<DefaultRaidModel>
             }

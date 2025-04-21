@@ -47,10 +47,6 @@ namespace LOTRAOM.Momentum
         public void EditMomentum(int amount)
         {
             momentum += amount;
-            if (momentum > 100)
-                momentum = 100;
-            else if (momentum < -100)
-                momentum = -100;
         }
     }
     public class WarOfTheRingData
@@ -62,7 +58,7 @@ namespace LOTRAOM.Momentum
         public WarOfTheRingFactionData EvilKingdoms { get { return _evilKingdoms; } }
         public bool DoesFactionTakePartInWar(IFaction kingdom)
         {
-            return GoodKingdoms.Kingdoms.Contains(kingdom) || EvilKingdoms.Kingdoms.Contains(kingdom);
+            return GoodKingdoms.Kingdoms.Any(k => k.StringId == kingdom.StringId) || EvilKingdoms.Kingdoms.Any(k => k.StringId == kingdom.StringId);
         }
         public void AddEvent(Kingdom kingdom, MomentumActionType type, MomentumEvent momentumEvent)
         {
@@ -70,6 +66,24 @@ namespace LOTRAOM.Momentum
                 GoodKingdoms.AddEvent(type, momentumEvent);
             else
                 EvilKingdoms.AddEvent(type, momentumEvent);
+        }
+
+        public void AddKingdom(Kingdom kingdom)
+        {
+            if (!HasWarStarted())
+                MomentumCampaignBehavior.Instance.AddMomentumUI();
+            if (kingdom.Culture.IsGoodCulture())
+            {
+                GoodKingdoms.Kingdoms.Add(kingdom);
+                foreach(var evilKingdom in EvilKingdoms.Kingdoms)
+                    FactionManager.DeclareWar(kingdom, evilKingdom);
+            }
+            else
+            {
+                EvilKingdoms.Kingdoms.Add(kingdom);
+                foreach (var evilKingdom in GoodKingdoms.Kingdoms)
+                    FactionManager.DeclareWar(kingdom, evilKingdom);
+            }
         }
         public bool HasWarStarted()
         {

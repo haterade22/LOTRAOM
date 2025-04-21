@@ -199,9 +199,13 @@ namespace LOTRAOM.Models
                 reason = new TextObject("This is no time for infighting, Sauron calls for a war against our common enemies!");
                 return float.MinValue;
             }
+
             float value = baseModel.GetScoreOfDeclaringWar(factionDeclaresWar, factionDeclaredWar, evaluatingFaction, out reason);
             AoMDiplomacy.EvilFactionsDaysWithoutWar.TryGetValue(factionDeclaresWar.StringId, out int daysWithoutWar);
-            return value += daysWithoutWar * 1000;
+            if (factionDeclaresWar.StringId == Globals.MordorKingdom?.StringId && MomentumCampaignBehavior.Instance.hasIsengardAttacked && (factionDeclaredWar.StringId == Globals.GondorKingdom?.StringId || factionDeclaredWar.StringId == Globals.RohanKingdom?.StringId))
+                value += daysWithoutWar * 10000;
+            value += daysWithoutWar * 1000;
+            return value;
         }
         public override float GetScoreOfKingdomToGetClan(Kingdom kingdom, Clan clan)
         {
