@@ -58,7 +58,7 @@ namespace LOTRAOM.Momentum
         public WarOfTheRingFactionData EvilKingdoms { get { return _evilKingdoms; } }
         public bool DoesFactionTakePartInWar(IFaction kingdom)
         {
-            return GoodKingdoms.Kingdoms.Contains(kingdom) || EvilKingdoms.Kingdoms.Contains(kingdom);
+            return GoodKingdoms.Kingdoms.Any(k => k.StringId == kingdom.StringId) || EvilKingdoms.Kingdoms.Any(k => k.StringId == kingdom.StringId);
         }
         public void AddEvent(Kingdom kingdom, MomentumActionType type, MomentumEvent momentumEvent)
         {

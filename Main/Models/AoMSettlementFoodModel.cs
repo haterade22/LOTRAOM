@@ -29,7 +29,7 @@ namespace LOTRAOM.Models
         }
         public static Func<Town, bool> shouldFoodStockMechanicBeRemoved = (Town t) =>
         {
-            if (t.Culture.StringId == Globals.IsengardCulture && t.StringId == "town_SWAN_ISENGARD1") //orthanc
+            if (t.Culture.StringId == Globals.IsengardCulture && t.StringId == Globals.Orthanc)
                 return true;
             return false; 
         };

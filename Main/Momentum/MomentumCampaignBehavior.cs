@@ -31,7 +31,9 @@ namespace LOTRAOM.Momentum
             CampaignEvents.ArmyGathered.AddNonSerializedListener(this, OnArmyGathered);
             CampaignEvents.DailyTickEvent.AddNonSerializedListener(this, OnDailyTick);
             CampaignEvents.SiegeCompletedEvent.AddNonSerializedListener(this, OnSiegeCompletedEvent);
+            CampaignEvents.MobilePartyDestroyed.AddNonSerializedListener(this, OnMobilePartyDestroyed);
         }
+
 
         private void OnSiegeCompletedEvent(Settlement settlement, MobileParty party, bool isWin, MapEvent.BattleTypes types)
         {
@@ -73,6 +75,15 @@ namespace LOTRAOM.Momentum
             WarOfTheRingdata.AddEvent(army.Kingdom, MomentumActionType.ArmyGathered, new MomentumEvent(20, new TextObject($"Army led by {army.ArmyOwner.Name} has gathered"), MomentumActionType.ArmyGathered, GetEventEndTime(MomentumActionType.ArmyGathered)));
             OnMomentumChanged.Invoke();
         }
+        private void OnMobilePartyDestroyed(MobileParty party, PartyBase @base)
+        {
+            if (party.Owner != null && party.Owner.MapFaction.StringId == Globals.IsengardKingdom.StringId)
+            {
+                int a = 5;
+
+            }
+        }
+
         private void OnArmyDispersed(Army army, Army.ArmyDispersionReason reason, bool arg3)
         {
             if (reason != Army.ArmyDispersionReason.LeaderPartyRemoved) return;
