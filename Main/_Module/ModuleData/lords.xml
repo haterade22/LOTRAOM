@@ -797,7 +797,7 @@
 		<face>
 			<BodyProperties
 				version="4"
-				age="25.84"
+				age="25"
 				weight="0.5"
 				build="0.5"
 				key="0005600E52FC000CC868A17A8CE9A27853775886D8FB72469D46E8B96B48C576013776130362978500000000000000000000000000000000000000004E6C1003" />
@@ -839,7 +839,7 @@
 		<face>
 			<BodyProperties
 				version="4"
-				age="25.84"
+				age="25"
 				weight="0.5"
 				build="0.5"
 				key="001CB80CD300300D7C7664876753888A7577866254C69643C4B647398C95A0370177761307A7497300000000000000000000000000000000000000003AF44003" />
@@ -884,7 +884,7 @@
 		<face>
 			<BodyProperties
 				version="4"
-				age="25.84"
+				age="25"
 				weight="0.5"
 				build="0.5"
 				key="00163C02D22C10034D93999687165386D98A459678E878B95A9A77877ADBD9AA0197761309A7577100000000000000000000000000000000000000001F341083" />
@@ -926,7 +926,7 @@
 		<face>
 			<BodyProperties
 				version="4"
-				age="224"
+				age="22"
 				weight="0.5"
 				build="0.5"
 				key="00055C0711FC20017C6288996B4ACBD4813C389D5626C55CA7D5D3547CD775340177761307B36B4A000000000000000000000000000000000000000036F41003" />
@@ -971,7 +971,7 @@
 		<face>
 			<BodyProperties
 				version="4"
-				age="25.84"
+				age="25"
 				weight="0.4"
 				build="0.4"
 				key="000BD00E5114300B6878558577A4D9D6B75BB77177B8A99D196D3A926446A7A6014776130442689A0000000000000000000000000000000000000000347C1044" />
@@ -1016,7 +1016,7 @@
 		<face>
 			<BodyProperties
 				version="4"
-				age="46"
+				age="26"
 				weight="0.5"
 				build="0.5"
 				key="000BC80B5214300A7EE465888DC8A65436978A783956D896B377679DB8659936019776130986984800000000000000000000000000000000000000003F342003" />
@@ -1100,7 +1100,7 @@
 		<face>
 			<BodyProperties
 				version="4"
-				age="46"
+				age="26"
 				weight="0.5"
 				build="0.5"
 				key="0011980E40B400053A8CBE5B2B965C4467898ACEB6A65CBA147249983692C3950167761306B469D400000000000000000000000000000000000000005AD40083" />
@@ -1262,7 +1262,7 @@
 		<face>
 			<BodyProperties
 				version="4"
-				age="25.84"
+				age="25"
 				weight="0.5"
 				build="0.5"
 				key="0016580E5100100BABFC977446B5595D886B568C7A7D663D96AC9979897B658A015776130572569300000000000000000000000000000000000000006CAC10C3" />
@@ -1523,7 +1523,7 @@
 			/-->
 			<BodyProperties
 				version="4"
-				age="30.72"
+				age="30"
 				weight="0.4"
 				build="0.4"
 				key="0011800FC03C034E9AC95A39982BA7946C658E785779C5BA8BA878A694B6BA3B0100047A0F39258900001105000030A30000001F000000000000000001B85100" />
@@ -2874,7 +2874,7 @@
 	<NPCCharacter
 		id="lord_1_17"
 		name="{=JFVseSa3}Saruman"
-		age="50"
+		age="30"
 		voice="curt"
 		default_group="Cavalry"
 		is_hero="true"
@@ -2991,7 +2991,7 @@
 	<NPCCharacter
 		id="lord_1_18"
 		name="{=OMkSgsV2}Jathea"
-		age="48"
+		age="28"
 		voice="curt"
 		race="uruk"
 		is_hero="true"
@@ -5385,7 +5385,7 @@
 		voice="softspoken"
 		is_female="false"
 		default_group="Infantry"
-		age="65"
+		age="45"
 		is_hero="true"
 		culture="Culture.gondor"
 		occupation="Lord"
@@ -5605,7 +5605,7 @@
 	<NPCCharacter
 		id="lord_1_45"
 		name="{=7nVZgjmn}Forlong the Fat"
-		age="60"
+		age="35"
 		voice="softspoken"
 		default_group="Infantry"
 		is_hero="true"
@@ -5659,7 +5659,7 @@
 	<NPCCharacter
 		id="lord_1_45_1"
 		name="{=27fMB4Ri}Vanyalos"
-		age="60"
+		age="40"
 		voice="earnest"
 		is_female="True"
 		default_group="Cavalry"
@@ -6228,7 +6228,7 @@
 	<NPCCharacter
 		id="lord_1_52_4"
 		name="{=GFV7bzME}Silmarien"
-		age="64"
+		age="44"
 		voice="softspoken"
 		is_female="true"
 		default_group="Cavalry"
@@ -6464,7 +6464,7 @@
 	<NPCCharacter
 		id="lord_1_71"
 		name="{=qJJ8nXFN}Golasgil"
-		age="52"
+		age="32"
 		voice="softspoken"
 		default_group="Infantry"
 		is_hero="true"
@@ -6783,7 +6783,7 @@
 	<NPCCharacter
 		id="lord_1_59"
 		name="{=6TphQddp}Borhador the Old"
-		age="112"
+		age="35"
 		voice="ironic"
 		is_hero="true"
 		culture="Culture.gondor"
@@ -7228,7 +7228,7 @@
 		id="lord_1_30"
 		name="{=P7iNhhPl}Gothmog"
 		voice="earnest"
-		age="45"
+		age="25"
 		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
@@ -7790,7 +7790,7 @@
 		id="lord_1_63"
 		name="{=AWDNxFbh}Gorbag"
 		voice="curt"
-		age="40"
+		age="30"
 		race="uruk"
 		default_group="Infantry"
 		is_hero="true"
@@ -11449,7 +11449,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_2_23"
 		name="{=HIi53JMZ}Galden"
-		age="49"
+		age="39"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
@@ -11706,7 +11706,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		id="lord_S9_m"
 		name="{=D71AGZWF}Dakhila"
 		is_female="true"
-		age="73"
+		age="33"
 		voice="curt"
 		default_group="Cavalry"
 		is_hero="true"
@@ -22125,7 +22125,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_E3_5"
 		name="{=disarar}Disa"
-		age="70"
+		age="30"
 		voice="earnest"
 		is_hero="true"
 		is_female="true"
@@ -24026,7 +24026,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="7" />
 			<Trait
 				id="Commander"
-				value="9" />
+				value="18" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -24130,7 +24130,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="7" />
 			<Trait
 				id="Commander"
-				value="9" />
+				value="17" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -24234,7 +24234,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="7" />
 			<Trait
 				id="Commander"
-				value="9" />
+				value="16" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -24338,7 +24338,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="7" />
 			<Trait
 				id="Commander"
-				value="9" />
+				value="15" />
 			<Trait
 				id="Politician"
 				value="8" />
