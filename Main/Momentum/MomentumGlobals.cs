@@ -22,29 +22,6 @@ namespace LOTRAOM.Momentum
                 return Kingdom.All.Where(x => x.Culture.StringId == "gondor").FirstOrDefault()!;
             }
         }
-        //public static List<MomentumBreakdown> MockBalanceOfPowerBreakdown()
-        //{
-        //    List<MomentumBreakdown> list = new()
-        //    {
-        //        new MomentumBreakdown()
-        //        {
-        //            Type = MomentumActionType.Casualty,
-        //            ValueFaction1 = 0,
-        //            ValueFaction2 = 0,
-        //            BalanceOfPowerFraction1 = 0,
-        //            BalanceOfPowerFraction2 = 0
-        //        },
-        //        new MomentumBreakdown()
-        //        {
-        //            Type = MomentumActionType.Occupied,
-        //            ValueFaction1 = 1,
-        //            ValueFaction2 = 1,
-        //            BalanceOfPowerFraction1 = 1,
-        //            BalanceOfPowerFraction2 = 1
-        //        }
-        //    };
-        //    return list;
-        //}
         public static MBBindingList<MomentumStatVM> MockTotalStats()
         {
             return new MBBindingList<MomentumStatVM>()
@@ -55,5 +32,8 @@ namespace LOTRAOM.Momentum
                 new("Total Elite Units Killed", "1", "1")
             };
         }
+        public static int MaxMomentumFromBattleWon { get { return 300; } } // battle casualties divided by total faction strength
+        public static int MomentumFromSiege { get { return 5; } }
+        public static int MomentumFromArmyGathering { get { return 2; } }
     }
 }
