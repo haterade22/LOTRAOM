@@ -3,8 +3,10 @@ using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.CharacterDevelopment;
 using TaleWorlds.CampaignSystem.ComponentInterfaces;
 using TaleWorlds.CampaignSystem.Party;
+using TaleWorlds.CampaignSystem.Party.PartyComponents;
 using TaleWorlds.Core;
 using TaleWorlds.Library;
+using TaleWorlds.Localization;
 
 namespace LOTRAOM.Models
 {
@@ -17,7 +19,6 @@ namespace LOTRAOM.Models
         }
         public float MordorWageMultiplier => LOTRAOMCultureFeats.Instance.mordorWageMultiplierFeat.EffectBonus;
         public double MordorRecruitmentMulitpler => LOTRAOMCultureFeats.Instance.mordorRecruitmentFeat.EffectBonus;
-        
 
         public override int MaxWage { get { return 1000; } }
 
@@ -44,16 +45,22 @@ namespace LOTRAOM.Models
             }
             if (character.IsMounted && !character.Culture.HasFeat(LOTRAOMCultureFeats.Instance.rohanNoExtraWageForMounted))
                 value += value * Globals.MountedTroopWageMultiplier;
-            if (character.IsInfantry && character.Culture.HasFeat(LOTRAOMCultureFeats.Instance.gondorReduceInfantryWages)) 
+            if (character.IsInfantry && character.Culture.HasFeat(LOTRAOMCultureFeats.Instance.gondorReduceInfantryWages))
                 value -= value * LOTRAOMCultureFeats.Instance.gondorReduceInfantryWages.EffectBonus;
             return (int)value;
         }
 
         public override ExplainedNumber GetTotalWage(MobileParty mobileParty, bool includeDescriptions = false)
         {
+            // Exempt militia parties from wages
+            if (mobileParty.PartyComponent is MilitiaPartyComponent)
+            {
+                return new ExplainedNumber(0f, includeDescriptions, new TextObject("{=militia_wage_exemption}Militia wage exemption"));
+            }
+
             ExplainedNumber wage = defaultPartyWageModel.GetTotalWage(mobileParty, includeDescriptions);
             if (mobileParty.Party.Culture.HasFeat(LOTRAOMCultureFeats.Instance.mordorWageMultiplierFeat))
-                wage.Add(wage.ResultNumber * -LOTRAOMCultureFeats.Instance.mordorWageMultiplierFeat.EffectBonus, new("{=mordor_wage_reduction}Mordor wage reduction")); //the text does not seem to be shown anywhere?
+                wage.Add(wage.ResultNumber * -LOTRAOMCultureFeats.Instance.mordorWageMultiplierFeat.EffectBonus, new("{=mordor_wage_reduction}Mordor wage reduction"));
             if (mobileParty.IsGarrison && mobileParty.Party.Culture.HasFeat(LOTRAOMCultureFeats.Instance.gondorReduceWagesInGarrisons))
                 wage.AddFactor(-LOTRAOMCultureFeats.Instance.gondorReduceWagesInGarrisons.EffectBonus, new("{=gondor_garrison_wage}Gondor garrison wage reduction"));
             return wage;
