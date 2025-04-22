@@ -60,8 +60,8 @@ namespace LOTRAOM.Models
         {
             if (settlement.StringId == "town_SWAN_ISENGARD1")
             {
-                meleeTroopRate = 0.75f; // Orthanc: 75% melee
-                rangedTroopRate = 0.25f;
+                meleeTroopRate = 0.55f; // Orthanc: 55% melee
+                rangedTroopRate = 0.45f;
             }
             else if (settlement.Culture.StringId == "gondor")
             {
