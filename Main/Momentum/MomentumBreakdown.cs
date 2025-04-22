@@ -16,6 +16,7 @@ namespace LOTRAOM.Momentum
             MomentumValue = value;
             Description = description;
             MomentumActionType = type;
+            EndTime = endTime;
         }
     }
     public class MomentumTempBreakdown
@@ -44,10 +45,10 @@ namespace LOTRAOM.Momentum
     public enum MomentumActionType
     {
         ArmyGathered,
+        BattleWon,
         Casualty,
         Raid,
         Siege,
-        Daily,
         Occupied
     }
     //public struct MomentumBreakdown
