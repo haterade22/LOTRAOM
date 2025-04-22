@@ -46,7 +46,7 @@ namespace LOTRAOM.Models
                 float currentMilitia = settlement.Militia;
                 if (currentMilitia < targetMilitia)
                 {
-                    value.Add(Math.Min(10f, targetMilitia - currentMilitia), new("{=orthanc_militia_growth}Orthanc war machine"), null);
+                    value.Add(Math.Min(11f, targetMilitia - currentMilitia), new("{=orthanc_militia_growth}Orthanc War Machine"), null);
                 }
                 else if (currentMilitia > targetMilitia)
                 {
