@@ -24,7 +24,10 @@ namespace LOTRAOM
             Harmony.DEBUG = true;
             base.OnSubModuleLoad();
             harmony.PatchAll();
-    
+
+            CampaignTime startTime = CampaignTime.Years(3017) + CampaignTime.Hours(12);//CampaignTime.Weeks(4) + CampaignTime.Days(5) + CampaignTime.Hours(12);
+            typeof(CampaignData).GetField("CampaignStartTime", System.Reflection.BindingFlags.Static | System.Reflection.BindingFlags.Public)?.SetValue(null, startTime);
+
             RemoveSandboxAndStoryOptions();
             Module.CurrentModule.AddInitialStateOption(
                 new InitialStateOption("LOTRAOM", name: new TextObject("{=lotraom_start_game}Enter The Age of Man", null), 3,

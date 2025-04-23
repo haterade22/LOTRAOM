@@ -35,11 +35,15 @@ namespace LOTRAOM
     public interface ICustomSettingsProvider
     {
         bool BalanceOfPower { get; set; }
+        public int IsengardEarliestAttackDate { get; set; }
+        public int IsengardLatestAttackDate { get; set; }
     }
 
     public class HardcodedCustomSettings : ICustomSettingsProvider
     {
         public bool BalanceOfPower { get; set; } = true;
+        public int IsengardEarliestAttackDate { get; set; } = 10;
+        public int IsengardLatestAttackDate { get; set; } = 20;
     }
 
     public class CustomSettings : AttributeGlobalSettings<CustomSettings>, ICustomSettingsProvider
@@ -50,8 +54,15 @@ namespace LOTRAOM
             { "VERSION", typeof(CustomSettings).Assembly.GetName().Version?.ToString(3) ?? "ERROR" }
         }).ToString();
 
-        [SettingPropertyBool("Balance of Power", RequireRestart = true, HintText = "Good & Evil factions will gravitate towards one big alliance, prepare for total war!")]
-        [SettingPropertyGroup("{=CustomSettings_General}General")]
+        [SettingPropertyBool("AoM Diplomacy",  HintText = "Restricted diplomacy, leading to the War of The Ring (good vs evil factions) - prepare for total war!")]
+        [SettingPropertyGroup("{=aom_diplomacy}Diplomacy")]
         public bool BalanceOfPower { get; set; } = true;
+
+        [SettingPropertyBool("Isengard earliest attack date", RequireRestart = true, HintText = "CALCULATED AT CAMPAIGN START, default - 1 season = 21 days"),]
+        [SettingPropertyGroup("{=aom_diplomacy}Diplomacy")]
+        public int IsengardEarliestAttackDate { get; set; } = 21;
+        [SettingPropertyBool("Isengard latest attack date", RequireRestart = true, HintText = "CALCULATED AT CAMPAIGN START default - 1 year = 4 seasons = 84 days")]
+        [SettingPropertyGroup("{=aom_diplomacy}Diplomacy")]
+        public int IsengardLatestAttackDate { get; set; } = 84;
     }
 }
