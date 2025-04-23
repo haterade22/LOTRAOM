@@ -19,15 +19,18 @@ namespace LOTRAOM.Models
         // Configurable variables for race-specific modifiers
         // Dwarves: 20% damage reduction due to their sturdy nature (like Gimli's resilience)
         private readonly float DwarfDamageAbsorption = 0.2f;
-        // Uruks: 10% increased damage taken due to their aggressive nature
+        // Uruks: 2% increased damage taken due to their aggressive nature
         private readonly float UrukDamageIncrease = 0.02f;
         // Uruk-hai: 15% increased melee damage dealt due to their superior strength (like in the Battle of Helm's Deep)
         private readonly float UrukHaiDamageDealtIncrease = 0.15f;
-        // Berserkers: 20% increased melee damage dealt, but 15% increased damage taken due to their reckless fury
+        // Berserkers: 20% increased melee damage dealt, but 5% increased damage taken due to their reckless fury
         private readonly float BerserkerDamageDealtIncrease = 0.25f;
         private readonly float BerserkerDamageTakenIncrease = 0.05f;
         // Orcs: 5% increased damage taken due to their weaker nature compared to Uruks
         private readonly float OrcDamageIncrease = 0.05f;
+        // Elves: 20% increased ranged damage and improved accuracy (like Legolas' precision)
+        private readonly float ElfRangedDamageIncrease = 0.2f;
+        private readonly float ElfRangedDamageVarianceReduction = 0.1f; // Reduces damage variance for more consistent hits
 
         // Dictionary to map Character StringIds to races
         // Updated with troop IDs from troops_gondor.xml, troops_erebor.xml, troops_mordor.xml, and troops_isengard.xml
@@ -215,6 +218,7 @@ namespace LOTRAOM.Models
             }
 
             // Apply race-specific modifiers to the attacker (damage dealt)
+            // Apply race-specific modifiers to the attacker (damage dealt)
             if (attackInformation.AttackerAgent != null)
             {
                 try
@@ -241,6 +245,23 @@ namespace LOTRAOM.Models
                             float increasedDamage = damage * (1f + BerserkerDamageDealtIncrease);
                             TaleWorlds.Library.Debug.Print($"[LOTRAOM] CalculateDamage: Increased melee damage for Berserker attacker by {BerserkerDamageDealtIncrease * 100}% (Base={damage}, Increased={increasedDamage}).");
                             damage = increasedDamage;
+                        }
+                    }
+                    else if (attackerRace == "elf")
+                    {
+                        // Elves deal 20% more ranged damage and have improved accuracy (like Legolas)
+                        if (collisionData.IsMissile)
+                        {
+                            // Increase ranged damage
+                            float increasedDamage = damage * (1f + ElfRangedDamageIncrease);
+                            TaleWorlds.Library.Debug.Print($"[LOTRAOM] CalculateDamage: Increased ranged damage for Elf attacker by {ElfRangedDamageIncrease * 100}% (Base={damage}, Increased={increasedDamage}).");
+
+                            // Simulate improved accuracy by reducing damage variance
+                            // Assume baseDamage is the mean damage; reduce variance by scaling towards the mean
+                            float varianceReduction = ElfRangedDamageVarianceReduction;
+                            float adjustedDamage = increasedDamage + (baseDamage - increasedDamage) * varianceReduction;
+                            TaleWorlds.Library.Debug.Print($"[LOTRAOM] CalculateDamage: Reduced ranged damage variance for Elf attacker by {varianceReduction * 100}% (Increased={increasedDamage}, Adjusted={adjustedDamage}).");
+                            damage = adjustedDamage;
                         }
                     }
                 }
