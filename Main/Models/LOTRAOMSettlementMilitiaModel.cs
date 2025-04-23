@@ -42,11 +42,11 @@ namespace LOTRAOM.Models
             // Orthanc: Maintain ~800 militia
             if (settlement.StringId == "town_SWAN_ISENGARD1")
             {
-                float targetMilitia = 800f;
+                float targetMilitia = 750f;
                 float currentMilitia = settlement.Militia;
                 if (currentMilitia < targetMilitia)
                 {
-                    value.Add(Math.Min(11f, targetMilitia - currentMilitia), new("{=orthanc_militia_growth}Orthanc War Machine"), null);
+                    value.Add(Math.Min(12f, targetMilitia - currentMilitia), new("{=orthanc_militia_growth}Orthanc War Machine"), null);
                 }
                 else if (currentMilitia > targetMilitia)
                 {
@@ -83,7 +83,7 @@ namespace LOTRAOM.Models
         public override int MilitiaToSpawnAfterSiege(Town town)
         {
             if (town.Settlement.StringId == "town_SWAN_ISENGARD1")
-                return 200; // Orthanc: 200 Uruk-hai post-siege
+                return 300; // Orthanc: 300 Uruk-hai post-siege
             return _previousModel.MilitiaToSpawnAfterSiege(town);
         }
 
