@@ -179,32 +179,15 @@ namespace LOTRAOM.Models
         public override float GetScoreOfDeclaringPeace(IFaction factionDeclaresPeace, IFaction factionDeclaredPeace, IFaction evaluatingFaction, out TextObject reason)
         {
             WarOfTheRingData data = MomentumCampaignBehavior.Instance.WarOfTheRingdata;
-            if (data.HasWarStarted() && data.DoesFactionTakePartInWar(factionDeclaresPeace) && data.DoesFactionTakePartInWar(factionDeclaredPeace))
-            {
-                reason = new TextObject("There can be no peace between the forces of good and evil!");
-                return float.MinValue;
-            }
             return baseModel.GetScoreOfDeclaringPeace(factionDeclaresPeace, factionDeclaredPeace, evaluatingFaction, out reason);
         }
         public override float GetScoreOfDeclaringWar(IFaction factionDeclaresWar, IFaction factionDeclaredWar, IFaction evaluatingFaction, out TextObject reason)
         {
-            if (factionDeclaresWar.Culture.IsGoodCulture() && factionDeclaredWar.Culture.IsGoodCulture())
-            {
-                //@todo localization
-                reason = new TextObject("We can not attack our friends against the forces of darkness!");
-                return float.MinValue;
-            }
-            if (factionDeclaresWar.Culture.IsEvilCulture() && factionDeclaredWar.Culture.IsEvilCulture())
-            {
-                reason = new TextObject("This is no time for infighting, Sauron calls for a war against our common enemies!");
-                return float.MinValue;
-            }
-
             float value = baseModel.GetScoreOfDeclaringWar(factionDeclaresWar, factionDeclaredWar, evaluatingFaction, out reason);
             AoMDiplomacy.EvilFactionsDaysWithoutWar.TryGetValue(factionDeclaresWar.StringId, out int daysWithoutWar);
-            if (factionDeclaresWar.StringId == Globals.MordorKingdom?.StringId && MomentumCampaignBehavior.Instance.hasIsengardAttacked && (factionDeclaredWar.StringId == Globals.GondorKingdom?.StringId || factionDeclaredWar.StringId == Globals.RohanKingdom?.StringId))
-                value += daysWithoutWar * 10000;
-            value += daysWithoutWar * 1000;
+            value += daysWithoutWar * 10000;
+            if (factionDeclaresWar.Culture.StringId == Globals.MordorCulture && factionDeclaredWar.Culture.StringId == Globals.Gondorculture && factionDeclaredWar.Culture.StringId == Globals.RohanCulture)
+                value = int.MaxValue;
             return value;
         }
         public override float GetScoreOfKingdomToGetClan(Kingdom kingdom, Clan clan)
