@@ -21,6 +21,7 @@ namespace LOTRAOM
             AddClassDefinition(typeof(WarOfTheRingFactionData), 3);
             AddClassDefinition(typeof(DelayedDiplomaticEvent), 4);
             AddEnumDefinition(typeof(MomentumActionType), 5);
+            AddClassDefinition(typeof(MomentumFactionTotalStats), 6);
         }
         protected override void DefineContainerDefinitions()
         {

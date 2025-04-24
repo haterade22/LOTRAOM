@@ -24,7 +24,7 @@ namespace LOTRAOM.Momentum.ViewModel
 
         [DataSourceProperty] public HintViewModel RateHelpHint { get; set; }
 
-        [DataSourceProperty] public string ScreenName { get { return new TextObject("Balance of Power").ToString(); } }
+        [DataSourceProperty] public string ScreenName { get { return new TextObject("War of the Ring").ToString(); } }
 
         private MBBindingList<FactionRelationshipVM> _goodFactionParticipants = new();
         private MBBindingList<FactionRelationshipVM> _evilFactionParticipants = new();
@@ -80,12 +80,8 @@ namespace LOTRAOM.Momentum.ViewModel
             _finalize = onFinalize;
             StartDate = new TextObject("info 1").ToString();
             Duration = new TextObject("info 2").ToString();
-
-            //Duration = new TextObject("{=qHrihV27}War Duration: {WAR_DURATION} days")
-            //    .SetTextVariable("WAR_DURATION", (int)warStartDate.ElapsedDaysUntilNow)
-            //    .ToString();
             CalculateBreakdowns();
-            Stats = MomentumGlobals.MockTotalStats();
+            Stats = CreateTotalStats();
 
             BalanceOfPowerOverview = new TextObject("").ToString();
             RateHelpHint = new HintViewModel(GameTexts.FindText("str_warexhaustionrate_help"));
@@ -100,6 +96,28 @@ namespace LOTRAOM.Momentum.ViewModel
             {
                 EvilFactionParticipants.Add(new FactionRelationshipVM(kingdom));
             }
+        }
+
+        private MBBindingList<MomentumStatVM> CreateTotalStats()
+        {
+            List<string> names = new()
+            {
+                "Enemies killed", "Settlements captured", "Villages raided"
+            };
+            List<Func<MomentumFactionTotalStats, int>> values = new()
+            {
+                x => x.TotalKills,
+                x => x.TotalSettlementsCaptured,
+                x => x.TotalVillagesRaided
+            };
+            MBBindingList<MomentumStatVM> momentumStats = new();
+            for (int i = 0; i < names.Count; i++)
+            {
+                MomentumStatVM stat = new(names[i], values[i].Invoke(warOfTheRingData.GoodKingdoms.FactionTotalStats).ToString(),
+                    values[i].Invoke(warOfTheRingData.EvilKingdoms.FactionTotalStats).ToString());
+                momentumStats.Add(stat);
+            }
+            return momentumStats;
         }
         private void CalculateBreakdowns()
         {
@@ -122,12 +140,10 @@ namespace LOTRAOM.Momentum.ViewModel
         //    return new HintViewModel(textObject);
         //}
 
-        public override void RefreshValues()
-        {
-            base.RefreshValues();
-            Kingdom mordor = MomentumGlobals.Mordor;
-            Kingdom gondor = MomentumGlobals.Gondor;
-        }
+        //public override void RefreshValues()
+        //{
+        //    base.RefreshValues();
+        //}
 
         private void OnComplete()
         {

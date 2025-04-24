@@ -9,10 +9,13 @@ using TaleWorlds.CampaignSystem.MapEvents;
 using TaleWorlds.Core;
 using SandBox.View.Map;
 using LOTRAOM.Momentum.Views;
+using TaleWorlds.Library;
+using LOTRAOM.Extensions;
 namespace LOTRAOM.Momentum
 {
     public class MomentumCampaignBehavior : CampaignBehaviorBase
     {
+        
         public Action OnMomentumChanged;
         public static MomentumCampaignBehavior Instance { get { return Campaign.Current.GetCampaignBehavior<MomentumCampaignBehavior>(); } }
         [SaveableField(0)] private WarOfTheRingData _warOfTheRingData;
@@ -31,14 +34,103 @@ namespace LOTRAOM.Momentum
             CampaignEvents.ArmyGathered.AddNonSerializedListener(this, OnArmyGathered);
             CampaignEvents.DailyTickEvent.AddNonSerializedListener(this, OnDailyTick);
             CampaignEvents.SiegeCompletedEvent.AddNonSerializedListener(this, OnSiegeCompletedEvent);
-            CampaignEvents.MobilePartyDestroyed.AddNonSerializedListener(this, OnMobilePartyDestroyed);
+            CampaignEvents.MapEventEnded.AddNonSerializedListener(this, OnMapEventEnded);
+            CampaignEvents.OnGameLoadFinishedEvent.AddNonSerializedListener(this, OnGameLoadFinished);
+            CampaignEvents.RaidCompletedEvent.AddNonSerializedListener(this, OnRaidCompletedEvent);
         }
 
+        private void OnRaidCompletedEvent(BattleSideEnum SideEnum, RaidEventComponent component)
+        {
+            if (component.BattleState != BattleState.AttackerVictory) return;
+            if (component.AttackerSide.LeaderParty.Culture.IsGoodCulture())
+                WarOfTheRingdata.GoodKingdoms.FactionTotalStats.AddRaid();
+            else WarOfTheRingdata.EvilKingdoms.FactionTotalStats.AddRaid();
+        }
+
+        private void OnGameLoadFinished()
+        {
+            if (AoMSettings.Instance.BalanceOfPower && WarOfTheRingdata.HasWarStarted)
+            {
+                AddMomentumUI();
+            }
+        }
+
+        private void OnMapEventEnded(MapEvent mapEvent)
+        {
+            if (!mapEvent.DefenderSide.LeaderParty.MapFaction.IsBanditFaction && !mapEvent.AttackerSide.LeaderParty.MapFaction.IsBanditFaction)
+            {
+                int a = 50;
+            }
+            if (!WarOfTheRingdata.HasWarStarted 
+                || mapEvent.Winner == null 
+                || !WarOfTheRingdata.DoesFactionTakePartInWar(mapEvent.DefenderSide.LeaderParty.MapFaction)
+                || !WarOfTheRingdata.DoesFactionTakePartInWar(mapEvent.AttackerSide.LeaderParty.MapFaction))return;
+
+            bool attackerWon = mapEvent.Winner == mapEvent.AttackerSide;
+            MapEventSide lostSide = attackerWon ? mapEvent.DefenderSide : mapEvent.AttackerSide;
+
+            MapEventSide goodSide;
+            MapEventSide evilSide;
+            if (mapEvent.Winner.LeaderParty.Culture.IsEvilCulture())
+            {
+                evilSide = mapEvent.Winner;
+                goodSide = lostSide;
+            }
+            else
+            {
+                goodSide = mapEvent.Winner;
+                evilSide = lostSide;
+            }
+            WarOfTheRingdata.GoodKingdoms.FactionTotalStats.AddKills(goodSide.Casualties);
+            WarOfTheRingdata.EvilKingdoms.FactionTotalStats.AddKills(evilSide.Casualties);
+
+            if ((mapEvent.EventType != MapEvent.BattleTypes.FieldBattle && mapEvent.EventType != MapEvent.BattleTypes.Raid && mapEvent.EventType != MapEvent.BattleTypes.SiegeOutside)
+                || !mapEvent.DefenderSide.LeaderParty.IsMobile)
+                return;
+            if (!mapEvent.AttackerSide.MapFaction.IsKingdomFaction || !mapEvent.DefenderSide.MapFaction.IsKingdomFaction) return;
+
+            string winnerLeaderName = "brave unnamed warrior";
+            string loserLeaderName = "brave unnamed warrior";
+            if (mapEvent.Winner.LeaderParty.Name.Contains("Party"))
+                winnerLeaderName = mapEvent.AttackerSide.LeaderParty.Owner.Name.ToString();
+            if (lostSide.LeaderParty.Name.Contains("Party"))
+                loserLeaderName = mapEvent.DefenderSide.LeaderParty.Owner.Name.ToString();
+            int loserCasualties = lostSide.Casualties;
+            
+            TextObject text = new TextObject($"Army of {mapEvent.Winner.MapFaction.Name}, led by {winnerLeaderName} destroyed the army of {lostSide.MapFaction.Name}, led by {loserLeaderName}, killing {loserCasualties}.");
+            int momentumGain = CalculateMomentumGainFromBattle((Kingdom)lostSide.LeaderParty.MapFaction, loserCasualties);
+            WarOfTheRingdata.AddEvent((Kingdom)mapEvent.Winner.MapFaction, MomentumActionType.BattleWon, new MomentumEvent(momentumGain, text, MomentumActionType.BattleWon, GetEventEndTime(MomentumActionType.ArmyGathered)));
+            OnMomentumChanged?.Invoke();
+        }
+        private int CalculateMomentumGainFromBattle(Kingdom loser, int casualties)
+        {
+            float percentageLost = 0;
+            if (loser.Culture.IsGoodCulture())
+            {
+                percentageLost = casualties / WarOfTheRingdata.GoodKingdoms.TotalStrength;
+            }
+            else
+            {
+                percentageLost = casualties / WarOfTheRingdata.GoodKingdoms.TotalStrength;
+            }
+            return (int)Math.Round(percentageLost * 300);
+        }
 
         private void OnSiegeCompletedEvent(Settlement settlement, MobileParty party, bool isWin, MapEvent.BattleTypes types)
         {
-            if (!isWin) return;
+            if (!WarOfTheRingdata.HasWarStarted
+                || !isWin
+                || !WarOfTheRingdata.DoesFactionTakePartInWar(party.MapFaction)
+                || !WarOfTheRingdata.DoesFactionTakePartInWar(party.MapFaction))
+                return;
+            if (party.Owner.Culture.IsGoodCulture())
+                WarOfTheRingdata.GoodKingdoms.FactionTotalStats.AddSettlementCaptured();
+            else
+                WarOfTheRingdata.EvilKingdoms.FactionTotalStats.AddSettlementCaptured();
 
+            TextObject text = new TextObject($"Army of {party.MapFaction.Name}, led by {party.LeaderHero} captured the settlement of {settlement.Name}");
+            WarOfTheRingdata.AddEvent((Kingdom)party.MapFaction, MomentumActionType.BattleWon, new MomentumEvent(MomentumGlobals.MomentumFromSiege, text, MomentumActionType.BattleWon, GetEventEndTime(MomentumActionType.ArmyGathered)));
+            OnMomentumChanged?.Invoke();
         }
 
         private void OnDailyTick()
@@ -51,11 +143,12 @@ namespace LOTRAOM.Momentum
                 if (eventQueue.Peek().EndTime < now)
                 {
                     MomentumEvent momentumEvent = eventQueue.Dequeue();
-                    momentumChange += momentumEvent.MomentumValue;
+                    momentumChange -= momentumEvent.MomentumValue;
                 }
             }
 
-            WarOfTheRingdata.GoodKingdoms.EditMomentum(momentumChange);
+            if (momentumChange != 0)
+                WarOfTheRingdata.GoodKingdoms.EditMomentum(momentumChange);
             momentumChange = 0;
             foreach (Queue<MomentumEvent> eventQueue in WarOfTheRingdata.EvilKingdoms.WarOfTheRingEvents.Values)
             {
@@ -63,27 +156,20 @@ namespace LOTRAOM.Momentum
                 if (eventQueue.Peek().EndTime < now)
                 {
                     var momentumEvent = eventQueue.Dequeue();
-                    momentumChange += momentumEvent.MomentumValue;
+                    momentumChange -= momentumEvent.MomentumValue; 
                 }
             }
-            WarOfTheRingdata.GoodKingdoms.EditMomentum(momentumChange);
+            if (momentumChange != 0)
+                WarOfTheRingdata.EvilKingdoms.EditMomentum(momentumChange);
+            OnMomentumChanged?.Invoke();
         }
-
         private void OnArmyGathered(Army army, Settlement settlement)
         {
             if (!WarOfTheRingdata.DoesFactionTakePartInWar(army.Kingdom)) return;
-            WarOfTheRingdata.AddEvent(army.Kingdom, MomentumActionType.ArmyGathered, new MomentumEvent(20, new TextObject($"Army led by {army.ArmyOwner.Name} has gathered"), MomentumActionType.ArmyGathered, GetEventEndTime(MomentumActionType.ArmyGathered)));
-            OnMomentumChanged.Invoke();
+            CampaignTime endTime = GetEventEndTime(MomentumActionType.ArmyGathered);
+            WarOfTheRingdata.AddEvent(army.Kingdom, MomentumActionType.ArmyGathered, new MomentumEvent(MomentumGlobals.MomentumFromArmyGathering, new TextObject($"Army led by {army.ArmyOwner.Name} has gathered"), MomentumActionType.ArmyGathered, endTime));
+            OnMomentumChanged?.Invoke();
         }
-        private void OnMobilePartyDestroyed(MobileParty party, PartyBase @base)
-        {
-            if (party.Owner != null && party.Owner.MapFaction.StringId == Globals.IsengardKingdom.StringId)
-            {
-                int a = 5;
-
-            }
-        }
-
         private void OnArmyDispersed(Army army, Army.ArmyDispersionReason reason, bool arg3)
         {
             if (reason != Army.ArmyDispersionReason.LeaderPartyRemoved) return;
@@ -95,7 +181,12 @@ namespace LOTRAOM.Momentum
         }
         public static CampaignTime GetEventEndTime(MomentumActionType type)
         {
-            return CampaignTime.DaysFromNow(2);
+            return type switch
+            {
+                MomentumActionType.Siege => CampaignTime.DaysFromNow(21),
+                MomentumActionType.BattleWon => CampaignTime.DaysFromNow(14),
+                _ => CampaignTime.DaysFromNow(3),
+            };
         }
 
         public void AddMomentumUI()

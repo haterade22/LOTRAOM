@@ -5,8 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.ViewModelCollection.CharacterDeveloper;
+using TaleWorlds.Core;
+using TaleWorlds.MountAndBlade;
 using static LOTRAOM.CampaignStart.CampaignStartGlobals;
 using static TaleWorlds.MountAndBlade.Agent;
+using static TaleWorlds.PlayerServices.Avatar.AvatarData;
 
 namespace LOTRAOM
 {
@@ -67,5 +71,62 @@ namespace LOTRAOM
         public static Kingdom? RivendellKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == RivendellCulture);
 
         public static string Orthanc = "town_comp_SWAN_ISENGARD1";
+
+        public static Dictionary<int, string> GetRaceStringIdFromInt { get; } = new();
+        
+        public static RaceBonus GetRacialData(BasicCharacterObject character)
+        {
+            GetRaceStringIdFromInt.TryGetValue(character.Race, out string? value);
+            value ??= "human";
+            return raceBonuses[value];
+        }
+        // COPY THIS
+        private static void GiveRaceBonusWhenGotHit(BasicCharacterObject character, DamageType damage, ref float returnDamange)
+        {
+            RaceBonus bonus = GetRacialData(character);
+            switch (damage)
+            {
+                case DamageType.Ranged:
+                    returnDamange -= bonus.RangedResistance;
+                    break;
+                case DamageType.Melee:
+                    returnDamange -= bonus.MeleeResistance;
+                    break;
+            }
+        }
+        public enum DamageType
+        {
+            Melee,
+            Ranged,
+            Other // fall damage, kick, other
+        }
+        public static DamageType GetDefaultDamage(MissionWeapon missionWeapon)
+        {
+            if (missionWeapon.CurrentUsageItem == null) return DamageType.Other;
+            return missionWeapon.CurrentUsageItem.WeaponClass switch
+            {
+                WeaponClass.Arrow or WeaponClass.Bolt or WeaponClass.Javelin or WeaponClass.ThrowingAxe or WeaponClass.ThrowingKnife or WeaponClass.Stone => DamageType.Ranged,
+                // standard melee weapon
+                _ => DamageType.Melee,
+            };
+        }
+        // END COPY THIS
+        public class RaceBonus
+        {
+            public int MeleeResistance;
+            public int RangedResistance;
+
+
+            public RaceBonus(int meleeResistance, int rangedResistance)
+            {
+                MeleeResistance = meleeResistance;
+                RangedResistance = rangedResistance;
+            }
+        }
+        public static Dictionary<string, RaceBonus> raceBonuses = new()
+        {
+            ["human"] = new RaceBonus(0, 0)
+        };
+
     }
 }

@@ -12,12 +12,9 @@ namespace LOTRAOM.Momentum.ViewModel
     public class MomentumBreakdownVM : TaleWorlds.Library.ViewModel
     {
         [DataSourceProperty] public string Text { get; set; }
-        [DataSourceProperty] public string Number1 { 
-            get;
-            set; }
+        [DataSourceProperty] public string Number1 { get; set; }
         [DataSourceProperty] public string Number2 { get; set; }
 
-        //[DataSourceProperty] public MomentumSideBreakdownVM ValueFaction1 { get; set; }
         BasicTooltipViewModel _valueFaction1;
         [DataSourceProperty]
         public BasicTooltipViewModel ValueFaction1
@@ -56,33 +53,20 @@ namespace LOTRAOM.Momentum.ViewModel
 
         public MomentumBreakdownVM(MomentumTempBreakdown breakdown)
         {
-            switch (breakdown.MomentumActionType)
+            Text = breakdown.MomentumActionType switch
             {
-                case MomentumActionType.Casualty:
-                    Text = new TextObject("Casualties").ToString();
-                    break;
-                case MomentumActionType.Raid:
-                    Text = new TextObject("Villages Raided").ToString();
-                    break;
-                case MomentumActionType.Siege:
-                    Text = new TextObject("Fiefs Lost").ToString();
-                    break;
-                case MomentumActionType.Occupied:
-                    Text = new TextObject("Occupied").ToString();
-                    break;
-                case MomentumActionType.ArmyGathered:
-                    Text = new TextObject("Army Gathered").ToString();
-                    break;
-                default:
-                    Text = TextObject.Empty.ToString();
-                    break;
-            }
+                MomentumActionType.BattleWon => new TextObject("Battles Won").ToString(),
+                MomentumActionType.Casualty => new TextObject("Casualties").ToString(),
+                MomentumActionType.Raid => new TextObject("Villages Raided").ToString(),
+                MomentumActionType.Siege => new TextObject("Fiefs Lost").ToString(),
+                MomentumActionType.Occupied => new TextObject("Occupied").ToString(),
+                MomentumActionType.ArmyGathered => new TextObject("Army Gathered").ToString(),
+                _ => TextObject.Empty.ToString(),
+            };
             ValueFaction1 = new BasicTooltipViewModel(() => GetPartyWageTooltip(breakdown.MomentumGoodSideValue));
             ValueFaction2 = new BasicTooltipViewModel(() => GetPartyWageTooltip(breakdown.MomentumEvilSideValue));
             Number1 = breakdown.MomentumGoodSideValue.ResultNumber.ToString();
             Number2 = breakdown.MomentumEvilSideValue.ResultNumber.ToString();
-            //ValueFaction1 = new(breakdown.MomentumGoodSideValue.ResultNumber, breakdown.MomentumGoodSideValue.GetExplanations());
-            //ValueFaction2 = new(breakdown.MomentumEvilSideValue.ResultNumber, breakdown.MomentumEvilSideValue.GetExplanations());
         }
         static List<TooltipProperty> GetPartyWageTooltip(ExplainedNumber number)
         {
