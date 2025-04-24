@@ -12,12 +12,9 @@ namespace LOTRAOM.Momentum.ViewModel
     public class MomentumBreakdownVM : TaleWorlds.Library.ViewModel
     {
         [DataSourceProperty] public string Text { get; set; }
-        [DataSourceProperty] public string Number1 { 
-            get;
-            set; }
+        [DataSourceProperty] public string Number1 { get; set; }
         [DataSourceProperty] public string Number2 { get; set; }
 
-        //[DataSourceProperty] public MomentumSideBreakdownVM ValueFaction1 { get; set; }
         BasicTooltipViewModel _valueFaction1;
         [DataSourceProperty]
         public BasicTooltipViewModel ValueFaction1
@@ -70,8 +67,6 @@ namespace LOTRAOM.Momentum.ViewModel
             ValueFaction2 = new BasicTooltipViewModel(() => GetPartyWageTooltip(breakdown.MomentumEvilSideValue));
             Number1 = breakdown.MomentumGoodSideValue.ResultNumber.ToString();
             Number2 = breakdown.MomentumEvilSideValue.ResultNumber.ToString();
-            //ValueFaction1 = new(breakdown.MomentumGoodSideValue.ResultNumber, breakdown.MomentumGoodSideValue.GetExplanations());
-            //ValueFaction2 = new(breakdown.MomentumEvilSideValue.ResultNumber, breakdown.MomentumEvilSideValue.GetExplanations());
         }
         static List<TooltipProperty> GetPartyWageTooltip(ExplainedNumber number)
         {

@@ -12,6 +12,8 @@ using LOTRAOM.Patches;
 using LOTRAOM.Extensions;
 using LOTRAOM.Momentum;
 using LOTRAOM.CampaignBehaviors;
+using System;
+using TaleWorlds.MountAndBlade.Diamond;
 
 namespace LOTRAOM
 {
@@ -59,16 +61,16 @@ namespace LOTRAOM
             base.OnGameStart(game, gameStarterObject);
 
             //test 
-                //foreach (Kingdom kingdom in Kingdom.All)
-                //    foreach (Kingdom kingdom2 in Kingdom.All)
-                //    FactionManager.SetNeutral
+            //foreach (Kingdom kingdom in Kingdom.All)
+            //    foreach (Kingdom kingdom2 in Kingdom.All)
+            //    FactionManager.SetNeutral
 
-           if (gameStarterObject is CampaignGameStarter campaignGameStarter)
-           {
+            if (gameStarterObject is CampaignGameStarter campaignGameStarter)
+            {
                 campaignGameStarter.AddBehavior(new KeepHeroRaceCampaignBehavior());
                 campaignGameStarter.AddBehavior(new AoMDiplomacy());
                 campaignGameStarter.AddBehavior(new MomentumCampaignBehavior());
-                
+
                 // models
                 campaignGameStarter.AddModel(new LOTRAOMNotableSpawnModel(campaignGameStarter.GetExistingModel<NotableSpawnModel>()));
                 campaignGameStarter.AddModel(new LOTRAOMPartyWageModel(campaignGameStarter.GetExistingModel<PartyWageModel>()));
@@ -84,7 +86,7 @@ namespace LOTRAOM
                 campaignGameStarter.AddModel(new AoMSettlementFoodModel(campaignGameStarter.GetExistingModel<SettlementFoodModel>()));
                 campaignGameStarter.AddModel(new AoMSettlementProsperityModel(campaignGameStarter.GetExistingModel<SettlementProsperityModel>()));
                 campaignGameStarter.AddModel(new AOMKingdomDecisionPermissionModel());
-                
+
                 //we can edit this to make factions based on raiding (raiding gives more items)
                 //campaignGameStarter.GetExistingModel<DefaultRaidModel>
             }
@@ -111,7 +113,19 @@ namespace LOTRAOM
                 manualPatchesHaveFired = true;
                 RunManualPatches();
             }
+            GetAllRaces();
         }
+
+        private void GetAllRaces()
+        {
+            List<string> everyRace = new() { "human", "dwarf", "uruk_hai", "berserker", "uruk", "orc", "nazghul" };
+            foreach (string race in everyRace)
+            {
+                int raceId = TaleWorlds.Core.FaceGen.GetRaceOrDefault(race);
+                Globals.GetRaceStringIdFromInt.Add(raceId, race);
+            }
+        }
+
         private void RunManualPatches()
         {
 #pragma warning disable BHA0003 // Type was not found

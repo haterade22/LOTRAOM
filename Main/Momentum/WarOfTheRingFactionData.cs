@@ -12,6 +12,8 @@ namespace LOTRAOM.Momentum
         [SaveableField(0)] List<Kingdom> _kingdoms = new();
         [SaveableField(1)] public Dictionary<MomentumActionType, Queue<MomentumEvent>> WarOfTheRingEvents = new();
         [SaveableField(2)] private int momentum = 0;
+        [SaveableField(3)] MomentumFactionTotalStats _factionTotalStats = new();
+        public MomentumFactionTotalStats FactionTotalStats { get { return _factionTotalStats; } }
         public WarOfTheRingFactionData()
         {
             foreach (MomentumActionType eventType in Enum.GetValues(typeof(MomentumActionType)))
@@ -54,7 +56,7 @@ namespace LOTRAOM.Momentum
         [SaveableField(2)] private bool hasWarEnded = false;
         public bool HasWarEnded { get; }
         [SaveableField(3)] private bool hasWarStarted = false;
-        public bool HasWarStarted { get; }
+        public bool HasWarStarted { get { return hasWarStarted; } }
 
         public WarOfTheRingFactionData GoodKingdoms { get { return _goodKingdoms; } }
         public WarOfTheRingFactionData EvilKingdoms { get { return _evilKingdoms; } }
@@ -72,9 +74,9 @@ namespace LOTRAOM.Momentum
 
         public void AddKingdom(Kingdom kingdom)
         {
-            hasWarStarted = true;
             if (!HasWarStarted)
                 MomentumCampaignBehavior.Instance.AddMomentumUI();
+            hasWarStarted = true;
             if (kingdom.Culture.IsGoodCulture())
             {
                 GoodKingdoms.Kingdoms.Add(kingdom);

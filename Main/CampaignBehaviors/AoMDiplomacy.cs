@@ -246,7 +246,8 @@ namespace LOTRAOM.CampaignBehaviors
                 string eventId = forceWar.WarEventId;
                 if (forceWar.DaysAfterIsengardWar < daysSinceIsengardWar && notUsedEvents.Contains(eventId))
                 {
-                    WarEvent warEvent = WarDeclaredEvents.First(e => e.StringId == eventId);
+                    WarEvent? warEvent = WarDeclaredEvents.FirstOrDefault(e => e.StringId == eventId);
+                    if (warEvent == null) continue;
                     warEvent.Action();
                     WarDeclaredEvents.Remove(warEvent);
                     notUsedEvents.Remove(eventId);
