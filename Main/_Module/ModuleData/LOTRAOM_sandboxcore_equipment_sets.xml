@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
 	<!--gondor-->
-	<!--generic lord fighter battle equipment-->
+	<!--generic lord fighter battle Equipment-->
 	<EquipmentRoster
 	id="gondor_bat_template_medium"
 	culture="Culture.gondor">
@@ -43,7 +43,7 @@
 			IsMediumTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic lord fighter civillian equipment-->
+	<!--generic lord fighter civillian Equipment-->
 	<EquipmentRoster
 		id="gondor_civ_template_default"
 		culture="Culture.gondor">
@@ -71,7 +71,7 @@
 			IsCivilianTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic non-fighter lady civillian equipment-->
+	<!--generic non-fighter lady civillian Equipment-->
 	<EquipmentRoster
 	id="gondor_civ_template_lady"
 	culture="Culture.gondor">
@@ -143,7 +143,7 @@
 	</EquipmentRoster>
 
 	<!--rohan-->
-	<!--generic lord fighter battle equipment-->
+	<!--generic lord fighter battle Equipment-->
 	<EquipmentRoster
 		id="rohan_bat_template_medium"
 		culture="Culture.rohan">
@@ -262,7 +262,7 @@
 
 
 	<!--mordor-->
-	<!--generic lord fighter battle equipment-->
+	<!--generic lord fighter battle Equipment-->
 	<EquipmentRoster
 	id="mordor_bat_template_medium"
 	culture="Culture.mordor">
@@ -295,7 +295,7 @@
 			IsMediumTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic lord fighter civillian equipment-->
+	<!--generic lord fighter civillian Equipment-->
 	<EquipmentRoster
 		id="mordor_civ_template_default"
 		culture="Culture.mordor">
@@ -323,7 +323,7 @@
 			IsCivilianTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic non-fighter lady civillian equipment-->
+	<!--generic non-fighter lady civillian Equipment-->
 	<EquipmentRoster
 	id="mordor_civ_template_lady"
 	culture="Culture.mordor">
@@ -848,28 +848,28 @@
 		culture="Culture.isengard">
 		<EquipmentSet
 			civilian="false">
-				<equipment
+				<Equipment
 					slot="Item0"
 					id="Item.isengard_berserker_sword" />
-				<equipment
+				<Equipment
 					slot="Item1"
 					id="Item.wm_isengard_shield_a02" />
-				<equipment
+				<Equipment
 					slot="Item2"
 					id="Item.isengard_2h_axe_a" />
-				<equipment
+				<Equipment
 					slot="Head"
 					id="Item.sk_uruk_hai_helmet_officer_a1" />
-				<equipment
+				<Equipment
 					slot="Cape"
 					id="Item.sk_uruk_hai_pauldron_heavy_b3" />
-				<equipment
+				<Equipment
 					slot="Body"
 					id="Item.sk_uruk_hai_plate_elite_b2" />
-				<equipment
+				<Equipment
 					slot="Gloves"
 					id="Item.sk_uruk_hai_bracer_elite_b2" />
-				<equipment
+				<Equipment
 					slot="Leg"
 					id="Item.sk_uruk_hai_greaves_heavy_a2" />
 		</EquipmentSet>
@@ -885,28 +885,28 @@
 		culture="Culture.isengard">
 		<EquipmentSet
 			civilian="false">
-			<equipment
+			<Equipment
 				slot="Item0"
 				id="Item.isengard_berserker_sword" />
-			<equipment
+			<Equipment
 				slot="Item1"
 				id="Item.wm_isengard_shield_a02" />
-			<equipment
+			<Equipment
 				slot="Item2"
 				id="Item.isengard_2h_axe_a" />
-			<equipment
+			<Equipment
 				slot="Head"
 				id="Item.sk_uruk_hai_helmet_officer_a2" />
-			<equipment
+			<Equipment
 				slot="Cape"
 				id="Item.sk_uruk_hai_pauldron_heavy_b3" />
-			<equipment
+			<Equipment
 				slot="Body"
 				id="Item.sk_uruk_hai_plate_elite_b2" />
-			<equipment
+			<Equipment
 				slot="Gloves"
 				id="Item.sk_uruk_hai_bracer_elite_b2" />
-			<equipment
+			<Equipment
 				slot="Leg"
 				id="Item.sk_uruk_hai_greaves_heavy_a2" />
 		</EquipmentSet>
@@ -922,28 +922,28 @@
 		culture="Culture.isengard">
 		<EquipmentSet
 			civilian="false">
-			<equipment
+			<Equipment
 				slot="Item0"
 				id="Item.isengard_berserker_sword" />
-			<equipment
+			<Equipment
 				slot="Item1"
 				id="Item.wm_isengard_shield_a02" />
-			<equipment
+			<Equipment
 				slot="Item2"
 				id="Item.isengard_2h_axe_a" />
-			<equipment
+			<Equipment
 				slot="Head"
 				id="Item.sk_uruk_hai_helmet_officer_a3" />
-			<equipment
+			<Equipment
 				slot="Cape"
 				id="Item.sk_uruk_hai_pauldron_heavy_b3" />
-			<equipment
+			<Equipment
 				slot="Body"
 				id="Item.sk_uruk_hai_plate_elite_b2" />
-			<equipment
+			<Equipment
 				slot="Gloves"
 				id="Item.sk_uruk_hai_bracer_elite_b2" />
-			<equipment
+			<Equipment
 				slot="Leg"
 				id="Item.sk_uruk_hai_greaves_heavy_a2" />
 		</EquipmentSet>
@@ -959,28 +959,28 @@
 		culture="Culture.isengard">
 		<EquipmentSet
 			civilian="false">
-			<equipment
+			<Equipment
 				slot="Item0"
 				id="Item.isengard_berserker_sword" />
-			<equipment
+			<Equipment
 				slot="Item1"
 				id="Item.wm_isengard_shield_a02" />
-			<equipment
+			<Equipment
 				slot="Item2"
 				id="Item.isengard_2h_axe_a" />
-			<equipment
+			<Equipment
 				slot="Head"
 				id="Item.sk_uruk_hai_helmet_officer_a4" />
-			<equipment
+			<Equipment
 				slot="Cape"
 				id="Item.sk_uruk_hai_pauldron_heavy_b3" />
-			<equipment
+			<Equipment
 				slot="Body"
 				id="Item.sk_uruk_hai_plate_elite_b2" />
-			<equipment
+			<Equipment
 				slot="Gloves"
 				id="Item.sk_uruk_hai_bracer_elite_b2" />
-			<equipment
+			<Equipment
 				slot="Leg"
 				id="Item.sk_uruk_hai_greaves_heavy_a2" />
 		</EquipmentSet>
@@ -992,7 +992,7 @@
 	</EquipmentRoster>
 
 	<!--rivendell-->
-	<!--generic lord fighter battle equipment-->
+	<!--generic lord fighter battle Equipment-->
 	<EquipmentRoster
 		id="rivendell_bat_template_medium"
 		culture="Culture.rivendell">
@@ -1027,7 +1027,7 @@
 			IsMediumTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic lord fighter civillian equipment-->
+	<!--generic lord fighter civillian Equipment-->
 	<EquipmentRoster
 		id="rivendell_civ_template_default"
 		culture="Culture.rivendell">
@@ -1055,7 +1055,7 @@
 			IsCivilianTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic non-fighter lady civillian equipment-->
+	<!--generic non-fighter lady civillian Equipment-->
 	<EquipmentRoster
 	id="rivendell_civ_template_lady"
 	culture="Culture.rivendell">
@@ -1083,7 +1083,7 @@
 			IsNoncombatantTemplate="true" />
 	</EquipmentRoster>
 	<!--mirkwood-->
-	<!--generic lord fighter battle equipment-->
+	<!--generic lord fighter battle Equipment-->
 	<EquipmentRoster
 		id="mirkwood_bat_template_medium"
 		culture="Culture.mirkwood">
@@ -1118,7 +1118,7 @@
 			IsMediumTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic lord fighter civillian equipment-->
+	<!--generic lord fighter civillian Equipment-->
 	<EquipmentRoster
 		id="mirkwood_civ_template_default"
 		culture="Culture.mirkwood">
@@ -1146,7 +1146,7 @@
 			IsCivilianTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic non-fighter lady civillian equipment-->
+	<!--generic non-fighter lady civillian Equipment-->
 	<EquipmentRoster
 	id="mirkwood_civ_template_lady"
 	culture="Culture.mirkwood">
@@ -1174,7 +1174,7 @@
 			IsNoncombatantTemplate="true" />
 	</EquipmentRoster>
 	<!--lothlorien-->
-	<!--generic lord fighter battle equipment-->
+	<!--generic lord fighter battle Equipment-->
 	<EquipmentRoster
 		id="lothlorien_bat_template_medium"
 		culture="Culture.lothlorien">
@@ -1209,7 +1209,7 @@
 			IsMediumTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic lord fighter civillian equipment-->
+	<!--generic lord fighter civillian Equipment-->
 	<EquipmentRoster
 		id="lothlorien_civ_template_default"
 		culture="Culture.lothlorien">
@@ -1237,7 +1237,7 @@
 			IsCivilianTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic non-fighter lady civillian equipment-->
+	<!--generic non-fighter lady civillian Equipment-->
 	<EquipmentRoster
 	id="lothlorien_civ_template_lady"
 	culture="Culture.lothlorien">
@@ -1265,7 +1265,7 @@
 			IsNoncombatantTemplate="true" />
 	</EquipmentRoster>
 	<!--erebor-->
-	<!--generic lord fighter battle equipment-->
+	<!--generic lord fighter battle Equipment-->
 	<EquipmentRoster
 		id="erebor_bat_template_medium"
 		culture="Culture.erebor">
@@ -1300,7 +1300,7 @@
 			IsMediumTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic lord fighter civillian equipment-->
+	<!--generic lord fighter civillian Equipment-->
 	<EquipmentRoster
 		id="erebor_civ_template_default"
 		culture="Culture.erebor">
@@ -1328,7 +1328,7 @@
 			IsCivilianTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic non-fighter lady civillian equipment-->
+	<!--generic non-fighter lady civillian Equipment-->
 	<EquipmentRoster
 	id="erebor_civ_template_lady"
 	culture="Culture.erebor">
@@ -1356,7 +1356,7 @@
 			IsNoncombatantTemplate="true" />
 	</EquipmentRoster>
 	<!--gundabad-->
-	<!--generic lord fighter battle equipment-->
+	<!--generic lord fighter battle Equipment-->
 	<EquipmentRoster
 		id="gundabad_bat_template_medium"
 		culture="Culture.gundabad">
@@ -1391,7 +1391,7 @@
 			IsMediumTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic lord fighter civillian equipment-->
+	<!--generic lord fighter civillian Equipment-->
 	<EquipmentRoster
 		id="gundabad_civ_template_default"
 		culture="Culture.gundabad">
@@ -1419,7 +1419,7 @@
 			IsCivilianTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic non-fighter lady civillian equipment-->
+	<!--generic non-fighter lady civillian Equipment-->
 	<EquipmentRoster
 	id="gundabad_civ_template_lady"
 	culture="Culture.gundabad">
@@ -1447,7 +1447,7 @@
 			IsNoncombatantTemplate="true" />
 	</EquipmentRoster>
 	<!--dolguldur-->
-	<!--generic lord fighter battle equipment-->
+	<!--generic lord fighter battle Equipment-->
 	<EquipmentRoster
 		id="dolguldur_bat_template_medium"
 		culture="Culture.dolguldur">
@@ -1482,7 +1482,7 @@
 			IsMediumTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic lord fighter civillian equipment-->
+	<!--generic lord fighter civillian Equipment-->
 	<EquipmentRoster
 		id="dolguldur_civ_template_default"
 		culture="Culture.dolguldur">
@@ -1510,7 +1510,7 @@
 			IsCivilianTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic non-fighter lady civillian equipment-->
+	<!--generic non-fighter lady civillian Equipment-->
 	<EquipmentRoster
 	id="dolguldur_civ_template_lady"
 	culture="Culture.dolguldur">
@@ -1538,7 +1538,7 @@
 			IsNoncombatantTemplate="true" />
 	</EquipmentRoster>
 	<!--umbar-->
-	<!--generic lord fighter battle equipment-->
+	<!--generic lord fighter battle Equipment-->
 	<EquipmentRoster
 		id="umbar_bat_template_medium"
 		culture="Culture.umbar">
@@ -1573,7 +1573,7 @@
 			IsMediumTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic lord fighter civillian equipment-->
+	<!--generic lord fighter civillian Equipment-->
 	<EquipmentRoster
 		id="umbar_civ_template_default"
 		culture="Culture.umbar">
@@ -1601,7 +1601,7 @@
 			IsCivilianTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic non-fighter lady civillian equipment-->
+	<!--generic non-fighter lady civillian Equipment-->
 	<EquipmentRoster
 	id="umbar_civ_template_lady"
 	culture="Culture.umbar">
@@ -1629,7 +1629,7 @@
 			IsNoncombatantTemplate="true" />
 	</EquipmentRoster>
 	<!--isengard-->
-	<!--generic lord fighter battle equipment-->
+	<!--generic lord fighter battle Equipment-->
 	<EquipmentRoster
 		id="isengard_bat_template_medium"
 		culture="Culture.isengard">
@@ -1664,7 +1664,7 @@
 			IsMediumTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic lord fighter civillian equipment-->
+	<!--generic lord fighter civillian Equipment-->
 	<EquipmentRoster
 		id="isengard_civ_template_default"
 		culture="Culture.isengard">
@@ -1692,7 +1692,7 @@
 			IsCivilianTemplate="true" />
 	</EquipmentRoster>
 
-	<!--generic non-fighter lady civillian equipment-->
+	<!--generic non-fighter lady civillian Equipment-->
 	<EquipmentRoster
 	id="isengard_civ_template_lady"
 	culture="Culture.isengard">
