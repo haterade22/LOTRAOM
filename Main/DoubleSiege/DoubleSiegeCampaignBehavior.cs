@@ -9,6 +9,7 @@ using TaleWorlds.CampaignSystem.Settlements;
 using TaleWorlds.CampaignSystem.Siege;
 using TaleWorlds.Core;
 using TaleWorlds.Library;
+using TaleWorlds.Localization;
 using TaleWorlds.ObjectSystem;
 
 namespace LOTRAOM.DoubleSiege
@@ -50,14 +51,15 @@ namespace LOTRAOM.DoubleSiege
         }
         private void AddGameMenus(CampaignGameStarter starter)
         {
-            starter.AddGameMenu("double_siege_menu", "Double siege Text", new OnInitDelegate(this.game_menu_double_siege_on_init), GameOverlays.MenuOverlayType.None, GameMenu.MenuFlags.None, null);
-            starter.AddGameMenuOption("double_siege_menu", "start", "Start Text", (MenuCallbackArgs args) => { return true; }, new GameMenuOption.OnConsequenceDelegate(this.game_menu_double_siege_start_on_consequence), false, -1, false);
+            starter.AddGameMenu("double_siege_menu", "{DOUBLE_SIEGE_TEXT}", new OnInitDelegate(this.game_menu_double_siege_on_init), GameOverlays.MenuOverlayType.None, GameMenu.MenuFlags.None, null);
+            starter.AddGameMenuOption("double_siege_menu", "start", "{DOUBLE_SIEGE_START_TEXT}", (MenuCallbackArgs args) => { return true; }, new GameMenuOption.OnConsequenceDelegate(this.game_menu_double_siege_start_on_consequence), false, -1, false);
         }
 
         private void game_menu_double_siege_start_on_consequence(MenuCallbackArgs args)
         {
-            if (Hero.MainHero.HitPoints < 20)
-                Hero.MainHero.HitPoints = 20;
+            MapEvent.PlayerMapEvent.AttackerSide.MakeReadyForMission(null);
+            MapEvent.PlayerMapEvent.DefenderSide.MakeReadyForMission(null);
+
             Settlement curSettlement = MobileParty.MainParty.MapEvent.MapEventSettlement;
             string settlementId = curSettlement.StringId;
             SecondSiegeData secondSiegeData = SecondSiegeData.GetSecondSiegeData(settlementId)!;
@@ -75,6 +77,8 @@ namespace LOTRAOM.DoubleSiege
 
         private void game_menu_double_siege_on_init(MenuCallbackArgs args)
         {
+            if (HasFinishedTheSecondSiege)
+                GameMenu.ActivateGameMenu("encounter");
             SecondSiegeData? secondSiegeData = SecondSiegeData.GetSecondSiegeData(MobileParty.MainParty.MapEvent.MapEventSettlement.StringId);
             if (secondSiegeData == null)
             {
@@ -85,8 +89,11 @@ namespace LOTRAOM.DoubleSiege
             }
             string meshId = secondSiegeData.BackgroundMeshId;
             args.MenuContext.SetBackgroundMeshName(meshId);
-            if (HasFinishedTheSecondSiege)
-                GameMenu.ActivateGameMenu("encounter");
+            bool isPlayerAttacking = MapEvent.PlayerMapEvent.PlayerSide == BattleSideEnum.Attacker;
+            string text = isPlayerAttacking ? secondSiegeData.TextAttacker : secondSiegeData.TextDefender;
+            string startText = isPlayerAttacking ? secondSiegeData.StartTextAttacker : secondSiegeData.StartTextDefender;
+            MBTextManager.SetTextVariable("DOUBLE_SIEGE_TEXT", text, false);
+            MBTextManager.SetTextVariable("DOUBLE_SIEGE_START_TEXT", startText, false);
         }
         public override void SyncData(IDataStore dataStore) { }
     }
