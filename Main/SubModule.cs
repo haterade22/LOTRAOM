@@ -14,6 +14,7 @@ using LOTRAOM.Momentum;
 using LOTRAOM.CampaignBehaviors;
 using System;
 using TaleWorlds.MountAndBlade.Diamond;
+using LOTRAOM.DoubleSiege;
 
 namespace LOTRAOM
 {
@@ -70,6 +71,7 @@ namespace LOTRAOM
                 campaignGameStarter.AddBehavior(new KeepHeroRaceCampaignBehavior());
                 campaignGameStarter.AddBehavior(new AoMDiplomacy());
                 campaignGameStarter.AddBehavior(new MomentumCampaignBehavior());
+                campaignGameStarter.AddBehavior(new DoubleSiegeCampaignBehavior());
 
                 // models
                 campaignGameStarter.AddModel(new LOTRAOMNotableSpawnModel(campaignGameStarter.GetExistingModel<NotableSpawnModel>()));
@@ -112,8 +114,8 @@ namespace LOTRAOM
             {
                 manualPatchesHaveFired = true;
                 RunManualPatches();
+                GetAllRaces();
             }
-            GetAllRaces();
         }
 
         private void GetAllRaces()
