@@ -21,13 +21,14 @@ namespace LOTRAOM
     {
         private Harmony harmony = new Harmony("com.lotrmod.lotr_lome");
         private bool manualPatchesHaveFired;
+
         protected override void OnSubModuleLoad()
         {
             Harmony.DEBUG = true;
             base.OnSubModuleLoad();
             harmony.PatchAll();
 
-            CampaignTime startTime = CampaignTime.Years(3017) + CampaignTime.Hours(12);//CampaignTime.Weeks(4) + CampaignTime.Days(5) + CampaignTime.Hours(12);
+            CampaignTime startTime = CampaignTime.Years(3017) + CampaignTime.Hours(12);
             typeof(CampaignData).GetField("CampaignStartTime", System.Reflection.BindingFlags.Static | System.Reflection.BindingFlags.Public)?.SetValue(null, startTime);
 
             RemoveSandboxAndStoryOptions();
@@ -37,6 +38,7 @@ namespace LOTRAOM
                 () => (Module.CurrentModule.IsOnlyCoreContentEnabled, new("Disabled during installation.", null)))
             );
         }
+
         private static void RemoveSandboxAndStoryOptions()
         {
             List<InitialStateOption> initialOptionsList = Module.CurrentModule.GetInitialStateOptions().ToList();
@@ -47,23 +49,24 @@ namespace LOTRAOM
                 Module.CurrentModule.AddInitialStateOption(initialStateOption);
             }
         }
+
         public override void OnAfterGameInitializationFinished(Game game, object starterObject)
         {
             Globals.IsNewCampaignCreating = false;
         }
+
         public override void OnNewGameCreated(Game game, object initializerObject)
         {
             base.OnNewGameCreated(game, initializerObject);
             Globals.IsNewCampaignCreating = true;
         }
+
         protected override void OnGameStart(Game game, IGameStarter gameStarterObject)
         {
             base.OnGameStart(game, gameStarterObject);
 
-            //test 
-            //foreach (Kingdom kingdom in Kingdom.All)
-            //    foreach (Kingdom kingdom2 in Kingdom.All)
-            //    FactionManager.SetNeutral
+            // Initialize race system
+            RaceManager.InitializeRaces();
 
             if (gameStarterObject is CampaignGameStarter campaignGameStarter)
             {
@@ -86,11 +89,9 @@ namespace LOTRAOM
                 campaignGameStarter.AddModel(new AoMSettlementFoodModel(campaignGameStarter.GetExistingModel<SettlementFoodModel>()));
                 campaignGameStarter.AddModel(new AoMSettlementProsperityModel(campaignGameStarter.GetExistingModel<SettlementProsperityModel>()));
                 campaignGameStarter.AddModel(new AOMKingdomDecisionPermissionModel());
-
-                //we can edit this to make factions based on raiding (raiding gives more items)
-                //campaignGameStarter.GetExistingModel<DefaultRaidModel>
             }
         }
+
         protected override void OnSubModuleUnloaded()
         {
             base.OnSubModuleUnloaded();
@@ -101,11 +102,13 @@ namespace LOTRAOM
         {
             base.OnBeforeInitialModuleScreenSetAsRoot();
         }
+
         public override void OnGameLoaded(Game game, object initializerObject)
         {
             base.OnGameLoaded(game, initializerObject);
             LOTRAOMCharacterCreationContent.SetCultureFeats();
         }
+
         public override void OnGameInitializationFinished(Game game)
         {
             if (!manualPatchesHaveFired)
@@ -113,17 +116,7 @@ namespace LOTRAOM
                 manualPatchesHaveFired = true;
                 RunManualPatches();
             }
-            GetAllRaces();
-        }
-
-        private void GetAllRaces()
-        {
-            List<string> everyRace = new() { "human", "dwarf", "uruk_hai", "berserker", "uruk", "orc", "nazghul" };
-            foreach (string race in everyRace)
-            {
-                int raceId = TaleWorlds.Core.FaceGen.GetRaceOrDefault(race);
-                Globals.GetRaceStringIdFromInt.Add(raceId, race);
-            }
+            // RaceManager initialization moved to OnGameStart
         }
 
         private void RunManualPatches()
@@ -135,6 +128,5 @@ namespace LOTRAOM
             harmony.Patch(originalTierMethod, prefix: new HarmonyMethod(typeof(GetCharacterTierDataPatch), nameof(GetCharacterTierDataPatch.Prefix)));
             harmony.Patch(originalDeserterMethod, prefix: new HarmonyMethod(typeof(PartiesDesertionPatch), nameof(PartiesDesertionPatch.Prefix)));
         }
-
     }
 }

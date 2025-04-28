@@ -60,7 +60,7 @@ namespace LOTRAOM.CampaignStart
             ["mirkwood"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
             ["lothlorien"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
             ["umbar"] = new CCCultureData(new List<string>() { "human"}, HumanBodyPropString),
-            ["isengard"] = new CCCultureData(new List<string>() { "uruk_hai", "berserker" }, HumanBodyPropString),
+            ["isengard"] = new CCCultureData(new List<string>() { "uruk_hai", "berserker", "cave_troll", "hill_troll" }, HumanBodyPropString),
             ["gundabad"] = new CCCultureData(new List<string>() { "uruk" }, HumanBodyPropString),
             ["dolguldur"] = new CCCultureData(new List<string>() { "uruk" }, HumanBodyPropString),
             ["default"] = new CCCultureData(new List<string>() { "human", "uruk", "orc", "dwarf" }, HumanBodyPropString) // in case culture is missing
