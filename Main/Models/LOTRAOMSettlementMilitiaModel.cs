@@ -1,5 +1,4 @@
-﻿using HarmonyLib;
-using TaleWorlds.CampaignSystem;
+﻿using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.CharacterDevelopment;
 using TaleWorlds.CampaignSystem.ComponentInterfaces;
 using TaleWorlds.CampaignSystem.Party;
@@ -10,6 +9,8 @@ using LOTRAOM.CultureFeats;
 using System.Collections.Generic;
 using System;
 using TaleWorlds.CampaignSystem.Roster;
+using TaleWorlds.Localization;
+using TaleWorlds.Library;
 
 namespace LOTRAOM.Models
 {
@@ -17,9 +18,76 @@ namespace LOTRAOM.Models
     {
         private readonly SettlementMilitiaModel _previousModel;
 
+        private static readonly HashSet<string> FoodDependentSettlementIds = new HashSet<string>
+    {
+        "town_v1",       // Edoras (placeholder, replace with actual ID)
+        "town_s1",        // Dale (placeholder, replace with actual ID)
+    };
+
         public LOTRAOMSettlementMilitiaModel(SettlementMilitiaModel baseModel)
         {
             _previousModel = baseModel;
+        }
+
+        public override ExplainedNumber CalculateMilitiaChange(Settlement settlement, bool includeDescriptions = false)
+        {
+            ExplainedNumber value;
+
+            // Apply food dependency for specific settlements
+            if (FoodDependentSettlementIds.Contains(settlement.StringId))
+            {
+                // Retain vanilla behavior: food shortages reduce militia
+                value = _previousModel.CalculateMilitiaChange(settlement, includeDescriptions);
+            }
+            else
+            {
+                // Food-independent: compute growth without food penalty
+                float prosperityFactor = (settlement.Town?.Prosperity ?? 0f) / 1000f; // Prosperity-based growth
+                float securityFactor = settlement.Town?.Security / 100f ?? 1f; // Security-based growth
+                value = new ExplainedNumber(prosperityFactor + securityFactor, includeDescriptions);
+                if (includeDescriptions)
+                {
+                    value.Add(prosperityFactor, new TextObject("{=prosperity_militia}Prosperity Growth"), null);
+                    value.Add(securityFactor, new TextObject("{=security_militia}Security Growth"), null);
+                }
+            }
+
+            // Cultural militia bonuses
+            if (settlement.OwnerClan.Culture.HasFeat(LOTRAOMCultureFeats.Instance.humanPlusMilitiaProduction))
+            {
+                value.Add(LOTRAOMCultureFeats.Instance.humanPlusMilitiaProduction.EffectBonus, new TextObject("{=human_militia}Human culture militia bonus"), null);
+            }
+
+            // Orthanc: Maintain ~800 militia
+            if (settlement.StringId == "town_SWAN_ISENGARD1")
+            {
+                float targetMilitia = 750f;
+                float currentMilitia = settlement.Militia;
+                if (currentMilitia < targetMilitia)
+                {
+                    value.Add(Math.Min(12f, targetMilitia - currentMilitia), new TextObject("{=orthanc_militia_growth}Orthanc War Machine"), null);
+                }
+                else if (currentMilitia > targetMilitia)
+                {
+                    value.Add(targetMilitia - currentMilitia, new TextObject("{=orthanc_militia_cap}Orthanc militia cap"), null);
+                }
+            }
+            // Minas Tirith: Maintain ~1000 militia
+            else if (settlement.StringId == "town_EW1") // Minas Tirith
+            {
+                float targetMilitia = 1000f;
+                float currentMilitia = settlement.Militia;
+                if (currentMilitia < targetMilitia)
+                {
+                    value.Add(Math.Min(15f, targetMilitia - currentMilitia), new TextObject("{=minas_tirith_militia_growth}Citadel of the White Tower"), null);
+                }
+                else if (currentMilitia > targetMilitia)
+                {
+                    value.Add(targetMilitia - currentMilitia, new TextObject("{=minas_tirith_militia_cap}Minas Tirith militia cap"), null);
+                }
+            }
+
+            return value;
         }
 
         public override float CalculateEliteMilitiaSpawnChance(Settlement settlement)
@@ -37,48 +105,6 @@ namespace LOTRAOM.Models
                 return Math.Max(baseChance, 0.25f); // Gondor: 25% elite
 
             return baseChance;
-        }
-
-        public override ExplainedNumber CalculateMilitiaChange(Settlement settlement, bool includeDescriptions = false)
-        {
-            ExplainedNumber value = _previousModel.CalculateMilitiaChange(settlement, includeDescriptions);
-
-            // Cultural militia bonuses
-            if (settlement.OwnerClan.Culture.HasFeat(LOTRAOMCultureFeats.Instance.humanPlusMilitiaProduction))
-            {
-                value.Add(LOTRAOMCultureFeats.Instance.humanPlusMilitiaProduction.EffectBonus, new("{=human_militia}Human culture militia bonus"), null);
-            }
-
-            // Orthanc: Maintain ~800 militia
-            if (settlement.StringId == "town_SWAN_ISENGARD1")
-            {
-                float targetMilitia = 750f;
-                float currentMilitia = settlement.Militia;
-                if (currentMilitia < targetMilitia)
-                {
-                    value.Add(Math.Min(12f, targetMilitia - currentMilitia), new("{=orthanc_militia_growth}Orthanc War Machine"), null);
-                }
-                else if (currentMilitia > targetMilitia)
-                {
-                    value.Add(targetMilitia - currentMilitia, new("{=orthanc_militia_cap}Orthanc militia cap"), null);
-                }
-            }
-            // Minas Tirith: Maintain ~1000 militia
-            else if (settlement.StringId == "town_ES1") // Minas Tirith
-            {
-                float targetMilitia = 1000f;
-                float currentMilitia = settlement.Militia;
-                if (currentMilitia < targetMilitia)
-                {
-                    value.Add(Math.Min(15f, targetMilitia - currentMilitia), new("{=minas_tirith_militia_growth}Citadel of the White Tower"), null);
-                }
-                else if (currentMilitia > targetMilitia)
-                {
-                    value.Add(targetMilitia - currentMilitia, new("{=minas_tirith_militia_cap}Minas Tirith militia cap"), null);
-                }
-            }
-
-            return value;
         }
 
         public override void CalculateMilitiaSpawnRate(Settlement settlement, out float meleeTroopRate, out float rangedTroopRate)

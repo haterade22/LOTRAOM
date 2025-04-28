@@ -1118,6 +1118,47 @@
 			IsMediumTemplate="true" />
 	</EquipmentRoster>
 
+	<EquipmentRoster
+	id="mirkwood_thranduil_bat"
+	culture="Culture.mirkwood">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.mirkwood_spear_a02" />
+			<Equipment
+				slot="Item1"
+				id="Item.wm_mirkwood_shield_a01" />
+			<Equipment
+				slot="Item2"
+				id="Item.mirkwood_sword_a01" />
+			<Equipment
+				slot="Head"
+				id="Item.thranduil_helmet" />
+			<Equipment
+				slot="Cape"
+				id="Item.thranduil_shoulder" />
+			<Equipment
+				slot="Body"
+				id="Item.thranduil_body" />
+			<Equipment
+				slot="Gloves"
+				id="Item.thranduil_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.thranduil_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsMediumTemplate="true" />
+	</EquipmentRoster>
+
 	<!--generic lord fighter civillian Equipment-->
 	<EquipmentRoster
 		id="mirkwood_civ_template_default"
