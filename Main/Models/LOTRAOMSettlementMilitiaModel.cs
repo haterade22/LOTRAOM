@@ -29,7 +29,7 @@ namespace LOTRAOM.Models
             // Specific settlements with custom elite rates
             if (settlement.StringId == "town_SWAN_ISENGARD1")
                 return Math.Max(baseChance, 0.3f); // Orthanc: 30% elite
-            if (settlement.StringId == "town_ES1") // Minas Tirith
+            if (settlement.StringId == "town_EW1") // Minas Tirith
                 return Math.Max(baseChance, 0.4f); // Minas Tirith: 40% elite - higher than normal Gondor
 
             // Culture-based elite rates
@@ -88,7 +88,7 @@ namespace LOTRAOM.Models
                 meleeTroopRate = 0.55f; // Orthanc: 55% melee
                 rangedTroopRate = 0.45f;
             }
-            else if (settlement.StringId == "town_ES1") // Minas Tirith
+            else if (settlement.StringId == "town_EW1") // Minas Tirith
             {
                 meleeTroopRate = 0.35f; // Minas Tirith: Heavy focus on archers
                 rangedTroopRate = 0.65f;
@@ -114,7 +114,7 @@ namespace LOTRAOM.Models
         {
             if (town.Settlement.StringId == "town_SWAN_ISENGARD1")
                 return 300; // Orthanc: 300 Uruk-hai post-siege
-            if (town.Settlement.StringId == "town_ES1") // Minas Tirith
+            if (town.Settlement.StringId == "town_EW1") // Minas Tirith
                 return 400; // Minas Tirith: 400 soldiers post-siege
             return _previousModel.MilitiaToSpawnAfterSiege(town);
         }
