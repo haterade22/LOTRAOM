@@ -56,19 +56,18 @@ namespace LOTRAOM.Momentum.ViewModel
             Text = breakdown.MomentumActionType switch
             {
                 MomentumActionType.BattleWon => new TextObject("Battles Won").ToString(),
-                MomentumActionType.Casualty => new TextObject("Casualties").ToString(),
-                MomentumActionType.Raid => new TextObject("Villages Raided").ToString(),
-                MomentumActionType.Siege => new TextObject("Fiefs Lost").ToString(),
-                MomentumActionType.Occupied => new TextObject("Occupied").ToString(),
+                MomentumActionType.VillagesRaided => new TextObject("Villages Raided").ToString(),
+                MomentumActionType.Sieges => new TextObject("Fiefs Captured").ToString(),
                 MomentumActionType.ArmyGathered => new TextObject("Army Gathered").ToString(),
+                MomentumActionType.RelativeStrength => new TextObject("Relative Strength").ToString(),
                 _ => TextObject.Empty.ToString(),
             };
-            ValueFaction1 = new BasicTooltipViewModel(() => GetPartyWageTooltip(breakdown.MomentumGoodSideValue));
-            ValueFaction2 = new BasicTooltipViewModel(() => GetPartyWageTooltip(breakdown.MomentumEvilSideValue));
+            ValueFaction1 = new BasicTooltipViewModel(() => GetExplainerTooltip(breakdown.MomentumGoodSideValue));
+            ValueFaction2 = new BasicTooltipViewModel(() => GetExplainerTooltip(breakdown.MomentumEvilSideValue));
             Number1 = breakdown.MomentumGoodSideValue.ResultNumber.ToString();
             Number2 = breakdown.MomentumEvilSideValue.ResultNumber.ToString();
         }
-        static List<TooltipProperty> GetPartyWageTooltip(ExplainedNumber number)
+        static List<TooltipProperty> GetExplainerTooltip(ExplainedNumber number)
         {
             return CampaignUIHelper.GetTooltipForAccumulatingPropertyWithResult("Momentum", number.ResultNumber, ref number);
         }

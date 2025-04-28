@@ -65,20 +65,20 @@ namespace LOTRAOM.CampaignBehaviors
             }),
             new WarEvent("mordor_war", (kingdom1, kingdom2) => // mordor attacks gondor or rohan
             {
-                return !MomentumCampaignBehavior.Instance.WarOfTheRingdata.HasWarStarted && kingdom1.StringId == Globals.MordorKingdom?.StringId && (kingdom2.StringId == Globals.RohanKingdom?.StringId || kingdom2.StringId == Globals.GondorKingdom?.StringId);
+                return !MomentumCampaignBehavior.Instance.warOfTheRingData.HasWarStarted && kingdom1.StringId == Globals.MordorKingdom?.StringId && (kingdom2.StringId == Globals.RohanKingdom?.StringId || kingdom2.StringId == Globals.GondorKingdom?.StringId);
             },
             () =>
             {
                 if (Globals.GondorKingdom != null)
-                    MomentumCampaignBehavior.Instance.WarOfTheRingdata.AddKingdom(Globals.GondorKingdom);
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.GondorKingdom);
                 if (Globals.RohanKingdom != null)
-                    MomentumCampaignBehavior.Instance.WarOfTheRingdata.AddKingdom(Globals.RohanKingdom);
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.RohanKingdom);
                 if(Globals.MordorKingdom != null) 
-                    MomentumCampaignBehavior.Instance.WarOfTheRingdata.AddKingdom(Globals.MordorKingdom);
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.MordorKingdom);
                 if(Globals.DunlandKingdom != null) 
-                    MomentumCampaignBehavior.Instance.WarOfTheRingdata.AddKingdom(Globals.DunlandKingdom);
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.DunlandKingdom);
                 if(Globals.IsengardKingdom != null) 
-                    MomentumCampaignBehavior.Instance.WarOfTheRingdata.AddKingdom(Globals.IsengardKingdom);
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.IsengardKingdom);
                 InquiryData data = new("The War of the Ring begins", new TextObject($"{CampaignTime.Now} the forces for mordor began their march to conquer gondor, The war for the fate of the middle earth has begun").ToString(), true, false, new TextObject("Continue").ToString(), "", () => {}, () => {});
                 InformationManager.ShowInquiry(data, true, false);
             }),
@@ -96,11 +96,11 @@ namespace LOTRAOM.CampaignBehaviors
             () =>
             {
                 if (Globals.DaleKingdom != null)
-                    MomentumCampaignBehavior.Instance.WarOfTheRingdata.AddKingdom(Globals.DaleKingdom);
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.DaleKingdom);
                 if (Globals.EreborKingdom != null)
-                    MomentumCampaignBehavior.Instance.WarOfTheRingdata.AddKingdom(Globals.EreborKingdom);
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.EreborKingdom);
                 if (Globals.RhunKingdom != null)
-                    MomentumCampaignBehavior.Instance.WarOfTheRingdata.AddKingdom(Globals.RhunKingdom);
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.RhunKingdom);
                 InquiryData data = new("The War in the east escalates", new TextObject($"As the war between Rhun and Dale-Erebor drags on, one thing becomes clear, this is not a disjoined attack! The Rhun are working with mordor to undermine the factions of order!").ToString(), true, false, new TextObject("The war expands").ToString(), "", () => {}, () => {});
                 InformationManager.ShowInquiry(data, true, false);
             }, 14),
@@ -123,11 +123,11 @@ namespace LOTRAOM.CampaignBehaviors
             () =>
             {
                 if (Globals.UmbarKingdom != null)
-                    MomentumCampaignBehavior.Instance.WarOfTheRingdata.AddKingdom(Globals.UmbarKingdom);
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.UmbarKingdom);
                 if (Globals.HaradKingdom != null)
-                    MomentumCampaignBehavior.Instance.WarOfTheRingdata.AddKingdom(Globals.HaradKingdom);
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.HaradKingdom);
                 if (Globals.KhandKingdom != null)
-                    MomentumCampaignBehavior.Instance.WarOfTheRingdata.AddKingdom(Globals.KhandKingdom);
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.KhandKingdom);
                 InquiryData data = new("The War in the south escalates", new TextObject($"This is more, than raids from the south... This is a full invasion of Gondor!").ToString(), true, false, new TextObject("The war expands").ToString(), "", () => {}, () => {});
                 InformationManager.ShowInquiry(data, true, false);
             }, 14),
@@ -148,13 +148,39 @@ namespace LOTRAOM.CampaignBehaviors
             () =>
             {
                 if (Globals.DolGuldurKingdom != null)
-                    MomentumCampaignBehavior.Instance.WarOfTheRingdata.AddKingdom(Globals.DolGuldurKingdom);
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.DolGuldurKingdom);
                 if (Globals.GundabadKingdom != null)
-                    MomentumCampaignBehavior.Instance.WarOfTheRingdata.AddKingdom(Globals.GundabadKingdom);
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.GundabadKingdom);
                 if (Globals.LorienKingdom != null)
-                    MomentumCampaignBehavior.Instance.WarOfTheRingdata.AddKingdom(Globals.LorienKingdom);
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.LorienKingdom);
                 if (Globals.MirkwoodKingdom != null)
-                    MomentumCampaignBehavior.Instance.WarOfTheRingdata.AddKingdom(Globals.MirkwoodKingdom);
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.MirkwoodKingdom);
+                InquiryData data = new("The Elven war", new TextObject($"There can be no hope of wait out the conflict, The elves need to join the global alliance, or die alone!").ToString(), true, false, new TextObject("The war expands").ToString(), "", () => {}, () => {});
+                InformationManager.ShowInquiry(data, true, false);
+            }, 14),
+
+            new WarEvent("rivendell_joins_war", (kingdom1, kingdom2) =>
+            {
+                var data = MomentumCampaignBehavior.Instance.warOfTheRingData;
+                return (data.HasWarStarted && data.Momentum <= -40);
+            },
+            () =>
+            {
+                if (Globals.RivendellKingdom != null)
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.RivendellKingdom);
+                InquiryData data = new("The council", new TextObject($"The elfrealm of Rivendell cannot stay idle, lest they witness the end of civilization as we know it.").ToString(), true, false, new TextObject("Continue").ToString(), "", () => {}, () => {});
+                InformationManager.ShowInquiry(data, true, false);
+            },
+            () =>
+            {
+                if (Globals.DolGuldurKingdom != null)
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.DolGuldurKingdom);
+                if (Globals.GundabadKingdom != null)
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.GundabadKingdom);
+                if (Globals.LorienKingdom != null)
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.LorienKingdom);
+                if (Globals.MirkwoodKingdom != null)
+                    MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.MirkwoodKingdom);
                 InquiryData data = new("The Elven war", new TextObject($"There can be no hope of wait out the conflict, The elves need to join the global alliance, or die alone!").ToString(), true, false, new TextObject("The war expands").ToString(), "", () => {}, () => {});
                 InformationManager.ShowInquiry(data, true, false);
             }, 14)
@@ -199,7 +225,7 @@ namespace LOTRAOM.CampaignBehaviors
     }
     public class AoMDiplomacy : CampaignBehaviorBase
     {
-        public WarOfTheRingData WarOfTheRingdata => MomentumCampaignBehavior.Instance.WarOfTheRingdata;
+        public WarOfTheRingData WarOfTheRingdata => MomentumCampaignBehavior.Instance.warOfTheRingData;
          public static List<WarEvent> WarDeclaredEvents = new();
         [SaveableField(0)] private static List<string> notUsedEvents = new();
         [SaveableField(1)] public static Dictionary<string, int> EvilFactionsDaysWithoutWar = new();
@@ -266,7 +292,8 @@ namespace LOTRAOM.CampaignBehaviors
                 "umbar_harad_khand_gondor_war",
                 "dol_guldur_gundabad_mirkwood_lorien_war",
                 "rohan_attack_dunland",
-                "gondor_attack_mordor"
+                "gondor_attack_mordor",
+                "rivendell_joins_war"
             };
             foreach (string eventId in notUsedEvents)
             {
@@ -299,6 +326,15 @@ namespace LOTRAOM.CampaignBehaviors
             if (timeTill <= 0)
                 StartIsengardWar();
         }
+        private void TryHaveRivendellJoinWar()
+        {
+            string warEventId = "rivendell_joins_war";
+            WarEvent rivendellEvent = WarDeclaredEvents.First(x => x.StringId == warEventId);
+            if (!rivendellEvent.isConditionMet(null!, null!)) return;
+            notUsedEvents.Remove(warEventId);
+            WarDeclaredEvents.RemoveAll(e => e.StringId == "isengard_war");
+            rivendellEvent.Action();
+        }
         private void StartIsengardWar()
         {
             string warEventId = "isengard_war";
@@ -327,7 +363,7 @@ namespace LOTRAOM.CampaignBehaviors
             }
             for (int i = delayedEvents.Count - 1; i >= 0; i--)
             {
-                if (MomentumCampaignBehavior.Instance.WarOfTheRingdata.HasWarStarted && CampaignTime.Now > delayedEvents[i].delayedActionTime)
+                if (MomentumCampaignBehavior.Instance.warOfTheRingData.HasWarStarted && CampaignTime.Now > delayedEvents[i].delayedActionTime)
                 {
                     WarEvent? warEvent = WarEvent.AllEvents.FirstOrDefault(e => e.StringId == delayedEvents[i].StringId);
                     warEvent?.DelayedAction?.Invoke();
@@ -335,6 +371,7 @@ namespace LOTRAOM.CampaignBehaviors
                 }
             }
             TryForceStartWar();
+            TryHaveRivendellJoinWar();
         }
 
         private void OnWarDeclared(IFaction faction1, IFaction faction2, DeclareWarAction.DeclareWarDetail detail)

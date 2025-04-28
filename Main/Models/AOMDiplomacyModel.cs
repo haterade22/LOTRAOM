@@ -178,7 +178,7 @@ namespace LOTRAOM.Models
         }
         public override float GetScoreOfDeclaringPeace(IFaction factionDeclaresPeace, IFaction factionDeclaredPeace, IFaction evaluatingFaction, out TextObject reason)
         {
-            WarOfTheRingData data = MomentumCampaignBehavior.Instance.WarOfTheRingdata;
+            WarOfTheRingData data = MomentumCampaignBehavior.Instance.warOfTheRingData;
             return baseModel.GetScoreOfDeclaringPeace(factionDeclaresPeace, factionDeclaredPeace, evaluatingFaction, out reason);
         }
         public override float GetScoreOfDeclaringWar(IFaction factionDeclaresWar, IFaction factionDeclaredWar, IFaction evaluatingFaction, out TextObject reason)

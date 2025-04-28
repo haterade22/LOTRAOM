@@ -13,6 +13,7 @@ namespace LOTRAOM.Momentum
         [SaveableField(1)] public Dictionary<MomentumActionType, Queue<MomentumEvent>> WarOfTheRingEvents = new();
         [SaveableField(2)] private int momentum = 0;
         [SaveableField(3)] MomentumFactionTotalStats _factionTotalStats = new();
+
         public MomentumFactionTotalStats FactionTotalStats { get { return _factionTotalStats; } }
         public WarOfTheRingFactionData()
         {
@@ -49,6 +50,11 @@ namespace LOTRAOM.Momentum
             momentum += amount;
         }
     }
+    public enum WarOfTheRingSide
+    {
+        Good,
+        Evil
+    }
     public class WarOfTheRingData
     {
         [SaveableField(0)] WarOfTheRingFactionData _goodKingdoms = new();
@@ -57,6 +63,8 @@ namespace LOTRAOM.Momentum
         public bool HasWarEnded { get; }
         [SaveableField(3)] private bool hasWarStarted = false;
         public bool HasWarStarted { get { return hasWarStarted; } }
+        [SaveableField(4)] private int lastDaysMomentumFromStrengthComparison = 0;
+        [SaveableField(5)] private int todaysMomentumFromStrengthCompariton = 0;
 
         public WarOfTheRingFactionData GoodKingdoms { get { return _goodKingdoms; } }
         public WarOfTheRingFactionData EvilKingdoms { get { return _evilKingdoms; } }
@@ -71,7 +79,13 @@ namespace LOTRAOM.Momentum
             else
                 EvilKingdoms.AddEvent(type, momentumEvent);
         }
-
+        public void AddEvent(WarOfTheRingSide side, MomentumActionType type, MomentumEvent momentumEvent)
+        {
+            if (side == WarOfTheRingSide.Good)
+                GoodKingdoms.AddEvent(type, momentumEvent);
+            else
+                EvilKingdoms.AddEvent(type, momentumEvent);
+        }
         public void AddKingdom(Kingdom kingdom)
         {
             if (!HasWarStarted)
@@ -89,6 +103,15 @@ namespace LOTRAOM.Momentum
                 foreach (var evilKingdom in GoodKingdoms.Kingdoms)
                     FactionManager.DeclareWar(kingdom, evilKingdom);
             }
+        }
+        public bool ShouldWarEnd()
+        {
+            if (Math.Abs(Momentum) == 100)
+            {
+                hasWarEnded = true;
+                return true;
+            }
+            return false;
         }
         public int Momentum // goes between 100 and -100
         {

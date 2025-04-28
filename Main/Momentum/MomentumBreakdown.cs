@@ -46,10 +46,9 @@ namespace LOTRAOM.Momentum
     {
         ArmyGathered,
         BattleWon,
-        Casualty,
-        Raid,
-        Siege,
-        Occupied
+        VillagesRaided,
+        Sieges,
+        RelativeStrength
     }
     //public struct MomentumBreakdown
     //{
