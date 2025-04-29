@@ -1,0 +1,43 @@
+﻿<Prefab>
+	<Constants>
+		<Constant Name="Medium.BannerWidth" Value="!Medium.Height" />
+		<Constant Name="Medium.BannerHeight" MultiplyResult="1.3333" Value="!Medium.BannerWidth"/>
+
+		<Constant Name="Medium.Width" Value="210" />
+		<Constant Name="Medium.Height" Value="45" />
+
+		<Constant Name="RetreatIconSize" Value="30"/>
+		<Constant Name="RetreatIconMargin" MultiplyResult="0.5" Value="!RetreatIconSize" />
+
+		<Constant Name="Conversation.Relation.Background.Width" BrushLayer="Default" BrushName="Conversation.Relation.Background" BrushValueType="Width" />
+		<Constant Name="Conversation.Relation.Background.Width.Scaled" Value="!Conversation.Relation.Background.Width" MultiplyResult="2" />
+		<Constant Name="Conversation.Relation.Background.Height" BrushLayer="Default" BrushName="Conversation.Relation.Background" BrushValueType="Height" />
+		<Constant Name="Conversation.Relation.Background.Height.Scaled" Value="!Conversation.Relation.Background.Height" MultiplyResult="2" />
+
+		<Constant Name="Conversation.Relation.Handle.Width" BrushLayer="Default" BrushName="Kingdom.Support.Handle" BrushValueType="Width" />
+		<Constant Name="Conversation.Relation.Handle.Width.Scaled" Value="!Conversation.Relation.Handle.Width" MultiplyResult="2" />
+		<Constant Name="Conversation.Relation.Handle.Height" BrushLayer="Default" BrushName="Conversation.Relation.Handle" BrushValueType="Height" />
+		<Constant Name="Conversation.Relation.Handle.Height.Scaled" Value="!Conversation.Relation.Handle.Height" MultiplyResult="2" />
+	</Constants>
+	<Window>
+
+		<Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Top" >
+			<Children>
+				<TextWidget DataSource="{MomentumIndicator}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="100" SuggestedWidth="200"  PositionYOffset="80" HorizontalAlignment="Center" Text="@MomentumIndicatorText" />
+				<ButtonWidget DataSource="{MomentumIndicator}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Command.Click="OpenDetailedBalanceOfPowerView" DoNotPassEventsToChildren="true" UpdateChildrenStates="true">
+					<Children>
+						<SliderWidget Sprite="BlankWhiteSquare_9" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="350" SuggestedHeight="65" HorizontalAlignment="Center" DoNotUpdateHandleSize="true" Handle="SliderHandle" IsDiscrete="true" Locked="false" MaxValueInt="100" MinValueInt="-100" ValueInt="@Momentum" MarginTop="10" IsEnabled="false">
+							<Children>
+								<Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="400" SuggestedHeight="65" HorizontalAlignment="Center" Sprite="SPKingdom\progress_bar_frame" PositionYOffset="0" PositionXOffset="2" />
+								<ImageWidget Sprite="BlankWhiteSquare_9" Id="SliderHandle" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Conversation.Relation.Handle.Width" SuggestedHeight="75" HorizontalAlignment="Left" VerticalAlignment="Center" IsEnabled="false">
+									<Children>
+									</Children>
+								</ImageWidget>
+							</Children>
+						</SliderWidget>
+					</Children>
+				</ButtonWidget>
+			</Children>
+		</Widget>
+	</Window>
+</Prefab>

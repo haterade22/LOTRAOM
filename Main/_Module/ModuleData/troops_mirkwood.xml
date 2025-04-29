@@ -3,7 +3,7 @@
 	<NPCCharacter id="mirkwood_recruit"
 		default_group="Infantry"
 		level="36"
-		name="{=mirkwood_recruit}Silvan Levy"
+		name="{=mirkwood_recruit}[Mirkwood] Silvan Levy"
 		occupation="Soldier"
 		is_basic_troop="true"
 		culture="Culture.mirkwood">
@@ -31,10 +31,10 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_4_t4" />
+					id="Item.mirkwood_sword_a01" />
 				<equipment
 					slot="Item1"
-					id="Item.wm_elven_shield_a" />
+					id="Item.wm_mirkwood_shield_a01" />
 				<equipment
 					slot="Head"
 					id="Item.mirkwood_helmet" />
@@ -62,7 +62,7 @@
 	<NPCCharacter id="mirkwood_woodsman"
 		default_group="Infantry"
 		level="41"
-		name="{=mirkwood_woodsman}Greenwood Woodsman"
+		name="{=mirkwood_woodsman}[Mirkwood] Greenwood Woodsman"
 		occupation="Soldier"
 		culture="Culture.mirkwood">
 		<face>
@@ -85,7 +85,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_lossarnach_2h_axe_b" />
+					id="Item.mirkwood_glaive_a01" />
 				<equipment
 					slot="Head"
 					id="Item.mirkwood_helmet" />
@@ -111,7 +111,7 @@
 	<NPCCharacter id="mirkwood_guards"
 		default_group="Infantry"
 		level="41"
-		name="{=mirkwood_guards}Greenwood Guards"
+		name="{=mirkwood_guards}[Mirkwood] Greenwood Guards"
 		occupation="Soldier"
 		culture="Culture.mirkwood">
 		<face>
@@ -134,10 +134,10 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_4_t4" />
+					id="Item.mirkwood_sword_a01" />
 				<equipment
 					slot="Item1"
-					id="Item.wm_elven_shield_a" />
+					id="Item.wm_mirkwood_shield_a01" />
 				<equipment
 					slot="Head"
 					id="Item.mirkwood_helmet" />
@@ -163,7 +163,7 @@
 	<NPCCharacter id="mirkwood_wardens"
 		default_group="Infantry"
 		level="41"
-		name="{=mirkwood_guards}Greenwood Wardens"
+		name="{=mirkwood_guards}[Mirkwood] Greenwood Wardens"
 		occupation="Soldier"
 		culture="Culture.mirkwood">
 		<face>
@@ -186,10 +186,10 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.mirkwood_spear_a01" />
 				<equipment
 					slot="Item1"
-					id="Item.wm_elven_shield_a" />
+					id="Item.wm_mirkwood_shield_a01" />
 				<equipment
 					slot="Head"
 					id="Item.mirkwood_helmet" />
@@ -215,7 +215,7 @@
 	<NPCCharacter id="mirkwood_sentinels"
 		default_group="Ranged"
 		level="41"
-		name="{=mirkwood_sentinels}Silvan Sentinels"
+		name="{=mirkwood_sentinels}[Mirkwood] Silvan Sentinels"
 		occupation="Soldier"
 		culture="Culture.mirkwood">
 		<face>
@@ -238,13 +238,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.highelf_longbowb" />
+					id="Item.wm_mirkwood_bow_a01" />
 				<equipment
 					slot="Item1"
-					id="Item.piercing_arrows" />
+					id="Item.wm_mirkwood_arrow_a01" />
 				<equipment
 					slot="Item2"
-					id="Item.piercing_arrows" />
+					id="Item.wm_mirkwood_arrow_a02" />
 				<equipment
 					slot="Item3"
 					id="Item.aserai_sword_3_t3" />
@@ -273,7 +273,7 @@
 	<NPCCharacter id="mirkwood_rochenlas"
 		default_group="Cavalry"
 		level="41"
-		name="{=mirkwood_rochenlas}Mirkwood Róchenlas"
+		name="{=mirkwood_rochenlas}[Mirkwood] Mirkwood Róchenlas"
 		occupation="Soldier"
 		culture="Culture.mirkwood">
 		<face>
@@ -296,10 +296,10 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.empire_lance_3_t5" />
+					id="Item.mirkwood_spear_a02" />
 				<equipment
 					slot="Item1"
-					id="Item.wm_elven_shield_a" />
+					id="Item.wm_mirkwood_shield_a01" />
 				<equipment
 					slot="Head"
 					id="Item.mirkwood_helmet" />
@@ -331,7 +331,7 @@
 	<NPCCharacter id="mirkwood_beleglas"
 			default_group="Cavalry"
 			level="46"
-			name="{=mirkwood_beleglas}Mirkwood Béleglas"
+			name="{=mirkwood_beleglas}[Mirkwood] Mirkwood Béleglas"
 			occupation="Soldier"
 			culture="Culture.mirkwood">
 		<face>
@@ -353,13 +353,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.empire_lance_3_t5" />
+					id="Item.mirkwood_spear_a02" />
 				<equipment
 					slot="Item1"
-					id="Item.wm_elven_shield_a" />
+					id="Item.wm_mirkwood_shield_a01" />
 				<equipment
 					slot="Item1"
-					id="Item.wm_elven_shield_a" />
+					id="Item.wm_mirkwood_shield_a01" />
 				<equipment
 					slot="Head"
 					id="Item.mirkwood_helmet" />
@@ -391,7 +391,7 @@
 	<NPCCharacter id="mirkwood_borderwardens"
 		default_group="Ranged"
 		level="46"
-		name="{=mirkwood_borderwardens}Silvan Borderwarden"
+		name="{=mirkwood_borderwardens}[Mirkwood] Silvan Borderwarden"
 		occupation="Soldier"
 		culture="Culture.mirkwood">
 		<face>
@@ -414,13 +414,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.highelf_longbowc" />
+					id="Item.wm_mirkwood_bow_a01" />
 				<equipment
 					slot="Item1"
-					id="Item.piercing_arrows" />
+					id="Item.wm_mirkwood_arrow_a02" />
 				<equipment
 					slot="Item2"
-					id="Item.piercing_arrows" />
+					id="Item.wm_mirkwood_arrow_a01" />
 				<equipment
 					slot="Item3"
 					id="Item.aserai_sword_3_t3" />
@@ -450,7 +450,7 @@
 	<NPCCharacter id="mirkwood_guardians"
 		default_group="Infantry"
 		level="46"
-		name="{=mirkwood_guardians}Guardians of Felegoth"
+		name="{=mirkwood_guardians}[Mirkwood] Guardians of Felegoth"
 		occupation="Soldier"
 		culture="Culture.mirkwood">
 		<face>
@@ -473,7 +473,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.mirkwood_spear_a01" />
 				<equipment
 					slot="Head"
 					id="Item.mirkwood_helmet" />
@@ -499,7 +499,7 @@
 	<NPCCharacter id="mirkwood_glaivesman"
 		default_group="Infantry"
 		level="46"
-		name="{=mirkwood_glaivesman}Glaivesman of Amon"
+		name="{=mirkwood_glaivesman}[Mirkwood] Glaivesman of Amon"
 		occupation="Soldier"
 		culture="Culture.mirkwood">
 		<face>
@@ -521,7 +521,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_lossarnach_2h_axe_b" />
+					id="Item.mirkwood_glaive_a01" />
 				<equipment
 					slot="Head"
 					id="Item.mirkwood_helmet" />
@@ -548,7 +548,7 @@
 	<NPCCharacter id="mirkwood_swordsman"
 		default_group="Infantry"
 		level="46"
-		name="{=mirkwood_swordsman}Greenwood Swordsman"
+		name="{=mirkwood_swordsman}[Mirkwood] Greenwood Swordsman"
 		occupation="Soldier"
 		culture="Culture.mirkwood">
 		<face>
@@ -570,10 +570,10 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_4_t4" />
+					id="Item.mirkwood_sword_a01" />
 				<equipment
 					slot="Item1"
-					id="Item.wm_elven_shield_a" />
+					id="Item.wm_mirkwood_shield_a01" />
 				<equipment
 					slot="Head"
 					id="Item.mirkwood_helmet" />
@@ -601,7 +601,7 @@
 	<NPCCharacter id="mirkwood_palaceguard"
 		default_group="Infantry"
 		level="51"
-		name="{=mirkwood_palaceguard}Mirkwood Palace Guard"
+		name="{=mirkwood_palaceguard}[Mirkwood] Palace Guard"
 		occupation="Soldier"
 		culture="Culture.mirkwood">
 		<face>
@@ -623,10 +623,10 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_4_t4" />
+					id="Item.mirkwood_spear_a01" />
 				<equipment
 					slot="Item1"
-					id="Item.wm_elven_shield_a" />
+					id="Item.wm_mirkwood_shield_a01" />
 				<equipment
 					slot="Head"
 					id="Item.mirkwood_helmet" />
@@ -652,7 +652,7 @@
 	<NPCCharacter id="mirkwood_thingolheir"
 		default_group="Ranged"
 		level="51"
-		name="{=mirkwood_thingolheir}Thingol's Heirs"
+		name="{=mirkwood_thingolheir}[Mirkwood] Thingol's Heirs"
 		occupation="Soldier"
 		culture="Culture.mirkwood">
 		<face>
@@ -674,13 +674,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.highelf_longbowd" />
+					id="Item.wm_mirkwood_bow_a01" />
 				<equipment
 					slot="Item1"
-					id="Item.piercing_arrows" />
+					id="Item.wm_mirkwood_arrow_a03" />
 				<equipment
 					slot="Item2"
-					id="Item.piercing_arrows" />
+					id="Item.wm_mirkwood_arrow_a02" />
 				<equipment
 					slot="Item3"
 					id="Item.aserai_sword_3_t3" />

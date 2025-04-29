@@ -3,7 +3,7 @@
 	<NPCCharacter id="harad_levy"
 		default_group="Infantry"
 		level="6"
-		name="{=harad_levy}Haradrim Levy"
+		name="{=harad_levy}[Harad] Levy"
 		occupation="Soldier"
 		is_basic_troop="true"
 		culture="Culture.aserai">
@@ -54,7 +54,7 @@
 	<NPCCharacter id="harad_militia"
 		default_group="Infantry"
 		level="11"
-		name="{=harad_militia}Haradrim Militia"
+		name="{=harad_militia}[Harad] Militia"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -102,7 +102,7 @@
 	<NPCCharacter id="harad_skirmisher"
 		default_group="Ranged"
 		level="11"
-		name="{=harad_skirmisher}Haradrim Skirmisher"
+		name="{=harad_skirmisher}[Harad] Skirmisher"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -139,7 +139,7 @@
 	<NPCCharacter id="harad_spearfighter"
 		default_group="Infantry"
 		level="16"
-		name="{=harad_spearfighter}Haradrim Spear Fighter"
+		name="{=harad_spearfighter}[Harad] Spear Fighter"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -192,7 +192,7 @@
 	<NPCCharacter id="harad_swordfighter"
 		default_group="Infantry"
 		level="16"
-		name="{=harad_swordfighter}Haradrim Sword Fighter"
+		name="{=harad_swordfighter}[Harad] Sword Fighter"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -267,7 +267,7 @@
 	<NPCCharacter id="harad_archer"
 		default_group="Ranged"
 		level="16"
-		name="{=harad_archer}Harad Desert Archer"
+		name="{=harad_archer}[Harad] Desert Archer"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -320,7 +320,7 @@
 	<NPCCharacter id="harad_camelscout"
 			default_group="Cavalry"
 			level="16"
-			name="{=harad_camelscout}Harad Camel Scout"
+			name="{=harad_camelscout}[Harad] Camel Scout"
 			occupation="Soldier"
 			culture="Culture.aserai">
 		<face>
@@ -384,7 +384,7 @@
 	<NPCCharacter id="harad_spearguard"
 		default_group="Infantry"
 		level="21"
-		name="{=harad_spearguard}Haradrim Spear Guard"
+		name="{=harad_spearguard}[Harad] Spear Guard"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -436,7 +436,7 @@
 	<NPCCharacter id="harad_footman"
 		default_group="Infantry"
 		level="21"
-		name="{=harad_footman}Haradrim Footman"
+		name="{=harad_footman}[Harad] Footman"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -489,7 +489,7 @@
 	<NPCCharacter id="harad_marksman"
 		default_group="Ranged"
 		level="21"
-		name="{=harad_marksman}Haradrim Marksman"
+		name="{=harad_marksman}[Harad] Marksman"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -529,7 +529,7 @@
 	<NPCCharacter id="harad_camelrider"
 	default_group="Cavalry"
 	level="21"
-	name="{=harad_camelrider}Haradrim Camel Rider"
+	name="{=harad_camelrider}[Harad] Camel Rider"
 	occupation="Soldier"
 	culture="Culture.aserai">
 		<face>
@@ -590,7 +590,7 @@
 	<NPCCharacter id="harad_sunlance"
 		default_group="Infantry"
 		level="26"
-		name="{=harad_sunlance}Haradrim Sunlance"
+		name="{=harad_sunlance}[Harad] Sunlance"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -629,7 +629,7 @@
 	<NPCCharacter id="harad_bronzefang"
 	default_group="Infantry"
 	level="26"
-	name="{=harad_bronzefang}Haradrim Bronze Fang"
+	name="{=harad_bronzefang}[Harad] Bronze Fang"
 	occupation="Soldier"
 	culture="Culture.aserai">
 		<face>
@@ -669,7 +669,7 @@
 	<NPCCharacter id="harad_vipereye"
 	default_group="Ranged"
 	level="26"
-	name="{=harad_vipereye}Haradrim Viper"
+	name="{=harad_vipereye}[Harad] Viper"
 	occupation="Soldier"
 	culture="Culture.aserai">
 		<face>
@@ -724,7 +724,7 @@
 	<NPCCharacter id="harad_camel_lancer"
 		default_group="Cavalry"
 		level="26"
-		name="{=harad_camel_lancer}Haradrim Camel Lancer"
+		name="{=harad_camel_lancer}[Harad] Camel Lancer"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -787,7 +787,7 @@
 	<NPCCharacter id="harad_warlance"
 		default_group="Infantry"
 		level="31"
-		name="{=harad_warlance}Haradrim Warlance"
+		name="{=harad_warlance}[Harad] Warlance"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -826,7 +826,7 @@
 	<NPCCharacter id="harad_champion"
 		default_group="Infantry"
 		level="31"
-		name="{=harad_champion}Haradrim Champion"
+		name="{=harad_champion}[Harad] Champion"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -877,7 +877,7 @@
 	<NPCCharacter id="harad_serpent_eye"
 		default_group="Ranged"
 		level="31"
-		name="{=harad_serpent_eye}Haradrim Serpent Eyes"
+		name="{=harad_serpent_eye}[Harad] Serpent Eyes"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -931,7 +931,7 @@
 	<NPCCharacter id="harad_noble"
 		default_group="Cavalry"
 		level="11"
-		name="{=harad_noble}Youngblood of the Serpent"
+		name="{=harad_noble}[Harad] Youngblood of the Serpent"
 		occupation="Soldier"
 		is_basic_troop="true"
 		culture="Culture.aserai">
@@ -977,7 +977,7 @@
 	<NPCCharacter id="harad_sandblade"
 		default_group="Infantry"
 		level="16"
-		name="{=harad_sandblade}Initiate of the Sand Blades"
+		name="{=harad_sandblade}[Harad] Initiate of the Sand Blades"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -1015,7 +1015,7 @@
 	<NPCCharacter id="harad_gildedfang"
 		default_group="Cavalry"
 		level="21"
-		name="{=harad_gildedfang}Warrior of the Gilded Fang"
+		name="{=harad_gildedfang}[Harad] Warrior of the Gilded Fang"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -1077,7 +1077,7 @@
 	<NPCCharacter id="harad_horsearcher"
 		default_group="HorseArcher"
 		level="21"
-		name="{=harad_horsearcher}Rider of the Golden Veil"
+		name="{=harad_horsearcher}[Harad] Rider of the Golden Veil"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -1141,7 +1141,7 @@
 	<NPCCharacter id="harad_serpentguard"
 		default_group="Cavalry"
 		level="26"
-		name="{=harad_serpentguard}Serpent Guard"
+		name="{=harad_serpentguard}[Harad] Serpent Guard"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -1202,7 +1202,7 @@
 	<NPCCharacter id="harad_serpenthorsearcher"
 		default_group="HorseArcher"
 		level="26"
-		name="{=harad_serpenthorsearcher}Serpent Archer"
+		name="{=harad_serpenthorsearcher}[Harad] Serpent Archer"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>
@@ -1265,7 +1265,7 @@
 	<NPCCharacter id="harad_fangking"
 		default_group="Cavalry"
 		level="31"
-		name="{=harad_fangking}Fang of the King"
+		name="{=harad_fangking}[Harad] Fang of the King"
 		occupation="Soldier"
 		culture="Culture.aserai">
 		<face>

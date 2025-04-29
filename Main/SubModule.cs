@@ -9,18 +9,27 @@ using TaleWorlds.MountAndBlade;
 using LOTRAOM.Models;
 using TaleWorlds.CampaignSystem.ComponentInterfaces;
 using LOTRAOM.Patches;
-using TaleWorlds.CampaignSystem.ViewModelCollection;
+using LOTRAOM.Extensions;
+using LOTRAOM.Momentum;
+using LOTRAOM.CampaignBehaviors;
+using System;
+using TaleWorlds.MountAndBlade.Diamond;
+
 namespace LOTRAOM
 {
     public class SubModule : MBSubModuleBase
     {
         private Harmony harmony = new Harmony("com.lotrmod.lotr_lome");
         private bool manualPatchesHaveFired;
+
         protected override void OnSubModuleLoad()
         {
             Harmony.DEBUG = true;
             base.OnSubModuleLoad();
             harmony.PatchAll();
+
+            CampaignTime startTime = CampaignTime.Years(3017) + CampaignTime.Hours(12);
+            typeof(CampaignData).GetField("CampaignStartTime", System.Reflection.BindingFlags.Static | System.Reflection.BindingFlags.Public)?.SetValue(null, startTime);
 
             RemoveSandboxAndStoryOptions();
             Module.CurrentModule.AddInitialStateOption(
@@ -29,6 +38,7 @@ namespace LOTRAOM
                 () => (Module.CurrentModule.IsOnlyCoreContentEnabled, new("Disabled during installation.", null)))
             );
         }
+
         private static void RemoveSandboxAndStoryOptions()
         {
             List<InitialStateOption> initialOptionsList = Module.CurrentModule.GetInitialStateOptions().ToList();
@@ -39,22 +49,30 @@ namespace LOTRAOM
                 Module.CurrentModule.AddInitialStateOption(initialStateOption);
             }
         }
+
         public override void OnAfterGameInitializationFinished(Game game, object starterObject)
         {
             Globals.IsNewCampaignCreating = false;
         }
+
         public override void OnNewGameCreated(Game game, object initializerObject)
         {
             base.OnNewGameCreated(game, initializerObject);
             Globals.IsNewCampaignCreating = true;
         }
+
         protected override void OnGameStart(Game game, IGameStarter gameStarterObject)
         {
             base.OnGameStart(game, gameStarterObject);
 
+            // Initialize race system
+            RaceManager.InitializeRaces();
+
             if (gameStarterObject is CampaignGameStarter campaignGameStarter)
             {
                 campaignGameStarter.AddBehavior(new KeepHeroRaceCampaignBehavior());
+                campaignGameStarter.AddBehavior(new AoMDiplomacy());
+                campaignGameStarter.AddBehavior(new MomentumCampaignBehavior());
 
                 // models
                 campaignGameStarter.AddModel(new LOTRAOMNotableSpawnModel(campaignGameStarter.GetExistingModel<NotableSpawnModel>()));
@@ -67,7 +85,10 @@ namespace LOTRAOM
                 campaignGameStarter.AddModel(new AOMVolunteerModel(campaignGameStarter.GetExistingModel<VolunteerModel>()));
                 campaignGameStarter.AddModel(new AOMCharacterStatsModel(campaignGameStarter.GetExistingModel<CharacterStatsModel>()));
                 campaignGameStarter.AddModel(new AOMTroopUpgradeModel(campaignGameStarter.GetExistingModel<PartyTroopUpgradeModel>()));
-
+                campaignGameStarter.AddModel(new AOMDiplomacyModel(campaignGameStarter.GetExistingModel<DiplomacyModel>()));
+                campaignGameStarter.AddModel(new AoMSettlementFoodModel(campaignGameStarter.GetExistingModel<SettlementFoodModel>()));
+                campaignGameStarter.AddModel(new AoMSettlementProsperityModel(campaignGameStarter.GetExistingModel<SettlementProsperityModel>()));
+                campaignGameStarter.AddModel(new AOMKingdomDecisionPermissionModel());
             }
         }
 
@@ -81,11 +102,13 @@ namespace LOTRAOM
         {
             base.OnBeforeInitialModuleScreenSetAsRoot();
         }
+
         public override void OnGameLoaded(Game game, object initializerObject)
         {
             base.OnGameLoaded(game, initializerObject);
             LOTRAOMCharacterCreationContent.SetCultureFeats();
         }
+
         public override void OnGameInitializationFinished(Game game)
         {
             if (!manualPatchesHaveFired)
@@ -93,7 +116,9 @@ namespace LOTRAOM
                 manualPatchesHaveFired = true;
                 RunManualPatches();
             }
+            // RaceManager initialization moved to OnGameStart
         }
+
         private void RunManualPatches()
         {
 #pragma warning disable BHA0003 // Type was not found
@@ -103,6 +128,5 @@ namespace LOTRAOM
             harmony.Patch(originalTierMethod, prefix: new HarmonyMethod(typeof(GetCharacterTierDataPatch), nameof(GetCharacterTierDataPatch.Prefix)));
             harmony.Patch(originalDeserterMethod, prefix: new HarmonyMethod(typeof(PartiesDesertionPatch), nameof(PartiesDesertionPatch.Prefix)));
         }
-
     }
 }
