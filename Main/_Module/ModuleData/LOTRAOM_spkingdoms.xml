@@ -20,7 +20,7 @@
 		name="{=FjwRsf1C}Dunland"
 		short_name="{=8HMyTKF6}Dunland"
 		title="{=lAWwcO6b}Clans of Dunland"
-		ruler_title="{=hwnp9abW}King"
+		ruler_title="{=hwnp9abW}Brenin"
 		text="{=DunlandFactionDesc}Dunland, a rugged and untamed land of rolling hills and dense forests, is home to the fierce and independent Dunlendings. Often marginalized and at odds with their neighbors, the people of Dunland are hardened by centuries of struggle and survival. Their chieftains lead through strength and cunning, uniting clans under a shared banner of vengeance and freedom. Known for their ferocious warriors and skilled hunters, the Dunlendings favor axes, spears, and bows, fighting with a tenacity born from their deep connection to their ancestral lands. Though their ways may seem primitive to others, the Dunlendings are proud and resourceful, ready to reclaim their rightful place in Middle-earth.">
 		<relationships>
 			<relationship
@@ -151,14 +151,14 @@
 	<Kingdom
 		id="empire_s"
 		owner="Hero.lord_1_14"
-		banner_key="11.6.6.4345.4345.764.764.1.0.0.162.7.7.512.512.764.764.1.0.0"
-		primary_banner_color="0xff382188"
-		secondary_banner_color="0xffDEA940"
-		label_color="FF6d62b5"
-		color="FF9382D0"
-		color2="FFDE9953"
-		alternative_color="FFF4CA14"
-		alternative_color2="FF6d62b5"
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16034.2002.171.483.483.764.764.0.0.0"
+		primary_banner_color="0xff1A0C14"     
+		secondary_banner_color="0xffA02C2C"   
+		label_color="FF4A0000"               
+		color="FF2D1F21"                     
+		color2="FFA93226"                    
+		alternative_color="FF5E1F1F"          
+		alternative_color2="FF3D0D0D"         
 		culture="Culture.mordor"
 		settlement_banner_mesh="encounter_flag_a"
 		flag_mesh="info_screen_flags_b"
@@ -166,8 +166,8 @@
 		short_name="{=GbnlN6na}Mordor"
 		title="{=frBQ9mbP}Dominion of Mordor"
 		ruler_title="{=OoHhCa11}Mouth of Sauron"
-		text="{=Xtyb9Dyr}Mordor is a dark, desolate realm forged in shadow and ruled by the Dark Lord Sauron. Nestled behind the towering black mountains, this kingdom brims with orc armies, ruthless trolls, and fiery forges crafting weapons of war. From his fortress in Barad-dûr, Sauron commands an unstoppable force, poised to spread his dominion across Middle-earth. Mordor’s skies are clouded with ash, and its lands are barren, a fitting domain for Sauron’s twisted ambition and dark magic.">
-		<relationships>
+	text="{=Xtyb9Dyr}Mordor is a dark, desolate realm forged in shadow and ruled by the Dark Lord Sauron. Nestled behind the towering black mountains, this kingdom brims with orc armies, ruthless trolls, and fiery forges crafting weapons of war. From his fortress in Barad-dûr, Sauron commands an unstoppable force, poised to spread his dominion across Middle-earth. Mordor’s skies are clouded with ash, and its lands are barren, a fitting domain for Sauron’s twisted ambition and dark magic.">
+	<relationships>
 			<relationship
 				kingdom="Kingdom.khuzait"
 				value="1"
@@ -1186,7 +1186,7 @@
 	<Kingdom
 		id="gundabad"
 		owner="Hero.lord_G1_1"
-		banner_key="11.100.149.3000.3000.764.764.1.0.0.505.67.90.37.411.662.739.0.1.0.504.100.90.109.332.630.892.0.0.228.505.67.90.37.411.867.739.0.0.0.504.100.90.109.332.900.892.0.1.131.505.67.90.55.400.706.844.0.0.0.504.100.90.109.332.696.1035.0.0.118.505.67.90.55.400.823.843.0.1.0.504.67.90.58.148.839.642.0.0.352.504.100.90.109.332.833.1035.0.1.241.504.67.90.58.148.689.642.0.1.7.504.67.90.82.301.764.787.0.1.180.505.100.90.8.553.679.745.0.1.0.505.100.90.8.553.849.745.0.1.0.505.67.90.49.160.772.694.0.1.90.504.67.90.74.411.764.585.0.1.0.504.67.90.-27.237.608.819.0.0.43.504.67.90.-27.102.637.750.0.0.42.504.67.90.-27.132.632.668.0.0.42.504.67.90.-41.285.595.535.0.0.48.504.67.90.-37.265.661.498.0.0.0.504.67.90.-27.237.920.819.0.1.316.504.67.90.-27.102.891.750.0.1.317.504.67.90.-27.132.896.668.0.1.317.504.67.90.-41.285.933.535.0.1.311.504.67.90.-37.265.867.498.0.1.0"
+		banner_key="11.200.200.1528.1528.764.764.1.0.0.16036.2002.171.483.483.764.764.0.0.0"
 		primary_banner_color="0xff2D2D2D"
 		secondary_banner_color="0xff585858"
 		label_color="0xff1A1A1A"
@@ -1201,8 +1201,8 @@
 		short_name="{=gundabadkingdomshortname}Overlordship of Gundabad"
 		title="{=gundabadkingdomtitle}Gundabad"
 		ruler_title="{=gundabadrulertitle}Warlord"
-		text="{=gundabadKingdomText}Gundabad, the ancient and foreboding stronghold of the Orcs, stands as a bastion of savagery and domination. Rising from the shadow of Mount Gundabad, it is fortified by natural defenses and steeped in the brutal traditions of its masters. The Orcs of Gundabad, bred for war and chaos, rally under bloodied banners, their ferocity and sheer numbers a terror to all who stand against them. Within its darkened halls, the Warlord plots conquest, uniting the fractious tribes with a vision of Orc supremacy. Gundabad is a force of relentless power, poised to plunge Middle-earth into chaos and destruction.">
-		<relationships>
+	text="{=gundabadKingdomText}Gundabad, the ancient and foreboding stronghold of the Orcs, stands as a bastion of savagery and domination. Rising from the shadow of Mount Gundabad, it is fortified by natural defenses and steeped in the brutal traditions of its masters. The Orcs of Gundabad, bred for war and chaos, rally under bloodied banners, their ferocity and sheer numbers a terror to all who stand against them. Within its darkened halls, the Warlord plots conquest, uniting the fractious tribes with a vision of Orc supremacy. Gundabad is a force of relentless power, poised to plunge Middle-earth into chaos and destruction.">
+	<relationships>
 			<relationship
 				kingdom="Kingdom.khuzait"
 				value="1"

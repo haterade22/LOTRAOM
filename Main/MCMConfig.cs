@@ -58,10 +58,10 @@ namespace LOTRAOM
         [SettingPropertyGroup("{=aom_diplomacy}Diplomacy")]
         public bool BalanceOfPower { get; set; } = true;
 
-        [SettingPropertyBool("Isengard earliest attack date", RequireRestart = true, HintText = "CALCULATED AT CAMPAIGN START, default - 1 season = 21 days"),]
+        [SettingPropertyInteger("Isengard earliest attack date",1,730, RequireRestart = true, HintText = "CALCULATED AT CAMPAIGN START, default - 1 season = 21 days"),]
         [SettingPropertyGroup("{=aom_diplomacy}Diplomacy")]
         public int IsengardEarliestAttackDate { get; set; } = 21;
-        [SettingPropertyBool("Isengard latest attack date", RequireRestart = true, HintText = "CALCULATED AT CAMPAIGN START default - 1 year = 4 seasons = 84 days")]
+        [SettingPropertyInteger("Isengard latest attack date",1,730, RequireRestart = true, HintText = "CALCULATED AT CAMPAIGN START default - 1 year = 4 seasons = 84 days")]
         [SettingPropertyGroup("{=aom_diplomacy}Diplomacy")]
         public int IsengardLatestAttackDate { get; set; } = 84;
     }

@@ -589,7 +589,7 @@
 	head of aristocratic faction of empire 1 STEVEDIDFACE -->
 	<NPCCharacter
 		id="lord_1_1"
-		name="{=dunlandlordwulf}Wulf, the Ironhand"
+		name="{=dunlandlordwulf}Brenin Wulf, the Ironhand"
 		age="30"
 		voice="curt"
 		default_group="Cavalry"
@@ -598,16 +598,8 @@
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
-			<!--face_key
-			value="00005d2b0000034d649a77977876473b743a45888527b857869aa27956b54d3c000465a4653de87c00001105000030a30000001f000000000000000000002000"
-			/-->
-			<BodyProperties
-				version="4"
-				weight="0.7"
-				build="0.8"
-				key="00005C0B4000034D649A7797787A473B743A45888527B857869AA27956B54D3C0007A5A6073DE87C00001105000030A30000001F000000000000000001182000" />
-			<!-- Lucon should be older, over 60, and gaunt, ideally with a stoic's beard and a short
-			Roman-style haircut -->
+			<BodyProperties version="4" age="22.01" weight="0.5139" build="0.6435"  key="0008F006DBCC14D4878F1FFF4F9F1EEE7F018877888888888888888F7718F5F5008A8603088888880000000000000000000000000000000000000000431C4142"  />
+			
 			<hair_tags>
 				<hair_tag
 					name="Short" />

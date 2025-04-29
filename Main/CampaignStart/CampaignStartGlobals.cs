@@ -49,13 +49,13 @@ namespace LOTRAOM.CampaignStart
         {
             ["aserai"] = new CCCultureData(new List<string>() { "human"}, HumanBodyPropString),
             ["battania"] = new CCCultureData(new List<string>() { "human"}, HumanBodyPropString),
-            ["empire"] = new CCCultureData(new List<string>() { "human"}, HumanBodyPropString),
+            ["empire"] = new CCCultureData(new List<string>() { "human"}, DunlandBodyPropString),
             ["khuzait"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
             ["sturgia"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
-            ["vlandia"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
+            ["vlandia"] = new CCCultureData(new List<string>() { "human" }, RohanBodyPropString),
             ["gondor"] = new CCCultureData(new List<string>() { "human"}, HumanBodyPropString),
             ["mordor"] = new CCCultureData(new List<string>() { "uruk", "orc", "human" }, HumanBodyPropString),
-            ["erebor"] = new CCCultureData(new List<string>() { "dwarf" }, HumanBodyPropString),
+            ["erebor"] = new CCCultureData(new List<string>() { "dwarf" }, DwarfBodyPropString),
             ["rivendell"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
             ["mirkwood"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
             ["lothlorien"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
@@ -66,5 +66,12 @@ namespace LOTRAOM.CampaignStart
             ["default"] = new CCCultureData(new List<string>() { "human", "uruk", "orc", "dwarf" }, HumanBodyPropString) // in case culture is missing
         };
         private const string HumanBodyPropString = "<BodyProperties version=\"4\" age=\"22.35\" weight=\"0.5417\" build=\"0.5231\"  key=\"000DF00FC00033CD8771188F38770F8801F188778888888888888888546AF0F90088860308888888000000000000000000000000000000000000000043044144\"  />";
+
+        private const string DunlandBodyPropString = "<BodyProperties version=\"4\" age=\"22.01\" weight=\"0.5139\" build=\"0.6435\"  key=\"0008F006CAFC1A54878F1FFF4F9F1EEE7F018877888888888888888F7718F5F5008A8603088888880000000000000000000000000000000000000000431C4142\"  />";
+
+        private const string RohanBodyPropString = "<BodyProperties version=\"4\" age=\"22\" weight=\"0.5139\" build=\"0.6435\" key=\"0005280140001242947E068A709500460C7250703EB70F135C85021887733A070089B6030822BA9000000000000000000000000000000000000000003F1C7002\"  />";
+
+        private const string DwarfBodyPropString = "<BodyProperties version=\"4\" age=\"22.01\" weight=\"0.5648\" build=\"0.5347\"  key=\"0000040F0000300008801FFEFF8F0FFE109588878FF88067888878888D3010F30088860308FFF0AE000000000000000000000000000000000000000043040142\"  />";
+
     }
 }
