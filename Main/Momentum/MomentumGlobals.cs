@@ -35,5 +35,7 @@ namespace LOTRAOM.Momentum
         public static int MaxMomentumFromBattleWon { get { return 300; } } // battle casualties divided by total faction strength
         public static int MomentumFromSiege { get { return 5; } }
         public static int MomentumFromArmyGathering { get { return 2; } }
+        public static int MomentumMultiplierFromTotalStrength { get { return 10; } }
+        public static int MaxMomentumFromTotalStrength { get { return 40; } } // caps when one faction is 4 times stronger than the other
     }
 }

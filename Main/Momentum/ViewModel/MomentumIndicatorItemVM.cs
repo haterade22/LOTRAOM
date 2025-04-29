@@ -31,7 +31,7 @@ namespace LOTRAOM.Momentum.ViewModel
         [DataSourceProperty]
         public int Momentum
         {
-            get => MomentumCampaignBehavior.Instance.WarOfTheRingdata.Momentum;
+            get => MomentumCampaignBehavior.Instance.warOfTheRingData.Momentum;
         }
 
         private void OnMomentumChanged()

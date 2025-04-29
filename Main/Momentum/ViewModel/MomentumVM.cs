@@ -28,7 +28,7 @@ namespace LOTRAOM.Momentum.ViewModel
 
         private MBBindingList<FactionRelationshipVM> _goodFactionParticipants = new();
         private MBBindingList<FactionRelationshipVM> _evilFactionParticipants = new();
-        private WarOfTheRingData warOfTheRingData { get { return MomentumCampaignBehavior.Instance.WarOfTheRingdata; } }
+        private WarOfTheRingData warOfTheRingData { get { return MomentumCampaignBehavior.Instance.warOfTheRingData; } }
 
         MBBindingList<FactionRelationshipVM> _goodFactionLeader;
         MBBindingList<FactionRelationshipVM> _evilFactionLeader;
