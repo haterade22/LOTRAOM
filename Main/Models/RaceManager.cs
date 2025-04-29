@@ -57,6 +57,20 @@ namespace LOTRAOM
                     break;
             }
         }
+        // Apply race-specific damage bonuses when a character deals damage
+        public static void ApplyRaceBonusWhenDealingDamage(BasicCharacterObject attacker, DamageType damage, ref float dealtDamage)
+        {
+            RaceBonus bonus = GetRacialData(attacker);
+            switch (damage)
+            {
+                case DamageType.Ranged:
+                    dealtDamage *= (1f + bonus.RangedDamageBonus); // Apply ranged damage bonus
+                    break;
+                case DamageType.Melee:
+                    dealtDamage *= (1f + bonus.MeleeDamageBonus); // Apply melee damage bonus
+                    break;
+            }
+        }
 
         // Determine the damage type from a weapon
         public static DamageType GetDefaultDamage(MissionWeapon missionWeapon)
@@ -82,42 +96,58 @@ namespace LOTRAOM
             Other // Fall damage, kick, other
         }
 
-        // Class to store race-specific damage resistances
+       
+
+        // Class to store race-specific damage resistances/bonuses
         public class RaceBonus
         {
             public int MeleeResistance { get; }
             public int RangedResistance { get; }
+            public float MeleeDamageBonus { get; } // Percentage increase to melee damage (e.g., 0.2f = +20%)
+            public float RangedDamageBonus { get; } // Percentage increase to ranged damage (e.g., 0.1f = +10%)
 
-            public RaceBonus(int meleeResistance, int rangedResistance)
+            public RaceBonus(int meleeResistance, int rangedResistance, float meleeDamageBonus, float rangedDamageBonus)
             {
                 MeleeResistance = meleeResistance;
                 RangedResistance = rangedResistance;
+                MeleeDamageBonus = meleeDamageBonus;
+                RangedDamageBonus = rangedDamageBonus;
             }
         }
 
         // Dictionary of race bonuses for different races
         public static Dictionary<string, RaceBonus> RaceBonuses { get; } = new()
         {
-            // Humans have no special resistances (baseline)
-            ["human"] = new RaceBonus(0, 0),
+            // Humans have no special bonuses (baseline)
+            ["human"] = new RaceBonus(0, 0, 0f, 0f),
 
-            // Dwarves are resistant to damage
-            ["dwarf"] = new RaceBonus(2, 1),
+            // Dwarves excel in melee combat, slight ranged bonus
+            ["dwarf"] = new RaceBonus(2, 1, 0.15f, 0.05f), // +15% melee, +5% ranged
 
-            // Uruk-hai are tough against ranged attacks
-            ["uruk_hai"] = new RaceBonus(0, 2),
+            // Uruk-hai are strong melee fighters
+            ["uruk_hai"] = new RaceBonus(0, 2, 0.1f, 0f), // +10% melee, 0% ranged
 
-            // Berserkers have high melee resistance but vulnerability to arrows
-            ["berserker"] = new RaceBonus(3, -1),
+            // Berserkers deal high melee damage, no ranged bonus
+            ["berserker"] = new RaceBonus(3, -1, 0.2f, 0f), // +20% melee, 0% ranged
 
-            // Regular uruks
-            ["uruk"] = new RaceBonus(1, 1),
+            // Regular uruks have minor melee bonus
+            ["uruk"] = new RaceBonus(1, 1, 0.05f, 0f), // +5% melee, 0% ranged
 
-            // Orcs
-            ["orc"] = new RaceBonus(0, 0),
+            // Orcs have no special damage bonuses
+            ["orc"] = new RaceBonus(0, 0, 0f, 0f),
 
-            // Nazgûl have extreme resistances
-            ["nazghul"] = new RaceBonus(5, 5)
+            // Nazgûl deal high damage in both melee and ranged
+            ["nazghul"] = new RaceBonus(5, 5, 0.3f, 0.3f), // +30% melee, +30% ranged
+
+            // Cave trolls deal massive melee damage
+            ["cave_troll"] = new RaceBonus(2, 3, 0.5f, 0f), // +50% melee, 0% ranged
+
+            // Hill trolls deal high melee damage
+            ["hill_troll"] = new RaceBonus(2, 3, 0.4f, 0f) // +40% melee, 0% ranged
         };
+        // Apply race-specific damage bonuses when a character deals damage
+        
     }
-}
+
+
+    }

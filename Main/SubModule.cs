@@ -14,6 +14,7 @@ using LOTRAOM.Momentum;
 using LOTRAOM.CampaignBehaviors;
 using System;
 using TaleWorlds.MountAndBlade.Diamond;
+using TaleWorlds.MountAndBlade;
 
 namespace LOTRAOM
 {
@@ -59,6 +60,15 @@ namespace LOTRAOM
         {
             base.OnNewGameCreated(game, initializerObject);
             Globals.IsNewCampaignCreating = true;
+        }
+
+
+
+
+        public override void OnMissionBehaviorInitialize(Mission mission)
+        {
+            base.OnMissionBehaviorInitialize(mission);
+            
         }
 
         protected override void OnGameStart(Game game, IGameStarter gameStarterObject)
