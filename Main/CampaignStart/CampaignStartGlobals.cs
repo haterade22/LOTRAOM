@@ -53,17 +53,17 @@ namespace LOTRAOM.CampaignStart
             ["khuzait"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
             ["sturgia"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
             ["vlandia"] = new CCCultureData(new List<string>() { "human" }, RohanBodyPropString),
-            ["gondor"] = new CCCultureData(new List<string>() { "human"}, HumanBodyPropString),
+            ["gondor"] = new CCCultureData(new List<string>() { "human"}, GondorBodyPropString),
             ["mordor"] = new CCCultureData(new List<string>() { "uruk", "orc", "human" }, HumanBodyPropString),
             ["erebor"] = new CCCultureData(new List<string>() { "dwarf" }, DwarfBodyPropString),
             ["rivendell"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
             ["mirkwood"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
             ["lothlorien"] = new CCCultureData(new List<string>() { "human" }, HumanBodyPropString),
             ["umbar"] = new CCCultureData(new List<string>() { "human"}, HumanBodyPropString),
-            ["isengard"] = new CCCultureData(new List<string>() { "uruk_hai", "berserker", "cave_troll", "hill_troll" }, HumanBodyPropString),
+            ["isengard"] = new CCCultureData(new List<string>() { "uruk_hai", "berserker", "cave_troll"}, HumanBodyPropString),
             ["gundabad"] = new CCCultureData(new List<string>() { "uruk" }, HumanBodyPropString),
             ["dolguldur"] = new CCCultureData(new List<string>() { "uruk" }, HumanBodyPropString),
-            ["default"] = new CCCultureData(new List<string>() { "human", "uruk", "orc", "dwarf" }, HumanBodyPropString) // in case culture is missing
+            ["default"] = new CCCultureData(new List<string>() { "human", "uruk", "orc", "dwarf","uruk_hai" }, HumanBodyPropString) // in case culture is missing
         };
         private const string HumanBodyPropString = "<BodyProperties version=\"4\" age=\"22.35\" weight=\"0.5417\" build=\"0.5231\"  key=\"000DF00FC00033CD8771188F38770F8801F188778888888888888888546AF0F90088860308888888000000000000000000000000000000000000000043044144\"  />";
 
@@ -73,5 +73,6 @@ namespace LOTRAOM.CampaignStart
 
         private const string DwarfBodyPropString = "<BodyProperties version=\"4\" age=\"22.01\" weight=\"0.5648\" build=\"0.5347\"  key=\"0000040F0000300008801FFEFF8F0FFE109588878FF88067888878888D3010F30088860308FFF0AE000000000000000000000000000000000000000043040142\"  />";
 
+        private const string GondorBodyPropString = "<BodyProperties version=\"4\" age=\"30.16\" weight=\"0\" build=\"0.7222\"  key=\"0015000D800013420F800A1A098007985FFD8660BE886A0167895C1885BB9A60009B06030909B70500000000000000000000000000000000000000003F3C2002\"  />";
     }
 }

@@ -543,14 +543,14 @@
 	<Kingdom
 		id="battania"
 		owner="Hero.lord_5_1"
-		banner_key="11.2.2.6296.6296.764.764.1.0.0.460.3.3.457.457.764.764.1.0.0"
-		primary_banner_color="0xff284E19"
-		secondary_banner_color="0xffB4F0F1"
-		label_color="FF55831A"
-		color="FF2D3F1D"
-		color2="FFBFCBB0"
-		alternative_color="FFD69516"
-		alternative_color2="FF55831A"
+		banner_key="11.221.221.1528.1528.764.764.1.0.0.309.2010.171.483.483.764.764.0.0.0"
+		primary_banner_color="0xff8A4E20"   
+		secondary_banner_color="0xff767676"   
+		label_color="FF9D6231"               
+		color="FF6E3A12"                     
+		color2="FF9E9E9E"                     
+		alternative_color="FFB7B7B7"         
+		alternative_color2="FF644729"         
 		culture="Culture.battania"
 		settlement_banner_mesh="encounter_flag_e"
 		flag_mesh="info_screen_flags_b"
@@ -558,8 +558,8 @@
 		short_name="{=bgjiFSHZ}Khand"
 		title="{=qaDIU0XC}Windriders of Khand"
 		ruler_title="{=afvM7XpQ}Khûdriag"
-		text="{=KhandFactionDesc}Khand, a rugged land of rolling steppes and arid plains, lies southeast of Mordor and serves as a critical corridor between the east and west. Its landscape is marked by expansive grasslands, dry riverbeds, and scattered rocky outcroppings. Historically a region of nomadic tribes, Khand has seen countless raids and battles as its people vie for dominance and survival. Its steppes are traversed by swift riders and caravans, connecting it to the trade routes of Harad and Rhûn. The Variags of Khand, renowned for their martial prowess, draw strength from their harsh environment, and their settlements reflect a blend of utilitarian fortifications and cultural artistry. Khand’s alliance with Sauron has turned this land into a staging ground for his eastern campaigns, its windswept plains echoing with the hoofbeats of war.">
-		<relationships>
+	text="{=KhandFactionDesc}Khand, a rugged land of rolling steppes and arid plains, lies southeast of Mordor and serves as a critical corridor between the east and west. Its landscape is marked by expansive grasslands, dry riverbeds, and scattered rocky outcroppings. Historically a region of nomadic tribes, Khand has seen countless raids and battles as its people vie for dominance and survival. Its steppes are traversed by swift riders and caravans, connecting it to the trade routes of Harad and Rhûn. The Variags of Khand, renowned for their martial prowess, draw strength from their harsh environment, and their settlements reflect a blend of utilitarian fortifications and cultural artistry. Khand’s alliance with Sauron has turned this land into a staging ground for his eastern campaigns, its windswept plains echoing with the hoofbeats of war.">
+	<relationships>
 			<relationship
 				kingdom="Kingdom.khuzait"
 				value="1"
