@@ -3,8 +3,9 @@ using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.CharacterDevelopment;
-using Helpers;
 using TaleWorlds.MountAndBlade.ComponentInterfaces;
+using System;
+using TaleWorlds.Localization;
 
 namespace LOTRAOM
 {
@@ -18,30 +19,71 @@ namespace LOTRAOM
 
         public override float CalculateDamage(in AttackInformation attackInformation, in AttackCollisionData collisionData, in MissionWeapon weapon, float baseDamage)
         {
-            // Apply base damage calculation including campaign perks and banner effects
-            float modifiedDamage = _defaultModel.CalculateDamage(attackInformation, collisionData, weapon, baseDamage);
-
-            // Apply race-specific damage bonuses for the attacker
-            if (attackInformation.AttackerAgentCharacter != null)
+            try
             {
-                RaceManager.DamageType damageType = RaceManager.GetDefaultDamage(weapon);
-                RaceManager.ApplyRaceBonusWhenDealingDamage(attackInformation.AttackerAgentCharacter, damageType, ref modifiedDamage);
-            }
+                // Initialize with default model’s damage, including campaign perks and banner effects
+                ExplainedNumber modifiedDamage = new ExplainedNumber(
+                    baseNumber: _defaultModel.CalculateDamage(attackInformation, collisionData, weapon, baseDamage),
+                    includeDescriptions: true,
+                    baseText: new TextObject("{=lotraom_base_damage}Base Damage")
+                );
 
-            // Apply race-specific damage resistances for the defender
-            if (attackInformation.VictimAgentCharacter != null)
+                // Apply race-specific damage bonuses for the attacker
+                if (attackInformation.AttackerAgentCharacter != null)
+                {
+                    RaceManager.DamageType damageType = RaceManager.GetDefaultDamage(weapon);
+                    if (damageType != RaceManager.DamageType.Other)
+                    {
+                        RaceManager.ApplyRaceBonusWhenDealingDamage(
+                            character: attackInformation.AttackerAgentCharacter,
+                            damageType: damageType,
+                            damage: ref modifiedDamage,
+                            description: new TextObject("{=lotraom_attacker_bonus}{CULTURE} {TYPE} Damage Bonus")
+                                .SetTextVariable("CULTURE", attackInformation.AttackerAgentCharacter.Culture.Name)
+                                .SetTextVariable("TYPE", damageType == RaceManager.DamageType.Melee ? "Melee" : "Ranged")
+                        );
+                    }
+                }
+
+                // Apply race-specific damage resistances for the defender
+                if (attackInformation.VictimAgentCharacter != null)
+                {
+                    RaceManager.DamageType damageType = RaceManager.GetDefaultDamage(weapon);
+                    if (damageType != RaceManager.DamageType.Other)
+                    {
+                        RaceManager.ApplyRaceBonusWhenGotHit(
+                            character: attackInformation.VictimAgentCharacter,
+                            damageType: damageType,
+                            damage: ref modifiedDamage,
+                            description: new TextObject("{=lotraom_defender_resistance}{CULTURE} {TYPE} Damage Resistance")
+                                .SetTextVariable("CULTURE", attackInformation.VictimAgentCharacter.Culture.Name)
+                                .SetTextVariable("TYPE", damageType == RaceManager.DamageType.Melee ? "Melee" : "Ranged")
+                        );
+                    }
+                }
+
+                // Apply siege engine damage multiplier for sally-out battles
+                if (IsSiegeEngineHit && Mission.Current?.IsSallyOutBattle == true)
+                {
+                    modifiedDamage.AddFactor(
+                        value: SallyOutSiegeEngineDamageMultiplier - 1f,
+                        description: new TextObject("{=lotraom_siege_bonus}Sally-Out Siege Engine Bonus")
+                    );
+                }
+
+                // Ensure non-negative damage
+                modifiedDamage.LimitMin(0f);
+
+                return modifiedDamage.ResultNumber;
+            }
+            catch (Exception ex)
             {
-                RaceManager.DamageType damageType = RaceManager.GetDefaultDamage(weapon);
-                RaceManager.ApplyRaceBonusWhenGotHit(attackInformation.VictimAgentCharacter, damageType, ref modifiedDamage);
+                InformationManager.DisplayMessage(new InformationMessage(
+                    $"LOTRAOM Error: Damage calculation failed: {ex.Message}",
+                    Colors.Red
+                ));
+                return _defaultModel.CalculateDamage(attackInformation, collisionData, weapon, baseDamage); // Fallback
             }
-
-            // Apply siege engine damage multiplier for sally-out battles
-            if (IsSiegeEngineHit && Mission.Current.IsSallyOutBattle)
-            {
-                modifiedDamage *= SallyOutSiegeEngineDamageMultiplier;
-            }
-
-            return MathF.Max(0f, modifiedDamage);
         }
 
         // Implement other required methods, delegating to the default model
@@ -100,10 +142,8 @@ namespace LOTRAOM
             return _defaultModel.DecideMountRearedByBlow(attackerAgent, victimAgent, collisionData, attackerWeapon, blow);
         }
 
-        // Add GetAgentStateProbability to match runtime expectation
         public float GetAgentStateProbability(Agent attacker, Agent victim, DamageTypes damageType, WeaponFlags weaponFlags, out float unconsciousnessProbability)
         {
-            // Default implementation: 50% chance to kill if fatal, 50% chance to knock unconscious
             unconsciousnessProbability = 0.5f;
             return damageType == DamageTypes.Invalid ? 0f : 0.5f;
         }

@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
+using TaleWorlds.Library;
+using TaleWorlds.Localization;
 using TaleWorlds.MountAndBlade;
 
 namespace LOTRAOM
@@ -44,30 +46,49 @@ namespace LOTRAOM
         }
 
         // Apply race-specific damage bonuses when a character is hit
-        public static void ApplyRaceBonusWhenGotHit(BasicCharacterObject character, DamageType damage, ref float returnDamage)
+        // Apply race-specific damage bonuses when a character is hit
+        public static void ApplyRaceBonusWhenGotHit(BasicCharacterObject character, DamageType damageType, ref ExplainedNumber damage, TextObject description)
         {
+            if (character == null || description == null)
+                return;
+
             RaceBonus bonus = GetRacialData(character);
-            switch (damage)
+            switch (damageType)
             {
                 case DamageType.Ranged:
-                    returnDamage -= bonus.RangedResistance;
+                    if (bonus.RangedResistance != 0)
+                    {
+                        damage.Add(-bonus.RangedResistance, description); // Apply ranged resistance (e.g., -5 for Nazgûl)
+                    }
                     break;
                 case DamageType.Melee:
-                    returnDamage -= bonus.MeleeResistance;
+                    if (bonus.MeleeResistance != 0)
+                    {
+                        damage.Add(-bonus.MeleeResistance, description); // Apply melee resistance (e.g., -2 for Dwarf)
+                    }
                     break;
             }
         }
         // Apply race-specific damage bonuses when a character deals damage
-        public static void ApplyRaceBonusWhenDealingDamage(BasicCharacterObject attacker, DamageType damage, ref float dealtDamage)
+        public static void ApplyRaceBonusWhenDealingDamage(BasicCharacterObject character, DamageType damageType, ref ExplainedNumber damage, TextObject description)
         {
-            RaceBonus bonus = GetRacialData(attacker);
-            switch (damage)
+            if (character == null || description == null)
+                return;
+
+            RaceBonus bonus = GetRacialData(character);
+            switch (damageType)
             {
                 case DamageType.Ranged:
-                    dealtDamage *= (1f + bonus.RangedDamageBonus); // Apply ranged damage bonus
+                    if (!bonus.RangedDamageBonus.ApproximatelyEqualsTo(0f, 1E-05f))
+                    {
+                        damage.AddFactor(bonus.RangedDamageBonus, description); // Apply ranged damage bonus (e.g., +0.3f for Nazgûl)
+                    }
                     break;
                 case DamageType.Melee:
-                    dealtDamage *= (1f + bonus.MeleeDamageBonus); // Apply melee damage bonus
+                    if (!bonus.MeleeDamageBonus.ApproximatelyEqualsTo(0f, 1E-05f))
+                    {
+                        damage.AddFactor(bonus.MeleeDamageBonus, description); // Apply melee damage bonus (e.g., +0.5f for Cave Troll)
+                    }
                     break;
             }
         }
