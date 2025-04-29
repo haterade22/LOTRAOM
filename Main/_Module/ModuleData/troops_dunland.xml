@@ -5,7 +5,7 @@
 	<NPCCharacter id="dunland_peasant"
 		default_group="Infantry"
 		level="6"
-		name="{=dunland_peasant}Dunlending Peasant"
+		name="{=dunland_peasant}[Dunland] Dunlending Peasant"
 		occupation="Soldier"
 		is_basic_troop="true"
 		culture="Culture.empire">
@@ -66,7 +66,7 @@
 	<NPCCharacter id="dunland_levy"
 		default_group="Infantry"
 		level="11"
-		name="{=dunlending_levy}Dunlending Levy"
+		name="{=dunlending_levy}[Dunland] Dunlending Levy"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -131,7 +131,7 @@
 	<NPCCharacter id="dunland_skirmisher"
 		default_group="Ranged"
 		level="11"
-		name="{=caerdh_skirmisher}Freca's Throwers"
+		name="{=caerdh_skirmisher}[Dunland] Freca's Throwers"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -197,7 +197,7 @@
 	<NPCCharacter id="dunland_light_archer"
 		default_group="Ranged"
 		level="16"
-		name="{=dunland_light_archer}Dunlending Hunter"
+		name="{=dunland_light_archer}[Dunland] Dunlending Hunter"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -262,7 +262,7 @@
 	<NPCCharacter id="dunland_light_infantry"
 		default_group="Infantry"
 		level="16"
-		name="{=caerdh_light_infantry}Caerdh Wildman"
+		name="{=caerdh_light_infantry}[Dunland] Caerdh Wildman"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -420,7 +420,7 @@
 	<NPCCharacter id="dunland_light_axemen"
 		default_group="Infantry"
 		level="16"
-		name="{=dunland_light_axemen}Caerdh Fellers"
+		name="{=dunland_light_axemen}[Dunland] Caerdh Fellers"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -571,7 +571,7 @@
 	<NPCCharacter id="dunland_light_spearmen"
 		default_group="Infantry"
 		level="16"
-		name="{=caerdh_light_spearman}Caerdh Watchers"
+		name="{=caerdh_light_spearman}[Dunland] Caerdh Watchers"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -720,7 +720,7 @@
 	<NPCCharacter id="dunland_scout"
 		default_group="Cavalry"
 		level="16"
-		name="{=caerdh_scout}Dunlending Hirdsmen"
+		name="{=caerdh_scout}[Dunland] Dunlending Hirdsmen"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -872,7 +872,7 @@
 	<NPCCharacter id="dunland_medium_archer"
 		default_group="Ranged"
 		level="21"
-		name="{=dunland_medium_archer}Dunlending Strongbow"
+		name="{=dunland_medium_archer}[Dunland] Dunlending Strongbow"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -941,7 +941,7 @@
 	<NPCCharacter id="dunland_medium_spearmen"
 		default_group="Infantry"
 		level="21"
-		name="{=dunland_medium_spearman}Caerdh Stormspears"
+		name="{=dunland_medium_spearman}[Dunland] Caerdh Stormspears"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -1116,7 +1116,7 @@
 	<NPCCharacter id="dunland_medium_infantry"
 			default_group="Infantry"
 			level="21"
-			name="{=dunland_medium_infantry}Caerdh Oathsworn"
+			name="{=dunland_medium_infantry}[Dunland] Caerdh Oathsworn"
 			occupation="Soldier"
 			culture="Culture.empire">
 		<face>
@@ -1292,7 +1292,7 @@
 	<NPCCharacter id="dunland_medium_axemen"
 			default_group="Infantry"
 			level="21"
-			name="{=dunland_medium_axemen}Caerdh Bloodreavers"
+			name="{=dunland_medium_axemen}[Dunland] Caerdh Bloodreavers"
 			occupation="Soldier"
 			culture="Culture.empire">
 		<face>
@@ -1468,7 +1468,7 @@
 	<NPCCharacter id="dunland_medium_cavalry"
 		default_group="Cavalry"
 		level="21"
-		name="{=dunland_medium_cavalry}Galtrev Nobles"
+		name="{=dunland_medium_cavalry}[Dunland] Galtrev Nobles"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -1642,7 +1642,7 @@
 	<NPCCharacter id="dunland_heavy_spearmen"
 			default_group="Infantry"
 			level="26"
-			name="{=dunland_heavy_spearman}Caerdh Fangspears"
+			name="{=dunland_heavy_spearman}[Dunland] Caerdh Fangspears"
 			occupation="Soldier"
 			culture="Culture.empire">
 		<face>
@@ -1841,7 +1841,7 @@
 	<NPCCharacter id="dunland_heavy_axemen"
 		default_group="Infantry"
 		level="26"
-		name="{=dunland_heavy_axemen}Caerdh Doomcutters"
+		name="{=dunland_heavy_axemen}[Dunland] Caerdh Doomcutters"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -2044,7 +2044,7 @@
 	<NPCCharacter id="dunland_heavy_infantry"
 		default_group="Infantry"
 		level="26"
-		name="{=dunland_heavy_infantry}Caerdh Stoneguard"
+		name="{=dunland_heavy_infantry}[Dunland] Caerdh Stoneguard"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -2242,7 +2242,7 @@
 	<NPCCharacter id="dunland_elite_axemen"
 		default_group="Infantry"
 		level="31"
-		name="{=dunland_elite_axemen}Caerdh's Chosen"
+		name="{=dunland_elite_axemen}[Dunland] Caerdh's Chosen"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -2484,7 +2484,7 @@
 	<NPCCharacter id="wulf_raider"
 		default_group="Infantry"
 		level="11"
-		name="{=wulf_raider}Wulfing Raider"
+		name="{=wulf_raider}[Dunland] Wulfing Raider"
 		is_basic_troop="true"
 		occupation="Soldier"
 		culture="Culture.empire">
@@ -2703,7 +2703,7 @@
 	<NPCCharacter id="wulf_axemen"
 		default_group="Infantry"
 		level="16"
-		name="{=wulf_axemen}Wulfing Axemen"
+		name="{=wulf_axemen}[Dunland] Wulfing Axemen"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -2864,7 +2864,7 @@
 	<NPCCharacter id="wulf_hearthguard"
 		default_group="Infantry"
 		level="21"
-		name="{=wulf_hearthguard}Wulfing Hearthguard"
+		name="{=wulf_hearthguard}[Dunland] Wulfing Hearthguard"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -2996,7 +2996,7 @@
 	<NPCCharacter id="wulf_huscarls"
 		default_group="Infantry"
 		level="26"
-		name="{=wulf_huscarls}Wulfing Huscarls"
+		name="{=wulf_huscarls}[Dunland] Wulfing Huscarls"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>
@@ -3215,7 +3215,7 @@
 	<NPCCharacter id="wulf_chosen"
 		default_group="Infantry"
 		level="31"
-		name="{=wulf_chosen}Wulfing Chosen"
+		name="{=wulf_chosen}[Dunland] Wulfing Chosen"
 		occupation="Soldier"
 		culture="Culture.empire">
 		<face>

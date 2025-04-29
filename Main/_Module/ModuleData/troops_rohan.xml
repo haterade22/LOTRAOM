@@ -3,7 +3,7 @@
 	<NPCCharacter id="rohan_outrider"
 		default_group="Cavalry"
 		level="11"
-		name="{=Rohan Outrider}Rohan Outrider"
+		name="{=Rohan Outrider}[Rohan] Outrider"
 		occupation="Soldier"
 		is_basic_troop="true"
 		culture="Culture.vlandia">
@@ -441,7 +441,7 @@
 	<NPCCharacter id="rohan_rider"
 		default_group="Cavalry"
 		level="16"
-		name="{=Rohan Rider}Rohan Rider"
+		name="{=Rohan Rider}[Rohan] Rider"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -862,7 +862,7 @@
 	<NPCCharacter id="rohan_lance_rider"
 		default_group="Cavalry"
 		level="16"
-		name="{=Rohan Lance Rider}Rohan Lance Rider"
+		name="{=Rohan Lance Rider}[Rohan] Lance Rider"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -1282,7 +1282,7 @@
 	<NPCCharacter id="rohan_veteran_lancer"
 		default_group="Cavalry"
 		level="21"
-		name="{=Rohan Veteran Lancer}Rohan Veteran Lancer"
+		name="{=Rohan Veteran Lancer}[Rohan] Veteran Lancer"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -1656,7 +1656,7 @@
 	<NPCCharacter id="rohan_elite_lancer"
 		default_group="Cavalry"
 		level="26"
-		name="{=Rohan Elite Lancer}Rohan Elite Lancer"
+		name="{=Rohan Elite Lancer}[Rohan] Elite Lancer"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -1798,7 +1798,7 @@
 	<NPCCharacter id="rohan_eorlinga_lancer"
 		default_group="Cavalry"
 		level="31"
-		name="{=Rohan Eorlinga Lancer}Eorlingas Lancer"
+		name="{=Rohan Eorlinga Lancer}[Rohan] Eorlingas Lancer"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -1914,7 +1914,7 @@
 	<NPCCharacter id="rohan_veteran_rider"
 		default_group="Cavalry"
 		level="21"
-		name="{=Rohan Veteran Rider}Rohan Veteran Rider"
+		name="{=Rohan Veteran Rider}[Rohan] Veteran Rider"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -2286,7 +2286,7 @@
 	<NPCCharacter id="rohan_elite_rider"
 		default_group="Cavalry"
 		level="26"
-		name="{=Rohan Elite Rider}Rohan Elite Rider"
+		name="{=Rohan Elite Rider}[Rohan] Elite Rider"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -2382,7 +2382,7 @@
 	<NPCCharacter id="rohan_royal_guard_of_meduseld"
 		default_group="Cavalry"
 		level="31"
-		name="{=Rohan Royal Guard of Meduseld}Royal Guard of Meduseld"
+		name="{=Rohan Royal Guard of Meduseld}[Rohan] Royal Guard of Meduseld"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -2501,7 +2501,7 @@
 	<NPCCharacter id="rohan_peasant"
 		default_group="Infantry"
 		level="6"
-		name="{=Rohan Peasant}Rohan Peasant"
+		name="{=Rohan Peasant}[Rohan] Peasant"
 		is_basic_troop="true"
 		occupation="Soldier"
 		culture="Culture.vlandia">
@@ -2601,7 +2601,7 @@
 	<NPCCharacter id="rohan_mounted_militiaman"
 		default_group="Cavalry"
 		level="6"
-		name="{=Rohan Mounted Militiaman}Rohan Mounted Militiaman"
+		name="{=Rohan Mounted Militiaman}[Rohan] Mounted Militiaman"
 		is_basic_troop="true"
 		occupation="Soldier"
 		culture="Culture.vlandia">
@@ -2784,7 +2784,7 @@
 	<NPCCharacter id="rohan_scout"
 		default_group="HorseArcher"
 		level="16"
-		name="{=Rohan Scout}Rohan Scout"
+		name="{=Rohan Scout}[Rohan] Scout"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -3220,7 +3220,7 @@
 	<NPCCharacter id="rohan_horse_archer"
 		default_group="HorseArcher"
 		level="21"
-		name="{=Rohan Horse Archer}Rohan Horse Archer"
+		name="{=Rohan Horse Archer}[Rohan] Horse Archer"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -3654,7 +3654,7 @@
 	<NPCCharacter id="rohan_veteran_horse_archer"
 		default_group="HorseArcher"
 		level="26"
-		name="{=Rohan Veteran Horse Archer}Rohan Veteran Horse Archer"
+		name="{=Rohan Veteran Horse Archer}[Rohan] Veteran Horse Archer"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -4187,7 +4187,7 @@
 	<NPCCharacter id="eorlinga_horse_archer"
 		default_group="HorseArcher"
 		level="31"
-		name="{=Rohan Eorlinga Horse Archer}Eorlingas Horse Archer"
+		name="{=Rohan Eorlinga Horse Archer}[Rohan] Eorlingas Horse Archer"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -4684,7 +4684,7 @@
 	<NPCCharacter id="rohan_militiaman"
 			default_group="Infantry"
 			level="11"
-			name="{=Rohan Militiaman}Rohan Militiaman"
+			name="{=Rohan Militiaman}[Rohan] Militiaman"
 			occupation="Soldier"
 			culture="Culture.vlandia">
 		<face>
@@ -4844,7 +4844,7 @@
 	<NPCCharacter id="rohan_guardsman"
 		default_group="Infantry"
 		level="16"
-		name="{=Rohan Guardsman}Rohan Guardsman"
+		name="{=Rohan Guardsman}[Rohan] Guardsman"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -5327,7 +5327,7 @@
 	<NPCCharacter id="rohan_axeman"
 		default_group="Infantry"
 		level="21"
-		name="{=Rohan Axeman}Rohan Axeman"
+		name="{=Rohan Axeman}[Rohan] Axeman"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -5475,7 +5475,7 @@
 	<NPCCharacter id="rohan_spearman"
 		default_group="Infantry"
 		level="21"
-		name="{=Rohan Spearman}Rohan Spearman"
+		name="{=Rohan Spearman}[Rohan] Spearman"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -5893,7 +5893,7 @@
 	<NPCCharacter id="rohan_veteran_spearman"
 		default_group="Infantry"
 		level="26"
-		name="{=Rohan Veteran Spearman}Rohan Veteran Spearman"
+		name="{=Rohan Veteran Spearman}[Rohan] Veteran Spearman"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -6356,7 +6356,7 @@
 	<NPCCharacter id="rohan_meduseld_spearman"
 		default_group="Infantry"
 		level="31"
-		name="{=Rohan Meduseld Spearman}Meduseld Spearman"
+		name="{=Rohan Meduseld Spearman}[Rohan] Meduseld Spearman"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -6467,7 +6467,7 @@
 	<NPCCharacter id="rohan_veteran_axeman"
 		default_group="Infantry"
 		level="26"
-		name="{=Rohan Veteran Axeman}Rohan Veteran Axeman"
+		name="{=Rohan Veteran Axeman}[Rohan] Veteran Axeman"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -6974,7 +6974,7 @@
 	<NPCCharacter id="rohan_helmingas_axeman"
 		default_group="Infantry"
 		level="31"
-		name="{=Rohan Helmingas Axeman}Helmingas Axeman"
+		name="{=Rohan Helmingas Axeman}[Rohan] Helmingas Axeman"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -7095,7 +7095,7 @@
 	<NPCCharacter id="rohan_skirmisher"
 		default_group="Ranged"
 		level="16"
-		name="{=Rohan Skirmisher}Rohan Skirmisher"
+		name="{=Rohan Skirmisher}[Rohan] Skirmisher"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -7721,7 +7721,7 @@
 	<NPCCharacter id="rohan_bowman"
 		default_group="Ranged"
 		level="21"
-		name="{=Rohan Bowman}Rohan Bowman"
+		name="{=Rohan Bowman}[Rohan] Bowman"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>

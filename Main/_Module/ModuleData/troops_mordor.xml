@@ -4,7 +4,7 @@
 	<NPCCharacter id="mordor_uruk_grunt"
 		default_group="Infantry"
 		level="6"
-		name="{=mordor_orc_grunt}Orc Grunt"
+		name="{=mordor_orc_grunt}[Mordor] Orc Grunt"
 		race="orc"
 		occupation="Soldier"
 		is_basic_troop="true"
@@ -69,7 +69,7 @@
 			default_group="Infantry"
 			level="11"
 			race="uruk"
-			name="{=mordorurukwarrior}Black Uruk Warrior"
+			name="{=mordorurukwarrior}[Mordor] Black Uruk Warrior"
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
@@ -151,7 +151,7 @@
 			default_group="Infantry"
 			level="16"
 			race="uruk"
-			name="{=mordorurukfeller}Black Uruk Feller"
+			name="{=mordorurukfeller}[Mordor] Black Uruk Feller"
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
@@ -227,7 +227,7 @@
 		default_group="Infantry"
 		level="21"
 		race="uruk"
-		name="{=mordorurukravager}Black Uruk Ravager"
+		name="{=mordorurukravager}[Mordor] Black Uruk Ravager"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -457,7 +457,7 @@
 		default_group="Infantry"
 		level="26"
 		race="uruk"
-		name="{=mordorurukexecutioner}Black Uruk Executioner"
+		name="{=mordorurukexecutioner}[Mordor] Black Uruk Executioner"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -688,7 +688,7 @@
 		default_group="Infantry"
 		level="31"
 		race="uruk"
-		name="{=mordorurukdarkblade}Black Uruk Darkblade"
+		name="{=mordorurukdarkblade}[Mordor] Black Uruk Darkblade"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -941,7 +941,7 @@
 			default_group="Infantry"
 			level="21"
 			race="uruk"
-			name="{=mordoruruksoldier}Black Uruk Halberdier"
+			name="{=mordoruruksoldier}[Mordor] Black Uruk Halberdier"
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
@@ -1049,7 +1049,7 @@
 		default_group="Infantry"
 		level="26"
 		race="uruk"
-		name="{=mordorurukreaper}Black Uruk Reaper"
+		name="{=mordorurukreaper}[Mordor] Black Uruk Reaper"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -1256,7 +1256,7 @@
 		default_group="Infantry"
 		level="31"
 		race="uruk"
-		name="{=mordorblackdeathwarden}Black Uruk Deathwarden"
+		name="{=mordorblackdeathwarden}[Mordor] Black Uruk Deathwarden"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -1383,7 +1383,7 @@
 			default_group="Ranged"
 			level="11"
 			race="uruk"
-			name="{=mordorurukscout}Black Uruk Hunter"
+			name="{=mordorurukscout}[Mordor] Black Uruk Hunter"
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
@@ -1533,7 +1533,7 @@
 			default_group="Ranged"
 			level="16"
 			race="uruk"
-			name="{=mordorurukarcher}Black Uruk Archer"
+			name="{=mordorurukarcher}[Mordor] Black Uruk Archer"
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
@@ -1676,7 +1676,7 @@
 			default_group="Ranged"
 			level="21"
 			race="uruk"
-			name="{=mordoruruksmarksman}Black Uruk Marksman"
+			name="{=mordoruruksmarksman}[Mordor] Black Uruk Marksman"
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
@@ -1831,7 +1831,7 @@
 			default_group="Infantry"
 			level="16"
 			race="uruk"
-			name="{=mordorurukraider}Black Uruk Raider"
+			name="{=mordorurukraider}[Mordor] Black Uruk Raider"
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
@@ -1913,7 +1913,7 @@
 		default_group="Infantry"
 		level="21"
 		race="uruk"
-		name="{=mordorurukshieldbearer}Black Uruk Shieldbearer"
+		name="{=mordorurukshieldbearer}[Mordor] Black Uruk Shieldbearer"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -2144,7 +2144,7 @@
 		default_group="Infantry"
 		level="21"
 		race="uruk"
-		name="{=mordorurukinfantry}Black Uruk Infantry"
+		name="{=mordorurukinfantry}[Mordor] Black Uruk Infantry"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -2374,7 +2374,7 @@
 		default_group="Infantry"
 		level="26"
 		race="uruk"
-		name="{=mordorurukvanguard}Black Uruk Vanguard"
+		name="{=mordorurukvanguard}[Mordor] Black Uruk Vanguard"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -2604,7 +2604,7 @@
 		default_group="Infantry"
 		level="26"
 		race="uruk"
-		name="{=mordorurukshieldguard}Black Uruk Shield Guard"
+		name="{=mordorurukshieldguard}[Mordor] Black Uruk Shield Guard"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -2835,7 +2835,7 @@
 		default_group="Infantry"
 		level="31"
 		race="uruk"
-		name="{=mordorurukcaptain}Black Uruk Captain"
+		name="{=mordorurukcaptain}[Mordor] Black Uruk Captain"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -3088,7 +3088,7 @@
 		default_group="Infantry"
 		level="31"
 		race="uruk"
-		name="{=mordorurukbdguard}Black Uruk Barad-Dur Guard"
+		name="{=mordorurukbdguard}[Mordor] Black Uruk Barad-Dur Guard"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -3340,7 +3340,7 @@
 		id="mordor_black_numenorean"
 		default_group="Infantry"
 		level="31"
-		name="{=mordor_black_numenorean}Black Númenórean Marshal"
+		name="{=mordor_black_numenorean}[Mordor] Black Númenórean Marshal"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -3409,7 +3409,7 @@
 		id="mordor_harad_initiate"
 		default_group="Infantry"
 		level="11"
-		name="{=mordor_harad_initiate}Haradrim Initiate"
+		name="{=mordor_harad_initiate}[Mordor] Haradrim Initiate"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -3475,7 +3475,7 @@
 		id="mordor_harad_bladewielder"
 		default_group="Infantry"
 		level="16"
-		name="{=mordor_harad_bladewielder}Haradrim Bladewielder"
+		name="{=mordor_harad_bladewielder}[Mordor] Haradrim Bladewielder"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -3613,7 +3613,7 @@
 			id="mordor_harad_vanguard"
 			default_group="Infantry"
 			level="21"
-			name="{=mordor_harad_vanguard}Haradrim Vanguard"
+			name="{=mordor_harad_vanguard}[Mordor] Haradrim Vanguard"
 			occupation="Soldier"
 			culture="Culture.mordor">
 		<face>
@@ -3682,7 +3682,7 @@
 		id="mordor_harad_serpent_guard"
 		default_group="Infantry"
 		level="26"
-		name="{=mordor_harad_serpent_guard}Haradrim Serpent Guard"
+		name="{=mordor_harad_serpent_guard}[Mordor] Haradrim Serpent Guard"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -3751,7 +3751,7 @@
 		id="mordor_harad_golden_fang"
 		default_group="Infantry"
 		level="31"
-		name="{=mordor_harad_golden_fang}Haradrim Golden Fang"
+		name="{=mordor_harad_golden_fang}[Mordor] Haradrim Golden Fang"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -3887,7 +3887,7 @@
 		id="mordor_rhun_servant"
 		default_group="Infantry"
 		level="11"
-		name="{=mordor_rhun_servant}Rhûn Servant"
+		name="{=mordor_rhun_servant}[Mordor] Rhûn Servant"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -3955,7 +3955,7 @@
 	<NPCCharacter id="mordor_rhun_spearhand"
 		default_group="Infantry"
 		level="16"
-		name="{=mordorrhunspearhand}Rhûn Spearhand"
+		name="{=mordorrhunspearhand}[Mordor] Rhûn Spearhand"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -4023,7 +4023,7 @@
 	<NPCCharacter id="mordor_rhun_bloodspear"
 		default_group="Infantry"
 		level="21"
-		name="{=mordorrhunbloodspear}Rhûn Bloodspear"
+		name="{=mordorrhunbloodspear}[Mordor] Rhûn Bloodspear"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -4092,7 +4092,7 @@
 		id="mordor_rhun_bloodforged_warrior"
 		default_group="Infantry"
 		level="26"
-		name="{=mordorrhunbloodforgedwarrior}Rhûn Bloodforged Warrior"
+		name="{=mordorrhunbloodforgedwarrior}[Mordor] Rhûn Bloodforged Warrior"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -4160,7 +4160,7 @@
 	<NPCCharacter id="mordor_rhun_blade_sentinel"
 		default_group="Infantry"
 		level="31"
-		name="{=mordorrhunbladesentinel}Rhûn Blade Sentinel"
+		name="{=mordorrhunbladesentinel}[Mordor] Rhûn Blade Sentinel"
 		occupation="Soldier"
 		culture="Culture.mordor">
 		<face>
@@ -4231,7 +4231,7 @@
 <NPCCharacter id="mordor_orc_warrior"
 		default_group="Infantry"
 		level="11"
-		name="{=mordor_orc_warrior}[Mordor] Orc Warrior"
+		name="{=mordor_orc_warrior}[Mordor] [Mordor] Orc Warrior"
 		race="orc"
 		occupation="Soldier"
 		culture="Culture.mordor">
@@ -4297,7 +4297,7 @@
 <NPCCharacter id="mordor_orc_warbrute"
 		default_group="Infantry"
 		level="16"
-		name="{=mordor_orc_warbrute}[Mordor] Orc Warbrute"
+		name="{=mordor_orc_warbrute}[Mordor] [Mordor] Orc Warbrute"
 		race="orc"
 		occupation="Soldier"
 		culture="Culture.mordor">
@@ -4363,7 +4363,7 @@
 	<NPCCharacter id="mordor_orc_blackguard"
 		default_group="Infantry"
 		level="21"
-		name="{=mordor_orc_blackguard}[Mordor] Orc Black Guard"
+		name="{=mordor_orc_blackguard}[Mordor] [Mordor] Orc Black Guard"
 		race="orc"
 		occupation="Soldier"
 		culture="Culture.mordor">

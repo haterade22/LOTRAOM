@@ -3,7 +3,7 @@
 	<NPCCharacter id="easterling_tribesman"
 		default_group="Infantry"
 		level="6"
-		name="{=easterling_tribesman}Easterling Tribesman"
+		name="{=easterling_tribesman}[Rhûn] Easterling Tribesman"
 		occupation="Soldier"
 		is_basic_troop="true"
 		culture="Culture.khuzait">
@@ -55,7 +55,7 @@
 	<NPCCharacter id="easterling_footman"
 		default_group="Infantry"
 		level="11"
-		name="{=easterling_footman}Easterling Footman"
+		name="{=easterling_footman}[Rhûn] Easterling Footman"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -108,7 +108,7 @@
 	<NPCCharacter id="easterling_watcher"
 		default_group="Ranged"
 		level="11"
-		name="{=easterling_watcher}Easterling Watcher"
+		name="{=easterling_watcher}[Rhûn] Easterling Watcher"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -163,7 +163,7 @@
 	<NPCCharacter id="easterling_scout"
 			default_group="Cavalry"
 			level="11"
-			name="{=easterling_scout}Easterling Scout"
+			name="{=easterling_scout}[Rhûn] Easterling Scout"
 			occupation="Soldier"
 			culture="Culture.khuzait">
 		<face>
@@ -215,7 +215,7 @@
 	<NPCCharacter id="easterling_swordsman"
 		default_group="Infantry"
 		level="16"
-		name="{=easterling_swordsman}Easterling Swordsman"
+		name="{=easterling_swordsman}[Rhûn] Easterling Swordsman"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -268,7 +268,7 @@
 	<NPCCharacter id="easterling_spear_bearer"
 		default_group="Infantry"
 		level="16"
-		name="{=easterling_spear_bearer}Easterling Spear Bearer"
+		name="{=easterling_spear_bearer}[Rhûn] Easterling Spear Bearer"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -320,7 +320,7 @@
 	<NPCCharacter id="easterling_archer"
 		default_group="Ranged"
 		level="16"
-		name="{=easterling_archer}Easterling Archer"
+		name="{=easterling_archer}[Rhûn] Easterling Archer"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -376,7 +376,7 @@
 	<NPCCharacter id="easterling_rider"
 			default_group="Cavalry"
 			level="16"
-			name="{=easterling_rider}Easterling Rider"
+			name="{=easterling_rider}[Rhûn] Easterling Rider"
 			occupation="Soldier"
 			culture="Culture.khuzait">
 		<face>
@@ -441,7 +441,7 @@
 	<NPCCharacter id="easterling_veteran_swordsman"
 		default_group="Infantry"
 		level="21"
-		name="{=easterling_veteran_swordsman}Easterling Veteran Infantry"
+		name="{=easterling_veteran_swordsman}[Rhûn] Easterling Veteran Infantry"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -493,7 +493,7 @@
 	<NPCCharacter id="easterling_halberdier"
 		default_group="Infantry"
 		level="21"
-		name="{=easterling_halberdier}Easterling Halberdier"
+		name="{=easterling_halberdier}[Rhûn] Easterling Halberdier"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -546,7 +546,7 @@
 	<NPCCharacter id="easterling_marksman"
 		default_group="Ranged"
 		level="21"
-		name="{=easterling_marksman}Easterling Sharpshooter"
+		name="{=easterling_marksman}[Rhûn] Easterling Sharpshooter"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -606,7 +606,7 @@
 <NPCCharacter id="easterling_horsearcher"
 		default_group="Cavalry"
 		level="21"
-		name="{=easterling_horsearcher}Easterling Horse Archer"
+		name="{=easterling_horsearcher}[Rhûn] Easterling Horse Archer"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 	<face>
@@ -671,7 +671,7 @@
 	<NPCCharacter id="easterling_lancer"
 		default_group="Cavalry"
 		level="21"
-		name="{=easterling_lancer}Easterling Lancer"
+		name="{=easterling_lancer}[Rhûn] Easterling Lancer"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -734,7 +734,7 @@
 	<NPCCharacter id="easterling_war_guard"
 		default_group="Infantry"
 		level="26"
-		name="{=easterling_war_guard}Easterling War Guard"
+		name="{=easterling_war_guard}[Rhûn] Easterling War Guard"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -786,7 +786,7 @@
 	<NPCCharacter id="easterling_pillar"
 	default_group="Infantry"
 	level="26"
-	name="{=easterling_pillar}Easterling Pillar of the East"
+	name="{=easterling_pillar}[Rhûn] Easterling Pillar of the East"
 	occupation="Soldier"
 	culture="Culture.khuzait">
 		<face>
@@ -839,7 +839,7 @@
 	<NPCCharacter id="easterling_shadowguard"
 		default_group="Ranged"
 		level="26"
-		name="{=easterling_shadowguard}Easterling Shadow Guard"
+		name="{=easterling_shadowguard}[Rhûn] Easterling Shadow Guard"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -897,7 +897,7 @@
 	<NPCCharacter id="easterling_sunbow"
 		default_group="HorseArcher"
 		level="26"
-		name="{=easterling_sunbow}Easterling Sunbow"
+		name="{=easterling_sunbow}[Rhûn] Easterling Sunbow"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -945,21 +945,6 @@
 				<equipment
 					slot="Leg"
 					id="Item.easterlingwarriors01_boots" />
-				<equipment
-					slot="Head"
-					id="Item.easterlingwarriors02_helmet" />
-				<equipment
-					slot="Body"
-					id="Item.easterlingwarriors02_torso" />
-				<equipment
-					slot="Cape"
-					id="Item.easterlingwarriors02_cape" />
-				<equipment
-					slot="Gloves"
-					id="Item.easterlingwarriors01_gloves" />
-				<equipment
-					slot="Leg"
-					id="Item.easterlingwarriors01_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
@@ -970,7 +955,7 @@
 	<NPCCharacter id="easterling_bloodsworn"
 		default_group="Infantry"
 		level="31"
-		name="{=easterling_bloodsworn}Easterling Bloodsworn"
+		name="{=easterling_bloodsworn}[Rhûn] Easterling Bloodsworn"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -1022,7 +1007,7 @@
 	<NPCCharacter id="easterling_chosen"
 		default_group="Infantry"
 		level="31"
-		name="{=easterling_chosen}Chosen of the East"
+		name="{=easterling_chosen}[Rhûn] Chosen of the East"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -1073,7 +1058,7 @@
 	<NPCCharacter id="easterling_eye"
 		default_group="Ranged"
 		level="31"
-		name="{=easterling_eye}Eye of the East"
+		name="{=easterling_eye}[Rhûn] Eye of the East"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -1130,7 +1115,7 @@
 	<NPCCharacter id="easterling_eyeofthewaste"
 			default_group="HorseArcher"
 			level="31"
-			name="{=easterling_eyeofthewaste}Easterling Eye of the Wastes"
+			name="{=easterling_eyeofthewaste}[Rhûn] Easterling Eye of the Wastes"
 			occupation="Soldier"
 			culture="Culture.khuzait">
 		<face>
@@ -1189,7 +1174,7 @@
 	<NPCCharacter id="rhun_noble_youth"
 		default_group="Cavalry"
 		level="11"
-		name="{=rhun_noble_youth}Rhûnnic Noble Youth"
+		name="{=rhun_noble_youth}[Rhûn] Rhûnnic Noble Youth"
 		occupation="Soldier"
 		is_basic_troop="true"
 		culture="Culture.khuzait">
@@ -1239,13 +1224,19 @@
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
 				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_khuzait_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.lrd_horse_armour_5_b" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="rhun_noble_rider"
 		default_group="Cavalry"
 		level="16"
-		name="{=rhun_noble_rider}Rhûnnic Noble Rider"
+		name="{=rhun_noble_rider}[Rhûn] Rhûnnic Noble Rider"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -1294,13 +1285,19 @@
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
 				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_khuzait_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.lrd_horse_armour_5_b" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="rhun_honor_guard"
 		default_group="Cavalry"
 		level="21"
-		name="{=rhun_honor_guard}Rhûnnic Honor Guard"
+		name="{=rhun_honor_guard}[Rhûn] Rhûnnic Honor Guard"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -1348,15 +1345,21 @@
 						id="Item.easterling_cape" />
 				</EquipmentRoster>
 				<EquipmentSet
-					id="aserai_troop_civilian_template_t3"
-					civilian="true" />
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+				<equipment
+					slot="Horse"
+					id="Item.t2_khuzait_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.lrd_horse_armour_5" />
 			</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="rhun_bloodrider"
 		default_group="Cavalry"
 		level="26"
-		name="{=rhun_bloodrider}Rhûnnic Blood Rider"
+		name="{=rhun_bloodrider}[Rhûn] Rhûnnic Blood Rider"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -1402,16 +1405,22 @@
 						slot="Cape"
 						id="Item.easterling_cape" />
 				</EquipmentRoster>
-				<EquipmentSet
-					id="aserai_troop_civilian_template_t3"
-					civilian="true" />
+			<EquipmentSet
+				id="aserai_troop_civilian_template_t3"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_khuzait_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.lrd_horse_armour_5_c" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="rhun_cataphract"
 		default_group="Cavalry"
 		level="31"
-		name="{=rhun_cataphract}Rhûnnic Kataphrakt"
+		name="{=rhun_cataphract}[Rhûn] Rhûnnic Kataphrakt"
 		occupation="Soldier"
 		culture="Culture.khuzait">
 		<face>
@@ -1459,6 +1468,12 @@
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
 				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t2_khuzait_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.lrd_horse_armour_4" />
 		</Equipments>
 	</NPCCharacter>
 

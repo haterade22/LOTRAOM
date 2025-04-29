@@ -5,7 +5,7 @@
 	<NPCCharacter id="gondor_levyman"
 		default_group="Infantry"
 		level="6"
-		name="{=Gondor Levyman}Gondor Levyman"
+		name="{=Gondor Levyman}[Gondor] Levyman"
 		occupation="Soldier"
 		is_basic_troop="true"
 		culture="Culture.gondor">
@@ -69,7 +69,7 @@
 	<NPCCharacter id="gondor_militiaman"
 		default_group="Infantry"
 		level="11"
-		name="{=Gondor Militiaman}Gondor Militiaman"
+		name="{=Gondor Militiaman}[Gondor] Militiaman"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -131,7 +131,7 @@
 	<NPCCharacter id="gondor_footman"
 		default_group="Infantry"
 		level="16"
-		name="{=Gondor Footman}Gondor Footman"
+		name="{=Gondor Footman}[Gondor] Footman"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -218,7 +218,7 @@
 	<NPCCharacter id="gondor_bowman"
 		default_group="Ranged"
 		level="16"
-		name="{=Gondor Bowman}Gondor Bowman"
+		name="{=Gondor Bowman}[Gondor] Bowman"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -254,7 +254,6 @@
 			<upgrade_target id="NPCCharacter.gondor_archer"/>
 		</upgrade_targets>
 		<Equipments>
-
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
@@ -293,7 +292,7 @@
 	<NPCCharacter id="gondor_archer"
 		default_group="Ranged"
 		level="21"
-		name="{=Gondor Archer}Gondor Archer"
+		name="{=Gondor Archer}[Gondor] Archer"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -367,7 +366,7 @@
 	<NPCCharacter id="gondor_swordsman"
 		default_group="Infantry"
 		level="21"
-		name="{=Gondor Swordsman}Gondor Swordsman"
+		name="{=Gondor Swordsman}[Gondor] Swordsman"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -503,7 +502,7 @@
 	<NPCCharacter id="gondor_spearman"
 		default_group="Infantry"
 		level="21"
-		name="{=Gondor Spearman}Gondor Spearman"
+		name="{=Gondor Spearman}[Gondor] Spearman"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -640,7 +639,7 @@
 	<NPCCharacter id="gondor_veteran_spearman"
 		default_group="Infantry"
 		level="26"
-		name="{=Gondor Veteran Spearman}Gondor Veteran Spearman"
+		name="{=Gondor Veteran Spearman}[Gondor] Veteran Spearman"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -823,7 +822,7 @@
 	<NPCCharacter id="gondor_fountain_guard_spearman"
 		default_group="Infantry"
 		level="31"
-		name="{=Gondor Fountain Guard Spearman}Fountain Guard"
+		name="{=Gondor Fountain Guard Spearman}[Gondor] Fountain Guard"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -874,7 +873,7 @@
 	<NPCCharacter id="gondor_veteran_swordsman"
 		default_group="Infantry"
 		level="26"
-		name="{=Gondor Veteran Swordsman}Gondor Veteran Swordsman"
+		name="{=Gondor Veteran Swordsman}[Gondor] Veteran Swordsman"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -1056,7 +1055,7 @@
 	<NPCCharacter id="gondor_tower_guard_swordsman"
 		default_group="Infantry"
 		level="31"
-		name="{=Gondor Tower Guard Swordsman}Citadel Guard"
+		name="{=Gondor Tower Guard Swordsman}[Gondor] Citadel Guard"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -1155,7 +1154,7 @@
 	<NPCCharacter id="gondor_scout"
 		default_group="Cavalry"
 		level="16"
-		name="{=Gondor Scout}Rider of Gondor"
+		name="{=Gondor Scout}[Gondor] Rider of Gondor"
 		upgrade_requires="ItemCategory.horse"
 		occupation="Soldier"
 		culture="Culture.gondor">
@@ -1326,7 +1325,7 @@
 	<NPCCharacter id="gondor_knight"
 		default_group="Cavalry"
 		level="21"
-		name="{=Gondor Knight}Gondor Knight"
+		name="{=Gondor Knight}[Gondor] Knight"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -1534,7 +1533,7 @@
 	<NPCCharacter id="gondor_page"
 		default_group="Cavalry"
 		level="11"
-		name="{=Gondor_Page}Gondor Page"
+		name="{=Gondor_Page}[Gondor] Page"
 		is_basic_troop="true"
 		occupation="Soldier"
 		culture="Culture.gondor">
@@ -1685,7 +1684,7 @@
 	<NPCCharacter id="gondor_squire"
 		default_group="Cavalry"
 		level="16"
-		name="{=Gondor Veteran Squire}Gondor Veteran Squire"
+		name="{=Gondor Veteran Squire}[Gondor] Veteran Squire"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -1842,7 +1841,7 @@
 	<NPCCharacter id="ranger_of_ithilien"
 		default_group="Ranged"
 		level="21"
-		name="{=Ranger of Ithilien}Ranger of Ithilien"
+		name="{=Ranger of Ithilien}[Gondor] Ranger of Ithilien"
 		occupation="Soldier"
 		
 		culture="Culture.gondor">
@@ -1930,7 +1929,7 @@
 	<NPCCharacter id="veteran_ranger_of_ithilien"
 		default_group="Ranged"
 		level="26"
-		name="{=Veteran Ranger of Ithilien}Lieutenant Ranger of Ithilien"
+		name="{=Veteran Ranger of Ithilien}[Gondor] Lieutenant Ranger of Ithilien"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -2016,7 +2015,7 @@
 	<NPCCharacter id="master_ranger_of_ithilien"
 		default_group="Ranged"
 		level="31"
-		name="{=Master Ranger of Ithilien}Warden of Ithilien"
+		name="{=Master Ranger of Ithilien}[Gondor] Warden of Ithilien"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -2100,7 +2099,7 @@
 	<NPCCharacter id="dol_amroth_knight"
 		default_group="Cavalry"
 		level="21"
-		name="{=Dol Amroth Knight}Dol Amroth Knight"
+		name="{=Dol Amroth Knight}[Gondor] Dol Amroth Knight"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -2160,7 +2159,7 @@
 	<NPCCharacter id="dol_amroth_veteran_knight"
 		default_group="Cavalry"
 		level="26"
-		name="{=Dol Amroth Veteran Knight}Dol Amroth Veteran Knight"
+		name="{=Dol Amroth Veteran Knight}[Gondor] Dol Amroth Veteran Knight"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -2246,7 +2245,7 @@
 	<NPCCharacter id="knight_of_the_silver_swan"
 		default_group="Cavalry"
 		level="31"
-		name="{=Knight of the Silver Swan}Knight of the Silver Swan"
+		name="{=Knight of the Silver Swan}[Gondor] Knight of the Silver Swan"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -2307,7 +2306,7 @@
 	<NPCCharacter id="gondor_lamedon_swordsman"
 		default_group="Infantry"
 		level="11"
-		name="{=Lamedon_Swordsman}Gondor Lamedon Swordsman"
+		name="{=Lamedon_Swordsman}[Gondor] Lamedon Swordsman"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -2373,7 +2372,7 @@
 	<NPCCharacter id="gondor_lamedon_bladeguard"
 			default_group="Infantry"
 			level="16"
-			name="{=Lamedon_Bladeguard}Gondor Lamedon Veteran Swordman"
+			name="{=Lamedon_Bladeguard}[Gondor] Lamedon Veteran Swordman"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -2471,7 +2470,7 @@
 	<NPCCharacter id="gondor_lamedon_highland_defender"
 			default_group="Infantry"
 			level="21"
-			name="{=Lamedon_Highland_Defender}Gondor Lamedon Elite Swordman"
+			name="{=Lamedon_Highland_Defender}[Gondor] Lamedon Elite Swordman"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -2578,7 +2577,7 @@
 	<NPCCharacter id="gondor_lamedon_knight"
 			default_group="Infantry"
 			level="26"
-			name="{=gondor_lamedon_knight}Gondor Lamedon Knight"
+			name="{=gondor_lamedon_knight}[Gondor] Lamedon Knight"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -2684,7 +2683,7 @@
 	<NPCCharacter id="gondor_lamedon_guard"
 			default_group="Infantry"
 			level="26"
-			name="{=gondor_lamedon_guard}Gondor Lamedon Guard"
+			name="{=gondor_lamedon_guard}[Gondor] Lamedon Guard"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -2798,7 +2797,7 @@
 	<NPCCharacter id="gondor_lamedon_noble"
 			default_group="Infantry"
 			level="31"
-			name="{=gondor_lamedon_noble}Gondor Lamedon Noble"
+			name="{=gondor_lamedon_noble}[Gondor] Lamedon Noble"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -2904,7 +2903,7 @@
 	<NPCCharacter id="gondor_lossarnach_footman"
 		default_group="Infantry"
 		level="11"
-		name="{=gondor_lossarnach_footman}Gondor Lossarnach Footman"
+		name="{=gondor_lossarnach_footman}[Gondor] Lossarnach Footman"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -2967,7 +2966,7 @@
 	<NPCCharacter id="gondor_lossarnach_axemen"
 		default_group="Infantry"
 		level="16"
-		name="{=gondor_lossarnach_axemen}Gondor Lossarnach Axeman"
+		name="{=gondor_lossarnach_axemen}[Gondor] Lossarnach Axeman"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -3037,7 +3036,7 @@
 	<NPCCharacter id="gondor_lossarnach_heavy_axemen"
 			default_group="Infantry"
 			level="21"
-			name="{=gondor_lossarnach_heavy_axemen}Gondor Lossarnach Heavy Axeman"
+			name="{=gondor_lossarnach_heavy_axemen}[Gondor] Lossarnach Heavy Axeman"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -3103,7 +3102,7 @@
 	<NPCCharacter id="gondor_lossarnach_axeguard"
 			default_group="Infantry"
 			level="21"
-			name="{=gondor_lossarnach_axeguard}Gondor Lossarnach Axe Guard"
+			name="{=gondor_lossarnach_axeguard}[Gondor] Lossarnach Axe Guard"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -3171,7 +3170,7 @@
 	<NPCCharacter id="gondor_lossarnach_wrathbearers"
 			default_group="Infantry"
 			level="26"
-			name="{=gondor_lossarnach_wrathbearers}Gondor Lossarnach Knight"
+			name="{=gondor_lossarnach_wrathbearers}[Gondor] Lossarnach Knight"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -3256,7 +3255,7 @@
 	<NPCCharacter id="gondor_pelargir_sailor"
 			default_group="Infantry"
 			level="11"
-			name="{=gondor_pelargir_sailor}Gondor Pelargir Sailor"
+			name="{=gondor_pelargir_sailor}[Gondor] Pelargir Sailor"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -3319,7 +3318,7 @@
 	<NPCCharacter id="gondor_pelargir_skirmisher"
 		default_group="Infantry"
 		level="16"
-		name="{=gondor_pelargir_skirmisher}Gondor Pelargir Skirmisher"
+		name="{=gondor_pelargir_skirmisher}[Gondor] Pelargir Skirmisher"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -3391,7 +3390,7 @@
 	<NPCCharacter id="gondor_pelargir_archer"
 		default_group="Ranged"
 		level="21"
-		name="{=gondor_pelargir_archer}Gondor Pelargir Archer"
+		name="{=gondor_pelargir_archer}[Gondor] Pelargir Archer"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -3461,7 +3460,7 @@
 	<NPCCharacter id="gondor_pelargir_marine"
 		default_group="Infantry"
 		level="21"
-		name="{=gondor_pelargir_marine}Gondor Pelargir Marine"
+		name="{=gondor_pelargir_marine}[Gondor] Pelargir Marine"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -3531,7 +3530,7 @@
 	<NPCCharacter id="gondor_pelargir_veteran_marine"
 		default_group="Infantry"
 		level="26"
-		name="{=gondor_pelargir_veteran_marine}Gondor Pelargir Veteran Marine"
+		name="{=gondor_pelargir_veteran_marine}[Gondor] Pelargir Veteran Marine"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -3600,7 +3599,7 @@
 	<NPCCharacter id="gondor_belfalas_footman"
 		default_group="Infantry"
 		level="11"
-		name="{=gondor_belfalas_footman}Gondor Belfalas Footman"
+		name="{=gondor_belfalas_footman}[Gondor] Belfalas Footman"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -3662,7 +3661,7 @@
 	<NPCCharacter id="gondor_belfalas_spearman"
 		default_group="Infantry"
 		level="16"
-		name="{=gondor_belfalas_spearman}Gondor Belfalas Spearman"
+		name="{=gondor_belfalas_spearman}[Gondor] Belfalas Spearman"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -3732,7 +3731,7 @@
 	<NPCCharacter id="gondor_belfalas_pikemen"
 			default_group="Infantry"
 			level="21"
-			name="{=gondor_belfalas_veteran_spearman}Gondor Belfalas Pikeman"
+			name="{=gondor_belfalas_veteran_spearman}[Gondor] Belfalas Pikeman"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -3798,7 +3797,7 @@
 	<NPCCharacter id="gondor_belfalas_guard"
 			default_group="Infantry"
 			level="21"
-			name="{=gondor_belfalas_guard}Gondor Belfalas Guard"
+			name="{=gondor_belfalas_guard}[Gondor] Belfalas Guard"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -3866,7 +3865,7 @@
 	<NPCCharacter id="gondor_belfalas_elite_pikemen"
 			default_group="Infantry"
 			level="26"
-			name="{=gondor_belfalas_elite_pikemen}Gondor Belfalas Elite Pikeman"
+			name="{=gondor_belfalas_elite_pikemen}[Gondor] Belfalas Elite Pikeman"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -3931,7 +3930,7 @@
 	<NPCCharacter id="gondor_blackroot_hunter"
 		default_group="Ranged"
 		level="11"
-		name="{=gondor_blackroot_hunter}Gondor Blackroot Vale Hunter"
+		name="{=gondor_blackroot_hunter}[Gondor] Blackroot Vale Hunter"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -4002,7 +4001,7 @@
 	<NPCCharacter id="gondor_blackroot_skirmisher"
 		default_group="Ranged"
 		level="16"
-		name="{=gondor_blackroot_skirmisher}Gondor Blackroot Vale Skirmisher"
+		name="{=gondor_blackroot_skirmisher}[Gondor] Blackroot Vale Skirmisher"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -4077,7 +4076,7 @@
 	<NPCCharacter id="gondor_blackroot_archer"
 		default_group="Ranged"
 		level="21"
-		name="{=gondor_blackroot_skirmisher}Gondor Blackroot Vale Bowman"
+		name="{=gondor_blackroot_skirmisher}[Gondor] Blackroot Vale Bowman"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -4151,7 +4150,7 @@
 	<NPCCharacter id="gondor_blackroot_longbowmen"
 		default_group="Ranged"
 		level="26"
-		name="{=gondor_blackroot_longbowmen}Gondor Blackroot Vale Longbowmen"
+		name="{=gondor_blackroot_longbowmen}[Gondor] Blackroot Vale Longbowmen"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -4226,7 +4225,7 @@
 	<NPCCharacter id="gondor_blackroot_elite_longbowmen"
 		default_group="Ranged"
 		level="31"
-		name="{=gondor_blackroot_longbowmen}Gondor Blackroot Vale Elite Longbowmen"
+		name="{=gondor_blackroot_longbowmen}[Gondor] Blackroot Vale Elite Longbowmen"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -4299,7 +4298,7 @@
 	<NPCCharacter id="gondor_pg_levy"
 			default_group="Infantry"
 			level="11"
-			name="{=gondor_belfalas_footman}Gondor Pinnath Gelin Levy"
+			name="{=gondor_belfalas_footman}[Gondor] Pinnath Gelin Levy"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -4366,7 +4365,7 @@
 	<NPCCharacter id="gondor_pg_footman"
 		default_group="Infantry"
 		level="16"
-		name="{=gondor_belfalas_spearman}Gondor Pinnath Gelin Footman"
+		name="{=gondor_belfalas_spearman}[Gondor] Pinnath Gelin Footman"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -4438,7 +4437,7 @@
 	<NPCCharacter id="gondor_pg_warrior"
 			default_group="Infantry"
 			level="21"
-			name="{=gondor_pg_champion}Gondor Pinnath Gelin Hillsentinel"
+			name="{=gondor_pg_champion}[Gondor] Pinnath Gelin Hillsentinel"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -4509,7 +4508,7 @@
 	<NPCCharacter id="gondor_pg_champion"
 			default_group="Infantry"
 			level="26"
-			name="{=gondor_pg_champion}Gondor Pinnath Gelin Champion"
+			name="{=gondor_pg_champion}[Gondor] Pinnath Gelin Champion"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -4583,7 +4582,7 @@
 	<NPCCharacter id="gondor_pg_skirmisher"
 			default_group="Ranged"
 			level="16"
-			name="{=gondor_pg_skirmisher}Gondor Pinnath Gelin Skirmisher"
+			name="{=gondor_pg_skirmisher}[Gondor] Pinnath Gelin Skirmisher"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -4658,7 +4657,7 @@
 	<NPCCharacter id="gondor_pg_bowguard"
 		default_group="Ranged"
 		level="21"
-		name="{=gondor_pg_bowguard}Gondor Pinnath Gelin Bowguard"
+		name="{=gondor_pg_bowguard}[Gondor] Pinnath Gelin Bowguard"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -4732,7 +4731,7 @@
 	<NPCCharacter id="gondor_pg_hillwarden"
 		default_group="Ranged"
 		level="26"
-		name="{=gondor_pg_hillwarden}Gondor Pinnath Gelin Hillwarden"
+		name="{=gondor_pg_hillwarden}[Gondor] Pinnath Gelin Hillwarden"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -4805,7 +4804,7 @@
 	<NPCCharacter id="gondor_pg_scout"
 			default_group="Cavalry"
 			level="16"
-			name="{=gondor_pg_scout}Gondor Pinnath Gelin Scout"
+			name="{=gondor_pg_scout}[Gondor] Pinnath Gelin Scout"
 			upgrade_requires="ItemCategory.horse"
 			occupation="Soldier"
 			culture="Culture.gondor">
@@ -4909,14 +4908,14 @@
 				id="Item.empire_horse" />
 			<equipment
 				slot="HorseHarness"
-				id="Item.stripped_leather_harness" />
+				id="Item.gondor_horse_armor_4" />
 		</Equipments>
 	</NPCCharacter>
 
 	<NPCCharacter id="gondor_pg_horseman"
 		default_group="Cavalry"
 		level="21"
-		name="{=gondor_pg_horseman}Gondor Pinnath Gelin Horseman"
+		name="{=gondor_pg_horseman}[Gondor] Pinnath Gelin Horseman"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -5016,7 +5015,7 @@
 				id="Item.t2_empire_horse" />
 			<equipment
 				slot="HorseHarness"
-				id="Item.half_scale_barding" />
+				id="Item.gondor_horse_armor_1_pg" />
 
 		</Equipments>
 	</NPCCharacter>
@@ -5026,7 +5025,7 @@
 	<NPCCharacter id="gondor_da_page"
 			default_group="Infantry"
 			level="11"
-			name="{=gondor_da_noble}Dol Amroth Page"
+			name="{=gondor_da_noble}[Gondor] Dol Amroth Page"
 			occupation="Soldier"
 			culture="Culture.gondor">
 		<face>
@@ -5088,7 +5087,7 @@
 	<NPCCharacter id="gondor_da_squire"
 		default_group="Infantry"
 		level="16"
-		name="{=gondor_da_footman}Dol Amroth Squire"
+		name="{=gondor_da_footman}[Gondor] Dol Amroth Squire"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -5154,7 +5153,7 @@
 	<NPCCharacter id="gondor_da_footknight"
 	   default_group="Infantry"
 	   level="21"
-	   name="{=gondor_da_footknight}Foot Knight of the Silver Swan"
+	   name="{=gondor_da_footknight}[Gondor] Foot Knight of the Silver Swan"
 	   occupation="Soldier"
 	   culture="Culture.gondor">
 		<face>
@@ -5223,7 +5222,7 @@
 	<NPCCharacter id="gondor_da_knightsergeant"
 		default_group="Infantry"
 		level="26"
-		name="{=gondor_da_knightsergeant}Knight Sergeant of the Silver Swan"
+		name="{=gondor_da_knightsergeant}[Gondor] Knight Sergeant of the Silver Swan"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
@@ -5291,7 +5290,7 @@
 	<NPCCharacter id="gondor_da_knightcommander"
 		default_group="Infantry"
 		level="31"
-		name="{=gondor_da_footknightswan}Knight Commander of the Silver Swan"
+		name="{=gondor_da_footknightswan}[Gondor] Knight Commander of the Silver Swan"
 		occupation="Soldier"
 		culture="Culture.gondor">
 		<face>
