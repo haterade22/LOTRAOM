@@ -79,11 +79,11 @@ namespace LOTRAOM.Models
                 float currentMilitia = settlement.Militia;
                 if (currentMilitia < targetMilitia)
                 {
-                    value.Add(Math.Min(15f, targetMilitia - currentMilitia), new TextObject("{=minas_tirith_militia_growth}Citadel of the White Tower"), null);
+                    value.Add(Math.Min(15f, targetMilitia - currentMilitia), new TextObject("{=MinasTirith_militia_growth}Citadel of the White Tower"), null);
                 }
                 else if (currentMilitia > targetMilitia)
                 {
-                    value.Add(targetMilitia - currentMilitia, new TextObject("{=minas_tirith_militia_cap}Minas Tirith militia cap"), null);
+                    value.Add(targetMilitia - currentMilitia, new TextObject("{=MinasTirith_militia_cap}Minas Tirith militia cap"), null);
                 }
             }
 

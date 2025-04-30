@@ -72,6 +72,6 @@ namespace LOTRAOM
         public static Kingdom? RivendellKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == RivendellCulture);
 
         public static string Orthanc = "town_comp_SWAN_ISENGARD1";
-        public static string Minas_Tirith = "town_EW1";
+        public static string MinasTirith = "town_EW1";
     }
 }

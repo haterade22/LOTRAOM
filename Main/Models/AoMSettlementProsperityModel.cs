@@ -28,9 +28,9 @@ namespace LOTRAOM.Models
                 value.Add(30, new TextObject("{=orthanc_prosperity_boost}Orthanc held by Isengard"), null);
             }
             // Reduce prosperity growth for Minas Tirith to lower food consumption
-            //if (fortification.Culture.StringId == Globals.GondorCulture && fortification.StringId == Globals.Minas_Tirith) // Minas Tirith
+            //if (fortification.Culture.StringId == Globals.GondorCulture && fortification.StringId == Globals.MinasTirith) // Minas Tirith
            // {
-              //  value.Add(60, new TextObject("{=minas_tirith_prosperity_reduction}Minas Tirith held by Gondor"), null);
+              //  value.Add(60, new TextObject("{=MinasTirith_prosperity_reduction}Minas Tirith held by Gondor"), null);
             //}
 
             // Debug log to verify prosperity changes
