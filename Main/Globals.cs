@@ -25,7 +25,7 @@ namespace LOTRAOM
         public static string DaleCulture { get { return "sturgia"; } }
         public static string KhandCulture { get { return "battania"; } }
 
-        public static string Gondorculture { get { return "gondor"; } }
+        public static string GondorCulture { get { return "gondor"; } }
         public static string RivendellCulture { get { return "rivendell"; } }
         public static string MirkwoodCulture { get { return "mirkwood"; } }
         public static string LothlorienCulture { get { return "lothlorien"; } }
@@ -37,7 +37,7 @@ namespace LOTRAOM
         public static string UmbarCulture { get { return "umbar"; } }
 
         // culture groups
-        public static readonly List<string> HumanGoodCulture = new() { Gondorculture, RohanCulture, DaleCulture };
+        public static readonly List<string> HumanGoodCulture = new() { GondorCulture, RohanCulture, DaleCulture };
         public static readonly List<string> ElvenCulture = new() { RivendellCulture, MirkwoodCulture, LothlorienCulture };
         public static readonly List<string> DwarvenCulture = new() { EreborCulture };
         public static readonly List<string> OrcishCulture = new() { MordorCulture, GundabadCulture, DolguldurCulture, IsengardCulture };
@@ -55,7 +55,7 @@ namespace LOTRAOM
         public static Kingdom? MordorKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == MordorCulture);
         public static Kingdom? IsengardKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == IsengardCulture);
         public static Kingdom? RohanKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == RohanCulture);
-        public static Kingdom? GondorKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == Gondorculture);
+        public static Kingdom? GondorKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == GondorCulture);
         public static Kingdom? DunlandKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == DunlandCulture);
 
         public static Kingdom? DolGuldurKingdom = Kingdom.All.FirstOrDefault(k => k.Culture.StringId == DolguldurCulture);

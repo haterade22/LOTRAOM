@@ -186,7 +186,7 @@ namespace LOTRAOM.Models
             float value = baseModel.GetScoreOfDeclaringWar(factionDeclaresWar, factionDeclaredWar, evaluatingFaction, out reason);
             AoMDiplomacy.EvilFactionsDaysWithoutWar.TryGetValue(factionDeclaresWar.StringId, out int daysWithoutWar);
             value += daysWithoutWar * 10000;
-            if (factionDeclaresWar.Culture.StringId == Globals.MordorCulture && factionDeclaredWar.Culture.StringId == Globals.Gondorculture && factionDeclaredWar.Culture.StringId == Globals.RohanCulture)
+            if (factionDeclaresWar.Culture.StringId == Globals.MordorCulture && factionDeclaredWar.Culture.StringId == Globals.GondorCulture && factionDeclaredWar.Culture.StringId == Globals.RohanCulture)
                 value = int.MaxValue;
             return value;
         }

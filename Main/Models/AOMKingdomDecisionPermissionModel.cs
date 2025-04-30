@@ -67,7 +67,7 @@ namespace LOTRAOM.Models
                 reason = new TextObject("It's time to stop the infighting, we know who our enemies are!");
                 return false;
             }
-            if ((kingdom1.Culture.StringId == Globals.RohanCulture || kingdom1.Culture.StringId == Globals.Gondorculture) && kingdom2.Culture.StringId == Globals.IsengardCulture)
+            if ((kingdom1.Culture.StringId == Globals.RohanCulture || kingdom1.Culture.StringId == Globals.GondorCulture) && kingdom2.Culture.StringId == Globals.IsengardCulture)
             {
                 reason = new TextObject("The tower of Orthanoc belongs to the keeper of peace, Saruman the White. We will not attack our ally.");
                 return false;

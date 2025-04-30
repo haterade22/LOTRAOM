@@ -1559,7 +1559,7 @@
 	<NPCCharacter
 		id="lord_1_7"
 		name="{=I72U5ttG}Denethor II"
-		age="70"
+		age="50"
 		voice="ironic"
 		is_hero="true"
 		culture="Culture.gondor"
@@ -1682,7 +1682,7 @@
 	<NPCCharacter
 		id="lord_1_9"
 		name="{=QjJAbaoT}Imrahil"
-		age="45"
+		age="35"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
@@ -2203,7 +2203,7 @@
 		id="lord_1_11"
 		name="{=acp2IcMs}Ciryandur"
 		default_group="Infantry"
-		age="64"
+		age="54"
 		voice="curt"
 		is_hero="true"
 		culture="Culture.gondor"
@@ -3243,7 +3243,7 @@
 	<NPCCharacter
 		id="lord_1_75"
 		name="{=LiAefNmE}Boromir"
-		age="22"
+		age="25"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.gondor"
@@ -3846,7 +3846,7 @@
 	<NPCCharacter
 		id="lord_1_34"
 		name="{=uLjRHv9p}Faramir"
-		age="17"
+		age="19"
 		voice="earnest"
 		is_hero="true"
 		is_female="false"
@@ -5377,7 +5377,7 @@
 		voice="softspoken"
 		is_female="false"
 		default_group="Infantry"
-		age="45"
+		age="35"
 		is_hero="true"
 		culture="Culture.gondor"
 		occupation="Lord"
@@ -14271,7 +14271,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_1"
 		name="{=jEIsVazl}Théoden"
-		age="51"
+		age="45"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
@@ -14428,7 +14428,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_3_1"
 		name="{=vEsKYrFR}Éomer"
-		age="9"
+		age="21"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
@@ -14472,7 +14472,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_3_2"
 		name="{=36Y88cTv}Éowyn"
-		age="5"
+		age="18"
 		voice="ironic"
 		is_female="true"
 		default_group="Cavalry"
@@ -14517,7 +14517,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_3_3"
 		name="{=36Y88cTv}Théodwyn"
-		age="36"
+		age="26"
 		voice="ironic"
 		is_female="true"
 		default_group="Cavalry"
@@ -14649,7 +14649,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_6"
 		name="{=KsBoNHW5}Grimbold"
-		age="20"
+		age="30"
 		voice="curt"
 		default_group="Cavalry"
 		is_hero="true"
@@ -15764,7 +15764,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_21"
 		name="{=LwbqCwne}Cuthræd"
-		age="68"
+		age="48"
 		voice="earnest"
 		default_group="Cavalry"
 		is_hero="true"
@@ -15946,7 +15946,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_22"
 		name="{=a4E2pVDA}Wulf"
-		age="51"
+		age="41"
 		voice="softspoken"
 		default_group="Cavalry"
 		is_hero="true"
@@ -16031,7 +16031,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_23"
 		name="{=T2JS44bJ}Marhath"
-		age="73"
+		age="53"
 		voice="curt"
 		default_group="Cavalry"
 		is_hero="true"
@@ -16387,7 +16387,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_27"
 		name="{=8LuUksQg}Ælle"
-		age="56"
+		age="46"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
@@ -16732,7 +16732,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_29"
 		name="{=8LuUksQg}Eadfrith"
-		age="50"
+		age="40"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
