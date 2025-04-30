@@ -129,20 +129,8 @@ namespace LOTRAOM
             {
                 finishedFirstLoad = true;
                 RunManualPatches();
-                GetAllRaces();
             }
         }
-
-        private void GetAllRaces()
-        {
-            List<string> everyRace = new() { "human", "dwarf", "uruk_hai", "berserker", "uruk", "orc", "nazghul" };
-            foreach (string race in everyRace)
-            {
-                int raceId = TaleWorlds.Core.FaceGen.GetRaceOrDefault(race);
-                Globals.GetRaceStringIdFromInt.Add(raceId, race);
-            }
-        }
-
         private void RunManualPatches()
         {
 #pragma warning disable BHA0003 // Type was not found
