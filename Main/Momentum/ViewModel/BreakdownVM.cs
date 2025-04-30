@@ -1,5 +1,4 @@
-﻿using LOTRAOM.Momentum;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.ViewModelCollection;
 using TaleWorlds.Core;
@@ -9,54 +8,51 @@ using TaleWorlds.Localization;
 
 namespace LOTRAOM.Momentum.ViewModel
 {
-    public class MomentumBreakdownVM : TaleWorlds.Library.ViewModel
+    public class BreakdownVM : TaleWorlds.Library.ViewModel
     {
         [DataSourceProperty] public string Text { get; set; }
         [DataSourceProperty] public string Number1 { get; set; }
         [DataSourceProperty] public string Number2 { get; set; }
 
         BasicTooltipViewModel _valueFaction1;
-        [DataSourceProperty]
-        public BasicTooltipViewModel ValueFaction1
+        [DataSourceProperty] public BasicTooltipViewModel ValueFaction1
         {
             get
             {
-                return this._valueFaction1;
+                return _valueFaction1;
             }
             set
             {
-                if (value != this._valueFaction1)
+                if (value != _valueFaction1)
                 {
-                    this._valueFaction1 = value;
-                    base.OnPropertyChangedWithValue<BasicTooltipViewModel>(value, "ValueFaction1");
+                    _valueFaction1 = value;
+                    OnPropertyChangedWithValue<BasicTooltipViewModel>(value, "ValueFaction1");
                 }
             }
         }
-        BasicTooltipViewModel _valueFaction2;
-        [DataSourceProperty]
+        BasicTooltipViewModel _valueFaction2; [DataSourceProperty]
         public BasicTooltipViewModel ValueFaction2
         {
             get
             {
-                return this._valueFaction2;
+                return _valueFaction2;
             }
             set
             {
-                if (value != this._valueFaction2)
+                if (value != _valueFaction2)
                 {
-                    this._valueFaction2 = value;
-                    base.OnPropertyChangedWithValue<BasicTooltipViewModel>(value, "ValueFaction2");
+                    _valueFaction2 = value;
+                    OnPropertyChangedWithValue<BasicTooltipViewModel>(value, "ValueFaction2");
                 }
             }
         }
-        //[DataSourceProperty] public MomentumSideBreakdownVM ValueFaction2 { get; set; }
 
-        public MomentumBreakdownVM(MomentumTempBreakdown breakdown)
+        public BreakdownVM(MomentumBreakdown breakdown)
         {
             Text = breakdown.MomentumActionType switch
             {
                 MomentumActionType.BattleWon => new TextObject("Battles Won").ToString(),
-                MomentumActionType.VillagesRaided => new TextObject("Villages Raided").ToString(),
+                MomentumActionType.VillageRaided => new TextObject("Villages Raided").ToString(),
                 MomentumActionType.Sieges => new TextObject("Fiefs Captured").ToString(),
                 MomentumActionType.ArmyGathered => new TextObject("Army Gathered").ToString(),
                 MomentumActionType.RelativeStrength => new TextObject("Relative Strength").ToString(),
@@ -66,6 +62,14 @@ namespace LOTRAOM.Momentum.ViewModel
             ValueFaction2 = new BasicTooltipViewModel(() => GetExplainerTooltip(breakdown.MomentumEvilSideValue));
             Number1 = breakdown.MomentumGoodSideValue.ResultNumber.ToString();
             Number2 = breakdown.MomentumEvilSideValue.ResultNumber.ToString();
+        }
+        public BreakdownVM(TextObject descripton, string value1, string value2)
+        {
+            Text = descripton.ToString();
+            Number1 = value1;
+            Number2 = value2;
+            ValueFaction1 = new BasicTooltipViewModel(() => GetExplainerTooltip(new(int.Parse(Number1))));
+            ValueFaction2 = new BasicTooltipViewModel(() => GetExplainerTooltip(new(int.Parse(Number2))));
         }
         static List<TooltipProperty> GetExplainerTooltip(ExplainedNumber number)
         {
@@ -80,12 +84,10 @@ namespace LOTRAOM.Momentum.ViewModel
         {
             MBInformationManager.ShowHint(Explanation.ToString());
         }
-
         public void ExecuteEndHint()
         {
             MBInformationManager.HideInformations();
         }
-
         public MomentumSideBreakdownVM(float value, string hintText)
         {
             Value = value.ToString();

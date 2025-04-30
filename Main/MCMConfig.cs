@@ -34,14 +34,16 @@ namespace LOTRAOM
     }
     public interface ICustomSettingsProvider
     {
-        bool BalanceOfPower { get; set; }
+        public bool LoreAccurateDiplomacy { get; set; }
+        public bool Momentum { get; set; }
         public int IsengardEarliestAttackDate { get; set; }
         public int IsengardLatestAttackDate { get; set; }
     }
 
     public class HardcodedCustomSettings : ICustomSettingsProvider
     {
-        public bool BalanceOfPower { get; set; } = true;
+        public bool LoreAccurateDiplomacy { get; set; } = true;
+        public bool Momentum { get; set; } = true;
         public int IsengardEarliestAttackDate { get; set; } = 10;
         public int IsengardLatestAttackDate { get; set; } = 20;
     }
@@ -54,15 +56,18 @@ namespace LOTRAOM
             { "VERSION", typeof(CustomSettings).Assembly.GetName().Version?.ToString(3) ?? "ERROR" }
         }).ToString();
 
-        [SettingPropertyBool("AoM Diplomacy",  HintText = "Restricted diplomacy, leading to the War of The Ring (good vs evil factions) - prepare for total war!")]
+        [SettingPropertyBool("AoM Diplomacy", RequireRestart = true, HintText = "Restricted diplomacy, leading to the War of The Ring (good vs evil factions) - prepare for total war!")]
         [SettingPropertyGroup("{=aom_diplomacy}Diplomacy")]
-        public bool BalanceOfPower { get; set; } = true;
+        public bool LoreAccurateDiplomacy { get; set; } = true;
 
-        [SettingPropertyInteger("Isengard earliest attack date",1,730, RequireRestart = true, HintText = "CALCULATED AT CAMPAIGN START, default - 1 season = 21 days"),]
+        [SettingPropertyInteger("Isengard earliest attack date", 1, 730, RequireRestart = true, HintText = "CALCULATED AT CAMPAIGN START, default - 1 season = 21 days"),]
         [SettingPropertyGroup("{=aom_diplomacy}Diplomacy")]
         public int IsengardEarliestAttackDate { get; set; } = 21;
-        [SettingPropertyInteger("Isengard latest attack date",1,730, RequireRestart = true, HintText = "CALCULATED AT CAMPAIGN START default - 1 year = 4 seasons = 84 days")]
+        [SettingPropertyInteger("Isengard latest attack date", 1, 730, RequireRestart = true, HintText = "CALCULATED AT CAMPAIGN START default - 1 year = 4 seasons = 84 days")]
         [SettingPropertyGroup("{=aom_diplomacy}Diplomacy")]
         public int IsengardLatestAttackDate { get; set; } = 84;
+        [SettingPropertyBool("Momentum", RequireRestart = true, HintText = "NEEDS AoMDIPLOMACY TO WORK Add the momentum mechanic, during the War of the Ring")]
+        [SettingPropertyGroup("{=aom_diplomacy}Diplomacy")]
+        public bool Momentum { get; set; } = true;
     }
 }

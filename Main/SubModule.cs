@@ -12,17 +12,13 @@ using LOTRAOM.Patches;
 using LOTRAOM.Extensions;
 using LOTRAOM.Momentum;
 using LOTRAOM.CampaignBehaviors;
-using System;
-using TaleWorlds.MountAndBlade.Diamond;
-using TaleWorlds.MountAndBlade;
 
 namespace LOTRAOM
 {
     public class SubModule : MBSubModuleBase
     {
         private Harmony harmony = new Harmony("com.lotrmod.lotr_lome");
-        private bool manualPatchesHaveFired;
-
+        private bool finishedFirstLoad; // for manual patche and race map
         protected override void OnSubModuleLoad()
         {
             Harmony.DEBUG = true;
@@ -81,9 +77,10 @@ namespace LOTRAOM
             if (gameStarterObject is CampaignGameStarter campaignGameStarter)
             {
                 campaignGameStarter.AddBehavior(new KeepHeroRaceCampaignBehavior());
-                campaignGameStarter.AddBehavior(new AoMDiplomacy());
-                campaignGameStarter.AddBehavior(new MomentumCampaignBehavior());
-
+                if (AoMSettings.Instance.LoreAccurateDiplomacy && AoMSettings.Instance.Momentum)
+                {
+                    campaignGameStarter.AddBehavior(new MomentumCampaignBehavior());
+                }
                 // models
                 campaignGameStarter.AddModel(new LOTRAOMNotableSpawnModel(campaignGameStarter.GetExistingModel<NotableSpawnModel>()));
                 campaignGameStarter.AddModel(new LOTRAOMPartyWageModel(campaignGameStarter.GetExistingModel<PartyWageModel>()));
@@ -98,7 +95,14 @@ namespace LOTRAOM
                 campaignGameStarter.AddModel(new AOMDiplomacyModel(campaignGameStarter.GetExistingModel<DiplomacyModel>()));
                 campaignGameStarter.AddModel(new AoMSettlementFoodModel(campaignGameStarter.GetExistingModel<SettlementFoodModel>()));
                 campaignGameStarter.AddModel(new AoMSettlementProsperityModel(campaignGameStarter.GetExistingModel<SettlementProsperityModel>()));
-                campaignGameStarter.AddModel(new AOMKingdomDecisionPermissionModel());
+                if (AoMSettings.Instance.LoreAccurateDiplomacy)
+                {
+                    campaignGameStarter.AddModel(new AOMKingdomDecisionPermissionModel());
+                    campaignGameStarter.AddBehavior(new AoMDiplomacy());
+                }
+                campaignGameStarter.AddModel(new AoMPartyMoraleModel());
+                //we can edit this to make factions based on raiding (raiding gives more items)
+                //campaignGameStarter.GetExistingModel<DefaultRaidModel>
             }
         }
 
@@ -121,12 +125,22 @@ namespace LOTRAOM
 
         public override void OnGameInitializationFinished(Game game)
         {
-            if (!manualPatchesHaveFired)
+            if (!finishedFirstLoad)
             {
-                manualPatchesHaveFired = true;
+                finishedFirstLoad = true;
                 RunManualPatches();
+                GetAllRaces();
             }
-            // RaceManager initialization moved to OnGameStart
+        }
+
+        private void GetAllRaces()
+        {
+            List<string> everyRace = new() { "human", "dwarf", "uruk_hai", "berserker", "uruk", "orc", "nazghul" };
+            foreach (string race in everyRace)
+            {
+                int raceId = TaleWorlds.Core.FaceGen.GetRaceOrDefault(race);
+                Globals.GetRaceStringIdFromInt.Add(raceId, race);
+            }
         }
 
         private void RunManualPatches()

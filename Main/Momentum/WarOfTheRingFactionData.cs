@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.Library;
+using TaleWorlds.Localization;
 using TaleWorlds.SaveSystem;
 
 namespace LOTRAOM.Momentum
@@ -13,7 +15,6 @@ namespace LOTRAOM.Momentum
         [SaveableField(1)] public Dictionary<MomentumActionType, Queue<MomentumEvent>> WarOfTheRingEvents = new();
         [SaveableField(2)] private int momentum = 0;
         [SaveableField(3)] MomentumFactionTotalStats _factionTotalStats = new();
-
         public MomentumFactionTotalStats FactionTotalStats { get { return _factionTotalStats; } }
         public WarOfTheRingFactionData()
         {
@@ -23,7 +24,6 @@ namespace LOTRAOM.Momentum
                     WarOfTheRingEvents[eventType] = new();
             }
         }
-
         public int WarSideMomentum { get { return momentum; } }
         public List<Kingdom> Kingdoms { get { return _kingdoms; } }
         public float TotalStrength
@@ -59,12 +59,10 @@ namespace LOTRAOM.Momentum
     {
         [SaveableField(0)] WarOfTheRingFactionData _goodKingdoms = new();
         [SaveableField(1)] WarOfTheRingFactionData _evilKingdoms = new();
-        [SaveableField(2)] private bool hasWarEnded = false;
-        public bool HasWarEnded { get; }
-        [SaveableField(3)] private bool hasWarStarted = false;
-        public bool HasWarStarted { get { return hasWarStarted; } }
-        [SaveableField(4)] private int lastDaysMomentumFromStrengthComparison = 0;
-        [SaveableField(5)] private int todaysMomentumFromStrengthCompariton = 0;
+        [SaveableField(2)] private bool _hasWarEnded = false;
+        public bool HasWarEnded { get { return _hasWarEnded; } }
+        [SaveableField(3)] private bool _hasWarStarted = false;
+        public bool HasWarStarted { get { return _hasWarStarted; } }
 
         public WarOfTheRingFactionData GoodKingdoms { get { return _goodKingdoms; } }
         public WarOfTheRingFactionData EvilKingdoms { get { return _evilKingdoms; } }
@@ -90,37 +88,49 @@ namespace LOTRAOM.Momentum
         {
             if (!HasWarStarted)
                 MomentumCampaignBehavior.Instance.AddMomentumUI();
-            hasWarStarted = true;
+            _hasWarStarted = true;
             if (kingdom.Culture.IsGoodCulture())
             {
+                if (GoodKingdoms.Kingdoms.Any(k => k.StringId == kingdom.StringId)) return;
                 GoodKingdoms.Kingdoms.Add(kingdom);
                 foreach(var evilKingdom in EvilKingdoms.Kingdoms)
                     FactionManager.DeclareWar(kingdom, evilKingdom);
             }
             else
             {
+                if (EvilKingdoms.Kingdoms.Any(k => k.StringId == kingdom.StringId)) return;
                 EvilKingdoms.Kingdoms.Add(kingdom);
                 foreach (var evilKingdom in GoodKingdoms.Kingdoms)
                     FactionManager.DeclareWar(kingdom, evilKingdom);
             }
         }
-        public bool ShouldWarEnd()
+        public bool EndWarIfConditionsMet()
         {
-            if (Math.Abs(Momentum) == 100)
+            if (!HasWarStarted) return false;
+            if (Momentum == 100)
             {
-                hasWarEnded = true;
+                _hasWarEnded = true;
+                InquiryData data = new("End of the war", new TextObject($"The war is over. We have persevered, and won the future for our children. Long live freedom!").ToString(), true, false, new TextObject("Continue").ToString(), "", () => { }, () => { });
+                InformationManager.ShowInquiry(data, true, false);
+                return true;
+            }
+            if (Momentum == -100)
+            {
+                _hasWarEnded = true;
+                InquiryData data = new("End of the war", new TextObject($"The realms of man and elf alike have been crushed. Long live the empire of Sauron!").ToString(), true, false, new TextObject("Continue").ToString(), "", () => { }, () => { });
+                InformationManager.ShowInquiry(data, true, false);
                 return true;
             }
             return false;
         }
-        public int Momentum // goes between 100 and -100
+        public float Momentum // goes between 100 and -100 (divided by a 100)
         {
             get
             {
-                int momValue = GoodKingdoms.WarSideMomentum - EvilKingdoms.WarSideMomentum;
+                float momValue = GoodKingdoms.WarSideMomentum - EvilKingdoms.WarSideMomentum;
+                momValue /= 100;
                 return Math.Min(Math.Max(momValue, -100), 100);
             }
         }
-
     }
 }

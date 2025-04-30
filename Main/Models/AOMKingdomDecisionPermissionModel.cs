@@ -28,11 +28,13 @@ namespace LOTRAOM.Models
         public override bool IsPeaceDecisionAllowedBetweenKingdoms(Kingdom kingdom1, Kingdom kingdom2, out TextObject reason)
         {
             WarOfTheRingData data = MomentumCampaignBehavior.Instance.warOfTheRingData;
-            if (data.HasWarStarted && data.DoesFactionTakePartInWar(kingdom1) && data.DoesFactionTakePartInWar(kingdom2))
+            if (data.HasWarStarted && !data.HasWarEnded && data.DoesFactionTakePartInWar(kingdom1) && data.DoesFactionTakePartInWar(kingdom2)
+                || MomentumCampaignBehavior.Instance.hasIsengardAttacked && !data.HasWarStarted)
             {
                 reason = new TextObject("There can be no peace between the forces of good and evil!");
                 return false;
             }
+
             reason = TextObject.Empty;
             return true;
         }
