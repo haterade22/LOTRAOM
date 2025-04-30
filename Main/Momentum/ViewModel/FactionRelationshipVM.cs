@@ -11,13 +11,14 @@ namespace LOTRAOM.Momentum.ViewModel
     public sealed class FactionRelationshipVM : TaleWorlds.Library.ViewModel
     {
         public IFaction Faction { get; init; }
+        private ImageIdentifierVM _imageIdentifier;
+        private string _nameText;
 
-        public FactionRelationshipVM(IFaction faction, HintViewModel? hint = null)
+        public FactionRelationshipVM(IFaction faction)
         {
             Faction = faction;
             _imageIdentifier = new ImageIdentifierVM(BannerCode.CreateFrom(faction.Banner), true);
             _nameText = Faction.Name.ToString();
-            _hint = hint ?? new HintViewModel();
         }
         private void ExecuteLink() => Campaign.Current.EncyclopediaManager.GoToLink(Faction.EncyclopediaLink);
 
@@ -26,9 +27,7 @@ namespace LOTRAOM.Momentum.ViewModel
         public bool Equals(FactionRelationshipVM vm) => EqualityComparer<IFaction>.Default.Equals(Faction, vm.Faction);
 
         public override int GetHashCode() => -301155118 + EqualityComparer<IFaction>.Default.GetHashCode(Faction);
-
-        [DataSourceProperty]
-        public string NameText
+        [DataSourceProperty] public string NameText
         {
             get => _nameText;
             set
@@ -40,9 +39,7 @@ namespace LOTRAOM.Momentum.ViewModel
                 }
             }
         }
-
-        [DataSourceProperty]
-        public ImageIdentifierVM ImageIdentifier
+        [DataSourceProperty] public ImageIdentifierVM ImageIdentifier
         {
             get => _imageIdentifier;
             set
@@ -50,28 +47,9 @@ namespace LOTRAOM.Momentum.ViewModel
                 if (value != _imageIdentifier)
                 {
                     _imageIdentifier = value;
-                    // FIXME: Property named below was "Banner" -- interpreted as bug, but check functionality switching between ImageIdentifiers
                     OnPropertyChanged(nameof(ImageIdentifier));
                 }
             }
         }
-
-        [DataSourceProperty]
-        public HintViewModel Hint
-        {
-            get => _hint;
-            set
-            {
-                if (value != _hint)
-                {
-                    _hint = value;
-                    OnPropertyChanged(nameof(Hint));
-                }
-            }
-        }
-
-        private ImageIdentifierVM _imageIdentifier;
-        private string _nameText;
-        private HintViewModel _hint;
     }
 }

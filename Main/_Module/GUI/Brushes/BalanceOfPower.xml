@@ -24,9 +24,9 @@
 			<Style Name="Default" FontColor="#F4E1C4FF" TextOutlineAmount="0.1" TextGlowRadius="0" TextBlur="0" TextShadowOffset="1" TextShadowAngle="60" FontSize="20" />
 		</Styles>
 	</Brush>
-	<Brush Name="Diplomacy.TitleSmall.Text" Font="Galahad" TextHorizontalAlignment="Center">
+	<Brush Name="Momentum.TitleSmall.Text" Font="Galahad" TextHorizontalAlignment="Center">
 		<Styles>
-			<Style Name="Default" FontColor="#ECC79BFF" TextOutlineAmount="0.1" TextGlowRadius="0" TextBlur="0.3" TextShadowOffset="0" TextShadowAngle="60" FontSize="28"/>
+			<Style Name="Default" FontColor="#000000FF" TextOutlineAmount="0.1" TextGlowRadius="0" TextBlur="0.3" TextShadowOffset="0" TextShadowAngle="60" FontSize="28"/>
 		</Styles>
 	</Brush>
 

@@ -1,4 +1,4 @@
-﻿using LOTRAOM.CampaignBehaviors;
+﻿using LOTRAOM.Events;
 using LOTRAOM.Momentum;
 using System;
 using System.Collections.Generic;
