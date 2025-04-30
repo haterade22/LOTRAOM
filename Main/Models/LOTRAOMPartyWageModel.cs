@@ -5,24 +5,33 @@ using TaleWorlds.CampaignSystem.ComponentInterfaces;
 using TaleWorlds.CampaignSystem.Party;
 using TaleWorlds.Core;
 using TaleWorlds.Library;
+using TaleWorlds.Localization;
 
 namespace LOTRAOM.Models
 {
     public class LOTRAOMPartyWageModel : PartyWageModel
     {
-        private PartyWageModel defaultPartyWageModel;
+        private readonly PartyWageModel _defaultPartyWageModel;
+        private const float MountedTroopWageMultiplier = 0.5f; // Assume 50% extra wage for mounted units
+
         public LOTRAOMPartyWageModel(PartyWageModel previousModel)
         {
-            defaultPartyWageModel = previousModel;
+            _defaultPartyWageModel = previousModel;
         }
-        public float MordorWageMultiplier => LOTRAOMCultureFeats.Instance.mordorWageMultiplierFeat.EffectBonus;
-        public double MordorRecruitmentMulitpler => LOTRAOMCultureFeats.Instance.mordorRecruitmentFeat.EffectBonus;
-        
 
-        public override int MaxWage { get { return 1000; } }
+        public float MordorWageMultiplier => LOTRAOMCultureFeats.Instance.mordorWageMultiplierFeat?.EffectBonus ?? 0f;
+        public float MordorRecruitmentMultiplier => LOTRAOMCultureFeats.Instance.mordorRecruitmentFeat?.EffectBonus ?? 1f;
+        public float GondorInfantryWageReduction => LOTRAOMCultureFeats.Instance.gondorReduceInfantryWages?.EffectBonus ?? 0f;
+        public float GondorGarrisonWageReduction => LOTRAOMCultureFeats.Instance.gondorReduceWagesInGarrisons?.EffectBonus ?? 0f;
+        public float ElfArcherWageReduction => 0.15f; // Hardcoded for now; can be moved to LOTRAOMCultureFeats.cs
+        public float EreborEliteWageIncrease => 0.1f; // Hardcoded for now; can be moved to LOTRAOMCultureFeats.cs
+
+        public override int MaxWage => 1000;
 
         public override int GetCharacterWage(CharacterObject character)
         {
+            if (character == null) return 0;
+
             float value = character.Tier switch
             {
                 0 => 1,
@@ -38,29 +47,58 @@ namespace LOTRAOM.Models
                 10 => 47,
                 _ => 57
             };
+
             if (character.Occupation == Occupation.Mercenary)
             {
-                value = (int)((float)value * 1.5f);
+                value *= 1.5f;
             }
-            if (character.IsMounted && !character.Culture.HasFeat(LOTRAOMCultureFeats.Instance.rohanNoExtraWageForMounted))
-                value += value * Globals.MountedTroopWageMultiplier;
-            if (character.IsInfantry && character.Culture.HasFeat(LOTRAOMCultureFeats.Instance.gondorReduceInfantryWages)) 
-                value -= value * LOTRAOMCultureFeats.Instance.gondorReduceInfantryWages.EffectBonus;
+
+            if (character.IsMounted && (character.Culture?.HasFeat(LOTRAOMCultureFeats.Instance.rohanNoExtraWageForMounted) != true))
+            {
+                value += value * MountedTroopWageMultiplier;
+            }
+
+            if (character.IsInfantry && character.Culture?.HasFeat(LOTRAOMCultureFeats.Instance.gondorReduceInfantryWages) == true)
+            {
+                value *= (1f - GondorInfantryWageReduction);
+            }
+
+            if (character.IsRanged && character.Culture?.StringId is "rivendell" or "mirkwood" or "lothlorien")
+            {
+                value *= (1f - ElfArcherWageReduction);
+            }
+
+            if (character.Tier >= 4 && character.Culture?.StringId == "erebor")
+            {
+                value *= (1f + EreborEliteWageIncrease);
+            }
+
             return (int)value;
         }
 
         public override ExplainedNumber GetTotalWage(MobileParty mobileParty, bool includeDescriptions = false)
         {
-            ExplainedNumber wage = defaultPartyWageModel.GetTotalWage(mobileParty, includeDescriptions);
-            if (mobileParty.Party.Culture.HasFeat(LOTRAOMCultureFeats.Instance.mordorWageMultiplierFeat))
-                wage.Add(wage.ResultNumber * -LOTRAOMCultureFeats.Instance.mordorWageMultiplierFeat.EffectBonus, new("{=mordor_wage_reduction}Mordor wage reduction")); //the text does not seem to be shown anywhere?
-            if (mobileParty.IsGarrison && mobileParty.Party.Culture.HasFeat(LOTRAOMCultureFeats.Instance.gondorReduceWagesInGarrisons))
-                wage.AddFactor(-LOTRAOMCultureFeats.Instance.gondorReduceWagesInGarrisons.EffectBonus, new("{=gondor_garrison_wage}Gondor garrison wage reduction"));
+            ExplainedNumber wage = _defaultPartyWageModel.GetTotalWage(mobileParty, includeDescriptions);
+
+            if (mobileParty?.Party?.Culture != null)
+            {
+                if (mobileParty.Party.Culture.HasFeat(LOTRAOMCultureFeats.Instance.mordorWageMultiplierFeat))
+                {
+                    wage.AddFactor(-MordorWageMultiplier, new TextObject("{=mordor_wage_multiplier}Mordor Wage Efficiency"));
+                }
+                if (mobileParty.IsGarrison && mobileParty.Party.Culture.HasFeat(LOTRAOMCultureFeats.Instance.gondorReduceWagesInGarrisons))
+                {
+                    wage.AddFactor(-GondorGarrisonWageReduction, new TextObject("{=gondor_reduce_wages_in_garrison}Gondorian Garrison Duty"));
+                }
+            }
+
             return wage;
         }
 
         public override int GetTroopRecruitmentCost(CharacterObject troop, Hero buyerHero, bool withoutItemCost = false)
         {
+            if (troop == null) return 0;
+
             float baseCost = troop.Level switch
             {
                 <= 1 => 10,
@@ -77,9 +115,11 @@ namespace LOTRAOM.Models
                 _ => 4000
             };
 
-            bool isMercenary = troop.Occupation == Occupation.Mercenary || troop.Occupation == Occupation.Gangster || troop.Occupation == Occupation.CaravanGuard;
+            bool isMercenary = troop.Occupation is Occupation.Mercenary or Occupation.Gangster or Occupation.CaravanGuard;
             if (isMercenary)
-                baseCost = MathF.Round(baseCost * 2f);
+            {
+                baseCost *= 2f;
+            }
 
             if (buyerHero == null) return (int)baseCost;
 
@@ -137,11 +177,16 @@ namespace LOTRAOM.Models
                     explainedNumber.AddFactor(DefaultPerks.Charm.SlickNegotiator.PrimaryBonus, null);
                 }
             }
-            baseCost = MathF.Max(1, MathF.Round((float)baseCost * explainedNumber.ResultNumber));
 
-            if (buyerHero.Culture.HasFeat(LOTRAOMCultureFeats.Instance.mordorRecruitmentFeat))
-                baseCost *= LOTRAOMCultureFeats.Instance.mordorRecruitmentFeat.EffectBonus;
-            return (int)baseCost;
+            baseCost *= explainedNumber.ResultNumber;
+
+            if (buyerHero.Culture?.HasFeat(LOTRAOMCultureFeats.Instance.mordorRecruitmentFeat) == true)
+            {
+                explainedNumber.AddFactor(-(1f - MordorRecruitmentMultiplier), new TextObject("{=mordor_recruitment}Orc Horde Recruitment"));
+                baseCost *= MordorRecruitmentMultiplier;
+            }
+
+            return (int)MathF.Max(1f, baseCost); 
         }
     }
 }

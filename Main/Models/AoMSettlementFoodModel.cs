@@ -31,6 +31,8 @@ namespace LOTRAOM.Models
         {
             if (t.Culture.StringId == Globals.IsengardCulture && t.StringId == Globals.Orthanc)
                 return true;
+            if (t.Culture.StringId == Globals.Gondorculture && t.StringId == Globals.Minas_Tirith)
+                return true;
             return false; 
         };
 

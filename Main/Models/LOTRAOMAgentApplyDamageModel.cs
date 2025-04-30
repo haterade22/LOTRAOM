@@ -12,16 +12,15 @@ namespace LOTRAOM
     public class LOTRAOMAgentApplyDamageModel : AgentApplyDamageModel
     {
         private const float SallyOutSiegeEngineDamageMultiplier = 4.5f;
+        private const float RohirrimMountedBonus = 0.1f; // 10% damage bonus for Rohirrim when mounted
         private static readonly AgentApplyDamageModel _defaultModel = MissionGameModels.Current.AgentApplyDamageModel;
 
-        // Property to store whether the current attack targets a siege engine
         public bool IsSiegeEngineHit { get; set; }
 
         public override float CalculateDamage(in AttackInformation attackInformation, in AttackCollisionData collisionData, in MissionWeapon weapon, float baseDamage)
         {
             try
             {
-                // Initialize with default model’s damage, including campaign perks and banner effects
                 ExplainedNumber modifiedDamage = new ExplainedNumber(
                     baseNumber: _defaultModel.CalculateDamage(attackInformation, collisionData, weapon, baseDamage),
                     includeDescriptions: true,
@@ -34,14 +33,59 @@ namespace LOTRAOM
                     RaceManager.DamageType damageType = RaceManager.GetDefaultDamage(weapon);
                     if (damageType != RaceManager.DamageType.Other)
                     {
+                        // Race bonus
                         RaceManager.ApplyRaceBonusWhenDealingDamage(
-                            character: attackInformation.AttackerAgentCharacter,
-                            damageType: damageType,
-                            damage: ref modifiedDamage,
+                            attacker: attackInformation.AttackerAgentCharacter,
+                            damage: damageType,
+                            dealtDamage: ref modifiedDamage,
                             description: new TextObject("{=lotraom_attacker_bonus}{CULTURE} {TYPE} Damage Bonus")
                                 .SetTextVariable("CULTURE", attackInformation.AttackerAgentCharacter.Culture.Name)
                                 .SetTextVariable("TYPE", damageType == RaceManager.DamageType.Melee ? "Melee" : "Ranged")
                         );
+
+                        // Culture-specific terrain bonus
+                        TerrainType terrain = Mission.Current?.TerrainType ?? TerrainType.None;
+                        string cultureId = attackInformation.AttackerAgentCharacter.Culture.StringId.ToLower();
+                        if (CultureManager.TryGetTerrainBonus(cultureId, terrain, out float terrainBonus))
+                        {
+                            bool applyBonus = true;
+
+                            // Cavalry-specific restriction for Rohirrim and Variags
+                            if ((cultureId == "vlandia" && terrain == TerrainType.Plain) ||
+                                (cultureId == "battania" && terrain == TerrainType.Steppe))
+                            {
+                                applyBonus = attackInformation.AttackerAgent?.MountAgent != null;
+                            }
+                            // Ranged-specific restriction for Elves, Bardings, and Drúedain
+                            else if ((cultureId == "rivendell" && terrain == TerrainType.Forest) ||
+                                     (cultureId == "mirkwood" && terrain == TerrainType.Forest) ||
+                                     (cultureId == "lothlorien" && terrain == TerrainType.Forest) ||
+                                     (cultureId == "sturgia" && terrain == TerrainType.RuralArea) ||
+                                     (cultureId == "darshi" && terrain == TerrainType.Forest))
+                            {
+                                applyBonus = damageType == RaceManager.DamageType.Ranged;
+                            }
+
+                            if (applyBonus)
+                            {
+                                modifiedDamage.AddFactor(
+                                    terrainBonus,
+                                    new TextObject("{=lotraom_terrain_bonus}{CULTURE} {TERRAIN} Bonus")
+                                        .SetTextVariable("CULTURE", attackInformation.AttackerAgentCharacter.Culture.Name)
+                                        .SetTextVariable("TERRAIN", terrain.ToString())
+                                );
+                            }
+                        }
+
+                        // Rohirrim-specific mounted bonus
+                        if (cultureId == "vlandia" && attackInformation.AttackerAgent?.MountAgent != null)
+                        {
+                            modifiedDamage.AddFactor(
+                                RohirrimMountedBonus,
+                                new TextObject("{=LOTRAOM_MountedBonus}Your Rohirrim horsemanship grants a {BONUS}% damage bonus while mounted!")
+                                    .SetTextVariable("BONUS", (RohirrimMountedBonus * 100f).ToString("F0"))
+                            );
+                        }
                     }
                 }
 
@@ -53,8 +97,8 @@ namespace LOTRAOM
                     {
                         RaceManager.ApplyRaceBonusWhenGotHit(
                             character: attackInformation.VictimAgentCharacter,
-                            damageType: damageType,
-                            damage: ref modifiedDamage,
+                            damage: damageType,
+                            damageValue: ref modifiedDamage,
                             description: new TextObject("{=lotraom_defender_resistance}{CULTURE} {TYPE} Damage Resistance")
                                 .SetTextVariable("CULTURE", attackInformation.VictimAgentCharacter.Culture.Name)
                                 .SetTextVariable("TYPE", damageType == RaceManager.DamageType.Melee ? "Melee" : "Ranged")
@@ -71,9 +115,7 @@ namespace LOTRAOM
                     );
                 }
 
-                // Ensure non-negative damage
                 modifiedDamage.LimitMin(0f);
-
                 return modifiedDamage.ResultNumber;
             }
             catch (Exception ex)
@@ -82,7 +124,65 @@ namespace LOTRAOM
                     $"LOTRAOM Error: Damage calculation failed: {ex.Message}",
                     Colors.Red
                 ));
-                return _defaultModel.CalculateDamage(attackInformation, collisionData, weapon, baseDamage); // Fallback
+                return _defaultModel.CalculateDamage(attackInformation, collisionData, weapon, baseDamage);
+            }
+        }
+
+        public override bool DecideAgentKnockedBackByBlow(Agent attackerAgent, Agent victimAgent, in AttackCollisionData collisionData, WeaponComponentData attackerWeapon, in Blow blow)
+        {
+            try
+            {
+                bool shouldKnockBack = _defaultModel.DecideAgentKnockedBackByBlow(attackerAgent, victimAgent, collisionData, attackerWeapon, blow);
+                if (shouldKnockBack && victimAgent.Character is BasicCharacterObject victimCharacter)
+                {
+                    RaceManager.RaceBonus bonus = RaceManager.GetRacialData(victimCharacter);
+                    if (!bonus.KnockbackResistance.ApproximatelyEqualsTo(0f, 1E-05f) && MBRandom.RandomFloat < bonus.KnockbackResistance)
+                    {
+                        InformationManager.DisplayMessage(new InformationMessage(
+                            new TextObject("{=lotraom_knockback_resisted}").SetTextVariable("CULTURE", victimCharacter.Culture.Name).ToString(),
+                            Colors.Green
+                        ));
+                        return false;
+                    }
+                }
+                return shouldKnockBack;
+            }
+            catch (Exception ex)
+            {
+                InformationManager.DisplayMessage(new InformationMessage(
+                    $"LOTRAOM Error: Knockback calculation failed: {ex.Message}",
+                    Colors.Red
+                ));
+                return _defaultModel.DecideAgentKnockedBackByBlow(attackerAgent, victimAgent, collisionData, attackerWeapon, blow);
+            }
+        }
+
+        public override bool DecideAgentKnockedDownByBlow(Agent attackerAgent, Agent victimAgent, in AttackCollisionData collisionData, WeaponComponentData attackerWeapon, in Blow blow)
+        {
+            try
+            {
+                bool shouldKnockDown = _defaultModel.DecideAgentKnockedDownByBlow(attackerAgent, victimAgent, collisionData, attackerWeapon, blow);
+                if (attackerAgent.Character is BasicCharacterObject attackerCharacter)
+                {
+                    RaceManager.RaceBonus bonus = RaceManager.GetRacialData(attackerCharacter);
+                    if (!bonus.KnockdownChance.ApproximatelyEqualsTo(0f, 1E-05f) && MBRandom.RandomFloat < bonus.KnockdownChance)
+                    {
+                        InformationManager.DisplayMessage(new InformationMessage(
+                            new TextObject("{=lotraom_knockdown_triggered}").SetTextVariable("CULTURE", attackerCharacter.Culture.Name).ToString(),
+                            Colors.Green
+                        ));
+                        return true;
+                    }
+                }
+                return shouldKnockDown;
+            }
+            catch (Exception ex)
+            {
+                InformationManager.DisplayMessage(new InformationMessage(
+                    $"LOTRAOM Error: Knockdown calculation failed: {ex.Message}",
+                    Colors.Red
+                ));
+                return _defaultModel.DecideAgentKnockedDownByBlow(attackerAgent, victimAgent, collisionData, attackerWeapon, blow);
             }
         }
 
@@ -125,16 +225,6 @@ namespace LOTRAOM
         public override bool DecideAgentDismountedByBlow(Agent attackerAgent, Agent victimAgent, in AttackCollisionData collisionData, WeaponComponentData attackerWeapon, in Blow blow)
         {
             return _defaultModel.DecideAgentDismountedByBlow(attackerAgent, victimAgent, collisionData, attackerWeapon, blow);
-        }
-
-        public override bool DecideAgentKnockedBackByBlow(Agent attackerAgent, Agent victimAgent, in AttackCollisionData collisionData, WeaponComponentData attackerWeapon, in Blow blow)
-        {
-            return _defaultModel.DecideAgentKnockedBackByBlow(attackerAgent, victimAgent, collisionData, attackerWeapon, blow);
-        }
-
-        public override bool DecideAgentKnockedDownByBlow(Agent attackerAgent, Agent victimAgent, in AttackCollisionData collisionData, WeaponComponentData attackerWeapon, in Blow blow)
-        {
-            return _defaultModel.DecideAgentKnockedDownByBlow(attackerAgent, victimAgent, collisionData, attackerWeapon, blow);
         }
 
         public override bool DecideMountRearedByBlow(Agent attackerAgent, Agent victimAgent, in AttackCollisionData collisionData, WeaponComponentData attackerWeapon, in Blow blow)

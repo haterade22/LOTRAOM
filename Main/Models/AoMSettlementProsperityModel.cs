@@ -30,7 +30,7 @@ namespace LOTRAOM.Models
             // Reduce prosperity growth for Minas Tirith to lower food consumption
             else if (fortification.StringId == "town_EW1") // Minas Tirith
             {
-                value.Add(50, new TextObject("{=minas_tirith_prosperity_reduction}Minas Tirith held by Gondor"), null);
+                value.Add(60, new TextObject("{=minas_tirith_prosperity_reduction}Minas Tirith held by Gondor"), null);
             }
 
             // Debug log to verify prosperity changes

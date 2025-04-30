@@ -17,21 +17,21 @@ namespace LOTRAOM
         {
             RaceIdToStringMap.Clear();
 
-            List<string> everyRace = new() {
-            "human",
-            "dwarf",
-            "uruk_hai",
-            "berserker",
-            "uruk",
-            "orc",
-            "nazghul",
-            "cave_troll",
-            "hill_troll"
-        };
+            List<string> everyRace = new()
+            {
+                "human",
+                "dwarf",
+                "uruk_hai",
+                "berserker",
+                "uruk",
+                "orc",
+                "nazghul",
+                "cave_troll",
+                "hill_troll"
+            };
 
             foreach (string race in everyRace)
             {
-                // Explicitly reference TaleWorlds.Core.FaceGen to resolve ambiguity
                 int raceId = TaleWorlds.Core.FaceGen.GetRaceOrDefault(race);
                 RaceIdToStringMap.Add(raceId, race);
             }
@@ -46,48 +46,48 @@ namespace LOTRAOM
         }
 
         // Apply race-specific damage bonuses when a character is hit
-        // Apply race-specific damage bonuses when a character is hit
-        public static void ApplyRaceBonusWhenGotHit(BasicCharacterObject character, DamageType damageType, ref ExplainedNumber damage, TextObject description)
+        public static void ApplyRaceBonusWhenGotHit(BasicCharacterObject character, DamageType damage, ref ExplainedNumber damageValue, TextObject description)
         {
             if (character == null || description == null)
                 return;
 
             RaceBonus bonus = GetRacialData(character);
-            switch (damageType)
+            switch (damage)
             {
                 case DamageType.Ranged:
                     if (bonus.RangedResistance != 0)
                     {
-                        damage.Add(-bonus.RangedResistance, description); // Apply ranged resistance (e.g., -5 for Nazgûl)
+                        damageValue.Add(-bonus.RangedResistance, description);
                     }
                     break;
                 case DamageType.Melee:
                     if (bonus.MeleeResistance != 0)
                     {
-                        damage.Add(-bonus.MeleeResistance, description); // Apply melee resistance (e.g., -2 for Dwarf)
+                        damageValue.Add(-bonus.MeleeResistance, description);
                     }
                     break;
             }
         }
+
         // Apply race-specific damage bonuses when a character deals damage
-        public static void ApplyRaceBonusWhenDealingDamage(BasicCharacterObject character, DamageType damageType, ref ExplainedNumber damage, TextObject description)
+        public static void ApplyRaceBonusWhenDealingDamage(BasicCharacterObject attacker, DamageType damage, ref ExplainedNumber dealtDamage, TextObject description)
         {
-            if (character == null || description == null)
+            if (attacker == null || description == null)
                 return;
 
-            RaceBonus bonus = GetRacialData(character);
-            switch (damageType)
+            RaceBonus bonus = GetRacialData(attacker);
+            switch (damage)
             {
                 case DamageType.Ranged:
                     if (!bonus.RangedDamageBonus.ApproximatelyEqualsTo(0f, 1E-05f))
                     {
-                        damage.AddFactor(bonus.RangedDamageBonus, description); // Apply ranged damage bonus (e.g., +0.3f for Nazgûl)
+                        dealtDamage.AddFactor(bonus.RangedDamageBonus, description); // Apply ranged damage bonus
                     }
                     break;
                 case DamageType.Melee:
                     if (!bonus.MeleeDamageBonus.ApproximatelyEqualsTo(0f, 1E-05f))
                     {
-                        damage.AddFactor(bonus.MeleeDamageBonus, description); // Apply melee damage bonus (e.g., +0.5f for Cave Troll)
+                        dealtDamage.AddFactor(bonus.MeleeDamageBonus, description); // Apply melee damage bonus
                     }
                     break;
             }
@@ -117,58 +117,39 @@ namespace LOTRAOM
             Other // Fall damage, kick, other
         }
 
-       
-
         // Class to store race-specific damage resistances/bonuses
         public class RaceBonus
         {
             public int MeleeResistance { get; }
             public int RangedResistance { get; }
-            public float MeleeDamageBonus { get; } // Percentage increase to melee damage (e.g., 0.2f = +20%)
-            public float RangedDamageBonus { get; } // Percentage increase to ranged damage (e.g., 0.1f = +10%)
+            public float MeleeDamageBonus { get; }
+            public float RangedDamageBonus { get; }
+            public float KnockbackResistance { get; } // Chance to resist knockback (0.0f to 1.0f)
+            public float KnockdownChance { get; } // Chance to cause knockdown (0.0f to 1.0f)
 
-            public RaceBonus(int meleeResistance, int rangedResistance, float meleeDamageBonus, float rangedDamageBonus)
+            public RaceBonus(int meleeResistance, int rangedResistance, float meleeDamageBonus, float rangedDamageBonus, float knockbackResistance, float knockdownChance)
             {
                 MeleeResistance = meleeResistance;
                 RangedResistance = rangedResistance;
                 MeleeDamageBonus = meleeDamageBonus;
                 RangedDamageBonus = rangedDamageBonus;
+                KnockbackResistance = knockbackResistance;
+                KnockdownChance = knockdownChance;
             }
         }
 
         // Dictionary of race bonuses for different races
         public static Dictionary<string, RaceBonus> RaceBonuses { get; } = new()
         {
-            // Humans have no special bonuses (baseline)
-            ["human"] = new RaceBonus(0, 0, 0f, 0f),
-
-            // Dwarves excel in melee combat, slight ranged bonus
-            ["dwarf"] = new RaceBonus(2, 1, 0.15f, 0.05f), // +15% melee, +5% ranged
-
-            // Uruk-hai are strong melee fighters
-            ["uruk_hai"] = new RaceBonus(0, 2, 0.1f, 0f), // +10% melee, 0% ranged
-
-            // Berserkers deal high melee damage, no ranged bonus
-            ["berserker"] = new RaceBonus(3, -1, 0.2f, 0f), // +20% melee, 0% ranged
-
-            // Regular uruks have minor melee bonus
-            ["uruk"] = new RaceBonus(1, 1, 0.05f, 0f), // +5% melee, 0% ranged
-
-            // Orcs have no special damage bonuses
-            ["orc"] = new RaceBonus(0, 0, 0f, 0f),
-
-            // Nazgûl deal high damage in both melee and ranged
-            ["nazghul"] = new RaceBonus(5, 5, 0.3f, 0.3f), // +30% melee, +30% ranged
-
-            // Cave trolls deal massive melee damage
-            ["cave_troll"] = new RaceBonus(2, 3, 0.5f, 0f), // +50% melee, 0% ranged
-
-            // Hill trolls deal high melee damage
-            ["hill_troll"] = new RaceBonus(2, 3, 0.4f, 0f) // +40% melee, 0% ranged
+            ["human"] = new RaceBonus(0, 0, 0f, 0f, 0f, 0f),
+            ["dwarf"] = new RaceBonus(2, 1, 0.15f, 0.05f, 0.5f, 0f), // 50% knockback resistance
+            ["uruk_hai"] = new RaceBonus(0, 2, 0.1f, 0f, 0f, 0.3f), // 30% knockdown chance
+            ["berserker"] = new RaceBonus(3, -1, 0.2f, 0f, 0f, 0.4f), // 40% knockdown chance
+            ["uruk"] = new RaceBonus(1, 1, 0.05f, 0f, 0f, 0.2f), // 20% knockdown chance
+            ["orc"] = new RaceBonus(0, 0, 0f, 0f, 0f, 0f),
+            ["nazghul"] = new RaceBonus(5, 5, 0.3f, 0.3f, 0.2f, 0f), // 20% knockback resistance
+            ["cave_troll"] = new RaceBonus(2, 3, 0.5f, 0f, 0.3f, 0.5f), // 30% knockback resistance, 50% knockdown
+            ["hill_troll"] = new RaceBonus(2, 3, 0.4f, 0f, 0.3f, 0.5f) // 30% knockback resistance, 50% knockdown
         };
-        // Apply race-specific damage bonuses when a character deals damage
-        
     }
-
-
-    }
+}
