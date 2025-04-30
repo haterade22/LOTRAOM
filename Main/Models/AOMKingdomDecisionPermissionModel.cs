@@ -76,12 +76,12 @@ namespace LOTRAOM.Models
             }
             if (kingdom2.Culture.StringId == Globals.RivendellCulture || ((kingdom2.Culture.StringId == Globals.MirkwoodCulture || kingdom2.Culture.StringId == Globals.LothlorienCulture) && kingdom1.Culture.StringId != Globals.DolguldurCulture && kingdom1.Culture.StringId != Globals.GundabadCulture))
             {
-                reason = new TextObject("The elves are stagnant, and unworthy of our attention, we need to defeat the kingdoms of man first!");
+                reason = new TextObject("The elves are stagnant, and unworthy of our attention, we need to defeat the Kingdoms of Men first!");
                 return false;
             }
             if (kingdom2.Culture.StringId == Globals.DaleCulture || kingdom2.Culture.StringId == Globals.EreborCulture && kingdom1.Culture.StringId != Globals.RhunCulture)
             {
-                reason = new TextObject("let's leave the dwarven-dale alliance to the forces of Rhun");
+                reason = new TextObject("Let's leave the dwarven-dale alliance to the forces of Rhun");
                 return false;
             }
 

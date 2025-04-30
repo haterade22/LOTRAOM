@@ -51,7 +51,7 @@ namespace LOTRAOM
     public class CustomSettings : AttributeGlobalSettings<CustomSettings>, ICustomSettingsProvider
     {
         public override string Id { get; } = "aom_mcm_settings";
-        public override string DisplayName => new TextObject("{=CustomSettings_Name}Lord of the Rings Age Of Man {VERSION}", new Dictionary<string, object>
+        public override string DisplayName => new TextObject("{=CustomSettings_Name}Lord of the Rings Age Of Men {VERSION}", new Dictionary<string, object>
         {
             { "VERSION", typeof(CustomSettings).Assembly.GetName().Version?.ToString(3) ?? "ERROR" }
         }).ToString();

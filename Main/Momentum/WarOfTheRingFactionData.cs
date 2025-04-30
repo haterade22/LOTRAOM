@@ -117,7 +117,7 @@ namespace LOTRAOM.Momentum
             if (Momentum == -100)
             {
                 _hasWarEnded = true;
-                InquiryData data = new("End of the war", new TextObject($"The realms of man and elf alike have been crushed. Long live the empire of Sauron!").ToString(), true, false, new TextObject("Continue").ToString(), "", () => { }, () => { });
+                InquiryData data = new("End of the war", new TextObject($"The realms of Men and Elf alike have been crushed. Long live Sauron!").ToString(), true, false, new TextObject("Continue").ToString(), "", () => { }, () => { });
                 InformationManager.ShowInquiry(data, true, false);
                 return true;
             }
