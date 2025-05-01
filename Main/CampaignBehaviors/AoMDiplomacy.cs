@@ -108,6 +108,7 @@ namespace LOTRAOM.CampaignBehaviors
             while (!IsengardEvents.IsEmpty() && IsengardEvents.Peek().ThresholdToHappen > timeTill) 
             {
                 IsengardTextEvent textEvent = IsengardEvents.Dequeue();
+                MBTextManager.SetTextVariable("CURRENT_DAY", CampaignTime.Now.ToString(), false);
                 InquiryData data = new(new TextObject(textEvent.Title).ToString(), new TextObject(textEvent.Text).ToString(), true, false, new TextObject(textEvent.ContinueText).ToString(), "", () => { }, () => { });
                 InformationManager.ShowInquiry(data, true, false);
             }

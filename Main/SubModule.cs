@@ -64,6 +64,7 @@ namespace LOTRAOM
                 if (AoMSettings.Instance.LoreAccurateDiplomacy && AoMSettings.Instance.Momentum)
                 {
                     campaignGameStarter.AddBehavior(new MomentumCampaignBehavior());
+                    campaignGameStarter.AddModel(new AoMPartyMoraleModel());
                 }
                 // models
                 campaignGameStarter.AddModel(new LOTRAOMNotableSpawnModel(campaignGameStarter.GetExistingModel<NotableSpawnModel>()));
@@ -76,15 +77,14 @@ namespace LOTRAOM
                 campaignGameStarter.AddModel(new AOMVolunteerModel(campaignGameStarter.GetExistingModel<VolunteerModel>()));
                 campaignGameStarter.AddModel(new AOMCharacterStatsModel(campaignGameStarter.GetExistingModel<CharacterStatsModel>()));
                 campaignGameStarter.AddModel(new AOMTroopUpgradeModel(campaignGameStarter.GetExistingModel<PartyTroopUpgradeModel>()));
-                campaignGameStarter.AddModel(new AOMDiplomacyModel(campaignGameStarter.GetExistingModel<DiplomacyModel>()));
                 campaignGameStarter.AddModel(new AoMSettlementFoodModel(campaignGameStarter.GetExistingModel<SettlementFoodModel>()));
                 campaignGameStarter.AddModel(new AoMSettlementProsperityModel(campaignGameStarter.GetExistingModel<SettlementProsperityModel>()));
                 if (AoMSettings.Instance.LoreAccurateDiplomacy)
                 {
+                    campaignGameStarter.AddModel(new AOMDiplomacyModel(campaignGameStarter.GetExistingModel<DiplomacyModel>()));
                     campaignGameStarter.AddModel(new AOMKingdomDecisionPermissionModel());
                     campaignGameStarter.AddBehavior(new AoMDiplomacy());
                 }
-                campaignGameStarter.AddModel(new AoMPartyMoraleModel());
                 //we can edit this to make factions based on raiding (raiding gives more items)
                 //campaignGameStarter.GetExistingModel<DefaultRaidModel>
             }
