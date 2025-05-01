@@ -128,7 +128,7 @@ namespace LOTRAOM.Momentum
             get
             {
                 float momValue = GoodKingdoms.WarSideMomentum - EvilKingdoms.WarSideMomentum;
-                momValue /= 100;
+                momValue /= MomentumGlobals.MomentumMultiplier;
                 return Math.Min(Math.Max(momValue, -100), 100);
             }
         }
