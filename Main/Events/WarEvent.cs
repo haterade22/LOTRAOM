@@ -55,7 +55,7 @@ namespace LOTRAOM.Events
                     MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.DunlandKingdom);
                 if(Globals.IsengardKingdom != null)
                     MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.IsengardKingdom);
-                InquiryData data = new("The War of the Ring begins", new TextObject($"{CampaignTime.Now} the forces for mordor began their march to conquer gondor, The war for the fate of the middle earth has begun").ToString(), true, false, new TextObject("Continue").ToString(), "", () => {}, () => {});
+                InquiryData data = new("The War of the Ring begins", new TextObject($"{CampaignTime.Now} the forces of Mordor began their march to conquer Gondor. The war for the fate of the Middle Earth has begun").ToString(), true, false, new TextObject("Continue").ToString(), "", () => {}, () => {});
                 InformationManager.ShowInquiry(data, true, false);
             }),
             new WarEvent("rhun_erebor_dale_war", (kingdom1, kingdom2) => // rhun attacks erebor/dale
@@ -66,7 +66,7 @@ namespace LOTRAOM.Events
             {
                 FactionManager.DeclareWar(Globals.RhunKingdom, Globals.DaleKingdom);
                 FactionManager.DeclareWar(Globals.RhunKingdom, Globals.EreborKingdom);
-                InquiryData data = new("The War in the east", new TextObject($"The allied kingdom of Dale and Erebor has been attack by the forces of Rhun. Can there be no peace in these times?").ToString(), true, false, new TextObject("Continue").ToString(), "", () => {}, () => {});
+                InquiryData data = new("The War in the east", new TextObject($"You hear a rumor that the Easterlings have begun to raid the Kingdoms of Dale and Erebor.").ToString(), true, false, new TextObject("Continue").ToString(), "", () => {}, () => {});
                 InformationManager.ShowInquiry(data, true, false);
             },
             () =>
@@ -77,7 +77,7 @@ namespace LOTRAOM.Events
                     MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.EreborKingdom);
                 if (Globals.RhunKingdom != null)
                     MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.RhunKingdom);
-                InquiryData data = new("The War in the east escalates", new TextObject($"As the war between Rhun and Dale-Erebor drags on, one thing becomes clear, this is not a disjoined attack! The Rhun are working with mordor to undermine the factions of order!").ToString(), true, false, new TextObject("The war expands").ToString(), "", () => {}, () => {});
+                InquiryData data = new("The War in the east escalates", new TextObject($"As the raids on Erebor and Dale drag on, one thing becomes clear, this is not a disjoined attack! The Easterlings are working with Mordor!").ToString(), true, false, new TextObject("The war expands").ToString(), "", () => {}, () => {});
                 InformationManager.ShowInquiry(data, true, false);
             }, 14),
 
@@ -93,7 +93,7 @@ namespace LOTRAOM.Events
                 FactionManager.DeclareWar(Globals.UmbarKingdom, Globals.RohanKingdom);
                 FactionManager.DeclareWar(Globals.HaradKingdom, Globals.RohanKingdom);
                 FactionManager.DeclareWar(Globals.KhandKingdom, Globals.RohanKingdom);
-                InquiryData data = new("The War in the south", new TextObject($"The raids into the Gondorian territory from the south escalate, The kingdoms or umbar, harad, and khand have found common ground against their enemy!").ToString(), true, false, new TextObject("Continue").ToString(), "", () => {}, () => {});
+                InquiryData data = new("The War in the south", new TextObject($"The raids into the Gondorian territory from the south escalate, The kingdoms of Umbar, Harad, and Khand have found common ground against their enemy!").ToString(), true, false, new TextObject("Continue").ToString(), "", () => {}, () => {});
                 InformationManager.ShowInquiry(data, true, false);
             },
             () =>
@@ -104,7 +104,7 @@ namespace LOTRAOM.Events
                     MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.HaradKingdom);
                 if (Globals.KhandKingdom != null)
                     MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.KhandKingdom);
-                InquiryData data = new("The War in the south escalates", new TextObject($"This is more, than raids from the south... This is a full invasion of Gondor!").ToString(), true, false, new TextObject("The war expands").ToString(), "", () => {}, () => {});
+                InquiryData data = new("The War in the south escalates", new TextObject($"This has now become a full invasion of Gondor!").ToString(), true, false, new TextObject("The war expands").ToString(), "", () => {}, () => {});
                 InformationManager.ShowInquiry(data, true, false);
             }, 14),
 
@@ -118,7 +118,7 @@ namespace LOTRAOM.Events
                 FactionManager.DeclareWar(Globals.DolGuldurKingdom, Globals.MirkwoodKingdom);
                 FactionManager.DeclareWar(Globals.GundabadKingdom, Globals.LorienKingdom);
                 FactionManager.DeclareWar(Globals.GundabadKingdom, Globals.MirkwoodKingdom);
-                InquiryData data = new("The orctide", new TextObject($"An untold number of orks began their march towards the elfrealms of Mirkwood and Lorien, Fight or die!").ToString(), true, false, new TextObject("Continue").ToString(), "", () => {}, () => {});
+                InquiryData data = new("The orctide", new TextObject($"An untold number of Orcs began their march towards Mirkwood and Lorien, Fight or die!").ToString(), true, false, new TextObject("Continue").ToString(), "", () => {}, () => {});
                 InformationManager.ShowInquiry(data, true, false);
             },
             () =>
@@ -131,7 +131,7 @@ namespace LOTRAOM.Events
                     MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.LorienKingdom);
                 if (Globals.MirkwoodKingdom != null)
                     MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.MirkwoodKingdom);
-                InquiryData data = new("The Elven war", new TextObject($"There can be no hope of wait out the conflict, The elves need to join the global alliance, or die alone!").ToString(), true, false, new TextObject("The war expands").ToString(), "", () => {}, () => {});
+                InquiryData data = new("The Elven war", new TextObject($"There can be no hope of waiting out the conflict, The elves need to join the global alliance, or die alone!").ToString(), true, false, new TextObject("The war expands").ToString(), "", () => {}, () => {});
                 InformationManager.ShowInquiry(data, true, false);
             }, 14),
 
@@ -144,7 +144,7 @@ namespace LOTRAOM.Events
             {
                 if (Globals.RivendellKingdom != null)
                     MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.RivendellKingdom);
-                InquiryData data = new("The council", new TextObject($"The elfrealm of Rivendell cannot stay idle, lest they witness the end of civilization as we know it.").ToString(), true, false, new TextObject("Continue").ToString(), "", () => {}, () => {});
+                InquiryData data = new("The council", new TextObject($"Rivendell cannot stay idle, lest they witness the end of civilization as we know it.").ToString(), true, false, new TextObject("Continue").ToString(), "", () => {}, () => {});
                 InformationManager.ShowInquiry(data, true, false);
             },
             () =>
@@ -157,7 +157,7 @@ namespace LOTRAOM.Events
                     MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.LorienKingdom);
                 if (Globals.MirkwoodKingdom != null)
                     MomentumCampaignBehavior.Instance.warOfTheRingData.AddKingdom(Globals.MirkwoodKingdom);
-                InquiryData data = new("The Elven war", new TextObject($"There can be no hope of wait out the conflict, The elves need to join the global alliance, or die alone!").ToString(), true, false, new TextObject("The war expands").ToString(), "", () => {}, () => {});
+                InquiryData data = new("The Elven war", new TextObject($"There can be no hope of waiting out the conflict, The elves need to join the global alliance, or die alone!").ToString(), true, false, new TextObject("The war expands").ToString(), "", () => {}, () => {});
                 InformationManager.ShowInquiry(data, true, false);
             }, 14)
         };
