@@ -24015,7 +24015,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="7" />
+				value="15" />
 			<Trait
 				id="Commander"
 				value="18" />
@@ -24024,7 +24024,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Manager"
-				value="8" />
+				value="15" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait id="Valor" value="2" />
 			<Trait id="Generosity" value="-1" />
@@ -24119,7 +24119,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="7" />
+				value="14" />
 			<Trait
 				id="Commander"
 				value="17" />
@@ -24128,7 +24128,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Manager"
-				value="8" />
+				value="14" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait id="Valor" value="2" />
 			<Trait id="Generosity" value="-1" />
@@ -24223,7 +24223,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="7" />
+				value="14" />
 			<Trait
 				id="Commander"
 				value="16" />
@@ -24232,7 +24232,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Manager"
-				value="8" />
+				value="15" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait id="Valor" value="2" />
 			<Trait id="Generosity" value="-1" />
@@ -24327,16 +24327,16 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="7" />
+				value="17" />
 			<Trait
 				id="Commander"
-				value="15" />
+				value="16" />
 			<Trait
 				id="Politician"
 				value="8" />
 			<Trait
 				id="Manager"
-				value="8" />
+				value="16" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait id="Valor" value="2" />
 			<Trait id="Generosity" value="-1" />

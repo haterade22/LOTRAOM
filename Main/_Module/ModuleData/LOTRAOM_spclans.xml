@@ -159,7 +159,7 @@
 		settlement_banner_mesh="encounter_flag_f"
 		is_minor_faction="true"
 		is_clan_type_mercenary="true"
-		name="{=LqTTchsa}The Sons of Castamir"
+		name="{=LqTTchsa}Sons of Castamir"
 		short_name="{=Ssl38GEF}The Sons"
 		tier="4"
 		text="{=taom_sonsofcastamir}The Sons of Castamir are the descendants of the rebels who once sought to claim the throne of Gondor in the name of Castamir the Usurper. Though their ancestors were exiled to Umbar, many now wander as mercenaries, hiring their blades to anyone willing to pay. They still harbor hatred for the line of Eärnur and dream of one day restoring Castamir’s rule, though for now, they fight wherever coin and opportunity take them.">
