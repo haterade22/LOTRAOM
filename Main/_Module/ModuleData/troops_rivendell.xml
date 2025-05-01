@@ -3,7 +3,7 @@
 	<NPCCharacter id="rivendell_recruit"
 		default_group="Infantry"
 		level="21"
-		name="{=rivendell_recruit}Imladris Recruit"
+		name="{=rivendell_recruit}[Rivendell] Imladris Recruit"
 		occupation="Soldier"
 		is_basic_troop="true"
 		culture="Culture.rivendell">
@@ -59,7 +59,7 @@
 	<NPCCharacter id="rivendell_infantry"
 		default_group="Infantry"
 		level="26"
-		name="{=rivendell_infantry}Imladris Infantry"
+		name="{=rivendell_infantry}[Rivendell] Imladris Infantry"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -112,7 +112,7 @@
 	<NPCCharacter id="rivendell_archer"
 		default_group="Ranged"
 		level="26"
-		name="{=rivendell_archer}Imladris Archer"
+		name="{=rivendell_archer}[Rivendell] Imladris Archer"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -171,7 +171,7 @@
 	<NPCCharacter id="rivendell_swordguard"
 		default_group="Infantry"
 		level="31"
-		name="{=rivendell_swordguard}Imladris Swordguard"
+		name="{=rivendell_swordguard}[Rivendell] Imladris Swordguard"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -226,7 +226,7 @@
 	<NPCCharacter id="rivendell_sentinel"
 		default_group="Ranged"
 		level="31"
-		name="{=rivendell_sentinel}Imladris Sentinel"
+		name="{=rivendell_sentinel}[Rivendell] Imladris Sentinel"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -284,7 +284,7 @@
 	<NPCCharacter id="rivendell_scout"
 		default_group="HorseArcher"
 		level="31"
-		name="{=rivendell_scout}Imladris Scout"
+		name="{=rivendell_scout}[Rivendell] Imladris Scout"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -346,7 +346,7 @@
 	<NPCCharacter id="rivendell_rider"
 			default_group="Cavalry"
 			level="31"
-			name="{=rivendell_rider}Imladris Rider"
+			name="{=rivendell_rider}[Rivendell] Imladris Rider"
 			occupation="Soldier"
 			culture="Culture.rivendell">
 		<face>
@@ -407,7 +407,7 @@
 	<NPCCharacter id="noldorin_archer"
 		default_group="Ranged"
 		level="36"
-		name="{=noldorin_archer}Noldorin Archer"
+		name="{=noldorin_archer}[Rivendell] Noldorin Archer"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -465,7 +465,7 @@
 	<NPCCharacter id="rivendell_lightrider"
 		default_group="HorseArcher"
 		level="36"
-		name="{=rivendell_lightrider}Imladris Light Rider"
+		name="{=rivendell_lightrider}[Rivendell] Imladris Light Rider"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -526,7 +526,7 @@
 	<NPCCharacter id="rivendell_knight"
 		default_group="Cavalry"
 		level="36"
-		name="{=rivendell_knight}Imladris Knight"
+		name="{=rivendell_knight}[Rivendell] Imladris Knight"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -588,7 +588,7 @@
 	<NPCCharacter id="rivendell_blademasters"
 		default_group="Infantry"
 		level="46"
-		name="{=rivendell_blademasters}Imladris Blademaster"
+		name="{=rivendell_blademasters}[Rivendell] Imladris Blademaster"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -641,7 +641,7 @@
 	<NPCCharacter id="rivendell_swords"
 			default_group="Infantry"
 			level="46"
-			name="{=rivendell_swords}Noldorin Swords"
+			name="{=rivendell_swords}[Rivendell] Noldorin Swords"
 			occupation="Soldier"
 			culture="Culture.rivendell">
 		<face>
@@ -692,7 +692,7 @@
 	<NPCCharacter id="rivendell_spearguard"
 			default_group="Infantry"
 			level="46"
-			name="{=rivendell_spearguard}Imladris Spearguard"
+			name="{=rivendell_spearguard}[Rivendell] Imladris Spearguard"
 			occupation="Soldier"
 			culture="Culture.rivendell">
 		<face>
@@ -714,7 +714,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_1_t2" />
+					id="Item.he_spear" />
 				<equipment
 					slot="Item1"
 					id="Item.wm_elven_shield_a" />
@@ -743,7 +743,7 @@
 	<NPCCharacter id="rivendell_lancers"
 		default_group="Cavalry"
 		level="41"
-		name="{=rivendell_lancer}Rivendell Lancer"
+		name="{=rivendell_lancer}[Rivendell] Lancer"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -803,7 +803,7 @@
 	<NPCCharacter id="rivendell_marksman"
 		default_group="Ranged"
 		level="41"
-		name="{=rivendell_marksman}Noldorin Marksman"
+		name="{=rivendell_marksman}[Rivendell] Noldorin Marksman"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -862,7 +862,7 @@
 	<NPCCharacter id="rivendell_royalarcher"
 		default_group="Ranged"
 		level="46"
-		name="{=rivendell_royalarcher}Rivendell Royal Archer"
+		name="{=rivendell_royalarcher}[Rivendell] Royal Archer"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -920,7 +920,7 @@
 	<NPCCharacter id="rivendell_warden"
 		default_group="HorseArcher"
 		level="41"
-		name="{=rivendell_warden}Imladris Warden"
+		name="{=rivendell_warden}[Rivendell] Imladris Warden"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -981,7 +981,7 @@
 	<NPCCharacter id="rivendell_starshard"
 			default_group="HorseArcher"
 			level="46"
-			name="{=rivendell_starshard}Imladris Starshard Rider "
+			name="{=rivendell_starshard}[Rivendell] Imladris Starshard Rider "
 			occupation="Soldier"
 			culture="Culture.rivendell">
 		<face>
@@ -1042,7 +1042,7 @@
 	<NPCCharacter id="rivendell_ohtarion"
 		default_group="Ranged"
 		level="51"
-		name="{=rivendell_ohtarion}Rivendell Ohtarion"
+		name="{=rivendell_ohtarion}[Rivendell] Rivendell Ohtarion"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -1102,7 +1102,7 @@
 	<NPCCharacter id="rivendell_noble"
 		default_group="Cavalry"
 		level="36"
-		name="{=rivendell_noble}Rivendell Noble"
+		name="{=rivendell_noble}[Rivendell] Noble"
 		occupation="Soldier"
 		is_basic_troop="true"
 		culture="Culture.rivendell">
@@ -1164,7 +1164,7 @@
 	<NPCCharacter id="rivendell_royal_guard"
 		default_group="Cavalry"
 		level="41"
-		name="{=rivendell_royal_guard}Rivendell Royal Guard"
+		name="{=rivendell_royal_guard}[Rivendell] Royal Guard"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -1225,7 +1225,7 @@
 	<NPCCharacter id="rivendell_royal_knight"
 		default_group="Cavalry"
 		level="46"
-		name="{=rivendell_royal_knight}Rivendell Royal Knight"
+		name="{=rivendell_royal_knight}[Rivendell] Royal Knight"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
@@ -1285,7 +1285,7 @@
 	<NPCCharacter id="rivendell_high_captain"
 		default_group="Cavalry"
 		level="51"
-		name="{=rivendell_high_captain}Rivendell High Captain"
+		name="{=rivendell_high_captain}[Rivendell] High Captain"
 		occupation="Soldier"
 		culture="Culture.rivendell">
 		<face>
