@@ -635,7 +635,7 @@
 		super_faction="Kingdom.empire"
 		is_noble="true"
 		banner_key="11.2009.2009.1528.1528.764.764.1.0.0.16052.2000.171.483.483.764.764.0.0.0" />
-		<!--Lizard Clan-->>
+		<!--Lizard Clan-->
 	<!-- Gondor -->
 	<Faction
 		id="clan_empire_west_1"
@@ -1315,7 +1315,7 @@
 		culture="Culture.khuzait"
 		super_faction="Kingdom.khuzait"
 		is_noble="true"
-		banner_key="11.2015.2015.1528.1528.764.764.1.0.0.16054.171.171.483.483.764.764.0.0.0" />banner_key="11.25.10.4345.4345.780.802.1.0.0.503.11.0.164.164.904.913.0.0.0.314.11.0.508.508.764.764.0.0.0.503.11.0.164.164.624.913.0.0.0" />
+		banner_key="11.2015.2015.1528.1528.764.764.1.0.0.16054.171.171.483.483.764.764.0.0.0" />
 	<Faction
 		id="clan_khuzait_5"
 		name="{=gXeF1yKn}Khundolar Clan"
@@ -1333,7 +1333,7 @@
 		culture="Culture.khuzait"
 		super_faction="Kingdom.khuzait"
 		is_noble="true"
-		banner_key="11.2015.2015.1528.1528.764.764.1.0.0.16054.171.171.483.483.764.764.0.0.0" />banner_key="11.25.10.4345.4345.764.764.1.0.0.218.11.0.194.194.807.631.0.0.359.150.11.0.444.444.764.775.0.0.0" />
+		banner_key="11.2015.2015.1528.1528.764.764.1.0.0.16054.171.171.483.483.764.764.0.0.0" />
 	<Faction
 		id="clan_khuzait_7"
 		name="{=b6SEM6Ab}Sûhalar Clan"
