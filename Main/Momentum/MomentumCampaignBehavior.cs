@@ -36,7 +36,9 @@ namespace LOTRAOM.Momentum
             CampaignEvents.MapEventEnded.AddNonSerializedListener(this, OnMapEventEnded);
             CampaignEvents.OnGameLoadFinishedEvent.AddNonSerializedListener(this, OnGameLoadFinished);
             CampaignEvents.RaidCompletedEvent.AddNonSerializedListener(this, OnRaidCompletedEvent);
+            CampaignEvents.KingdomDestroyedEvent.AddNonSerializedListener(this, OnKingdomDestroyed);
         }
+
         public void RemoveAllListeners()
         {
             RemoveMomentumUI();
@@ -113,6 +115,10 @@ namespace LOTRAOM.Momentum
                 : casualties / warOfTheRingData.EvilKingdoms.TotalStrength;
             return (int)Math.Round(percentageLost * MomentumGlobals.MaxMomentumFromBattleWon);
         }
+        private void OnKingdomDestroyed(Kingdom kingdom)
+        {
+            warOfTheRingData.RemoveKingdom(kingdom);
+        }
         private void OnSiegeCompletedEvent(Settlement settlement, MobileParty party, bool isWin, MapEvent.BattleTypes types)
         {
             if (!warOfTheRingData.HasWarStarted
@@ -169,6 +175,7 @@ namespace LOTRAOM.Momentum
         {
             float goodStrength = warOfTheRingData.GoodKingdoms.TotalStrength;
             float evilStrength = warOfTheRingData.EvilKingdoms.TotalStrength;
+            if (goodStrength == 0 || evilStrength == 0) return;
             bool isGoodStronger = goodStrength > evilStrength;
             float percentage = isGoodStronger? goodStrength / evilStrength : evilStrength / goodStrength;
             percentage -= 1;
@@ -192,6 +199,8 @@ namespace LOTRAOM.Momentum
         {
             dataStore.SyncData("_warOfTheRingData", ref _warOfTheRingData);
             dataStore.SyncData("hasIsengardAttacked", ref hasIsengardAttacked);
+            if (dataStore.IsLoading)
+                warOfTheRingData.SyncData();
         }
         public static CampaignTime GetEventEndTime(MomentumActionType type)
         {

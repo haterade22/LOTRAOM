@@ -11,7 +11,7 @@ namespace LOTRAOM.Momentum
 {
     public class WarOfTheRingFactionData
     {
-        [SaveableField(0)] List<Kingdom> _kingdoms = new();
+        [SaveableField(0)] List<string> _kingdomsStringIds = new();
         [SaveableField(1)] public Dictionary<MomentumActionType, Queue<MomentumEvent>> WarOfTheRingEvents = new();
         [SaveableField(2)] private int momentum = 0;
         [SaveableField(3)] MomentumFactionTotalStats _factionTotalStats = new();
@@ -25,6 +25,7 @@ namespace LOTRAOM.Momentum
             }
         }
         public int WarSideMomentum { get { return momentum; } }
+        List<Kingdom> _kingdoms = new();
         public List<Kingdom> Kingdoms { get { return _kingdoms; } }
         public float TotalStrength
         {
@@ -48,6 +49,30 @@ namespace LOTRAOM.Momentum
         public void EditMomentum(int amount)
         {
             momentum += amount;
+        }
+        public bool AddKingdom(Kingdom kingdom)
+        {
+            if (Kingdoms.Any(k => k.StringId == kingdom.StringId)) return false;
+            Kingdoms.Add(kingdom);
+            _kingdomsStringIds.Add(kingdom.StringId);
+            return true;
+        }
+        public void SyncData()
+        {
+            _kingdoms = new();
+            foreach (string kingdom in _kingdomsStringIds)
+            {
+                Kingdoms.Add(Campaign.Current.Kingdoms.FirstOrDefault(k => k.StringId == kingdom)!);
+            }
+        }
+
+        internal void RemoveKingdom(Kingdom kingdom)
+        {
+            if (Kingdoms.Any(k => k.StringId == kingdom.StringId))
+            {
+                Kingdoms.Remove(kingdom);
+                _kingdomsStringIds.Remove(kingdom.StringId);
+            }
         }
     }
     public enum WarOfTheRingSide
@@ -89,32 +114,29 @@ namespace LOTRAOM.Momentum
             if (!HasWarStarted)
                 MomentumCampaignBehavior.Instance.AddMomentumUI();
             _hasWarStarted = true;
-            if (kingdom.Culture.IsGoodCulture())
+            if (kingdom.Culture.IsGoodCulture() && GoodKingdoms.AddKingdom(kingdom))
             {
-                if (GoodKingdoms.Kingdoms.Any(k => k.StringId == kingdom.StringId)) return;
-                GoodKingdoms.Kingdoms.Add(kingdom);
                 foreach(var evilKingdom in EvilKingdoms.Kingdoms)
                     FactionManager.DeclareWar(kingdom, evilKingdom);
             }
-            else
+            if (kingdom.Culture.IsEvilCulture() && EvilKingdoms.AddKingdom(kingdom))
             {
-                if (EvilKingdoms.Kingdoms.Any(k => k.StringId == kingdom.StringId)) return;
-                EvilKingdoms.Kingdoms.Add(kingdom);
-                foreach (var evilKingdom in GoodKingdoms.Kingdoms)
-                    FactionManager.DeclareWar(kingdom, evilKingdom);
+                foreach (var goodKingdom in GoodKingdoms.Kingdoms)
+                    FactionManager.DeclareWar(kingdom, goodKingdom);
             }
         }
         public bool EndWarIfConditionsMet()
         {
+            if (HasWarEnded) return true;
             if (!HasWarStarted) return false;
-            if (Momentum == 100)
+            if (Momentum == 100 || EvilKingdoms.Kingdoms.Count == 0)
             {
                 _hasWarEnded = true;
                 InquiryData data = new("End of the war", new TextObject($"The war is over. We have persevered, and won the future for our children. Long live freedom!").ToString(), true, false, new TextObject("Continue").ToString(), "", () => { }, () => { });
                 InformationManager.ShowInquiry(data, true, false);
                 return true;
             }
-            if (Momentum == -100)
+            if (Momentum == -100 || GoodKingdoms.Kingdoms.Count == 0)
             {
                 _hasWarEnded = true;
                 InquiryData data = new("End of the war", new TextObject($"The realms of man and elf alike have been crushed. Long live the empire of Sauron!").ToString(), true, false, new TextObject("Continue").ToString(), "", () => { }, () => { });
@@ -131,6 +153,21 @@ namespace LOTRAOM.Momentum
                 momValue /= MomentumGlobals.MomentumMultiplier;
                 return Math.Min(Math.Max(momValue, -100), 100);
             }
+        }
+        public void RemoveKingdom(Kingdom kingdom)
+        {
+            if (kingdom.Culture.IsGoodCulture())
+                GoodKingdoms.RemoveKingdom(kingdom);
+
+            if (kingdom.Culture.IsEvilCulture())
+                EvilKingdoms.RemoveKingdom(kingdom);
+            EndWarIfConditionsMet();
+        }
+
+        public void SyncData()
+        {
+            GoodKingdoms.SyncData();
+            EvilKingdoms.SyncData();
         }
     }
 }
