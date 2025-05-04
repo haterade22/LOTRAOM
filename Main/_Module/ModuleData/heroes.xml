@@ -2127,7 +2127,86 @@
 		id="lord_I4_11"
 		father="Hero.lord_I4_1"
 		faction="Faction.clan_isengard_4" />
+	
+	<!-- White Hand Clan -->
+	<Hero
+		id="lord_I2_2"
+		faction="Faction.clan_isengard_1"
+		text="{=zorlag_description}Zorlag, a cunning and relentless warlord of the White Hand, drives Isengard’s Uruk-hai with a fierce blend of strategy and savagery. His loyalty to Saruman is absolute, and his sharp mind ensures that every maneuver serves the White Wizard’s grand designs. Zorlag’s calculating nature makes him a master of exploiting enemy weaknesses, while his harsh leadership inspires both fear and obedience in his ranks. With a cold disdain for mercy, he crushes opposition with brutal precision, cementing his reputation as a formidable commander whose victories bolster Isengard’s growing dominion." />
 
+	<Hero
+		id="lord_I1_3"
+		faction="Faction.clan_isengard_1"
+		text="{=vrothgar_description}Vrothgar, a towering figure of the White Hand, leads his Uruk-hai with unyielding authority and a thirst for conquest. His devotion to Saruman fuels his relentless pursuit of victory, commanding his forces with a disciplined ferocity that leaves no room for failure. Vrothgar’s strategic acumen and commanding presence make him a cornerstone of Isengard’s war machine, his troops marching with grim resolve under his banner. Known for his scorn of weakness, he forges his warriors into an unstoppable force, striking dread into the hearts of Middle-earth’s defenders." />
+	<Hero
+		id="lord_I1_31"
+		father="Hero.lord_I1_3"
+		faction="Faction.clan_isengard_1" />
+
+	<!-- Red Echelon Clan -->
+	<Hero
+		id="lord_I2_2"
+		faction="Faction.clan_isengard_2"
+		text="{=krushnak_description}Krushnak, the brutal warlord of the Red Echelon, wields his authority with an iron fist, driving Isengard’s Uruk-hai to slaughter with unmatched ferocity. His unswerving loyalty to Saruman is matched only by his ruthless ambition, leading his warriors with a savage intensity that overwhelms foes. Krushnak’s lack of mercy and disdain for compromise make him a terror on the battlefield, his tactical cunning ensuring devastating victories. Under his command, the Red Echelon carves a bloody path, advancing Saruman’s dark will with every fallen enemy." />
+
+	<Hero
+		id="lord_I2_3"
+		faction="Faction.clan_isengard_2"
+		text="{=gurzod_description}Gurzod, a fierce and calculating leader of the Red Echelon, commands his Uruk-hai with a blend of brute force and sharp intellect. His allegiance to Saruman drives him to crush any who oppose Isengard’s might, his troops forged into a relentless war machine under his exacting standards. Gurzod’s cold pragmatism and utter lack of pity make him a dreaded foe, his strategies leaving enemies broken and scattered. With every triumph, he strengthens Isengard’s grip, embodying the Red Echelon’s merciless resolve." />
+	<Hero
+		id="lord_I2_31"
+		father="Hero.lord_I2_3"
+		faction="Faction.clan_isengard_2" />
+
+	<!-- Black Echelon Clan -->
+	<Hero
+		id="lord_I3_2"
+		faction="Faction.clan_isengard_3"
+		text="{=rukthar_description}Rukthar, a grim and indomitable warlord of the Black Echelon, leads his Uruk-hai with a chilling blend of discipline and cruelty. His unwavering devotion to Saruman fuels his relentless campaigns, his forces striking with precision and terror under his command. Rukthar’s disdain for weakness and his strategic brilliance make him a fearsome adversary, his troops a scourge upon Middle-earth’s Free Peoples. With a heart as cold as Isengard’s forges, he advances Saruman’s ambitions, leaving only ruin in his wake." />
+	<Hero
+		id="lord_I3_21"
+		father="Hero.lord_I3_2"
+		faction="Faction.clan_isengard_3" />
+
+	<Hero
+		id="lord_I3_3"
+		faction="Faction.clan_isengard_3"
+		text="{=bruzgash_description}Bruzgash, a shrewd and savage leader of the Black Echelon, commands his Uruk-hai with a ruthless efficiency that embodies Isengard’s dark might. His loyalty to Saruman is matched by his cunning, orchestrating battles with a keen eye for exploiting any flaw in his enemies’ defenses. Bruzgash’s harsh demeanor and unrelenting drive inspire dread in both allies and foes, his forces a relentless tide of destruction. Under his banner, the Black Echelon spreads fear, furthering Saruman’s dominion with every brutal conquest." />
+	<Hero
+		id="lord_I3_31"
+		father="Hero.lord_I3_3"
+		faction="Faction.clan_isengard_3" />
+
+	<!-- Black Maw Clan -->
+	<Hero
+		id="lord_I4_2"
+		faction="Faction.clan_isengard_4"
+		text="{=zargoth_description}Zargoth, the ferocious warlord of the Black Maw, leads his Uruk-hai with a savage intensity that terrifies all who face him. His absolute loyalty to Saruman drives his relentless pursuit of victory, his troops a devastating force honed by his brutal leadership. Zargoth’s lack of mercy and keen tactical mind make him a scourge on the battlefield, his victories piling corpses at Isengard’s gates. With every enemy crushed, he strengthens the Black Maw’s fearsome reputation, serving Saruman’s dark vision without hesitation." />
+	<Hero
+		id="lord_I4_21"
+		father="Hero.lord_I4_2"
+		faction="Faction.clan_isengard_4" />
+
+	<Hero
+		id="lord_I4_3"
+		faction="Faction.clan_isengard_4"
+		text="{=drugash_description}Drûgash, a cunning and iron-willed leader of the Black Maw, commands his Uruk-hai with a blend of calculated strategy and raw aggression. His devotion to Saruman fuels his relentless drive, his forces sweeping across Middle-earth with disciplined savagery. Drûgash’s sharp intellect and scorn for weakness make him a formidable commander, his troops a relentless engine of destruction. Under his leadership, the Black Maw carves a path of ruin, advancing Isengard’s dark ambitions with every bloody triumph." />
+	<Hero
+		id="lord_I4_31"
+		father="Hero.lord_I4_3"
+		faction="Faction.clan_isengard_4" />
+
+	<Hero
+		id="lord_I4_4"
+		faction="Faction.clan_isengard_4"
+		text="{=thrakul_description}Thrakul, a towering and merciless warlord of the Black Maw, rules his Uruk-hai with an unyielding grip, his loyalty to Saruman matched only by his thirst for slaughter. His commanding presence and brutal tactics ensure that his forces strike with overwhelming force, leaving no survivors in their wake. Thrakul’s disdain for mercy and his strategic prowess make him a terror to Middle-earth’s defenders, his victories a testament to Isengard’s might. With the Black Maw at his back, he drives Saruman’s war machine forward, crushing all opposition." />
+	<Hero
+		id="lord_I4_41"
+		father="Hero.lord_I4_4"
+		faction="Faction.clan_isengard_4" />
+
+	
+<!--Gundabad-->
 	<Hero
 		id="lord_G1_1"
 		faction="Faction.clan_gundabad_1"

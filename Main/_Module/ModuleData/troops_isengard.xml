@@ -12,11 +12,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="90"/>
+			<skill id="Athletics" value="60"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="80"/>
-			<skill id="TwoHanded" value="80"/>
-			<skill id="Polearm" value="70"/>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -68,10 +68,10 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="150"/>
+			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="150"/>
-			<skill id="TwoHanded" value="150"/>
+			<skill id="OneHanded" value="90"/>
+			<skill id="TwoHanded" value="90"/>
 			<skill id="Polearm" value="0"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
@@ -423,10 +423,10 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="150"/>
+			<skill id="Athletics" value="90"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="0"/>
 			<skill id="Bow" value="100"/>
 			<skill id="Crossbow" value="0"/>
@@ -850,11 +850,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="175"/>
+			<skill id="Athletics" value="125"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="175"/>
-			<skill id="TwoHanded" value="175"/>
-			<skill id="Polearm" value="175"/>
+			<skill id="OneHanded" value="115"/>
+			<skill id="TwoHanded" value="115"/>
+			<skill id="Polearm" value="115"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -935,11 +935,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="175"/>
+			<skill id="Athletics" value="115"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="175"/>
-			<skill id="TwoHanded" value="185"/>
-			<skill id="Polearm" value="175"/>
+			<skill id="OneHanded" value="115"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="115"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -1077,13 +1077,13 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="175"/>
+			<skill id="Athletics" value="115"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
 			<skill id="Bow" value="0"/>
-			<skill id="Crossbow" value="75"/>
+			<skill id="Crossbow" value="80"/>
 			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
@@ -1467,11 +1467,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="150"/>
+			<skill id="Athletics" value="120"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
 			<skill id="Bow" value="150"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -1523,11 +1523,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="250"/>
+			<skill id="Athletics" value="150"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="220"/>
-			<skill id="TwoHanded" value="220"/>
-			<skill id="Polearm" value="300"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="130"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -2004,11 +2004,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="250"/>
+			<skill id="Athletics" value="150"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="250"/>
-			<skill id="TwoHanded" value="250"/>
-			<skill id="Polearm" value="250"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="155"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -2485,11 +2485,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="300"/>
+			<skill id="Athletics" value="160"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="250"/>
-			<skill id="TwoHanded" value="250"/>
-			<skill id="Polearm" value="250"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="160"/>
+			<skill id="Polearm" value="150"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -2915,11 +2915,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="225"/>
+			<skill id="Athletics" value="155"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
 			<skill id="Bow" value="220"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -3495,11 +3495,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="160"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="110"/>
+			<skill id="Polearm" value="110"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="150"/>
 			<skill id="Throwing" value="0"/>
@@ -4025,11 +4025,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="350"/>
+			<skill id="Athletics" value="250"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="350"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="250"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -4455,11 +4455,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="300"/>
+			<skill id="Athletics" value="200"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="350"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="250"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -4935,11 +4935,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="300"/>
+			<skill id="Athletics" value="250"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="300"/>
-			<skill id="TwoHanded" value="300"/>
-			<skill id="Polearm" value="300"/>
+			<skill id="OneHanded" value="260"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -5415,11 +5415,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="325"/>
+			<skill id="Athletics" value="255"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="325"/>
-			<skill id="TwoHanded" value="325"/>
-			<skill id="Polearm" value="325"/>
+			<skill id="OneHanded" value="255"/>
+			<skill id="TwoHanded" value="255"/>
+			<skill id="Polearm" value="255"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -5845,11 +5845,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="325"/>
+			<skill id="Athletics" value="265"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="300"/>
-			<skill id="TwoHanded" value="300"/>
-			<skill id="Polearm" value="300"/>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="260"/>
+			<skill id="Polearm" value="250"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -6274,11 +6274,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="270"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
 			<skill id="Bow" value="250"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -6854,11 +6854,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="0"/>
+			<skill id="Athletics" value="260"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="160"/>
+			<skill id="Polearm" value="160"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="250"/>
 			<skill id="Throwing" value="0"/>
@@ -7384,11 +7384,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="400"/>
+			<skill id="Athletics" value="300"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="350"/>
-			<skill id="TwoHanded" value="400"/>
-			<skill id="Polearm" value="400"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -7442,11 +7442,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="300"/>
+			<skill id="Athletics" value="280"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="190"/>
+			<skill id="TwoHanded" value="190"/>
+			<skill id="Polearm" value="190"/>
 			<skill id="Bow" value="280"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -8021,11 +8021,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="300"/>
+			<skill id="Athletics" value="280"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="0"/>
-			<skill id="TwoHanded" value="0"/>
-			<skill id="Polearm" value="0"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="190"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="300"/>
 			<skill id="Throwing" value="0"/>
@@ -8550,14 +8550,14 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="350"/>
+			<skill id="Athletics" value="290"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="350"/>
-			<skill id="TwoHanded" value="350"/>
-			<skill id="Polearm" value="400"/>
+			<skill id="OneHanded" value="290"/>
+			<skill id="TwoHanded" value="290"/>
+			<skill id="Polearm" value="300"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="350"/>
+			<skill id="Throwing" value="100"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -8979,14 +8979,14 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="350"/>
+			<skill id="Athletics" value="290"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="350"/>
-			<skill id="TwoHanded" value="350"/>
-			<skill id="Polearm" value="350"/>
+			<skill id="OneHanded" value="290"/>
+			<skill id="TwoHanded" value="290"/>
+			<skill id="Polearm" value="300"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="100"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -9458,14 +9458,14 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="350"/>
+			<skill id="Athletics" value="290"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="350"/>
-			<skill id="TwoHanded" value="350"/>
-			<skill id="Polearm" value="350"/>
+			<skill id="OneHanded" value="295"/>
+			<skill id="TwoHanded" value="295"/>
+			<skill id="Polearm" value="190"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
-			<skill id="Throwing" value="0"/>
+			<skill id="Throwing" value="100"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -9937,11 +9937,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="450"/>
+			<skill id="Athletics" value="310"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="450"/>
-			<skill id="TwoHanded" value="450"/>
-			<skill id="Polearm" value="450"/>
+			<skill id="OneHanded" value="310"/>
+			<skill id="TwoHanded" value="310"/>
+			<skill id="Polearm" value="310"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -10417,11 +10417,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="250"/>
+			<skill id="Athletics" value="310"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="250"/>
-			<skill id="TwoHanded" value="250"/>
-			<skill id="Polearm" value="250"/>
+			<skill id="OneHanded" value="310"/>
+			<skill id="TwoHanded" value="310"/>
+			<skill id="Polearm" value="310"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -10897,11 +10897,11 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="295"/>
+			<skill id="Athletics" value="325"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="295"/>
-			<skill id="TwoHanded" value="295"/>
-			<skill id="Polearm" value="295"/>
+			<skill id="OneHanded" value="325"/>
+			<skill id="TwoHanded" value="325"/>
+			<skill id="Polearm" value="325"/>
 			<skill id="Bow" value="0"/>
 			<skill id="Crossbow" value="0"/>
 			<skill id="Throwing" value="0"/>
@@ -11377,7 +11377,7 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="375"/>
+			<skill id="Athletics" value="350"/>
 			<skill id="Riding" value="0"/>
 			<skill id="OneHanded" value="350"/>
 			<skill id="TwoHanded" value="350"/>
@@ -11857,7 +11857,7 @@
 			<face_key_template value="BodyProperty.villager_battania"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="450"/>
+			<skill id="Athletics" value="400"/>
 			<skill id="Riding" value="0"/>
 			<skill id="OneHanded" value="400"/>
 			<skill id="TwoHanded" value="400"/>
@@ -11867,6 +11867,7 @@
 			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.cave_troll"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
@@ -12323,5 +12324,41 @@
 				id="battania_troop_civilian_template_t2"
 				civilian="true" />
 		</Equipments>
+	</NPCCharacter>
+
+		<NPCCharacter id="cave_troll"
+			default_group="Infantry"
+			race="cave_troll"
+			level="51"
+			name="{=cave_troll}[Isengard] Cave Troll"
+			occupation="Soldier"
+			culture="Culture.isengard">
+			<face>
+				<face_key_template value="BodyProperty.villager_battania"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="100"/>
+				<skill id="Riding" value="0"/>
+				<skill id="OneHanded" value="500"/>
+				<skill id="TwoHanded" value="500"/>
+				<skill id="Polearm" value="500"/>
+				<skill id="Bow" value="0"/>
+				<skill id="Crossbow" value="0"/>
+				<skill id="Throwing" value="500"/>
+			</skills>
+			<upgrade_targets>
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.isengard_berserker_sword"/>
+					<equipment slot="Item1" id="Item.wm_isengard_shield_a02"/>
+					<equipment slot="Head" id="Item.lotr_troll_helmet"/>
+					<equipment slot="Body" id="Item.lotr_troll_armor"/>
+					<equipment slot="Gloves" id="Item.lotr_troll_bracers"/>
+				</EquipmentRoster>
+				<EquipmentSet
+					id="battania_troop_civilian_template_t2"
+					civilian="true" />
+			</Equipments>
 	</NPCCharacter>
 </NPCCharacters>
