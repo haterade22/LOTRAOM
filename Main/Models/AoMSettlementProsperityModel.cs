@@ -19,7 +19,7 @@ namespace LOTRAOM.Models
         public override ExplainedNumber CalculateProsperityChange(Town fortification, bool includeDescriptions = false)
         {
             ExplainedNumber value = baseModel.CalculateProsperityChange(fortification, includeDescriptions);
-            if (fortification.Culture.StringId == Globals.IsengardCulture && fortification.StringId == Globals.Orthanc) //orthanc
+            if (fortification.Settlement.Owner?.Culture.StringId == Globals.IsengardCulture && fortification.StringId == Globals.Orthanc) //orthanc
                 value.Add(30, new TextObject("Orthanc held by Isengard")); //orthanc should not have prosperity change
             return value;
         }

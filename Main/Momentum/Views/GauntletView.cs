@@ -13,6 +13,15 @@ namespace LOTRAOM.Momentum.Views
         {
             base.OnMapScreenUpdate(dt);
         }
+        protected override void OnResume()
+        {
+            var spriteData = UIResourceManager.SpriteData;
+            var resourceContext = UIResourceManager.ResourceContext;
+            var resourceDepot = UIResourceManager.UIResourceDepot;
+            spriteData.SpriteCategories["ui_encyclopedia"].Load(resourceContext, resourceDepot);
+            spriteData.SpriteCategories["ui_kingdom"].Load(resourceContext, resourceDepot);
+            base.OnResume();
+        }
         protected override void CreateLayout()
         {
             var spriteData = UIResourceManager.SpriteData;
@@ -35,6 +44,9 @@ namespace LOTRAOM.Momentum.Views
                 MapScreen.Instance.RemoveLayer(_layerAsGauntletLayer);
                 _layerAsGauntletLayer = null;
             }
+            var spriteData = UIResourceManager.SpriteData;
+            spriteData.SpriteCategories["ui_encyclopedia"].Unload();
+            spriteData.SpriteCategories["ui_kingdom"].Unload();
             base.OnFinalize();
         }
     }
