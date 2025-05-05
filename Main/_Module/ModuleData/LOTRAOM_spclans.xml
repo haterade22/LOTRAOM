@@ -685,7 +685,11 @@
 	<Faction
 		id="clan_empire_west_4"
 		name="{=xqkKtWqa}House of Molorion"
-		
+		label_color="FFD9C2A8" 
+		color="FF4A2E1F"       
+		color2="FFB68A3C"     
+		alternative_color="FF2C2522" 
+		alternative_color2="FF8C7B6A" 
 		tier="4"
 		owner="Hero.lord_1_40"
 		culture="Culture.gondor"
