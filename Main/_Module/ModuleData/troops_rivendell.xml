@@ -714,7 +714,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.western_spear_1_t2" />
+					id="Item.he_spear" />
 				<equipment
 					slot="Item1"
 					id="Item.wm_elven_shield_a" />

@@ -7269,6 +7269,68 @@
 	<string
 		id="str_ordinal_number.31"
 		text="{=4tdVrFtU}thirty-first" />
+	<!--LOTRAOM Custom-->
+	<string id="lotraom_base_damage" text="{=lotraom_base_damage}Base Damage" />
+	<string id="lotraom_attacker_bonus" text="{=lotraom_attacker_bonus}{CULTURE} {TYPE} Damage Bonus" />
+	<string id="lotraom_defender_resistance" text="{=lotraom_defender_resistance}{CULTURE} {TYPE} Damage Resistance" />
+	<string id="lotraom_siege_bonus" text="{=lotraom_siege_bonus}Sally-Out Siege Engine Bonus" />
+	<string id="lotraom_knockback_resisted" text="{=lotraom_knockback_resisted}{CULTURE} resists knockback!" />
+	<string id="lotraom_knockdown_triggered" text="{=lotraom_knockdown_triggered}{CULTURE} knocks down the enemy!" />
+	<string id="lotraom_terrain_bonus" text="{=lotraom_terrain_bonus}{CULTURE} {TERRAIN} Bonus" />
+	<string id="LOTRAOM_MountedBonus" text="{=LOTRAOM_MountedBonus}Your Rohirrim horsemanship grants a {BONUS}% damage bonus while mounted!" />
+	<string id="example_feat_name" text="{=example_feat_name}Example Feat" />
+	<string id="example_feat_desc" text="{=example_feat_desc}This is a placeholder feat for testing." />
+	<string id="mordor_wage_multiplier" text="{=mordor_wage_multiplier}Mordor Wage Efficiency" />
+	<string id="mordor_wage_multiplier_desc" text="{=mordor_wage_multiplier_desc}20% lower troop wages due to Sauron's ruthless efficiency." />
+	<string id="mordor_recruitment" text="{=mordor_recruitment}Orc Horde Recruitment" />
+	<string id="mordor_recruitment_desc" text="{=mordor_recruitment_desc}20% lower recruitment cost for Mordor's vast orc armies." />
+	<string id="mordor_party_size" text="{=mordor_party_size}Mordor Swarm" />
+	<string id="mordor_party_size_desc" text="{=mordor_party_size_desc}30% larger party size to overwhelm foes." />
+	<string id="human_militia_production" text="{=human_militia_production}Human Militia Training" />
+	<string id="human_militia_production_desc" text="{=human_militia_production_desc}Towns owned by human culture rulers gain +1 militia production." />
+	<string id="gondor_influence_army" text="{=gondor_influence_army}Gondorian Leadership" />
+	<string id="gondor_influence_army_desc" text="{=gondor_influence_army_desc}Being in an army grants 25% more influence, reflecting Gondor's disciplined command." />
+	<string id="gondor_infantry_wage" text="{=gondor_infantry_wage}Gondorian Infantry Efficiency" />
+	<string id="gondor_infantry_wage_desc" text="{=gondor_infantry_wage_desc}Wages of Gondorian infantry are 15% lower due to their loyalty." />
+	<string id="gondor_reduce_wages_in_garrison" text="{=gondor_reduce_wages_in_garrison}Gondorian Garrison Duty" />
+	<string id="gondor_reduce_wages_in_garrison_desc" text="{=gondor_reduce_wages_in_garrison_desc}Wages of troops in garrisons are 20% lower." />
+	<string id="rohan_animal_production" text="{=rohan_animal_production}Rohirrim Horse Breeding" />
+	<string id="rohan_animal_production_desc" text="{=rohan_animal_production_desc}25% production bonus to horses, mules, cows, and sheep in villages owned by Rohan rulers." />
+	<string id="rohan_reduce_mounted_cost" text="{=rohan_reduce_mounted_cost}Rohirrim Horsemanship" />
+	<string id="rohan_reduce_mounted_cost_desc" text="{=rohan_reduce_mounted_cost_desc}No extra wage for mounted units, reflecting Rohan's cavalry expertise." />
+	<string id="rohan_slower_build" text="{=rohan_slower_build}Rohirrim Simplicity" />
+	<string id="rohan_slower_build_desc" text="{=rohan_slower_build_desc}10% slower build rate for town projects due to Rohan's focus on rural life." />
+	<string id="rohan_army_lord_influence" text="{=rohan_army_lord_influence}Rohirrim Lord Recruitment" />
+	<string id="rohan_army_lord_influence_desc" text="{=rohan_army_lord_influence_desc}Recruiting lords to armies costs 30% more influence due to their independent spirit." />
+	<string id="elf_forest_prosperity" text="{=elf_forest_prosperity}Elven Harmony" />
+	<string id="elf_forest_prosperity_desc" text="{=elf_forest_prosperity_desc}Villages near forests owned by Elven rulers gain 20% increased prosperity." />
+	<string id="erebor_mining_income" text="{=erebor_mining_income}Dwarven Mining" />
+	<string id="erebor_mining_income_desc" text="{=erebor_mining_income_desc}Settlements owned by Dwarven rulers gain 15% increased income from mines." />
+	<string id="aserai_desert_trade" text="{=aserai_desert_trade}Haradrim Trade Routes" />
+	<string id="aserai_desert_trade_desc" text="{=aserai_desert_trade_desc}Desert settlements owned by Haradrim rulers gain 10% increased trade income." />
+	<string id="umbar_naval_trade" text="{=umbar_naval_trade}Corsair Trade" />
+	<string id="umbar_naval_trade_desc" text="{=umbar_naval_trade_desc}Coastal settlements owned by Umbar rulers gain 15% increased trade income." />
+	<string id="khuzait_steppe_mobility" text="{=khuzait_steppe_mobility}Easterling Mobility" />
+	<string id="khuzait_steppe_mobility_desc" text="{=khuzait_steppe_mobility_desc}Parties on steppe terrain gain 10% increased movement speed." />
+	<string id="battania_steppe_recruitment" text="{=battania_steppe_recruitment}Variag Recruitment" />
+	<string id="battania_steppe_recruitment_desc" text="{=battania_steppe_recruitment_desc}20% faster recruitment in steppe settlements owned by Variag rulers." />
+	<string id="sturgia_trade_security" text="{=sturgia_trade_security}Barding Trade Protection" />
+	<string id="sturgia_trade_security_desc" text="{=sturgia_trade_security_desc}20% reduced bandit spawns near settlements owned by Barding rulers." />
+	<string id="darshi_forest_scouting" text="{=darshi_forest_scouting}Drúedain Tracking" />
+	<string id="darshi_forest_scouting_desc" text="{=darshi_forest_scouting_desc}Parties owned by Drúedain rulers gain +1 scouting skill." />
+	<string id="empire_marketplace_income" text="{=empire_marketplace_income}Dale Marketplace" />
+	<string id="empire_marketplace_income_desc" text="{=empire_marketplace_income_desc}Towns owned by Men of Dale gain 10% increased marketplace income." />
+	<string id="elf_archer_wage" text="{=elf_archer_wage}Elven Archery Efficiency" />
+	<string id="elf_archer_wage_desc" text="{=elf_archer_wage_desc}15% lower wages for ranged units due to their elite training." />
+	<string id="erebor_elite_wage" text="{=erebor_elite_wage}Dwarven Elite Cost" />
+	<string id="erebor_elite_wage_desc" text="{=erebor_elite_wage_desc}10% higher wages for elite units (tier 4+) due to their superior craftsmanship." />
+	<string id="rohan_cavalry_size" text="{=rohan_cavalry_size}Rohirrim Cavalry Bands" />
+	<string id="rohan_cavalry_size_desc" text="{=rohan_cavalry_size_desc}15% larger party size due to Rohan's skilled cavalry bands." />
+
+	<!-- New string for Dwarven mining production -->
+	<string id="erebor_mining_production" text="{=erebor_mining_production}Dwarven Mining Efficiency" />
+	<string id="erebor_mining_production_desc" text="{=erebor_mining_production_desc}15% increased production of iron and clay in villages owned by Dwarven rulers." />
+
 	<!-- Item plural strings 
     <string id="str_item_plural_default" text="{=*}loads of {ITEM_NAME}" />    
     <string id="str_item_plural.cotton" text="{=*}bolts of silk" />

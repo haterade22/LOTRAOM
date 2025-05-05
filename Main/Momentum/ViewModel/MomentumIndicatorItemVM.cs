@@ -8,14 +8,9 @@ namespace LOTRAOM.Momentum.ViewModel
 {
     internal sealed class MomentumIndicatorItemVM : TaleWorlds.Library.ViewModel
     {
-        private bool _isCriticalFaction1;
-        private bool _isCriticalFaction2;
-        private ImageIdentifierVM _faction1Visual = null!;
-        private ImageIdentifierVM _faction2Visual = null!;
-
-        private string _TestText = "my test";
+        private string _TestText = "War of the Ring";
         [DataSourceProperty]
-        public string TestText
+        public string Text
         {
             get => _TestText;
             set
@@ -23,77 +18,41 @@ namespace LOTRAOM.Momentum.ViewModel
                 if (value != _TestText)
                 {
                     _TestText = value;
-                    OnPropertyChanged(nameof(TestText));
+                    OnPropertyChanged(nameof(Text));
                 }
             }
         }
 
-        [DataSourceProperty]
-        public int Momentum
-        {
-            get => MomentumCampaignBehavior.Instance.warOfTheRingData.Momentum;
+        private int _momentum;
+        [DataSourceProperty] public int Momentum         {
+            get => _momentum;
+            set
+            {
+                if (value != _momentum)
+                {
+                    _momentum = value;
+                    OnPropertyChanged(nameof(Momentum));
+                }
+            }
         }
-
+        // multiply by -1, so good factions are on the left, evil on the right side of the slider
         private void OnMomentumChanged()
         {
-            OnPropertyChanged(nameof(Momentum));
-        }
-        [DataSourceProperty]
-        public ImageIdentifierVM Faction1Visual
-        {
-            get => _faction1Visual;
-            set { _faction1Visual = value; OnPropertyChanged(nameof(Faction1Visual)); }
-        }
-
-        [DataSourceProperty]
-        public ImageIdentifierVM Faction2Visual
-        {
-            get => _faction2Visual;
-            set { _faction2Visual = value; OnPropertyChanged(nameof(Faction2Visual)); }
-        }
-
-        [DataSourceProperty]
-        public bool IsCriticalFaction1
-        {
-            get => _isCriticalFaction1;
-            set
-            {
-                if (value != _isCriticalFaction1)
-                {
-                    _isCriticalFaction1 = value;
-                    OnPropertyChangedWithValue(value, nameof(IsCriticalFaction1));
-                }
-            }
-        }
-
-        [DataSourceProperty]
-        public bool IsCriticalFaction2
-        {
-            get => _isCriticalFaction2;
-            set
-            {
-                if (value != _isCriticalFaction2)
-                {
-                    _isCriticalFaction2 = value;
-                    OnPropertyChangedWithValue(value, nameof(IsCriticalFaction2));
-                }
-            }
+            Momentum = -1 * (int)MomentumCampaignBehavior.Instance.warOfTheRingData.Momentum;
         }
         public MomentumIndicatorItemVM()
         {
+            Momentum = 5;
             MomentumCampaignBehavior.Instance.OnMomentumChanged += OnMomentumChanged;
             RefreshValues();
         }
         public override void RefreshValues()
         {
+            Momentum = (int)MomentumCampaignBehavior.Instance.warOfTheRingData.Momentum;
             base.RefreshValues();
-            var playerKingdom = Clan.PlayerClan.Kingdom;
-            Faction1Visual = new ImageIdentifierVM(BannerCode.CreateFrom(MomentumGlobals.Gondor.Banner), true);
-            Faction2Visual = new ImageIdentifierVM(BannerCode.CreateFrom(MomentumGlobals.Mordor.Banner), true);
         }
         private void OpenDetailedBalanceOfPowerView()
         {
-            InformationManager.DisplayMessage(new InformationMessage("Factions"));
             new MomentumInterface().ShowInterface(ScreenManager.TopScreen);
         }
     }

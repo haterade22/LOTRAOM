@@ -21,15 +21,16 @@
 	</Constants>
 	<Window>
 
-		<Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Top" >
+		<ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" VerticalAlignment="Top">
 			<Children>
-				<TextWidget DataSource="{MomentumIndicator}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedHeight="100" SuggestedWidth="200"  PositionYOffset="80" HorizontalAlignment="Center" Text="@MomentumIndicatorText" />
 				<ButtonWidget DataSource="{MomentumIndicator}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Command.Click="OpenDetailedBalanceOfPowerView" DoNotPassEventsToChildren="true" UpdateChildrenStates="true">
 					<Children>
-						<SliderWidget Sprite="BlankWhiteSquare_9" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="350" SuggestedHeight="65" HorizontalAlignment="Center" DoNotUpdateHandleSize="true" Handle="SliderHandle" IsDiscrete="true" Locked="false" MaxValueInt="100" MinValueInt="-100" ValueInt="@Momentum" MarginTop="10" IsEnabled="false">
+						<TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Center" Brush="Kingdom.TitleSmall.Text" Text="@Text" MarginTop="50" PositionYOffset="10" ClipContents="false"/>
+
+						<SliderWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="350" SuggestedHeight="65" HorizontalAlignment="Center" DoNotUpdateHandleSize="true" Brush="Kingdom.Support.Fill" Handle="SliderHandle" IsDiscrete="true" Locked="false" MaxValueInt="100" MinValueInt="-100" ValueInt="@Momentum" MarginTop="10" IsEnabled="false">
 							<Children>
-								<Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="400" SuggestedHeight="65" HorizontalAlignment="Center" Sprite="SPKingdom\progress_bar_frame" PositionYOffset="0" PositionXOffset="2" />
-								<ImageWidget Sprite="BlankWhiteSquare_9" Id="SliderHandle" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Conversation.Relation.Handle.Width" SuggestedHeight="75" HorizontalAlignment="Left" VerticalAlignment="Center" IsEnabled="false">
+		                        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="400" SuggestedHeight="65" HorizontalAlignment="Center" Sprite="SPKingdom\progress_bar_frame" PositionYOffset="0" PositionXOffset="2" />
+								<ImageWidget Brush="Kingdom.Support.Handle" Id="SliderHandle" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!Conversation.Relation.Handle.Width" SuggestedHeight="75" HorizontalAlignment="Left" VerticalAlignment="Center" IsEnabled="false">
 									<Children>
 									</Children>
 								</ImageWidget>
@@ -38,6 +39,6 @@
 					</Children>
 				</ButtonWidget>
 			</Children>
-		</Widget>
+		</ListPanel>
 	</Window>
 </Prefab>

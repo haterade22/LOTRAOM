@@ -612,10 +612,10 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Commander"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -688,10 +688,10 @@
 				value="5" />
 			<Trait
 				id="Politician"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Manager"
-				value="15" />
+				value="5" />
 
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
@@ -753,7 +753,7 @@
 				value="8" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Generosity"
 				value="1" />
@@ -972,7 +972,7 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -1020,7 +1020,7 @@
 				value="10" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Generosity"
 				value="1" />
@@ -1104,7 +1104,7 @@
 				value="10" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Generosity"
 				value="1" />
@@ -1309,10 +1309,10 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Commander"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -1380,10 +1380,10 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Generosity"
 				value="-1" />
@@ -1431,10 +1431,10 @@
 			<!-- USED TO DERIVE SKILLS-->
 			<Trait
 				id="KnightFightingSkills"
-				value="19" />
+				value="9" />
 			<Trait
 				id="Commander"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Politician"
 				value="7" />
@@ -1559,7 +1559,7 @@
 	<NPCCharacter
 		id="lord_1_7"
 		name="{=I72U5ttG}Denethor II"
-		age="70"
+		age="50"
 		voice="ironic"
 		is_hero="true"
 		culture="Culture.gondor"
@@ -1574,16 +1574,16 @@
 			<!-- USED TO DERIVE SKILLS-->
 			<Trait
 				id="CavalryFightingSkills"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Manager"
-				value="16" />
+				value="6" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -1682,7 +1682,7 @@
 	<NPCCharacter
 		id="lord_1_9"
 		name="{=QjJAbaoT}Imrahil"
-		age="45"
+		age="35"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
@@ -1696,16 +1696,16 @@
 		<Traits>
 			<Trait
 				id="CavalryFightingSkills"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Commander"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
-				value="15" />
+				value="5" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -1784,16 +1784,16 @@
 		<Traits>
 			<Trait
 				id="CavalryFightingSkills"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Commander"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
-				value="15" />
+				value="5" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -1845,16 +1845,16 @@
 		<Traits>
 			<Trait
 				id="CavalryFightingSkills"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Commander"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
-				value="15" />
+				value="5" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -1910,16 +1910,16 @@
 		<Traits>
 			<Trait
 				id="CavalryFightingSkills"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Commander"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
-				value="15" />
+				value="5" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -1981,10 +1981,10 @@
 			FEMALE-->
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<!-- Melkea, wife of Apys Varros. Equally amoral. -->
 			<Trait
 				id="Mercy"
@@ -2024,10 +2024,10 @@
 			FEMALE-->
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<!-- Melkea, wife of Apys Varros. Equally amoral. -->
 			<Trait
 				id="Mercy"
@@ -2071,10 +2071,10 @@
 			FEMALE-->
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<!-- Melkea, wife of Apys Varros. Equally amoral. -->
 			<Trait
 				id="Mercy"
@@ -2118,10 +2118,10 @@
 				value="3" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="4" />
@@ -2203,7 +2203,7 @@
 		id="lord_1_11"
 		name="{=acp2IcMs}Ciryandur"
 		default_group="Infantry"
-		age="64"
+		age="54"
 		voice="curt"
 		is_hero="true"
 		culture="Culture.gondor"
@@ -2216,13 +2216,13 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
-				value="11" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="9" />
@@ -2278,13 +2278,13 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
-				value="11" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="9" />
@@ -2340,13 +2340,13 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
-				value="11" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="9" />
@@ -2405,13 +2405,13 @@
 				value="4" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="8" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Honor"
 				value="1" />
@@ -2448,13 +2448,13 @@
 				value="4" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="8" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Honor"
 				value="1" />
@@ -2488,13 +2488,13 @@
 				value="4" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="8" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Honor"
 				value="1" />
@@ -2584,13 +2584,13 @@
 				value="4" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="8" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Honor"
 				value="1" />
@@ -2663,16 +2663,16 @@
 
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Politician"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Manager"
-				value="18" />
+				value="8" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -2737,10 +2737,10 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -2800,8 +2800,8 @@
 		<BodyProperties version="4" age="22.19" weight="0.0116" build="1"  key="0039F00FC000300010000010010100000001000000000100001011101000000000FF06030F000100000000000000000000000000000000000000000043F44142"  />
 		</face>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="18" />
-			<Trait id="Commander" value="14" />
+			<Trait id="CavalryFightingSkills" value="8" />
+			<Trait id="Commander" value="4" />
 			<Trait id="Manager" value="10" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="0" />
@@ -2841,8 +2841,8 @@
 		<BodyProperties version="4" age="22.19" weight="0.0116" build="1"  key="0039F00FC000300010000010010100000001000000000100001011101000000000FF06030F000100000000000000000000000000000000000000000043F44142"  />
 		</face>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="18" />
-			<Trait id="Commander" value="14" />
+			<Trait id="CavalryFightingSkills" value="8" />
+			<Trait id="Commander" value="4" />
 			<Trait id="Manager" value="10" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="0" />
@@ -2886,16 +2886,16 @@
 		<Traits>
 			<Trait
 				id="CavalryFightingSkills"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
-				value="19" />
+				value="9" />
 			<Trait
 				id="Manager"
-				value="20" />
+				value="10" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -3061,7 +3061,7 @@
 				value="6" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="6" />
@@ -3243,7 +3243,7 @@
 	<NPCCharacter
 		id="lord_1_75"
 		name="{=LiAefNmE}Boromir"
-		age="22"
+		age="25"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.gondor"
@@ -3257,10 +3257,10 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -3314,7 +3314,7 @@
 				value="5" />
 			<Trait
 				id="Commander"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Politician"
 				value="4" />
@@ -3559,8 +3559,8 @@
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="18" />
-			<Trait id="Commander" value="14" />
+			<Trait id="CavalryFightingSkills" value="8" />
+			<Trait id="Commander" value="4" />
 			<Trait id="Manager" value="10" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="0" />
@@ -3672,7 +3672,7 @@
 				value="8" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Valor"
 				value="-1" />
@@ -3719,7 +3719,7 @@
 				value="6" />
 			<Trait
 				id="Manager"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Generosity"
 				value="-1" />
@@ -3772,7 +3772,7 @@
 				value="10" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Mercy"
 				value="-1" />
@@ -3846,7 +3846,7 @@
 	<NPCCharacter
 		id="lord_1_34"
 		name="{=uLjRHv9p}Faramir"
-		age="17"
+		age="19"
 		voice="earnest"
 		is_hero="true"
 		is_female="false"
@@ -3861,16 +3861,16 @@
 		<Traits>
 			<Trait
 				id="HorseArcherFightingSkills"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Commander"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait id="Valor" value="1" />
 			<Trait id="Generosity" value="2" />
@@ -3925,7 +3925,7 @@
 				value="5" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -3977,7 +3977,7 @@
 				value="10" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="4" />
@@ -4024,8 +4024,8 @@
 		<skills>
 		</skills>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="18" />
-			<Trait id="Commander" value="14" />
+			<Trait id="CavalryFightingSkills" value="8" />
+			<Trait id="Commander" value="4" />
 			<Trait id="Manager" value="10" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="0" />
@@ -4124,13 +4124,13 @@
 				value="5" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="10" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Honor"
 				value="+1" />
@@ -4177,13 +4177,13 @@
 				value="5" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="10" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Honor"
 				value="+1" />
@@ -4230,13 +4230,13 @@
 				value="8" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="6" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Valor"
 				value="1" />
@@ -4281,13 +4281,13 @@
 				value="6" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="6" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Generosity"
 				value="-1" />
@@ -4335,13 +4335,13 @@
 				value="7" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="8" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Mercy"
 				value="-1" />
@@ -4387,7 +4387,7 @@
 				value="6" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -4683,7 +4683,7 @@
 				value="8" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="8" />
@@ -4882,16 +4882,16 @@
 		<Traits>
 			<Trait
 				id="HorseArcherFightingSkills"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -4955,7 +4955,7 @@
 				value="7" />
 			<Trait
 				id="Commander"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Politician"
 				value="6" />
@@ -5007,7 +5007,7 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -5098,10 +5098,10 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="10" />
@@ -5168,13 +5168,13 @@
 				value="10" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Manager"
-				value="18" />
+				value="8" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -5237,10 +5237,10 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Honor"
 				value="1" />
@@ -5284,7 +5284,7 @@
 				value="7" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -5338,13 +5338,13 @@
 				value="5" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Valor"
 				value="-1" />
@@ -5377,7 +5377,7 @@
 		voice="softspoken"
 		is_female="false"
 		default_group="Infantry"
-		age="45"
+		age="35"
 		is_hero="true"
 		culture="Culture.gondor"
 		occupation="Lord"
@@ -5389,10 +5389,10 @@
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="10" />
@@ -5461,7 +5461,7 @@
 				value="10" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<!-- Tynops's wife.-->
 			<Trait
 				id="Generosity"
@@ -5506,10 +5506,10 @@
 				value="5" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="8" />
@@ -5611,10 +5611,10 @@
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Politician"
 				value="9" />
@@ -5916,13 +5916,13 @@
 				value="7" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="6" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Valor"
 				value="1" />
@@ -6036,10 +6036,10 @@
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Politician"
 				value="9" />
@@ -6093,10 +6093,10 @@
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Politician"
 				value="9" />
@@ -6138,10 +6138,10 @@
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Politician"
 				value="9" />
@@ -6191,7 +6191,7 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -6235,7 +6235,7 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -6281,10 +6281,10 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="10" />
@@ -6339,10 +6339,10 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="10" />
@@ -6382,7 +6382,7 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -6426,7 +6426,7 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -6470,16 +6470,16 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Commander"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Politician"
 				value="10" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -6553,7 +6553,7 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -6604,7 +6604,7 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -6707,13 +6707,13 @@
 				value="5" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Honor"
 				value="-1" />
@@ -6789,10 +6789,10 @@
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Politician"
 				value="9" />
@@ -6873,10 +6873,10 @@
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Politician"
 				value="9" />
@@ -6925,10 +6925,10 @@
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Politician"
 				value="9" />
@@ -6977,10 +6977,10 @@
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Politician"
 				value="9" />
@@ -7030,10 +7030,10 @@
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Politician"
 				value="9" />
@@ -7082,10 +7082,10 @@
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Politician"
 				value="9" />
@@ -7139,13 +7139,13 @@
 				value="7" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Valor"
 				value="1" />
@@ -7194,7 +7194,7 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="6" />
@@ -7242,10 +7242,10 @@
 			<!-- USED TO DERIVE SKILLS -->
 			<Trait
 				id="KnightFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -7414,8 +7414,8 @@
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="18" />
-			<Trait id="Commander" value="14" />
+			<Trait id="CavalryFightingSkills" value="8" />
+			<Trait id="Commander" value="4" />
 			<Trait id="Manager" value="10" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="0" />
@@ -7455,8 +7455,8 @@
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="18" />
-			<Trait id="Commander" value="14" />
+			<Trait id="CavalryFightingSkills" value="8" />
+			<Trait id="Commander" value="4" />
 			<Trait id="Manager" value="10" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="0" />
@@ -7496,8 +7496,8 @@
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="18" />
-			<Trait id="Commander" value="14" />
+			<Trait id="CavalryFightingSkills" value="8" />
+			<Trait id="Commander" value="4" />
 			<Trait id="Manager" value="10" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="0" />
@@ -7536,8 +7536,8 @@
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="18" />
-			<Trait id="Commander" value="14" />
+			<Trait id="CavalryFightingSkills" value="8" />
+			<Trait id="Commander" value="4" />
 			<Trait id="Manager" value="10" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="0" />
@@ -7583,13 +7583,13 @@
 			<!-- USED TO DERIVE SKILLS -->
 			<Trait
 				id="KnightFightingSkills"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Commander"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Manager"
-				value="11" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="9" />
@@ -7653,7 +7653,7 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -7696,16 +7696,16 @@
 			<!-- USED TO DERIVE SKILLS -->
 			<Trait
 				id="CavalryFightingSkills"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Commander"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
-				value="15" />
+				value="5" />
 
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
@@ -7804,13 +7804,13 @@
 			<!-- USED TO DERIVE SKILLS -->
 			<Trait
 				id="KnightFightingSkills"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Commander"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="10" />
@@ -7991,7 +7991,7 @@
 				value="10" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="8" />
@@ -8131,7 +8131,7 @@
 				value="6" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="4" />
@@ -8224,13 +8224,13 @@
 				value="5" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Honor"
 				value="-1" />
@@ -8350,13 +8350,13 @@
 			<!-- USED TO DERIVE SKILLS -->
 			<Trait
 				id="KnightFightingSkills"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Commander"
-				value="19" />
+				value="9" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="7" />
@@ -8517,13 +8517,13 @@
 				value="5" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Honor"
 				value="-1" />
@@ -8603,16 +8603,16 @@
 		<Traits>
 			<Trait
 				id="HorseArcherFightingSkills"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Commander"
 				value="10" />
 			<Trait
 				id="Politician"
-				value="11" />
+				value="4" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -8801,10 +8801,10 @@
 				value="10" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
-				value="15" />
+				value="5" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -8866,7 +8866,7 @@
 				value="7" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -8950,16 +8950,16 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Commander"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Politician"
 				value="10" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -9024,16 +9024,16 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Commander"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Politician"
 				value="10" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -9087,16 +9087,16 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Commander"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Politician"
 				value="10" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -9160,7 +9160,7 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -9260,13 +9260,13 @@
 				value="5" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Valor"
 				value="-1" />
@@ -9350,10 +9350,10 @@
 				value="6" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="8" />
@@ -9450,10 +9450,10 @@
 		<Traits>
 			<Trait
 				id="HuscarlFightingSkills"
-				value="20" />
-			<Trait id="Commander" value="18" />
-			<Trait id="Manager" value="15" />
-			<Trait id="Politician" value="14" />
+				value="10" />
+			<Trait id="Commander" value="8" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Politician" value="4" />
 			<Trait id="Valor" value="2" />
 			<Trait id="Generosity" value="1" />
 			<Trait id="Mercy" value="0" />
@@ -9499,10 +9499,10 @@
 			FEMALE-->
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Generosity"
 				value="1" />
@@ -9540,9 +9540,9 @@
 		<Traits>
 			<Trait
 				id="HuscarlFightingSkills"
-				value="18" />
-			<Trait id="Commander" value="15" />
-			<Trait id="Manager" value="12" />
+				value="8" />
+			<Trait id="Commander" value="5" />
+			<Trait id="Manager" value="2" />
 			<Trait id="Politician" value="10" />
 			<Trait id="Valor" value="2" />
 			<Trait id="Generosity" value="1" />
@@ -9587,7 +9587,7 @@
 				value="9" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="4" />
@@ -9699,8 +9699,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="HopliteFightingSkills"
-				value="18" />
-			<Trait id="Commander" value="12" />
+				value="8" />
+			<Trait id="Commander" value="2" />
 			<Trait id="Manager" value="10" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="2" />
@@ -9748,7 +9748,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="10" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Generosity"
 				value="1" />
@@ -9792,7 +9792,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Manager"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Mercy"
 				value="-1" />
@@ -9879,10 +9879,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="7" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -9936,13 +9936,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="5" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Valor"
 				value="1" />
@@ -10594,7 +10594,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Mercy"
 				value="1" />
@@ -10803,7 +10803,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait id="Commander" value="10" />
 			<Trait id="Manager" value="8" />
 			<Trait id="Politician" value="8" />
@@ -10884,8 +10884,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="12" />
-			<Trait id="Commander" value="13" />
+			<Trait id="KnightFightingSkills" value="2" />
+			<Trait id="Commander" value="3" />
 			<Trait id="Manager" value="10" />
 			<Trait id="Politician" value="10" />
 			<Trait id="Valor" value="2" />
@@ -10928,7 +10928,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="8" />
@@ -10968,8 +10968,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="17" />
-			<Trait id="Commander" value="12" />
+			<Trait id="KnightFightingSkills" value="7" />
+			<Trait id="Commander" value="2" />
 			<Trait id="Manager" value="10" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="2" />
@@ -11052,9 +11052,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="19" />
-			<Trait id="Commander" value="16" />
-			<Trait id="Manager" value="12" />
+			<Trait id="KnightFightingSkills" value="9" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Manager" value="2" />
 			<Trait id="Politician" value="10" />
 			<Trait id="Valor" value="2" />
 			<Trait id="Generosity" value="1" />
@@ -11130,9 +11130,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="15" />
+			<Trait id="KnightFightingSkills" value="5" />
 			<Trait id="Commander" value="10" />
-			<Trait id="Manager" value="12" />
+			<Trait id="Manager" value="2" />
 			<Trait id="Politician" value="6" />
 			<Trait id="Valor" value="1" />
 			<Trait id="Generosity" value="2" />
@@ -11220,7 +11220,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Manager"
-				value="16" />
+				value="6" />
 			<!-- Older, cautious, much better suited to governor -->
 			<Trait
 				id="Valor"
@@ -11269,7 +11269,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="6" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -11648,13 +11648,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<!-- USED TO DERIVE SKILLS -->
 			<Trait
 				id="KnightFightingSkills"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Commander"
 				value="10" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="6" />
@@ -11716,10 +11716,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
 				value="8" />
@@ -11872,16 +11872,16 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Manager"
-				value="16" />
+				value="6" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -11944,16 +11944,16 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<!-- USED TO DERIVE SKILLS -->
 			<Trait
 				id="HorseArcherFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Manager"
-				value="19" />
+				value="9" />
 			<Trait
 				id="Politician"
-				value="20" />
+				value="10" />
 
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
@@ -12014,7 +12014,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<!-- USED TO DERIVE SKILLS -->
 			<Trait
 				id="KnightFightingSkills"
-				value="15" />
+				value="5" />
 			<Trait
 				id="CavalryFightingSkills"
 				value="0" />
@@ -12023,13 +12023,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="0" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
-				value="15" />
+				value="5" />
 
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
@@ -12146,7 +12146,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Honor"
 				value="1" />
@@ -12185,10 +12185,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="HorseArcherFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -12308,7 +12308,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			FEMALE-->
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -12356,7 +12356,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="4" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="8" />
@@ -12465,13 +12465,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="6" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="10" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Honor"
 				value="1" />
@@ -12563,10 +12563,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="7" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="6" />
@@ -12616,7 +12616,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			FEMALE-->
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="6" />
@@ -12660,7 +12660,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="6" />
@@ -12782,7 +12782,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="4" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="10" />
@@ -12828,7 +12828,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="6" />
@@ -12988,10 +12988,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="HorseArcherFightingSkills"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="6" />
@@ -13094,10 +13094,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="HorseArcherFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Politician"
 				value="5" />
@@ -13215,13 +13215,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="CavalryFightingSkills"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -13422,10 +13422,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="HorseArcherFightingSkills"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Commander"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Politician"
 				value="6" />
@@ -13607,13 +13607,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="7" />
 			<Trait
 				id="Commander"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Politician"
 				value="10" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Mercy"
 				value="-1" />
@@ -13721,7 +13721,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -13801,10 +13801,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="6" />
@@ -14014,7 +14014,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -14110,13 +14110,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Commander"
 				value="10" />
 			<Trait
 				id="Politician"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Manager"
 				value="8" />
@@ -14239,7 +14239,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="6" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -14271,7 +14271,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_1"
 		name="{=jEIsVazl}Théoden"
-		age="51"
+		age="45"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
@@ -14286,10 +14286,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<skills></skills>
 		<Traits>
 			<!-- USED TO DERIVE SKILLS -->
-			<Trait id="CavalryFightingSkills" value="18" />
-			<Trait id="Commander" value="20" />
-			<Trait id="Manager" value="15" />
-			<Trait id="Politician" value="12" />
+			<Trait id="CavalryFightingSkills" value="8" />
+			<Trait id="Commander" value="10" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Politician" value="2" />
 
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait id="Valor" value="2" />
@@ -14365,10 +14365,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Mercy"
 				value="1" />
@@ -14401,8 +14401,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<skills></skills>
 		<Traits>
 			<!-- USED TO DERIVE SKILLS -->
-			<Trait id="CavalryFightingSkills" value="18" />
-			<Trait id="Commander" value="15" />
+			<Trait id="CavalryFightingSkills" value="8" />
+			<Trait id="Commander" value="5" />
 			<Trait id="Manager" value="8" />
 			<Trait id="Politician" value="10" />
 
@@ -14428,7 +14428,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_3_1"
 		name="{=vEsKYrFR}Éomer"
-		age="9"
+		age="21"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
@@ -14445,8 +14445,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<skills></skills>
 		<Traits>
 			<!-- USED TO DERIVE SKILLS -->
-			<Trait id="CavalryFightingSkills" value="18" />
-			<Trait id="Commander" value="15" />
+			<Trait id="CavalryFightingSkills" value="8" />
+			<Trait id="Commander" value="5" />
 			<Trait id="Manager" value="8" />
 			<Trait id="Politician" value="10" />
 
@@ -14472,7 +14472,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_3_2"
 		name="{=36Y88cTv}Éowyn"
-		age="5"
+		age="18"
 		voice="ironic"
 		is_female="true"
 		default_group="Cavalry"
@@ -14517,7 +14517,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_3_3"
 		name="{=36Y88cTv}Théodwyn"
-		age="36"
+		age="26"
 		voice="ironic"
 		is_female="true"
 		default_group="Cavalry"
@@ -14577,7 +14577,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="8" />
@@ -14649,7 +14649,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_6"
 		name="{=KsBoNHW5}Grimbold"
-		age="20"
+		age="30"
 		voice="curt"
 		default_group="Cavalry"
 		is_hero="true"
@@ -14666,9 +14666,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</face>
 		<Traits>
 			<Trait id="KnightFightingSkills" value="3" />
-			<Trait id="Commander" value="12" />
-			<Trait id="Manager" value="15" />
-			<Trait id="Politician" value="18" />
+			<Trait id="Commander" value="2" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="-2" />
 			<Trait id="Generosity" value="-1" />
 			<Trait id="Mercy" value="-1" />
@@ -14746,9 +14746,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</face>
 		<Traits>
 			<Trait id="KnightFightingSkills" value="3" />
-			<Trait id="Commander" value="12" />
-			<Trait id="Manager" value="15" />
-			<Trait id="Politician" value="18" />
+			<Trait id="Commander" value="2" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="-2" />
 			<Trait id="Generosity" value="-1" />
 			<Trait id="Mercy" value="-1" />
@@ -14786,8 +14786,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</face>
 		<Traits>
 			<!-- USED TO DERIVE SKILLS -->
-			<Trait id="CavalryFightingSkills" value="17" />
-			<Trait id="Commander" value="18" />
+			<Trait id="CavalryFightingSkills" value="7" />
+			<Trait id="Commander" value="8" />
 			<Trait id="Manager" value="10" />
 			<Trait id="Politician" value="9" />
 
@@ -14970,10 +14970,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<!-- NONCOMBATANT FEMALE -->
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Mercy"
 				value="1" />
@@ -15017,13 +15017,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="6" />
 			<Trait
 				id="Commander"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Politician"
 				value="8" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Mercy"
 				value="1" />
@@ -15078,7 +15078,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="10" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -15187,7 +15187,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="6" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="10" />
@@ -15232,7 +15232,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="5" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="10" />
@@ -15330,7 +15330,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="7" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="6" />
@@ -15373,8 +15373,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="18" />
-			<Trait id="Commander" value="15" />
+			<Trait id="CavalryFightingSkills" value="8" />
+			<Trait id="Commander" value="5" />
 			<Trait id="Manager" value="10" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="2" />
@@ -15424,7 +15424,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="10" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -15460,8 +15460,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<BodyProperties version="4" age="35.13" weight="0.5602" build="0.5718"  key="00057805400013C10F72496C008D58E89E91831000BB8633B74194048FD29F3600A986030A8C97F900000000000000000000000000000000000000002B5C7002"  />	</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="18" />
-			<Trait id="Commander" value="15" />
+			<Trait id="CavalryFightingSkills" value="8" />
+			<Trait id="Commander" value="5" />
 			<Trait id="Manager" value="10" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="2" />
@@ -15505,10 +15505,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<!-- NONCOMBATANT FEMALE -->
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Honor"
 				value="1" />
@@ -15657,10 +15657,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<!-- NONCOMBATANT FEMALE -->
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Calculating"
 				value="-1" />
@@ -15698,10 +15698,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="8" />
@@ -15764,7 +15764,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_21"
 		name="{=LwbqCwne}Cuthræd"
-		age="68"
+		age="48"
 		voice="earnest"
 		default_group="Cavalry"
 		is_hero="true"
@@ -15779,9 +15779,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="16" />
-			<Trait id="Commander" value="12" />
-			<Trait id="Manager" value="11" />
+			<Trait id="KnightFightingSkills" value="6" />
+			<Trait id="Commander" value="2" />
+			<Trait id="Manager" value="4" />
 			<Trait id="Politician" value="9" />
 			<Trait id="Valor" value="2" />
 			<Trait id="Generosity" value="1" />
@@ -15819,9 +15819,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="16" />
-			<Trait id="Commander" value="12" />
-			<Trait id="Manager" value="11" />
+			<Trait id="KnightFightingSkills" value="6" />
+			<Trait id="Commander" value="2" />
+			<Trait id="Manager" value="4" />
 			<Trait id="Politician" value="9" />
 			<Trait id="Valor" value="2" />
 			<Trait id="Generosity" value="1" />
@@ -15889,9 +15889,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="16" />
-			<Trait id="Commander" value="12" />
-			<Trait id="Manager" value="11" />
+			<Trait id="KnightFightingSkills" value="6" />
+			<Trait id="Commander" value="2" />
+			<Trait id="Manager" value="4" />
 			<Trait id="Politician" value="9" />
 			<Trait id="Valor" value="2" />
 			<Trait id="Generosity" value="1" />
@@ -15946,7 +15946,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_22"
 		name="{=a4E2pVDA}Wulf"
-		age="51"
+		age="41"
 		voice="softspoken"
 		default_group="Cavalry"
 		is_hero="true"
@@ -15961,8 +15961,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="18" />
-			<Trait id="Commander" value="15" />
+			<Trait id="CavalryFightingSkills" value="8" />
+			<Trait id="Commander" value="5" />
 			<Trait id="Manager" value="10" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="2" />
@@ -16031,7 +16031,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_23"
 		name="{=T2JS44bJ}Marhath"
-		age="73"
+		age="53"
 		voice="curt"
 		default_group="Cavalry"
 		is_hero="true"
@@ -16042,8 +16042,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<BodyProperties version="4" age="60.16" weight="0" build="0.6134"  key="00020800000013810070FB1FF911EFBBE0238BA15DDCF5450019011F890AB111008906030818E00800000000000000000000000000000000000000003F145002"  />	</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="17" />
-			<Trait id="Commander" value="14" />
+			<Trait id="KnightFightingSkills" value="7" />
+			<Trait id="Commander" value="4" />
 			<Trait id="Manager" value="9" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="2" />
@@ -16218,9 +16218,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="19" />
-			<Trait id="Commander" value="16" />
-			<Trait id="Manager" value="12" />
+			<Trait id="KnightFightingSkills" value="9" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Manager" value="2" />
 			<Trait id="Politician" value="10" />
 			<Trait id="Valor" value="2" />
 			<Trait id="Generosity" value="1" />
@@ -16266,7 +16266,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -16387,7 +16387,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_27"
 		name="{=8LuUksQg}Ælle"
-		age="56"
+		age="46"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
@@ -16400,8 +16400,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			/-->
 			<BodyProperties version="4" age="40.16" weight="0.4491" build="0.7222"  key="000A14080000168200800A1F0530F00E660F8960B08860020019011F8E0BA101008B76030805E60600000000000000000000000000000000000000003F049002"  />		</face>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="16" />
-			<Trait id="Commander" value="12" />
+			<Trait id="KnightFightingSkills" value="6" />
+			<Trait id="Commander" value="2" />
 			<Trait id="Manager" value="9" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="2" />
@@ -16474,8 +16474,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<BodyProperties version="4" age="28.16" weight="0.5741" build="0.4699"  key="000D6008000023C227806EF1F00B3007D0FC8B60D164EC006FF97B048B50F00400779603075AC59900000000000000000000000000000000000000003EFC5002"  />
 		</face>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="16" />
-			<Trait id="Commander" value="12" />
+			<Trait id="KnightFightingSkills" value="6" />
+			<Trait id="Commander" value="2" />
 			<Trait id="Manager" value="9" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="2" />
@@ -16545,8 +16545,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<BodyProperties version="4" age="17.16" weight="0.5741" build="0.4699"  key="000A60080000100510806F61F007FF07B8058C60D0646C0460194B168B50D104008796030854C59E00000000000000000000000000000000000000003EFC2002"  />
 		</face>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="16" />
-			<Trait id="Commander" value="12" />
+			<Trait id="KnightFightingSkills" value="6" />
+			<Trait id="Commander" value="2" />
 			<Trait id="Manager" value="9" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="2" />
@@ -16584,9 +16584,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<skills></skills>
 		<Traits>
 			<!-- USED TO DERIVE SKILLS -->
-			<Trait id="KnightFightingSkills" value="18" />
-			<Trait id="Commander" value="15" />
-			<Trait id="Manager" value="12" />
+			<Trait id="KnightFightingSkills" value="8" />
+			<Trait id="Commander" value="5" />
+			<Trait id="Manager" value="2" />
 			<Trait id="Politician" value="8" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait id="Valor" value="2" />
@@ -16623,9 +16623,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<skills></skills>
 		<Traits>
 			<!-- USED TO DERIVE SKILLS -->
-			<Trait id="KnightFightingSkills" value="18" />
-			<Trait id="Commander" value="15" />
-			<Trait id="Manager" value="12" />
+			<Trait id="KnightFightingSkills" value="8" />
+			<Trait id="Commander" value="5" />
+			<Trait id="Manager" value="2" />
 			<Trait id="Politician" value="8" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait id="Valor" value="2" />
@@ -16732,7 +16732,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<NPCCharacter
 		id="lord_4_29"
 		name="{=8LuUksQg}Eadfrith"
-		age="50"
+		age="40"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
@@ -16743,8 +16743,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<BodyProperties version="4" age="45.16" weight="0" build="0.5926"  key="00056005400012C3308166EF1A6B90598049BB608F98FF004006000F3C072660009906030919FD8C00000000000000000000000000000000000000003F2C4002"  />
 		</face>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="16" />
-			<Trait id="Commander" value="12" />
+			<Trait id="KnightFightingSkills" value="6" />
+			<Trait id="Commander" value="2" />
 			<Trait id="Manager" value="9" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="2" />
@@ -16814,8 +16814,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<BodyProperties version="4" age="10.16" weight="0" build="0.5926"  key="0005240140001342308166E1190590568049BB608F98FF004006000F7CA72640009906030919F31A00000000000000000000000000000000000000003F2C4002"  />
 		</face>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="16" />
-			<Trait id="Commander" value="12" />
+			<Trait id="KnightFightingSkills" value="6" />
+			<Trait id="Commander" value="2" />
 			<Trait id="Manager" value="9" />
 			<Trait id="Politician" value="8" />
 			<Trait id="Valor" value="2" />
@@ -16850,9 +16850,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="40.16" weight="0.4306" build="0.4699"  key="0005CC0D800013436E8F6EF11905A009717CC2604DB77E03C01904008E50E60400776603075AC59900000000000000000000000000000000000000003EFC1002"  />	</face>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="19" />
-			<Trait id="Commander" value="16" />
-			<Trait id="Manager" value="12" />
+			<Trait id="CavalryFightingSkills" value="9" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Manager" value="2" />
 			<Trait id="Politician" value="10" />
 			<Trait id="Valor" value="2" />
 			<Trait id="Generosity" value="1" />
@@ -16889,7 +16889,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="6" />
@@ -16931,9 +16931,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="27.16" weight="0.3704" build="0.5926"  key="00054003400013836E816EF119089109863FC260BD959095C01905008E57B60000896603081AC50C00000000000000000000000000000000000000003F141002"  />	</face>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="19" />
-			<Trait id="Commander" value="16" />
-			<Trait id="Manager" value="12" />
+			<Trait id="CavalryFightingSkills" value="9" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Manager" value="2" />
 			<Trait id="Politician" value="10" />
 			<Trait id="Valor" value="2" />
 			<Trait id="Generosity" value="1" />
@@ -16968,9 +16968,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<BodyProperties version="4" age="22.16" weight="0.3704" build="0.5926"  key="000AC40C400010026E8116E1190BE10981FFBA60BD97563353567D083E57B60000896603081AD0F900000000000000000000000000000000000000003F141002"  />
 		</face>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="19" />
-			<Trait id="Commander" value="16" />
-			<Trait id="Manager" value="12" />
+			<Trait id="CavalryFightingSkills" value="9" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Manager" value="2" />
 			<Trait id="Politician" value="10" />
 			<Trait id="Valor" value="2" />
 			<Trait id="Generosity" value="1" />
@@ -17007,7 +17007,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
 				value="6" />
@@ -17060,16 +17060,16 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<!-- USED TO DERIVE SKILLS -->
 			<Trait
 				id="CavalryFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Manager"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Politician"
-				value="19" />
+				value="9" />
 
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
@@ -17129,10 +17129,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<!-- USED TO DERIVE SKILLS -->
 			<Trait
 				id="HorseArcherFightingSkills"
-				value="19" />
+				value="9" />
 			<Trait
 				id="Commander"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -17235,10 +17235,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="10" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
-				value="16" />
+				value="6" />
 			<!-- Ergeon fen Derngil, submits to Caradog because he recognizes his capacity to lead,
 			cautious -->
 			<Trait
@@ -17286,7 +17286,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<!-- NONCOMBATANT FEMALE -->
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="10" />
@@ -17442,7 +17442,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -17533,7 +17533,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Manager"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Valor"
 				value="-1" />
@@ -17721,10 +17721,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="7" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="4" />
@@ -17813,10 +17813,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<!-- NONCOMBATANT FEMALE -->
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Honor"
 				value="-1" />
@@ -17987,7 +17987,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="10" />
@@ -18163,7 +18163,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="6" />
@@ -18259,10 +18259,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="5" />
 			<Trait
 				id="Commander"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
 				value="8" />
@@ -18313,7 +18313,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="2" />
@@ -18391,7 +18391,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="5" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -18485,13 +18485,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="7" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Honor"
 				value="1" />
@@ -18577,7 +18577,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="9" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -18631,13 +18631,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="7" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Calculating"
 				value="1" />
@@ -18675,7 +18675,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="6" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="6" />
@@ -18803,7 +18803,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="6" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="6" />
@@ -18847,10 +18847,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="8" />
@@ -18898,7 +18898,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="6" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="4" />
@@ -18992,13 +18992,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<!-- USED TO DERIVE SKILLS -->
 			<Trait
 				id="CavalryFightingSkills"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Commander"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="10" />
@@ -19064,7 +19064,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Mercy"
 				value="1" />
@@ -19104,13 +19104,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="7" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="10" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<!-- Bagai is mesui's consort, moderating factor -->
 			<Trait
 				id="Honor"
@@ -19154,10 +19154,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="HorseArcherFightingSkills"
-				value="19" />
+				value="9" />
 			<Trait
 				id="Commander"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -19222,16 +19222,16 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="HorseArcherFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
-				value="15" />
+				value="5" />
 
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
@@ -19385,7 +19385,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="7" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -19439,7 +19439,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="7" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="10" />
@@ -19585,7 +19585,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<!-- NONCOMBATANT FEMALE -->
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -19671,13 +19671,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="4" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="6" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Calculating"
 				value="1" />
@@ -19772,10 +19772,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="5" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -19824,7 +19824,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="6" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="6" />
@@ -19954,13 +19954,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="CavalryFightingSkills"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
-				value="11" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="9" />
@@ -20108,13 +20108,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="CavalryFightingSkills"
-				value="19" />
+				value="9" />
 			<Trait
 				id="Commander"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Politician"
 				value="10" />
@@ -20248,13 +20248,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Commander"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -20397,16 +20397,16 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="CavalryFightingSkills"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Politician"
-				value="11" />
+				value="4" />
 			<Trait
 				id="Valor"
 				value="2" />
@@ -20466,7 +20466,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="6" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Honor"
 				value="1" />
@@ -20505,7 +20505,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="6" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Valor"
 				value="-1" />
@@ -20541,13 +20541,13 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Commander"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
 				value="10" />
@@ -20658,10 +20658,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="4" />
@@ -20989,16 +20989,16 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="CavalryFightingSkills"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Commander"
-				value="14" />
+				value="4" />
 			<Trait
 				id="Manager"
-				value="13" />
+				value="3" />
 			<Trait
 				id="Politician"
-				value="11" />
+				value="4" />
 			<Trait
 				id="Valor"
 				value="2" />
@@ -21097,7 +21097,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="6" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="2" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -21151,7 +21151,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="8" />
 			<Trait
 				id="Manager"
-				value="14" />
+				value="4" />
 			<!-- Can lead a caravan if necessary but better suited to administer -->
 			<Trait
 				id="Honor"
@@ -21217,7 +21217,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="10" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="2" />
 			<!-- kind but antisocial -->
 			<Trait
 				id="Valor"
@@ -21267,10 +21267,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -21321,10 +21321,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -21376,10 +21376,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -21430,10 +21430,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -21484,10 +21484,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -21539,10 +21539,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -21649,10 +21649,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -21704,10 +21704,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -21758,10 +21758,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -21812,10 +21812,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -21921,10 +21921,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -21976,10 +21976,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -22030,10 +22030,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -22085,10 +22085,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -22140,10 +22140,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -22249,10 +22249,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -22304,10 +22304,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -22358,10 +22358,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -22413,10 +22413,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -22522,10 +22522,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -22577,10 +22577,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -22631,10 +22631,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -22685,10 +22685,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -22739,10 +22739,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -22848,10 +22848,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -22903,10 +22903,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -22958,10 +22958,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -23012,10 +23012,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -23121,10 +23121,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -23234,10 +23234,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -23286,10 +23286,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -23341,10 +23341,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -23396,10 +23396,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -23451,10 +23451,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -23562,10 +23562,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -23617,10 +23617,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -23665,16 +23665,16 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<!-- USED TO DERIVE SKILLS -->
 			<Trait
 				id="CavalryFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Manager"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Politician"
-				value="19" />
+				value="9" />
 
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
@@ -23729,10 +23729,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<!-- USED TO DERIVE SKILLS -->
 			<Trait
 				id="ArcherFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -23804,16 +23804,16 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<!-- USED TO DERIVE SKILLS -->
 			<Trait
 				id="HorseArcherFightingSkills"
-				value="20" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Manager"
-				value="19" />
+				value="9" />
 			<Trait
 				id="Politician"
-				value="20" />
+				value="10" />
 
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
@@ -23875,16 +23875,16 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
-				value="15" />
+				value="5" />
 			<Trait
 				id="Manager"
-				value="16" />
+				value="6" />
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait
 				id="Valor"
@@ -24018,7 +24018,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="15" />
 			<Trait
 				id="Commander"
-				value="18" />
+				value="8" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -24122,7 +24122,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="14" />
 			<Trait
 				id="Commander"
-				value="17" />
+				value="7" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -24226,7 +24226,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="14" />
 			<Trait
 				id="Commander"
-				value="16" />
+				value="6" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -24330,7 +24330,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				value="17" />
 			<Trait
 				id="Commander"
-				value="16" />
+				value="5" />
 			<Trait
 				id="Politician"
 				value="8" />
@@ -24359,7 +24359,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 
 	<NPCCharacter
 		id="lord_I4_11"
-		name="{=isendgardchildname}Lurtz Child"
+		name="{=isendgardchildname41}Lurtz Child"
 		age="10"
 		voice="earnest"
 		is_hero="true"
@@ -24412,6 +24412,660 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
+
+		<!-- White Hand Clan -->
+		<NPCCharacter
+			id="lord_I1_2"
+			name="{=isengardclanonename2}Zorlag"
+			age="38"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="34"
+					weight="0.6821"
+					build="0.9512"
+					key="0000F00E40CC3002E28112F2FBFE112F020187EE88FE6F001110F20E8660FF5A008EA70408FFE02E000000000000000000000000000000000000000044050143" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="6" />
+				<Trait id="Commander" value="9" />
+				<Trait id="Politician" value="5" />
+				<Trait id="Manager" value="7" />
+				<Trait id="Valor" value="1" />
+				<Trait id="Generosity" value="-1" />
+				<Trait id="Mercy" value="-2" />
+				<Trait id="Honor" value="0" />
+				<Trait id="Calculating" value="2" />
+				<Trait id="Egalitarian" value="-1" />
+				<Trait id="Oligarchic" value="2" />
+				<Trait id="Authoritarian" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="isengard_captain_template_a" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+	
+		<NPCCharacter
+			id="lord_I1_3"
+			name="{=isengardclanonename3}Vrothgar"
+			age="40"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="36"
+					weight="0.6732"
+					build="0.9623"
+					key="0000F00E40CC3002C48114F4FDFE114F040189EE8AFE8F001310F40E8880FF7A008EA90608FFE04E000000000000000000000000000000000000000046070145" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="5" />
+				<Trait id="Commander" value="8" />
+				<Trait id="Politician" value="7" />
+				<Trait id="Manager" value="6" />
+				<Trait id="Valor" value="1" />
+				<Trait id="Generosity" value="0" />
+				<Trait id="Mercy" value="-2" />
+				<Trait id="Honor" value="0" />
+				<Trait id="Calculating" value="2" />
+				<Trait id="Egalitarian" value="0" />
+				<Trait id="Oligarchic" value="1" />
+				<Trait id="Authoritarian" value="2" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="isengard_captain_template_a" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter
+			id="lord_I1_31"
+			name="{=isengardchildname31}Vrothgar Child"
+			age="10"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="17"
+					weight="0.23"
+					build="0.73"
+					key="00020006C00016029D799264AD0106D844B0860033ECF9009515341981F3BF97009B690309BC7F4A324300013302235800000000000019AA0000000050245005" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="2" />
+				<Trait id="Commander" value="3" />
+				<Trait id="Politician" value="4" />
+				<Trait id="Manager" value="4" />
+				<Trait id="Valor" value="1" />
+				<Trait id="Generosity" value="0" />
+				<Trait id="Mercy" value="-1" />
+				<Trait id="Honor" value="1" />
+				<Trait id="Calculating" value="1" />
+				<Trait id="Egalitarian" value="0" />
+				<Trait id="Oligarchic" value="1" />
+				<Trait id="Authoritarian" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="khu_bat_template_medium" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+
+		<!-- Red Echelon Clan -->
+		<NPCCharacter
+			id="lord_I2_2"
+			name="{=isengardclanname22}Krushnak"
+			age="42"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="37"
+					weight="0.6954"
+					build="0.9731"
+					key="0000F00E40CC3002D38113F3FCFE113F030188EE89FE7F001210F30E8770FF6A008EA80508FFE03E000000000000000000000000000000000000000045060144" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="8" />
+				<Trait id="Commander" value="7" />
+				<Trait id="Politician" value="6" />
+				<Trait id="Manager" value="5" />
+				<Trait id="Valor" value="2" />
+				<Trait id="Generosity" value="-2" />
+				<Trait id="Mercy" value="-1" />
+				<Trait id="Honor" value="-1" />
+				<Trait id="Calculating" value="1" />
+				<Trait id="Egalitarian" value="-1" />
+				<Trait id="Oligarchic" value="2" />
+				<Trait id="Authoritarian" value="2" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="isengard_captain_template_b" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+	
+		
+		<NPCCharacter
+			id="lord_I2_3"
+			name="{=isengardclanname23}Gurzod"
+			age="39"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="35"
+					weight="0.6897"
+					build="0.9753"
+					key="0000F00E40CC3002978117F700FE117F07018CEE8DFEB001611F70E8BB0FFAA008EAC0908FFE07E0000000000000000000000000000000000000000490A0148" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="7" />
+				<Trait id="Commander" value="6" />
+				<Trait id="Politician" value="5" />
+				<Trait id="Manager" value="8" />
+				<Trait id="Valor" value="2" />
+				<Trait id="Generosity" value="-1" />
+				<Trait id="Mercy" value="-2" />
+				<Trait id="Honor" value="-1" />
+				<Trait id="Calculatng" value="1" />
+				<Trait id="Egalitarian" value="-1" />
+				<Trait id="Oligarchic" value="2" />
+				<Trait id="Authoritarian" value="2" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="isengard_captain_template_b" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter
+			id="lord_I2_31"
+			name="{=isengardchildname231}Gurzod Child"
+			age="6"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="14"
+					weight="0.20"
+					build="0.69"
+					key="00020006C0001602A0799567B00109D847B0890036ECFC009815371984F3C29A009B6C0309EC7F4D324300013302235B00000000000019DD0000000053245008" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="1" />
+				<Trait id="Commander" value="2" />
+				<Trait id="Politician" value="3" />
+				<Trait id="Manager" value="3" />
+				<Trait id="Valor" value="0" />
+				<Trait id="Generosity" value="-1" />
+				<Trait id="Mercy" value="0" />
+				<Trait id="Honor" value="0" />
+				<Trait id="Calculating" value="0" />
+				<Trait id="Egalitarian" value="0" />
+				<Trait id="Oligarchic" value="1" />
+				<Trait id="Authoritarian" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="khu_bat_template_medium" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+
+		<!-- Black Echelon Clan -->
+		<NPCCharacter
+			id="lord_I3_2"
+			name="{=isengardclanlord332}Rukthar"
+			age="41"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="38"
+					weight="0.7041"
+					build="0.9842"
+					key="0000F00E40CC3002B58115F5FEFE115F05018AEE8BFE9F001410F50E8990FF8A008EAA0708FFE05E000000000000000000000000000000000000000047080146" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="7" />
+				<Trait id="Commander" value="6" />
+				<Trait id="Politician" value="5" />
+				<Trait id="Manager" value="8" />
+				<Trait id="Valor" value="2" />
+				<Trait id="Generosity" value="-1" />
+				<Trait id="Mercy" value="-2" />
+				<Trait id="Honor" value="-1" />
+				<Trait id="Calculating" value="1" />
+				<Trait id="Egalitarian" value="-1" />
+				<Trait id="Oligarchic" value="2" />
+				<Trait id="Authoritarian" value="2" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="isengard_captain_template_c" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter
+			id="lord_I3_21"
+			name="{=isengardchildname321}Rukthar Child"
+			age="7"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="15"
+					weight="0.21"
+					build="0.70"
+					key="00020006C00016029E799365AE0107D845B0870034ECFA009615351982F3C098009B6A0309CC7F4B324300013302235900000000000019BB0000000051245006" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="1" />
+				<Trait id="Commander" value="2" />
+				<Trait id="Politician" value="3" />
+				<Trait id="Manager" value="3" />
+				<Trait id="Valor" value="0" />
+				<Trait id="Generosity" value="-1" />
+				<Trait id="Mercy" value="0" />
+				<Trait id="Honor" value="0" />
+				<Trait id="Calculating" value="0" />
+				<Trait id="Egalitarian" value="0" />
+				<Trait id="Oligarchic" value="1" />
+				<Trait id="Authoritarian" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="khu_bat_template_medium" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+
+		<NPCCharacter
+			id="lord_I3_3"
+			name="{=isengardclanlord33}Bruzgash"
+			age="37"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="33"
+					weight="0.6619"
+					build="0.9417"
+					key="0000F00E40CC3002A68116F6FFFE116F06018BEE8CFEA001511F60E8AA0FF9A008EAB0808FFE06E000000000000000000000000000000000000000048090147" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="6" />
+				<Trait id="Commander" value="7" />
+				<Trait id="Politician" value="8" />
+				<Trait id="Manager" value="5" />
+				<Trait id="Valor" value="1" />
+				<Trait id="Generosity" value="0" />
+				<Trait id="Mercy" value="-1" />
+				<Trait id="Honor" value="0" />
+				<Trait id="Calculating" value="2" />
+				<Trait id="Egalitarian" value="0" />
+				<Trait id="Oligarchic" value="1" />
+				<Trait id="Authoritarian" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="isengard_captain_template_c" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter
+			id="lord_I3_31"
+			name="{=isengardchildname331}Bruzgash Child"
+			age="9"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="16"
+					weight="0.22"
+					build="0.71"
+					key="00020006C00016029F799466AF0108D846B0880035ECFB009715361983F3C199009B6B0309DC7F4C324300013302235A00000000000019CC0000000052245007" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="2" />
+				<Trait id="Commander" value="3" />
+				<Trait id="Politician" value="4" />
+				<Trait id="Manager" value="4" />
+				<Trait id="Valor" value="1" />
+				<Trait id="Generosity" value="0" />
+				<Trait id="Mercy" value="-1" />
+				<Trait id="Honor" value="1" />
+				<Trait id="Calculating" value="1" />
+				<Trait id="Egalitarian" value="0" />
+				<Trait id="Oligarchic" value="1" />
+				<Trait id="Authoritarian" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="khu_bat_template_medium" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+
+		<!-- Black Maw Clan -->
+		<NPCCharacter
+			id="lord_I4_2"
+			name="{=isengardclanlord42}Zargoth"
+			age="40"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="35"
+					weight="0.6897"
+					build="0.9753"
+					key="0000F00E40CC3002978117F700FE117F07018CEE8DFEB001611F70E8BB0FFAA008EAC0908FFE07E0000000000000000000000000000000000000000490A0148" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="8" />
+				<Trait id="Commander" value="6" />
+				<Trait id="Politician" value="5" />
+				<Trait id="Manager" value="7" />
+				<Trait id="Valor" value="2" />
+				<Trait id="Generosity" value="-1" />
+				<Trait id="Mercy" value="-2" />
+				<Trait id="Honor" value="-1" />
+				<Trait id="Calculating" value="1" />
+				<Trait id="Egalitarian" value="-1" />
+				<Trait id="Oligarchic" value="2" />
+				<Trait id="Authoritarian" value="2" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="isengard_captain_template_a" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter
+			id="lord_I4_21"
+			name="{=isengardchildname421}Zargoth Child"
+			age="6"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="14"
+					weight="0.20"
+					build="0.69"
+					key="00020006C0001602A0799567B00109D847B0890036ECFC009815371984F3C29A009B6C0309EC7F4D324300013302235B00000000000019DD0000000053245008" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="1" />
+				<Trait id="Commander" value="2" />
+				<Trait id="Politician" value="3" />
+				<Trait id="Manager" value="3" />
+				<Trait id="Valor" value="0" />
+				<Trait id="Generosity" value="-1" />
+				<Trait id="Mercy" value="0" />
+				<Trait id="Honor" value="0" />
+				<Trait id="Calculating" value="0" />
+				<Trait id="Egalitarian" value="0" />
+				<Trait id="Oligarchic" value="1" />
+				<Trait id="Authoritarian" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="khu_bat_template_medium" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+
+		<NPCCharacter
+			id="lord_I4_3"
+			name="{=isengardclanlord43}Drûgash"
+			age="36"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="32"
+					weight="0.6508"
+					build="0.9306"
+					key="0000F00E40CC3002888118F701FE118F08018DEE8EFEC001711F80E8CC0FFBA008EAD0A08FFE08E00000000000000000000000000000000000000004A0B0149" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="6" />
+				<Trait id="Commander" value="7" />
+				<Trait id="Politician" value="8" />
+				<Trait id="Manager" value="5" />
+				<Trait id="Valor" value="1" />
+				<Trait id="Generosity" value="0" />
+				<Trait id="Mercy" value="-1" />
+				<Trait id="Honor" value="0" />
+				<Trait id="Calculating" value="2" />
+				<Trait id="Egalitarian" value="0" />
+				<Trait id="Oligarchic" value="1" />
+				<Trait id="Authoritarian" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="isengard_captain_template_a" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter
+			id="lord_I4_31"
+			name="{=isengardchildname431}Drûgash Child"
+			age="5"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="13"
+					weight="0.19"
+					build="0.68"
+					key="00020006C0001602A1799668B1010AD848B08A0037ECFD009915381985F3C39B009B6D0309FC7F4E324300013302235C00000000000019EE0000000054245009" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="1" />
+				<Trait id="Commander" value="2" />
+				<Trait id="Politician" value="3" />
+				<Trait id="Manager" value="3" />
+				<Trait id="Valor" value="0" />
+				<Trait id="Generosity" value="-1" />
+				<Trait id="Mercy" value="0" />
+				<Trait id="Honor" value="0" />
+				<Trait id="Calculating" value="0" />
+				<Trait id="Egalitarian" value="0" />
+				<Trait id="Oligarchic" value="1" />
+				<Trait id="Authoritarian" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="khu_bat_template_medium" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+
+		<NPCCharacter
+			id="lord_I4_4"
+			name="{=isengardclanlord44}Thrakul"
+			age="43"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="39"
+					weight="0.6986"
+					build="0.9864"
+					key="0000F00E40CC3002798119F702FE119F09018EEE8FFED001811F90E8DD0FFCA008EAE0B08FFE09E00000000000000000000000000000000000000004B0C014A" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="7" />
+				<Trait id="Commander" value="6" />
+				<Trait id="Politician" value="5" />
+				<Trait id="Manager" value="8" />
+				<Trait id="Valor" value="2" />
+				<Trait id="Generosity" value="-1" />
+				<Trait id="Mercy" value="-2" />
+				<Trait id="Honor" value="-1" />
+				<Trait id="Calculating" value="1" />
+				<Trait id="Egalitarian" value="-1" />
+				<Trait id="Oligarchic" value="2" />
+				<Trait id="Authoritarian" value="2" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="isengard_captain_template_a" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter
+			id="lord_I4_41"
+			name="{=isengardchildname441}Thrakul Child"
+			age="4"
+			voice="earnest"
+			is_hero="true"
+			race="uruk_hai"
+			culture="Culture.isengard"
+			occupation="Lord"
+			default_group="Infantry"
+			face_mesh_cache="true">
+			<face>
+				<BodyProperties
+					version="4"
+					age="12"
+					weight="0.18"
+					build="0.67"
+					key="00020006C0001602A2799769B2010BD849B08B0038ECFE009A15391986F3C49C009B6E030A0C7F4F324300013302235D00000000000019FF000000005524500A" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="KnightFightingSkills" value="1" />
+				<Trait id="Commander" value="2" />
+				<Trait id="Politician" value="3" />
+				<Trait id="Manager" value="3" />
+				<Trait id="Valor" value="0" />
+				<Trait id="Generosity" value="-1" />
+				<Trait id="Mercy" value="0" />
+				<Trait id="Honor" value="0" />
+				<Trait id="Calculating" value="0" />
+				<Trait id="Egalitarian" value="0" />
+				<Trait id="Oligarchic" value="1" />
+				<Trait id="Authoritarian" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="khu_bat_template_medium" />
+				<EquipmentSet id="khu_noncom_template_default" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
 
 	<!--Gundabad-->
 	<NPCCharacter

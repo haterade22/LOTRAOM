@@ -102,7 +102,7 @@
 		<module_sound name="LOTR/Isengard/Voice/Uruk/Death.wav" sound_category="mission_voice" path="LOTR/Isengard/Voice/Uruk/Death.wav" />
 		<module_sound name="LOTR/Isengard/Voice/Uruk/Destroy it.wav" sound_category="mission_voice_shout" path="LOTR/Isengard/Voice/Uruk/Destroy it.wav" />
 		<module_sound name="LOTR/Isengard/Voice/Uruk/Draw your weapons.wav" sound_category="mission_voice_shout" path="LOTR/Isengard/Voice/Uruk/Draw your weapons.wav" />
-
+		
 		<module_sound name="LOTR/Isengard/Voice/Uruk/faster" sound_category="mission_voice_shout" path="LOTR/Isengard/Voice/Uruk/Faster.wav" />
 		<module_sound name="LOTR/Isengard/Voice/Uruk/get_in_line" sound_category="mission_voice_shout" path="LOTR/Isengard/Voice/Uruk/Get in line.wav" />
 		<module_sound name="LOTR/Isengard/Voice/Uruk/get_over_here" sound_category="mission_voice_shout" path="LOTR/Isengard/Voice/Uruk/Get over here.wav" />
@@ -521,6 +521,6 @@
 		<module_sound name="Native/Ambient/Fireworks 1.mp3" sound_category="mission_ambient_3d_medium" path="Native/Ambient/Fireworks 1.mp3" is_2d="true" />
 		<module_sound name="Native/Ambient/Fireworks 2.mp3" sound_category="mission_ambient_3d_medium" path="Native/Ambient/Fireworks 2.mp3" is_2d="true" />
 
-
+		
 	</module_sounds>
 </base>

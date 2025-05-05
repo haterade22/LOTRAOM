@@ -933,7 +933,7 @@
 		default_group="Infantry"
 		race="dwarf"
 		level="41"
-		name="{=erebor_royal_warden}[Erebor] Royal Placehholder"
+		name="{=erebor_royal_warden}[Erebor] Royal Champion"
 		occupation="Soldier"
 		culture="Culture.erebor">
 		<face>
@@ -1148,18 +1148,18 @@
 		default_group="Infantry"
 		race="dwarf"
 		level="46"
-		name="{=erebor_royal_warden}[Erebor] Tier 9 Test"
+		name="{=erebor_royal_warden}[Erebor] Royal Forgemaster "
 		occupation="Soldier"
 		culture="Culture.erebor">
 		<face>
 			<face_key_template value="BodyProperty.fighter_erebor"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="300"/>
+			<skill id="Athletics" value="325"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="300"/>
-			<skill id="TwoHanded" value="300"/>
-			<skill id="Polearm" value="300"/>
+			<skill id="OneHanded" value="325"/>
+			<skill id="TwoHanded" value="325"/>
+			<skill id="Polearm" value="325"/>
 			<skill id="Bow" value="100"/>
 			<skill id="Crossbow" value="100"/>
 			<skill id="Throwing" value="300"/>
@@ -1364,21 +1364,21 @@
 		default_group="Infantry"
 		race="dwarf"
 		level="51"
-		name="{=erebor_royal_warden}[Erebor] TIER 10 TEST"
+		name="{=erebor_royal_warden}[Erebor] Durin's Hammer"
 		occupation="Soldier"
 		culture="Culture.erebor">
 		<face>
 			<face_key_template value="BodyProperty.fighter_erebor"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="300"/>
+			<skill id="Athletics" value="350"/>
 			<skill id="Riding" value="0"/>
-			<skill id="OneHanded" value="300"/>
-			<skill id="TwoHanded" value="300"/>
-			<skill id="Polearm" value="300"/>
+			<skill id="OneHanded" value="350"/>
+			<skill id="TwoHanded" value="350"/>
+			<skill id="Polearm" value="350"/>
 			<skill id="Bow" value="100"/>
 			<skill id="Crossbow" value="100"/>
-			<skill id="Throwing" value="300"/>
+			<skill id="Throwing" value="350"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
