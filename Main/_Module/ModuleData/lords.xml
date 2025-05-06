@@ -2700,10 +2700,11 @@
 				value="2" />
 		</Traits>
 		<Equipments>
+			<EquipmentRoster />
 			<EquipmentSet
-				id="s_emp_king_template_bat_f" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="s_emp_king_template_civ_f"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -23649,7 +23650,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!--Mirkwood-->
 	<NPCCharacter
 		id="lord_M1_1"
-		name="{=w51wGx4b}Thranduil"
+		name="{=lord_M1_1}Thranduil"
 		age="30"
 		voice="ironic"
 		default_group="Cavalry"
@@ -23739,6 +23740,72 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<Trait
 				id="Politician"
 				value="8" />
+
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait
+				id="Valor"
+				value="2" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="2" />
+			<Trait
+				id="Calculating"
+				value="0" />
+			<Trait
+				id="Egalitarian"
+				value="0" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+			<Trait
+				id="Authoritarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="mirkwood_legolas_bat" />
+			<EquipmentSet
+				id="mirkwood_legolas_civ"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter
+		id="lord_M1_12"
+		name="{=lord_M1_12}PlaceHolder Child To Not Break Game"
+		age="6"
+		voice="earnest"
+		default_group="Ranged"
+		is_hero="true"
+		culture="Culture.mirkwood"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.037" build="0.3634"  key="00001C00000000031980F72F6853461660648330588B86016756B50C88A64A7500B516030B01EA0000000000000000000000000000000000000000003B6C4002"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS -->
+			<Trait
+				id="ArcherFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Manager"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="0" />
 
 			<!-- PERSONALITY/REPUTATION -->
 			<Trait

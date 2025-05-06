@@ -2071,7 +2071,13 @@
 		father="Hero.lord_M1_1"
 		faction="Faction.clan_mirkwood_1"
 		text="{=legolas_description}Legolas, the Prince of the Woodland Realm, is a peerless archer and an agile warrior whose keen senses and swift movements are legendary. As a son of Thranduil, Legolas embodies the resilience and skill of the Silvan Elves, defending his homeland with unmatched precision and resolve. Though young by elven standards, his courage and loyalty are unwavering, and his journey across Middle-earth brings him into the fellowship of the Free Peoples. Legolas’s presence inspires camaraderie and hope, his unerring aim a constant reminder of the might and grace of the Woodland Elves." />
-		
+
+
+	<Hero
+		id="lord_M1_12"
+		father="Hero.lord_M1_1"
+		faction="Faction.clan_mirkwood_1" />
+
 
 	<!-- Lothlórien -->
 
