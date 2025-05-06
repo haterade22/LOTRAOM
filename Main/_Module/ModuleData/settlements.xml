@@ -3052,7 +3052,7 @@
 			<Town id="town_comp_A1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.108" prosperity="4000" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="SWAN_Nibenay" scene_name_1="SWAN_Nibenay" scene_name_2="SWAN_Nibenay" scene_name_3="SWAN_Nibenay" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
 			<Location id="arena" scene_name="arena_aserai_a" />
 			<Location id="tavern" scene_name="aserai_tavern_interior" />
 			<Location id="lordshall" scene_name_1="aserai_castle_keep_a_l1_interior" scene_name_2="aserai_castle_keep_a_l2_interior" scene_name_3="aserai_castle_keep_a_l3_interior" />
@@ -6762,7 +6762,7 @@
 			<Town id="town_comp_SWAN_EREBOR1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.108" prosperity="4000" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="SWAN_Nibenay" scene_name_1="SWAN_Nibenay" scene_name_2="SWAN_Nibenay" scene_name_3="SWAN_Nibenay" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
 			<Location id="arena" scene_name="arena_aserai_a" />
 			<Location id="tavern" scene_name="aserai_tavern_interior" />
 			<Location id="lordshall" scene_name_1="aserai_castle_keep_a_l1_interior" scene_name_2="aserai_castle_keep_a_l2_interior" scene_name_3="aserai_castle_keep_a_l3_interior" />
@@ -6810,7 +6810,7 @@
 			<Town id="town_comp_SWAN_RIVENDELL1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.108" prosperity="4000" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="SWAN_Nibenay" scene_name_1="SWAN_Nibenay" scene_name_2="SWAN_Nibenay" scene_name_3="SWAN_Nibenay" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
 			<Location id="arena" scene_name="arena_aserai_a" />
 			<Location id="tavern" scene_name="aserai_tavern_interior" />
 			<Location id="lordshall" scene_name_1="aserai_castle_keep_a_l1_interior" scene_name_2="aserai_castle_keep_a_l2_interior" scene_name_3="aserai_castle_keep_a_l3_interior" />
@@ -6858,7 +6858,7 @@
 			<Town id="town_comp_SWAN_MIRKWOOD1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.108" prosperity="4000" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="SWAN_Nibenay" scene_name_1="SWAN_Nibenay" scene_name_2="SWAN_Nibenay" scene_name_3="SWAN_Nibenay" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
 			<Location id="arena" scene_name="arena_aserai_a" />
 			<Location id="tavern" scene_name="aserai_tavern_interior" />
 			<Location id="lordshall" scene_name_1="aserai_castle_keep_a_l1_interior" scene_name_2="aserai_castle_keep_a_l2_interior" scene_name_3="aserai_castle_keep_a_l3_interior" />
@@ -6906,7 +6906,7 @@
 			<Town id="town_comp_SWAN_LOTHLORIEN1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.108" prosperity="4000" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="SWAN_Nibenay" scene_name_1="SWAN_Nibenay" scene_name_2="SWAN_Nibenay" scene_name_3="SWAN_Nibenay" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
 			<Location id="arena" scene_name="arena_aserai_a" />
 			<Location id="tavern" scene_name="aserai_tavern_interior" />
 			<Location id="lordshall" scene_name_1="aserai_castle_keep_a_l1_interior" scene_name_2="aserai_castle_keep_a_l2_interior" scene_name_3="aserai_castle_keep_a_l3_interior" />
@@ -6954,7 +6954,7 @@
 			<Town id="town_comp_SWAN_UMBAR1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.108" prosperity="4000" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="SWAN_Nibenay" scene_name_1="SWAN_Nibenay" scene_name_2="SWAN_Nibenay" scene_name_3="SWAN_Nibenay" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
 			<Location id="arena" scene_name="arena_aserai_a" />
 			<Location id="tavern" scene_name="aserai_tavern_interior" />
 			<Location id="lordshall" scene_name_1="aserai_castle_keep_a_l1_interior" scene_name_2="aserai_castle_keep_a_l2_interior" scene_name_3="aserai_castle_keep_a_l3_interior" />
@@ -7050,7 +7050,7 @@
 			<Town id="town_comp_SWAN_GUNDABAD1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.108" prosperity="4000" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="SWAN_Nibenay" scene_name_1="SWAN_Nibenay" scene_name_2="SWAN_Nibenay" scene_name_3="SWAN_Nibenay" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
 			<Location id="arena" scene_name="arena_aserai_a" />
 			<Location id="tavern" scene_name="aserai_tavern_interior" />
 			<Location id="lordshall" scene_name_1="aserai_castle_keep_a_l1_interior" scene_name_2="aserai_castle_keep_a_l2_interior" scene_name_3="aserai_castle_keep_a_l3_interior" />
@@ -7099,7 +7099,7 @@
 			<Town id="town_comp_SWAN_DOL_GOLDUR1" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.108" prosperity="4000" />
 		</Components>
 		<Locations complex_template="LocationComplexTemplate.town_complex">
-			<Location id="center" scene_name="SWAN_Nibenay" scene_name_1="SWAN_Nibenay" scene_name_2="SWAN_Nibenay" scene_name_3="SWAN_Nibenay" />
+			<Location id="center" scene_name="empire_castle_004" scene_name_1="empire_castle_004" scene_name_2="empire_castle_004" scene_name_3="empire_castle_004" />
 			<Location id="arena" scene_name="arena_aserai_a" />
 			<Location id="tavern" scene_name="aserai_tavern_interior" />
 			<Location id="lordshall" scene_name_1="aserai_castle_keep_a_l1_interior" scene_name_2="aserai_castle_keep_a_l2_interior" scene_name_3="aserai_castle_keep_a_l3_interior" />

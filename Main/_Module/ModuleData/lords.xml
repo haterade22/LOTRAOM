@@ -7429,9 +7429,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="nazgul_template" />
+				id="khamul_template" />
 			<EquipmentSet
-				id="nazgul_template_civ"
+				id="khamul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -23707,14 +23707,14 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<EquipmentSet
 				id="mirkwood_thranduil_bat" />
 			<EquipmentSet
-				id="bat_king_template_civ_m"
+				id="mirkwood_thranduil_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_M1_11"
 		name="{=legolasname}Legolas"
-		age="16"
+		age="21"
 		voice="earnest"
 		default_group="Ranged"
 		is_hero="true"
@@ -23722,7 +23722,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
-			<BodyProperties version="4" age="22" weight="0.037" build="0.3634"  key="00001C00000000031980F72F6853461660648330588B86016756B50C88A64A7500B516030B01EA0000000000000000000000000000000000000000003B6C4002"  />
+			<BodyProperties version="4" age="30" weight="0.037" build="0.3634"  key="00001C00000000031980F72F6853461660648330588B86016756B50C88A64A7500B516030B01EA0000000000000000000000000000000000000000003B6C4002"  />
 		</face>
 		<skills></skills>
 		<Traits>
@@ -23769,9 +23769,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="bat_bat_template_medium" />
+				id="mirkwood_legolas_bat" />
 			<EquipmentSet
-				id="bat_civ_template_default"
+				id="mirkwood_legolas_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>

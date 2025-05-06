@@ -166,7 +166,7 @@
 		short_name="{=GbnlN6na}Mordor"
 		title="{=frBQ9mbP}Dominion of Mordor"
 		ruler_title="{=OoHhCa11}Mouth of Sauron"
-	text="{=Xtyb9Dyr}Mordor is a dark, desolate realm forged in shadow and ruled by the Dark Lord Sauron. Nestled behind the towering black mountains, this kingdom brims with orc armies, ruthless trolls, and fiery forges crafting weapons of war. From his fortress in Barad-dûr, Sauron commands an unstoppable force, poised to spread his dominion across Middle-earth. Mordor’s skies are clouded with ash, and its lands are barren, a fitting domain for Sauron’s twisted ambition and dark magic.">
+		text="{=Xtyb9Dyr}Mordor is a dark, desolate realm forged in shadow and ruled by the Dark Lord Sauron. Nestled behind the towering black mountains, this kingdom brims with orc armies, ruthless trolls, and fiery forges crafting weapons of war. From his fortress in Barad-dûr, Sauron commands an unstoppable force, poised to spread his dominion across Middle-earth. Mordor’s skies are clouded with ash, and its lands are barren, a fitting domain for Sauron’s twisted ambition and dark magic.">
 	<relationships>
 			<relationship
 				kingdom="Kingdom.khuzait"
