@@ -1572,6 +1572,20 @@
 		</stacks>
 	</MBPartyTemplate>
 
+	<MBPartyTemplate
+		id="militia_mordor_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.mordor_uruk_infantry" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.mordor_uruk_archer" />
+		</stacks>
+	</MBPartyTemplate>
+
 	
 	<!--Rivendell-->
 

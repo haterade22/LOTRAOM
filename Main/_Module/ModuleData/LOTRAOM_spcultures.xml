@@ -1006,7 +1006,7 @@
 		default_party_template="PartyTemplate.kingdom_hero_party_mordor_template"
 		caravan_party_template="PartyTemplate.caravan_template_empire"
 		elite_caravan_party_template="PartyTemplate.elite_caravan_template_empire"
-		militia_party_template="PartyTemplate.militia_empire_template"
+		militia_party_template="PartyTemplate.militia_mordor_template"
 		rebels_party_template="PartyTemplate.rebels_empire_template"
 		vassal_reward_party_template="PartyTemplate.vassal_reward_troops_mordor"
 		prosperity_bonus="1"
