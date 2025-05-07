@@ -916,7 +916,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.315.2002.171.585.585.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16058.2002.171.700.700.764.764.0.0.0" />
 
 	<Faction
 		id="clan_empire_south_12"
@@ -926,7 +926,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.305.2002.171.585.585.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16059.2002.171.700.700.764.764.0.0.0" />
 
 
 	<Faction
@@ -937,7 +937,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.154.2002.171.585.585.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.307.2002.171.587.587.764.764.0.0.0" />
 
 	<Faction
 		id="clan_empire_south_14"
@@ -947,7 +947,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16032.2002.171.700.700.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16062.2002.171.667.667.764.764.0.0.0" />
 
 	<Faction
 		id="clan_empire_south_15"
@@ -957,7 +957,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16032.2002.171.700.700.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16061.2002.171.667.667.764.764.0.0.0" />
 
 	<Faction
 		id="clan_empire_south_16"
@@ -967,7 +967,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16032.2002.171.700.700.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16060.2002.171.667.667.764.764.0.0.0" />
 
 	<Faction
 		id="clan_empire_south_17"
@@ -977,7 +977,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16032.2002.171.700.700.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16057.2002.171.667.667.764.764.0.0.0" />
 
 	<Faction
 		id="clan_empire_south_18"
@@ -987,7 +987,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16032.2002.171.700.700.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16056.2002.171.667.667.764.764.0.0.0" />
 
 	<!-- Harad -->
 	<Faction
