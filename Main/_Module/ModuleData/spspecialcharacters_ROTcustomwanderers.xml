@@ -1,0 +1,2350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="ROTwanderer1" name="Jaime Lannister" age="38" voice="earnest" culture="Culture.vlandia"  default_group="Cavalry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="37.56" weight="0.6878" build="0.678" key="000558014000000887A633F915093061877A3F5308ED98AAAB761FFF92F8763500973603090BBDBF00000000000000000000000000000000000000003F348002"/>
+      <BodyPropertiesMax version="4" age="37.56" weight="0.6878" build="0.678" key="000558014000000887A633F915093061877A3F5308ED98AAAB761FFF92F8763500973603090BBDBF00000000000000000000000000000000000000003F348002"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="290"/>
+      <skill id="TwoHanded" value="280"/>
+      <skill id="Polearm" value="270"/>
+      <skill id="Bow" value="150"/>
+      <skill id="Crossbow" value="150"/>
+      <skill id="Throwing" value="150"/>
+      <skill id="Riding" value="250"/>
+      <skill id="Athletics" value="200"/>
+      <skill id="Crafting" value="40"/>
+      <skill id="Scouting" value="140"/>
+      <skill id="Tactics" value="250"/>
+      <skill id="Charm" value="200"/>
+      <skill id="Leadership" value="250"/>
+      <skill id="Trade" value="100"/>
+      <skill id="Steward" value="250"/>
+      <skill id="Medicine" value="100"/>
+    </skills>
+    <Traits>
+      <Trait id="Honor" value="2"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Mercy" value="0"/>
+      <Trait id="Valor" value="1"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentRoster>
+			  
+			  <equipment slot="Item0"
+						 id="Item.lion_sword" />
+			  <equipment slot="Body"
+						 id="Item.lannister_noble_armor" />
+			  <equipment slot="Leg"
+						 id="Item.lannister_boots" />
+			  <equipment slot="Cape"
+						 id="Item.lannister_pauldrons_cape" />
+			  <equipment slot="Gloves"
+						 id="Item.lannister_plate_gloves" />
+			  
+			  
+
+		  </EquipmentRoster>
+		  <EquipmentRoster civilian="true">
+			  <equipment slot="Item0"
+						 id="Item.vlandia_sword_3_t4" />
+			  <equipment slot="Body"
+						 id="Item.jaime_clothes" />
+			  <equipment slot="Leg"
+						 id="Item.leather_cavalier_boots" />
+		  </EquipmentRoster>
+	  </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="ROTwanderer2" name="Lord Varys" age="36" voice="softspoken" culture="Culture.crownlands"  default_group="Ranged" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="35.97" weight="0.9301" build="0.4" key="0002B800000030008C7104E2FB9B608E7082866250C696449F1648338DC0A0240395E6350986C9E900000000000000000000000000000000000000007D2C5002"/>
+      <BodyPropertiesMax version="4" age="35.97" weight="0.9301" build="0.4" key="0002B800000030008C7104E2FB9B608E7082866250C696449F1648338DC0A0240395E6350986C9E900000000000000000000000000000000000000007D2C5002"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="30"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="50"/>
+      <skill id="Crossbow" value="50"/>
+      <skill id="Throwing" value="20"/>
+      <skill id="Riding" value="90"/>
+      <skill id="Athletics" value="30"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Scouting" value="20"/>
+      <skill id="Tactics" value="20"/>
+      <skill id="Charm" value="200"/>
+      <skill id="Leadership" value="150"/>
+      <skill id="Trade" value="100"/>
+      <skill id="Steward" value="250"/>
+      <skill id="Medicine" value="40"/>
+      <skill id="Engineering" value="60"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="2"/>
+      <Trait id="Generosity" value="-1"/>
+      <Trait id="Honor" value="0"/>
+      <Trait id="Mercy" value="1"/>
+      <Trait id="Valor" value="-1"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentRoster>
+
+			  
+			  <equipment slot="Body"
+						 id="Item.varys_clothes" />
+			  <equipment slot="Leg"
+						 id="Item.varys_shoes" />
+
+
+		  </EquipmentRoster>
+		  <EquipmentRoster civilian="true">
+			  <equipment slot="Body"
+						 id="Item.varys_clothes" />
+			  <equipment slot="Leg"
+						 id="Item.varys_shoes" />
+		  </EquipmentRoster>
+	  </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="ROTwanderer3" name="Sandor Clegane" age="35" voice="curt" is_female="false" culture="Culture.vlandia"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="35" weight="0.85" build="0.85" key="0005D80ADDFC13823E813B5A820B0B8A86AD66A023EBFF09EEB640EF830120A802BA46240BA86F002BCB000F4D0C00780000000000001C7700000000658440C2"/>
+      <BodyPropertiesMax version="4" age="35" weight="0.85" build="0.85" key="0005D80ADDFC13823E813B5A820B0B8A86AD66A023EBFF09EEB640EF830120A802BA46240BA86F002BCB000F4D0C00780000000000001C7700000000658440C2"/>
+    </face>
+    <skills>
+      <skill id="Trade" value="30"/>
+      <skill id="Leadership" value="100"/>
+      <skill id="Charm" value="30"/>
+      <skill id="OneHanded" value="270"/>
+      <skill id="TwoHanded" value="280"/>
+      <skill id="Polearm" value="260"/>
+      <skill id="Bow" value="70"/>
+      <skill id="Crossbow" value="70"/>
+      <skill id="Throwing" value="70"/>
+      <skill id="Riding" value="120"/>
+      <skill id="Athletics" value="220"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Scouting" value="40"/>
+      <skill id="Tactics" value="20"/>
+      <skill id="Medicine" value="20"/>
+      <skill id="Steward" value="40"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="-1"/>
+      <Trait id="Generosity" value="-1"/>
+      <Trait id="Honor" value="-1"/>
+      <Trait id="Mercy" value="-1"/>
+      <Trait id="Valor" value="1"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentRoster>
+			  <equipment slot="Item0"
+						 id="Item.vlandia_sword_3_t4" />
+
+			  <equipment slot="Body"
+						 id="Item.hound_armor" />
+			  <equipment slot="Leg"
+						 id="Item.hound_boots" />
+			  <equipment slot="Cape"
+						 id="Item.plate_armor_reinforcements" />
+
+
+		  </EquipmentRoster>
+		  <EquipmentRoster civilian="true">
+			  <equipment slot="Item0"
+						 id="Item.vlandia_sword_3_t4" />
+			  <equipment slot="Body"
+						 id="Item.cloth_tunic" />
+			  <equipment slot="Leg"
+						 id="Item.leather_cavalier_boots" />
+		  </EquipmentRoster>
+	  </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="ROTwanderer4" name="Bronn of the Blackwater" age="37" voice="curt" is_female="false" culture="Culture.river"  default_group="Cavalry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="37" weight="0.5" build="0.5519" key="0002840A4000208405801C1E26D28015C1F278ED15BE347110EA11868E267B680395103509E5AB040000000000000000000000000000000000000000752800C5"/>
+      <BodyPropertiesMax version="4" age="37" weight="0.5" build="0.5519" key="0002840A4000208405801C1E26D28015C1F278ED15BE347110EA11868E267B680395103509E5AB040000000000000000000000000000000000000000752800C5"/>
+    </face>
+    <skills>
+      <skill id="Bow" value="120"/>
+      <skill id="OneHanded" value="230"/>
+      <skill id="TwoHanded" value="180"/>
+      <skill id="Polearm" value="200"/>
+      <skill id="Crossbow" value="140"/>
+      <skill id="Throwing" value="60"/>
+      <skill id="Riding" value="130"/>
+      <skill id="Athletics" value="210"/>
+      <skill id="Scouting" value="180"/>
+      <skill id="Tactics" value="50"/>
+      <skill id="Roguery" value="120"/>
+      <skill id="Charm" value="80"/>
+      <skill id="Leadership" value="50"/>
+      <skill id="Trade" value="30"/>
+      <skill id="Steward" value="50"/>
+      <skill id="Medicine" value="30"/>
+    </skills>
+    <Traits>
+      <Trait id="Mercy" value="-1"/>
+      <Trait id="Honor" value="-1"/>
+      <Trait id="Generosity" value="-1"/>
+      <Trait id="Valor" value="1"/>
+      <Trait id="Calculating" value="1"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentRoster>
+			  <equipment slot="Item0"
+						 id="Item.vlandia_sword_3_t4" />
+
+			  <equipment slot="Body"
+						 id="Item.bronn_armor2" />
+			  <equipment slot="Leg"
+						 id="Item.leather_cavalier_boots" />
+
+
+		  </EquipmentRoster>
+		  <EquipmentRoster civilian="true">
+			  <equipment slot="Item0"
+						 id="Item.vlandia_sword_3_t4" />
+			  <equipment slot="Body"
+						 id="Item.bronn_armor2" />
+			  <equipment slot="Leg"
+						 id="Item.leather_cavalier_boots" />
+		  </EquipmentRoster>
+	  </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="ROTwanderer5" name="Samwell Tarly" age="24" voice="softspoken" culture="Culture.reach"  default_group="Ranged" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="23.99" weight="0.96" build="0.85" key="0000E00C401413080F8A53E5230F007B909BEF35149AFFE40E1F0A208B830735008CF60308F9F6FF7FFF488E7F0FFFEF0000000000001F770000000065141082"/>
+      <BodyPropertiesMax version="4" age="23.99" weight="0.96" build="0.85" key="0000E00C401413080F8A53E5230F007B909BEF35149AFFE40E1F0A208B830735008CF60308F9F6FF7FFF488E7F0FFFEF0000000000001F770000000065141082"/>
+    </face>
+    <skills>
+      <skill id="Trade" value="50"/>
+      <skill id="Steward" value="80"/>
+      <skill id="OneHanded" value="30"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="50"/>
+      <skill id="Crossbow" value="100"/>
+      <skill id="Throwing" value="20"/>
+      <skill id="Riding" value="50"/>
+      <skill id="Athletics" value="20"/>
+      <skill id="Crafting" value="100"/>
+      <skill id="Scouting" value="20"/>
+      <skill id="Tactics" value="30"/>
+      <skill id="Roguery" value="20"/>
+      <skill id="Charm" value="70"/>
+      <skill id="Leadership" value="30"/>
+      <skill id="Medicine" value="150"/>
+	  <skill id="Engineering" value="100"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="0"/>
+      <Trait id="Generosity" value="2"/>
+      <Trait id="Honor" value="1"/>
+      <Trait id="Valor" value="-2"/>
+      <Trait id="Mercy" value="2"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+	  </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="ROTwanderer6" name="Podrick Payne" age="22" voice="ironic" culture="Culture.vlandia"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="21.84" weight="0.5549" build="0.5707" key="0000D00D8000000879766433475EACBF8349866255A0967774416E4E838B56A5007776030766B6C900000000000000000000000000000000000000003CFC2002"/>
+      <BodyPropertiesMax version="4" age="21.84" weight="0.5549" build="0.5707" key="0000D00D8000000879766433475EACBF8349866255A0967774416E4E838B56A5007776030766B6C900000000000000000000000000000000000000003CFC2002"/>
+    </face>
+    <skills>
+      <skill id="TwoHanded" value="70"/>
+      <skill id="OneHanded" value="80"/>
+      <skill id="Polearm" value="70"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="70"/>
+      <skill id="Throwing" value="70"/>
+      <skill id="Riding" value="90"/>
+      <skill id="Athletics" value="80"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Scouting" value="70"/>
+      <skill id="Tactics" value="30"/>
+      <skill id="Charm" value="50"/>
+      <skill id="Leadership" value="30"/>
+      <skill id="Medicine" value="30"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="-2"/>
+      <Trait id="Generosity" value="0"/>
+      <Trait id="Honor" value="1"/>
+      <Trait id="Mercy" value="0"/>
+      <Trait id="Valor" value="1"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentRoster>
+			  <equipment slot="Item0"
+						 id="Item.vlandia_sword_3_t4" />
+
+			  <equipment slot="Body"
+						 id="Item.podrick_armor" />
+			  <equipment slot="Leg"
+						 id="Item.leather_cavalier_boots" />
+
+
+		  </EquipmentRoster>
+		  <EquipmentRoster civilian="true">
+			  <equipment slot="Item0"
+						 id="Item.vlandia_sword_3_t4" />
+			  <equipment slot="Body"
+						 id="Item.podrick_armor" />
+			  <equipment slot="Leg"
+						 id="Item.leather_cavalier_boots" />
+		  </EquipmentRoster>
+	  </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="ROTwanderer7" name="Gendry" age="21" voice="curt" culture="Culture.stormlands"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="21.16" weight="0.55" build="0.60" key="0008740F000006486676AA5A7577844874778A6196739645E9761A7789B56184009A5603091579840000000000000000000000000000000000000000473C7042"/>
+      <BodyPropertiesMax version="4" age="21.16" weight="0.55" build="0.60" key="0008740F000006486676AA5A7577844874778A6196739645E9761A7789B56184009A5603091579840000000000000000000000000000000000000000473C7042"/>
+    </face>
+    <skills>
+      <skill id="Trade" value="30"/>
+      <skill id="Steward" value="30"/>
+      <skill id="Roguery" value="30"/>
+      <skill id="Charm" value="40"/>
+      <skill id="OneHanded" value="80"/>
+      <skill id="TwoHanded" value="180"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="60"/>
+      <skill id="Throwing" value="60"/>
+      <skill id="Riding" value="60"/>
+      <skill id="Athletics" value="150"/>
+      <skill id="Crafting" value="200"/>
+      <skill id="Scouting" value="30"/>
+      <skill id="Tactics" value="30"/>
+      <skill id="Leadership" value="40"/>
+      <skill id="Medicine" value="20"/>
+      <skill id="Engineering" value="150"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="-1"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Honor" value="1"/>
+      <Trait id="Valor" value="1"/>
+      <Trait id="Mercy" value="0"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentRoster>
+			  <equipment slot="Item0"
+						 id="Item.baratheon_hammer" />
+
+			  <equipment slot="Body"
+						 id="Item.stormlands_armor" />
+			  <equipment slot="Cape"
+						 id="Item.stormlands_shoulders" />
+			  <equipment slot="Leg"
+						 id="Item.jon_snow_boots" />
+			  <equipment slot="Gloves"
+						 id="Item.kg_gloves" />
+
+
+		  </EquipmentRoster>
+		  <EquipmentRoster civilian="true">
+			  <equipment slot="Item0"
+						 id="Item.vlandia_sword_3_t4" />
+			  <equipment slot="Body"
+						 id="Item.cloth_tunic" />
+			  <equipment slot="Leg"
+						 id="Item.leather_cavalier_boots" />
+		  </EquipmentRoster>
+	  </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="ROTwanderer8" name="Tyrion Lannister" age="36" voice="ironic" culture="Culture.vlandia"  default_group="Ranged" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="36.62" weight="0.3585" build="0.4892" key="000244021400235218B25FF000160F39E1BD6FF017E37EE4FE01010FD36B0361000516030063CFD400000000000000000000000000000000000000003E049002"/>
+      <BodyPropertiesMax version="4" age="36.62" weight="0.3585" build="0.4892" key="000244021400235218B25FF000160F39E1BD6FF017E37EE4FE01010FD36B0361000516030063CFD400000000000000000000000000000000000000003E049002"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="30"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="80"/>
+      <skill id="Throwing" value="20"/>
+      <skill id="Riding" value="70"/>
+      <skill id="Athletics" value="30"/>
+      <skill id="Scouting" value="30"/>
+      <skill id="Tactics" value="100"/>
+      <skill id="Charm" value="200"/>
+      <skill id="Leadership" value="150"/>
+      <skill id="Trade" value="120"/>
+      <skill id="Steward" value="260"/>
+      <skill id="Medicine" value="60"/>
+	  <skill id="Engineering" value="120"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Mercy" value="1"/>
+      <Trait id="Valor" value="-1"/>
+      <Trait id="Honor" value="1"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentRoster>
+			  <equipment slot="Item0"
+						 id="Item.crossbow_g" />
+			  <equipment slot="Item1"
+						 id="Item.bolt_b" />
+			  <equipment slot="Body"
+						 id="Item.tyrion_clothes" />
+			  <equipment slot="Leg"
+						 id="Item.tyrion_boots" />
+
+
+		  </EquipmentRoster>
+		  <EquipmentRoster civilian="true">
+			  
+			  <equipment slot="Body"
+						 id="Item.tyrion_clothes" />
+			  <equipment slot="Leg"
+						 id="Item.tyrion_boots" />
+		  </EquipmentRoster>
+	  </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="ROTwanderer9" name="Brienne of Tarth" age="28" voice="curt" is_female="true" culture="Culture.stormlands"  default_group="Cavalry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="28.36" weight="0.8198" build="0.898" key="000A440280001007A876544EABDA54691A918A1085110338A11B11CB8EFAD7AB00D7C6030DFCECA5000000000000000000000000000000000000000003C40004"/>
+      <BodyPropertiesMax version="4" age="28.36" weight="0.8198" build="0.898" key="000A440280001007A876544EABDA54691A918A1085110338A11B11CB8EFAD7AB00D7C6030DFCECA5000000000000000000000000000000000000000003C40004"/>
+    </face>
+    <skills>
+      <skill id="Roguery" value="30"/>
+      <skill id="Tactics" value="50"/>
+      <skill id="Scouting" value="50"/>
+      <skill id="Charm" value="40"/>
+      <skill id="Leadership" value="100"/>
+	  <skill id="Steward" value="100"/>
+      <skill id="Medicine" value="60"/>
+      <skill id="Athletics" value="220"/>
+      <skill id="Riding" value="130"/>
+      <skill id="Throwing" value="100"/>
+      <skill id="Crossbow" value="70"/>
+      <skill id="Bow" value="70"/>
+      <skill id="TwoHanded" value="270"/>
+      <skill id="OneHanded" value="270"/>
+      <skill id="Polearm" value="260"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="-1"/>
+      <Trait id="Generosity" value="0"/>
+      <Trait id="Honor" value="2"/>
+      <Trait id="Mercy" value="0"/>
+      <Trait id="Valor" value="2"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentRoster>
+			  <equipment slot="Item0"
+						 id="Item.oathkeeper_sword" />
+			  
+			  <equipment slot="Body"
+						 id="Item.brienne_armor" />
+			  <equipment slot="Leg"
+						 id="Item.jon_snow_boots" />
+			  <equipment slot="Cape"
+						 id="Item.plate_armor_reinforcements" />
+			  
+
+
+		  </EquipmentRoster>
+		  <EquipmentRoster civilian="true">
+			  <equipment slot="Item0"
+						 id="Item.vlandia_sword_3_t4" />
+			  <equipment slot="Body"
+						 id="Item.cloth_tunic" />
+			  <equipment slot="Leg"
+						 id="Item.leather_cavalier_boots" />
+		  </EquipmentRoster>
+	  </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="ROTwanderer10" name="Jaquin Hagar" age="33" voice="curt" is_female="false" culture="Culture.empire"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="33.9" weight="0.524" build="0.5127" key="0010180B80000642B9E66457F811109353C36062C5E68F33719797488E637C2502864624081555E500000000000000000000000000000000000000001F1C5002"/>
+      <BodyPropertiesMax version="4" age="33.9" weight="0.524" build="0.5127" key="0010180B80000642B9E66457F811109353C36062C5E68F33719797488E637C2502864624081555E500000000000000000000000000000000000000001F1C5002"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="120"/>
+      <skill id="TwoHanded" value="120"/>
+      <skill id="Polearm" value="120"/>
+      <skill id="Bow" value="120"/>
+      <skill id="Crossbow" value="120"/>
+      <skill id="Throwing" value="120"/>
+      <skill id="Riding" value="120"/>
+      <skill id="Athletics" value="120"/>
+      <skill id="Crafting" value="60"/>
+      <skill id="Scouting" value="180"/>
+      <skill id="Charm" value="120"/>
+      <skill id="Leadership" value="60"/>
+      <skill id="Trade" value="60"/>
+      <skill id="Steward" value="60"/>
+      <skill id="Medicine" value="60"/>
+      <skill id="Engineering" value="60"/>
+	  <skill id="Roguery" value="220"/>
+    </skills>
+    <Traits>
+      <Trait id="Honor" value="0"/>
+      <Trait id="Valor" value="-1"/>
+      <Trait id="Mercy" value="-2"/>
+      <Trait id="Generosity" value="0"/>
+      <Trait id="Calculating" value="-2"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+	  </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="ROTwanderer11" name="Mya Stone" age="21" voice="curt" is_female="true" culture="Culture.vale"  default_group="Cavalry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="21.61" weight="0.3804" build="0.3503" key="0010400D80001005B976648465736534537883629511323B9A819A558A84B667008566030823336800000000000000000000000000000000000000004B0C4003"/>
+      <BodyPropertiesMax version="4" age="21.61" weight="0.3804" build="0.3503" key="0010400D80001005B976648465736534537883629511323B9A819A558A84B667008566030823336800000000000000000000000000000000000000004B0C4003"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="40"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="50"/>
+      <skill id="Crossbow" value="50"/>
+      <skill id="Throwing" value="50"/>
+      <skill id="Riding" value="160"/>
+      <skill id="Athletics" value="50"/>
+      <skill id="Scouting" value="60"/>
+      <skill id="Tactics" value="30"/>
+      <skill id="Roguery" value="40"/>
+      <skill id="Charm" value="40"/>
+      <skill id="Leadership" value="30"/>
+	  <skill id="Trade" value="150"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="0"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Honor" value="0"/>
+      <Trait id="Mercy" value="1"/>
+      <Trait id="Valor" value="0"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+	  </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="ROTwanderer12" name="Qyburn" age="44" voice="earnest" is_female="false" culture="Culture.river"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="44.34" weight="0.1846" build="0.17" key="0010E40140001004B97664846573653453F283629511323B9A819A558D88666A006336030627766800000000000000000000000000000000000000004ABC6002"/>
+      <BodyPropertiesMax version="4" age="44.34" weight="0.1846" build="0.17" key="0010E40140001004B97664846573653453F283629511323B9A819A558D88666A006336030627766800000000000000000000000000000000000000004ABC6002"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="20"/>
+      <skill id="Riding" value="60"/>
+      <skill id="Athletics" value="30"/>
+      <skill id="Scouting" value="30"/>
+      <skill id="Tactics" value="30"/>
+      <skill id="Charm" value="60"/>
+      <skill id="Leadership" value="30"/>
+      <skill id="Trade" value="50"/>
+      <skill id="Steward" value="60"/>
+      <skill id="Medicine" value="160"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="2"/>
+      <Trait id="Generosity" value="0"/>
+      <Trait id="Honor" value="-2"/>
+      <Trait id="Valor" value="-1"/>
+      <Trait id="Mercy" value="-2"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+	  </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="ROTwanderer13" name="Syrio Forel" age="38" voice="curt" culture="Culture.empire"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="38.05" weight="0.5091" build="0.4707" key="001EE40F00001085B976648A6577853453F283629511323B9A819A558D81666A008996030827766800000000000000000000000000000000000000004B046002"/>
+      <BodyPropertiesMax version="4" age="38.05" weight="0.5091" build="0.4707" key="001EE40F00001085B976648A6577853453F283629511323B9A819A558D81666A008996030827766800000000000000000000000000000000000000004B046002"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="290"/>
+      <skill id="TwoHanded" value="280"/>
+      <skill id="Polearm" value="200"/>
+      <skill id="Throwing" value="100"/>
+      <skill id="Riding" value="100"/>
+      <skill id="Athletics" value="220"/>
+      <skill id="Scouting" value="60"/>
+      <skill id="Tactics" value="60"/>
+      <skill id="Roguery" value="50"/>
+      <skill id="Charm" value="120"/>
+      <skill id="Leadership" value="150"/>
+      <skill id="Trade" value="50"/>
+      <skill id="Steward" value="120"/>
+    </skills>
+    <Traits>
+      <Trait id="Honor" value="1"/>
+      <Trait id="Mercy" value="0"/>
+      <Trait id="Generosity" value="0"/>
+      <Trait id="Valor" value="2"/>
+      <Trait id="Calculating" value="0"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentRoster>
+			  <equipment slot="Item0"
+						 id="Item.bravos_sword" />
+
+			  <equipment slot="Body"
+						 id="Item.braavosi_plate" />
+			  <equipment slot="Cape"
+						 id="Item.braavosi_pauldrons" />
+			  <equipment slot="Leg"
+						 id="Item.targ_boots" />
+			  <equipment slot="Gloves"
+						 id="Item.braavos_glove" />
+
+
+		  </EquipmentRoster>
+		  <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+	  </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="ROTwanderer14" name="Hodor" age="28" voice="softspoken" culture="Culture.battania"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="28" weight="0.9776" build="0.9795" key="0000100F0000100F6FBBB000EEEF01FF7B79866005E19E080FB00F119CA3854506FFF6680FEFEEFF000000000000000000000000000000000000000001F440C2"/>
+      <BodyPropertiesMax version="4" age="28" weight="0.9776" build="0.9795" key="0000100F0000100F6FBBB000EEEF01FF7B79866005E19E080FB00F119CA3854506FFF6680FEFEEFF000000000000000000000000000000000000000001F440C2"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="250"/>
+      <skill id="TwoHanded" value="260"/>
+      <skill id="Polearm" value="260"/>
+      <skill id="Bow" value="70"/>
+      <skill id="Crossbow" value="70"/>
+      <skill id="Throwing" value="120"/>
+      <skill id="Riding" value="60"/>
+      <skill id="Athletics" value="150"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Tactics" value="20"/>
+      <skill id="Roguery" value="20"/>
+      <skill id="Charm" value="20"/>
+      <skill id="Leadership" value="40"/>
+      <skill id="Trade" value="40"/>
+      <skill id="Steward" value="20"/>
+      <skill id="Medicine" value="40"/>
+      <skill id="Engineering" value="20"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="-2"/>
+      <Trait id="Generosity" value="2"/>
+      <Trait id="Honor" value="0"/>
+      <Trait id="Mercy" value="1"/>
+      <Trait id="Valor" value="-1"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+	  </Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="ROTwanderer15" name="Rago the Bloodrider" age="28" voice="curt" culture="Culture.khuzait"  default_group="Cavalry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="28" weight="0.6776" build="0.7795" key="001E5C0D9B701549EF873C7B5C52E3819DAD8F8BAF7F040F531113188BF66E5800FE06020F33E1EE0002045011F2204400000000000016770000000003FC3082"/>
+      <BodyPropertiesMax version="4" age="28" weight="0.6776" build="0.7795" key="001E5C0D9B701549EF873C7B5C52E3819DAD8F8BAF7F040F531113188BF66E5800FE06020F33E1EE0002045011F2204400000000000016770000000003FC3082"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="150"/>
+      <skill id="TwoHanded" value="130"/>
+      <skill id="Polearm" value="120"/>
+      <skill id="Bow" value="160"/>
+      <skill id="Crossbow" value="70"/>
+      <skill id="Throwing" value="100"/>
+      <skill id="Riding" value="150"/>
+      <skill id="Athletics" value="90"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Tactics" value="60"/>
+      <skill id="Roguery" value="40"/>
+      <skill id="Charm" value="20"/>
+      <skill id="Leadership" value="40"/>
+      <skill id="Trade" value="40"/>
+      <skill id="Steward" value="20"/>
+      <skill id="Medicine" value="40"/>
+      <skill id="Engineering" value="20"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="-2"/>
+      <Trait id="Generosity" value="-2"/>
+      <Trait id="Honor" value="-1"/>
+      <Trait id="Mercy" value="-1"/>
+      <Trait id="Valor" value="2"/>
+    </Traits>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0"
+					   id="Item.arakh" />
+
+			<equipment slot="Body"
+					   id="Item.dothraki_armor" />
+			<equipment slot="Leg"
+					   id="Item.dothraki_boots" />
+			<equipment slot="Gloves"
+					   id="Item.dothraki_bracers" />
+			<equipment slot="Cape"
+					   id="Item.dothraki_shoulders" />
+
+
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0"
+					   id="Item.ridged_sabre_sword_t4" />
+			<equipment slot="Body"
+					   id="Item.dothraki_armor" />
+			<equipment slot="Leg"
+					   id="Item.dothraki_boots" />
+			<equipment slot="Gloves"
+					   id="Item.dothraki_bracers" />
+			<equipment slot="Cape"
+					   id="Item.dothraki_shoulders" />
+
+		</EquipmentRoster>
+	</Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="ROTwanderer16" name="Xaro Xhoan Daxos" age="36" voice="earnest" culture="Culture.empire"  default_group="Ranged" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="36" weight="0.6776" build="0.7795" key="003FE40FC0001340BA7564975559D53E3C48883B3101B44A27CD9B8A79A1999800BCA6030BB5A567000000000000000000000000000000000000000019743005"/>
+      <BodyPropertiesMax version="4" age="36" weight="0.6776" build="0.7795" key="003FE40FC0001340BA7564975559D53E3C48883B3101B44A27CD9B8A79A1999800BCA6030BB5A567000000000000000000000000000000000000000019743005"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="30"/>
+      <skill id="TwoHanded" value="30"/>
+      <skill id="Polearm" value="30"/>
+      <skill id="Bow" value="50"/>
+      <skill id="Crossbow" value="60"/>
+      <skill id="Throwing" value="20"/>
+      <skill id="Riding" value="50"/>
+      <skill id="Athletics" value="30"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Tactics" value="60"/>
+      <skill id="Roguery" value="40"/>
+      <skill id="Charm" value="70"/>
+      <skill id="Leadership" value="40"/>
+      <skill id="Trade" value="190"/>
+      <skill id="Steward" value="20"/>
+      <skill id="Medicine" value="40"/>
+      <skill id="Engineering" value="20"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="2"/>
+      <Trait id="Generosity" value="0"/>
+      <Trait id="Honor" value="-1"/>
+      <Trait id="Mercy" value="0"/>
+      <Trait id="Valor" value="-1"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+	  </Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="ROTwanderer17" name="Kinvara the Red Priestess" age="27" voice="earnest" is_female="true" culture="Culture.volantine"  default_group="Ranged" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="27" weight="0.3776" build="0.4795" key="0010580FC0001004BA7564995553493E3C48883B3101B44A27C9C75A79A199980076660307657535000000000000000000000000000000000000000044F41003"/>
+      <BodyPropertiesMax version="4" age="27" weight="0.3776" build="0.4795" key="0010580FC0001004BA7564995553493E3C48883B3101B44A27C9C75A79A199980076660307657535000000000000000000000000000000000000000044F41003"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="30"/>
+      <skill id="TwoHanded" value="30"/>
+      <skill id="Polearm" value="30"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="60"/>
+      <skill id="Throwing" value="20"/>
+      <skill id="Riding" value="50"/>
+      <skill id="Athletics" value="30"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Tactics" value="60"/>
+      <skill id="Roguery" value="40"/>
+      <skill id="Charm" value="140"/>
+      <skill id="Leadership" value="70"/>
+      <skill id="Trade" value="80"/>
+      <skill id="Steward" value="20"/>
+      <skill id="Medicine" value="80"/>
+      <skill id="Engineering" value="20"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Generosity" value="0"/>
+      <Trait id="Honor" value="0"/>
+      <Trait id="Mercy" value="-1"/>
+      <Trait id="Valor" value="0"/>
+    </Traits>
+	<Equipments>
+		<EquipmentRoster>
+			
+
+			<equipment slot="Body"
+					   id="Item.melisandre_dress" />
+			<equipment slot="Leg"
+					   id="Item.ladys_shoe" />
+			
+
+
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+
+			<equipment slot="Body"
+					   id="Item.melisandre_dress" />
+			<equipment slot="Leg"
+					   id="Item.ladys_shoe" />
+			
+		</EquipmentRoster>
+	</Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="ROTwanderer18" name="Osha" age="26" voice="earnest" is_female="true" culture="Culture.freefolk"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="26" weight="0.3776" build="0.3795" key="0008D80FC000100DBA75649F5553493E3448883B3101B40A25C9545A72A154380076660307457535000000000000000000000000000000000000000044F44003"/>
+      <BodyPropertiesMax version="4" age="26" weight="0.3776" build="0.3795" key="0008D80FC000100DBA75649F5553493E3448883B3101B40A25C9545A72A154380076660307457535000000000000000000000000000000000000000044F44003"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="80"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="80"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="60"/>
+      <skill id="Throwing" value="70"/>
+      <skill id="Riding" value="50"/>
+      <skill id="Athletics" value="60"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Tactics" value="60"/>
+      <skill id="Roguery" value="70"/>
+      <skill id="Charm" value="30"/>
+      <skill id="Leadership" value="30"/>
+      <skill id="Trade" value="30"/>
+      <skill id="Steward" value="20"/>
+      <skill id="Medicine" value="40"/>
+      <skill id="Engineering" value="20"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="-1"/>
+      <Trait id="Generosity" value="0"/>
+      <Trait id="Honor" value="0"/>
+      <Trait id="Mercy" value="-1"/>
+      <Trait id="Valor" value="1"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+	  </Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="ROTwanderer19" name="Shagga son of Dolf" age="43" voice="earnest"  culture="Culture.vale"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="43" weight="0.7776" build="0.7795" key="0008D806C60014CABA75649F5553493E3448883B3101B40A25C9545A72A1543800CBB6030C4575350000000000000000000000000000000000000000459C3002"/>
+      <BodyPropertiesMax version="4" age="43" weight="0.7776" build="0.7795" key="0008D806C60014CABA75649F5553493E3448883B3101B40A25C9545A72A1543800CBB6030C4575350000000000000000000000000000000000000000459C3002"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="150"/>
+      <skill id="TwoHanded" value="170"/>
+      <skill id="Polearm" value="150"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="60"/>
+      <skill id="Throwing" value="100"/>
+      <skill id="Riding" value="50"/>
+      <skill id="Athletics" value="90"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Tactics" value="60"/>
+      <skill id="Roguery" value="90"/>
+      <skill id="Charm" value="30"/>
+      <skill id="Leadership" value="30"/>
+      <skill id="Trade" value="30"/>
+      <skill id="Steward" value="20"/>
+      <skill id="Medicine" value="40"/>
+      <skill id="Engineering" value="20"/>
+      <skill id="Scouting" value="80"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="-1"/>
+      <Trait id="Generosity" value="-1"/>
+      <Trait id="Honor" value="-1"/>
+      <Trait id="Mercy" value="-1"/>
+      <Trait id="Valor" value="1"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+	  </Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="ROTwanderer20" name="Theon Greyjoy" age="26" voice="earnest"  culture="Culture.sturgia"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="26" weight="0.4776" build="0.4795" key="0005740D0000169261F2AEF600016048B3EFE79E6E750F46744810464C8324560065460206C0BF7700100000000000000000000000000000000000004EDC7002"/>
+      <BodyPropertiesMax version="4" age="26" weight="0.4776" build="0.4795" key="0005740D0000169261F2AEF600016048B3EFE79E6E750F46744810464C8324560065460206C0BF7700100000000000000000000000000000000000004EDC7002"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="170"/>
+      <skill id="TwoHanded" value="160"/>
+      <skill id="Polearm" value="150"/>
+      <skill id="Bow" value="170"/>
+      <skill id="Crossbow" value="100"/>
+      <skill id="Throwing" value="120"/>
+      <skill id="Riding" value="100"/>
+      <skill id="Athletics" value="100"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Tactics" value="70"/>
+      <skill id="Roguery" value="30"/>
+      <skill id="Charm" value="30"/>
+      <skill id="Leadership" value="70"/>
+      <skill id="Trade" value="30"/>
+      <skill id="Steward" value="40"/>
+      <skill id="Medicine" value="40"/>
+      <skill id="Engineering" value="20"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="0"/>
+      <Trait id="Generosity" value="0"/>
+      <Trait id="Honor" value="-1"/>
+      <Trait id="Mercy" value="0"/>
+      <Trait id="Valor" value="1"/>
+    </Traits>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0"
+					   id="Item.vlandia_sword_3_t4" />
+
+			<equipment slot="Body"
+					   id="Item.greyjoy_armor" />
+			<equipment slot="Leg"
+					   id="Item.ironborn_boots" />
+			<equipment slot="Cape"
+					   id="Item.ironborn_pauldrons" />
+
+
+
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0"
+					   id="Item.vlandia_sword_3_t4" />
+			<equipment slot="Body"
+					   id="Item.cloth_tunic" />
+			<equipment slot="Leg"
+					   id="Item.leather_cavalier_boots" />
+		</EquipmentRoster>
+	</Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="ROTwanderer21" name="Myranda" age="24" voice="earnest" is_female="true" culture="Culture.battania"  default_group="Ranged" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="24" weight="0.2776" build="0.2795" key="0000080AC00010043A7564995493273B344887462110780C89ABB31472A154380084460308523238000000000000000000000000000000000000000045041003"/>
+      <BodyPropertiesMax version="4" age="24" weight="0.2776" build="0.2795" key="0000080AC00010043A7564995493273B344887462110780C89ABB31472A154380084460308523238000000000000000000000000000000000000000045041003"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="40"/>
+      <skill id="TwoHanded" value="30"/>
+      <skill id="Polearm" value="30"/>
+      <skill id="Bow" value="100"/>
+      <skill id="Crossbow" value="40"/>
+      <skill id="Throwing" value="30"/>
+      <skill id="Riding" value="50"/>
+      <skill id="Athletics" value="50"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Tactics" value="40"/>
+      <skill id="Roguery" value="50"/>
+      <skill id="Charm" value="30"/>
+      <skill id="Leadership" value="30"/>
+      <skill id="Trade" value="30"/>
+      <skill id="Steward" value="40"/>
+      <skill id="Medicine" value="40"/>
+      <skill id="Engineering" value="20"/>
+      <skill id="Scouting" value="70"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Generosity" value="0"/>
+      <Trait id="Honor" value="-2"/>
+      <Trait id="Mercy" value="-2"/>
+      <Trait id="Valor" value="1"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+	  </Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="ROTwanderer22" name="Hizdahr zo Loraq" age="33" voice="earnest"  culture="Culture.ghiscari"  default_group="Ranged" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="33" weight="0.2776" build="0.2795" key="0036E40F000036D9BA7564425530B8AD34B783363101654A7DBAC534743482B60077760307A43588000000000000000000000000000000000000000042F40002"/>
+      <BodyPropertiesMax version="4" age="33" weight="0.2776" build="0.2795" key="0036E40F000036D9BA7564425530B8AD34B783363101654A7DBAC534743482B60077760307A43588000000000000000000000000000000000000000042F40002"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="40"/>
+      <skill id="TwoHanded" value="30"/>
+      <skill id="Polearm" value="30"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="50"/>
+      <skill id="Throwing" value="30"/>
+      <skill id="Riding" value="60"/>
+      <skill id="Athletics" value="40"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Tactics" value="40"/>
+      <skill id="Roguery" value="50"/>
+      <skill id="Charm" value="30"/>
+      <skill id="Leadership" value="80"/>
+      <skill id="Trade" value="60"/>
+      <skill id="Steward" value="90"/>
+      <skill id="Medicine" value="50"/>
+      <skill id="Engineering" value="50"/>
+      <skill id="Scouting" value="20"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Generosity" value="0"/>
+      <Trait id="Honor" value="0"/>
+      <Trait id="Mercy" value="0"/>
+      <Trait id="Valor" value="-1"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+	  </Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="ROTwanderer23" name="Locke" age="34" voice="earnest"  culture="Culture.battania"  default_group="Cavalry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="34" weight="0.2776" build="0.3795" key="0002D00FC00013848BF6B67E9BB1DD32C34E21A2B390160F7441DA49838BF6A500D336030DA7B7A500000000000000000000000000000000000000006FA44004"/>
+      <BodyPropertiesMax version="4" age="34" weight="0.2776" build="0.3795" key="0002D00FC00013848BF6B67E9BB1DD32C34E21A2B390160F7441DA49838BF6A500D336030DA7B7A500000000000000000000000000000000000000006FA44004"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="150"/>
+      <skill id="TwoHanded" value="150"/>
+      <skill id="Polearm" value="150"/>
+      <skill id="Bow" value="120"/>
+      <skill id="Crossbow" value="100"/>
+      <skill id="Throwing" value="100"/>
+      <skill id="Riding" value="80"/>
+      <skill id="Athletics" value="90"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Tactics" value="40"/>
+      <skill id="Roguery" value="70"/>
+      <skill id="Charm" value="30"/>
+      <skill id="Leadership" value="50"/>
+      <skill id="Trade" value="20"/>
+      <skill id="Steward" value="30"/>
+      <skill id="Medicine" value="30"/>
+      <skill id="Engineering" value="20"/>
+      <skill id="Scouting" value="60"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Generosity" value="0"/>
+      <Trait id="Honor" value="-1"/>
+      <Trait id="Mercy" value="-1"/>
+      <Trait id="Valor" value="1"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+	  </Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="ROTwanderer24" name="Maester Cressen" age="48" voice="earnest"  culture="Culture.dragonstone"  default_group="Ranged" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="48" weight="0.9776" build="0.5795" key="0002A400000002C4B98664E13C6F225C537D88624511323BD6521A778A84F6670069F603065ABDDA000000000000000000000000000000000000000064D45005"/>
+      <BodyPropertiesMax version="4" age="48" weight="0.9776" build="0.5795" key="0002A400000002C4B98664E13C6F225C537D88624511323BD6521A778A84F6670069F603065ABDDA000000000000000000000000000000000000000064D45005"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="10"/>
+      <skill id="Riding" value="40"/>
+      <skill id="Athletics" value="40"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Tactics" value="40"/>
+      <skill id="Roguery" value="20"/>
+      <skill id="Charm" value="40"/>
+      <skill id="Leadership" value="40"/>
+      <skill id="Trade" value="50"/>
+      <skill id="Steward" value="60"/>
+      <skill id="Medicine" value="120"/>
+      <skill id="Engineering" value="50"/>
+      <skill id="Scouting" value="10"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="0"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Honor" value="0"/>
+      <Trait id="Mercy" value="1"/>
+      <Trait id="Valor" value="0"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+	  </Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="ROTwanderer25" name="Jacelyn Bywaters" age="33" voice="earnest"  culture="Culture.vlandia"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="33" weight="0.5776" build="0.5795" key="0023580D00E4035428B56679CBD9616D988E4B5BA5C758186AACB67DB6A766AC006A560306872397000000000000000000000000000000000000000000CC9042"/>
+      <BodyPropertiesMax version="4" age="33" weight="0.5776" build="0.5795" key="0023580D00E4035428B56679CBD9616D988E4B5BA5C758186AACB67DB6A766AC006A560306872397000000000000000000000000000000000000000000CC9042"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="150"/>
+      <skill id="Polearm" value="150"/>
+      <skill id="Bow" value="100"/>
+      <skill id="Crossbow" value="100"/>
+      <skill id="Throwing" value="100"/>
+      <skill id="Riding" value="80"/>
+      <skill id="Athletics" value="90"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Tactics" value="60"/>
+      <skill id="Roguery" value="20"/>
+      <skill id="Charm" value="40"/>
+      <skill id="Leadership" value="50"/>
+      <skill id="Trade" value="20"/>
+      <skill id="Steward" value="60"/>
+      <skill id="Medicine" value="30"/>
+      <skill id="Engineering" value="20"/>
+      <skill id="Scouting" value="40"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="0"/>
+      <Trait id="Generosity" value="0"/>
+      <Trait id="Honor" value="1"/>
+      <Trait id="Mercy" value="0"/>
+      <Trait id="Valor" value="1"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+	  </Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="ROTwanderer26" name="Quentyn Martell" age="28" voice="earnest"  culture="Culture.aserai"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="28" weight="0.4776" build="0.5795" key="0023C80F00001003BA7564455333278736B1833B3101B44A21CCC5347AA3279600875603085863880000000000000000000000000000000000000000271C1005"/>
+      <BodyPropertiesMax version="4" age="28" weight="0.4776" build="0.5795" key="0023C80F00001003BA7564455333278736B1833B3101B44A21CCC5347AA3279600875603085863880000000000000000000000000000000000000000271C1005"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="130"/>
+      <skill id="Polearm" value="160"/>
+      <skill id="Bow" value="100"/>
+      <skill id="Crossbow" value="100"/>
+      <skill id="Throwing" value="100"/>
+      <skill id="Riding" value="100"/>
+      <skill id="Athletics" value="100"/>
+      <skill id="Crafting" value="20"/>
+      <skill id="Tactics" value="80"/>
+      <skill id="Roguery" value="20"/>
+      <skill id="Charm" value="40"/>
+      <skill id="Leadership" value="100"/>
+      <skill id="Trade" value="20"/>
+      <skill id="Steward" value="100"/>
+      <skill id="Medicine" value="40"/>
+      <skill id="Engineering" value="20"/>
+      <skill id="Scouting" value="40"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="0"/>
+      <Trait id="Generosity" value="0"/>
+      <Trait id="Honor" value="1"/>
+      <Trait id="Mercy" value="0"/>
+      <Trait id="Valor" value="1"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+	  </Equipments>
+  </NPCCharacter>
+
+	<NPCCharacter id="ROTwanderer27" name="Lord Peter Baelish" age="36" voice="earnest"  culture="Culture.crownlands"  default_group="Ranged" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="48" weight="0.4376" build="0.3195" key="0008FC0F00001086E39A69EA5416DE1B5B96AE671181AD0DBAC72FBDD4E7B1150195501409E7816700000000000000000000000000000000000000006D287042"/>
+			<BodyPropertiesMax version="4" age="48" weight="0.4376" build="0.3195" key="0008FC0F00001086E39A69EA5416DE1B5B96AE671181AD0DBAC72FBDD4E7B1150195501409E7816700000000000000000000000000000000000000006D287042"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="10"/>
+			<skill id="Riding" value="40"/>
+			<skill id="Athletics" value="40"/>
+			<skill id="Crafting" value="20"/>
+			<skill id="Tactics" value="100"/>
+			<skill id="Roguery" value="100"/>
+			<skill id="Charm" value="160"/>
+			<skill id="Leadership" value="100"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="180"/>
+			<skill id="Medicine" value="50"/>
+			<skill id="Engineering" value="50"/>
+			<skill id="Scouting" value="10"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+
+				<equipment slot="Body"
+						   id="Item.baelish_clothes" />
+				<equipment slot="Leg"
+						   id="Item.baelish_boots" />
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body"
+						   id="Item.baelish_clothes" />
+				<equipment slot="Leg"
+						   id="Item.baelish_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="ROTwanderer28" name="Yoren" age="43" voice="earnest"  culture="Culture.nightswatch"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="33" weight="0.5776" build="0.5795" key="0008D80F000013438977648E45C2853435B484629511020BC875164887ACD835008876030848B32300000000000000000000000000000000000000003F1C7005"/>
+			<BodyPropertiesMax version="4" age="33" weight="0.5776" build="0.5795" key="0008D80F000013438977648E45C2853435B484629511020BC875164887ACD835008876030848B32300000000000000000000000000000000000000003F1C7005"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+			<skill id="Riding" value="80"/>
+			<skill id="Athletics" value="90"/>
+			<skill id="Crafting" value="20"/>
+			<skill id="Tactics" value="70"/>
+			<skill id="Roguery" value="20"/>
+			<skill id="Charm" value="40"/>
+			<skill id="Leadership" value="70"/>
+			<skill id="Trade" value="40"/>
+			<skill id="Steward" value="60"/>
+			<skill id="Medicine" value="50"/>
+			<skill id="Engineering" value="20"/>
+			<skill id="Scouting" value="60"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+			<EquipmentSet id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="ROTwanderer29" name="Dick Crabb" age="48" voice="earnest"  culture="Culture.river"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="33" weight="0.1" build="0.1" key="001EFC0AC00012D21976647D60028E860EF280F2759D7A01FA8100558FF2110700FF061409B1D1100000000000000000000000000000001900000000012C3142"/>
+			<BodyPropertiesMax version="4" age="33" weight="0.1" build="0.1" key="001EFC0AC00012D21976647D60028E860EF280F2759D7A01FA8100558FF2110700FF061409B1D1100000000000000000000000000000001900000000012C3142"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+			<skill id="Riding" value="80"/>
+			<skill id="Athletics" value="100"/>
+			<skill id="Crafting" value="20"/>
+			<skill id="Tactics" value="50"/>
+			<skill id="Roguery" value="160"/>
+			<skill id="Charm" value="40"/>
+			<skill id="Leadership" value="70"/>
+			<skill id="Trade" value="40"/>
+			<skill id="Steward" value="30"/>
+			<skill id="Medicine" value="30"/>
+			<skill id="Engineering" value="20"/>
+			<skill id="Scouting" value="80"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+			<EquipmentSet id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="ROTwanderer30" name="Ser Harlan Blackhare" age="30" voice="earnest"  culture="Culture.stormlands"  default_group="Cavalry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.5" build="0.7" key="0013840FC014134415C85D87D589A4947F97263C765575679957499C95943BB3009C8603098878680000000000000000000000000000000000000000313400C5"/>
+			<BodyPropertiesMax version="4" age="30" weight="0.5" build="0.7" key="0013840FC014134415C85D87D589A4947F97263C765575679957499C95943BB3009C8603098878680000000000000000000000000000000000000000313400C5"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="Athletics" value="120"/>
+			<skill id="Crafting" value="20"/>
+			<skill id="Tactics" value="80"/>
+			<skill id="Roguery" value="20"/>
+			<skill id="Charm" value="80"/>
+			<skill id="Leadership" value="80"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="120"/>
+			<skill id="Medicine" value="50"/>
+			<skill id="Engineering" value="50"/>
+			<skill id="Scouting" value="20"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.western_2hsword_t4" />
+				<equipment slot="Item1"
+						   id="Item.steppe_war_bow" />
+				<equipment slot="Item2"
+						   id="Item.bodkin_arrows_b" />
+
+				<equipment slot="Body"
+						   id="Item.stormlands_armor" />
+				<equipment slot="Cape"
+						   id="Item.stormlands_shoulders" />
+				<equipment slot="Leg"
+						   id="Item.jon_snow_boots" />
+				<equipment slot="Gloves"
+						   id="Item.kg_gloves" />
+				<equipment slot="Horse"
+						   id="Item.t2_vlandia_horse" />
+				<equipment slot="HorseHarness"
+						   id="Item.halfchain_barding" />
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="ROTwanderer31" name="Ser Benfry the Lucky" age="30" voice="earnest"  culture="Culture.vlandia"  default_group="Cavalry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.8" build="0.4" key="001BC80D100013CBB797878867558A434963866776C69647C43873692696763A0176C61407677664000000000000000000000000000000000000000032EC1082"/>
+			<BodyPropertiesMax version="4" age="30" weight="0.8" build="0.4" key="001BC80D100013CBB797878867558A434963866776C69647C43873692696763A0176C61407677664000000000000000000000000000000000000000032EC1082"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="100"/>
+			<skill id="Athletics" value="120"/>
+			<skill id="Crafting" value="20"/>
+			<skill id="Tactics" value="80"/>
+			<skill id="Roguery" value="20"/>
+			<skill id="Charm" value="80"/>
+			<skill id="Leadership" value="100"/>
+			<skill id="Trade" value="120"/>
+			<skill id="Steward" value="100"/>
+			<skill id="Medicine" value="50"/>
+			<skill id="Engineering" value="120"/>
+			<skill id="Scouting" value="20"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.vlandia_chainmail" />
+				<equipment slot="Leg"
+						   id="Item.mail_chausses" />
+				
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="ROTwanderer32" name="Ser Adrian Fairwood" age="21" voice="earnest"  culture="Culture.vlandia"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="21" weight="0.25" build="0.96" key="0008140294FC05DB5CE1789FE101898AAA596C77389C9C03A65B67A74AA384B500CF46030CA677610000000000000000000000000000000000000000338C3100"/>
+			<BodyPropertiesMax version="4" age="21" weight="0.25" build="0.96" key="0008140294FC05DB5CE1789FE101898AAA596C77389C9C03A65B67A74AA384B500CF46030CA677610000000000000000000000000000000000000000338C3100"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="80"/>
+			<skill id="Athletics" value="120"/>
+			<skill id="Crafting" value="20"/>
+			<skill id="Tactics" value="80"/>
+			<skill id="Roguery" value="20"/>
+			<skill id="Charm" value="120"/>
+			<skill id="Leadership" value="70"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="50"/>
+			<skill id="Medicine" value="50"/>
+			<skill id="Engineering" value="50"/>
+			<skill id="Scouting" value="40"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.western_2hsword_t4" />
+				<equipment slot="Item1"
+						   id="Item.western_throwing_axe_1_t1" />
+				<equipment slot="Body"
+						   id="Item.westerlands_armor" />
+				<equipment slot="Cape"
+						   id="Item.westerlands_pauldrons" />
+				<equipment slot="Leg"
+						   id="Item.lannister_boots" />
+
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+
+
+	<NPCCharacter id="ROTwanderer33" name="Wun Wun"  age="40" voice="earnest" race="giant" culture="Culture.freefolk"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="40" weight="0.99" build="0.99" key="0000AC06C00019447959A493CB741597537D866B98197703CCA177278A84F66700C7C6030C67B4950000000000000000000000000000000000000000058C5006"/>
+			<BodyPropertiesMax version="4" age="40" weight="0.99" build="0.99" key="0000AC06C00019447959A493CB741597537D866B98197703CCA177278A84F66700C7C6030C67B4950000000000000000000000000000000000000000058C5006"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="280"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="280"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="200"/>
+			<skill id="Riding" value="20"/>
+			<skill id="Athletics" value="40"/>
+			<skill id="Crafting" value="20"/>
+			<skill id="Tactics" value="50"/>
+			<skill id="Roguery" value="50"/>
+			<skill id="Charm" value="50"/>
+			<skill id="Leadership" value="100"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="50"/>
+			<skill id="Medicine" value="50"/>
+			<skill id="Engineering" value="50"/>
+			<skill id="Scouting" value="100"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.giant_club" />
+
+				<equipment slot="Body"
+						   id="Item.giant_garb" />
+				<equipment slot="Leg"
+						   id="giant_boots" />
+				<equipment slot="Head"
+						   id="Item.noble_default" />
+				<equipment slot="Gloves"
+						   id="Item.giant_handwraps" />
+
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head"
+						   id="Item.noble_default" />
+				<equipment slot="Body"
+						   id="Item.giant_garb" />
+				<equipment slot="Leg"
+						   id="Item.giant_boots" />
+				<equipment slot="Gloves"
+						   id="Item.giant_handwraps" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	
+	<NPCCharacter id="ROTwanderer35" name="Ser Timothy Warden" age="28" voice="earnest"  culture="Culture.crownlands"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="28" weight="0.75" build="0.56" key="000A640FC000234DBCDBB667BB83797AAA9BC79575535B421A8177983834368E006BC603066A57A9000000000000000000000000000000000000000048C40084"/>
+			<BodyPropertiesMax version="4" age="28" weight="0.75" build="0.56" key="000A640FC000234DBCDBB667BB83797AAA9BC79575535B421A8177983834368E006BC603066A57A9000000000000000000000000000000000000000048C40084"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="80"/>
+			<skill id="Athletics" value="120"/>
+			<skill id="Crafting" value="20"/>
+			<skill id="Tactics" value="80"/>
+			<skill id="Roguery" value="20"/>
+			<skill id="Charm" value="80"/>
+			<skill id="Leadership" value="80"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="50"/>
+			<skill id="Medicine" value="50"/>
+			<skill id="Engineering" value="50"/>
+			<skill id="Scouting" value="50"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Item1"
+						   id="Item.reinforced_kite_shield" />
+				<equipment slot="Item2"
+						   id="Item.western_javelin_3_t4" />
+				<equipment slot="Body"
+						   id="Item.gold_cloak_armor" />
+				<equipment slot="Cape"
+						   id="Item.gold_cloak_pauldrons" />
+				<equipment slot="Leg"
+						   id="Item.gold_cloak_boots" />
+
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	
+	
+
+	
+
+	<NPCCharacter id="ROTwanderer38" name="Benjen Stark" age="31" voice="curt" is_female="false" culture="Culture.nightswatch"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="22" weight="0.5214" build="0.5185"  key="0005000F00001603797164B742128F5A5FF484B0E5ED96777441414683861F3F6464764506E6B7957B3134B7646736C500000000000000170000000020C42002"  />
+			<BodyPropertiesMax version="4" age="22" weight="0.5214" build="0.5185"  key="0005000F00001603797164B742128F5A5FF484B0E5ED96777441414683861F3F6464764506E6B7957B3134B7646736C500000000000000170000000020C42002"  />
+		</face>
+		<skills>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="Athletics" value="130"/>
+			<skill id="Scouting" value="200"/>
+			<skill id="Tactics" value="150"/>
+			<skill id="Roguery" value="100"/>
+			<skill id="Charm" value="60"/>
+			<skill id="Leadership" value="120"/>
+			<skill id="Trade" value="60"/>
+			<skill id="Steward" value="80"/>
+			<skill id="Medicine" value="50"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.stark_sword" />
+				
+
+				<equipment slot="Body"
+					   id="Item.nightswatch_armor2" />
+				<equipment slot="Head"
+					   id="Item." />
+				<equipment slot="Gloves"
+					   id="Item.karstark_gloves" />
+				<equipment slot="Leg"
+					   id="Item.nightswatch_boots" />
+				<equipment slot="Cape"
+					   id="Item.nw_cloak" />
+
+
+
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+					   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+					   id="Item.nightswatch_armor2" />
+				<equipment slot="Leg"
+					   id="Item.nightswatch_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	
+
+	<NPCCharacter id="ROTwanderer41" name="Daemon Blackfyre" age="24" voice="curt" is_female="false" culture="Culture.valyrian"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="22" weight="0.3214" build="0.5185"  key="000A0000000000023876641B53544A305175855275113609DCB177278B849667009566030953543500000000000000000000000000000000000000003F2C3002"  />
+			<BodyPropertiesMax version="4" age="22" weight="0.3214" build="0.5185"  key="000A0000000000023876641B53544A305175855275113609DCB177278B849667009566030953543500000000000000000000000000000000000000003F2C3002"  />
+		</face>
+		<skills>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="90"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="100"/>
+			<skill id="Athletics" value="100"/>
+			<skill id="Scouting" value="80"/>
+			<skill id="Tactics" value="80"/>
+			<skill id="Roguery" value="30"/>
+			<skill id="Charm" value="60"/>
+			<skill id="Leadership" value="80"/>
+			<skill id="Trade" value="60"/>
+			<skill id="Steward" value="50"/>
+			<skill id="Medicine" value="50"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+
+
+				<equipment slot="Body"
+					   id="Item.targ_armor2" />
+				<equipment slot="Head"
+					   id="Item." />
+				<equipment slot="Gloves"
+					   id="Item.targ_gauntlets" />
+				<equipment slot="Leg"
+					   id="Item.targ_plate_boots" />
+
+
+
+
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+					   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+					   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+					   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="ROTwanderer42" name="Daemon Sand" age="25" voice="curt" is_female="false" culture="Culture.aserai"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="22" weight="0.4214" build="0.5185"  key="00131005400002C53876641B53544A305165855275113609DCB177278B849667008666030877147800000000000000000000000000000000000000003F1C3002"  />
+			<BodyPropertiesMax version="4" age="22" weight="0.4214" build="0.5185"  key="00131005400002C53876641B53544A305165855275113609DCB177278B849667008666030877147800000000000000000000000000000000000000003F1C3002"  />
+		</face>
+		<skills>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="140"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="90"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="100"/>
+			<skill id="Athletics" value="140"/>
+			<skill id="Scouting" value="80"/>
+			<skill id="Tactics" value="80"/>
+			<skill id="Roguery" value="30"/>
+			<skill id="Charm" value="60"/>
+			<skill id="Leadership" value="80"/>
+			<skill id="Trade" value="60"/>
+			<skill id="Steward" value="50"/>
+			<skill id="Medicine" value="50"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+
+
+				<equipment slot="Body"
+					   id="Item.dorne_plate" />
+				<equipment slot="Head"
+					   id="Item." />
+				<equipment slot="Gloves"
+					   id="Item.dorne_bracers" />
+				<equipment slot="Leg"
+					   id="Item.jon_snow_boots" />
+
+
+
+
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+					   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+					   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+					   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	
+
+
+	<NPCCharacter id="ROTwanderer44" name="Verina" age="24" voice="curt" is_female="true" culture="Culture.valyrian"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="21.61" weight="0.3804" build="0.3503" key="0008A80C40001004297664876773533523768662951132087068E8B78447A5940017860301484855000000000000000000000000000000000000000036141003"/>
+			<BodyPropertiesMax version="4" age="21.61" weight="0.3804" build="0.3503" key="0008A80C40001004297664876773533523768662951132087068E8B78447A5940017860301484855000000000000000000000000000000000000000036141003"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="70"/>
+			<skill id="Riding" value="70"/>
+			<skill id="Athletics" value="100"/>
+			<skill id="Scouting" value="80"/>
+			<skill id="Tactics" value="40"/>
+			<skill id="Roguery" value="60"/>
+			<skill id="Charm" value="40"/>
+			<skill id="Leadership" value="40"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="50"/>
+			<skill id="Medicine" value="50"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.short_sword_t3" />
+				<equipment slot="Item1"
+						   id="Item.gladius_b" />
+				
+				<equipment slot="Body"
+						   id="Item.leather_scale_armor" />
+				<equipment slot="Head"
+						   id="Item.reach_helmet2" />
+				<equipment slot="Gloves"
+						   id="Item.leather_gloves" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+
+
+
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.tied_cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+
+	</NPCCharacter>
+	
+	<NPCCharacter id="ROTwanderer45" name="Talisa" age="21" voice="curt" is_female="true" culture="Culture.volantine"  default_group="Cavalry" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <BodyProperties version="4" age="21.61" weight="0.3804" build="0.3503" key="0029D80FC00030059476649C6B61888658B0866192335528CA564367879CA0580086660308A1197300000000000000000000000000000000000000003AFC1003"/>
+      <BodyPropertiesMax version="4" age="21.61" weight="0.3804" build="0.3503" key="0029D80FC00030059476649C6B61888658B0866192335528CA564367879CA0580086660308A1197300000000000000000000000000000000000000003AFC1003"/>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="40"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="40"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="50"/>
+      <skill id="Throwing" value="50"/>
+      <skill id="Riding" value="60"/>
+      <skill id="Athletics" value="50"/>
+      <skill id="Scouting" value="60"/>
+      <skill id="Tactics" value="30"/>
+      <skill id="Roguery" value="40"/>
+      <skill id="Charm" value="60"/>
+      <skill id="Leadership" value="30"/>
+	  <skill id="Trade" value="50"/>
+	  <skill id="Medicine" value="160"/>
+    </skills>
+    <Traits>
+      <Trait id="Calculating" value="0"/>
+      <Trait id="Generosity" value="2"/>
+      <Trait id="Honor" value="0"/>
+      <Trait id="Mercy" value="2"/>
+      <Trait id="Valor" value="0"/>
+    </Traits>
+	  <Equipments>
+		  <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+		  <EquipmentSet id="npc_companion_equipment_template_empire" />
+	  </Equipments>
+  </NPCCharacter>
+
+	<NPCCharacter id="ROTwanderer46" name="Orys Galmaren" age="32" voice="earnest"  culture="Culture.valyrian"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="32" weight="0.55" build="0.76" key="0015000FC00013434676648D67749835566D86621511323BDCB1772781898665009776030948B49500000000000000000000000000000000000000003F2C3002"/>
+			<BodyPropertiesMax version="4" age="32" weight="0.55" build="0.76" key="0015000FC00013434676648D67749835566D86621511323BDCB1772781898665009776030948B49500000000000000000000000000000000000000003F2C3002"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="Athletics" value="120"/>
+			<skill id="Crafting" value="120"/>
+			<skill id="Tactics" value="80"/>
+			<skill id="Roguery" value="20"/>
+			<skill id="Charm" value="80"/>
+			<skill id="Leadership" value="80"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="120"/>
+			<skill id="Medicine" value="50"/>
+			<skill id="Engineering" value="50"/>
+			<skill id="Scouting" value="50"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.western_2hsword_t4" />
+				
+				<equipment slot="Body"
+					   id="Item.targ_armor2" />
+				<equipment slot="Head"
+					   id="Item." />
+				<equipment slot="Gloves"
+					   id="Item.targ_gauntlets" />
+				<equipment slot="Leg"
+					   id="Item.targ_plate_boots" />
+
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="ROTwanderer47" name="Drakkon Blackfyre" age="22" voice="earnest"  culture="Culture.valyrian"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="32" weight="0.55" build="0.76" key="0015080F008810027994745D3A8465A88DCBB531D7522906A8D5996A4B76698500874003087C48A40000037F0000000F00000037049140010000000015007142"/>
+			<BodyPropertiesMax version="4" age="32" weight="0.55" build="0.76" key="0015080F008810027994745D3A8465A88DCBB531D7522906A8D5996A4B76698500874003087C48A40000037F0000000F00000037049140010000000015007142"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="Athletics" value="120"/>
+			<skill id="Crafting" value="120"/>
+			<skill id="Tactics" value="120"/>
+			<skill id="Roguery" value="20"/>
+			<skill id="Charm" value="80"/>
+			<skill id="Leadership" value="80"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="80"/>
+			<skill id="Medicine" value="120"/>
+			<skill id="Engineering" value="50"/>
+			<skill id="Scouting" value="50"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_4_t4" />
+				<equipment slot="Item1"
+						   id="Item.eastern_javelin_3_t4" />
+				<equipment slot="Item2"
+						   id="Item.reinforced_horsemans_kite_shield" />
+				<equipment slot="Body"
+					   id="Item.targ_armor2" />
+				<equipment slot="Head"
+					   id="Item." />
+				<equipment slot="Gloves"
+					   id="Item.targ_gauntlets" />
+				<equipment slot="Leg"
+					   id="Item.targ_plate_boots" />
+
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="ROTwanderer48" name="Marq Rivers" age="26" voice="earnest"  culture="Culture.river"  default_group="Ranged" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="32" weight="0.55" build="0.76" key="000A900600CC128D57C56AD47639656542D659C15B8836AE6C3A278B983BB769008A5003085912780000037F0000000F000000370491400100000000110880C2"/>
+			<BodyPropertiesMax version="4" age="32" weight="0.55" build="0.76" key="000A900600CC128D57C56AD47639656542D659C15B8836AE6C3A278B983BB769008A5003085912780000037F0000000F000000370491400100000000110880C2"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="Athletics" value="120"/>
+			<skill id="Crafting" value="80"/>
+			<skill id="Tactics" value="120"/>
+			<skill id="Roguery" value="20"/>
+			<skill id="Charm" value="80"/>
+			<skill id="Leadership" value="80"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="80"/>
+			<skill id="Medicine" value="60"/>
+			<skill id="Engineering" value="50"/>
+			<skill id="Scouting" value="120"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_4_t4" />
+				<equipment slot="Item1"
+						   id="Item.lowland_yew_bow" />
+				<equipment slot="Item2"
+						   id="Item.bodkin_arrows_b" />
+				<equipment slot="Body"
+					   id="Item.podrick_armor2" />
+				<equipment slot="Head"
+					   id="Item." />
+				<equipment slot="Gloves"
+					   id="Item.karstark_gloves" />
+				<equipment slot="Leg"
+					   id="Item.jon_snow_boots" />
+
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="ROTwanderer49" name="Kallias Aentius" age="21" voice="earnest"  culture="Culture.crownlands"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="21" weight="0.65" build="0.6" key="00151C0F00142009A383797759775783A896886AA5823288B784A675888250780099A0020976B74A0000037F0000000F000000370491400100000000432000C2"/>
+			<BodyPropertiesMax version="4" age="21" weight="0.65" build="0.6" key="00151C0F00142009A383797759775783A896886AA5823288B784A675888250780099A0020976B74A0000037F0000000F000000370491400100000000432000C2"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+			<skill id="Riding" value="40"/>
+			<skill id="Athletics" value="40"/>
+			<skill id="Crafting" value="20"/>
+			<skill id="Tactics" value="20"/>
+			<skill id="Roguery" value="20"/>
+			<skill id="Charm" value="20"/>
+			<skill id="Leadership" value="20"/>
+			<skill id="Trade" value="20"/>
+			<skill id="Steward" value="20"/>
+			<skill id="Medicine" value="20"/>
+			<skill id="Engineering" value="20"/>
+			<skill id="Scouting" value="20"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.western_2hsword_t4" />
+				<equipment slot="Item1"
+						   id="Item.northern_spear_2_t3" />
+				
+				<equipment slot="Body"
+					   id="Item.goldcloak_armor2" />
+				<equipment slot="Head"
+					   id="Item." />
+				<equipment slot="Gloves"
+					   id="Item.goldcloak_gloves" />
+				<equipment slot="Leg"
+					   id="Item.goldcloak_boots" />
+
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="ROTwanderer50" name="Montarys Talarys" age="30" voice="earnest"  culture="Culture.valyrian"  default_group="Cavalry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="32" weight="0.55" build="0.76" key="001B640D8058208586C89666BA38A2B76598A56354A6685326B35374D4B6826900A770030AC846C70000037F0000000F00000037049140010000000029484102"/>
+			<BodyPropertiesMax version="4" age="32" weight="0.55" build="0.76" key="001B640D8058208586C89666BA38A2B76598A56354A6685326B35374D4B6826900A770030AC846C70000037F0000000F00000037049140010000000029484102"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+			<skill id="Riding" value="40"/>
+			<skill id="Athletics" value="40"/>
+			<skill id="Crafting" value="20"/>
+			<skill id="Tactics" value="20"/>
+			<skill id="Roguery" value="20"/>
+			<skill id="Charm" value="20"/>
+			<skill id="Leadership" value="20"/>
+			<skill id="Trade" value="20"/>
+			<skill id="Steward" value="20"/>
+			<skill id="Medicine" value="20"/>
+			<skill id="Engineering" value="20"/>
+			<skill id="Scouting" value="20"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_4_t4" />
+				
+				<equipment slot="Item1"
+						   id="Item.reinforced_horsemans_kite_shield" />
+				<equipment slot="Body"
+					   id="Item.targ_armor2" />
+				<equipment slot="Head"
+					   id="Item." />
+				<equipment slot="Gloves"
+					   id="Item.targ_gauntlets" />
+				<equipment slot="Leg"
+					   id="Item.targ_plate_boots" />
+
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="ROTwanderer51" name="Pienner Stonetree" age="34" voice="earnest"  culture="Culture.sturgia"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="21" weight="0.47" build="0.99" key="001E7C0D9B883791467055D77A254E4D95B776466873F866945926211C90A864027F7024070042420000037F0000000F00000037049140010000000070F02042"/>
+			<BodyPropertiesMax version="4" age="21" weight="0.47" build="0.99" key="001E7C0D9B883791467055D77A254E4D95B776466873F866945926211C90A864027F7024070042420000037F0000000F00000037049140010000000070F02042"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="40"/>
+			<skill id="Athletics" value="120"/>
+			<skill id="Crafting" value="20"/>
+			<skill id="Tactics" value="20"/>
+			<skill id="Roguery" value="80"/>
+			<skill id="Charm" value="20"/>
+			<skill id="Leadership" value="20"/>
+			<skill id="Trade" value="20"/>
+			<skill id="Steward" value="20"/>
+			<skill id="Medicine" value="20"/>
+			<skill id="Engineering" value="20"/>
+			<skill id="Scouting" value="20"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.sturgia_2haxe_2_t5" />
+				<equipment slot="Item1"
+						   id="Item.reinforced_kite_shield" />
+				<equipment slot="Item2"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+					   id="Item.northern_knight_armor" />
+				
+				<equipment slot="Gloves"
+					   id="Item.stark_knight_gauntlets" />
+				<equipment slot="Leg"
+					   id="Item.stark_knight_greaves" />
+
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="ROTwanderer52" name="Bjorn Shwani" age="36" voice="earnest"  culture="Culture.battania"  default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="36" weight="0.67" build="0.79" key="0013940400E403D4D38457576D89618589937676B798C8D58D4688124716464400C770030C4645540000037F0000000F00000037049140010000000053983082"/>
+			<BodyPropertiesMax version="4" age="36" weight="0.67" build="0.79" key="0013940400E403D4D38457576D89618589937676B798C8D58D4688124716464400C770030C4645540000037F0000000F00000037049140010000000053983082"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+			<skill id="Riding" value="40"/>
+			<skill id="Athletics" value="120"/>
+			<skill id="Crafting" value="20"/>
+			<skill id="Tactics" value="20"/>
+			<skill id="Roguery" value="20"/>
+			<skill id="Charm" value="20"/>
+			<skill id="Leadership" value="20"/>
+			<skill id="Trade" value="20"/>
+			<skill id="Steward" value="20"/>
+			<skill id="Medicine" value="20"/>
+			<skill id="Engineering" value="20"/>
+			<skill id="Scouting" value="20"/>
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+
+				<equipment slot="Item0"
+						   id="Item.sturgia_2haxe_2_t5" />
+				<equipment slot="Item1"
+						   id="Item.reinforced_kite_shield" />
+				<equipment slot="Item2"
+						   id="Item.sturgia_axe_4_t4" />
+				<equipment slot="Body"
+					   id="Item.ironborn_armor" />
+				<equipment slot="Cape"
+					   id="Item.ironborn_pauldrons" />
+				<equipment slot="Gloves"
+					   id="Item.lord_gloves" />
+				<equipment slot="Leg"
+					   id="Item.ironborn_boots" />
+
+
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+</NPCCharacters>
