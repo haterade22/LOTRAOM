@@ -1558,7 +1558,7 @@
 	STEVEDIDFACE. -->
 	<NPCCharacter
 		id="lord_1_7"
-		name="{=I72U5ttG}Denethor II"
+		name="{=I72U5ttG}Denethor II, Steward of Gondor"
 		age="50"
 		voice="ironic"
 		is_hero="true"
@@ -1569,37 +1569,32 @@
 		<face>
 			<BodyProperties version="4" age="60" weight="0.4583" build="0.1343"  key="0002540F007010024A6A02B8F08300011060730012EEF7017B0B010E7E918F4500927603091485F7000000000000000000000000000000000000000021342142"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="150"/>
+			<skill id="Athletics" value="100"/>
+			<skill id="Crafting" value="80"/>
+			<skill id="Scouting" value="100"/>
+			<skill id="Tactics" value="250"/>
+			<skill id="Roguery" value="80"/>
+			<skill id="Charm" value="200"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Trade" value="150"/>
+			<skill id="Steward" value="300"/>
+			<skill id="Medicine" value="100"/>
+			<skill id="Engineering" value="150"/>
+		</skills>
 		<Traits>
-			<!-- USED TO DERIVE SKILLS-->
-			<Trait
-				id="CavalryFightingSkills"
-				value="2" />
-			<Trait
-				id="Commander"
-				value="8" />
-			<Trait
-				id="Politician"
-				value="10" />
-			<Trait
-				id="Manager"
-				value="6" />
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait
-				id="Valor"
-				value="1" />
-			<Trait
-				id="Generosity"
-				value="0" />
-			<Trait
-				id="Mercy"
-				value="-1" />
-			<Trait
-				id="Honor"
-				value="1" />
-			<Trait
-				id="Calculating"
-				value="1" />
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="0"/>
 			<Trait
 				id="Egalitarian"
 				value="0" />
@@ -1681,7 +1676,7 @@
 	000c7da440bc300e669e57882766477b8bb7397b87a7a78b85a54998ac6579dc000c586609868975000000000000000000000000000000000000000000045040-->
 	<NPCCharacter
 		id="lord_1_9"
-		name="{=QjJAbaoT}Imrahil"
+		name="{=QjJAbaoT}Imrahil, Prince of Dol Amroth"
 		age="35"
 		voice="ironic"
 		default_group="Cavalry"
@@ -1692,45 +1687,33 @@
 		<face>
 			<BodyProperties version="4" age="30" weight="0.0185" build="0.7199"  key="000A480FC00000022F70080860528544369289B2BF8A7E05776961088DB01839009B06030966530400000000000000000000000000000000000000003D3C1002"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="270"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="260"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="280"/>
+			<skill id="Athletics" value="200"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="150"/>
+			<skill id="Tactics" value="250"/>
+			<skill id="Charm" value="220"/>
+			<skill id="Leadership" value="270"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="250"/>
+			<skill id="Medicine" value="100"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="CavalryFightingSkills"
-				value="8" />
-			<Trait
-				id="Commander"
-				value="7" />
-			<Trait
-				id="Politician"
-				value="2" />
-			<Trait
-				id="Manager"
-				value="5" />
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait
-				id="Valor"
-				value="2" />
-			<Trait
-				id="Generosity"
-				value="1" />
-			<Trait
-				id="Mercy"
-				value="1" />
-			<Trait
-				id="Honor"
-				value="2" />
-			<Trait
-				id="Calculating"
-				value="0" />
-			<Trait
-				id="Egalitarian"
-				value="1" />
-			<Trait
-				id="Oligarchic"
-				value="0" />
-			<Trait
-				id="Authoritarian"
-				value="1" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster>
@@ -2700,10 +2683,11 @@
 				value="2" />
 		</Traits>
 		<Equipments>
+			<EquipmentRoster />
 			<EquipmentSet
-				id="s_emp_king_template_bat_f" />
+				id="nazgul_template" />
 			<EquipmentSet
-				id="s_emp_king_template_civ_f"
+				id="nazgul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -5596,8 +5580,8 @@
 	<!-- Lonalion clan, backs Lucon. Fierce, rather cruel warriors. -->
 	<NPCCharacter
 		id="lord_1_45"
-		name="{=7nVZgjmn}Forlong the Fat"
-		age="35"
+		name="{=7nVZgjmn}Forlong, Lord of Lossarnach"
+		age="40"
 		voice="softspoken"
 		default_group="Infantry"
 		is_hero="true"
@@ -5607,27 +5591,31 @@
 		<face>
 			<BodyProperties version="4" age="50" weight="0.9769" build="0.9861"  key="0005D40D80001A4304700800605DF10950388DB2BFEA1D017917FB0F8B00683B007FF60307911FFF00000000000000000000000000000000000000003CFC9002"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="230"/>
+			<skill id="TwoHanded" value="210"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="Athletics" value="180"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="150"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Charm" value="180"/>
+			<skill id="Leadership" value="230"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="80"/>
+			<skill id="Engineering" value="80"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="BalancedFightingSkills"
-				value="6" />
-			<Trait
-				id="Commander"
-				value="3" />
-			<Trait
-				id="Politician"
-				value="9" />
-			<Trait
-				id="Manager"
-				value="7" />
-			<!-- Desporion - Ibn tughluq type. honorable, but easily infuriated. Formerly clan 5
-			uncle. Garios-->
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="0" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
 			<Trait id="Egalitarian" value="0" />
 			<Trait id="Oligarchic" value="1" />
 			<Trait id="Authoritarian" value="1" />
@@ -6021,7 +6009,7 @@
 	<!-- Saratis. Clever, but does not like to fight. Garios -->
 	<NPCCharacter
 		id="lord_1_52"
-		name="{=6TphQddp}Hirluin the Fair"
+		name="{=6TphQddp}Hirluin, Lord of Pinnath Gelin"
 		age="35"
 		voice="ironic"
 		is_hero="true"
@@ -6032,28 +6020,30 @@
 		<face>
 			<BodyProperties version="4" age="22.11" weight="0.2176" build="0.4699"  key="000594041214000E318040336E417501E7F0868F09990035BB7979087CF51E0A00873603080BB69F1F6410605020004000000000000017670000000043144003"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="230"/>
+			<skill id="TwoHanded" value="210"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="Athletics" value="180"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="150"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Charm" value="180"/>
+			<skill id="Leadership" value="230"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="BalancedFightingSkills"
-				value="6" />
-			<Trait
-				id="Commander"
-				value="3" />
-			<Trait
-				id="Politician"
-				value="9" />
-			<Trait
-				id="Manager"
-				value="7" />
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="0" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
-			<Trait id="Egalitarian" value="0" />
-			<Trait id="Oligarchic" value="1" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster>
@@ -6265,11 +6255,11 @@
 	Garios faction -->
 	<NPCCharacter
 		id="lord_1_53"
-		name="{=3C8F07SL}Angbor the Fearless"
+		name="{=3C8F07SL}Angbor, Lord of Lamedon"
 		voice="ironic"
 		is_female="false"
 		default_group="Infantry"
-		age="33"
+		age="37"
 		is_hero="true"
 		culture="Culture.gondor"
 		occupation="Lord"
@@ -6277,25 +6267,30 @@
 		<face>
 			<BodyProperties version="4" age="40" weight="0" build="0.7037"  key="000A140D801439C2A880010FB2807808943182694044AB107776900C8D96EA0900AB06030A9D9F080000000000000000000000000000000000000000194C9002"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="210"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="Athletics" value="180"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="150"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Charm" value="180"/>
+			<skill id="Leadership" value="230"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="KnightFightingSkills"
-				value="8" />
-			<Trait
-				id="Commander"
-				value="4" />
-			<Trait
-				id="Politician"
-				value="10" />
-			<Trait
-				id="Manager"
-				value="9" />
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="0" />
-			<Trait id="Mercy" value="-1" />
-			<Trait id="Honor" value="1" />
-			<Trait id="Calculating" value="1" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
 			<Trait id="Egalitarian" value="0" />
 			<Trait id="Oligarchic" value="1" />
 			<Trait id="Authoritarian" value="1" />
@@ -6851,7 +6846,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_1_59_2"
-		name="{=6TphQddp}Dervorin"
+		name="{=6TphQddp}Dervorin, Lord of Ringló Vale"
 		age="38"
 		voice="ironic"
 		is_hero="true"
@@ -6869,25 +6864,30 @@
 				build="0.98"
 				key="00027001400001C3547317A5A360004400318908384666579918711981B003170099060309683B0632430001330223550000000000001977000000004D347002" />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="210"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="Athletics" value="180"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="150"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Charm" value="180"/>
+			<skill id="Leadership" value="230"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="BalancedFightingSkills"
-				value="6" />
-			<Trait
-				id="Commander"
-				value="3" />
-			<Trait
-				id="Politician"
-				value="9" />
-			<Trait
-				id="Manager"
-				value="7" />
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="0" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
 			<Trait id="Egalitarian" value="0" />
 			<Trait id="Oligarchic" value="1" />
 			<Trait id="Authoritarian" value="1" />
@@ -7429,9 +7429,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="nazgul_template" />
+				id="khamul_template" />
 			<EquipmentSet
-				id="nazgul_template_civ"
+				id="khamul_template_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -8935,8 +8935,8 @@
 	<!-- Vincantios, somewhat dull clan leader and his much sharper sister -->
 	<NPCCharacter
 		id="lord_WE9_l"
-		name="{=xfSKiKl1}Duinhir"
-		age="58"
+		name="{=xfSKiKl1}Duinhir, Lord of Morthond"
+		age="50"
 		voice="curt"
 		default_group="Infantry"
 		is_hero="true"
@@ -8946,59 +8946,38 @@
 		<face>
 			<BodyProperties version="4" age="35" weight="0.3588" build="0.4884"  key="000A580E401403C201810D5A6209FC0C85E4826975040B007556440C6BC8A90200B756030B13BA9100000000000000000000000000000000000000003B643002"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Crafting" value="80"/>
+			<skill id="Scouting" value="200"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Charm" value="180"/>
+			<skill id="Leadership" value="230"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="100"/>
+			<skill id="Engineering" value="80"/>
+			<skill id="Roguery" value="50"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="KnightFightingSkills"
-				value="2" />
-			<Trait
-				id="Commander"
-				value="5" />
-			<Trait
-				id="Politician"
-				value="10" />
-			<Trait
-				id="Manager"
-				value="4" />
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait
-				id="Valor"
-				value="2" />
-			<Trait
-				id="Generosity"
-				value="1" />
-			<Trait
-				id="Mercy"
-				value="0" />
-			<Trait
-				id="Honor"
-				value="2" />
-			<Trait
-				id="Calculating"
-				value="1" />
-			<Trait
-				id="Egalitarian"
-				value="0" />
-			<Trait
-				id="Oligarchic"
-				value="1" />
-			<Trait
-				id="Authoritarian"
-				value="1" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
 		</Traits>
-
 		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item1" id="Item.anduril" />
-				<equipment slot="Item2" id="Item.gond_shld2" />
-				<equipment slot="Head" id="Item.gondor_nobke_helmet" />
-				<equipment slot="Body" id="Item.gondor_armor" />
-				<equipment slot="Gloves" id="Item.gondor_nobke_bracers" />
-				<equipment slot="Leg" id="Item.gondor_boots" />
-				<equipment slot="Cape" id="Item.gondor_pauldrons" />
-			</EquipmentRoster>
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="gondor_bat_template_medium" />
+			<EquipmentSet
+				id="gondor_civ_template_default"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -9060,13 +9039,11 @@
 				id="Authoritarian"
 				value="1" />
 		</Traits>
-
 		<Equipments>
-			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_stoic" />
+				id="gondor_bat_template_medium" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="gondor_civ_template_default"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -14270,7 +14247,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Derthert, weary king -->
 	<NPCCharacter
 		id="lord_4_1"
-		name="{=jEIsVazl}Théoden"
+		name="{=jEIsVazl}Théoden, King of Rohan"
 		age="45"
 		voice="ironic"
 		default_group="Cavalry"
@@ -14283,20 +14260,30 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				version="4"
 				key="0005280140001242947E068A709500460C7250703EB70F135C85021887733A070089B6030822BA9000000000000000000000000000000000000000003F1C7002" />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="280"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="270"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="300"/>
+			<skill id="Athletics" value="200"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="150"/>
+			<skill id="Tactics" value="280"/>
+			<skill id="Charm" value="200"/>
+			<skill id="Leadership" value="300"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="250"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<!-- USED TO DERIVE SKILLS -->
-			<Trait id="CavalryFightingSkills" value="8" />
-			<Trait id="Commander" value="10" />
-			<Trait id="Manager" value="5" />
-			<Trait id="Politician" value="2" />
-
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="1" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
 			<Trait id="Egalitarian" value="0" />
 			<Trait id="Oligarchic" value="1" />
 			<Trait id="Authoritarian" value="2" />
@@ -14387,8 +14374,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Aldric, patriarch of clan 2. Weak, not especially cruel -->
 	<NPCCharacter
 		id="lord_4_3"
-		name="{=vEsKYrFR}Éomund"
-		age="39"
+		name="{=vEsKYrFR}Éomund, Lord of Aldburg"
+		age="38"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
@@ -14398,23 +14385,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="34.16" weight="0.0069" build="0.3148"  key="0005B000800013030F70090F0A31DC03A91A866240AB0603945600088DA15707009506030965940300000000000000000000000000000000000000003D341002"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="260"/>
+			<skill id="TwoHanded" value="230"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="90"/>
+			<skill id="Throwing" value="110"/>
+			<skill id="Riding" value="280"/>
+			<skill id="Athletics" value="190"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="140"/>
+			<skill id="Tactics" value="230"/>
+			<skill id="Charm" value="190"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<!-- USED TO DERIVE SKILLS -->
-			<Trait id="CavalryFightingSkills" value="8" />
-			<Trait id="Commander" value="5" />
-			<Trait id="Manager" value="8" />
-			<Trait id="Politician" value="10" />
-
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="0" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
-			<Trait id="Egalitarian" value="1" />
-			<Trait id="Oligarchic" value="1" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -14427,7 +14424,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_4_3_1"
-		name="{=vEsKYrFR}Éomer"
+		name="{=vEsKYrFR}Éomer, Marshal of Rohan"
 		age="21"
 		voice="ironic"
 		default_group="Cavalry"
@@ -14443,19 +14440,30 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				key="0002B404000011826B700D6F80961035305E80B2BFEB0E00775161048C771F0400AB36030A62AA0300000000000000000000000000000000000000003D447002" />
 		</face>
 		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="270"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="260"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="150"/>
+			<skill id="Riding" value="280"/>
+			<skill id="Athletics" value="220"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="150"/>
+			<skill id="Tactics" value="250"/>
+			<skill id="Charm" value="180"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Trade" value="80"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<!-- USED TO DERIVE SKILLS -->
-			<Trait id="CavalryFightingSkills" value="8" />
-			<Trait id="Commander" value="5" />
-			<Trait id="Manager" value="8" />
-			<Trait id="Politician" value="10" />
-
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="0" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
 			<Trait id="Egalitarian" value="1" />
 			<Trait id="Oligarchic" value="1" />
 			<Trait id="Authoritarian" value="1" />
@@ -14471,7 +14479,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_4_3_2"
-		name="{=36Y88cTv}Éowyn"
+		name="{=36Y88cTv}Éowyn, Shieldmaiden of Rohan"
 		age="18"
 		voice="ironic"
 		is_female="true"
@@ -14487,23 +14495,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				build="0.5"
 				key="0011A407144400062897A829649497DB8C988BB9BCD4B379A5868D485A689A9A0167761306297985000000000000000000000000000000000000000038D42003" />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="230"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="270"/>
+			<skill id="Athletics" value="200"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="150"/>
+			<skill id="Tactics" value="220"/>
+			<skill id="Charm" value="200"/>
+			<skill id="Leadership" value="240"/>
+			<skill id="Trade" value="80"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="100"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="Commander"
-				value="6" />
-			<Trait
-				id="Politician"
-				value="4" />
-			<Trait
-				id="Manager"
-				value="10" />
-			<Trait
-				id="Generosity"
-				value="1" />
-			<Trait
-				id="Honor"
-				value="-1" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -14516,7 +14534,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_4_3_3"
-		name="{=36Y88cTv}Théodwyn"
+		name="{=36Y88cTv}Théodwyn, Lady of Aldburg"
 		age="26"
 		voice="ironic"
 		is_female="true"
@@ -14528,23 +14546,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="22.16" weight="0.1852" build="0.7199"  key="0000240011B40004007033909950BA113BEE80A17FBF0E017751B80B8C7D1F04007B36030763A11700000000000000000000000000000000000000003CF420C3"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Crafting" value="80"/>
+			<skill id="Scouting" value="100"/>
+			<skill id="Tactics" value="150"/>
+			<skill id="Charm" value="220"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Trade" value="120"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="150"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="Commander"
-				value="6" />
-			<Trait
-				id="Politician"
-				value="4" />
-			<Trait
-				id="Manager"
-				value="10" />
-			<Trait
-				id="Generosity"
-				value="1" />
-			<Trait
-				id="Honor"
-				value="-1" />
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -14648,7 +14676,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Countess Calatild, leader of clan 3. Rigid -->
 	<NPCCharacter
 		id="lord_4_6"
-		name="{=KsBoNHW5}Grimbold"
+		name="{=KsBoNHW5}Grimbold, Lord of Grimslade"
 		age="30"
 		voice="curt"
 		default_group="Cavalry"
@@ -14660,23 +14688,37 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties
 				version="4"
-				weight="0.38"
-				build="0.1644"
-				key="0000500FC0CC100378A061BC61A180068D4BA177F0C1E601B0FF1B008FE78B00007276030720F81100000000000000000000000000000000000000003AF40102" />
+				weight="0.01"
+				build="0.61"
+				key="0002B00000001345DD80090A71069A53BF55834D3FC9DF00500D53098CC0F04800A906030AAAA15A00000000000000000000000000000000000000003F4C3002" />
 		</face>
+		<skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="230"/>
+			<skill id="Polearm" value="240"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="90"/>
+			<skill id="Throwing" value="110"/>
+			<skill id="Riding" value="270"/>
+			<skill id="Athletics" value="190"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="140"/>
+			<skill id="Tactics" value="230"/>
+			<skill id="Charm" value="190"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="3" />
-			<Trait id="Commander" value="2" />
-			<Trait id="Manager" value="5" />
-			<Trait id="Politician" value="8" />
-			<Trait id="Valor" value="-2" />
-			<Trait id="Generosity" value="-1" />
-			<Trait id="Mercy" value="-1" />
-			<Trait id="Honor" value="-2" />
-			<Trait id="Calculating" value="2" />
-			<Trait id="Egalitarian" value="-1" />
-			<Trait id="Oligarchic" value="1" />
-			<Trait id="Authoritarian" value="2" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet
@@ -14769,8 +14811,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Alary, heir to Vlandian clan 1. Skilled and driven, but unimaginative -->
 	<NPCCharacter
 		id="lord_4_7"
-		name="{=bHTdXTwC}Théodred"
-		age="21"
+		name="{=bHTdXTwC}Théodred, Heir of Rohan"
+		age="31"
 		voice="earnest"
 		default_group="Cavalry"
 		is_hero="true"
@@ -14784,22 +14826,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				build="0.5"
 				key="00052C028000000200752A737881DC04A918866245A806069451821B8F4319050097260309119F0800000000000000000000000000000000000000003D2C2002" />
 		</face>
+		<skills>
+			<skill id="OneHanded" value="270"/>
+			<skill id="TwoHanded" value="240"/>
+			<skill id="Polearm" value="260"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="290"/>
+			<skill id="Athletics" value="200"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="150"/>
+			<skill id="Tactics" value="250"/>
+			<skill id="Charm" value="200"/>
+			<skill id="Leadership" value="270"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="230"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<!-- USED TO DERIVE SKILLS -->
-			<Trait id="CavalryFightingSkills" value="7" />
-			<Trait id="Commander" value="8" />
-			<Trait id="Manager" value="10" />
-			<Trait id="Politician" value="9" />
-
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="1" />
-			<Trait id="Honor" value="1" />
-			<Trait id="Calculating" value="0" />
-			<Trait id="Egalitarian" value="1" />
-			<Trait id="Oligarchic" value="0" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 				<EquipmentRoster>
@@ -15360,8 +15413,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Ingalther, William character -->
 	<NPCCharacter
 		id="lord_4_16"
-		name="{=iaUQ9lt9}Erkenbrand"
-		age="42"
+		name="{=iaUQ9lt9}Erkenbrand, Lord of the Westfold"
+		age="40"
 		voice="curt"
 		default_group="Cavalry"
 		is_hero="true"
@@ -15371,20 +15424,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="47.16" weight="1" build="0.6157"  key="000AD40000001343EE7E000F4AAB0022AB5E70F090EDE6067446100F8B5B0F080099F60309F6E0FE00000000000000000000000000000000000000003D2C7002"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="260"/>
+			<skill id="TwoHanded" value="240"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="90"/>
+			<skill id="Throwing" value="110"/>
+			<skill id="Riding" value="280"/>
+			<skill id="Athletics" value="190"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="140"/>
+			<skill id="Tactics" value="230"/>
+			<skill id="Charm" value="190"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="8" />
-			<Trait id="Commander" value="5" />
-			<Trait id="Manager" value="10" />
-			<Trait id="Politician" value="8" />
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="0" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
-			<Trait id="Egalitarian" value="1" />
-			<Trait id="Oligarchic" value="1" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -15448,7 +15514,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_4_16_2"
-		name="{=iaUQ9lt9}Herubrand"
+		name="{=iaUQ9lt9}Herubrand, Lord of Westfold"
 		age="19"
 		voice="curt"
 		default_group="Cavalry"
@@ -15763,7 +15829,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Ospir, conventionally martial -->
 	<NPCCharacter
 		id="lord_4_21"
-		name="{=LwbqCwne}Cuthræd"
+		name="{=LwbqCwne}Cuthræd, Lord of East-mark"
 		age="48"
 		voice="earnest"
 		default_group="Cavalry"
@@ -15777,20 +15843,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			/-->
 			<BodyProperties version="4" age="50.16" weight="0.7222" build="0.5995"  key="000218000000394336706B475208F01E9F1686E2F9C7C211D1617519811A11190099B6030948B49500000000000000000000000000000000000000003F2C3002"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="230"/>
+			<skill id="Polearm" value="240"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="90"/>
+			<skill id="Throwing" value="110"/>
+			<skill id="Riding" value="270"/>
+			<skill id="Athletics" value="190"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="140"/>
+			<skill id="Tactics" value="230"/>
+			<skill id="Charm" value="190"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="6" />
-			<Trait id="Commander" value="2" />
-			<Trait id="Manager" value="4" />
-			<Trait id="Politician" value="9" />
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="1" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
-			<Trait id="Egalitarian" value="1" />
-			<Trait id="Oligarchic" value="0" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -15803,8 +15882,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_4_21_1"
-		name="{=LwbqCwne}Siegeberht"
-		age="20"
+		name="{=LwbqCwne}Siegeberht, Lord of East-mark"
+		age="30"
 		voice="earnest"
 		default_group="Cavalry"
 		is_hero="true"
@@ -15817,20 +15896,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			/-->
 			<BodyProperties version="4" age="22.16" weight="0.2778" build="0.3148"  key="000A3C02800031832F708B47F200F05E901E86E2FE61320BD16505198B2A8111008546030846B09500000000000000000000000000000000000000003F145002"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="240"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="230"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="100"/>
+			<skill id="Riding" value="260"/>
+			<skill id="Athletics" value="180"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="130"/>
+			<skill id="Tactics" value="210"/>
+			<skill id="Charm" value="180"/>
+			<skill id="Leadership" value="230"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="6" />
-			<Trait id="Commander" value="2" />
-			<Trait id="Manager" value="4" />
-			<Trait id="Politician" value="9" />
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="1" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
-			<Trait id="Egalitarian" value="1" />
-			<Trait id="Oligarchic" value="0" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -15843,7 +15935,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_4_21_2"
-		name="{=KxvbFSnm}Elfhild"
+		name="{=KxvbFSnm}Elfhild, Lady of East-mark"
 		is_female="true"
 		age="19"
 		voice="softspoken"
@@ -15854,13 +15946,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" age="33.16" weight="0.3102" build="0.7199"  key="000810009114301590700780D492773138FE80A17FBF02027751B10B8C7A1F0400AB56030A6BA31900000000000000000000000000000000000000003D442003"  />	</face>
+		<skills>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Crafting" value="80"/>
+			<skill id="Scouting" value="100"/>
+			<skill id="Tactics" value="150"/>
+			<skill id="Charm" value="220"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Trade" value="120"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="150"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="Manager"
-				value="8" />
-			<Trait
-				id="Generosity"
-				value="1" />
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -15873,8 +15985,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_4_21_3"
-		name="{=LwbqCwne}Ulfeytel"
-		age="15"
+		name="{=LwbqCwne}Ulfeytel, Lord of East-mark"
+		age="19"
 		voice="earnest"
 		default_group="Cavalry"
 		is_hero="true"
@@ -15887,20 +15999,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			/-->
 			<BodyProperties version="4" age="16.16" weight="0.7292" build="0.4074"  key="00023C028000000320703B47F209A05A5A8E8361FE95BB27D16502178B2A81110096B6030948E0B500000000000000000000000000000000000000003F341002"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="240"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="230"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="100"/>
+			<skill id="Riding" value="260"/>
+			<skill id="Athletics" value="180"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="130"/>
+			<skill id="Tactics" value="210"/>
+			<skill id="Charm" value="180"/>
+			<skill id="Leadership" value="230"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="6" />
-			<Trait id="Commander" value="2" />
-			<Trait id="Manager" value="4" />
-			<Trait id="Politician" value="9" />
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="1" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
-			<Trait id="Egalitarian" value="1" />
-			<Trait id="Oligarchic" value="0" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -15913,9 +16038,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_4_21_4"
-		name="{=KxvbFSnm}Eadgifu"
+		name="{=KxvbFSnm}Eadgifu, Lady of East-mark"
 		is_female="true"
-		age="45"
+		age="40"
 		voice="softspoken"
 		default_group="Cavalry"
 		is_hero="true"
@@ -15925,13 +16050,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="40.15" weight="0.7593" build="0.5"  key="00052C0200FC000D4080100EE018F005974F87629E913201A009041F8A8706610077B603070CEAF000000000000000000000000000000000000000003EFC1003"  />
 		</face>
+		<skills>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Crafting" value="80"/>
+			<skill id="Scouting" value="100"/>
+			<skill id="Tactics" value="150"/>
+			<skill id="Charm" value="220"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Trade" value="120"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="150"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="Manager"
-				value="8" />
-			<Trait
-				id="Generosity"
-				value="1" />
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -15945,7 +16090,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Servic, charming but dangerous -->
 	<NPCCharacter
 		id="lord_4_22"
-		name="{=a4E2pVDA}Wulf"
+		name="{=a4E2pVDA}Wulf, Lord of Westfold"
 		age="41"
 		voice="softspoken"
 		default_group="Cavalry"
@@ -15959,20 +16104,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			/-->
 			<BodyProperties version="4" age="40.16" weight="0.7292" build="0.4074"  key="00050806C00017822070081EF773F1B4A05380615D95FB11D1650217800A61110096B6030948E0B500000000000000000000000000000000000000003F349002"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="230"/>
+			<skill id="Polearm" value="240"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="90"/>
+			<skill id="Throwing" value="110"/>
+			<skill id="Riding" value="270"/>
+			<skill id="Athletics" value="190"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="140"/>
+			<skill id="Tactics" value="230"/>
+			<skill id="Charm" value="190"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="8" />
-			<Trait id="Commander" value="5" />
-			<Trait id="Manager" value="10" />
-			<Trait id="Politician" value="8" />
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="1" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
-			<Trait id="Egalitarian" value="1" />
-			<Trait id="Oligarchic" value="0" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -15985,7 +16143,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_4_22_1"
-		name="{=ioDNXwba}Sunnifa"
+		name="{=ioDNXwba}Sunnifa, Lady of Westfold"
 		is_female="true"
 		age="35"
 		voice="softspoken"
@@ -15997,26 +16155,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="40.15" weight="0.2639" build="0.7222"  key="000D3C0140FC0001E08010E3E2E7E2117EF887621E988104A009041F8A870A07009B4603090CE6F500000000000000000000000000000000000000003F1C2003"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Crafting" value="80"/>
+			<skill id="Scouting" value="100"/>
+			<skill id="Tactics" value="150"/>
+			<skill id="Charm" value="220"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Trade" value="120"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="150"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="Commander"
-				value="2" />
-			<Trait
-				id="Politician"
-				value="6" />
-			<Trait
-				id="Manager"
-				value="10" />
-			<Trait
-				id="Valor"
-				value="-1" />
-			<Trait
-				id="Honor"
-				value="-1" />
-			<Trait
-				id="Calculating"
-				value="+1" />
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -16030,8 +16195,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Belgir, bad-tempered -->
 	<NPCCharacter
 		id="lord_4_23"
-		name="{=T2JS44bJ}Marhath"
-		age="53"
+		name="{=T2JS44bJ}Marhath, Lord of Eastfold"
+		age="49"
 		voice="curt"
 		default_group="Cavalry"
 		is_hero="true"
@@ -16039,21 +16204,34 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
-			<BodyProperties version="4" age="60.16" weight="0" build="0.6134"  key="00020800000013810070FB1FF911EFBBE0238BA15DDCF5450019011F890AB111008906030818E00800000000000000000000000000000000000000003F145002"  />	</face>
-		<skills></skills>
+			<BodyProperties version="4" age="49.16" weight="0" build="0.6134"  key="00020800000013810070FB1FF911EFBBE0238BA15DDCF5450019011F890AB111008906030818E00800000000000000000000000000000000000000003F145002"  />	</face>
+		<skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="230"/>
+			<skill id="Polearm" value="240"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="90"/>
+			<skill id="Throwing" value="110"/>
+			<skill id="Riding" value="270"/>
+			<skill id="Athletics" value="190"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="140"/>
+			<skill id="Tactics" value="230"/>
+			<skill id="Charm" value="190"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="7" />
-			<Trait id="Commander" value="4" />
-			<Trait id="Manager" value="9" />
-			<Trait id="Politician" value="8" />
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="0" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
-			<Trait id="Egalitarian" value="1" />
-			<Trait id="Oligarchic" value="1" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -16109,7 +16287,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Belgir's other daughter -->
 	<NPCCharacter
 		id="lord_4_23_2"
-		name="{=codK1ezX}Eleduran"
+		name="{=codK1ezX}Eleduran, Lord of Eastfold"
 		age="19"
 		voice="curt"
 		is_female="false"
@@ -16201,7 +16379,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Hecard, martial. Attentive to his men but ruthless -->
 	<NPCCharacter
 		id="lord_4_24"
-		name="{=6ZQ8nUwj}Grima"
+		name="{=6ZQ8nUwj}Gríma, Wormtongue"
 		age="23"
 		voice="curt"
 		default_group="Cavalry"
@@ -16212,24 +16390,37 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties
 				version="4"
-				weight="0.01"
-				build="0.61"
-				key="0002B00000001345DD80090A71069A53BF55834D3FC9DF00500D53098CC0F04800A906030AAAA15A00000000000000000000000000000000000000003F4C3002" />
+				weight="0.38"
+				build="0.1644"
+				key="0000500FC0CC100378A061BC61A180068D4BA177F0C1E601B0FF1B008FE78B00007276030720F81100000000000000000000000000000000000000003AF40102" />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="150"/>
+			<skill id="Athletics" value="120"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="100"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Charm" value="250"/>
+			<skill id="Leadership" value="150"/>
+			<skill id="Trade" value="150"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="9" />
-			<Trait id="Commander" value="6" />
-			<Trait id="Manager" value="2" />
-			<Trait id="Politician" value="10" />
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="1" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
-			<Trait id="Egalitarian" value="1" />
-			<Trait id="Oligarchic" value="0" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -16386,8 +16577,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Clan 9, Dey Jelind. Vartin, debauched. -->
 	<NPCCharacter
 		id="lord_4_27"
-		name="{=8LuUksQg}Ælle"
-		age="46"
+		name="{=8LuUksQg}Ælle, Lord of Westfold"
+		age="40"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
@@ -16399,19 +16590,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			value="000c73f31a0003cd33bd62c7862c39599c824998719e7eb543b588b88b13688b0007c2af855a1122000000000000000000000000000000000000000000000000"
 			/-->
 			<BodyProperties version="4" age="40.16" weight="0.4491" build="0.7222"  key="000A14080000168200800A1F0530F00E660F8960B08860020019011F8E0BA101008B76030805E60600000000000000000000000000000000000000003F049002"  />		</face>
+		<skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="230"/>
+			<skill id="Polearm" value="240"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="90"/>
+			<skill id="Throwing" value="110"/>
+			<skill id="Riding" value="270"/>
+			<skill id="Athletics" value="190"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="140"/>
+			<skill id="Tactics" value="230"/>
+			<skill id="Charm" value="190"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="6" />
-			<Trait id="Commander" value="2" />
-			<Trait id="Manager" value="9" />
-			<Trait id="Politician" value="8" />
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="0" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
-			<Trait id="Egalitarian" value="1" />
-			<Trait id="Oligarchic" value="0" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -16498,7 +16703,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_4_27_3"
-		name="{=dqSpWdO9}Ælfwynn"
+		name="{=dqSpWdO9}Ælfwynn, Lady of Westfold"
 		age="19"
 		voice="curt"
 		is_female="true"
@@ -16510,17 +16715,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="35.15" weight="0.3565" build="0.6042"  key="000A300280143004B08001420BC1D041A76A806C0FC77001A789101B8A871B99007956030706EF0C00000000000000000000000000000000000000003EEC1003"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Crafting" value="80"/>
+			<skill id="Scouting" value="100"/>
+			<skill id="Tactics" value="150"/>
+			<skill id="Charm" value="220"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Trade" value="120"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="150"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="Manager"
-				value="6" />
-			<Trait
-				id="Generosity"
-				value="-1" />
-			<Trait
-				id="Mercy"
-				value="-1" />
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -16533,8 +16754,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_4_27_4"
-		name="{=8LuUksQg}Sæweald"
-		age="17"
+		name="{=8LuUksQg}Sæweald, Lord of Westfold"
+		age="19"
 		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
@@ -16544,19 +16765,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="17.16" weight="0.5741" build="0.4699"  key="000A60080000100510806F61F007FF07B8058C60D0646C0460194B168B50D104008796030854C59E00000000000000000000000000000000000000003EFC2002"  />
 		</face>
+		<skills>
+			<skill id="OneHanded" value="240"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="230"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="100"/>
+			<skill id="Riding" value="260"/>
+			<skill id="Athletics" value="180"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="130"/>
+			<skill id="Tactics" value="210"/>
+			<skill id="Charm" value="180"/>
+			<skill id="Leadership" value="230"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="6" />
-			<Trait id="Commander" value="2" />
-			<Trait id="Manager" value="9" />
-			<Trait id="Politician" value="8" />
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="0" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
-			<Trait id="Egalitarian" value="1" />
-			<Trait id="Oligarchic" value="0" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -16570,7 +16805,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Ecarand, rigid but kind. -->
 	<NPCCharacter
 		id="lord_4_28"
-		name="{=BVNCWAai}Fasthelm"
+		name="{=BVNCWAai}Fasthelm, Lord of Eastfold"
 		age="30"
 		voice="curt"
 		default_group="Cavalry"
@@ -16581,22 +16816,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="22.16" weight="0" build="0.5"  key="0008D40A400010149E70FF0790609008AB9D709070EF9600744D70098DB2D404007706030707A09500000000000000000000000000000000000000003CF47042"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="230"/>
+			<skill id="Polearm" value="240"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="90"/>
+			<skill id="Throwing" value="110"/>
+			<skill id="Riding" value="270"/>
+			<skill id="Athletics" value="190"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="140"/>
+			<skill id="Tactics" value="230"/>
+			<skill id="Charm" value="190"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<!-- USED TO DERIVE SKILLS -->
-			<Trait id="KnightFightingSkills" value="8" />
-			<Trait id="Commander" value="5" />
-			<Trait id="Manager" value="2" />
-			<Trait id="Politician" value="8" />
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="0" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
-			<Trait id="Egalitarian" value="1" />
-			<Trait id="Oligarchic" value="0" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -16767,7 +17013,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_4_29_1"
-		name="{=dqSpWdO9}Octreda"
+		name="{=dqSpWdO9}Octreda, Lady of Eastfold"
 		age="40"
 		voice="curt"
 		is_female="true"
@@ -16779,17 +17025,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="47.15" weight="0.4514" build="0.6806"  key="00022C029100300D9280000694B5E006C014C590007DB103A428260C8B9B1B06008A76030805BC6200000000000000000000000000000000000000003F140003"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Crafting" value="80"/>
+			<skill id="Scouting" value="100"/>
+			<skill id="Tactics" value="150"/>
+			<skill id="Charm" value="220"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Trade" value="120"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="150"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="Manager"
-				value="6" />
-			<Trait
-				id="Generosity"
-				value="-1" />
-			<Trait
-				id="Mercy"
-				value="-1" />
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -16838,7 +17100,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_V11_l"
-		name="{=5g54Smqk}Léomund"
+		name="{=5g54Smqk}Léomund, Lord of Westfold"
 		age="45"
 		voice="curt"
 		is_female="false"
@@ -16849,19 +17111,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" age="40.16" weight="0.4306" build="0.4699"  key="0005CC0D800013436E8F6EF11905A009717CC2604DB77E03C01904008E50E60400776603075AC59900000000000000000000000000000000000000003EFC1002"  />	</face>
+		<skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="230"/>
+			<skill id="Polearm" value="240"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="90"/>
+			<skill id="Throwing" value="110"/>
+			<skill id="Riding" value="270"/>
+			<skill id="Athletics" value="190"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="140"/>
+			<skill id="Tactics" value="230"/>
+			<skill id="Charm" value="190"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="9" />
-			<Trait id="Commander" value="6" />
-			<Trait id="Manager" value="2" />
-			<Trait id="Politician" value="10" />
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="0" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
-			<Trait id="Egalitarian" value="1" />
-			<Trait id="Oligarchic" value="0" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -16874,7 +17150,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_V11_l_1"
-		name="{=ujbkd52l}Wynnðryð"
+		name="{=ujbkd52l}Wynnðryð, Lady of Westfold"
 		age="44"
 		voice="ironic"
 		is_female="true"
@@ -16886,27 +17162,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="33.15" weight="0.4514" build="0.6806"  key="000D300290B41004378E608F0B4200049464C53A05CDD001A00C491C89F71BA6007A7603070023F400000000000000000000000000000000000000003EFC1003"  />
 		</face>
+		<skills>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Crafting" value="80"/>
+			<skill id="Scouting" value="100"/>
+			<skill id="Tactics" value="150"/>
+			<skill id="Charm" value="220"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Trade" value="120"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="150"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="Politician"
-				value="4" />
-			<Trait
-				id="Manager"
-				value="6" />
-			<!--Daughter
-			of the clan. Somewhat unsatisfied in her current circumstances -->
-			<Trait
-				id="Mercy"
-				value="1" />
-			<Trait
-				id="Calculating"
-				value="1" />
-			<Trait
-				id="Honor"
-				value="-1" />
-			<Trait
-				id="Egalitarian"
-				value="1" />
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -16955,8 +17237,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_V11_l_3"
-		name="{=5g54Smqk}Léobrand"
-		age="17"
+		name="{=5g54Smqk}Léobrand, Lord of Westfold"
+		age="19"
 		voice="curt"
 		is_female="false"
 		default_group="Cavalry"
@@ -16967,19 +17249,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="22.16" weight="0.3704" build="0.5926"  key="000AC40C400010026E8116E1190BE10981FFBA60BD97563353567D083E57B60000896603081AD0F900000000000000000000000000000000000000003F141002"  />
 		</face>
+		<skills>
+			<skill id="OneHanded" value="240"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="230"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="100"/>
+			<skill id="Riding" value="260"/>
+			<skill id="Athletics" value="180"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="130"/>
+			<skill id="Tactics" value="210"/>
+			<skill id="Charm" value="180"/>
+			<skill id="Leadership" value="230"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="9" />
-			<Trait id="Commander" value="6" />
-			<Trait id="Manager" value="2" />
-			<Trait id="Politician" value="10" />
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="0" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="0" />
-			<Trait id="Egalitarian" value="1" />
-			<Trait id="Oligarchic" value="0" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -16992,7 +17288,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_V11_l_4"
-		name="{=ujbkd52l}Léowynn"
+		name="{=ujbkd52l}Léowynn, Lady of Westfold"
 		age="13"
 		voice="ironic"
 		is_female="true"
@@ -17004,27 +17300,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="16.15" weight="0.4514" build="0.6806"  key="000DB40D901410042780000001440004C014C59A097D4102A74FF90C8B9B1B06007A76030700281400000000000000000000000000000000000000003EFC1003"  />
 		</face>
+		<skills>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Crafting" value="80"/>
+			<skill id="Scouting" value="100"/>
+			<skill id="Tactics" value="150"/>
+			<skill id="Charm" value="220"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Trade" value="120"/>
+			<skill id="Steward" value="220"/>
+			<skill id="Medicine" value="150"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="Politician"
-				value="4" />
-			<Trait
-				id="Manager"
-				value="6" />
-			<!--Daughter
-			of the clan. Somewhat unsatisfied in her current circumstances -->
-			<Trait
-				id="Mercy"
-				value="1" />
-			<Trait
-				id="Calculating"
-				value="1" />
-			<Trait
-				id="Honor"
-				value="-1" />
-			<Trait
-				id="Egalitarian"
-				value="1" />
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -21244,8 +21546,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!-- Bit Durin -->
 	<NPCCharacter
 		id="lord_E1_1"
-		name="{=dain}Dáin"
-		age="32"
+		name="{=dain}Dáin Ironfoot, King of Erebor"
+		age="38"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.erebor"
@@ -21264,25 +21566,30 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
 		</face>
 		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="260"/>
+			<skill id="TwoHanded" value="280"/>
+			<skill id="Polearm" value="240"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="150"/>
+			<skill id="Riding" value="100"/>
+			<skill id="Athletics" value="220"/>
+			<skill id="Crafting" value="200"/>
+			<skill id="Scouting" value="100"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Charm" value="150"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Trade" value="150"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="KnightFightingSkills"
-				value="10" />
-			<Trait
-				id="Commander"
-				value="8" />
-			<Trait
-				id="Politician"
-				value="8" />
-			<Trait
-				id="Manager"
-				value="10" />
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="1" />
-			<Trait id="Mercy" value="0" />
-			<Trait id="Honor" value="2" />
-			<Trait id="Calculating" value="1" />
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="2"/>
 			<Trait id="Egalitarian" value="0" />
 			<Trait id="Oligarchic" value="1" />
 			<Trait id="Authoritarian" value="2" />
@@ -23649,7 +23956,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!--Mirkwood-->
 	<NPCCharacter
 		id="lord_M1_1"
-		name="{=w51wGx4b}Thranduil"
+		name="{=lord_M1_1}Thranduil"
 		age="30"
 		voice="ironic"
 		default_group="Cavalry"
@@ -23707,14 +24014,14 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<EquipmentSet
 				id="mirkwood_thranduil_bat" />
 			<EquipmentSet
-				id="bat_king_template_civ_m"
+				id="mirkwood_thranduil_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_M1_11"
 		name="{=legolasname}Legolas"
-		age="16"
+		age="21"
 		voice="earnest"
 		default_group="Ranged"
 		is_hero="true"
@@ -23722,7 +24029,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
-			<BodyProperties version="4" age="22" weight="0.037" build="0.3634"  key="00001C00000000031980F72F6853461660648330588B86016756B50C88A64A7500B516030B01EA0000000000000000000000000000000000000000003B6C4002"  />
+			<BodyProperties version="4" age="30" weight="0.037" build="0.3634"  key="00001C00000000031980F72F6853461660648330588B86016756B50C88A64A7500B516030B01EA0000000000000000000000000000000000000000003B6C4002"  />
 		</face>
 		<skills></skills>
 		<Traits>
@@ -23769,9 +24076,75 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="bat_bat_template_medium" />
+				id="mirkwood_legolas_bat" />
 			<EquipmentSet
-				id="bat_civ_template_default"
+				id="mirkwood_legolas_civ"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter
+		id="lord_M1_12"
+		name="{=lord_M1_12}PlaceHolder Child To Not Break Game"
+		age="6"
+		voice="earnest"
+		default_group="Ranged"
+		is_hero="true"
+		culture="Culture.mirkwood"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.037" build="0.3634"  key="00001C00000000031980F72F6853461660648330588B86016756B50C88A64A7500B516030B01EA0000000000000000000000000000000000000000003B6C4002"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS -->
+			<Trait
+				id="ArcherFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Manager"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="0" />
+
+			<!-- PERSONALITY/REPUTATION -->
+			<Trait
+				id="Valor"
+				value="2" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="2" />
+			<Trait
+				id="Calculating"
+				value="0" />
+			<Trait
+				id="Egalitarian"
+				value="0" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+			<Trait
+				id="Authoritarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="mirkwood_legolas_bat" />
+			<EquipmentSet
+				id="mirkwood_legolas_civ"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -23780,7 +24153,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!--Lothlorien-->
 	<NPCCharacter
 		id="lord_L1_1"
-		name="{=galadrielname}Galadriel"
+		name="{=galadrielname}Galadriel, Lady of Lothlórien"
 		age="31"
 		voice="curt"
 		is_female="true"
@@ -23799,38 +24172,32 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				build="0.75"
 				key="0022500FD13C0001A7E3C8A64757B4876BA6785E867C96D8249D763F3BB7D86400000C5401A663680000000000000CE600000000000000000000000000286000" />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+			<skill id="Riding" value="250"/>
+			<skill id="Athletics" value="250"/>
+			<skill id="Crafting" value="100"/>
+			<skill id="Scouting" value="200"/>
+			<skill id="Tactics" value="250"/>
+			<skill id="Roguery" value="50"/>
+			<skill id="Charm" value="300"/>
+			<skill id="Leadership" value="300"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="200"/>
+			<skill id="Engineering" value="150"/>
+		</skills>
 		<Traits>
-			<!-- USED TO DERIVE SKILLS -->
-			<Trait
-				id="HorseArcherFightingSkills"
-				value="10" />
-			<Trait
-				id="Commander"
-				value="8" />
-			<Trait
-				id="Manager"
-				value="9" />
-			<Trait
-				id="Politician"
-				value="10" />
-
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait
-				id="Valor"
-				value="2" />
-			<Trait
-				id="Generosity"
-				value="2" />
-			<Trait
-				id="Mercy"
-				value="1" />
-			<Trait
-				id="Honor"
-				value="2" />
-			<Trait
-				id="Calculating"
-				value="1" />
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="1"/>
 			<Trait
 				id="Egalitarian"
 				value="2" />
@@ -23853,7 +24220,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 
 	<NPCCharacter
 		id="lord_L1_2"
-		name="{=celebornname}Celeborn"
+		name="{=celebornname}Celeborn, Lord of Lothlórien"
 		age="30"
 		voice="ironic"
 		culture="Culture.lothlorien"

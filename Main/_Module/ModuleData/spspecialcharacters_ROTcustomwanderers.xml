@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="LOTRwanderer1" name="Aragorn, Son of Arathorn" age="27" voice="earnest" culture="Culture.gondor" default_group="Cavalry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="37.56" weight="0.6878" build="0.678" key="000558014000000887A633F915093061877A3F5308ED98AAAB761FFF92F8763500973603090BBDBF00000000000000000000000000000000000000003F348002"/>
+			<BodyPropertiesMax version="4" age="37.56" weight="0.6878" build="0.678" key="000558014000000887A633F915093061877A3F5308ED98AAAB761FFF92F8763500973603090BBDBF00000000000000000000000000000000000000003F348002"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="290"/>
+			<skill id="Polearm" value="280"/>
+			<skill id="Bow" value="220"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="180"/>
+			<skill id="Riding" value="270"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="250"/>
+			<skill id="Tactics" value="280"/>
+			<skill id="Charm" value="220"/>
+			<skill id="Leadership" value="300"/>
+			<skill id="Trade" value="120"/>
+			<skill id="Steward" value="260"/>
+			<skill id="Medicine" value="150"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.lion_sword" />
+				<equipment slot="Body" id="Item.lannister_noble_armor" />
+				<equipment slot="Leg" id="Item.lannister_boots" />
+				<equipment slot="Cape" id="Item.lannister_pauldrons_cape" />
+				<equipment slot="Gloves" id="Item.lannister_plate_gloves" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body" id="Item.jaime_clothes" />
+				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="LOTRwanderer2" name="Legolas, Prince of Mirkwood" age="31" voice="earnest" culture="Culture.mirkwood" default_group="Ranged" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="25.97" weight="0.4301" build="0.4" key="0002B800000030008C7104E2FB9B608E7082866250C696449F1648338DC0A0240395E6350986C9E900000000000000000000000000000000000000007D2C5002"/>
+			<BodyPropertiesMax version="4" age="25.97" weight="0.4301" build="0.4" key="0002B800000030008C7104E2FB9B608E7082866250C696449F1648338DC0A0240395E6350986C9E900000000000000000000000000000000000000007D2C5002"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="200"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Athletics" value="250"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="280"/>
+			<skill id="Tactics" value="150"/>
+			<skill id="Charm" value="120"/>
+			<skill id="Leadership" value="100"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="80"/>
+			<skill id="Medicine" value="100"/>
+			<skill id="Engineering" value="60"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mirkwood_bow" />
+				<equipment slot="Item1" id="Item.elven_arrows" />
+				<equipment slot="Body" id="Item.mirkwood_tunic" />
+				<equipment slot="Leg" id="Item.elven_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.mirkwood_tunic" />
+				<equipment slot="Leg" id="Item.elven_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="LOTRwanderer3" name="Gimli, Son of Glóin" age="29" race ="dwarf" voice="curt" culture="Culture.erebor" default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="45" weight="0.85" build="0.85" key="0005D80ADDFC13823E813B5A820B0B8A86AD66A023EBFF09EEB640EF830120A802BA46240BA86F002BCB000F4D0C00780000000000001C7700000000658440C2"/>
+			<BodyPropertiesMax version="4" age="45" weight="0.85" build="0.85" key="0005D80ADDFC13823E813B5A820B0B8A86AD66A023EBFF09EEB640EF830120A802BA46240BA86F002BCB000F4D0C00780000000000001C7700000000658440C2"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="280"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="150"/>
+			<skill id="Riding" value="80"/>
+			<skill id="Athletics" value="220"/>
+			<skill id="Crafting" value="200"/>
+			<skill id="Scouting" value="100"/>
+			<skill id="Tactics" value="150"/>
+			<skill id="Charm" value="80"/>
+			<skill id="Leadership" value="120"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="100"/>
+			<skill id="Medicine" value="50"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dwarven_axe" />
+				<equipment slot="Body" id="Item.dwarven_armor" />
+				<equipment slot="Leg" id="Item.dwarven_boots" />
+				<equipment slot="Cape" id="Item.dwarven_cloak" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body" id="Item.cloth_tunic" />
+				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="LOTRwanderer5" name="Frodo Baggins" age="50" voice="softspoken" culture="Culture.hobbit" default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="33.99" weight="0.76" build="0.65" key="0000E00C401413080F8A53E5230F007B909BEF35149AFFE40E1F0A208B830735008CF60308F9F6FF7FFF488E7F0FFFEF0000000000001F770000000065141082"/>
+			<BodyPropertiesMax version="4" age="33.99" weight="0.76" build="0.65" key="0000E00C401413080F8A53E5230F007B909BEF35149AFFE40E1F0A208B830735008CF60308F9F6FF7FFF488E7F0FFFEF0000000000001F770000000065141082"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="Riding" value="60"/>
+			<skill id="Athletics" value="100"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="150"/>
+			<skill id="Tactics" value="50"/>
+			<skill id="Roguery" value="100"/>
+			<skill id="Charm" value="150"/>
+			<skill id="Leadership" value="80"/>
+			<skill id="Trade" value="80"/>
+			<skill id="Steward" value="100"/>
+			<skill id="Medicine" value="80"/>
+			<skill id="Engineering" value="50"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+			<EquipmentSet id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="LOTRwanderer6" name="Samwise Gamgee" age="38" voice="softspoken" culture="Culture.hobbit" default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="31.84" weight="0.7549" build="0.6707" key="0000D00D8000000879766433475EACBF8349866255A0967774416E4E838B56A5007776030766B6C900000000000000000000000000000000000000003CFC2002"/>
+			<BodyPropertiesMax version="4" age="31.84" weight="0.7549" build="0.6707" key="0000D00D8000000879766433475EACBF8349866255A0967774416E4E838B56A5007776030766B6C900000000000000000000000000000000000000003CFC2002"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="70"/>
+			<skill id="Riding" value="60"/>
+			<skill id="Athletics" value="120"/>
+			<skill id="Crafting" value="80"/>
+			<skill id="Scouting" value="120"/>
+			<skill id="Tactics" value="50"/>
+			<skill id="Charm" value="120"/>
+			<skill id="Leadership" value="80"/>
+			<skill id="Trade" value="80"/>
+			<skill id="Steward" value="120"/>
+			<skill id="Medicine" value="100"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hobbit_sword" />
+				<equipment slot="Body" id="Item.hobbit_tunic" />
+				<equipment slot="Leg" id="Item.hobbit_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body" id="Item.hobbit_tunic" />
+				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="LOTRwanderer7" name="Gandalf the Grey" age="2000" voice="earnest" culture="Culture.istari" default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="60.16" weight="0.55" build="0.60" key="0008740F000006486676AA5A7577844874778A6196739645E9761A7789B56184009A5603091579840000000000000000000000000000000000000000473C7042"/>
+			<BodyPropertiesMax version="4" age="60.16" weight="0.55" build="0.60" key="0008740F000006486676AA5A7577844874778A6196739645E9761A7789B56184009A5603091579840000000000000000000000000000000000000000473C7042"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+			<skill id="Riding" value="150"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Crafting" value="100"/>
+			<skill id="Scouting" value="200"/>
+			<skill id="Tactics" value="250"/>
+			<skill id="Charm" value="250"/>
+			<skill id="Leadership" value="300"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="150"/>
+			<skill id="Engineering" value="150"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.glamdring" />
+				<equipment slot="Body" id="Item.grey_robes" />
+				<equipment slot="Leg" id="Item.leather_boots" />
+				<equipment slot="Cape" id="Item.grey_cloak" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body" id="Item.grey_robes" />
+				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="LOTRwanderer10" name="Merry Brandybuck" age="36" voice="ironic" culture="Culture.hobbit" default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="29.9" weight="0.724" build="0.6127" key="0010180B80000642B9E66457F811109353C36062C5E68F33719797488E637C2502864624081555E500000000000000000000000000000000000000001F1C5002"/>
+			<BodyPropertiesMax version="4" age="29.9" weight="0.724" build="0.6127" key="0010180B80000642B9E66457F811109353C36062C5E68F33719797488E637C2502864624081555E500000000000000000000000000000000000000001F1C5002"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="100"/>
+			<skill id="Riding" value="100"/>
+			<skill id="Athletics" value="120"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="120"/>
+			<skill id="Tactics" value="80"/>
+			<skill id="Roguery" value="100"/>
+			<skill id="Charm" value="120"/>
+			<skill id="Leadership" value="100"/>
+			<skill id="Trade" value="80"/>
+			<skill id="Steward" value="100"/>
+			<skill id="Medicine" value="80"/>
+			<skill id="Engineering" value="50"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+			<EquipmentSet id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="LOTRwanderer11" name="Pippin Took" age="28" voice="ironic" culture="Culture.hobbit" default_group="Infantry" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="25.61" weight="0.6804" build="0.6503" key="0010400D80001005B976648465736534537883629511323B9A819A558A84B667008566030823336800000000000000000000000000000000000000004B0C4003"/>
+			<BodyPropertiesMax version="4" age="25.61" weight="0.6804" build="0.6503" key="0010400D80001005B976648465736534537883629511323B9A819A558A84B667008566030823336800000000000000000000000000000000000000004B0C4003"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="90"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="70"/>
+			<skill id="Throwing" value="90"/>
+			<skill id="Riding" value="90"/>
+			<skill id="Athletics" value="110"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="110"/>
+			<skill id="Tactics" value="70"/>
+			<skill id="Roguery" value="90"/>
+			<skill id="Charm" value="130"/>
+			<skill id="Leadership" value="90"/>
+			<skill id="Trade" value="70"/>
+			<skill id="Steward" value="90"/>
+			<skill id="Medicine" value="70"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+			<EquipmentSet id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="LOTRwanderer16" name="Haldir, Elf of Lothlórien" age="2000" voice="earnest" culture="Culture.sindar" default_group="Ranged" is_template="true" is_hero="false" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" age="36" weight="0.4776" build="0.5795" key="003FE40FC0001340BA7564975559D53E3C48883B3101B44A27CD9B8A79A1999800BCA6030BB5A567000000000000000000000000000000000000000019743005"/>
+			<BodyPropertiesMax version="4" age="36" weight="0.4776" build="0.5795" key="003FE40FC0001340BA7564975559D53E3C48883B3101B44A27CD9B8A79A1999800BCA6030BB5A567000000000000000000000000000000000000000019743005"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="280"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="Athletics" value="220"/>
+			<skill id="Crafting" value="80"/>
+			<skill id="Scouting" value="250"/>
+			<skill id="Tactics" value="150"/>
+			<skill id="Roguery" value="50"/>
+			<skill id="Charm" value="120"/>
+			<skill id="Leadership" value="100"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="80"/>
+			<skill id="Medicine" value="100"/>
+			<skill id="Engineering" value="80"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.lothlorien_bow" />
+				<equipment slot="Item1" id="Item.elven_arrows" />
+				<equipment slot="Body" id="Item.lothlorien_armor" />
+				<equipment slot="Leg" id="Item.elven_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.lothlorien_tunic" />
+				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+</NPCCharacters>

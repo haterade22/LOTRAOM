@@ -122,6 +122,23 @@
 			<Icon id="16055" material_name="lotraom_banner_icons_4" texture_index="6" />
 			<!-- Harad -->
 		</BannerIconGroup>
+
+		<BannerIconGroup id="20" name="{=!}LOTRAOM Bannerpack 5" is_pattern="false">
+			<Icon id="16056" material_name="lotraom_banner_icons_5" texture_index="2" />
+			<!-- Troll -->
+			<Icon id="16057" material_name="lotraom_banner_icons_5" texture_index="6" />
+			<!-- Witch King Helmet 2 -->
+			<Icon id="16058" material_name="lotraom_banner_icons_5" texture_index="7" />
+			<!-- Sauron Hand -->
+			<Icon id="16059" material_name="lotraom_banner_icons_5" texture_index="3" />
+			<!-- Bat 2 -->
+			<Icon id="16060" material_name="lotraom_banner_icons_5" texture_index="4" />
+			<!-- Sauron -->
+			<Icon id="16061" material_name="lotraom_banner_icons_5" texture_index="0" />
+			<!-- Spider -->
+			<Icon id="16062" material_name="lotraom_banner_icons_5" texture_index="5" />
+			<!-- Witch King Helmet -->
+		</BannerIconGroup>
 		<BannerColors>
 			<!-- New colours element-->
 			<!-- Black-->

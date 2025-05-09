@@ -174,7 +174,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.gond_tab_9ld" />
@@ -194,7 +194,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_two_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.gond_tab_9ld" />
@@ -408,7 +408,7 @@
 					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Head"
 					id="Item.ga_helmet021" />
@@ -431,7 +431,7 @@
 					id="Item.wm_gondor_sword_a10" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_two_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Head"
 					id="Item.ga_helmet021" />
@@ -454,7 +454,7 @@
 					id="Item.wm_gondor_sword_a08" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_three_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Head"
 					id="Item.ga_helmet021" />
@@ -477,7 +477,7 @@
 					id="Item.wm_gondor_sword_a03" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_four_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Head"
 					id="Item.ga_helmet021" />
@@ -544,7 +544,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Head"
 					id="Item.ga_helmet021" />
@@ -567,7 +567,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_two_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Head"
 					id="Item.ga_helmet021" />
@@ -590,7 +590,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_three_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Head"
 					id="Item.ga_helmet021" />
@@ -613,7 +613,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_four_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Head"
 					id="Item.ga_helmet021" />
@@ -681,7 +681,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -704,7 +704,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -727,7 +727,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_two_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -750,7 +750,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_three_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -773,7 +773,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_four_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -796,7 +796,7 @@
 					id="Item.gond_spear2" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -829,14 +829,14 @@
 			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="200"/>
-			<skill id="Riding" value="200"/>
-			<skill id="OneHanded" value="200"/>
-			<skill id="TwoHanded" value="200"/>
+			<skill id="Athletics" value="270"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="240"/>
+			<skill id="TwoHanded" value="240"/>
 			<skill id="Polearm" value="250"/>
-			<skill id="Bow" value="100"/>
-			<skill id="Crossbow" value="100"/>
-			<skill id="Throwing" value="100"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<Equipments>
 			<EquipmentRoster>
@@ -845,7 +845,7 @@
 					id="Item.wm_gondor_spear_a" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_four_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a07" />
@@ -915,7 +915,7 @@
 					id="Item.wm_gondor_sword_a06" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -938,7 +938,7 @@
 					id="Item.wm_gondor_sword_a07" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -961,7 +961,7 @@
 					id="Item.wm_gondor_sword_a04" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_two_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -984,7 +984,7 @@
 					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_three_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1007,7 +1007,7 @@
 					id="Item.wm_gondor_sword_a01" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_four_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1030,7 +1030,7 @@
 					id="Item.wm_gondor_sword_a09" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1062,14 +1062,14 @@
 			<face_key_template value="BodyProperty.fighter_gondor"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="240"/>
-			<skill id="Riding" value="200"/>
+			<skill id="Athletics" value="280"/>
+			<skill id="Riding" value="0"/>
 			<skill id="OneHanded" value="250"/>
 			<skill id="TwoHanded" value="220"/>
 			<skill id="Polearm" value="250"/>
-			<skill id="Bow" value="100"/>
-			<skill id="Crossbow" value="100"/>
-			<skill id="Throwing" value="100"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -1080,7 +1080,7 @@
 					id="Item.wm_gondor_sword_a06" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_four_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1103,7 +1103,7 @@
 					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_four_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1126,7 +1126,7 @@
 					id="Item.wm_gondor_sword_a03" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_four_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1198,7 +1198,7 @@
 					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1222,7 +1222,7 @@
 					id="Item.wm_gondor_sword_a10" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1245,7 +1245,7 @@
 					id="Item.wm_gondor_sword_a06" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_three_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1269,7 +1269,7 @@
 					id="Item.wm_gondor_sword_a02" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_four_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1292,7 +1292,7 @@
 					id="Item.wm_gondor_sword_a04" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_two_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1368,7 +1368,7 @@
 					id="Item.wm_gondor_sword_a10" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shld2" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1394,7 +1394,7 @@
 					id="Item.wm_gondor_sword_a01" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1420,7 +1420,7 @@
 					id="Item.wm_gondor_sword_a07" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_two_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1446,7 +1446,7 @@
 					id="Item.wm_gondor_sword_a08" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_three_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1498,7 +1498,7 @@
 					id="Item.wm_gondor_sword_a08" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_four_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1579,7 +1579,7 @@
 					id="Item.wm_gondor_sword_a10" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1605,7 +1605,7 @@
 					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_two_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1631,7 +1631,7 @@
 					id="Item.wm_gondor_sword_a01" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_three_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1657,7 +1657,7 @@
 					id="Item.wm_gondor_sword_a02" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_four_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1724,13 +1724,13 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_b" />
+					id="Item.wm_gondor_gondorknight_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_gondor_sword_a05" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1756,7 +1756,7 @@
 					id="Item.wm_gondor_sword_a10" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_two_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1782,7 +1782,7 @@
 					id="Item.wm_gondor_sword_a03" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_three_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -1808,7 +1808,7 @@
 					id="Item.wm_gondor_sword_a07" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_four_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor1" />
@@ -2122,7 +2122,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_b" />
+					id="Item.wm_gondor_swanknight_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
@@ -2182,7 +2182,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_b" />
+					id="Item.wm_gondor_swanknight_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
@@ -2265,7 +2265,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_b" />
+					id="Item.wm_gondor_swanknight_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_two_swan" />
@@ -2945,7 +2945,7 @@
 					id="Item.wm_gondor_lossarnach_1h_axe_a" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_three_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Head"
 					id="Item.gondor_generic_helmet_5_b" />
@@ -3009,7 +3009,7 @@
 					id="Item.wm_gondor_lossarnach_1h_axe_a" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_three_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Body"
 					id="Item.citidel_guard_armor4_slim" />
@@ -3143,7 +3143,7 @@
 					id="Item.wm_gondor_lossarnach_1h_axe_b" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Head"
 					id="Item.gondor_generic_helmet_5_a" />
@@ -3362,7 +3362,7 @@
 					id="Item.wm_pelargir_sword_a02" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Item3"
 					id="Item.western_javelin_3_t4" />
@@ -3502,7 +3502,7 @@
 					id="Item.wm_pelargir_sword_a02" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Item2"
 					id="Item.western_javelin_3_t4" />
@@ -3571,7 +3571,7 @@
 					id="Item.wm_pelargir_sword_a01" />
 				<equipment
 					slot="Item1"
-					id="Item.gond_shield_one_black" />
+					id="Item.gond_shield_one_greyscale" />
 				<equipment
 					slot="Item2"
 					id="Item.western_javelin_3_t4" />
@@ -4845,7 +4845,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_b" />
+					id="Item.wm_gondor_pg_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_three_green" />
@@ -4874,7 +4874,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_b" />
+					id="Item.wm_gondor_pg_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_three_green" />
@@ -4952,7 +4952,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_b" />
+					id="Item.wm_gondor_pg_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_pelargir_sword_a01" />
@@ -4981,7 +4981,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_b" />
+					id="Item.wm_gondor_pg_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_pelargir_sword_a02" />

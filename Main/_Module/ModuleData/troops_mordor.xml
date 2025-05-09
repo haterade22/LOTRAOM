@@ -41,10 +41,12 @@
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.mordor_uruk_warrior"/>
 			<upgrade_target id="NPCCharacter.mordor_uruk_scout"/>
-			<upgrade_target id="NPCCharacter.mordor_rhun_servant"/>
-			<upgrade_target id="NPCCharacter.mordor_harad_initiate"/>
+			<upgrade_target id="NPCCharacter.easterling_tribesman"/>
 			<upgrade_target id="NPCCharacter.mordor_black_numenorean"/>
 			<upgrade_target id="NPCCharacter.mordor_orc_warrior"/>
+			<upgrade_target id="NPCCharacter.rhun_noble_youth"/>
+			<upgrade_target id="NPCCharacter.harad_levy"/>
+			<upgrade_target id="NPCCharacter.harad_noble"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>

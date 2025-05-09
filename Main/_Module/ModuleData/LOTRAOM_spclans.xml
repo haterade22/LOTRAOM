@@ -32,12 +32,7 @@
 		is_outlaw="true"
 		name="{=1sbJQR4H}Criminals"
 		tier="1"></Faction>
-	<!--Faction
-	id="deserters" owner="Hero.lord_deserters_1" label_color="FF8B7C73" color="FF8B7C73"
-	color2="FF8B7C73" alternative_color="FF8B7C73" alternative_color2="FF8B7C73"
-	culture="Culture.deserters" default_party_template="PartyTemplate.deserters_template"
-	settlement_banner_mesh="none" is_bandit="true" is_outlaw="true" name="Deserters">
-  </Faction-->
+
 	<Faction
 		id="sea_raiders"
 		banner_key="11.116.149.3000.3000.764.764.1.0.0.505.45.90.450.450.764.764.0.0.0.505.116.90.437.437.764.764.0.0.0.504.45.90.117.107.765.615.0.0.0.504.116.90.109.100.765.615.0.0.0.504.45.90.87.80.765.615.0.0.0.504.116.90.83.76.765.617.0.0.0.504.45.90.117.107.765.913.0.1.180.504.116.90.109.100.765.913.0.1.180.504.45.90.87.80.765.913.0.1.180.504.116.90.83.76.765.911.0.1.180.504.45.90.117.107.616.764.0.1.89.504.116.90.109.100.616.764.0.1.89.504.45.90.87.80.616.764.0.1.89.504.116.90.83.76.618.765.0.1.89.504.45.90.117.107.911.764.0.0.270.504.116.90.109.100.911.764.0.0.270.504.45.90.87.80.911.764.0.0.270.504.116.90.83.76.909.765.0.0.270.505.45.90.281.281.764.764.0.0.0.505.116.90.275.275.764.764.0.0.0.505.45.90.265.265.764.764.0.0.0.505.116.90.259.259.764.764.0.0.0.503.45.90.258.258.764.764.0.0.0.503.116.90.254.254.764.764.0.0.0.503.45.90.240.240.764.764.0.0.0.503.1.90.235.235.764.764.0.0.0.504.45.90.188.152.764.528.0.0.0.504.116.90.147.119.764.536.0.0.0.504.45.90.188.152.762.1001.0.1.179.504.116.90.147.119.762.994.0.1.179.504.45.90.188.152.1000.763.0.1.270.504.116.90.147.119.991.763.0.1.270.504.45.90.188.152.528.763.0.1.90.504.116.90.147.119.538.764.0.1.90.503.45.90.30.30.532.764.0.1.90.503.45.90.30.30.996.764.0.1.90.503.45.90.30.30.764.532.0.1.90.503.45.90.30.30.764.996.0.1.90.503.45.90.30.30.520.996.0.1.90.503.45.90.30.30.520.532.0.1.90.503.45.90.30.30.1008.532.0.1.90.503.45.90.30.30.1008.996.0.1.90.515.45.90.21.21.667.667.0.1.0.522.45.90.21.21.667.667.0.1.0.515.45.90.21.21.667.861.0.1.0.522.45.90.21.21.667.861.0.1.0.515.45.90.21.21.861.861.0.1.0.522.45.90.21.21.861.861.0.1.0.515.45.90.21.21.861.667.0.1.0.522.45.90.21.21.861.667.0.1.0.516.45.90.26.26.764.619.0.1.0.517.45.90.26.26.764.619.0.1.45.516.45.90.26.26.764.909.0.1.0.517.45.90.26.26.764.909.0.1.45.516.45.90.26.26.909.764.0.1.0.517.45.90.26.26.909.764.0.1.45.516.45.90.26.26.619.764.0.1.0.517.45.90.26.26.619.764.0.1.45.505.45.90.111.14.775.769.0.1.0.504.1.90.28.18.821.772.0.1.223.505.45.90.111.14.723.767.0.1.90.504.45.90.33.13.713.727.0.1.212.427.45.90.57.42.759.745.0.1.125.427.45.90.57.42.802.750.0.1.96.427.45.90.57.42.790.736.0.1.160.427.45.90.57.42.752.738.0.1.160.504.45.90.29.13.729.811.0.1.201.505.45.90.-10.36.584.597.0.1.0.427.45.90.-27.32.600.590.0.1.146.427.45.90.-33.17.604.600.0.1.56.503.45.90.15.15.597.605.0.1.56.427.45.90.-27.32.623.590.0.1.146.427.45.90.-33.17.627.600.0.1.56.503.45.90.15.15.620.605.0.1.56.505.45.90.-10.36.895.931.0.1.-1.427.45.90.-27.32.911.925.0.1.146.427.45.90.-33.17.915.935.0.1.55.503.45.90.15.15.908.940.0.1.55.427.45.90.-27.32.934.925.0.1.146.427.45.90.-33.17.938.935.0.1.55.503.45.90.15.15.931.940.0.1.55.505.45.90.-10.36.596.931.0.1.-1.427.45.90.-27.32.612.925.0.1.146.427.45.90.-33.17.616.935.0.1.55.503.45.90.15.15.609.940.0.1.55.505.45.90.-10.36.909.598.0.1.-1.427.45.90.-27.32.925.592.0.1.146.427.45.90.-33.17.929.602.0.1.55.503.45.90.15.15.922.607.0.1.55"
@@ -129,7 +124,7 @@
 		settlement_banner_mesh="encounter_flag_f"
 		is_minor_faction="true"
 		is_clan_type_mercenary="true"
-		name="{=ghilmanClanName}The Sable Riders"
+		name="{=ghilmanClanName}Sable Riders"
 		tier="4"
 		text="{=taom_sableriders}The Sable Riders are a feared mercenary brotherhood of Variags, hailing from the steppe lands of Khand. These warriors fight not for land, nor for honor, but for gold">
 		<minor_faction_character_templates>
@@ -284,7 +279,7 @@
 		is_minor_faction="true"
 		is_outlaw="true"
 		is_mafia="true"
-		name="{=nh4Y3LOc}The Moonfang Reavers"
+		name="{=nh4Y3LOc}Moonfang Reavers"
 		tier="4"
 		text="{=taom_moonfangreavers}The Moonfang Reavers are among the wildest of the Dunlending warbands, warriors who forsake armor for speed, painted in woad and draped in the pelts of the beasts they slay. They believe the spirit of the wolf guides them in battle, granting them unnatural ferocity. To face a Moonfang warrior is to face a man who knows no fear, for they fight with the frenzy of a beast cornered, tearing through their foes in bloody rampages.">
 		<minor_faction_character_templates>
@@ -314,7 +309,7 @@
 		is_minor_faction="true"
 		is_outlaw="true"
 		is_mafia="true"
-		name="{=as2TiAIJ}The Blackwood Outriders"
+		name="{=as2TiAIJ}Blackwood Outriders"
 		short_name="{=khnadIv1}BlackWood Outriders"
 		tier="4"
 		text="{=taom_blackwoodoutriders}The Blackwood Outriders are a band of outcasts, hunters, and renegades who roam the edges of Mirkwood, preying upon travelers and unwelcome invaders alike. Though many were once men of Dale or Rhovanion, they have long since abandoned their former lives, living as outlaws beneath the dark boughs. Skilled archers and deadly skirmishers, they strike from the shadows, fading into the depths of the forest before vengeance can find them.">
@@ -345,7 +340,7 @@
 		is_minor_faction="true"
 		is_outlaw="true"
 		is_mafia="true"
-		name="{=MVHawAEp}The Shadow Daggers"
+		name="{=MVHawAEp}Shadow Daggers"
 		short_name="{=j3KtHQzn}Shadow Daggers"
 		tier="3"
 		text="{=taom_shadowdaggers}The Shadow Daggers are an elusive network of spies, cutthroats, and assassins, rumored to have roots in the dark streets of Umbar. Hired blades of the Corsair lords, they specialize in eliminating enemies from the shadows, poisoning wells, and sowing discord before open war. Their services are expensive, but those who cross them rarely live long enough to regret it.">
@@ -376,7 +371,7 @@
 		is_minor_faction="true"
 		is_outlaw="true"
 		is_mafia="true"
-		name="{=7WL1LWdf}The Greyfin Marauders"
+		name="{=7WL1LWdf}Greyfin Marauders"
 		short_name="{=7WL1LWdf}Greyfin Marauders"
 		tier="4"
 		text="{=taom_greyfinmarauders}The Greyfin Marauders are a notorious band of river raiders who make their home along the Celduin (Running River). Outlaws and smugglers, they strike at isolated river settlements, looting supplies and vanishing downstream before retribution can follow. Though they often fight for the highest bidder, their true allegiance is to gold, wine, and the thrill of the chase.">
@@ -439,7 +434,7 @@
 		is_minor_faction="true"
 		is_outlaw="true"
 		is_nomad="true"
-		name="{=8ba4tpRU}The Desert Stalkers"
+		name="{=8ba4tpRU}Desert Stalkers"
 		tier="4"
 		text="{=taom_desertstalkers}The Desert Stalkers are a wandering brotherhood of Haradrim warriors, bound by no kingdom and loyal only to their own. Born of the shifting sands, they are expert trackers, ambushers, and raiders, striking with deadly precision. To the merchants of Gondor and Umbar alike, they are little more than brigands, but in the deep desert, they are spoken of with reverence and fear.">
 		<minor_faction_character_templates>
@@ -533,7 +528,7 @@
 		is_nomad="true"
 		name="{=eC6qIOzz}Guardians of Tharbad"
 		tier="3"
-		text="{=9qAWNBvA} The Guardians of Tharbad are a proud and resilient group of warriors sworn to protect the once-great city of Tharbad, a crucial crossroads between the northern and southern realms of Middle-earth. Though Tharbad has seen its share of decline and hardship, the Guardians remain steadfast in their mission, patrolling the surrounding lands and ensuring that travelers, merchants, and settlers can move freely without fear of bandits or hostile creatures. Clad in well-worn mail and wielding an assortment of weapons, the Guardians are as much a symbol of hope as they are of defense. Their loyalty to the ideals of order and safety make them natural allies to those who seek to rebuild and unify the region. Often underestimated due to their modest resources, the Guardians of Tharbad embody the strength of a people who refuse to let their home be forgotten, standing firm against the forces of chaos that threaten their way of life.">
+		text="{=9qAWNBvA} Guardians of Tharbad are a proud and resilient group of warriors sworn to protect the once-great city of Tharbad, a crucial crossroads between the northern and southern realms of Middle-earth. Though Tharbad has seen its share of decline and hardship, the Guardians remain steadfast in their mission, patrolling the surrounding lands and ensuring that travelers, merchants, and settlers can move freely without fear of bandits or hostile creatures. Clad in well-worn mail and wielding an assortment of weapons, the Guardians are as much a symbol of hope as they are of defense. Their loyalty to the ideals of order and safety make them natural allies to those who seek to rebuild and unify the region. Often underestimated due to their modest resources, the Guardians of Tharbad embody the strength of a people who refuse to let their home be forgotten, standing firm against the forces of chaos that threaten their way of life.">
 		<minor_faction_character_templates>
 			<template
 				id="NPCCharacter.spc_eleftheroi_leader_0" />
@@ -685,7 +680,11 @@
 	<Faction
 		id="clan_empire_west_4"
 		name="{=xqkKtWqa}House of Molorion"
-		
+		label_color="FFD9C2A8" 
+		color="FF4A2E1F"       
+		color2="FFB68A3C"     
+		alternative_color="FF2C2522" 
+		alternative_color2="FF8C7B6A" 
 		tier="4"
 		owner="Hero.lord_1_40"
 		culture="Culture.gondor"
@@ -917,7 +916,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.315.2002.171.585.585.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16058.2002.171.700.700.764.764.0.0.0" />
 
 	<Faction
 		id="clan_empire_south_12"
@@ -927,7 +926,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.305.2002.171.585.585.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16059.2002.171.700.700.764.764.0.0.0" />
 
 
 	<Faction
@@ -938,7 +937,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.154.2002.171.585.585.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.307.2002.171.587.587.764.764.0.0.0" />
 
 	<Faction
 		id="clan_empire_south_14"
@@ -948,7 +947,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16032.2002.171.700.700.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16062.2002.171.667.667.764.764.0.0.0" />
 
 	<Faction
 		id="clan_empire_south_15"
@@ -958,7 +957,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16032.2002.171.700.700.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16061.2002.171.667.667.764.764.0.0.0" />
 
 	<Faction
 		id="clan_empire_south_16"
@@ -968,7 +967,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16032.2002.171.700.700.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16060.2002.171.667.667.764.764.0.0.0" />
 
 	<Faction
 		id="clan_empire_south_17"
@@ -978,7 +977,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16032.2002.171.700.700.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16057.2002.171.667.667.764.764.0.0.0" />
 
 	<Faction
 		id="clan_empire_south_18"
@@ -988,7 +987,7 @@
 		culture="Culture.mordor"
 		super_faction="Kingdom.empire_s"
 		is_noble="true"
-		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16032.2002.171.700.700.764.764.0.0.0" />
+		banner_key="11.2001.2001.1528.1528.764.764.1.0.0.16056.2002.171.667.667.764.764.0.0.0" />
 
 	<!-- Harad -->
 	<Faction

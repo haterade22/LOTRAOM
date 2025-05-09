@@ -11,14 +11,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="150"/>
-			<skill id="Riding" value="150"/>
-			<skill id="OneHanded" value="150"/>
-			<skill id="TwoHanded" value="150"/>
-			<skill id="Polearm" value="150"/>
-			<skill id="Bow" value="150"/>
-			<skill id="Crossbow" value="150"/>
-			<skill id="Throwing" value="150"/>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_footman"/>
@@ -62,14 +62,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="150"/>
-			<skill id="Riding" value="150"/>
-			<skill id="OneHanded" value="150"/>
-			<skill id="TwoHanded" value="150"/>
-			<skill id="Polearm" value="150"/>
-			<skill id="Bow" value="150"/>
-			<skill id="Crossbow" value="150"/>
-			<skill id="Throwing" value="150"/>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_swordsman"/>
@@ -115,14 +115,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="150"/>
-			<skill id="Riding" value="150"/>
-			<skill id="OneHanded" value="150"/>
-			<skill id="TwoHanded" value="150"/>
-			<skill id="Polearm" value="150"/>
-			<skill id="Bow" value="70"/>
-			<skill id="Crossbow" value="150"/>
-			<skill id="Throwing" value="150"/>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_archer"/>
@@ -170,14 +170,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="150"/>
-			<skill id="Riding" value="150"/>
-			<skill id="OneHanded" value="150"/>
-			<skill id="TwoHanded" value="150"/>
-			<skill id="Polearm" value="150"/>
-			<skill id="Bow" value="150"/>
-			<skill id="Crossbow" value="150"/>
-			<skill id="Throwing" value="150"/>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_rider"/>
@@ -222,14 +222,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="150"/>
-			<skill id="Riding" value="150"/>
-			<skill id="OneHanded" value="150"/>
-			<skill id="TwoHanded" value="150"/>
-			<skill id="Polearm" value="150"/>
-			<skill id="Bow" value="150"/>
-			<skill id="Crossbow" value="150"/>
-			<skill id="Throwing" value="150"/>
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="110"/>
+			<skill id="Polearm" value="110"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_veteran_swordsman"/>
@@ -274,16 +274,16 @@
 		<face>
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
-		<skills >
-			<skill id="Athletics" value="150"/>
-			<skill id="Riding" value="150"/>
-			<skill id="OneHanded" value="150"/>
-			<skill id="TwoHanded" value="150"/>
-			<skill id="Polearm" value="150"/>
-			<skill id="Bow" value="150"/>
-			<skill id="Crossbow" value="150"/>
-			<skill id="Throwing" value="150"/>
-		</skills>
+			<skills >
+				<skill id="Athletics" value="110"/>
+				<skill id="Riding" value="0"/>
+				<skill id="OneHanded" value="110"/>
+				<skill id="TwoHanded" value="110"/>
+				<skill id="Polearm" value="115"/>
+				<skill id="Bow" value="0"/>
+				<skill id="Crossbow" value="0"/>
+				<skill id="Throwing" value="0"/>
+			</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_halberdier"/>
 		</upgrade_targets>
@@ -327,14 +327,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="150"/>
-			<skill id="Riding" value="150"/>
-			<skill id="OneHanded" value="150"/>
-			<skill id="TwoHanded" value="150"/>
-			<skill id="Polearm" value="150"/>
-			<skill id="Bow" value="140"/>
-			<skill id="Crossbow" value="150"/>
-			<skill id="Throwing" value="150"/>
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="110"/>
+			<skill id="Polearm" value="110"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_marksman"/>
@@ -383,14 +383,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="150"/>
-			<skill id="Riding" value="150"/>
-			<skill id="OneHanded" value="150"/>
-			<skill id="TwoHanded" value="150"/>
-			<skill id="Polearm" value="150"/>
-			<skill id="Bow" value="150"/>
-			<skill id="Crossbow" value="150"/>
-			<skill id="Throwing" value="150"/>
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="110"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="110"/>
+			<skill id="Polearm" value="110"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_lancer"/>
@@ -682,7 +682,7 @@
 			<skill id="Riding" value="150"/>
 			<skill id="OneHanded" value="150"/>
 			<skill id="TwoHanded" value="150"/>
-			<skill id="Polearm" value="150"/>
+			<skill id="Polearm" value="160"/>
 			<skill id="Bow" value="150"/>
 			<skill id="Crossbow" value="150"/>
 			<skill id="Throwing" value="150"/>
@@ -741,14 +741,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="150"/>
-			<skill id="Riding" value="150"/>
-			<skill id="OneHanded" value="150"/>
-			<skill id="TwoHanded" value="150"/>
-			<skill id="Polearm" value="150"/>
-			<skill id="Bow" value="150"/>
-			<skill id="Crossbow" value="150"/>
-			<skill id="Throwing" value="150"/>
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="210"/>
+			<skill id="TwoHanded" value="210"/>
+			<skill id="Polearm" value="210"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_bloodsworn"/>
@@ -793,14 +793,14 @@
 			<face_key_template value="BodyProperty.fighter_khuzait"/>
 		</face>
 		<skills >
-			<skill id="Athletics" value="150"/>
-			<skill id="Riding" value="150"/>
-			<skill id="OneHanded" value="150"/>
-			<skill id="TwoHanded" value="150"/>
-			<skill id="Polearm" value="150"/>
-			<skill id="Bow" value="150"/>
-			<skill id="Crossbow" value="150"/>
-			<skill id="Throwing" value="150"/>
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="210"/>
+			<skill id="TwoHanded" value="210"/>
+			<skill id="Polearm" value="220"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_chosen"/>
@@ -852,8 +852,8 @@
 			<skill id="TwoHanded" value="150"/>
 			<skill id="Polearm" value="150"/>
 			<skill id="Bow" value="240"/>
-			<skill id="Crossbow" value="150"/>
-			<skill id="Throwing" value="150"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.easterling_eye"/>
@@ -963,13 +963,13 @@
 		</face>
 		<skills >
 			<skill id="Athletics" value="270"/>
-			<skill id="Riding" value="150"/>
+			<skill id="Riding" value="0"/>
 			<skill id="OneHanded" value="250"/>
 			<skill id="TwoHanded" value="250"/>
 			<skill id="Polearm" value="250"/>
-			<skill id="Bow" value="150"/>
-			<skill id="Crossbow" value="150"/>
-			<skill id="Throwing" value="150"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -1019,9 +1019,9 @@
 			<skill id="OneHanded" value="250"/>
 			<skill id="TwoHanded" value="250"/>
 			<skill id="Polearm" value="250"/>
-			<skill id="Bow" value="150"/>
-			<skill id="Crossbow" value="150"/>
-			<skill id="Throwing" value="150"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -1068,11 +1068,11 @@
 			<skill id="Athletics" value="270"/>
 			<skill id="Riding" value="150"/>
 			<skill id="OneHanded" value="190"/>
-			<skill id="TwoHanded" value="100"/>
-			<skill id="Polearm" value="100"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
 			<skill id="Bow" value="285"/>
-			<skill id="Crossbow" value="150"/>
-			<skill id="Throwing" value="150"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>
@@ -1125,11 +1125,11 @@
 			<skill id="Athletics" value="270"/>
 			<skill id="Riding" value="250"/>
 			<skill id="OneHanded" value="190"/>
-			<skill id="TwoHanded" value="100"/>
-			<skill id="Polearm" value="100"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="150"/>
 			<skill id="Bow" value="285"/>
-			<skill id="Crossbow" value="150"/>
-			<skill id="Throwing" value="150"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
 		</skills>
 		<upgrade_targets>
 		</upgrade_targets>

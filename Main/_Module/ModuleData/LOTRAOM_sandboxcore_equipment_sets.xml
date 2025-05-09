@@ -464,6 +464,74 @@
 	</EquipmentRoster>
 
 	<EquipmentRoster
+			id="khamul_template"
+			culture="Culture.mordor">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item1"
+				id="Item.nazgul_sword" />
+			<Equipment
+				slot="Head"
+				id="Item.khamul_helmet" />
+			<Equipment
+				slot="Body"
+				id="Item.khamul_body" />
+			<Equipment
+				slot="Gloves"
+				id="Item.khamul_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.khamul_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_northern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.northern_ring_barding" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
+			/>
+	</EquipmentRoster>
+
+	<EquipmentRoster
+			id="khamul_template_civ"
+			culture="Culture.mordor">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item1"
+				id="Item.nazgul_sword" />
+			<Equipment
+				slot="Head"
+				id="Item.khamul_helmet" />
+			<Equipment
+				slot="Body"
+				id="Item.khamul_body" />
+			<Equipment
+				slot="Gloves"
+				id="Item.khamul_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.khamul_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_northern" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.northern_ring_barding" />
+		</EquipmentSet>
+		<Flags
+			IsCombatantTemplate="true"
+			IsNobleTemplate="true"
+			IsCivilianTemplate="true"
+			/>
+	</EquipmentRoster>
+
+	<EquipmentRoster
 			id="mordor_captain_template_a1"
 			culture="Culture.mordor">
 		<EquipmentSet
@@ -1119,8 +1187,8 @@
 	</EquipmentRoster>
 
 	<EquipmentRoster
-	id="mirkwood_thranduil_bat"
-	culture="Culture.mirkwood">
+		id="mirkwood_thranduil_bat"
+		culture="Culture.mirkwood">
 		<EquipmentSet
 			civilian="false">
 			<Equipment
@@ -1158,6 +1226,122 @@
 			IsNobleTemplate="true"
 			IsMediumTemplate="true" />
 	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="mirkwood_thranduil_civ"
+		culture="Culture.mirkwood">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.mirkwood_spear_a02" />
+			<Equipment
+				slot="Item1"
+				id="Item.wm_mirkwood_shield_a01" />
+			<Equipment
+				slot="Item2"
+				id="Item.mirkwood_sword_a01" />
+			<Equipment
+				slot="Head"
+				id="Item.thranduil_helmet" />
+			<Equipment
+				slot="Cape"
+				id="Item.thranduil_shoulder" />
+			<Equipment
+				slot="Body"
+				id="Item.thranduil_body" />
+			<Equipment
+				slot="Gloves"
+				id="Item.thranduil_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.thranduil_boots" />
+			<Equipment
+				slot="Horse"
+				id="Item.noble_horse_imperial" />
+			<Equipment
+				slot="HorseHarness"
+				id="Item.imperial_scale_barding" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsMediumTemplate="true" />
+	</EquipmentRoster>
+
+
+
+	<EquipmentRoster
+	id="mirkwood_legolas_bat"
+	culture="Culture.mirkwood">
+		<EquipmentSet
+			civilian="false">
+			<Equipment
+				slot="Item0"
+				id="Item.wm_mirkwood_bow_a01" />
+			<Equipment
+				slot="Item1"
+				id="Item.wm_mirkwood_arrow_a03" />
+			<Equipment
+				slot="Item2"
+				id="Item.wm_mirkwood_arrow_a01" />
+			<Equipment
+				slot="Item3"
+				id="Item.mirkwood_sword_a01" />
+			<Equipment
+				slot="Cape"
+				id="Item.legolas_shoulder" />
+			<Equipment
+				slot="Body"
+				id="Item.legolas_body" />
+			<Equipment
+				slot="Gloves"
+				id="Item.legolas_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.legolas_boots" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsMediumTemplate="true" />
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="mirkwood_legolas_civ"
+		culture="Culture.mirkwood">
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.wm_mirkwood_bow_a01" />
+			<Equipment
+				slot="Item1"
+				id="Item.wm_mirkwood_arrow_a02" />
+			<Equipment
+				slot="Item2"
+				id="Item.wm_mirkwood_arrow_a01" />
+			<Equipment
+				slot="Item3"
+				id="Item.mirkwood_sword_a01" />
+			<Equipment
+				slot="Cape"
+				id="Item.legolas_shoulder" />
+			<Equipment
+				slot="Body"
+				id="Item.legolas_body" />
+			<Equipment
+				slot="Gloves"
+				id="Item.legolas_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.legolas_boots" />
+		</EquipmentSet>
+		<Flags
+			IsNobleTemplate="true"
+			IsMediumTemplate="true" />
+	</EquipmentRoster>
+	
+	
+	
 
 	<!--generic lord fighter civillian Equipment-->
 	<EquipmentRoster
