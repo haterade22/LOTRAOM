@@ -2002,4 +2002,15 @@
 		</stacks>
 	</MBPartyTemplate>
 
+
+	<MBPartyTemplate id="vassal_reward_troops_isengard" >
+		<stacks>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.urukhai_nazg_hai" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.orthanc_bodyguard" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.rhun_cataphract" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.harad_serpentguard" />
+
+		</stacks>
+	</MBPartyTemplate>
+
 </partyTemplates>

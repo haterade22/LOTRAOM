@@ -3381,7 +3381,7 @@
 		caravan_party_template="PartyTemplate.caravan_template_sturgia"
 		militia_party_template="PartyTemplate.militia_isengard_template"
 		rebels_party_template="PartyTemplate.rebels_sturgia_template"
-		vassal_reward_party_template="PartyTemplate.vassal_reward_troops_sturgia"
+		vassal_reward_party_template="PartyTemplate.vassal_reward_troops_isengard"
 		default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
 		text="{=isengard_faction_desc}The people of Isengard are Saruman’s legions, forged through industry and fueled by a dark vision of domination. Centered around the impenetrable tower of Orthanc, Isengard is home to the Uruk-hai, bred for strength, endurance, and obedience. With machines of war and the cunning of their master, they crush all opposition with ruthless precision. Saruman's army is a mix of savage Dunlendings, disciplined Uruk-hai, and mindless thralls. The forges of Isengard never rest, spewing forth weapons, armor, and engines of destruction. This is a realm driven by ambition, treachery, and an unwavering hunger for power."
 		tournament_master="NPCCharacter.tournament_master_sturgia"

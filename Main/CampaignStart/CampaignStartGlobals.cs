@@ -18,7 +18,7 @@ namespace LOTRAOM.CampaignStart
         {
             // if the mod keeps has multiple factions with same culture (like empire in vanilla) this code will have to be refactored
              ["aserai"] = "town_A1",
-             ["empire"] = "town_EN1",
+             ["empire"] = "town_EN2",
              ["khuzait"] = "town_K1",
              ["sturgia"] = "town_S1",
              ["battania"] = "town_EW1",
