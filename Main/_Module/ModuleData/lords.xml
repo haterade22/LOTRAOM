@@ -2695,7 +2695,7 @@
 	faction on his son's advice. Based on Don Fabrizio in The Leopard STEVEDIDFACE -->
 	<NPCCharacter
 		id="lord_1_15"
-		name="{=48bvCvb2}Witch King of Angmar"
+		name="{=48bvCvb2}Witch-King of Angmar"
 		age="30"
 		race="nazghul"
 		voice="softspoken"
@@ -2718,44 +2718,33 @@
 					name="LightShortBeard" />
 			</beard_tags>
 		</face>
+		<skills>
+			<skill id="OneHanded" value="350"/>
+			<skill id="TwoHanded" value="320"/>
+			<skill id="Polearm" value="330"/>
+			<skill id="Bow" value="200"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="180"/>
+			<skill id="Riding" value="340"/>
+			<skill id="Athletics" value="250"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="200"/>
+			<skill id="Tactics" value="350"/>
+			<skill id="Charm" value="100"/>
+			<skill id="Leadership" value="300"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="250"/>
+			<skill id="Medicine" value="80"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="KnightFightingSkills"
-				value="10" />
-			<Trait
-				id="Commander"
-				value="8" />
-			<Trait
-				id="Politician"
-				value="8" />
-			<Trait
-				id="Manager"
-				value="10" />
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait
-				id="Valor"
-				value="-1" />
-			<Trait
-				id="Generosity"
-				value="-2" />
-			<Trait
-				id="Mercy"
-				value="-2" />
-			<Trait
-				id="Honor"
-				value="-2" />
-			<Trait
-				id="Calculating"
-				value="2" />
-			<Trait
-				id="Egalitarian"
-				value="0" />
-			<Trait
-				id="Oligarchic"
-				value="2" />
-			<Trait
-				id="Authoritarian"
-				value="2" />
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 
 		<Equipments>
@@ -2849,7 +2838,7 @@
 	<!-- Oros Patriarch of Mestrikaros, clan 9, a lord who nurses his grievances -->
 	<NPCCharacter
 		id="lord_1_17"
-		name="{=JFVseSa3}Saruman"
+		name="{=JFVseSa3}Saruman The White"
 		age="30"
 		voice="curt"
 		default_group="Cavalry"
@@ -2867,44 +2856,33 @@
 				build="0.6"
 				key="0011AC0700000008975D98B886639678796AA5A76A87677859779A888658234A000430090497967900001105000030A30000001F000000000000000000A40000" />
 		</face>
+		<skills>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="190"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="130"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Athletics" value="150"/>
+			<skill id="Crafting" value="250"/>
+			<skill id="Scouting" value="200"/>
+			<skill id="Tactics" value="350"/>
+			<skill id="Charm" value="250"/>
+			<skill id="Leadership" value="350"/>
+			<skill id="Trade" value="150"/>
+			<skill id="Steward" value="300"/>
+			<skill id="Medicine" value="100"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="CavalryFightingSkills"
-				value="5" />
-			<Trait
-				id="Commander"
-				value="8" />
-			<Trait
-				id="Politician"
-				value="9" />
-			<Trait
-				id="Manager"
-				value="10" />
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait
-				id="Valor"
-				value="1" />
-			<Trait
-				id="Generosity"
-				value="0" />
-			<Trait
-				id="Mercy"
-				value="-2" />
-			<Trait
-				id="Honor"
-				value="-1" />
-			<Trait
-				id="Calculating"
-				value="2" />
-			<Trait
-				id="Egalitarian"
-				value="-1" />
-			<Trait
-				id="Oligarchic"
-				value="2" />
-			<Trait
-				id="Authoritarian"
-				value="2" />
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -7218,7 +7196,7 @@
 	<!-- turiados, devious but means well. Rhagaea -->
 	<NPCCharacter
 		id="lord_1_30"
-		name="{=P7iNhhPl}Gothmog"
+		name="{=P7iNhhPl}Gothmog, Lieutenant of Morgul"
 		voice="earnest"
 		age="25"
 		race="uruk"
@@ -7237,47 +7215,33 @@
 				build="0.95"
 				key="0016C80E0000200DBC4597A5256457A995879939BBECA7A766C7893AA68945570005435309B1876400001105000030A30000001F000000000000000000A02000" />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="280"/>
+			<skill id="TwoHanded" value="260"/>
+			<skill id="Polearm" value="270"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="130"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Athletics" value="220"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="150"/>
+			<skill id="Tactics" value="280"/>
+			<skill id="Charm" value="80"/>
+			<skill id="Leadership" value="260"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="200"/>
+			<skill id="Medicine" value="60"/>
+		</skills>
 		<Traits>
-			<!-- USED TO DERIVE SKILLS -->
-			<Trait
-				id="KnightFightingSkills"
-				value="6" />
-			<Trait
-				id="Commander"
-				value="8" />
-			<Trait
-				id="Manager"
-				value="10" />
-			<Trait
-				id="Politician"
-				value="8" />
-
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait
-				id="Valor"
-				value="2" />
-			<Trait
-				id="Generosity"
-				value="-1" />
-			<Trait
-				id="Mercy"
-				value="-2" />
-			<Trait
-				id="Honor"
-				value="0" />
-			<Trait
-				id="Calculating"
-				value="1" />
-			<Trait
-				id="Egalitarian"
-				value="-1" />
-			<Trait
-				id="Oligarchic"
-				value="1" />
-			<Trait
-				id="Authoritarian"
-				value="2" />
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet
@@ -7397,7 +7361,7 @@
 	<!-- Leonipardes lieutenant. brave, good-natured, not especially thoughtful. -->
 	<NPCCharacter
 		id="lord_1_48"
-		name="{=katzUyMI}Khamûl, the Dwimmerlaik"
+		name="{=katzUyMI}Khamûl, Shadow of the East"
 		default_group="Cavalry"
 		age="20"
 		race="nazghul"
@@ -7412,19 +7376,33 @@
 			/-->
 		<BodyProperties version="4" age="22.19" weight="0.0116" build="1"  key="0039F00FC000300010000010010100000001000000000100001011101000000000FF06030F000100000000000000000000000000000000000000000043F44142"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="320"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="310"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="160"/>
+			<skill id="Riding" value="320"/>
+			<skill id="Athletics" value="230"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="180"/>
+			<skill id="Tactics" value="320"/>
+			<skill id="Charm" value="90"/>
+			<skill id="Leadership" value="280"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="230"/>
+			<skill id="Medicine" value="70"/>
+		</skills>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="8" />
-			<Trait id="Commander" value="4" />
-			<Trait id="Manager" value="10" />
-			<Trait id="Politician" value="8" />
-			<Trait id="Valor" value="0" />
-			<Trait id="Honor" value="-2" />
-			<Trait id="Mercy" value="-2" />
-			<Trait id="Calculating" value="1" />
-			<Trait id="Egalitarian" value="0" />
-			<Trait id="Oligarchic" value="0" />
-			<Trait id="Authoritarian" value="1" />
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -7560,7 +7538,7 @@
 	<!-- sichanis, rather quiet schemer.  rhagaea. Cruel -->
 	<NPCCharacter
 		id="lord_1_54"
-		name="{=sZebVgCp}Shagrat"
+		name="{=sZebVgCp}Shagrat, Captain of Cirith Ungol"
 		voice="ironic"
 		age="28"
 		race="uruk"
@@ -7579,46 +7557,33 @@
 				build="0.95"
 				key="0005A00140BC100DA85B899C8A71E497A32461B62479196C55058E7245674416000506530C356542000000000000000000000000000000000000000000004180" />
 		</face>
+		<skills>
+			<skill id="OneHanded" value="260"/>
+			<skill id="TwoHanded" value="240"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="110"/>
+			<skill id="Crossbow" value="90"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="180"/>
+			<skill id="Athletics" value="200"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="140"/>
+			<skill id="Tactics" value="250"/>
+			<skill id="Charm" value="70"/>
+			<skill id="Leadership" value="240"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="180"/>
+			<skill id="Medicine" value="50"/>
+		</skills>
 		<Traits>
-			<!-- USED TO DERIVE SKILLS -->
-			<Trait
-				id="KnightFightingSkills"
-				value="5" />
-			<Trait
-				id="Commander"
-				value="7" />
-			<Trait
-				id="Manager"
-				value="4" />
-			<Trait
-				id="Politician"
-				value="9" />
-
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait
-				id="Valor"
-				value="2" />
-			<Trait
-				id="Generosity"
-				value="-2" />
-			<Trait
-				id="Mercy"
-				value="-2" />
-			<Trait
-				id="Honor"
-				value="0" />
-			<Trait
-				id="Calculating"
-				value="1" />
-			<Trait
-				id="Egalitarian"
-				value="-2" />
-			<Trait
-				id="Oligarchic"
-				value="1" />
-			<Trait
-				id="Authoritarian"
-				value="2" />
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="-2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet
@@ -7780,7 +7745,7 @@
 	<!-- Baranor. former guard captain for the emperor. rhagaea. Head of clan 5 -->
 	<NPCCharacter
 		id="lord_1_63"
-		name="{=AWDNxFbh}Gorbag"
+		name="{=AWDNxFbh}Gorbag, Captain of Minas Morgul"
 		voice="curt"
 		age="30"
 		race="uruk"
@@ -7799,47 +7764,33 @@
 				build="0.9"
 				key="00065C08807C000D88566B74DA8577A325C64A9B6AA35AD26A5B2DB39752565500065BA20657885E00001105000030A30000001F000000000000000000F03000" />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="230"/>
+			<skill id="Polearm" value="240"/>
+			<skill id="Bow" value="110"/>
+			<skill id="Crossbow" value="90"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="Riding" value="180"/>
+			<skill id="Athletics" value="200"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="140"/>
+			<skill id="Tactics" value="240"/>
+			<skill id="Charm" value="70"/>
+			<skill id="Leadership" value="230"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="180"/>
+			<skill id="Medicine" value="50"/>
+		</skills>
 		<Traits>
-			<!-- USED TO DERIVE SKILLS -->
-			<Trait
-				id="KnightFightingSkills"
-				value="4" />
-			<Trait
-				id="Commander"
-				value="6" />
-			<Trait
-				id="Manager"
-				value="2" />
-			<Trait
-				id="Politician"
-				value="10" />
-
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait
-				id="Valor"
-				value="1" />
-			<Trait
-				id="Generosity"
-				value="-2" />
-			<Trait
-				id="Mercy"
-				value="-2" />
-			<Trait
-				id="Honor"
-				value="0" />
-			<Trait
-				id="Calculating"
-				value="2" />
-			<Trait
-				id="Egalitarian"
-				value="-2" />
-			<Trait
-				id="Oligarchic"
-				value="1" />
-			<Trait
-				id="Authoritarian"
-				value="2" />
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="-2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet
@@ -9215,7 +9166,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_SE9_l"
-		name="{=txyVEr0U}Grishnákh"
+		name="{=txyVEr0U}Grishnákh, Orc Captain"
 		age="30"
 		voice="ironic"
 		race="uruk"
@@ -9231,25 +9182,33 @@
 				build="0.6"
 				key="000BDC0FCFCC038F3D38B65122600AD02FEE2A646411F7F894359F648858075D064976670485629500000000000000000000000044FC1002000000007E7C4084" />
 		</face>
+		<skills>
+			<skill id="OneHanded" value="240"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="230"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="110"/>
+			<skill id="Throwing" value="140"/>
+			<skill id="Riding" value="170"/>
+			<skill id="Athletics" value="210"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="130"/>
+			<skill id="Tactics" value="220"/>
+			<skill id="Charm" value="50"/>
+			<skill id="Leadership" value="210"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="150"/>
+			<skill id="Medicine" value="40"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="BalancedFightingSkills"
-				value="5" />
-			<Trait
-				id="Commander"
-				value="2" />
-			<Trait
-				id="Politician"
-				value="4" />
-			<Trait
-				id="Manager"
-				value="2" />
-			<Trait
-				id="Valor"
-				value="-1" />
-			<Trait
-				id="Generosity"
-				value="-1" />
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="-2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet
@@ -24361,7 +24320,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	<!--Isengard-->
 	<NPCCharacter
 		id="lord_I1_1"
-		name="{=isengardclanonename}Uglúk"
+		name="{=isengardclanonename}Uglúk, Chieftain of Isengard"
 		age="40"
 		voice="earnest"
 		is_hero="true"
@@ -24378,29 +24337,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				build="0.9606"
 				key="0000F00E40CC3002F18111F1FAFE111F010186EE87FE5F001010F10E8550FF4A008EA60308FFE01E000000000000000000000000000000000000000043040142" />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="270"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="260"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="130"/>
+			<skill id="Riding" value="190"/>
+			<skill id="Athletics" value="210"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="150"/>
+			<skill id="Tactics" value="260"/>
+			<skill id="Charm" value="80"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="190"/>
+			<skill id="Medicine" value="60"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="KnightFightingSkills"
-				value="7" />
-			<Trait
-				id="Commander"
-				value="8" />
-			<Trait
-				id="Politician"
-				value="8" />
-			<Trait
-				id="Manager"
-				value="8" />
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="-1" />
-			<Trait id="Mercy" value="-2" />
-			<Trait id="Honor" value="0" />
-			<Trait id="Calculating" value="2" />
-			<Trait id="Egalitarian" value="0" />
-			<Trait id="Oligarchic" value="1" />
-			<Trait id="Authoritarian" value="2" />
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="-2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -24470,7 +24433,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	
 	<NPCCharacter
 		id="lord_I2_1"
-		name="{=isengardclanname2}Mauhúr"
+		name="{=isengardclanname2}Mauhúr, Uruk-Hai Warlord"
 		age="25"
 		voice="earnest"
 		is_hero="true"
@@ -24482,29 +24445,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="22.09" weight="0.4282" build="0.5139"  key="0000F008C0CC3002F181116178B9111F00F086EE87FE5F0010100100807000120088660308FEE01A000000000000000000000000000000000000000043040042"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="260"/>
+			<skill id="TwoHanded" value="240"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="170"/>
+			<skill id="Crossbow" value="130"/>
+			<skill id="Throwing" value="160"/>
+			<skill id="Riding" value="180"/>
+			<skill id="Athletics" value="230"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="130"/>
+			<skill id="Tactics" value="240"/>
+			<skill id="Charm" value="50"/>
+			<skill id="Leadership" value="220"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="160"/>
+			<skill id="Medicine" value="40"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="KnightFightingSkills"
-				value="7" />
-			<Trait
-				id="Commander"
-				value="7" />
-			<Trait
-				id="Politician"
-				value="8" />
-			<Trait
-				id="Manager"
-				value="8" />
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="-1" />
-			<Trait id="Mercy" value="-2" />
-			<Trait id="Honor" value="0" />
-			<Trait id="Calculating" value="2" />
-			<Trait id="Egalitarian" value="0" />
-			<Trait id="Oligarchic" value="1" />
-			<Trait id="Authoritarian" value="2" />
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="-2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -24678,7 +24645,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 
 	<NPCCharacter
 		id="lord_I4_1"
-		name="{=isengardclanlord4}Lurtz"
+		name="{=isengardclanlord4}Lurtz, Uruk-hai Commander"
 		age="25"
 		voice="earnest"
 		is_hero="true"
@@ -24690,29 +24657,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<face>
 			<BodyProperties version="4" age="22.09" weight="0.6829" build="0.6343"  key="0002F00FC0CC3003FF80F0F006FFF01F000077E1BE3E700F0111EFEE80100012009AA60309FFE00B0000000000000000000000000000000000000000432C0042"  />
 		</face>
-		<skills></skills>
+		<skills>
+			<skill id="OneHanded" value="280"/>
+			<skill id="TwoHanded" value="260"/>
+			<skill id="Polearm" value="270"/>
+			<skill id="Bow" value="200"/>
+			<skill id="Crossbow" value="150"/>
+			<skill id="Throwing" value="180"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Athletics" value="250"/>
+			<skill id="Crafting" value="50"/>
+			<skill id="Scouting" value="150"/>
+			<skill id="Tactics" value="260"/>
+			<skill id="Charm" value="70"/>
+			<skill id="Leadership" value="240"/>
+			<skill id="Trade" value="50"/>
+			<skill id="Steward" value="180"/>
+			<skill id="Medicine" value="60"/>
+		</skills>
 		<Traits>
-			<Trait
-				id="KnightFightingSkills"
-				value="7" />
-			<Trait
-				id="Commander"
-				value="5" />
-			<Trait
-				id="Politician"
-				value="8" />
-			<Trait
-				id="Manager"
-				value="8" />
-			<!-- PERSONALITY/REPUTATION -->
-			<Trait id="Valor" value="2" />
-			<Trait id="Generosity" value="-1" />
-			<Trait id="Mercy" value="-2" />
-			<Trait id="Honor" value="0" />
-			<Trait id="Calculating" value="2" />
-			<Trait id="Egalitarian" value="0" />
-			<Trait id="Oligarchic" value="1" />
-			<Trait id="Authoritarian" value="2" />
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="-2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -24824,7 +24795,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	
 		<NPCCharacter
 			id="lord_I1_3"
-			name="{=isengardclanonename3}Vrothgar"
+			name="{=isengardclanonename3}Gurzod, Uruk-hai Armorer"
 			age="40"
 			voice="earnest"
 			is_hero="true"
@@ -24841,20 +24812,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 					build="0.9623"
 					key="0000F00E40CC3002C48114F4FDFE114F040189EE8AFE8F001310F40E8880FF7A008EA90608FFE04E000000000000000000000000000000000000000046070145" />
 			</face>
-			<skills></skills>
+			<skills>
+				<skill id="OneHanded" value="230"/>
+				<skill id="TwoHanded" value="210"/>
+				<skill id="Polearm" value="220"/>
+				<skill id="Bow" value="140"/>
+				<skill id="Crossbow" value="100"/>
+				<skill id="Throwing" value="130"/>
+				<skill id="Riding" value="170"/>
+				<skill id="Athletics" value="200"/>
+				<skill id="Crafting" value="200"/>
+				<skill id="Scouting" value="130"/>
+				<skill id="Tactics" value="210"/>
+				<skill id="Charm" value="50"/>
+				<skill id="Leadership" value="200"/>
+				<skill id="Trade" value="70"/>
+				<skill id="Steward" value="190"/>
+				<skill id="Medicine" value="50"/>
+			</skills>
 			<Traits>
-				<Trait id="KnightFightingSkills" value="5" />
-				<Trait id="Commander" value="8" />
-				<Trait id="Politician" value="7" />
-				<Trait id="Manager" value="6" />
-				<Trait id="Valor" value="1" />
-				<Trait id="Generosity" value="0" />
-				<Trait id="Mercy" value="-2" />
-				<Trait id="Honor" value="0" />
-				<Trait id="Calculating" value="2" />
-				<Trait id="Egalitarian" value="0" />
-				<Trait id="Oligarchic" value="1" />
-				<Trait id="Authoritarian" value="2" />
+				<Trait id="Honor" value="-2"/>
+				<Trait id="Generosity" value="-2"/>
+				<Trait id="Calculating" value="1"/>
+				<Trait id="Mercy" value="-2"/>
+				<Trait id="Valor" value="1"/>
+				<Trait id="Egalitarian" value="-1"/>
+				<Trait id="Oligarchic" value="1"/>
+				<Trait id="Authoritarian" value="2"/>
 			</Traits>
 			<Equipments>
 				<EquipmentRoster />
@@ -24864,7 +24848,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</NPCCharacter>
 		<NPCCharacter
 			id="lord_I1_31"
-			name="{=isengardchildname31}Vrothgar Child"
+			name="{=isengardchildname31}Vrothgar "
 			age="10"
 			voice="earnest"
 			is_hero="true"
@@ -24906,7 +24890,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<!-- Red Echelon Clan -->
 		<NPCCharacter
 			id="lord_I2_2"
-			name="{=isengardclanname22}Krushnak"
+			name="{=isengardclanname22}Lugburz, Uruk-hai Scoutmaster"
 			age="42"
 			voice="earnest"
 			is_hero="true"
@@ -24923,20 +24907,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 					build="0.9731"
 					key="0000F00E40CC3002D38113F3FCFE113F030188EE89FE7F001210F30E8770FF6A008EA80508FFE03E000000000000000000000000000000000000000045060144" />
 			</face>
-			<skills></skills>
+			<skills>
+				<skill id="OneHanded" value="240"/>
+				<skill id="TwoHanded" value="220"/>
+				<skill id="Polearm" value="230"/>
+				<skill id="Bow" value="180"/>
+				<skill id="Crossbow" value="140"/>
+				<skill id="Throwing" value="160"/>
+				<skill id="Riding" value="250"/>
+				<skill id="Athletics" value="210"/>
+				<skill id="Crafting" value="50"/>
+				<skill id="Scouting" value="200"/>
+				<skill id="Tactics" value="220"/>
+				<skill id="Charm" value="60"/>
+				<skill id="Leadership" value="210"/>
+				<skill id="Trade" value="50"/>
+				<skill id="Steward" value="160"/>
+				<skill id="Medicine" value="50"/>
+			</skills>
 			<Traits>
-				<Trait id="KnightFightingSkills" value="8" />
-				<Trait id="Commander" value="7" />
-				<Trait id="Politician" value="6" />
-				<Trait id="Manager" value="5" />
-				<Trait id="Valor" value="2" />
-				<Trait id="Generosity" value="-2" />
-				<Trait id="Mercy" value="-1" />
-				<Trait id="Honor" value="-1" />
-				<Trait id="Calculating" value="1" />
-				<Trait id="Egalitarian" value="-1" />
-				<Trait id="Oligarchic" value="2" />
-				<Trait id="Authoritarian" value="2" />
+				<Trait id="Honor" value="-2"/>
+				<Trait id="Generosity" value="-2"/>
+				<Trait id="Calculating" value="1"/>
+				<Trait id="Mercy" value="-2"/>
+				<Trait id="Valor" value="2"/>
+				<Trait id="Egalitarian" value="-1"/>
+				<Trait id="Oligarchic" value="1"/>
+				<Trait id="Authoritarian" value="2"/>
 			</Traits>
 			<Equipments>
 				<EquipmentRoster />
@@ -24948,7 +24945,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		
 		<NPCCharacter
 			id="lord_I2_3"
-			name="{=isengardclanname23}Gurzod"
+			name="{=isengardclanname23}Sharku, Warg-Rider Commander"
 			age="39"
 			voice="earnest"
 			is_hero="true"
@@ -24965,20 +24962,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 					build="0.9753"
 					key="0000F00E40CC3002978117F700FE117F07018CEE8DFEB001611F70E8BB0FFAA008EAC0908FFE07E0000000000000000000000000000000000000000490A0148" />
 			</face>
-			<skills></skills>
+			<skills>
+				<skill id="OneHanded" value="250"/>
+				<skill id="TwoHanded" value="230"/>
+				<skill id="Polearm" value="240"/>
+				<skill id="Bow" value="160"/>
+				<skill id="Crossbow" value="120"/>
+				<skill id="Throwing" value="150"/>
+				<skill id="Riding" value="280"/>
+				<skill id="Athletics" value="220"/>
+				<skill id="Crafting" value="50"/>
+				<skill id="Scouting" value="160"/>
+				<skill id="Tactics" value="230"/>
+				<skill id="Charm" value="60"/>
+				<skill id="Leadership" value="220"/>
+				<skill id="Trade" value="50"/>
+				<skill id="Steward" value="160"/>
+				<skill id="Medicine" value="50"/>
+			</skills>
 			<Traits>
-				<Trait id="KnightFightingSkills" value="7" />
-				<Trait id="Commander" value="6" />
-				<Trait id="Politician" value="5" />
-				<Trait id="Manager" value="8" />
-				<Trait id="Valor" value="2" />
-				<Trait id="Generosity" value="-1" />
-				<Trait id="Mercy" value="-2" />
-				<Trait id="Honor" value="-1" />
-				<Trait id="Calculatng" value="1" />
-				<Trait id="Egalitarian" value="-1" />
-				<Trait id="Oligarchic" value="2" />
-				<Trait id="Authoritarian" value="2" />
+				<Trait id="Honor" value="-2"/>
+				<Trait id="Generosity" value="-2"/>
+				<Trait id="Calculating" value="1"/>
+				<Trait id="Mercy" value="-2"/>
+				<Trait id="Valor" value="2"/>
+				<Trait id="Egalitarian" value="-1"/>
+				<Trait id="Oligarchic" value="1"/>
+				<Trait id="Authoritarian" value="2"/>
 			</Traits>
 			<Equipments>
 				<EquipmentRoster />
@@ -24988,7 +24998,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</NPCCharacter>
 		<NPCCharacter
 			id="lord_I2_31"
-			name="{=isengardchildname231}Gurzod Child"
+			name="{=isengardchildname231}Gurzod"
 			age="6"
 			voice="earnest"
 			is_hero="true"
@@ -25030,7 +25040,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<!-- Black Echelon Clan -->
 		<NPCCharacter
 			id="lord_I3_2"
-			name="{=isengardclanlord332}Rukthar"
+			name="{=isengardclanlord332}Korgul, Uruk-hai Lieutenant"
 			age="41"
 			voice="earnest"
 			is_hero="true"
@@ -25047,20 +25057,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 					build="0.9842"
 					key="0000F00E40CC3002B58115F5FEFE115F05018AEE8BFE9F001410F50E8990FF8A008EAA0708FFE05E000000000000000000000000000000000000000047080146" />
 			</face>
-			<skills></skills>
+			<skills>
+				<skill id="OneHanded" value="260"/>
+				<skill id="TwoHanded" value="240"/>
+				<skill id="Polearm" value="250"/>
+				<skill id="Bow" value="160"/>
+				<skill id="Crossbow" value="120"/>
+				<skill id="Throwing" value="150"/>
+				<skill id="Riding" value="180"/>
+				<skill id="Athletics" value="230"/>
+				<skill id="Crafting" value="50"/>
+				<skill id="Scouting" value="130"/>
+				<skill id="Tactics" value="240"/>
+				<skill id="Charm" value="50"/>
+				<skill id="Leadership" value="220"/>
+				<skill id="Trade" value="50"/>
+				<skill id="Steward" value="160"/>
+				<skill id="Medicine" value="40"/>
+			</skills>
 			<Traits>
-				<Trait id="KnightFightingSkills" value="7" />
-				<Trait id="Commander" value="6" />
-				<Trait id="Politician" value="5" />
-				<Trait id="Manager" value="8" />
-				<Trait id="Valor" value="2" />
-				<Trait id="Generosity" value="-1" />
-				<Trait id="Mercy" value="-2" />
-				<Trait id="Honor" value="-1" />
-				<Trait id="Calculating" value="1" />
-				<Trait id="Egalitarian" value="-1" />
-				<Trait id="Oligarchic" value="2" />
-				<Trait id="Authoritarian" value="2" />
+				<Trait id="Honor" value="-2"/>
+				<Trait id="Generosity" value="-2"/>
+				<Trait id="Calculating" value="1"/>
+				<Trait id="Mercy" value="-2"/>
+				<Trait id="Valor" value="2"/>
+				<Trait id="Egalitarian" value="-1"/>
+				<Trait id="Oligarchic" value="1"/>
+				<Trait id="Authoritarian" value="2"/>
 			</Traits>
 			<Equipments>
 				<EquipmentRoster />
@@ -25070,7 +25093,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</NPCCharacter>
 		<NPCCharacter
 			id="lord_I3_21"
-			name="{=isengardchildname321}Rukthar Child"
+			name="{=isengardchildname321}Rukthar"
 			age="7"
 			voice="earnest"
 			is_hero="true"
@@ -25111,7 +25134,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 
 		<NPCCharacter
 			id="lord_I3_3"
-			name="{=isengardclanlord33}Bruzgash"
+			name="{=isengardclanlord33}Tharzog, Uruk-hai Battlemaster"
 			age="37"
 			voice="earnest"
 			is_hero="true"
@@ -25128,20 +25151,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 					build="0.9417"
 					key="0000F00E40CC3002A68116F6FFFE116F06018BEE8CFEA001511F60E8AA0FF9A008EAB0808FFE06E000000000000000000000000000000000000000048090147" />
 			</face>
-			<skills></skills>
+			<skills>
+				<skill id="OneHanded" value="270"/>
+				<skill id="TwoHanded" value="250"/>
+				<skill id="Polearm" value="260"/>
+				<skill id="Bow" value="170"/>
+				<skill id="Crossbow" value="130"/>
+				<skill id="Throwing" value="160"/>
+				<skill id="Riding" value="190"/>
+				<skill id="Athletics" value="240"/>
+				<skill id="Crafting" value="50"/>
+				<skill id="Scouting" value="140"/>
+				<skill id="Tactics" value="250"/>
+				<skill id="Charm" value="60"/>
+				<skill id="Leadership" value="230"/>
+				<skill id="Trade" value="50"/>
+				<skill id="Steward" value="170"/>
+				<skill id="Medicine" value="50"/>
+			</skills>
 			<Traits>
-				<Trait id="KnightFightingSkills" value="6" />
-				<Trait id="Commander" value="7" />
-				<Trait id="Politician" value="8" />
-				<Trait id="Manager" value="5" />
-				<Trait id="Valor" value="1" />
-				<Trait id="Generosity" value="0" />
-				<Trait id="Mercy" value="-1" />
-				<Trait id="Honor" value="0" />
-				<Trait id="Calculating" value="2" />
-				<Trait id="Egalitarian" value="0" />
-				<Trait id="Oligarchic" value="1" />
-				<Trait id="Authoritarian" value="1" />
+				<Trait id="Honor" value="-2"/>
+				<Trait id="Generosity" value="-2"/>
+				<Trait id="Calculating" value="1"/>
+				<Trait id="Mercy" value="-2"/>
+				<Trait id="Valor" value="2"/>
+				<Trait id="Egalitarian" value="-1"/>
+				<Trait id="Oligarchic" value="1"/>
+				<Trait id="Authoritarian" value="2"/>
 			</Traits>
 			<Equipments>
 				<EquipmentRoster />
@@ -25151,7 +25187,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</NPCCharacter>
 		<NPCCharacter
 			id="lord_I3_31"
-			name="{=isengardchildname331}Bruzgash Child"
+			name="{=isengardchildname331}Bruzgash"
 			age="9"
 			voice="earnest"
 			is_hero="true"
@@ -25193,7 +25229,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<!-- Black Maw Clan -->
 		<NPCCharacter
 			id="lord_I4_2"
-			name="{=isengardclanlord42}Zargoth"
+			name="{=isengardclanlord42}Zargoth, Uruk-hai Siege-master"
 			age="40"
 			voice="earnest"
 			is_hero="true"
@@ -25210,20 +25246,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 					build="0.9753"
 					key="0000F00E40CC3002978117F700FE117F07018CEE8DFEB001611F70E8BB0FFAA008EAC0908FFE07E0000000000000000000000000000000000000000490A0148" />
 			</face>
-			<skills></skills>
+			<skills>
+				<skill id="OneHanded" value="230"/>
+				<skill id="TwoHanded" value="210"/>
+				<skill id="Polearm" value="220"/>
+				<skill id="Bow" value="140"/>
+				<skill id="Crossbow" value="100"/>
+				<skill id="Throwing" value="130"/>
+				<skill id="Riding" value="170"/>
+				<skill id="Athletics" value="200"/>
+				<skill id="Crafting" value="150"/>
+				<skill id="Scouting" value="130"/>
+				<skill id="Tactics" value="230"/>
+				<skill id="Charm" value="50"/>
+				<skill id="Leadership" value="210"/>
+				<skill id="Trade" value="50"/>
+				<skill id="Steward" value="180"/>
+				<skill id="Medicine" value="50"/>
+			</skills>
 			<Traits>
-				<Trait id="KnightFightingSkills" value="8" />
-				<Trait id="Commander" value="6" />
-				<Trait id="Politician" value="5" />
-				<Trait id="Manager" value="7" />
-				<Trait id="Valor" value="2" />
-				<Trait id="Generosity" value="-1" />
-				<Trait id="Mercy" value="-2" />
-				<Trait id="Honor" value="-1" />
-				<Trait id="Calculating" value="1" />
-				<Trait id="Egalitarian" value="-1" />
-				<Trait id="Oligarchic" value="2" />
-				<Trait id="Authoritarian" value="2" />
+				<Trait id="Honor" value="-2"/>
+				<Trait id="Generosity" value="-2"/>
+				<Trait id="Calculating" value="1"/>
+				<Trait id="Mercy" value="-2"/>
+				<Trait id="Valor" value="1"/>
+				<Trait id="Egalitarian" value="-1"/>
+				<Trait id="Oligarchic" value="1"/>
+				<Trait id="Authoritarian" value="2"/>
 			</Traits>
 			<Equipments>
 				<EquipmentRoster />
@@ -25233,7 +25282,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</NPCCharacter>
 		<NPCCharacter
 			id="lord_I4_21"
-			name="{=isengardchildname421}Zargoth Child"
+			name="{=isengardchildname421}Zorzod"
 			age="6"
 			voice="earnest"
 			is_hero="true"
@@ -25274,7 +25323,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 
 		<NPCCharacter
 			id="lord_I4_3"
-			name="{=isengardclanlord43}Drûgash"
+			name="{=isengardclanlord43}Thrakgul, Uruk-hai Overseer"
 			age="36"
 			voice="earnest"
 			is_hero="true"
@@ -25291,20 +25340,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 					build="0.9306"
 					key="0000F00E40CC3002888118F701FE118F08018DEE8EFEC001711F80E8CC0FFBA008EAD0A08FFE08E00000000000000000000000000000000000000004A0B0149" />
 			</face>
-			<skills></skills>
+			<skills>
+				<skill id="OneHanded" value="250"/>
+				<skill id="TwoHanded" value="230"/>
+				<skill id="Polearm" value="240"/>
+				<skill id="Bow" value="160"/>
+				<skill id="Crossbow" value="120"/>
+				<skill id="Throwing" value="150"/>
+				<skill id="Riding" value="180"/>
+				<skill id="Athletics" value="220"/>
+				<skill id="Crafting" value="50"/>
+				<skill id="Scouting" value="140"/>
+				<skill id="Tactics" value="230"/>
+				<skill id="Charm" value="60"/>
+				<skill id="Leadership" value="220"/>
+				<skill id="Trade" value="50"/>
+				<skill id="Steward" value="160"/>
+				<skill id="Medicine" value="50"/>
+			</skills>
 			<Traits>
-				<Trait id="KnightFightingSkills" value="6" />
-				<Trait id="Commander" value="7" />
-				<Trait id="Politician" value="8" />
-				<Trait id="Manager" value="5" />
-				<Trait id="Valor" value="1" />
-				<Trait id="Generosity" value="0" />
-				<Trait id="Mercy" value="-1" />
-				<Trait id="Honor" value="0" />
-				<Trait id="Calculating" value="2" />
-				<Trait id="Egalitarian" value="0" />
-				<Trait id="Oligarchic" value="1" />
-				<Trait id="Authoritarian" value="1" />
+				<Trait id="Honor" value="-2"/>
+				<Trait id="Generosity" value="-2"/>
+				<Trait id="Calculating" value="1"/>
+				<Trait id="Mercy" value="-2"/>
+				<Trait id="Valor" value="1"/>
+				<Trait id="Egalitarian" value="-1"/>
+				<Trait id="Oligarchic" value="1"/>
+				<Trait id="Authoritarian" value="2"/>
 			</Traits>
 			<Equipments>
 				<EquipmentRoster />
@@ -25314,7 +25376,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</NPCCharacter>
 		<NPCCharacter
 			id="lord_I4_31"
-			name="{=isengardchildname431}Drûgash Child"
+			name="{=isengardchildname431}Drûgash"
 			age="5"
 			voice="earnest"
 			is_hero="true"
@@ -25355,7 +25417,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 
 		<NPCCharacter
 			id="lord_I4_4"
-			name="{=isengardclanlord44}Thrakul"
+			name="{=isengardclanlord44}Gorlag, Uruk-hai Forgemaster"
 			age="43"
 			voice="earnest"
 			is_hero="true"
@@ -25372,20 +25434,33 @@ voice="Male, northern accent, older, authoritative and competent"-->
 					build="0.9864"
 					key="0000F00E40CC3002798119F702FE119F09018EEE8FFED001811F90E8DD0FFCA008EAE0B08FFE09E00000000000000000000000000000000000000004B0C014A" />
 			</face>
-			<skills></skills>
+			<skills>
+				<skill id="OneHanded" value="230"/>
+				<skill id="TwoHanded" value="210"/>
+				<skill id="Polearm" value="220"/>
+				<skill id="Bow" value="140"/>
+				<skill id="Crossbow" value="100"/>
+				<skill id="Throwing" value="130"/>
+				<skill id="Riding" value="170"/>
+				<skill id="Athletics" value="200"/>
+				<skill id="Crafting" value="200"/>
+				<skill id="Scouting" value="130"/>
+				<skill id="Tactics" value="210"/>
+				<skill id="Charm" value="50"/>
+				<skill id="Leadership" value="200"/>
+				<skill id="Trade" value="70"/>
+				<skill id="Steward" value="190"/>
+				<skill id="Medicine" value="50"/>
+			</skills>
 			<Traits>
-				<Trait id="KnightFightingSkills" value="7" />
-				<Trait id="Commander" value="6" />
-				<Trait id="Politician" value="5" />
-				<Trait id="Manager" value="8" />
-				<Trait id="Valor" value="2" />
-				<Trait id="Generosity" value="-1" />
-				<Trait id="Mercy" value="-2" />
-				<Trait id="Honor" value="-1" />
-				<Trait id="Calculating" value="1" />
-				<Trait id="Egalitarian" value="-1" />
-				<Trait id="Oligarchic" value="2" />
-				<Trait id="Authoritarian" value="2" />
+				<Trait id="Honor" value="-2"/>
+				<Trait id="Generosity" value="-2"/>
+				<Trait id="Calculating" value="1"/>
+				<Trait id="Mercy" value="-2"/>
+				<Trait id="Valor" value="1"/>
+				<Trait id="Egalitarian" value="-1"/>
+				<Trait id="Oligarchic" value="1"/>
+				<Trait id="Authoritarian" value="2"/>
 			</Traits>
 			<Equipments>
 				<EquipmentRoster />
@@ -25395,7 +25470,7 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		</NPCCharacter>
 		<NPCCharacter
 			id="lord_I4_41"
-			name="{=isengardchildname441}Thrakul Child"
+			name="{=isengardchildname441}Durghash"
 			age="4"
 			voice="earnest"
 			is_hero="true"
