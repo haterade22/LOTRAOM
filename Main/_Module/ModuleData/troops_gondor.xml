@@ -4874,7 +4874,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_b" />
+					id="Item.wm_gondor_pg_speara" />
 				<equipment
 					slot="Item1"
 					id="Item.gond_shield_three_green" />
@@ -4981,7 +4981,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.wm_gondor_spear_b" />
+					id="Item.wm_gondor_pg_speara" />
 				<equipment
 					slot="Item2"
 					id="Item.wm_pelargir_sword_a02" />

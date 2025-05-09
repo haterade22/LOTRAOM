@@ -123,14 +123,27 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.composite_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.bodkin_arrows_b" />
+				<equipment
+					slot="Item2"
+					id="Item.bodkin_arrows_b" />
+				<equipment
+					slot="Head"
+					id="Item.haradrim_head" />
+				<equipment
+					slot="Body"
+					id="Item.haradrim_torso" />
+				<equipment
+					slot="Gloves"
+					id="Item.haradrim_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.haradrim_boots" />
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
@@ -290,22 +303,25 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.aserai_sword_3_t3" />
+					id="Item.steppe_heavy_bow" />
 				<equipment
 					slot="Item1"
-					id="Item.desert_round_shield" />
+					id="Item.bodkin_arrows_b" />
+				<equipment
+					slot="Item2"
+					id="Item.bodkin_arrows_b" />
 				<equipment
 					slot="Head"
-					id="Item.haradrim02b_head" />
+					id="Item.haradrim02a_head" />
 				<equipment
 					slot="Body"
-					id="Item.haradrim02b_toso" />
+					id="Item.haradrim02a_toso" />
 				<equipment
 					slot="Cape"
 					id="Item.haradrim02_pauldrons" />
 				<equipment
 					slot="Gloves"
-					id="Item.haradrim02b_gloves" />
+					id="Item.haradrim02a_gloves" />
 				<equipment
 					slot="Leg"
 					id="Item.haradrim02_boots" />
@@ -510,14 +526,30 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
+			<equipment
+				slot="Item0"
+				id="Item.steppe_heavy_bow" />
+			<equipment
+				slot="Item1"
+				id="Item.bodkin_arrows_b" />
+			<equipment
+				slot="Item2"
+				id="Item.bodkin_arrows_b" />
+			<equipment
+				slot="Head"
+				id="Item.harad03_helmet" />
+			<equipment
+				slot="Body"
+				id="Item.harad03_torso" />
+			<equipment
+				slot="Cape"
+				id="Item.harad03_cape" />
+			<equipment
+				slot="Gloves"
+				id="Item.harad03_glove" />
+			<equipment
+				slot="Leg"
+				id="Item.harad03_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 						id="aserai_troop_civilian_template_t3"
@@ -611,14 +643,30 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.aserai_lance_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.ornate_adarga" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Head"
+					id="Item.harad05_v1_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad05_v4_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad05_v4_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad05_v1_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.harad05_v4_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 					id="aserai_troop_civilian_template_t3"
@@ -650,14 +698,30 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.aserai_lance_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.ornate_adarga" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Head"
+					id="Item.harad05_v1_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad05_v4_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad05_v4_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad05_v1_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.harad05_v4_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 					id="aserai_troop_civilian_template_t3"
@@ -807,14 +871,30 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.aserai_lance_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.ornate_adarga" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Head"
+					id="Item.harad05_v1_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad05_v4_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad05_v4_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad05_v1_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.harad05_v4_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 					id="aserai_troop_civilian_template_t3"
@@ -953,14 +1033,30 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.aserai_lance_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.ornate_adarga" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Head"
+					id="Item.harad05_v1_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad05_v4_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad05_v4_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad05_v1_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.harad05_v4_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
@@ -999,6 +1095,30 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_lance_1_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.ornate_adarga" />
+				<equipment
+					slot="Item2"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Head"
+					id="Item.harad05_v1_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.harad05_v4_torso" />
+				<equipment
+					slot="Cape"
+					id="Item.harad05_v4_cape" />
+				<equipment
+					slot="Gloves"
+					id="Item.harad05_v1_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.harad05_v4_boots" />
 			</EquipmentRoster>
 			<EquipmentSet
 				id="aserai_troop_civilian_template_t3"
