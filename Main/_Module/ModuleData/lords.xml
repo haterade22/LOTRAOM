@@ -14398,7 +14398,6 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				build="0.5"
 				key="0002B404000011826B700D6F80961035305E80B2BFEB0E00775161048C771F0400AB36030A62AA0300000000000000000000000000000000000000003D447002" />
 		</face>
-		<skills></skills>
 		<skills>
 			<skill id="OneHanded" value="270"/>
 			<skill id="TwoHanded" value="250"/>
@@ -21524,7 +21523,6 @@ voice="Male, northern accent, older, authoritative and competent"-->
 				build="0.74"
 				key="00020006C00016029A797961AA0103D841B0830030ECF600921531198EF3BC94009B6603098C7F4732430001330223550000000000001977000000004D245002" />
 		</face>
-		<skills></skills>
 		<skills>
 			<skill id="OneHanded" value="260"/>
 			<skill id="TwoHanded" value="280"/>
