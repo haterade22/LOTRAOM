@@ -8,5 +8,7 @@
 	<SpriteCategory Name="ui_mainmenu">
 		<AlwaysLoad/>
 	</SpriteCategory>
-
+	<SpriteCategory Name="ui_LOTRLOME_bannericons">
+    <AlwaysLoad />
+  </SpriteCategory>
 </Config>

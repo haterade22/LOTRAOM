@@ -8,18 +8,23 @@
       <SpriteSheetSize ID="1" Width="4096" Height="2048" />
     </SpriteCategory>
     <SpriteCategory>
-      <Name>ui_LOTRLOME_loading</Name>
-      <AlwaysLoad />
-      <SpriteSheetCount>3</SpriteSheetCount>
-      <SpriteSheetSize ID="1" Width="4096" Height="4096" />
-      <SpriteSheetSize ID="2" Width="4096" Height="4096" />
-      <SpriteSheetSize ID="3" Width="4096" Height="4096" />
-    </SpriteCategory>
-    <SpriteCategory>
-      <Name>ui_mainmenu</Name>
+      <Name>ui_LOTRLOME_bannericons</Name>
       <AlwaysLoad />
       <SpriteSheetCount>1</SpriteSheetCount>
-      <SpriteSheetSize ID="1" Width="1024" Height="256" />
+      <SpriteSheetSize ID="1" Width="4096" Height="2048" />
+    </SpriteCategory>
+    <SpriteCategory>
+      <Name>ui_LOTRLOME_loading</Name>
+      <AlwaysLoad />
+      <SpriteSheetCount>2</SpriteSheetCount>
+      <SpriteSheetSize ID="1" Width="4096" Height="4096" />
+      <SpriteSheetSize ID="2" Width="4096" Height="2048" />
+    </SpriteCategory>
+    <SpriteCategory>
+      <Name>ui_LOTRLOME_mainmenu</Name>
+      <AlwaysLoad />
+      <SpriteSheetCount>1</SpriteSheetCount>
+      <SpriteSheetSize ID="1" Width="2048" Height="2048" />
     </SpriteCategory>
   </SpriteCategories>
   <SpriteParts>
@@ -169,210 +174,561 @@
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
-      <Name>ui_loading_10</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
+      <Name>16001</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>4</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16002</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>3100</SheetX>
+      <SheetY>272</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16003</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>3358</SheetX>
+      <SheetY>272</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16004</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>3616</SheetX>
+      <SheetY>272</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16005</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>4</SheetX>
+      <SheetY>540</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16006</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>262</SheetX>
+      <SheetY>540</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16007</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>520</SheetX>
+      <SheetY>540</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16008</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>778</SheetX>
+      <SheetY>540</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16009</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>1036</SheetX>
+      <SheetY>540</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16010</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>1294</SheetX>
+      <SheetY>540</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16011</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>1552</SheetX>
+      <SheetY>540</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16012</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>2068</SheetX>
+      <SheetY>540</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16013</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>1036</SheetX>
+      <SheetY>808</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16014</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>2326</SheetX>
+      <SheetY>540</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16015</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>2584</SheetX>
+      <SheetY>540</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16016</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>2842</SheetX>
+      <SheetY>540</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16017</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>3100</SheetX>
+      <SheetY>540</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16018</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>3358</SheetX>
+      <SheetY>540</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16019</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>3616</SheetX>
+      <SheetY>540</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16020</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>4</SheetX>
+      <SheetY>808</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16021</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>262</SheetX>
+      <SheetY>808</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16022</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>520</SheetX>
+      <SheetY>808</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16023</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>778</SheetX>
+      <SheetY>808</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16024</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>2842</SheetX>
+      <SheetY>272</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16025</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>1810</SheetX>
+      <SheetY>540</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16026</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>2584</SheetX>
+      <SheetY>272</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16027</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>2842</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16028</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>262</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16029</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>520</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16030</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>778</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16031</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>1036</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16032</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>1294</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16033</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>1552</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16034</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>1810</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16035</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>2068</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16036</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>2326</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16037</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>2584</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16038</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>3100</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16039</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>2068</SheetX>
+      <SheetY>272</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16040</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>3358</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16041</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>3616</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16042</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>4</SheetX>
+      <SheetY>272</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16043</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>262</SheetX>
+      <SheetY>272</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16044</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>520</SheetX>
+      <SheetY>272</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16045</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>778</SheetX>
+      <SheetY>272</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16046</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>1036</SheetX>
+      <SheetY>272</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16047</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>1294</SheetX>
+      <SheetY>272</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16048</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>1552</SheetX>
+      <SheetY>272</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16049</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>1810</SheetX>
+      <SheetY>272</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16050</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>2326</SheetX>
+      <SheetY>272</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>16051</Name>
+      <Width>250</Width>
+      <Height>260</Height>
+      <SheetX>1294</SheetX>
+      <SheetY>808</SheetY>
+      <CategoryName>ui_LOTRLOME_bannericons</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>ui_loading_1</Name>
+      <Width>1920</Width>
+      <Height>1080</Height>
       <SheetX>4</SheetX>
       <SheetY>4</SheetY>
       <CategoryName>ui_LOTRLOME_loading</CategoryName>
     </SpritePart>
     <SpritePart>
-      <SheetID>3</SheetID>
-      <Name>ui_loading_11</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>1512</SheetX>
-      <SheetY>1012</SheetY>
-      <CategoryName>ui_LOTRLOME_loading</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>3</SheetID>
-      <Name>ui_loading_12</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>4</SheetX>
-      <SheetY>1012</SheetY>
-      <CategoryName>ui_LOTRLOME_loading</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>3</SheetID>
-      <Name>ui_loading_13</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>1512</SheetX>
-      <SheetY>4</SheetY>
-      <CategoryName>ui_LOTRLOME_loading</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>3</SheetID>
-      <Name>ui_loading_14</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>4</SheetX>
-      <SheetY>4</SheetY>
-      <CategoryName>ui_LOTRLOME_loading</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>2</SheetID>
-      <Name>ui_loading_16</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>1512</SheetX>
-      <SheetY>3028</SheetY>
-      <CategoryName>ui_LOTRLOME_loading</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>2</SheetID>
-      <Name>ui_loading_17</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>4</SheetX>
-      <SheetY>3028</SheetY>
-      <CategoryName>ui_LOTRLOME_loading</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>2</SheetID>
-      <Name>ui_loading_18</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>1512</SheetX>
-      <SheetY>2020</SheetY>
-      <CategoryName>ui_LOTRLOME_loading</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>2</SheetID>
-      <Name>ui_loading_19</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>4</SheetX>
-      <SheetY>2020</SheetY>
-      <CategoryName>ui_LOTRLOME_loading</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>2</SheetID>
+      <SheetID>1</SheetID>
       <Name>ui_loading_2</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>1512</SheetX>
-      <SheetY>1012</SheetY>
-      <CategoryName>ui_LOTRLOME_loading</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>2</SheetID>
-      <Name>ui_loading_20</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>4</SheetX>
-      <SheetY>1012</SheetY>
-      <CategoryName>ui_LOTRLOME_loading</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>2</SheetID>
-      <Name>ui_loading_21</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>1512</SheetX>
+      <Width>1920</Width>
+      <Height>1080</Height>
+      <SheetX>1932</SheetX>
       <SheetY>4</SheetY>
-      <CategoryName>ui_LOTRLOME_loading</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>2</SheetID>
-      <Name>ui_loading_22</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>4</SheetX>
-      <SheetY>4</SheetY>
-      <CategoryName>ui_LOTRLOME_loading</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>1</SheetID>
-      <Name>ui_loading_23</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>1512</SheetX>
-      <SheetY>3028</SheetY>
-      <CategoryName>ui_LOTRLOME_loading</CategoryName>
-    </SpritePart>
-    <SpritePart>
-      <SheetID>1</SheetID>
-      <Name>ui_loading_24</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>4</SheetX>
-      <SheetY>3028</SheetY>
       <CategoryName>ui_LOTRLOME_loading</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
       <Name>ui_loading_3</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>1512</SheetX>
-      <SheetY>2020</SheetY>
+      <Width>1920</Width>
+      <Height>1080</Height>
+      <SheetX>4</SheetX>
+      <SheetY>1092</SheetY>
       <CategoryName>ui_LOTRLOME_loading</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
       <Name>ui_loading_4</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>4</SheetX>
-      <SheetY>2020</SheetY>
+      <Width>1920</Width>
+      <Height>1080</Height>
+      <SheetX>1932</SheetX>
+      <SheetY>1092</SheetY>
       <CategoryName>ui_LOTRLOME_loading</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
       <Name>ui_loading_5</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>1512</SheetX>
-      <SheetY>1012</SheetY>
+      <Width>1920</Width>
+      <Height>1080</Height>
+      <SheetX>4</SheetX>
+      <SheetY>2180</SheetY>
       <CategoryName>ui_LOTRLOME_loading</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
       <Name>ui_loading_6</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>4</SheetX>
-      <SheetY>1012</SheetY>
+      <Width>1920</Width>
+      <Height>1080</Height>
+      <SheetX>1932</SheetX>
+      <SheetY>2180</SheetY>
       <CategoryName>ui_LOTRLOME_loading</CategoryName>
     </SpritePart>
     <SpritePart>
-      <SheetID>1</SheetID>
+      <SheetID>2</SheetID>
       <Name>ui_loading_7</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>1512</SheetX>
+      <Width>1920</Width>
+      <Height>1080</Height>
+      <SheetX>4</SheetX>
       <SheetY>4</SheetY>
       <CategoryName>ui_LOTRLOME_loading</CategoryName>
     </SpritePart>
     <SpritePart>
-      <SheetID>3</SheetID>
+      <SheetID>2</SheetID>
       <Name>ui_loading_8</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>4</SheetX>
-      <SheetY>2020</SheetY>
+      <Width>1920</Width>
+      <Height>1080</Height>
+      <SheetX>1932</SheetX>
+      <SheetY>4</SheetY>
       <CategoryName>ui_LOTRLOME_loading</CategoryName>
     </SpritePart>
     <SpritePart>
-      <SheetID>3</SheetID>
-      <Name>ui_loading_9</Name>
-      <Width>1500</Width>
-      <Height>1000</Height>
-      <SheetX>1512</SheetX>
-      <SheetY>2020</SheetY>
-      <CategoryName>ui_LOTRLOME_loading</CategoryName>
+      <SheetID>1</SheetID>
+      <Name>General\InitialMenu\hover_indicator</Name>
+      <Width>46</Width>
+      <Height>20</Height>
+      <SheetX>1071</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_mainmenu</CategoryName>
     </SpritePart>
     <SpritePart>
       <SheetID>1</SheetID>
       <Name>General\InitialMenu\main_menu_logo</Name>
       <Width>606</Width>
       <Height>186</Height>
+      <SheetX>457</SheetX>
+      <SheetY>4</SheetY>
+      <CategoryName>ui_LOTRLOME_mainmenu</CategoryName>
+    </SpritePart>
+    <SpritePart>
+      <SheetID>1</SheetID>
+      <Name>General\InitialMenu\main_menu_texture</Name>
+      <Width>445</Width>
+      <Height>1080</Height>
       <SheetX>4</SheetX>
       <SheetY>4</SheetY>
-      <CategoryName>ui_mainmenu</CategoryName>
+      <CategoryName>ui_LOTRLOME_mainmenu</CategoryName>
     </SpritePart>
   </SpriteParts>
   <Sprites>
@@ -441,64 +797,216 @@
       <SpritePartName>CharacterCreation\Culture\vlandia</SpritePartName>
     </GenericSprite>
     <GenericSprite>
-      <Name>ui_loading_10</Name>
-      <SpritePartName>ui_loading_10</SpritePartName>
+      <Name>16001</Name>
+      <SpritePartName>16001</SpritePartName>
     </GenericSprite>
     <GenericSprite>
-      <Name>ui_loading_11</Name>
-      <SpritePartName>ui_loading_11</SpritePartName>
+      <Name>16002</Name>
+      <SpritePartName>16002</SpritePartName>
     </GenericSprite>
     <GenericSprite>
-      <Name>ui_loading_12</Name>
-      <SpritePartName>ui_loading_12</SpritePartName>
+      <Name>16003</Name>
+      <SpritePartName>16003</SpritePartName>
     </GenericSprite>
     <GenericSprite>
-      <Name>ui_loading_13</Name>
-      <SpritePartName>ui_loading_13</SpritePartName>
+      <Name>16004</Name>
+      <SpritePartName>16004</SpritePartName>
     </GenericSprite>
     <GenericSprite>
-      <Name>ui_loading_14</Name>
-      <SpritePartName>ui_loading_14</SpritePartName>
+      <Name>16005</Name>
+      <SpritePartName>16005</SpritePartName>
     </GenericSprite>
     <GenericSprite>
-      <Name>ui_loading_16</Name>
-      <SpritePartName>ui_loading_16</SpritePartName>
+      <Name>16006</Name>
+      <SpritePartName>16006</SpritePartName>
     </GenericSprite>
     <GenericSprite>
-      <Name>ui_loading_17</Name>
-      <SpritePartName>ui_loading_17</SpritePartName>
+      <Name>16007</Name>
+      <SpritePartName>16007</SpritePartName>
     </GenericSprite>
     <GenericSprite>
-      <Name>ui_loading_18</Name>
-      <SpritePartName>ui_loading_18</SpritePartName>
+      <Name>16008</Name>
+      <SpritePartName>16008</SpritePartName>
     </GenericSprite>
     <GenericSprite>
-      <Name>ui_loading_19</Name>
-      <SpritePartName>ui_loading_19</SpritePartName>
+      <Name>16009</Name>
+      <SpritePartName>16009</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16010</Name>
+      <SpritePartName>16010</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16011</Name>
+      <SpritePartName>16011</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16012</Name>
+      <SpritePartName>16012</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16013</Name>
+      <SpritePartName>16013</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16014</Name>
+      <SpritePartName>16014</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16015</Name>
+      <SpritePartName>16015</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16016</Name>
+      <SpritePartName>16016</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16017</Name>
+      <SpritePartName>16017</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16018</Name>
+      <SpritePartName>16018</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16019</Name>
+      <SpritePartName>16019</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16020</Name>
+      <SpritePartName>16020</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16021</Name>
+      <SpritePartName>16021</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16022</Name>
+      <SpritePartName>16022</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16023</Name>
+      <SpritePartName>16023</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16024</Name>
+      <SpritePartName>16024</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16025</Name>
+      <SpritePartName>16025</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16026</Name>
+      <SpritePartName>16026</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16027</Name>
+      <SpritePartName>16027</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16028</Name>
+      <SpritePartName>16028</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16029</Name>
+      <SpritePartName>16029</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16030</Name>
+      <SpritePartName>16030</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16031</Name>
+      <SpritePartName>16031</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16032</Name>
+      <SpritePartName>16032</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16033</Name>
+      <SpritePartName>16033</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16034</Name>
+      <SpritePartName>16034</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16035</Name>
+      <SpritePartName>16035</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16036</Name>
+      <SpritePartName>16036</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16037</Name>
+      <SpritePartName>16037</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16038</Name>
+      <SpritePartName>16038</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16039</Name>
+      <SpritePartName>16039</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16040</Name>
+      <SpritePartName>16040</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16041</Name>
+      <SpritePartName>16041</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16042</Name>
+      <SpritePartName>16042</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16043</Name>
+      <SpritePartName>16043</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16044</Name>
+      <SpritePartName>16044</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16045</Name>
+      <SpritePartName>16045</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16046</Name>
+      <SpritePartName>16046</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16047</Name>
+      <SpritePartName>16047</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16048</Name>
+      <SpritePartName>16048</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16049</Name>
+      <SpritePartName>16049</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16050</Name>
+      <SpritePartName>16050</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>16051</Name>
+      <SpritePartName>16051</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>ui_loading_1</Name>
+      <SpritePartName>ui_loading_1</SpritePartName>
     </GenericSprite>
     <GenericSprite>
       <Name>ui_loading_2</Name>
       <SpritePartName>ui_loading_2</SpritePartName>
-    </GenericSprite>
-    <GenericSprite>
-      <Name>ui_loading_20</Name>
-      <SpritePartName>ui_loading_20</SpritePartName>
-    </GenericSprite>
-    <GenericSprite>
-      <Name>ui_loading_21</Name>
-      <SpritePartName>ui_loading_21</SpritePartName>
-    </GenericSprite>
-    <GenericSprite>
-      <Name>ui_loading_22</Name>
-      <SpritePartName>ui_loading_22</SpritePartName>
-    </GenericSprite>
-    <GenericSprite>
-      <Name>ui_loading_23</Name>
-      <SpritePartName>ui_loading_23</SpritePartName>
-    </GenericSprite>
-    <GenericSprite>
-      <Name>ui_loading_24</Name>
-      <SpritePartName>ui_loading_24</SpritePartName>
     </GenericSprite>
     <GenericSprite>
       <Name>ui_loading_3</Name>
@@ -525,12 +1033,16 @@
       <SpritePartName>ui_loading_8</SpritePartName>
     </GenericSprite>
     <GenericSprite>
-      <Name>ui_loading_9</Name>
-      <SpritePartName>ui_loading_9</SpritePartName>
+      <Name>General\InitialMenu\hover_indicator</Name>
+      <SpritePartName>General\InitialMenu\hover_indicator</SpritePartName>
     </GenericSprite>
     <GenericSprite>
       <Name>General\InitialMenu\main_menu_logo</Name>
       <SpritePartName>General\InitialMenu\main_menu_logo</SpritePartName>
+    </GenericSprite>
+    <GenericSprite>
+      <Name>General\InitialMenu\main_menu_texture</Name>
+      <SpritePartName>General\InitialMenu\main_menu_texture</SpritePartName>
     </GenericSprite>
   </Sprites>
 </SpriteData>
